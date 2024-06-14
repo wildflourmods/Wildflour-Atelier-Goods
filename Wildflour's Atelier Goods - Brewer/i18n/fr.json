@@ -1,0 +1,446 @@
+{
+
+///////////////////////
+///GENERIC ITEMS NEW //
+///////////////////////
+
+"alesxmeads_FruitAle.name": "Bière aromatisée",
+"alesxmeads_FruitAle.description": "Une bière de spécialité brassée avec des fruits frais.",
+
+"alesxmeads_FruitMead.name": "Hydromel aromatisé",
+"alesxmeads_FruitMead.description": "Un hydromel brassé avec des fruits frais.",
+
+"alesxmeads_FlowerMead.name": "Hydromel parfumé",
+"alesxmeads_FlowerMead.description": "Un hydromel brassé avec des pétales de fleurs fraîches.",
+
+/////////////////
+///STRINGS NEW //
+/////////////////
+
+"alesxmeads_FruitAle": "{0} Bière",
+"alesxmeads_FruitMead": "{0} Hydromel",
+"alesxmeads_FlowerMead": "{0} Hydromel",
+
+/////////////////////////////
+// NEW MOD SUPPORTED ITEMS //
+/////////////////////////////
+
+"alesxmeads_gardenia_mead.name":"Hydromel au gardénia",
+"alesxmeads_gardenia_mead.description":"Délicatement parfumé aux fleurs de gardénia.",
+
+"alesxmeads_hibiscus_mead.name":"Hydromel à l'hibiscus",
+"alesxmeads_hibiscus_mead.description":"En plus du goût, les pétales d'hibiscus coloré lui donnent une magnifique couleur.",
+
+"alesxmeads_borage_mead.name":"Hydromel à la bourrache",
+"alesxmeads_borage_mead.description":"La bourrache apporte un goût iodé presque imperceptible.",
+
+"alesxmeads_calendula_mead.name":"Hydromel au souci",
+"alesxmeads_calendula_mead.description":"Contrairement à ce que dit son nom, cet hydromel vous réjouira !",
+
+"alesxmeads_hollyhock_mead.name":"Hydromel à la passerose",
+"alesxmeads_hollyhock_mead.description":"Délicatement parfumé aux pétales de passerose.",
+
+"alesxmeads_springpansy_mead.name":"Hydromel à la pensée printanière",
+"alesxmeads_springpansy_mead.description":"Délicatement parfumé aux pétales de pensée.",
+
+"alesxmeads_orangeblossom_mead.name":"Hydromel à la fleur d'oranger",
+"alesxmeads_orangeblossom_mead.description":"Le goût de cet hydromel rappelle celui d'un baklava.",
+
+//////////////
+///MACHINES///
+//////////////
+
+"alesxmeads_AleKeg.name": "Tonneau à bière",
+"alesxmeads_AleKeg.description": "Un fût pour brasser des bières aromatisées.",
+
+"alesxmeads_MeadKeg.name": "Tonneau à hydromel",
+"alesxmeads_MeadKeg.description": "Un fût pour brasser des hydromels aromatisés.",
+
+///////////////////////////
+// MACHINE NOTIFICATIONS //
+///////////////////////////
+
+"alesxmeads_AleKeg_InvalidCount.message": "Nécessite 1 houblon",
+"alesxmeads_AleKeg_InvalidItem.message": "Ne fonctionne pas avec cela",
+
+"alesxmeads_MeadKeg_InvalidCount.message": "Nécessite 1 miel",
+"alesxmeads_MeadKeg_InvalidItem.message": "Ne fonctionne pas avec cela",
+
+//////////
+///ALES///
+//////////
+
+"alesxmeads_ancient_ale.name": "Cervoise à l'ancienne",
+"alesxmeads_ancient_ale.description": "Mystique, magique et délicieuse.",
+
+"alesxmeads_apple_ale.name": "Pils à la pomme",
+"alesxmeads_apple_ale.description": "À boire en regardant les feuilles tomber des arbres en automne.",
+
+"alesxmeads_apricot_ale.name": "Ale à l'abricot",
+"alesxmeads_apricot_ale.description": "Acidulée et légèrement sucrée, la bière parfaite pour le printemps.",
+
+"alesxmeads_banana_ale.name": "Stout à l'avoine et à la banane",
+"alesxmeads_banana_ale.description": "Réconfortante comme une tranche de banana bread.",
+
+"alesxmeads_blackberry_ale.name": "Bock aux mûres",
+"alesxmeads_blackberry_ale.description": "Une bière corsée infusée avec les meilleures mûres de l'été.",
+
+"alesxmeads_blueberry_ale.name": "Lager à la myrtille",
+"alesxmeads_blueberry_ale.description": "Une bière sucrée au parfum de tarte aux bleuets sortant du four.",
+
+"alesxmeads_cactus_ale.name": "Bière triple de cactus",
+"alesxmeads_cactus_ale.description": "Une spécialité du désert de Calico.",
+
+"alesxmeads_cherry_ale.name": "Lambic à la cerise",
+"alesxmeads_cherry_ale.description": "Âpreté et douceur ont trouvé un équilibre parfait.",
+
+"alesxmeads_coconut_ale.name": "Stout au lait de coco",
+"alesxmeads_coconut_ale.description": "La boisson parfaite si vous aimez les piñas coladas mais pas le rhum.",
+
+"alesxmeads_cranberry_ale.name": "Bière ambrée aux canneberges",
+"alesxmeads_cranberry_ale.description": "L'accompagnement parfait d'un dîner de fêtes.",
+
+"alesxmeads_crystal_ale.name": "Bière blanche cristal",
+"alesxmeads_crystal_ale.description": "Une bière aussi rafraîchissante que la neige fraîchement tombée.",
+
+"alesxmeads_mango_ale.name": "Lager à la mangue",
+"alesxmeads_mango_ale.description": "La bière officielle de la Paillote de l'Île Gingembre.",
+
+"alesxmeads_melon_ale.name": "Bière blanche au melon",
+"alesxmeads_melon_ale.description": "Parfaite pour se rafraîchir lors d'une chaude journée d'été.",
+
+"alesxmeads_orange_ale.name": "Pils à l'orange",
+"alesxmeads_orange_ale.description": "C'est comme un sorbet à l'orange (alcoolisé).",
+
+"alesxmeads_peach_ale.name": "Lager à la pêche",
+"alesxmeads_peach_ale.description": "Douce comme une peau de pêche !",
+
+"alesxmeads_pineapple_ale.name": "Ale à l'ananas",
+"alesxmeads_pineapple_ale.description": "Parfait lors d'un après-midi d'été sur la plage.",
+
+"alesxmeads_pomegranate_ale.name": "Bière blanche à la grenade",
+"alesxmeads_pomegranate_ale.description": "La légende dit que c'était la bière préférée de Perséphone.",
+
+"alesxmeads_pumpkin_ale.name": "Pumpkin Spice Beer",
+"alesxmeads_pumpkin_ale.description": "Citrouille, épices, érable et bière... La boisson des hipsters !",
+
+"alesxmeads_salmonberry_ale.name": "Pils aux baies de saumon",
+"alesxmeads_salmonberry_ale.description": "Une bonne façon d'utiliser ces baies qu'on trouve en quantité.",
+
+"alesxmeads_spiced_ale.name": "Porter épicé",
+"alesxmeads_spiced_ale.description": "Bien que les baies sont récoltées en été, cette bière est idéale pendant les jours d'automne frisquets.",
+
+"alesxmeads_starfruit_ale.name": "Ale à la carambole",
+"alesxmeads_starfruit_ale.description": "Une bière dorée parfaite pour les soirées d'été.",
+
+"alesxmeads_strawberry_ale.name": "Porter à la fraise",
+"alesxmeads_strawberry_ale.description": "Personne ne peut résister à sa saveur de charlotte aux fraises.",
+
+"alesxmeads_gem_ale.name": "Lambic à la baie-gemme",
+"alesxmeads_gem_ale.description": "La boisson préférée du vieux maître Cannoli.",
+
+"alesxmeads_plum_ale.name": "Bière brune à la prune",
+"alesxmeads_plum_ale.description": "Buvez-la vite ou elle deviendra une bière au pruneau !",
+
+//PPJA ALES
+
+"alesxmeads_honeycrisp_apple_ale.name": "Ale aux pommes acides",
+"alesxmeads_honeycrisp_apple_ale.description": "Une IPA sacrément acidulée !",
+
+"alesxmeads_dragonfruit_ale.name": "Ale au fruit du dragon",
+"alesxmeads_dragonfruit_ale.description": "Une bière estivale du désert de Calico.",
+
+"alesxmeads_fig_ale.name": "Bière ambrée à la figue",
+"alesxmeads_fig_ale.description": "Idéale avec du pudding aux figues sur un chant des fêtes de fin d'année.",
+
+"alesxmeads_grapefruit_ale.name": "Ale au pamplemousse",
+"alesxmeads_grapefruit_ale.description": "Une IPA acidulée et citronnée.",
+
+"alesxmeads_lemon_ale.name": "Bière blanche au citron",
+"alesxmeads_lemon_ale.description": "Ça rappelle la limonade, mais en mieux !",
+
+"alesxmeads_lime_ale.name": "Bière blanche au citron vert",
+"alesxmeads_lime_ale.description": "Parfaite à siroter l'été.",
+
+"alesxmeads_lychee_ale.name": "Lager au litchi",
+"alesxmeads_lychee_ale.description": "Douce et au parfum légèrement floral.",
+
+"alesxmeads_papaya_ale.name": "Bière blanche à la papaye",
+"alesxmeads_papaya_ale.description": "Une des variétés de bière spécialement développées par Sandy.",
+
+"alesxmeads_pear_ale.name": "Pils à la poire",
+"alesxmeads_pear_ale.description": "Fraîche et acidulée, comme un après-midi d'automne.",
+
+"alesxmeads_persimmon_ale.name": "Porter au kaki",
+"alesxmeads_persimmon_ale.description": "Une bière aux délicats parfums de miel et de melon.",
+
+"alesxmeads_pomelo_ale.name": "Pils au pomelo",
+"alesxmeads_pomelo_ale.description": "Elle a un goût de pamplemousse, mais plus sucré.",
+
+//WILD FOOD ALES
+
+"alesxmeads_vanilla_ale.name": "Cervoise à la vanille de Calico",
+"alesxmeads_vanilla_ale.description": "Une bière qui, même fraîche, vous réchauffe grâce à ses arômes.",
+
+"alesxmeads_petite_lemon_ale.name": "Stout au citron doux",
+"alesxmeads_petite_lemon_ale.description": "Contrairement à la bière blanche, celle-ci est crémeuse et sucrée, comme un dessert.",
+
+"alesxmeads_petite_lime_ale.name": "Stout à la lime douce",
+"alesxmeads_petite_lime_ale.description": "Contrairement à la bière blanche, celle-ci est crémeuse et sucrée, comme un dessert.",
+
+"alesxmeads_wild_raspberry_ale.name": "Ale aux framboises sauvages",
+"alesxmeads_wild_raspberry_ale.description": "Une bière à base de framboises fraîchement cueillies. Un vrai régal.",
+
+"alesxmeads_wild_strawberry_ale.name": "Ale aux fraises des bois",
+"alesxmeads_wild_strawberry_ale.description": "Une bière à base de fraises fraîchement cueillies. Un vrai régal.",
+
+//PIXIE FORAGE ALES
+
+"alesxmeads_ambrosia_apple_ale.name": "Ale ambroisie",
+"alesxmeads_ambrosia_apple_ale.description": "Une bière brassée par le Peuple des Fées de Ferngill pour célébrer l'équinoxe d'automne.",
+
+"alesxmeads_moongold_apricot_ale.name": "Ale pleine-lune",
+"alesxmeads_moongold_apricot_ale.description": "Une bière brassée par le Peuple des Fées de Ferngill pour célébrer l'équinoxe de printemps.",
+
+"alesxmeads_ladyfinger_banana_ale.name": "Ale bananille",
+"alesxmeads_ladyfinger_banana_ale.description": "Une bière brassée par le Peuple des Fées de Ferngill pour célébrer le solstice d'été.",
+
+"alesxmeads_sour_cherry_ale.name": "Ale griottine",
+"alesxmeads_sour_cherry_ale.description": "Une bière brassée par le Peuple des Fées de Ferngill pour célébrer l'équinoxe de printemps.",
+
+"alesxmeads_sunset_mango_ale.name": "Ale grand-soleil",
+"alesxmeads_sunset_mango_ale.description": "Une bière brassée par le Peuple des Fées de Ferngill pour célébrer le solstice d'été.",
+
+"alesxmeads_blood_orange_ale.name": "Ale sanguinelle",
+"alesxmeads_blood_orange_ale.description": "Une bière brassée par le Peuple des Fées de Ferngill pour célébrer le solstice d'été.",
+
+"alesxmeads_snow_peach_ale.name": "Ale fraîche-neige",
+"alesxmeads_snow_peach_ale.description": "Une bière brassée par le Peuple des Fées de Ferngill pour célébrer le solstice d'été.",
+
+"alesxmeads_eversweet_pomegranate_ale.name": "Ale divine",
+"alesxmeads_eversweet_pomegranate_ale.description": "Une bière brassée par le Peuple des Fées de Ferngill pour célébrer l'équinoxe d'automne.",
+
+///////////
+///MEADS///
+///////////
+
+//BASE GAME
+
+"alesxmeads_ancient_mead.name": "Hydromel à l'ancienne",
+"alesxmeads_ancient_mead.description": "Il vous procure une étrange sensation de chaleur.",
+
+"alesxmeads_apple_mead.name": "Hydromel dans ta pomme",
+"alesxmeads_apple_mead.description": "L'ennemi juré des buveurs de cidre !",
+
+"alesxmeads_apricot_mead.name": "Hydromel d'abricot printanier",
+"alesxmeads_apricot_mead.description": "À déguster sous un arbre en fleurs.",
+
+"alesxmeads_banana_mead.name": "Hydromel t'as la banane",
+"alesxmeads_banana_mead.description": "Si les abeilles faisaient du banana bread, il aurait le goût de cet hydromel.",
+
+"alesxmeads_blackberry_mead.name": "Hydromel aux mûres",
+"alesxmeads_blackberry_mead.description": "Sucré et acidulé, inspiré par la cueillette de fruits des bois.",
+
+"alesxmeads_blueberry_mead.name": "Hydromel bleu myrtille",
+"alesxmeads_blueberry_mead.description": "C'est de la tarte aux myrtilles en bouteille !",
+
+"alesxmeads_cactus_mead.name": "Hydromel au cactus de Calico",
+"alesxmeads_cactus_mead.description": "Une spécialité alcoolisée du désert de Calico.",
+
+"alesxmeads_cherry_mead.name": "Hydromel à la cerise",
+"alesxmeads_cherry_mead.description": "À siroter en regardant voler au vent les fleurs de cerisier.",
+
+"alesxmeads_coconut_mead.name": "Hydromel à la noix de coco",
+"alesxmeads_coconut_mead.description": "Il vous fera danser sur la plage !",
+
+"alesxmeads_cranberry_mead.name": "Hydromel aux canneberges",
+"alesxmeads_cranberry_mead.description": "Un hydromel rafraîchissant pour l'automne.",
+
+"alesxmeads_crystal_mead.name": "Hydromel de cristal",
+"alesxmeads_crystal_mead.description": "L'hydromel parfait pour la Fête de l'Étoile hivernale.",
+
+"alesxmeads_mango_mead.name": "Hydromel à la mangue des îles",
+"alesxmeads_mango_mead.description": "Il vous rappelle l'atmosphère de l'Île Gingembre.",
+
+"alesxmeads_melon_mead.name": "Hydromel au melon d'été",
+"alesxmeads_melon_mead.description": "This pleasantly pink mead is perfect for any summer soiree.",
+
+"alesxmeads_orange_mead.name": "Hydromel crème d'orange",
+"alesxmeads_orange_mead.description": "Une boisson qui a le goût d'un cocktail mimosa.",
+
+"alesxmeads_peach_mead.name": "Hydromel à la pêche douce",
+"alesxmeads_peach_mead.description": "Estival et gourmand.",
+
+"alesxmeads_pineapple_mead.name": "Hydromel de Birdie",
+"alesxmeads_pineapple_mead.description": "Cette recette est jalousée gardée par les perroquets de l'Île Gingembre.",
+
+"alesxmeads_pomegranate_mead.name": "Hydromel grenadine",
+"alesxmeads_pomegranate_mead.description": "L'hydromel idéal pour la Nuit des Esprits.",
+
+"alesxmeads_salmonberry_mead.name": "Hydromel aux baies de saumon",
+"alesxmeads_salmonberry_mead.description": "À peine acidulé grâce aux baies sauvages.",
+
+"alesxmeads_spiced_mead.name": "Hydromel épicé",
+"alesxmeads_spiced_mead.description": "Un hydromel réconfortant à boire lors des soirées fraîches.",
+
+"alesxmeads_starfruit_mead.name": "Hydromel à la carambole",
+"alesxmeads_starfruit_mead.description": "À déguster les nuits d'été, en regardant les étoiles.",
+
+"alesxmeads_strawberry_mead.name": "Hydromel des champs de fraisiers",
+"alesxmeads_strawberry_mead.description": "Comme un milk-shake à la fraise avec de l'alcool. Il vous rappelle une chanson célèbre...",
+
+"alesxmeads_gem_mead.name": "Hydromel gemme",
+"alesxmeads_gem_mead.description": "Un hydromel magique qui aurait été créé par les Junimos des bois secrets.",
+
+"alesxmeads_plum_mead.name": "Hydromel aux prunes d'automne",
+"alesxmeads_plum_mead.description": "Très rond en bouche.",
+
+//cornucopia_mead
+
+"alesxmeads_dragon_mead.name": "Hydromel du dragon",
+"alesxmeads_dragon_mead.description": "Aucun dragon n'a été blessé lors du brassage de cet hydromel.",
+
+"alesxmeads_fig_mead.name": "Hydromel à la figue d'hiver",
+"alesxmeads_fig_mead.description": "Se marie bien avec le fromage de chèvre !",
+
+"alesxmeads_grapefruit_mead.name": "Hydromel au pamplemousse",
+"alesxmeads_grapefruit_mead.description": "Un hydromel avec une certaine âpreté.",
+
+"alesxmeads_lemon_mead.name": "Hydromel tarte au citron",
+"alesxmeads_lemon_mead.description": "Il vous rappelle le dessert du dimanche de votre enfance.",
+
+"alesxmeads_lime_mead.name": "Hydromel tarte au citron vert",
+"alesxmeads_lime_mead.description": "Il ne vous guérira pas du scorbut, mais il a un goût délicieux.",
+
+"alesxmeads_lychee_mead.name": "Hydromel au litchi",
+"alesxmeads_lychee_mead.description": "Un hydromel doux aux arômes légèrement fleuri.",
+
+"alesxmeads_papaya_mead.name": "Hydromel à la papaye",
+"alesxmeads_papaya_mead.description": "La recette a été établie par Sandy.",
+
+"alesxmeads_pear_mead.name": "Hydromel poires croquantes",
+"alesxmeads_pear_mead.description": "Il croquerait presque sous la dent.",
+
+"alesxmeads_persimmon_mead.name": "Hydromel ok kaki pote",
+"alesxmeads_persimmon_mead.description": "La souris-chapeau en apprécierait peut-être une bouteille...",
+
+"alesxmeads_pomelo_mead.name": "Hydromel au pomelo",
+"alesxmeads_pomelo_mead.description": "Un hydromel qui peut égayer même les jours d'hiver les plus mornes.",
+
+//WILD FOOD Mead
+
+"alesxmeads_vanilla_mead.name": "Hydromel à la vanille de Calico",
+"alesxmeads_vanilla_mead.description": "Brassé avec du miel d'orchidées de Calico.",
+
+"alesxmeads_cinnamon_mead.name": "Hydromel belle cannelle",
+"alesxmeads_cinnamon_mead.description": "Brassé avec du miel de cannelier Sève-cendreuse.",
+
+"alesxmeads_chamomile_mead.name": "Hydromel champs de camomille",
+"alesxmeads_chamomile_mead.description": "Brassé avec du miel de camomille sylvestre.",
+
+"alesxmeads_lavender_mead.name": "Hydromel champs de lavande",
+"alesxmeads_lavender_mead.description": "Brassé avec du miel de lavande sylvestre.",
+
+"alesxmeads_mallow_mead.name": "Hydromel à la guimauve",
+"alesxmeads_mallow_mead.description": "Brassé avec du miel de guimauve.",
+
+"alesxmeads_petite_lemon_mead.name": "Hydromel mini-citron",
+"alesxmeads_petite_lemon_mead.description": "Brassé avec du miel de citronnier.",
+
+"alesxmeads_petite_lime_mead.name": "Hydromel mini-lime",
+"alesxmeads_petite_lime_mead.description": "Brassé avec du miel de limettier.",
+
+"alesxmeads_sakura_mead.name": "Hydromel Sakura",
+"alesxmeads_sakura_mead.description": "Brassé avec du miel de cerisier.",
+
+"alesxmeads_wild_raspberry_mead.name": "Hydromel à la framboise sauvage",
+"alesxmeads_wild_raspberry_mead.description": "Brassé avec du miel de framboisier sauvage.",
+
+"alesxmeads_wild_strawberry_mead.name": "Hydromel à la fraise des bois",
+"alesxmeads_wild_strawberry_mead.description": "Brassé avec du miel de fraisier des bois.",
+
+//PIXIE FORAGE MEAD
+
+"alesxmeads_ambrosia_apple_mead.name": "Hydromel ambroisie",
+"alesxmeads_ambrosia_apple_mead.description": "Brassé par le Peuple des Fées. La légende dit que si un humain en boit, il pourra parler aux créatures magiques.",
+
+"alesxmeads_moongold_apricot_mead.name": "Hydromel pleine-lune",
+"alesxmeads_moongold_apricot_mead.description": "Brassé par le Peuple des Fées. La légende dit que si un humain en boit, il pourra parler aux créatures magiques.",
+
+"alesxmeads_ladyfinger_banana_mead.name": "Hydromel bananille",
+"alesxmeads_ladyfinger_banana_mead.description": "Brassé par le Peuple des Fées. La légende dit que si un humain en boit, il pourra parler aux créatures magiques.",
+
+"alesxmeads_sour_cherry_mead.name": "Hydromel griottine",
+"alesxmeads_sour_cherry_mead.description": "Brassé par le Peuple des Fées. La légende dit que si un humain en boit, il pourra parler aux créatures magiques.",
+
+"alesxmeads_sunset_mango_mead.name": "Hydromel grand-soleil",
+"alesxmeads_sunset_mango_mead.description": "Brassé par le Peuple des Fées. La légende dit que si un humain en boit, il pourra parler aux créatures magiques.",
+
+"alesxmeads_blood_orange_mead.name": "Hydromel sanguinelle",
+"alesxmeads_blood_orange_mead.description": "Brassé par le Peuple des Fées. La légende dit que si un humain en boit, il pourra parler aux créatures magiques.",
+
+"alesxmeads_snow_peach_mead.name": "Hydromel fraîche-neige",
+"alesxmeads_snow_peach_mead.description": "Brassé par le Peuple des Fées. La légende dit que si un humain en boit, il pourra parler aux créatures magiques.",
+
+"alesxmeads_eversweet_pomegranate_mead.name": "Hydromel divine",
+"alesxmeads_eversweet_pomegranate_mead.description": "Brassé par le Peuple des Fées. La légende dit que si un humain en boit, il pourra parler aux créatures magiques.",
+
+"alesxmeads_cake_mead.name": "Hydromel gourmand",
+"alesxmeads_cake_mead.description": "Brassé avec des fleurs de fée magiques. Il a un goût de gâteau d'anniversaire.",
+
+"alesxmeads_caramel_mead.name": "Hydromel au caramel",
+"alesxmeads_caramel_mead.description": "Brassé avec des fleurs de fée magiques. Il a un goût de pomme au four.",
+
+"alesxmeads_creamsicle_mead.name": "Hydromel au sorbet",
+"alesxmeads_creamsicle_mead.description": "Brassé avec des fleurs de fée magiques. Il a un goût de glace à l'orange.",
+
+"alesxmeads_custard_mead.name": "Hydromel vanilline",
+"alesxmeads_custard_mead.description": "Brassé avec des fleurs de fée magiques. Il a un goût de crème à la vanille.",
+
+"alesxmeads_gumdrop_mead.name": "Hydromel boule de gomme",
+"alesxmeads_gumdrop_mead.description": "Brassé avec des fleurs de fée magiques. Il a un goût de boule de gomme aux fruits.",
+
+"alesxmeads_macaron_mead.name": "Hydromel au macaron",
+"alesxmeads_macaron_mead.description": "Brassé avec des fleurs de fée magiques. Il a un goût de macaron aux amandes.",
+
+"alesxmeads_pie_mead.name": "Hydromel à la tartelette",
+"alesxmeads_pie_mead.description": "Brassé avec des fleurs de fée magiques. Il a un goût de tarte aux bleuets.",
+
+"alesxmeads_shortcake_mead.name": "Hydromel à la charlotte",
+"alesxmeads_shortcake_mead.description": "Brassé avec des fleurs de fée magiques. Il a un goût de crème et de fraise.",
+
+"alesxmeads_sprinkle_mead.name": "Hydromel pailleté",
+"alesxmeads_sprinkle_mead.description": "Brassé avec des fleurs de fée magiques. Il a un goût de vermicelles arc-en-ciel.",
+
+"alesxmeads_sugar_mead.name": "Hydromel au sucre candy",
+"alesxmeads_sugar_mead.description": "Brassé avec des fleurs de fée magiques. Il a un goût de sucre pur.",
+
+//////////
+///MAIL///
+//////////
+
+"alesxmeads_AleKeg.name":"Le fût de mon pépé",
+"alesxmeads_AleKeg.text":"Salut @, ^^ Tu as sûrement déjà entendu parler de la bière blonde, mais c'est pas grand chose par rapport à tout ce qui existe !^ Je t'ai envoyé un schéma avec la lettre. C'est un type de fût qu'a inventé feu mon pépé. Mets-y du fruit avec du houblon et admire le résultat !^^ Oh, et oublie pas de partager tes expériences, hein ?^^ - Pam",
+
+"alesxmeads_shanegift.name":"Un coup de main pour le brassage",
+"alesxmeads_shanegift.text":"Salut @, ^^ Alors Pam m'a dit l'autre soir qu'elle t'a envoyé les plans de fabrication du fût de son pépé, hein ? Elle a eu une idée derrière la tête quand elle te les a donnés, c'est sûr.^ Enfin, il paraît que tu auras besoin de résine de chêne, alors je t'en file qu'on a récolté l'année dernière, Jas et moi.^ Pas besoin de me remercier, j'ai peut-être un intérêt là-dedans, moi aussi.^^ - Shane",
+
+"alesxmeads_elliottgift.name":"Beau houblon",
+"alesxmeads_elliottgift.text":"Bonjour @, ^^ Des bières spéciales brassées localement ? C'est absolument fabuleux ! Je n'y connais pas grand chose dans l'art du brassage, à part qu'il te faut du houblon ! Voici donc pour toi.^^ Sincèrement,^  - Elliott",
+
+"alesxmeads_pierregift.name":"Souvenir d'une bière",
+"alesxmeads_pierregift.text":"@, ^^ Quand j'étais à l'étranger, un de mes informateurs venait de l'archipel des îles des Gemmes. Il me cassait les oreilles à parler de la bière à la mangue locale.^ Si tu arrives à en brasser, j'adorerais la goûter.^^ - Kent",
+
+"alesxmeads_MeadKeg.name":"Un tonneau à hydromel",
+"alesxmeads_MeadKeg.text":"Bonjour @, ^^ J'ai apppris il y a longtemps qu'on peut aromatiser de l'hydromel avec des fruits et des fleurs. J'ai dégoté ce plan de fabrication de fût spécial dans de vieilles affaires. Pourquoi tu n'essaierais pas d'en faire ?^^ - Gus",
+
+"alesxmeads_gusgift.name":"Alcool de miel",
+"alesxmeads_gusgift.text":"Bonjour @, ^^ Willy a mentionné que tu tentes d'élaborer des hydromels de spécialité ! Tu auras besoin d'un petit stock pour te lancer, n'est-ce pas ?^^ - Gus",
+
+"alesxmeads_clintgift.name":"Un peu de stock",
+"alesxmeads_clintgift.text":"@, ^^ Les lettres, ce n'est pas vraiment mon truc, mais je pense que c'est cool que tu expérimentes avec les hydromels. J'ai pensé que cela pourrait aider.^^ - Clint",
+
+"alesxmeads_sandygift.name":"Une spécialité alcoolisée de Calico",
+"alesxmeads_sandygift.text":"Hello mon chou, ^^Sais-tu que tu peux faire un excellent hydromel au cactus ? C'est une de mes spécialités !^^ Bise du désert,^     - Sandy",
+
+}

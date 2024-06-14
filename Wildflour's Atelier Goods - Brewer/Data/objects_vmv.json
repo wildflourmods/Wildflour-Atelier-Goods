@@ -1,0 +1,35 @@
+{
+    "Changes": [
+        
+//////////////////
+// VMV MEAD ADD ON //
+//////////////////
+
+        {
+            "LogName":"Add VMV Mead Objects",
+            "Action":"EditData",
+            "Target":"Data/Objects",
+            "Entries":{
+                "wildflour.alesxmeads_orangeblossom_mead": {
+                    "Name": "wildflour.alesxmeads_orangeblossom_mead",
+                    "DisplayName": "{{i18n:alesxmeads_orangeblossom_mead.name}}",
+                    "Description": "{{i18n:alesxmeads_orangeblossom_mead.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_mead_item",
+                    "alcohol_item",
+                    "color_dark_gold"],
+
+                    "Texture": "Mods/wildflour.alesxmeads/Objects",
+                    "SpriteIndex": 166
+            },
+
+            }
+        }
+
+    ]
+}

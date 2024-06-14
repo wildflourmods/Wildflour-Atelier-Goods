@@ -1,0 +1,94 @@
+{
+	//Bruschetta
+     "pickles_bruschetta.name": "Bruschetta de tomate y albahaca",
+	 "pickles_bruschetta.description": "Una vibrante y veraniega mezcla de tomates troceados, ajo y albahaca que suele servirse con crostini o pan tostado.",
+	
+	//Onion Chutney
+    "pickles_onion_chutney.name": "Chutney de cebolla caramelizada",
+	"pickles_onion_chutney.description": "Un tipo de chutney hecho con cebollas cocinadas y reducidas hasta obtener una textura, untabilidad y dulzor parecidos al de la mermelada.",
+
+	//Pineapple Salsa
+    "pickles_pineapple_salsa.name": "Salsa de piña asada",
+	"pickles_pineapple_salsa.description": "Asar primero la piña le añade un agradable dulzor picante a esta salsa.",
+
+	//Giardiniera
+    "pickles_giardiniera.name": "Giardiniera",
+	"pickles_giardiniera.description": "Una mezcla de hortalizas encurtidas condimentadas que suelen tomarse como aperitivo o en un sándwich.",
+
+	//Horseradish Chips
+     "pickles_horseradish_chips.name": "Chips de pepinillo con sabor a rábano picante",
+	 "pickles_horseradish_chips.description": "¡El rábano picante le da a estos pepinillos un gran sabor!",
+
+	//Kale Pesto
+     "pickles_kale_pesto.name": "Pesto de kale y ajo",
+	 "pickles_kale_pesto.description": "¡Hay más variedades de pesto además del de albahaca! Esta variante de kale y ajo tiene un agradable toque terroso.",
+
+	//Mushrooms
+   "pickles_marinated_mushrooms.name": "Champiñones marinados",
+	"marinated-mushrooms.description": "Estos deliciosos champiñones están conservados en aceite y especias en lugar de vinagre.",
+
+	//Mild Salsa
+    "pickles_tomato_salsa.name": "Salsa de tomate natural",
+	"pickles_tomato_salsa.description": "Esta salsa no contiene pimientos y es perfecta para quienes no soportan el picor de otras variantes.",
+
+	//Tapenade
+    "pickles_olive_tapenade.name": "Paté de aceitunas",
+	"pickles_olive_tapenade.description": "Una pasta hecha de olivas trituradas provenientes de las Islas Helecho. ¡Compleménsal con unas tostadas, caviar y champán para preparar una elegante cena!",
+
+	//Peach Salsa
+    "pickles_peach_salsa.name": "Salsa de melocotón",
+	"pickles_peach_salsa.description": "Los melocotones recién cosechados le dan un toque de dulzor a esta veraniega salsa picante.",
+
+	//Pepper Relish
+    "pickles_pepper_relish.name": "Relish de pimiento y cebolla",
+	"pickles_pepper_relish.description": "Un relish dulce y picante que está bueno con muchos tipos de sándwiches.",
+
+	//Pickled Artichoke
+    "pickles_artichoke_hearts.name": "Corazones de alcachofa encurtidos",
+	"pickles_artichoke_hearts.description": "Se mantienen tan tiernos gracias al proceso de encurtido, ¡y pueden disfrutarse tal cual o en ensaladas!",
+
+	//Pickled Fish
+    "pickles_pickled_fish.name": "Pescado encurtido",
+	"pickles_pickled_fish.description": "Aunque lo más común es encurtir arenque, el pescado encurtido en general se disfruta en muchas culturas como aderezo en las tostadas, siendo esto un desayuno ligero.",
+
+	//Pickled Olives
+    "pickles_pickled_olives.name": "Aceitunas encurtidas",
+	"pickles_pickled_olives.description": "Aceitunas de Islas Helecho encurtidas en salmuera para conservar su sabor.",
+
+	//Pickled Red Onions
+	"pickles_pickled_onions.name": "Cebollas rojas encurtidas",
+	"pickles_pickled_onions.description": "Cebollas rojas finamente cortadas y cocinadas brevemente con algo de azúcar, dejadas enfriar y encurtidas en vinagre.",
+
+	//Pickled Carrots
+    "pickles_pickled_carrots.name": "Zanahorias silvestres encurtidas",
+	"pickles_pickled_carrots.description": "Zanahorias silvestres recién recolectadas, encurtidas para conservar su frescura y dulzor naturales.",
+
+	//Red Peppers
+    "pickles_roasted_peppers.name": "Pimientos rojos asados",
+	"pickles_roasted_peppers.description": "Pimientos asados en una fogata y conservados en aceite. Pueden utilizarse en ensaladas, sándwiches y muchos otros platos.",
+
+	//Sauerkraut
+    "pickles_sauerkraut.name": "Chucrut",
+	"pickles_sauerkraut.description": "Col encurtida y condimentada con especias que suele usarse como guarnición con salchichas o en sándwiches.",
+
+	//Mango Salsa
+    "pickles_mango_salsa.name": "Salsa de mango picante",
+	"pickles_mango_salsa.description": "¡Esta salsa dulce y picante va genial con muchos platos de marisco!",
+
+	//Spicy Salsa
+    "pickles_spicy_tomato_salsa.name": "Salsa de tomate picante",
+	"pickles_spicy_tomato_salsa.description": "Una salsa hecha especialmente para quienes adoran los pimientos picantes del verano.",
+
+	//Sundried Tomatoes
+    "pickles_sundried_tomatoes.name": "Tomates deshidratados",
+	"pickles_sundried_tomatoes.description": "Tomates secados al sol durante horas y conservados en aceite con hierbas aromáticas. Suelen utilizarse como aderezo en ensaladas y platos con pasta.",
+
+	//Basil Pesto
+    "pickles_basil_pesto.name": "Pesto dulce",
+	"pickles_basil_pesto.description": "El pesto clásico, hecho con albahaca, ajo, aceite de oliva y piñones. Disfrútalo con pasta ¡o en tus sándwiches!",
+
+	//Tomato Corn Salsa
+    "pickles_tomato_corn_salsa.name": "Salsa de tomate y maíz",
+	"pickles_tomato_corn_salsa.description": "¡Los tomates recién cosechados y el maíz hacen de esta salsa el condimento veraniego perfecto!"
+	
+}

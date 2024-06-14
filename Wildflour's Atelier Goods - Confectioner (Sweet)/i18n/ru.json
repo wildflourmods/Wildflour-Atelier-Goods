@@ -1,0 +1,289 @@
+{
+
+	//////////////
+	// MACHINES //
+	//////////////
+
+	"ateliercandy_GumballMachine.name": "Автомат с конфетами",
+	"ateliercandy_GumballMachine.description": "Раздает жевательную резинку и другие леденцы.",
+
+	"ateliercandy_MarshmallowMixer.name": "Зефирный миксер",
+	"ateliercandy_MarshmallowMixer.description": "Взбивает ингредиенты до мягких изысканных маршмеллоу!",
+
+	"ateliercandy_SugarBoiler.name": "Сахарница",
+	"ateliercandy_SugarBoiler.description": "Плавит сахар, превращая его в леденцы ручной работы и хрустальные конфеты.",
+
+	///////////////////////////
+	// MACHINE NOTIFICATIONS //
+	///////////////////////////
+
+	"ateliercandy_GumballMachine_InvalidItem.message": "Это невозможно обработать",
+	"ateliercandy_GumballMachine_InvalidCount.message": "Требуется сахар",
+
+	"ateliercandy_MarshmallowMixer_InvalidItem.message": "Это невозможно обработать",
+	"ateliercandy_MarshmallowMixer_InvalidCount.message": "Требуется 2 алтея",
+
+	"ateliercandy_SugarBoiler_InvalidItem.message": "Это невозможно обработать",
+	"ateliercandy_SugarBoiler_InvalidCount.message": "Требуется сахар",
+
+	/////////////
+	// STRINGS //
+	/////////////
+
+	"ateliercandy_flavor_lollipop": "{0} LЛеденец",
+	"ateliercandy_flavor_gourmet_lollipop": "{0} Гигантский леденец",
+	"ateliercandy_flavor_gumballs": "{0} Жевательная резинка",
+	"ateliercandy_flavor_crystal_candy": "{0} Хрустальный леденец",
+	"ateliercandy_flavor_marshmallows": "{0} MМаршмеллоу",
+	"ateliercandy_flavor_marshmallow_pop": "{0} Маршмеллоу на палочке",
+	"ateliercandy_flavor_hard_candy.":"{0} Карамелька",
+	"ateliercandy_flavor_fairy_floss": "{0} Сладкая вата",
+
+	////////////////////////
+	// GENERIC NAMING NEW //
+	////////////////////////
+
+	"ateliercandy_flavor_marshmallows.name": "Маршмеллоу",
+	"ateliercandy_flavor_marshmallows.description": "Сладкие и мягкие домашние маршмеллоу.",
+
+	"ateliercandy_flavor_lollipop.name": "Леденец",
+	"ateliercandy_flavor_lollipop.description": "Классическое детское лакомство. Приторно-сладкое!",
+
+	"ateliercandy_flavor_gourmet_lollipop.name": "Гигантский леденец",
+	"ateliercandy_flavor_gourmet_lollipop.description": "Этот леденец ОГРОМНЫЙ. Сахарная передозировка!",
+
+	"ateliercandy_flavor_gumballs.name": "Жевательная резинка",
+	"ateliercandy_flavor_gumballs.description": "Жевательная резинка в твердой оболочке из драже.",
+
+	"ateliercandy_flavor_crystal_candy.name": "Хрустальный леденец",
+	"ateliercandy_flavor_crystal_candy.description": "Кристаллизованное сладкое лакомство.",
+
+	"ateliercandy_flavor_marshmallow_pop.name": "Маршмеллоу на палочке",
+	"ateliercandy_flavor_marshmallow_pop.description": "Маршмеллоу, смешанный с разными цветами и вкусами, подается на палочке! Так мило!",
+
+	"ateliercandy_flavor_hard_candy.name": "Карамелька",
+	"ateliercandy_flavor_hard_candy.description": "Фруктовая конфета в красивой обертке пастельных тонов.",
+
+	"ateliercandy_flavor_fairy_floss.name": "Сладкая вата",
+	"ateliercandy_flavor_fairy_floss.description": "Известна также как сахарная вата; очень сладкое лакомство из сахарной пудры и ароматизаторов.",
+
+	//////////////
+	// GUMBALLS //
+	//////////////
+
+	"ateliercandy_apple_gumballs.name": "Яблочная жевательная резинка",
+	"ateliercandy_apple_gumballs.description": "Жевательная резинка в драже со вкусом яблока.",
+
+	"ateliercandy_cherry_gumballs.name": "Вишневая жевательная резинка",
+	"ateliercandy_cherry_gumballs.description": "Жевательная резинка в драже со вкусом вишни.",
+
+	"ateliercandy_classic_gumballs.name": "Классическая жевательная резинка",
+	"ateliercandy_classic_gumballs.description": "Классическая жевательная резинка в драже.",
+
+	"ateliercandy_grape_gumballs.name": "Виноградная жевательная резинка",
+	"ateliercandy_grape_gumballs.description": "Жевательная резинка в драже со вкусом винограда.",
+ 
+	"ateliercandy_lemon_gumballs.name": "Лимонная жевательная резинка",
+	"ateliercandy_lemon_gumballs.description": "Жевательная резинка в драже со вкусом лимона.",
+
+	"ateliercandy_orange_gumballs.name": "Апельсиновая жевательная резинка",
+	"ateliercandy_orange_gumballs.description": "Жевательная резинка в драже со вкусом апельсина.",
+
+	//////////////////
+	// MARSHMALLOWS //
+	//////////////////
+
+        "ateliercandy_ancient_marshmallow.name": "Древние маршмеллоу",
+	"ateliercandy_ancient_marshmallow.description": "Сладкие и мягкие домашние маршмеллоу",
+
+	"ateliercandy_vanilla_marshmallow.name": "Ванильные маршмеллоу",
+	"ateliercandy_vanilla_marshmallow.description": "Сладкие и мягкие домашние маршмеллоу",
+
+	"ateliercandy_coconut_marshmallow.name": "Кокосовые маршмеллоу",
+	"ateliercandy_coconut_marshmallow.description": "Сладкие и мягкие домашние маршмеллоу",
+
+	"ateliercandy_confetti_marshmallow.name": "Маршмеллоу с посыпкой",
+	"ateliercandy_confetti_marshmallow.description": "Сладкие и мягкие домашние маршмеллоу",
+
+	"ateliercandy_lavender_marshmallow.name": "Лавандовые маршмеллоу",
+	"ateliercandy_lavender_marshmallow.description": "Сладкие и мягкие домашние маршмеллоу",
+
+	"ateliercandy_matcha_marshmallow.name": "Матча-маршмеллоу",
+	"ateliercandy_matcha_marshmallow.description": "Сладкие и мягкие домашние маршмеллоу",
+
+	"ateliercandy_strawberry_marshmallow.name": "Клубничные маршмеллоу",
+	"ateliercandy_strawberry_marshmallow.description": "Сладкие и мягкие домашние маршмеллоу",
+	
+	//////////////////////
+	// MARSHMALLOW POPS //
+	//////////////////////
+
+	"ateliercandy_ancient_mallow_pop.name": "Древний маршмеллоу на палочке",
+	"ateliercandy_ancient_mallow_pop.description": "Маршмеллоу, смешанный с разными цветами и вкусами, подается на палочке! Так мило!",
+
+	"ateliercandy_colada_mallow_pop.name": "Маршмеллоу Пина Колада на палочке",
+	"ateliercandy_colada_mallow_pop.description": "Маршмеллоу, смешанный с разными цветами и вкусами, подается на палочке! Так мило!",
+
+	"ateliercandy_candy_mallow_pop.name": "Маршмеллоу с сахарной ватой на палочке",
+	"ateliercandy_candy_mallow_pop.description": "Маршмеллоу, смешанный с разными цветами и вкусами, подается на палочке! Так мило!",
+
+	"ateliercandy_earlgrey_mallow_pop.name": "Маршмеллоу Эрл Грей на палочке",
+	"ateliercandy_earlgrey_mallow_pop.description": "Маршмеллоу, смешанный с разными цветами и вкусами, подается на палочке! Так мило!",
+
+	"ateliercandy_gem_mallow_pop.name": "Маршмеллоу со сладкой ягодой на палочке",
+	"ateliercandy_gem_mallow_pop.description": "Маршмеллоу, смешанный с разными цветами и вкусами, подается на палочке! Так мило!",
+
+	"ateliercandy_peach_mallow_pop.name": "Сливочно-персиковый маршмеллоу на палочке",
+	"ateliercandy_peach_mallow_pop.description": "Маршмеллоу, смешанный с разными цветами и вкусами, подается на палочке! Так мило!",
+	
+	///////////////
+	// LOLLIPOPS //
+	///////////////
+
+	"ateliercandy_blueberry_lollipop.name": "Черничный леденец",
+	"ateliercandy_blueberry_lollipop.description": "Классическое детское лакомство. Приторно-сладкое!",
+
+	"ateliercandy_cherry_lollipop.name": "Вишневый леденец",
+	"ateliercandy_cherry_lollipop.description": "Классическое детское лакомство. Приторно-сладкое!",
+
+	"ateliercandy_fairy_lollipop.name": "Сказочный леденец",
+	"ateliercandy_fairy_lollipop.description": "Классическое детское лакомство. Приторно-сладкое!",
+
+	"ateliercandy_lemon_lollipop.name": "Лимонный леденец",
+	"ateliercandy_lemon_lollipop.description": "Классическое детское лакомство. Приторно-сладкое!",
+
+	"ateliercandy_slime_lollipop.name": "Слаймовый леденец",
+	"ateliercandy_slime_lollipop.description": "Классическое детское лакомство... вроде бы. Возможно, кто-то перепутал слова слайм и лайм...",
+
+	"ateliercandy_lime_lollipop.name": "Лаймовый леденец",
+	"ateliercandy_lime_lollipop.description": "Классическое детское лакомство. Приторно-сладкое!",
+
+	"ateliercandy_powdermelon_lollipop.name": "Леденец со вкусом дыни",
+	"ateliercandy_powdermelon_lollipop.description": "Классическое детское лакомство. Приторно-сладкое!",
+
+	"ateliercandy_orange_lollipop.name": "Апельсиновый леденец",
+	"ateliercandy_orange_lollipop.description": "Классическое детское лакомство. Приторно-сладкое!",
+
+	"ateliercandy_raspberry_lollipop.name": "Малиновый леденец",
+	"ateliercandy_raspberry_lollipop.description": "Классическое детское лакомство. Приторно-сладкое!",
+
+	//////////////////////
+	// GOURMET LOLLIPOP //
+	//////////////////////
+
+	"ateliercandy_blueberry_gourmet_pop.name": "Гигантский леденец со вкусом черничного пирога",
+	"ateliercandy_blueberry_gourmet_pop.description": "Этот леденец ОГРОМНЫЙ. Сахарная передозировка!",
+
+	"ateliercandy_lemon_gourmet_pop.name": "Гигантский леденец со вкусом лимонного безе",
+	"ateliercandy_lemon_gourmet_pop.description": "Этот леденец ОГРОМНЫЙ. Сахарная передозировка!",
+
+	"ateliercandy_mint_gourmet_pop.name": "Гигантский ванильно-мятный леденец",
+	"ateliercandy_mint_gourmet_pop.description": "Этот леденец ОГРОМНЫЙ. Сахарная передозировка!",
+
+	"ateliercandy_berry_gourmet_pop.name": "Гигантский ягодный леденец",
+	"ateliercandy_berry_gourmet_pop.description": "Этот леденец ОГРОМНЫЙ. Сахарная передозировка!",
+
+	"ateliercandy_shortcake_gourmet_pop.name": "Гигантский леденец со вкусом клубничного бисквита",
+	"ateliercandy_shortcake_gourmet_pop.description": "Этот леденец ОГРОМНЫЙ. Сахарная передозировка!",
+
+	//////////////////
+	// HARD CANDIES //
+	//////////////////
+
+	"ateliercandy_cinnamon_candy.name": "Карамелька со вкусом корицы",
+	"ateliercandy_cinnamon_candy.description": "Фруктовая конфета в красивой обертке пастельных тонов.",
+
+	"ateliercandy_blue_candy.name": "Кристальная карамелька",
+	"ateliercandy_blue_candy.description": "Фруктовая конфета в красивой обертке пастельных тонов.",
+
+	"ateliercandy_ginger_candy.name": "Имбирная карамелька",
+	"ateliercandy_ginger_candy.description": "Фруктовая конфета в красивой обертке пастельных тонов.",
+
+	"ateliercandy_lime_candy.name": "Лаймовая карамелька",
+	"ateliercandy_lime_candy.description": "Фруктовая конфета в красивой обертке пастельных тонов.",
+
+	"ateliercandy_orange_candy.name": "Апельсиновая карамелька",
+	"ateliercandy_orange_candy.description": "Фруктовая конфета в красивой обертке пастельных тонов.",
+
+	"ateliercandy_grape_candy.name": "Виноградная карамелька",
+	"ateliercandy_grape_candy.description": "Фруктовая конфета в красивой обертке пастельных тонов.",
+
+	"ateliercandy_melon_candy.name": "Карамелька со вкусом дыни",
+	"ateliercandy_melon_candy.description": "Фруктовая конфета в красивой обертке пастельных тонов.",
+
+	/////////////////
+	// FAIRY FLOSS //
+	/////////////////
+
+	"ateliercandy_classic_fairyfloss.name": "Сладкая вата",
+	"ateliercandy_classic_fairyfloss.description": "Известна также как сахарная вата; очень сладкое лакомство из сахарной пудры и ароматизаторов.",
+
+	"ateliercandy_lavender_fairyfloss.name": "Лавандовая сладкая вата",
+	"ateliercandy_lavender_fairyfloss.description": "Известна также как сахарная вата; очень сладкое лакомство из сахарной пудры и ароматизаторов.",
+
+	"ateliercandy_lemon_fairyfloss.name": "Лимонная сладкая вата",
+	"ateliercandy_lemon_fairyfloss.description": "Известна также как сахарная вата; очень сладкое лакомство из сахарной пудры и ароматизаторов.",
+
+	"ateliercandy_orange_fairyfloss.name": "Апельсиновая сладкая вата",
+	"ateliercandy_orange_fairyfloss.description": "Известна также как сахарная вата; очень сладкое лакомство из сахарной пудры и ароматизаторов.",
+
+	"ateliercandy_mint_fairyfloss.name": "Мятная сладкая вата",
+	"ateliercandy_mint_fairyfloss.description": "Известна также как сахарная вата; очень сладкое лакомство из сахарной пудры и ароматизаторов.",
+
+	"ateliercandy_strawberry_fairyfloss.name": "Клубничная сладкая вата",
+	"ateliercandy_strawberry_fairyfloss.description": "Известна также как сахарная вата; очень сладкое лакомство из сахарной пудры и ароматизаторов.",
+
+	"ateliercandy_vanilla_fairyfloss.name": "Ванильная сладкая вата",
+	"ateliercandy_vanilla_fairyfloss.description": "Известна также как сахарная вата; очень сладкое лакомство из сахарной пудры и ароматизаторов.",
+
+	///////////////////
+	// CRYSTAL CANDY //
+	///////////////////
+
+	"ateliercandy_amethyst_rock_candy.name": "Аметистовый хрустальный леденец",
+	"ateliercandy_amethyst_rock_candy.description": "Кристаллизованное сладкое лакомство.",
+
+	"ateliercandy_aqua_rock_candy.name": "Аквамариновый хрустальный леденец",
+	"ateliercandy_aqua_rock_candy.description": "Кристаллизованное сладкое лакомство.",
+
+	"ateliercandy_emerald_rock_candy.name": "Изумрудный хрустальный леденец",
+	"ateliercandy_emerald_rock_candy.description": "Кристаллизованное сладкое лакомство.",
+
+	"ateliercandy_lemon_rock_candy.name": "Лемонстоуновый хрустальный леденец",
+	"ateliercandy_lemon_rock_candy.description": "Кристаллизованное сладкое лакомство.",
+
+	"ateliercandy_rainbow_rock_candy.name": "Радужный хрустальный леденец",
+	"ateliercandy_rainbow_rock_candy.description": "Кристаллизованное сладкое лакомство.",
+
+	"ateliercandy_ruby_rock_candy.name": "Рубиновый хрустальный леденец",
+	"ateliercandy_ruby_rock_candy.description": "Кристаллизованное сладкое лакомство.",
+
+	"ateliercandy_starry_rock_candy.name": "Звездный хрустальный леденец",
+	"ateliercandy_starry_rock_candy.description": "Кристаллизованное сладкое лакомство.",
+
+	"ateliercandy_topaz_rock_candy.name": "Топазовый хрустальный леденец",
+	"ateliercandy_topaz_rock_candy.description": "Кристаллизованное сладкое лакомство.",
+
+	//////////
+	// MAIL //
+	//////////
+
+	"ateliercandy_CandyMachineRecipe.name":"Подарок от Джунимо",
+    	"ateliercandy_CandyMachineRecipe.text":"@, ^^ Не пойми неправильно; Я не ем конфеты. Однако несколько джунимо настаивали, чтобы я отправил тебе этот рецепт, и отказывались покинуть мою башню, пока я этого не сделаю. Надеюсь, теперь я смогу обрести тишину и покой.^^ - Волшебник",
+    
+	"ateliercandy_MarshmallowMixerRecipe.name":"Операция Маршмеллоу",
+    	"ateliercandy_MarshmallowMixerRecipe.text":"@, ^^ Никому не говори, но я люблю маршмеллоу. Ну, не совсем я — их обожает Джас; ей просто нравятся цвета и текстура. Я всегда покупаю их, когда езжу в город Зузу. Если ты сможешь сделать маршмеллоу здесь, было бы здорово.^^ - Шейн",
+    
+	"ateliercandy_SugarBoilerRecipe.name":"Кипящий сахар: опасно, но вкусно?",
+    	"ateliercandy_SugarBoilerRecipe.text":"@, ^^ Я с бабушкой готовила конфеты, используя вот такую сахарницу; однако, я уверена, ты знаешь, Винсент не самый спокойный ребенок, и мысль о том, что он будет рядом с кипящим сахаром, пугает меня до чертиков. Может, вместо этого ты принесешь ему пару леденцов? Спасибо!^^ - Джоди",
+    
+	"ateliercandy_vincent_gift.name":"Сладкие грибы!",
+	"ateliercandy_vincent_gift.text":"@, ^^ Ты теперь собираешься стать конфетным фермером?! Я бы хотел стать фермером, выращивающим конфеты, это было бы так круто. Я нашел эти грибы в лесу, они похожи на конфеты, поэтому решил поделиться ими с тобой!^^ - Винсент",
+    
+	"ateliercandy_abigail_gift.name":"Хрустящие конфеты?!",
+	"ateliercandy_abigail_gift.text":"@, ^^ У меня нет привычки делиться с кем-либо вещами, которые я нашла в шахте, но я слышала, что теперь ты умеешь делать конфеты. Скажем так, я была бы очень признательна за леденцы, если ты когда-нибудь захочешь ими поделиться...^^ - Абигейл",
+    
+	"ateliercandy_penny_gift.name":"Сладкоежка",
+	"ateliercandy_penny_gift.text":"@, ^^ Я должна признать, что я немного сладкоежка. И я думаю, что большинство конфет такие красивые и яркие. Возможно, ты сможешь превратить эти цветы в конфеты; дай мне знать, если получится!^^ - Пенни",
+    
+}

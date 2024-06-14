@@ -1,0 +1,14 @@
+{
+  "Changes": [
+
+    {
+	    "LogName": "Ales and Meads Crafting Recipes",
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+			"wildflour.alesxmeads_AleKeg": "335 1 725 2 709 30/Home/wildflour.alesxmeads_AleKeg/true/{{RecipeConfig}}/{{i18n: alesxmeads_AleKeg.name}}",
+			"wildflour.alesxmeads_MeadKeg": "335 1 709 30 340 2/Home/wildflour.alesxmeads_MeadKeg/true/{{RecipeConfig}}/{{i18n: alesxmeads_MeadKeg.name}}",
+      }
+    }
+  ]
+}

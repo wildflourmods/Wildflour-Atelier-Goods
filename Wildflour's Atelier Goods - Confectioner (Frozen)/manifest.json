@@ -1,0 +1,17 @@
+{
+    "Name": "Wildflour's Artisan Goods - Confectioner (Frozen)",
+    "Author": "wildflourmods",
+    "Version": "1.0.6",
+    "Description": "This mod adds new items and machines centered around frozen confections!",
+    "UniqueID": "wildflour.atelierfrozen",
+    "UpdateKeys": ["Nexus:22736"], 
+    "MinimumApiVersion": "4.0.0-alpha",
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+        {"UniqueID": "Atelier.Cauldron", "IsRequired": true},
+        {"UniqueID": "wildflour.gourmetpantry","IsRequired": true},
+        {"UniqueID": "wildflour.ateliercrops", "IsRequired": false}
+    ],
+}

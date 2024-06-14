@@ -1,0 +1,19 @@
+{
+    "Changes": [
+
+{
+    "Action": "EditData",
+    "Target": "Strings/Objects",
+    "Entries": {
+      "wildflour.atelierfrozen_FruitFroyo": "{{i18n: atelierfrozen_FlavoredFroyo}}",
+      "wildflour.atelierfrozen_FlowerFroyo": "{{i18n: atelierfrozen_FlavoredFroyo}}",
+      "wildflour.atelierfrozen_FlowerIceCream": "{{i18n: atelierfrozen_FlavoredIceCream}}",
+      "wildflour.atelierfrozen_FruitIceCream": "{{i18n: atelierfrozen_FlavoredIceCream}}",
+      "wildflour.atelierfrozen_FruitMilkshake": "{{i18n: atelierfrozen_FlavoredMilkshake}}",
+      "wildflour.atelierfrozen_FlowerMilkshake": "{{i18n: atelierfrozen_FlavoredMilkshake}}",
+      "wildflour.atelierfrozen_FruitPopsicle": "{{i18n: atelierfrozen_FlavoredPopsicle}}",
+      "wildflour.atelierfrozen_FlowerPopsicle": "{{i18n: atelierfrozen_FlavoredPopsicle}}"
+    }
+}
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "Changes": [
+
+        {
+            "LogName": "Magic Makeup Gift Tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+ 
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Harvey", 1],
+                    "Value": "wildflour_makeup_item",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Jas", 7],
+                    "Value": "wildflour_makeup_item",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Leo", 7],
+                    "Value": "wildflour_makeup_item",
+                    "Delimiter": " "
+                },
+ 
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Vincent", 7],
+                    "Value": "wildflour_makeup_item",
+                    "Delimiter": " "
+                },
+
+
+            ]
+            }
+
+]
+}

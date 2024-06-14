@@ -1,0 +1,92 @@
+{
+    "Changes": [
+
+    {
+        "LogName":"Add Atelier Frozen Modded Objects",
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "Entries": {      
+         
+            "wildflour.atelierfrozen_lavender_cone": {
+                "Name": "wildflour.atelierfrozen_lavender_cone",
+                "DisplayName": "{{i18n:atelierfrozen_lavender_cone.name}}",
+                "Description": "{{i18n:atelierfrozen_lavender_cone.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 0,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                "Buff": {
+                    "BuffId": null,
+                    "IconTexture": null,
+                    "IconSpriteIndex": 0,
+                    "Duration": 360,
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "CustomAttributes": {
+                      "FarmingLevel": 0,
+                      "FishingLevel": 0,
+                      "MiningLevel": 0,
+                      "LuckLevel": 1,
+                      "ForagingLevel": 0,
+                      "MaxStamina": 0,
+                      "MagneticRadius": 0,
+                      "Speed": 0,
+                      "Defense": 0,
+                      "Attack": 0
+                    },
+                    "CustomFields": {}
+                  },
+
+                "ContextTags":
+                ["wildflour_frozen_item",
+                "ice_cream_cone_item",
+                "color_pale_violet"],
+
+                "Texture": "Mods/wildflour.atelierfrozen/Objects",
+                "SpriteIndex": 10
+        },
+            "wildflour.atelierfrozen_earlgrey_milkshake": {
+            "Name": "wildflour.atelierfrozen_earlgrey_milkshake",
+            "DisplayName": "{{i18n:atelierfrozen_earlgrey_milkshake.name}}",
+            "Description": "{{i18n:atelierfrozen_earlgrey_milkshake.description}}",
+            "Type": "ArtisanGoods",          
+            "Category": -26,
+            "Edibility": 55,
+            "Price": 100,
+            "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+            "Buff": {
+                "BuffId": null,
+                "IconTexture": null,
+                "IconSpriteIndex": 0,
+                "Duration": 360,
+                "IsDebuff": false,
+                "GlowColor": null,
+                "CustomAttributes": {
+                "FarmingLevel": 0,
+                "FishingLevel": 0,
+                "MiningLevel": 0,
+                "LuckLevel": 0,
+                "ForagingLevel": 1,
+                "MaxStamina": 0,
+                "MagneticRadius": 0,
+                "Speed": 0,
+                "Defense": 0,
+                "Attack": 0
+                },
+                "CustomFields": {}
+            },
+
+            "ContextTags":
+            ["wildflour_frozen_item",
+            "milkshake_item",
+            "color_pale_violet"],
+
+            "Texture": "Mods/wildflour.atelierfrozen/Objects",
+            "SpriteIndex": 51
+        }
+    }
+    }
+
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "Changes": [
+
+        {
+            "LogName": "Ales and Meads Gift Tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Pam", 1],
+                    "Value": "wildflour_ale_item",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Gus", 1],
+                    "Value": "wildflour.alesxmeads_orange_ale",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Willy", 1],
+                    "Value": "wildflour_mead_item",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Shane", 1],
+                    "Value": "wildflour_ale_item",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Alex", 7],
+                    "Value": "wildflour_ale_item wildflour_mead_item",
+                    "Delimiter": " "
+                },
+
+            
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields","Penny", 7],
+                    "Value": "wildflour_ale_item wildflour_mead_item",
+                    "Delimiter": " "
+                },
+
+
+            ]
+            }
+
+]
+}

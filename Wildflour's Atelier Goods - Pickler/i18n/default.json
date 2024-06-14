@@ -1,0 +1,72 @@
+{
+
+    "pickles_bruschetta.name": "Tomato Basil Bruschetta",
+	"pickles_bruschetta.description": "A bright and summery mix of diced tomatoes, basil, and garlic that is often served on top of crostini or toast.",
+	
+    "pickles_onion_chutney.name": "Caramelized Onion Chutney",
+	"pickles_onion_chutney.description": "A chutney consisting of onions cooked down for hours until they have become jammy and sweet and almost spreadable.",
+
+    "pickles_pineapple_salsa.name": "Charred Pineapple Salsa",
+	"pickles_pineapple_salsa.description": "Roasting the pineapple first adds a pleasant sweet heat to this salsa.",
+	
+    "pickles_giardiniera.name": "Giardiniera",
+	"pickles_giardiniera.description": "A mix of pickled vegetables and herbs often served as an appetizer or as part of a sandwich.",
+	
+    "pickles_horseradish_chips.name": "Horseradish Pickle Chips",
+	"pickles_horseradish_chips.description": "Wild horseradish gives these pickles a punch of flavor!",
+
+    "pickles_kale_pesto.name": "Kale Garlic Pesto",
+	"pickles_kale_pesto.description": "Pesto can be made with more than just basil! This kale garlic variant is pleasantly earthy.",
+
+    "pickles_marinated_mushrooms.name": "Marinated Mushrooms",
+	"pickles_marinated_mushrooms.description": "These delicious mushrooms are preserved in oil and spices instead of vinegar.",
+
+    "pickles_tomato_salsa.name": "Mild Tomato Salsa",
+	"pickles_tomato_salsa.description": "This salsa does not contain peppers and is perfect for those who cannot handle the heat of spicier varieties.",
+
+    "pickles_olive_tapenade.name": "Olive Tapenade",
+	"pickles_olive_tapenade.description": "A spread made from crushed Fern Isle olives. Pair with toast, caviar and champagne for an elegant dinner!",
+
+    "pickles_peach_salsa.name": "Peach Salsa",
+	"pickles_peach_salsa.description": "Freshly picked peaches add a touch of sweetness to this spicy summer salsa.",
+
+    "pickles_pepper_relish.name": "Pepper Onion Relish",
+	"pickles_pepper_relish.description": "A sweet and spicy relish that goes well on many sandwiches.",
+
+    "pickles_artichoke_hearts.name": "Pickled Artichoke Hearts",
+	"pickles_artichoke_hearts.description": "These artichoke hearts are kept soft and tender thanks to the pickling process and can be enjoyed in salads or on their own!",
+
+    "pickles_pickled_fish.name": "Pickled Fish",
+	"pickles_pickled_fish.description": "Though most commonly made with herring, pickled fish is enjoyed in many cultures as a topping to toast for a light breakfast.",
+
+    "pickles_pickled_olives.name": "Pickled Olives",
+	"pickles_pickled_olives.description": "Fern Isle olives pickled in brine to preserve their flavor.",
+
+	"pickles_pickled_onions.name": "Pickled Red Onions",
+	"pickles_pickled_onions.description": "Thinly sliced red onions cooked for a small amount of time with a bit of sugar, then cooled and pickled in vinegar.",
+
+    "pickles_pickled_carrots.name": "Pickled Carrots",
+	"pickles_pickled_carrots.description": "Freshly foraged carrots, pickled to preserve their natural crispness and sweet flavor.",
+
+    "pickles_roasted_peppers.name": "Roasted Red Peppers",
+	"pickles_roasted_peppers.description": "Peppers roasted over an open flame then preserved in oil; can be used in salads, sandwiches, and many cooked dishes.",
+
+    "pickles_sauerkraut.name": "Sauerkraut",
+	"pickles_sauerkraut.description": "Pickled cabbage seasoned with spices and often used a topping to sausages or sandwiches.",
+
+    "pickles_mango_salsa.name": "Spicy Mango Salsa",
+	"pickles_mango_salsa.description": "This spicy sweet salsa goes well with many seafood dishes!",
+
+    "pickles_spicy_tomato_salsa.name": "Spicy Tomato Salsa",
+	"pickles_spicy_tomato_salsa.description": "A salsa made especially for those who love the spicy hot peppers of summer.",
+
+    "pickles_sundried_tomatoes.name": "Sundried Tomatoes",
+	"pickles_sundried_tomatoes.description": "Tomatoes dried out in the sun for hours, then stored in oil with herbs and often used as a topping for salads or pasta dishes.",
+
+    "pickles_basil_pesto.name": "Sweet Basil Pesto",
+	"pickles_basil_pesto.description": "A classic pesto made with basil, garlic, olive oil and nuts. Use as a pasta sauce, or as a condiment on sandwiches!",
+
+    "pickles_tomato_corn_salsa.name": "Tomato Corn Salsa",
+	"pickles_tomato_corn_salsa.description": "Freshly picked tomatoes and corn make this salsa the perfect summer condiment!"
+	
+}

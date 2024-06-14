@@ -1,0 +1,302 @@
+{
+
+    //MACHINES
+
+    "atelierfrozen_BlastChiller.name": "急速冷冻柜",
+    "atelierfrozen_BlastChiller.description": "让你制造美味冰品的迷你冷冻柜！",
+
+    "atelierfrozen_TreatMaker.name": "冰品机",
+    "atelierfrozen_TreatMaker.description": "用来搅拌自制冰淇淋与冻酸奶的机器。",
+
+    ///////////////////////////
+    // MACHINE NOTIFICATIONS //
+    ///////////////////////////
+
+    "atelierfrozen_BlastChiller_InvalidItem.message": "无法制作",
+    "atelierfrozen_BlastChiller_InvalidCount.message": "需要霜瓜",
+
+    "atelierfrozen_TreatMaker_InvalidItem.message": "无法制作",
+    "atelierfrozen_TreatMaker_InvalidCount.message": "需要霜瓜",
+
+    /////////////
+    // STRINGS //
+    /////////////
+
+    "atelierfrozen_FlavoredPopsicle": "{0} 冰棍",
+    "atelierfrozen_FlavoredFroyo": "{0} 冻酸奶",
+    "atelierfrozen_FlavoredIceCream": "{0} 冰淇淋",
+    "atelierfrozen_FlavoredMilkshake": "{0} 奶昔",
+
+    /////////
+    // NEW //
+    /////////
+
+    "atelierfrozen_caramel_milkshake.name": "焦糖玛奇朵奶昔",
+    "atelierfrozen_ancient_milkshake.name": "远古奶昔",
+    "atelierfrozen_apple_milkshake.name": "苹果派奶昔",
+    "atelierfrozen_apricot_milkshake.name": "杏子奶昔",
+    "atelierfrozen_banana_milkshake.name": "香蕉奶油派奶昔",
+    "atelierfrozen_blueberry_milkshake.name": "蓝莓奶昔",
+    "atelierfrozen_cherry_milkshake.name": "樱桃派奶昔",
+    "atelierfrozen_rose_milkshake.name": "玫瑰奶昔",
+    "atelierfrozen_matcha_milkshake.name": "抹茶奶昔",
+    "atelierfrozen_mango_milkshake.name": "芒果奶昔",
+    "atelierfrozen_peach_milkshake.name": "桃与奶油奶昔",
+    "atelierfrozen_pomegranate_milkshake.name": "石榴奶昔",
+    "atelierfrozen_gem_milkshake.name": "宝石奶昔",
+    "atelierfrozen_chai_milkshake.name": "印度奶茶奶昔",
+    "atelierfrozen_sakura_milkshake.name": "樱花奶昔",
+    "atelierfrozen_cinnamon_milkshake.name": "肉桂奶昔",
+    "atelierfrozen_elderberry_milkshake.name": "接骨木奶昔",
+    "atelierfrozen_marshmallow_milkshake.name": "棉花糖奶昔",
+    "atelierfrozen_mint_milkshake.name": "薄荷巧克力奶昔",
+    "atelierfrozen_lemon_milkshake.name": "柠檬蛋白奶昔",
+    "atelierfrozen_raspberry_milkshake.name": "覆盆子奶昔",
+
+    "atelierfrozen_Caramel_Froyo.name": "焦糖冻酸奶",
+    "atelierfrozen_Creamsicle_Froyo.name": "橙子冰霜冻酸奶",
+    "atelierfrozen_Custard_Froyo.name": "卡仕达冻酸奶",
+    "atelierfrozen_Candy_Froyo.name": "糖果冻酸奶",
+    "atelierfrozen_Tiramisu_Froyo.name": "提拉米苏冻酸奶",
+    "atelierfrozen_Macaron_Froyo.name": "马卡龙冻酸奶",
+    "atelierfrozen_Galaxy_Froyo.name": "星系冻酸奶",
+    "atelierfrozen_Pie_Froyo.name": "浆果派冻酸奶",
+    "atelierfrozen_Shortcake_Froyo.name": "草莓奶油蛋糕冻酸奶",
+    "atelierfrozen_Cotton_Candy_Froyo.name": "棉花糖冻酸奶",
+    "atelierfrozen_Ancient_Froyo.name": "远古冻酸奶",
+    "atelierfrozen_Coffee_Froyo.name": "咖啡冻酸奶",
+    "atelierfrozen_Peach_Froyo.name": "桃子冻酸奶",
+    "atelierfrozen_Pineapple_Froyo.name": "菠萝冻酸奶",
+    "atelierfrozen_Vanilla_Froyo.name": "香草冻酸奶",
+    "atelierfrozen_Plain_Froyo.name": "原味冻酸奶",
+    "atelierfrozen_Mint_Froyo.name": "薄荷冻酸奶",
+    "atelierfrozen_Lime_Froyo.name": "青柠冻酸奶",
+    "atelierfrozen_Raspberry_Froyo.name": "覆盆子冻酸奶",
+
+    ///////////////////
+    // GENERIC ITEMS //
+    ///////////////////
+
+    "atelierfrozen_FlavoredPopsicle.name": "冰棍",
+    "atelierfrozen_FlavoredPopsicle.description": "令人心旷神怡的调味冰棍。",
+    "atelierfrozen_FlavoredFroyo.name": "冻酸奶",
+    "atelierfrozen_FlavoredFroyo.description": "现搅冻酸奶。",
+    "atelierfrozen_FlavoredIceCream.name": "冰淇淋",
+    "atelierfrozen_FlavoredIceCream.description": "现搅冰淇淋。",
+    "atelierfrozen_FlavoredMilkshake.name": "奶昔",
+    "atelierfrozen_FlavoredMilkshake.description": "美味手工奶昔。",
+
+    //ICE CREAM CUP
+
+    "atelierfrozen_cake_froyo.name": "生日蛋糕冻酸奶",
+    "atelierfrozen_cake_froyo.description": "刚搅完的冻酸奶——美味无比！",
+
+    "atelierfrozen_blueberry_froyo.name": "蓝莓芝士蛋糕冻酸奶",
+    "atelierfrozen_blueberry_froyo.description": "刚搅完的冻酸奶——美味无比！",
+
+    "atelierfrozen_cheesecake_froyo.name": "芝士蛋糕冻酸奶",
+    "atelierfrozen_cheesecake_froyo.description": "刚搅完的冻酸奶——美味无比！",
+
+    "atelierfrozen_cherrychoco_froyo.name": "樱桃巧克力冻酸奶",
+    "atelierfrozen_cherrychoco_froyo.description": "刚搅完的冻酸奶——美味无比！",
+
+    "atelierfrozen_fruity_froyo.name": "果漾冻酸奶",
+    "atelierfrozen_fruity_froyo.description": "刚搅完的冻酸奶——美味无比！",
+
+    "atelierfrozen_choco_froyo.name": "巧克力冻酸奶",
+    "atelierfrozen_choco_froyo.description": "刚搅完的冻酸奶——美味无比！",
+
+    "atelierfrozen_lemon_froyo.name": "柠檬雪酪",
+    "atelierfrozen_lemon_froyo.description": "新鲜水果和奶油搅拌成轻巧甜蜜的雪酪。",
+
+    "atelierfrozen_mango_froyo.name": "芒果雪酪",
+    "atelierfrozen_mango_froyo.description": "新鲜水果和奶油搅拌成轻巧甜蜜的雪酪。",
+
+    "atelierfrozen_melon_froyo.name": "甜瓜雪酪",
+    "atelierfrozen_melon_froyo.description": "新鲜水果和奶油搅拌成轻巧甜蜜的雪酪。",
+
+    "atelierfrozen_mintchoco_froyo.name": "薄荷巧克力冻酸奶",
+    "atelierfrozen_mintchoco_froyo.description": "刚搅完的冻酸奶——美味无比！",
+
+    "atelierfrozen_orange_froyo.name": "橙子雪酪",
+    "atelierfrozen_orange_froyo.description": "新鲜水果和奶油搅拌成轻巧甜蜜的雪酪。",
+
+    "atelierfrozen_pumpkin_froyo.name": "南瓜香料冻酸奶",
+    "atelierfrozen_pumpkin_froyo.description": "刚搅完的冻酸奶——美味无比！",
+
+    "atelierfrozen_starfruit_froyo.name": "杨桃雪酪",
+    "atelierfrozen_starfruit_froyo.description": "新鲜水果和奶油搅拌成轻巧甜蜜的雪酪。",
+
+    "atelierfrozen_gem_froyo.name": "宝石甜莓冻酸奶",
+    "atelierfrozen_gem_froyo.description": "刚搅完的冻酸奶——美味无比！",
+
+    "atelierfrozen_wildberry_froyo.name": "野莓冻酸奶",
+    "atelierfrozen_wildberry_froyo.description": "刚搅完的冻酸奶——美味无比！",
+
+    //ICE CREAM CONE
+
+    "atelierfrozen_ancient_cone.name": "上古冰淇淋",
+    "atelierfrozen_ancient_cone.description": "甜筒上的自制冰淇淋。",
+
+    "atelierfrozen_apple_cone.name": "苹果派冰淇淋",
+    "atelierfrozen_apple_cone.description": "甜筒上的自制冰淇淋。",
+
+    "atelierfrozen_cherrynut_cone.name": "樱桃杏仁冰淇淋",
+    "atelierfrozen_cherrynut_cone.description": "甜筒上的自制冰淇淋。",
+
+    "atelierfrozen_cherryblossom_cone.name": "樱花冰淇淋",
+    "atelierfrozen_cherryblossom_cone.description": "甜筒上的自制冰淇淋。",
+
+    "atelierfrozen_chocolate_cone.name": "巧克力冰淇淋",
+    "atelierfrozen_chocolate_cone.description": "甜筒上的自制冰淇淋。",
+
+    "atelierfrozen_coconut_cone.name": "椰香冰淇淋",
+    "atelierfrozen_coconut_cone.description": "甜筒上的自制冰淇淋。",
+
+    "atelierfrozen_coffee_cone.name": "咖啡冰淇淋",
+    "atelierfrozen_coffee_cone.description": "甜筒上的自制冰淇淋。",
+
+    "atelierfrozen_cookie_dough_cone.name": "饼干面团冰淇淋",
+    "atelierfrozen_cookie_dough_cone.description": "甜筒上的自制冰淇淋。",
+
+    "atelierfrozen_cookie_cone.name": "奶油饼干冰淇淋",
+    "atelierfrozen_cookie_cone.description": "甜筒上的自制冰淇淋。",
+
+    "atelierfrozen_horchata_cone.name": "欧洽塔冰淇淋",
+    "atelierfrozen_horchata_cone.description": "甜筒上的自制冰淇淋。",
+
+    "atelierfrozen_lavender_cone.name": "柠檬薰衣草冰淇淋",
+    "atelierfrozen_lavender_cone.description": "甜筒上的自制冰淇淋。",
+
+    "atelierfrozen_maple_cone.name": "枫糖核桃冰淇淋",
+    "atelierfrozen_maple_cone.description": "甜筒上的自制冰淇淋。",
+
+    "atelierfrozen_mint_cone.name": "薄荷巧克力冰淇淋",
+    "atelierfrozen_mint_cone.description": "甜筒上的自制冰淇淋。",
+
+    "atelierfrozen_pistachio_cone.name": "开心果冰淇淋",
+    "atelierfrozen_pistachio_cone.description": "甜筒上的自制冰淇淋。",
+
+    "atelierfrozen_strawberry_cone.name": "草莓奶油冰淇淋",
+    "atelierfrozen_strawberry_cone.description": "甜筒上的自制冰淇淋。",
+
+    "atelierfrozen_vanilla_cone.name": "香草籽冰淇淋",
+    "atelierfrozen_vanilla_cone.description": "甜筒上的自制冰淇淋。",
+
+    //MILKSHAKES
+
+    "atelierfrozen_choco_milkshake.name": "巧克力奶昔",
+    "atelierfrozen_choco_milkshake.description": "冰淇淋搅拌成的美味冰饮品！",
+
+    "atelierfrozen_candy_milkshake.name": "棉花糖奶昔",
+    "atelierfrozen_candy_milkshake.description": "冰淇淋搅拌成的美味冰饮品！",
+
+    "atelierfrozen_orange_milkshake.name": "柳橙奶油奶昔",
+    "atelierfrozen_orange_milkshake.description": "冰淇淋搅拌成的美味冰饮品！",
+
+    "atelierfrozen_earlgrey_milkshake.name": "仕女伯爵奶昔",
+    "atelierfrozen_earlgrey_milkshake.description": "冰淇淋搅拌成的美味冰饮品！",
+
+    "atelierfrozen_lime_milkshake.name": "美式莱姆奶昔",
+    "atelierfrozen_lime_milkshake.description": "冰淇淋搅拌成的美味冰饮品！",
+
+    "atelierfrozen_colada_milkshake.name": "椰林飘香奶昔",
+    "atelierfrozen_colada_milkshake.description": "冰淇淋搅拌成的美味冰饮品！",
+
+    "atelierfrozen_pumpkin_milkshake.name": "南瓜香料奶昔",
+    "atelierfrozen_pumpkin_milkshake.description": "冰淇淋搅拌成的美味冰饮品！",
+
+    "atelierfrozen_strawberry_milkshake.name": "草莓奶昔",
+    "atelierfrozen_strawberry_milkshake.description": "冰淇淋搅拌成的美味冰饮品！",
+
+    "atelierfrozen_vanilla_milkshake.name": "香草籽奶昔",
+    "atelierfrozen_vanilla_milkshake.description": "冰淇淋搅拌成的美味冰饮品！",
+
+    //POPSICLES
+
+    "atelierfrozen_ancient_popsicle.name": "上古冰棍",
+    "atelierfrozen_ancient_popsicle.description": "冻结在棍子上的果汁——可爱的盛夏甜品。",
+
+    "atelierfrozen_blueberry_popsicle.name": "蓝莓冰棍",
+    "atelierfrozen_blueberry_popsicle.description": "冻结在棍子上的果汁——可爱的盛夏甜品。",
+
+    "atelierfrozen_cherry_popsicle.name": "樱桃冰棍",
+    "atelierfrozen_cherry_popsicle.description": "冻结在棍子上的果汁——可爱的盛夏甜品。",
+
+    "atelierfrozen_coconut_popsicle.name": "椰香冰棍",
+    "atelierfrozen_coconut_popsicle.description": "冻结在棍子上的果汁——可爱的盛夏甜品。",
+
+    "atelierfrozen_fruity_popsicle.name": "果漾冰棍",
+    "atelierfrozen_fruity_popsicle.description": "冻结在棍子上的果汁——可爱的盛夏甜品。",
+
+    "atelierfrozen_grape_popsicle.name": "葡萄冰棍",
+    "atelierfrozen_grape_popsicle.description": "冻结在棍子上的果汁——可爱的盛夏甜品。",
+
+    "atelierfrozen_lemon_popsicle.name": "柠檬冰棍",
+    "atelierfrozen_lemon_popsicle.description": "冻结在棍子上的果汁——可爱的盛夏甜品。",
+
+    "atelierfrozen_lime_popsicle.name": "莱姆冰棍",
+    "atelierfrozen_lime_popsicle.description": "冻结在棍子上的果汁——可爱的盛夏甜品。",
+
+    "atelierfrozen_gem_popsicle.name": "宝石冰棍",
+    "atelierfrozen_gem_popsicle.description": "冻结在棍子上的果汁——可爱的盛夏甜品。",
+
+    "atelierfrozen_mango_popsicle.name": "芒果冰棍",
+    "atelierfrozen_mango_popsicle.description": "冻结在棍子上的果汁——可爱的盛夏甜品。",
+
+    "atelierfrozen_melon_popsicle.name": "甜瓜冰棍",
+    "atelierfrozen_melon_popsicle.description": "冻结在棍子上的果汁——可爱的盛夏甜品。",
+
+    "atelierfrozen_orange_popsicle.name": "橙子冰棍",
+    "atelierfrozen_orange_popsicle.description": "冻结在棍子上的果汁——可爱的盛夏甜品。",
+
+    "atelierfrozen_peach_popsicle.name": "蜜桃冰棍",
+    "atelierfrozen_peach_popsicle.description": "冻结在棍子上的果汁——可爱的盛夏甜品。",
+
+    "atelierfrozen_pineapple_popsicle.name": "菠萝冰棍",
+    "atelierfrozen_pineapple_popsicle.description": "冻结在棍子上的果汁——可爱的盛夏甜品。",
+
+    "atelierfrozen_starfruit_popsicle.name": "杨桃冰棍",
+    "atelierfrozen_starfruit_popsicle.description": "冻结在棍子上的果汁——可爱的盛夏甜品。",
+
+    "atelierfrozen_strawberry_popsicle.name": "草莓冰棍",
+    "atelierfrozen_strawberry_popsicle.description": "冻结在棍子上的果汁——可爱的盛夏甜品。",
+
+    "atelierfrozen_raspberry_popsicle.name": "覆盆莓冰棍",
+    "atelierfrozen_raspberry_popsicle.description": "冻结在棍子上的果汁——可爱的盛夏甜品。",
+
+    "atelierfrozen_wildberry_popsicle.name": "野莓冰棍",
+    "atelierfrozen_wildberry_popsicle.description": "冻结在棍子上的果汁——可爱的盛夏甜品。",
+
+    //ICE CREAM SANDWICHES
+
+    "atelierfrozen_cinnamon_chocolate_sandwich.name": "肉桂巧克力夹心冰淇淋",
+    "atelierfrozen_cinnamon_chocolate_sandwich.description": "用两块巧克力蛋糕饼干制作的冰淇淋三明治，好好吃！",
+
+    "atelierfrozen_mint_chocolate_sandwich.name": "薄荷巧克力夹心冰淇淋",
+    "atelierfrozen_mint_chocolate_sandwich.description": "用两块巧克力蛋糕饼干制作的冰淇淋三明治，好好吃！",
+
+    "atelierfrozen_mocha_coconut_sandwich.name": "椰香摩卡夹心冰淇淋",
+    "atelierfrozen_mocha_coconut_sandwich.description": "用两块巧克力蛋糕饼干制作的冰淇淋三明治，好好吃！",
+
+    "atelierfrozen_mocha_sandwich.name": "摩卡夹心冰淇淋",
+    "atelierfrozen_mocha_sandwich.description": "用两块巧克力蛋糕饼干制作的冰淇淋三明治，好好吃！",
+
+    "atelierfrozen_pistachio_sandwich.name": "开心果夹心冰淇淋",
+    "atelierfrozen_pistachio_sandwich.description": "用两块巧克力蛋糕饼干制作的冰淇淋三明治，好好吃！",
+
+    "atelierfrozen_strawberry_sandwich.name": "草莓夹心冰淇淋",
+    "atelierfrozen_strawberry_sandwich.description": "用两块巧克力蛋糕饼干制作的冰淇淋三明治，好好吃！",
+
+    "atelierfrozen_vanilla_sandwich.name": "香草籽夹心冰淇淋",
+    "atelierfrozen_vanilla_sandwich.description": "用两块巧克力蛋糕饼干制作的冰淇淋三明治，好好吃！",
+
+    //MAIL
+
+    "atelierfrozen_TreatMakerRecipe.text": "\"@, ^^ 在古代，村民们会跋涉至雪山取冰，然后将其一路搬运回村庄制作冰冻美食。我很高兴我们现在有了科学。^^ - 德米特里厄斯\"",
+    "atelierfrozen_ChillerRecipe.text": "\"@, ^^ 我想和你分享我刚刚为速冻机创造的蓝图。有了这个，你可以用你农场的水果制作一些惊人的冰棍！也许你可以顺便过来分享一些？我知道 德米特里厄斯 和 玛鲁 会喜欢的！^^ - 罗宾\"",
+    "atelierfrozen_vincent_gift.text": "\"@, ^^ 我为冰激凌而尖叫！如果你尖叫着，然后冰激凌就神奇地出现在你的手中，那岂不是很酷？我得会因为整天大喊冰激凌而失声！你能用这些做冰激凌吗？我在森林里找到它们的，它们闻起来很香。^^ - 文森特\"",
+    "atelierfrozen_jodi_gift.text": "\"@, ^^ 文森特 太喜欢冰淇淋了，我担心他会做过头。你能试着做一些冻酸奶，看他是否会吃那个吗？至少那样我会感觉他在吃更健康的东西。^^ - 乔迪\"",
+    "atelierfrozen_sam_gift.text": "\"@, ^^ 制作自制的冰激凌，对吧？有什么你不敢尝试的吗？说真的，那听起来超级酷！我觉得这些蘑菇可能会有帮助，我想我在哪里读到过它们能制作成奶，但我希望它们不是有毒的...^^ - 山姆\""
+
+}

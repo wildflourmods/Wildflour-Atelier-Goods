@@ -1,0 +1,18 @@
+{
+    "Changes": [
+        
+    //////////////////
+	// ADD TEXTURES //
+	//////////////////
+    
+    {
+        "Action": "Load",
+        "Target": "Mods/wildflour.pickles/Objects",
+        "FromFile": "assets/{{TargetWithoutPath}}.png"
+
+ 
+    }
+
+       
+    ]
+}

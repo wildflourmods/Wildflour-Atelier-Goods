@@ -1,0 +1,43 @@
+{
+    "Format": "2.0.0",
+
+
+    "Changes": [
+      
+        //Include Objects
+
+        {
+            "LogName": "Pickles Objects",
+            "Action": "Include",
+            "FromFile": "Data/objects.json",
+            "When": {"Atelier.Cauldron/ConfigValue:WildFood": "True"}
+        },
+
+        //Include Cooking Recipes
+
+        {
+            "LogName": "Cooking Recipes",
+            "Action": "Include",
+            "FromFile": "Data/recipes.json",
+            "When": {"Atelier.Cauldron/ConfigValue:WildFood": "True"}
+        },
+
+        //Include Gift Tastes
+
+        {
+            "LogName": "Pickles Gift Tastes",
+            "Action": "Include",
+            "FromFile": "Data/gifttastes.json",
+            "When": {"Atelier.Cauldron/ConfigValue:WildFood": "True"}
+        },
+
+        //Include Textures
+
+        {
+            "LogName": "Pickles Textures",
+            "Action": "Include",
+            "FromFile": "Data/textures.json",
+            "When": {"Atelier.Cauldron/ConfigValue:WildFood": "True"}
+        },
+    ]
+}

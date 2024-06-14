@@ -1,0 +1,25 @@
+{
+  "Changes": [
+
+    {
+	    "LogName": "Atelier Candy Crafting Recipes",
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+			    "wildflour.ateliercandy_GumballMachine": "245 15 330 15 388 40/Home/wildflour.ateliercandy_GumballMachine/true/{{RecipeConfig}}/{{i18n: ateliercandy_GumballMachine.name}}",
+          "wildflour.ateliercandy_SugarBoiler": "245 15 330 15 388 40/Home/wildflour.ateliercandy_SugarBoiler/true/{{RecipeConfig}}/{{i18n: ateliercandy_SugarBoiler.name}}",
+      }
+    },
+
+    {
+	    "LogName": "Atelier Candy Marshmallow Mixer Recipe",
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "When": {"Atelier.Cauldron/ConfigValue:WildFood": "True"},
+      "Entries": {
+			    "wildflour.ateliercandy_MarshmallowMixer": "245 15 wildflour.ateliercrops_mallow 3 388 40/Home/wildflour.ateliercandy_MarshmallowMixer/true/{{RecipeConfig}}/{{i18n: ateliercandy_MarshmallowMixer.name}}"
+      }
+    },
+
+  ]
+}

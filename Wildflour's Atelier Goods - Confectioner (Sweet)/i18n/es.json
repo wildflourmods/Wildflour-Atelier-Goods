@@ -1,0 +1,187 @@
+{
+	//MACHINE
+
+	"ateliercandy_CandyMachine.name": "Taller de golosinas",
+	"ateliercandy_CandyMachine.description": "Sirve para crear golosinas y caramelos varios.",
+
+	// MARSHMALLOWS
+	
+    "ateliercandy_ancient_marshmallow.name": "Malvavisco milenario",
+	"ateliercandy_ancient_marshmallow.description": "Un malvavisco casero muy blandito y dulce.",
+
+	"ateliercandy_vanilla_marshmallow.name": "Malvavisco de vainilla",
+	"ateliercandy_vanilla_marshmallow.description": "Un malvavisco casero muy blandito y dulce.",
+
+	"ateliercandy_coconut_marshmallow.name": "Malvavisco de coco",
+	"ateliercandy_coconut_marshmallow.description": "Un malvavisco casero muy blandito y dulce.",
+
+	"ateliercandy_confetti_marshmallow.name": "Malvavisco de confeti",
+	"ateliercandy_confetti_marshmallow.description": "Un malvavisco casero muy blandito y dulce.",
+
+	"ateliercandy_lavender_marshmallow.name": "Malvavisco de lavanda",
+	"ateliercandy_lavender_marshmallow.description": "Un malvavisco casero muy blandito y dulce.",
+
+	"ateliercandy_matcha_marshmallow.name": "Malvavisco de té matcha",
+	"ateliercandy_matcha_marshmallow.description": "Un malvavisco casero muy blandito y dulce.",
+
+	"ateliercandy_strawberry_marshmallow.name": "Malvavisco de fresa silvestre",
+	"ateliercandy_strawberry_marshmallow.description": "Un malvavisco casero muy blandito y dulce.",
+	
+
+	// MARSHMALLOW POPS
+
+	"chocolate-marshmallowpop.name": "Piruleta de Malvavisco cubierta de chocolate",
+	"chocolate-marshmallowpop.description": "¡Un malvavisco sumergido en chocolate y servido con un palito! ¡Es súper 'kawaii'!",
+
+	"ateliercandy_ancient_mallow_pop.name": "Piruleta de Malvavisco milenario",
+	"ateliercandy_ancient_mallow_pop.description": "¡Un malvavisco retorcido de diferentes colores y sabores servido con un palito! ¡Es súper 'kawaii'!",
+
+	"ateliercandy_colada_mallow_pop.name": "Piruleta de Malvavisco de piña colada",
+	"ateliercandy_colada_mallow_pop.description": "¡Un malvavisco retorcido de diferentes colores y sabores servido con un palito! ¡Es súper 'kawaii'!",
+
+	"ateliercandy_candy_mallow_pop.name": "Piruleta de Malvavisco de algodón de azúcar",
+	"ateliercandy_candy_mallow_pop.description": "¡Un malvavisco retorcido de diferentes colores y sabores servido con un palito! ¡Es súper 'kawaii'!",
+
+	"ateliercandy_earlgrey_mallow_pop.name": "Piruleta de Malvavisco de té 'earl grey'",
+	"ateliercandy_earlgrey_mallow_pop.description": "¡Un malvavisco retorcido de diferentes colores y sabores servido con un palito! ¡Es súper 'kawaii'!",
+
+	"ateliercandy_gem_mallow_pop.name": "Piruleta de Malvavisco de baya de gema dulce",
+	"ateliercandy_gem_mallow_pop.description": "¡Un malvavisco retorcido de diferentes colores y sabores servido con un palito! ¡Es súper 'kawaii'!",
+
+	"ateliercandy_peach_mallow_pop.name": "Piruleta de Malvavisco de melocotón y nata",
+	"ateliercandy_peach_mallow_pop.description": "¡Un malvavisco retorcido de diferentes colores y sabores servido con un palito! ¡Es súper 'kawaii'!",
+
+	//LOLLYPOPS
+	"ateliercandy_blueberry_lollipop.name": "Chupa-chups de arándano",
+	"ateliercandy_blueberry_lollipop.description": "El clásico capricho de los niños. ¡Es muy dulce y puedes comerlo donde quieras!",
+
+	"ateliercandy_cherry_lollipop.name": "Chupa-chups de cereza",
+	"ateliercandy_cherry_lollipop.description": "El clásico capricho de los niños. ¡Es muy dulce y puedes comerlo donde quieras!",
+
+	"ateliercandy_grape_lollipop.name": "Chupa-chups de uva",
+	"ateliercandy_grape_lollipop.description": "El clásico capricho de los niños. ¡Es muy dulce y puedes comerlo donde quieras!",
+
+	"ateliercandy_lemon_lollipop.name": "Chupa-chups de limón",
+	"ateliercandy_lemon_lollipop.description": "El clásico capricho de los niños. ¡Es muy dulce y puedes comerlo donde quieras!",
+
+	"ateliercandy_lime_lollipop.name": "Chupa-chups de lima",
+	"ateliercandy_lime_lollipop.description": "El clásico capricho de los niños. ¡Es muy dulce y puedes comerlo donde quieras!",
+
+	"ateliercandy_mint_lollipop.name": "Chupa-chups de menta",
+	"ateliercandy_mint_lollipop.description": "El clásico capricho de los niños. ¡Es muy dulce y puedes comerlo donde quieras!",
+
+	"ateliercandy_orange_lollipop.name": "Chupa-chups de naranja",
+	"ateliercandy_orange_lollipop.description": "El clásico capricho de los niños. ¡Es muy dulce y puedes comerlo donde quieras!",
+
+	"ateliercandy_raspberry_lollipop.name": "Chupa-chups de frambuesa silvestre",
+	"ateliercandy_raspberry_lollipop.description": "El clásico capricho de los niños. ¡Es muy dulce y puedes comerlo donde quieras!",
+
+	//GOURMET LOLLYPOPS
+
+	"ateliercandy_blueberry_gourmet_pop.name": "Piruleta de tarta de arándanos",
+	"ateliercandy_blueberry_gourmet_pop.description": "Esta piruleta es ENORME. ¡Subidón de azúcar!",
+
+	"ateliercandy_lemon_gourmet_pop.name": "Piruleta de merengue de limón",
+	"ateliercandy_lemon_gourmet_pop.description": "Esta piruleta es ENORME. ¡Subidón de azúcar!",
+
+	"ateliercandy_mint_gourmet_pop.name": "Piruleta de vainilla y menta",
+	"ateliercandy_mint_gourmet_pop.description": "Esta piruleta es ENORME. ¡Subidón de azúcar!",
+
+	"ateliercandy_berry_gourmet_pop.name": "Piruleta de frutas silvestres",
+	"ateliercandy_berry_gourmet_pop.description": "Esta piruleta es ENORME. ¡Subidón de azúcar!",
+
+	"ateliercandy_shortcake_gourmet_pop.name": "Piruleta de pastel de fresa",
+	"ateliercandy_shortcake_gourmet_pop.description": "Esta piruleta es ENORME. ¡Subidón de azúcar!",
+
+	//HARD CANDIES
+
+	"ateliercandy_cinnamon_candy.name": "Caramelo de canela",
+	"ateliercandy_cinnamon_candy.description": "Un caramelo afrutado dentro de un bonito envoltorio color pastel.",
+
+	"ateliercandy_blue_candy.name": "Caramelo azul glaciar",
+	"ateliercandy_blue_candy.description": "Un caramelo afrutado dentro de un bonito envoltorio color pastel.",
+
+	"ateliercandy_ginger_candy.name": "Caramelo de jengibre",
+	"ateliercandy_ginger_candy.description": "Un caramelo afrutado dentro de un bonito envoltorio color pastel.",
+
+	"ateliercandy_lime_candy.name": "Caramelo de lima",
+	"ateliercandy_lime_candy.description": "Un caramelo afrutado dentro de un bonito envoltorio color pastel.",
+
+	"ateliercandy_orange_candy.name": "Caramelo de naranja",
+	"ateliercandy_orange_candy.description": "Un caramelo afrutado dentro de un bonito envoltorio color pastel.",
+
+	"ateliercandy_grape_candy.name": "Caramelo de uva",
+	"ateliercandy_grape_candy.description": "Un caramelo afrutado dentro de un bonito envoltorio color pastel.",
+
+	"ateliercandy_strawberry_candy.name": "Caramelo de fresa",
+	"ateliercandy_strawberry_candy.description": "Un caramelo afrutado dentro de un bonito envoltorio color pastel.",
+
+	//FAIRY FLOSS
+
+	"ateliercandy_classic_fairyfloss.name": "Algodón de azúcar",
+	"ateliercandy_classic_fairyfloss.description": "También se le conoce como 'nube de algodón'. Una golosina muy dulce hecha de hilos de azúcar y saborizantes.",
+
+	"ateliercandy_lavender_fairyfloss.name": "Algodón de azúcar de lavanda",
+	"ateliercandy_lavender_fairyfloss.description": "También se le conoce como 'nube de algodón'. Una golosina muy dulce hecha de hilos de azúcar y saborizantes.",
+
+	"ateliercandy_lemon_fairyfloss.name": "Algodón de azúcar de merengue de limón",
+	"ateliercandy_lemon_fairyfloss.description": "También se le conoce como 'nube de algodón'. Una golosina muy dulce hecha de hilos de azúcar y saborizantes.",
+
+	"ateliercandy_orange_fairyfloss.name": "Algodón de azúcar de helado de naranja",
+	"ateliercandy_orange_fairyfloss.description": "También se le conoce como 'nube de algodón'. Una golosina muy dulce hecha de hilos de azúcar y saborizantes.",
+
+	"ateliercandy_mint_fairyfloss.name": "Algodón de azúcar de menta",
+	"ateliercandy_mint_fairyfloss.description": "También se le conoce como 'nube de algodón'. Una golosina muy dulce hecha de hilos de azúcar y saborizantes.",
+
+	"ateliercandy_strawberry_fairyfloss.name": "Algodón de azúcar de pastel de fresa",
+	"ateliercandy_strawberry_fairyfloss.description": "También se le conoce como 'nube de algodón'. Una golosina muy dulce hecha de hilos de azúcar y saborizantes.",
+
+	"ateliercandy_vanilla_fairyfloss.name": "Algodón de azúcar de vainilla",
+	"ateliercandy_vanilla_fairyfloss.description": "También se le conoce como 'nube de algodón'. Una golosina muy dulce hecha de hilos de azúcar y saborizantes.",
+
+	//CRYSTAL CANDY
+
+	"ateliercandy_amethyst_rock_candy.name": "Caramelo de roca amatista",
+	"ateliercandy_amethyst_rock_candy.description": "Una golosina hecha con azúcar cristalizado.",
+
+	"ateliercandy_aqua_rock_candy.name": "Caramelo de roca aguamarina",
+	"ateliercandy_aqua_rock_candy.description": "Una golosina hecha con azúcar cristalizado.",
+
+	"ateliercandy_emerald_rock_candy.name": "Caramelo de roca esmeralda",
+	"ateliercandy_emerald_rock_candy.description": "Una golosina hecha con azúcar cristalizado.",
+
+	"ateliercandy_lemon_rock_candy.name": "Caramelo de roca de limón",
+	"ateliercandy_lemon_rock_candy.description": "Una golosina hecha con azúcar cristalizado.",
+
+	"ateliercandy_rainbow_rock_candy.name": "Caramelo de roca arcoíris",
+	"ateliercandy_rainbow_rock_candy.description": "Una golosina hecha con azúcar cristalizado.",
+
+	"ateliercandy_ruby_rock_candy.name": "Caramelo de roca rubí",
+	"ateliercandy_ruby_rock_candy.description": "Una golosina hecha con azúcar cristalizado.",
+
+	"ateliercandy_starry_rock_candy.name": "Caramelo de roca rutilante",
+	"ateliercandy_starry_rock_candy.description": "Una golosina hecha con azúcar cristalizado.",
+
+	"ateliercandy_topaz_rock_candy.name": "Caramelo de roca topacio",
+	"ateliercandy_topaz_rock_candy.description": "Una golosina hecha con azúcar cristalizado.",
+
+	//MAIL	
+
+	"ateliercandy_CandyMachineRecipe.name":"Un regalo de los Junimos",
+    "ateliercandy_CandyMachineRecipe.text":"@, ^^No me malinterpretes; yo no participo en dulces. Sin embargo, hay varios junimos que insistieron en que te enviara esta receta y no saldrían de mi torre hasta que lo hiciera. Espero que ahora pueda tener un poco de paz y tranquilidad.^^ - Wizard",
+    
+	"ateliercandy_MarshmallowMixerRecipe.name":"Operación nube",
+    "ateliercandy_MarshmallowMixerRecipe.text":"@, ^^Bien, no se lo digas a nadie, pero me encantan los malvaviscos. Aunque no para mí, son los favoritos de Jas. Le encantan los colores y la textura, así que siempre se los compro cuando visito Zuzu; Si pudieras hacer algunos en su lugar sería genial.^^ - Shane",
+    
+	"ateliercandy_SugarBoilerRecipe.name":"Hervir el azúcar: ¿peligroso pero delicioso?",
+    "ateliercandy_SugarBoilerRecipe.text":"@, ^^Yo solía hacer caramelos con mi abuela utilizando un caldero de azúcar como éste; sin embargo, como seguro que te imaginas, Vincent no es precisamente un niño tranquilo, y la idea de tenerle manejando azúcar fundido me da pánico. ¿Quizás puedas dejarle una piruleta o dos en su lugar? ¡Muchas gracias!^^ - Jodi",
+    
+	"ateliercandy_vincent_gift.name":"¡Champiñones dulces!",
+	"ateliercandy_vincent_gift.text":"@, ^^¡¿Vas a ser un granjero de caramelos ahora?! Me gustaría ser un granjero de caramelos, sería genial. Encontré estos champiñones en el bosque y parecen caramelos, ¡así que pensé en compartirlos contigo!^^ - Vincent",
+    
+	"ateliercandy_abigail_gift.name":"¡¿Caramelos crujientes?!",
+	"ateliercandy_abigail_gift.text":"@, ^^No tengo por costumbre compartir con nadie las cosas que encuentro en las minas, pero he oído que ahora tienes formas de hacer caramelos. Digamos que apreciaría mucho un poco de caramelo de roca si alguna vez te apetece compartirlo...^^ - Abigail",
+    
+	"ateliercandy_penny_gift.name":"Diente dulce",
+	"ateliercandy_penny_gift.text":"@, ^^Debo admitir que soy un poco golosa. Además, la mayoría de los caramelos me parecen muy bonitos y coloridos. Creo que puedes convertir estas flores en caramelos; ¡hazme saber si descubres cómo!^^- Penny",
+}

@@ -1,0 +1,15 @@
+{
+    "Name": "Wildflour's Atelier Goods - Cosmetologist",
+    "Author": "wildflourmods",
+    "Version": "1.0.4",
+    "Description": "Craft makeup using the base game gems and minerals!",
+    "UniqueID": "wildflour.ateliermakeup",
+    "UpdateKeys": ["Nexus:22735"], 
+    "MinimumApiVersion": "4.0.0-alpha",
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+        {"UniqueID": "Atelier.Cauldron", "IsRequired": true}
+    ]
+}

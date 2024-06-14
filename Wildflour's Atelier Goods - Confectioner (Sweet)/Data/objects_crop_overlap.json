@@ -1,0 +1,212 @@
+{
+    "Changes": [
+
+
+        {
+            "LogName":"Add Atelier Candy Objects",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "wildflour.ateliercandy_lemon_lollipop": {
+                    "Name": "wildflour.ateliercandy_lemon_lollipop",
+                    "DisplayName": "{{i18n:ateliercandy_lemon_lollipop.name}}",
+                    "Description": "{{i18n:ateliercandy_lemon_lollipop.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 12,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_candy_item",
+                    "food_sweet",
+                    "lollipop_item",
+                    "color_yellow"],
+
+                    "Texture": "Mods/wildflour.ateliercandy/Objects",
+                    "SpriteIndex": 67
+            }, 
+                "wildflour.ateliercandy_lime_lollipop": {
+                    "Name": "wildflour.ateliercandy_lime_lollipop",
+                    "DisplayName": "{{i18n:ateliercandy_lime_lollipop.name}}",
+                    "Description": "{{i18n:ateliercandy_lime_lollipop.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 12,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_candy_item",
+                    "food_sweet",
+                    "lollipop_item",
+                    "color_lime"],
+
+                    "Texture": "Mods/wildflour.ateliercandy/Objects",
+                    "SpriteIndex": 68
+            },
+                "wildflour.ateliercandy_raspberry_lollipop": {
+                    "Name": "wildflour.ateliercandy_raspberry_lollipop",
+                    "DisplayName": "{{i18n:ateliercandy_raspberry_lollipop.name}}",
+                    "Description": "{{i18n:ateliercandy_raspberry_lollipop.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 12,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags": 
+                    ["wildflour_candy_item",
+                    "food_sweet",
+                    "lollipop_item",
+                    "color_dark_pink"],
+
+                    "Texture": "Mods/wildflour.ateliercandy/Objects",
+                    "SpriteIndex": 71
+            },
+                "wildflour.ateliercandy_lemon_gourmet_pop": {
+                    "Name": "wildflour.ateliercandy_lemon_gourmet_pop",
+                    "DisplayName": "{{i18n:ateliercandy_lemon_gourmet_pop.name}}",
+                    "Description": "{{i18n:ateliercandy_lemon_gourmet_pop.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 26,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_candy_item",
+                    "food_sweet",
+                    "lollipop_item",
+                    "color_yellow"],
+
+                    "Texture": "Mods/wildflour.ateliercandy/Objects",
+                    "SpriteIndex": 49
+            },
+                "wildflour.ateliercandy_mint_gourmet_pop": {
+                    "Name": "wildflour.ateliercandy_mint_gourmet_pop",
+                    "DisplayName": "{{i18n:ateliercandy_mint_gourmet_pop.name}}",
+                    "Description": "{{i18n:ateliercandy_mint_gourmet_pop.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 26,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_candy_item",
+                    "food_sweet",
+                    "lollipop_item",
+                    "color_jade"],
+
+                    "Texture": "Mods/wildflour.ateliercandy/Objects",
+                    "SpriteIndex": 52
+            },
+                "wildflour.ateliercandy_cinnamon_candy": {
+                    "Name": "wildflour.ateliercandy_cinnamon_candy",
+                    "DisplayName": "{{i18n:ateliercandy_cinnamon_candy.name}}",
+                    "Description": "{{i18n:ateliercandy_cinnamon_candy.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 25,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_candy_item",
+                    "food_sweet",
+                    "hard_candy_item",
+                    "color_dark_brown"],
+
+                    "Texture": "Mods/wildflour.ateliercandy/Objects",
+                    "SpriteIndex": 80
+            },
+                "wildflour.ateliercandy_lime_candy": {
+                    "Name": "wildflour.ateliercandy_lime_candy",
+                    "DisplayName": "{{i18n:ateliercandy_lime_candy.name}}",
+                    "Description": "{{i18n:ateliercandy_lime_candy.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 25,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_candy_item",
+                    "food_sweet",
+                    "hard_candy_item",
+                    "color_lime"],
+
+                    "Texture": "Mods/wildflour.ateliercandy/Objects",
+                    "SpriteIndex": 84
+            },
+                "wildflour.ateliercandy_lemon_fairyfloss": {
+                    "Name": "wildflour.ateliercandy_lemon_fairyfloss",
+                    "DisplayName": "{{i18n:ateliercandy_lemon_fairyfloss.name}}",
+                    "Description": "{{i18n:ateliercandy_lemon_fairyfloss.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 18,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_candy_item",
+                    "food_sweet",
+                    "fairy_floss_item",
+                    "color_yellow"],
+
+                    "Texture": "Mods/wildflour.ateliercandy/Objects",
+                    "SpriteIndex": 98
+            },
+                "wildflour.ateliercandy_mint_fairyfloss": {
+                    "Name": "wildflour.ateliercandy_mint_fairyfloss",
+                    "DisplayName": "{{i18n:ateliercandy_mint_fairyfloss.name}}",
+                    "Description": "{{i18n:ateliercandy_mint_fairyfloss.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 18,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_candy_item",
+                    "food_sweet",
+                    "fairy_floss_item",
+                    "color_jade"],
+
+                    "Texture": "Mods/wildflour.ateliercandy/Objects",
+                    "SpriteIndex": 100
+            },
+                "wildflour.ateliercandy_vanilla_fairyfloss": {
+                    "Name": "wildflour.ateliercandy_vanilla_fairyfloss",
+                    "DisplayName": "{{i18n:ateliercandy_vanilla_fairyfloss.name}}",
+                    "Description": "{{i18n:ateliercandy_vanilla_fairyfloss.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 18,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_candy_item",
+                    "food_sweet",
+                    "fairy_floss_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.ateliercandy/Objects",
+                    "SpriteIndex": 102
+            },
+                "wildflour.ateliercandy_lemon_gumballs": {
+                    "Name": "wildflour.ateliercandy_lemon_gumballs",
+                    "DisplayName": "{{i18n:ateliercandy_lemon_gumballs.name}}",
+                    "Description": "{{i18n:ateliercandy_lemon_gumballs.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 26,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": true,
+                    "ContextTags":
+                    ["wildflour_candy_item",
+                    "food_sweet",
+                    "rock_candy_item",
+                    "color_dark_pink"],
+
+                    "Texture": "Mods/wildflour.ateliercandy/Objects",
+                    "SpriteIndex": 117
+            },
+        }
+        }
+
+    ]
+}

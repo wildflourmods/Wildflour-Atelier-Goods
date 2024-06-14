@@ -1,0 +1,72 @@
+{
+
+    "pickles_bruschetta.name": "Domatesli Reyhanlı İtalyan Sandviçi",
+	"pickles_bruschetta.description": "Doğranmış domates, reyhan ve sarımsağın tostun veya crostini üstünde servis edildiği canlı ve yazsı bir karışımı.",
+	
+    "pickles_onion_chutney.name": "Karamelize Soğanlı Chutney",
+	"pickles_onion_chutney.description": "Saatlerce pişirilmekten eriyip sürülebilir hale gelen soğanlardan oluşan bir hint turşusu.",
+
+    "pickles_pineapple_salsa.name": "Yakılmış Ananas Salsası",
+	"pickles_pineapple_salsa.description": "Önce ananası kızartmak bu salsaya hoş bir sıcaklık veriyor.",
+	
+    "pickles_giardiniera.name": "İtalyan Turşusu",
+	"pickles_giardiniera.description": "Genelde yan öğün veya bir sandviçin parçası olarak servis edilen turşulanmış sebze ve bitki karışımı.",
+	
+    "pickles_horseradish_chips.name": "Bayır Turpu Turşulu Cips",
+	"pickles_horseradish_chips.description": "Yabani bayır turpu bu turşuya bayağı tat veriyor!",
+
+    "pickles_kale_pesto.name": "Kıvırcıklı Sarımsaklı Pesto",
+	"pickles_kale_pesto.description": "Pesto, reyhandan fazlasıyla da yapılabilir! Bu kıvırcıklı sarımsaklı türü hoş bir şekilde besleyici.",
+
+    "pickles_marinated_mushrooms.name": "Marine Edilmiş Mantar",
+	"pickles_marinated_mushrooms.description": "Bu leziz mantarlar sirke yerine yağ ve baharatta bekletilmiş.",
+
+    "pickles_tomato_salsa.name": "Domatesli Hafif Salsa",
+	"pickles_tomato_salsa.description": "Bu salsa biber içermez ve daha acılı türleri kaldıramayacak olanlar için mükemmel.",
+
+    "pickles_olive_tapenade.name": "Zeytinli Tapenade",
+	"pickles_olive_tapenade.description": "Eğreltiotu Adası zeytinlerinden yapılan sürülebilir bir şey. Süslü bir akşam yemeği için tost, havyar ve şampanyayla bir araya getirin!",
+
+    "pickles_peach_salsa.name": "Şeftalili Salsa",
+	"pickles_peach_salsa.description": "Taze toplanmış şeftaliler bu acılı yaz salsasına bir tutam tatlılık ekliyor.",
+
+    "pickles_pepper_relish.name": "Biberli Soğanlı Meze",
+	"pickles_pepper_relish.description": "Birçok sandviçle iyi giden acılı tatlı bir meze.",
+
+    "pickles_artichoke_hearts.name": "Enginar Kalbi Turşusu",
+	"pickles_artichoke_hearts.description": "Neyseki bu enginar kalpleri, salatalarda veya kendi başlarına tadı çıkarılabilsin diye turşulanma esnasında yumuşak kaldı!",
+
+    "pickles_pickled_fish.name": "Balık Turşusu",
+	"pickles_pickled_fish.description": "En çok ringayla yapılsa da, balık turşusu birçok kültürde hafif bir kahvaltı için tostun üstünde beğenilir.",
+
+    "pickles_pickled_olives.name": "Zeytin Turşusu",
+	"pickles_pickled_olives.description": "Eğreltiotu Adası zeytinleri tadını muhafaza etmesi için salamuraya yatırılmış.",
+
+	"pickles_pickled_onions.name": "Kırmızı Soğan Turşusu",
+	"pickles_pickled_onions.description": "İnce ince kesilen, biraz şekerle azıcık pişirilen, sonra soğutulup sirkeyle turşulanan kırmızı soğanlar.",
+
+    "pickles_pickled_carrots.name": "Havuç Turşusu",
+	"pickles_pickled_carrots.description": "Doğal sertliğini ve tadını muhafaza etsin diye turşulanan, taze toplanmış yabani havuçlar.",
+
+    "pickles_roasted_peppers.name": "Kızarmış Kırmızı Biber",
+	"pickles_roasted_peppers.description": "Közlenip sonra da yağda tutulmuş biberler; salatalarda, sandviçlerde ve birçok yemekte kullanılabilir.",
+
+    "pickles_sauerkraut.name": "Sauerkraut",
+	"pickles_sauerkraut.description": "Baharatlarla çeşnilendirilen ve sucuk veya sandviçlerin üstüne konulan lahana turşusu.",
+
+    "pickles_mango_salsa.name": "Acılı Mango Salsası",
+	"pickles_mango_salsa.description": "Bu acılı tatlı salsa birçok deniz ürünü yemeğiyle iyi gider!",
+
+    "pickles_spicy_tomato_salsa.name": "Acılı Domates Salsası",
+	"pickles_spicy_tomato_salsa.description": "Yazın yetişen acılı biberleri sevenlere özel yapılmış bir salsa.",
+
+    "pickles_sundried_tomatoes.name": "Güneşte Kurumuş Domatesler",
+	"pickles_sundried_tomatoes.description": "Güneş altında saatlerce kurutulup sonra yağda otlarla bekletilen, salatalar veya makarna yemeklerinin üstüne konulan domatesler.",
+
+    "pickles_basil_pesto.name": "Tatlı Reyhan Pesto",
+	"pickles_basil_pesto.description": "Reyhan, sarımsak, zeytin yağı ve yemişlerle yapılmış klasik bir pesto. Makarna sosu veya sandviçlerde çeşni olarak kullanın!",
+
+    "pickles_tomato_corn_salsa.name": "Domatesli Mısırlı Salsa",
+	"pickles_tomato_corn_salsa.description": "Taze toplanmış domates ve mısırlar bu salsayı yaz için mükemmel bir çeşni yapıyor!"
+	
+}

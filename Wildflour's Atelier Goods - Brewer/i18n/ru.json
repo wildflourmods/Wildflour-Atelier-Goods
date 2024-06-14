@@ -1,0 +1,436 @@
+{
+
+///////////////////////
+///GENERIC ITEMS NEW //
+///////////////////////
+
+"alesxmeads_FruitAle.name": "Ароматизированный эль",
+"alesxmeads_FruitAle.description": "Насыщенный эль, приготовленный путем добавления свежих фруктов в процессе пивоварения.",
+
+"alesxmeads_FruitMead.name": "Ароматизированная медовуха",
+"alesxmeads_FruitMead.description": "Сладкая медовуха, приготовленная путем добавления свежих фруктов в процессе пивоварения.",
+
+"alesxmeads_FlowerMead.name": "Душистая медовуха",
+"alesxmeads_FlowerMead.description": "Сладкая медовуха, приготовленная путем добавления свежих цветов в процессе пивоварения.",
+
+/////////////////
+///STRINGS NEW //
+/////////////////
+
+"alesxmeads_FruitAle": "{0} эль",
+"alesxmeads_FruitMead": "{0} медовуха",
+"alesxmeads_FlowerMead": "{0} медовуха",
+
+/////////////////////////////
+// NEW MOD SUPPORTED ITEMS //
+/////////////////////////////
+
+"alesxmeads_gardenia_mead.name":"Медовуха с гарденией",
+"alesxmeads_gardenia_mead.description":"Медовый напиток со вкусом цветов гардении.",
+
+"alesxmeads_hibiscus_mead.name":"Медовуха с гибискусом",
+"alesxmeads_hibiscus_mead.description":"Медовый напиток со вкусом цветов гибискуса.",
+
+"alesxmeads_borage_mead.name":"Медовуха с бурачником",
+"alesxmeads_borage_mead.description":"Медовый напиток со вкусом цветов бурачника.",
+
+"alesxmeads_calendula_mead.name":"Медовуха с календулой",
+"alesxmeads_calendula_mead.description":"Медовый напиток со вкусом цветов календулы.",
+
+"alesxmeads_hollyhock_mead.name":"Медовуха с мальвой",
+"alesxmeads_hollyhock_mead.description":"Медовый напиток со вкусом цветов мальвы.",
+
+"alesxmeads_springpansy_mead.name":"Медовуха с фиалкой",
+"alesxmeads_springpansy_mead.description":"Медовый напиток со вкусом анютиных глазок.",
+
+"alesxmeads_orangeblossom_mead.name":"Медовуха с цветками апельсина",
+"alesxmeads_orangeblossom_mead.description":"Медовый напиток со вкусом цветов апельсина.",
+
+//////////////
+///MACHINES///
+//////////////
+
+"alesxmeads_AleKeg.name": "Бочонок эля",
+"alesxmeads_AleKeg.description": "Бочонок для производства ароматизированного эля.",
+
+"alesxmeads_MeadKeg.name": "Бочонок медовухи",
+"alesxmeads_MeadKeg.description": "Бочонок для производства ароматизированной медовухи.",
+
+///////////////////////////
+// MACHINE NOTIFICATIONS //
+///////////////////////////
+
+"alesxmeads_AleKeg_InvalidCount.message": "Требуется хмель",
+"alesxmeads_AleKeg_InvalidItem.message": "Это невозможно обработать",
+
+"alesxmeads_MeadKeg_InvalidCount.message": "Требуется мед",
+"alesxmeads_MeadKeg_InvalidItem.message": "Это невозможно обработать",
+
+//////////
+///ALES///
+//////////
+
+"alesxmeads_ancient_ale.name": "Древний лагер",
+"alesxmeads_ancient_ale.description": "Мистический, волшебный и вкусный.",
+
+"alesxmeads_apple_ale.name": "Яблочный пильзнер",
+"alesxmeads_apple_ale.description": "Яблоки хрустящие и свежие, как опавшие листья.",
+
+"alesxmeads_apricot_ale.name": "Абрикосовый эль",
+"alesxmeads_apricot_ale.description": "Терпкий и слегка сладкий, идеальный эль для весны.",
+
+"alesxmeads_banana_ale.name": "Овсяно-банановый стаут",
+"alesxmeads_banana_ale.description": "Сладкий и теплый, как кусочек бананового хлеба.",
+
+"alesxmeads_blackberry_ale.name": "Ежевичный стаут",
+"alesxmeads_blackberry_ale.description": "насыщенное крепкое пиво, содержащее лучшую летнюю ежевику.",
+
+"alesxmeads_blueberry_ale.name": "Черничный эль",
+"alesxmeads_blueberry_ale.description": "Сладкий эль, напоминающий свежеиспеченный черничный коблер.",
+
+"alesxmeads_cactus_ale.name": "Кактусовый эль",
+"alesxmeads_cactus_ale.description": "Особый напиток из пустыни Калико",
+
+"alesxmeads_cherry_ale.name": "Кислый вишневый эль",
+"alesxmeads_cherry_ale.description": "Терпкость и сладость идеально сбалансированы в одном эле",
+
+"alesxmeads_coconut_ale.name": "Стаут с кокосовым молоком",
+"alesxmeads_coconut_ale.description": "Идеальный напиток, если вы любите Пина Коладу, но у вас сложные отношения с текилой.",
+
+"alesxmeads_cranberry_ale.name": "Клюквенный пейл-эль",
+"alesxmeads_cranberry_ale.description": "Идеально подходит для праздничного ужина.",
+
+"alesxmeads_crystal_ale.name": "Кристальный лагер",
+"alesxmeads_crystal_ale.description": "Эль, прохладный и освежающий, напоминает только что выпавший снег.",
+
+"alesxmeads_mango_ale.name": "Манговый лагер",
+"alesxmeads_mango_ale.description": "Фирменное пиво пляжного бара Гаса.",
+
+"alesxmeads_melon_ale.name": "Дынный пейл-эль",
+"alesxmeads_melon_ale.description": "Идеальный эль, которым можно освежиться в теплое лето.",
+
+"alesxmeads_orange_ale.name": "Апельсиновый пильзнер",
+"alesxmeads_orange_ale.description": "Это напоминает апельсиновый крем.",
+
+"alesxmeads_peach_ale.name": "Персиковый стаут",
+"alesxmeads_peach_ale.description": "Сладкий, как персики со сливками.",
+
+"alesxmeads_pineapple_ale.name": "Ананасовый пейл-эль",
+"alesxmeads_pineapple_ale.description": "Идеально подходит для летнего дня на пляже.",
+
+"alesxmeads_pomegranate_ale.name": "Гранатовый эль",
+"alesxmeads_pomegranate_ale.description": "Сладкий и терпкий, легенда гласит, что это был любимый эль Персефоны.",
+
+"alesxmeads_pumpkin_ale.name": "Тыквенный эль со специями",
+"alesxmeads_pumpkin_ale.description": "Тыква, специи, клен, пиво... как то можно не любить?",
+
+"alesxmeads_salmonberry_ale.name": "Эль с морошкой",
+"alesxmeads_salmonberry_ale.description": "Способ освежить всю эту морошку.",
+
+"alesxmeads_spiced_ale.name": "Портер с пряностями",
+"alesxmeads_spiced_ale.description": "Хотя ягоды собирают летом, это теплое, пряное пиво лучше всего подавать в прохладные осенние месяцы",
+
+"alesxmeads_starfruit_ale.name": "Эль с карамболой",
+"alesxmeads_starfruit_ale.description": "Золотистый эль, идеально подходящий для летнего Луау.",
+
+"alesxmeads_strawberry_ale.name": "Клубничный портер",
+"alesxmeads_strawberry_ale.description": "Никто не сможет устоять перед вкусом клубничного бисквита.",
+
+"alesxmeads_gem_ale.name": "Сладкий лагер",
+"alesxmeads_gem_ale.description": "Любимчик старого мастера Канноли.",
+
+"alesxmeads_plum_ale.name": "Сливовый стаут",
+"alesxmeads_plum_ale.description": "Пейте быстрее, иначе он станет черносливом.", 
+
+//PPJA ALES
+
+"alesxmeads_honeycrisp_apple_ale.name": "Пейл-эль Ханикрисп",
+"alesxmeads_honeycrisp_apple_ale.description": "Терпкий осенний индийский пейл-эль.",
+
+"alesxmeads_dragonfruit_ale.name": "Эль с драконьим фруктом",
+"alesxmeads_dragonfruit_ale.description": "Летний эль из пустыни Калико.",
+
+"alesxmeads_fig_ale.name": "Инжирный стаут",
+"alesxmeads_fig_ale.description": "Лучше всего сочетать с инжирным пудингом и хорошей праздничной песней.",
+
+"alesxmeads_grapefruit_ale.name": "Грейпфрутовый пейл-эль",
+"alesxmeads_grapefruit_ale.description": "Терпкий цитрусовый индийский пейл-эль.",
+
+"alesxmeads_lemon_ale.name": "Лимонное пшеничное пиво",
+"alesxmeads_lemon_ale.description": "Напоминает лимонад, но лучше!",
+
+"alesxmeads_lime_ale.name": "Лаймовое пшеничное пиво",
+"alesxmeads_lime_ale.description": "Насыщенный, цитрусовый напиток, идеально подходящий для лета.",
+
+"alesxmeads_lychee_ale.name": "Эль с личи",
+"alesxmeads_lychee_ale.description": "Сладкий, слегка цветочный и кисловатый.",
+
+"alesxmeads_papaya_ale.name": "Эль с папайей",
+"alesxmeads_papaya_ale.description": "Один из специально разработанных сортов эля от Сэнди.",
+
+"alesxmeads_pear_ale.name": "Грушевый пильзнер",
+"alesxmeads_pear_ale.description": "Легкое и свежее пиво.",
+
+"alesxmeads_persimmon_ale.name": "Эль с хурмой",
+"alesxmeads_persimmon_ale.description": "Эль с нежным вкусом, напоминающим мед и дыню.",
+
+"alesxmeads_pomelo_ale.name": "Эль с помело",
+"alesxmeads_pomelo_ale.description": "По вкусу напоминает грейпфрут, но слаще.", 
+
+//WILD FOOD ALES
+
+"alesxmeads_vanilla_ale.name": "Стаут с ванилью Калико",
+"alesxmeads_vanilla_ale.description": "Сладкий, теплый эль, который согреет прохладным вечером.",
+
+"alesxmeads_petite_lemon_ale.name": "Сладкий лимонный стаут",
+"alesxmeads_petite_lemon_ale.description": "В отличие от пшеничного пива, вкус лимона в этом эле сливочный и сладкий, почти как у десерта.",
+
+"alesxmeads_petite_lime_ale.name": "Сладкий лаймовый стаут",
+"alesxmeads_petite_lime_ale.description": "В отличие от пшеничного пива, вкус лайма в этом эле сливочный и сладкий, почти как у десерта.",
+
+"alesxmeads_wild_raspberry_ale.name": "Эль с дикой малиной",
+"alesxmeads_wild_raspberry_ale.description": "Эль, приготовленный из свежесобранной малины; настоящее летнее лакомство.",
+
+"alesxmeads_wild_strawberry_ale.name": "Эль с дикой клубникой",
+"alesxmeads_wild_strawberry_ale.description": "Эль, приготовленный из свежесобранной клубники; настоящее весеннее лакомство.", 
+
+//PIXIE FORAGE ALES
+
+"alesxmeads_ambrosia_apple_ale.name": "Эль \"Амброзия\"",
+"alesxmeads_ambrosia_apple_ale.description": "Особый эль, сваренный народом фей Фернгилла в честь дня осеннего равноденствия.",
+
+"alesxmeads_moongold_apricot_ale.name": "Эль Лунного золота",
+"alesxmeads_moongold_apricot_ale.description": "Особый эль, сваренный народом фей Фернгилла в честь дня весеннего равноденствия.",
+
+"alesxmeads_ladyfinger_banana_ale.name": "Эль \"Дамские пальчики\"",
+"alesxmeads_ladyfinger_banana_ale.description": "Особый эль, сваренный народом фей Имбирного острова в честь летнего солнцестояния.",
+
+"alesxmeads_sour_cherry_ale.name": "Галактический эль",
+"alesxmeads_sour_cherry_ale.description": "Особый эль, сваренный народом фей Фернгилла в честь дня весеннего равноденствия.",
+
+"alesxmeads_sunset_mango_ale.name": "Закатный эль",
+"alesxmeads_sunset_mango_ale.description": "Особый эль, сваренный народом фей Имбирного острова в честь летнего солнцестояния.",
+
+"alesxmeads_blood_orange_ale.name": "Кровавый эль",
+"alesxmeads_blood_orange_ale.description": "Особый эль, сваренный народом фей Фернгилла в честь летнего солнцестояния.",
+
+"alesxmeads_snow_peach_ale.name": "Эль \"Снежная красавица\"",
+"alesxmeads_snow_peach_ale.description": "Особый эль, сваренный народом фей Фернгилла в честь летнего солнцестояния.",
+
+"alesxmeads_eversweet_pomegranate_ale.name": "Вечносладкий эль",
+"alesxmeads_eversweet_pomegranate_ale.description": "Особый эль, сваренный народом фей Фернгилла в честь дня осеннего равноденствия.",
+
+///////////
+///MEADS///
+///////////
+
+//BASE GAME
+
+"alesxmeads_ancient_mead.name": "Древняя медовуха",
+"alesxmeads_ancient_mead.description": "Теплая и уютная — ее вкус наполняет вас странными, волшебными ощущениями.",
+
+"alesxmeads_apple_mead.name": "Яблочная медовуха",
+"alesxmeads_apple_mead.description": "Теплая и уютная — ее вкус наполняет вас мыслями о прохладных осенних вечерах.",
+
+"alesxmeads_apricot_mead.name": "Весенняя абрикосовая медовуха",
+"alesxmeads_apricot_mead.description": "Сладкая весенняя медовуха, которой можно насладиться под цветущим деревом.",
+
+"alesxmeads_banana_mead.name": "Банановая медовуха",
+"alesxmeads_banana_mead.description": "Если бы банановый хлеб готовили пчелы, он бы имел такой вкус.",
+
+"alesxmeads_blackberry_mead.name": "Ежевичная медовуха",
+"alesxmeads_blackberry_mead.description": "Сладкая, терпкая медовуха, вдохновленная сбором диких ягод.",
+
+"alesxmeads_blueberry_mead.name": "Черничный коблер",
+"alesxmeads_blueberry_mead.description": "До этого момента вы не знали, что вам понравится жидкий черничный пирог.",
+
+"alesxmeads_cactus_mead.name": "Кактусовая медовуха",
+"alesxmeads_cactus_mead.description": "Фирменный напиток из пустыни Калико",
+
+"alesxmeads_cherry_mead.name": "Сладкая вишнёвая медовуха",
+"alesxmeads_cherry_mead.description": "Сладкая и терпкая, ей лучше всего наслаждаться, наблюдая за цветением сакуры.",
+
+"alesxmeads_coconut_mead.name": "Тропическая кокосовая медовуха",
+"alesxmeads_coconut_mead.description": "Все сходят с ума от этой кокосово-ореховой медовухи!",
+
+"alesxmeads_cranberry_mead.name": "Праздничная клюквенная медовуха",
+"alesxmeads_cranberry_mead.description": "Кислая и освежающая осенняя медовуха.",
+
+"alesxmeads_crystal_mead.name": "Кристальная медовуха",
+"alesxmeads_crystal_mead.description": "Идеальная медовуха для Пира Зимней Звезды.",
+
+"alesxmeads_mango_mead.name": "Островная манговая медовуха",
+"alesxmeads_mango_mead.description": "Особенная медовуха с Имбирного острова",
+
+"alesxmeads_melon_mead.name": "Летняя дынная медовуха",
+"alesxmeads_melon_mead.description": "Эта приятная розовая медовуха идеально подходит для любого летнего вечера.",
+
+"alesxmeads_orange_mead.name": "Сливочно-апельсиновая медовуха",
+"alesxmeads_orange_mead.description": "Яркая цитрусовая медовуха, напоминающая Мимозу.",
+
+"alesxmeads_peach_mead.name": "Сливочно-персиковая медовуха",
+"alesxmeads_peach_mead.description": "Сладкая и летняя.",
+
+"alesxmeads_pineapple_mead.name": "Ананасовая медовуха птиц",
+"alesxmeads_pineapple_mead.description": "Секретный рецепт тщательно охраняется попугаями Имбирного острова.",
+
+"alesxmeads_pomegranate_mead.name": "Сладкая гранатовая медовуха",
+"alesxmeads_pomegranate_mead.description": "Идеальная медовуха, которую можно поднять в честь Дня Всех Духов.",
+
+"alesxmeads_salmonberry_mead.name": "Медовуха с морошкой",
+"alesxmeads_salmonberry_mead.description": "Слегка сладкая медовуха, приготовленная из ягод морошки.",
+
+"alesxmeads_spiced_mead.name": "Пряная медовуха",
+"alesxmeads_spiced_mead.description": "Согревающая медовуха, идеально подходящая для прохладного вечера.",
+
+"alesxmeads_starfruit_mead.name": "Медовуха с карамболой",
+"alesxmeads_starfruit_mead.description": "Медовуху золотистого цвета лучше всего пить летом, наблюдая за звездами.",
+
+"alesxmeads_strawberry_mead.name": "Клубничная медовуха",
+"alesxmeads_strawberry_mead.description": "Это напоминает клубничный молочный коктейль, только лучше.",
+
+"alesxmeads_gem_mead.name": "Сладкая медовуха",
+"alesxmeads_gem_mead.description": "Волшебная медовуха, по слухам, созданная джунимо, живущими в тайном лесу.",
+
+"alesxmeads_plum_mead.name": "Осенняя сливовая медовуха",
+"alesxmeads_plum_mead.description": "Сладкий осенний сорт медовухи", 
+
+//cornucopia_mead
+
+"alesxmeads_dragon_mead.name": "Драконья медовуха",
+"alesxmeads_dragon_mead.description": "При создании этой медовухи ни один дракон не пострадал.",
+
+"alesxmeads_fig_mead.name": "Зимняя инжирная медовуха",
+"alesxmeads_fig_mead.description": "Хорошо сочетается с козьим сыром!",
+
+"alesxmeads_grapefruit_mead.name": "Горько-сладкая грейпфрутовая медовуха",
+"alesxmeads_grapefruit_mead.description": "Несколько терпкая медовуха.",
+
+"alesxmeads_lemon_mead.name": "Лимонно-зефирная медовуха",
+"alesxmeads_lemon_mead.description": "Вкус этой медовухи напоминает о знаменитых лимонных пирогах вашей мамы.",
+
+"alesxmeads_lime_mead.name": "Лаймовая медовуха",
+"alesxmeads_lime_mead.description": "Цингу не предотвращает, но имеет восхитительный вкус.",
+
+"alesxmeads_lychee_mead.name": "Медовуха с личи",
+"alesxmeads_lychee_mead.description": "Сладкая и слегка цветочная медовуха",
+
+"alesxmeads_papaya_mead.name": "Медовуха с папайей",
+"alesxmeads_papaya_mead.description": "Еще один из специально разработанных напитков от Сэнди.",
+
+"alesxmeads_pear_mead.name": "Грушевая медовуха",
+"alesxmeads_pear_mead.description": "Груша хрустящая и терпкая.",
+
+"alesxmeads_persimmon_mead.name": "Медовуха с хурмой",
+"alesxmeads_persimmon_mead.description": "Может быть, Шляпная Мышь не откажется выпить?",
+
+"alesxmeads_pomelo_mead.name": "Медовуха с помело",
+"alesxmeads_pomelo_mead.description": "Цитрусовая медовуха, способная скрасить даже самые унылые зимние дни.", 
+
+//WILD FOOD Mead
+
+"alesxmeads_vanilla_mead.name": "Медовуха с ванилью Калико",
+"alesxmeads_vanilla_mead.description": "Медовуха, приготовленная из меда на основе цветов ванили Калико.",
+
+"alesxmeads_cinnamon_mead.name": "Сладкая медовуха с корицей",
+"alesxmeads_cinnamon_mead.description": "Медовуха, приготовленная из меда на основе корицы Синдерсэпа.",
+
+"alesxmeads_chamomile_mead.name": "Медовуха с лесной ромашкой",
+"alesxmeads_chamomile_mead.description": "Медовуха, приготовленная из меда на основе цветов лесной ромашки.",
+
+"alesxmeads_lavender_mead.name": "Медовуха с лесной лавандой",
+"alesxmeads_lavender_mead.description": "Медовуха, приготовленная из меда на основе цветов лесной лаваны.",
+
+"alesxmeads_mallow_mead.name": "Медовуха с алтеем",
+"alesxmeads_mallow_mead.description": "Медовуха, приготовленная из меда на основе цветов алтея.",
+
+"alesxmeads_petite_lemon_mead.name": "Медовуха с мини-лимоном",
+"alesxmeads_petite_lemon_mead.description": "Медовуха, приготовленная из меда на основе цветов лимонного дерева.",
+
+"alesxmeads_petite_lime_mead.name": "Медовуха с мини-лаймом",
+"alesxmeads_petite_lime_mead.description": "Медовуха, приготовленная из меда на основе цветов лаймового дерева.",
+
+"alesxmeads_sakura_mead.name": "Медовуха с лепестками сакуры",
+"alesxmeads_sakura_mead.description": "Медовуха, приготовленная из меда на основе цветов вишни.",
+
+"alesxmeads_wild_raspberry_mead.name": "Сладкая малиновая медовуха",
+"alesxmeads_wild_raspberry_mead.description": "Медовуха, приготовленная из меда на основе цветов дикой малины.",
+
+"alesxmeads_wild_strawberry_mead.name": "Сливочно-клубничная медовуха",
+"alesxmeads_wild_strawberry_mead.description": "Медовуха, приготовленная из меда на основе цветов дикой клубники.", 
+
+//PIXIE FORAGE MEAD
+
+"alesxmeads_ambrosia_apple_mead.name": "Медовуха \"Амброзия\"",
+"alesxmeads_ambrosia_apple_mead.description": "Медовуха, сделанная специально для народа фей; легенда гласит, что если человек выпьет ее, он сможет поговорить с волшебными существами.",
+
+"alesxmeads_moongold_apricot_mead.name": "Медовуха Лунного Золота",
+"alesxmeads_moongold_apricot_mead.description": "Медовуха, сделанная специально для народа фей; легенда гласит, что если человек выпьет ее, он сможет поговорить с волшебными существами.",
+
+"alesxmeads_ladyfinger_banana_mead.name": "Медовуха \"Дамские пальчики\"",
+"alesxmeads_ladyfinger_banana_mead.description": "Медовуха, сделанная специально для народа фей; легенда гласит, что если человек выпьет ее, он сможет поговорить с волшебными существами.",
+
+"alesxmeads_sour_cherry_mead.name": "Галактическая медовуха",
+"alesxmeads_sour_cherry_mead.description": "Медовуха, сделанная специально для народа фей; легенда гласит, что если человек выпьет ее, он сможет поговорить с волшебными существами.",
+
+"alesxmeads_sunset_mango_mead.name": "Закатная медовуха",
+"alesxmeads_sunset_mango_mead.description": "Медовуха, сделанная специально для народа фей; легенда гласит, что если человек выпьет ее, он сможет поговорить с волшебными существами.",
+
+"alesxmeads_blood_orange_mead.name": "Кровавая медовуха",
+"alesxmeads_blood_orange_mead.description": "Медовуха, сделанная специально для народа фей; легенда гласит, что если человек выпьет ее, он сможет поговорить с волшебными существами.",
+
+"alesxmeads_snow_peach_mead.name": "Медовуха \"Снежная красавица\"",
+"alesxmeads_snow_peach_mead.description": "Медовуха, сделанная специально для народа фей; легенда гласит, что если человек выпьет ее, он сможет поговорить с волшебными существами.",
+
+"alesxmeads_eversweet_pomegranate_mead.name": "Вечносладкая медовуха",
+"alesxmeads_eversweet_pomegranate_mead.description": "Медовуха, сделанная специально для народа фей; легенда гласит, что если человек выпьет ее, он сможет поговорить с волшебными существами.",
+
+"alesxmeads_cake_mead.name": "Кексовая медовуха",
+"alesxmeads_cake_mead.description": "Медовуха из волшебных цветов; на вкус она странно напоминает ванильный торт.",
+
+"alesxmeads_caramel_mead.name": "Карамельная медовуха",
+"alesxmeads_caramel_mead.description": "Медовуха из волшебных цветов; на вкус она странно напоминает яблоко в карамели.",
+
+"alesxmeads_creamsicle_mead.name": "Кремовая медовуха",
+"alesxmeads_creamsicle_mead.description": "Медовуха из волшебных цветов; на вкус она странно напоминает праздничный апельсиновый торт.",
+
+"alesxmeads_custard_mead.name": "Сливочная медовуха",
+"alesxmeads_custard_mead.description": "Медовуха из волшебных цветов; на вкус она странно напоминает ванильный заварной крем.",
+
+"alesxmeads_gumdrop_mead.name": "Мармеладная медовуха",
+"alesxmeads_gumdrop_mead.description": "Медовуха из волшебных цветов; на вкус она странно напоминает фруктовые конфеты.",
+
+"alesxmeads_macaron_mead.name": "Медовуха-макарон",
+"alesxmeads_macaron_mead.description": "Медовуха из волшебных цветов; на вкус она странно напоминает миндальный макарон.",
+
+"alesxmeads_pie_mead.name": "Пироговая медовуха",
+"alesxmeads_pie_mead.description": "Медовуха из волшебных цветов; на вкус она странно напоминает черничный пирог.",
+
+"alesxmeads_sprinkle_mead.name": "Медовуха с посыпкой",
+"alesxmeads_sprinkle_mead.description": "Медовуха из волшебных цветов; на вкус она странно напоминает радужную посыпку.",
+
+"alesxmeads_sugar_mead.name": "Сахарная медовуха",
+"alesxmeads_sugar_mead.description": "Медовуха из волшебных цветов; на вкус она странно напоминает чистый сахар.",
+
+
+//////////
+///MAIL///
+//////////
+
+"alesxmeads_AleKeg.text":"@, ^^ Возможно, ты знаешь, что такое пейл-эль, но это лишь верхушка айсберга, когда дело касается качественного пива. Попробуй смастерить один из этих бочонков; возьми фрукты, хмель и готовься удивляться. Ах да, и не забудь поделиться, а?^^ - Пэм",
+
+"alesxmeads_shanegift.text":"@, ^^ Так Пэм прислала тебе чертежи нового бочонка для эля, да? Если честно, звучит очень круто. Она сказала, что тебе понадобится дубовая смола, поэтому я решил прислать тебе немного, мы с Джас собрали ее в прошлом году для учебного проекта.^^ - Шейн",
+
+"alesxmeads_elliottgift.text":"@, ^^ Фирменный эль домашнего производства? Звучит совершенно потрясающе! Я не особо разбираюсь в пивоварении, но знаю, что хмель тебе пригодится! За твое здоровье!^^ - Эллиот",
+
+"alesxmeads_pierregift.text":"@, ^^ Когда я был за границей, я встретил земляка с Фернских островов. Он постоянно говорил об эле, настоянном на манго. Если тебе удастся его сварить, я бы с удовольствием попробовал.^^ - Кент",
+	
+"alesxmeads_MeadKeg.text":"@, ^^ Подумай, могут ли разные фрукты и цветы повлиять на вкус медовухи? Конечно, они могут! Попробуй смастерить один из этих бочонков для медовухи, и поразишься тем, какую медовуху можно гнать.^^ - Вилли",
+
+"alesxmeads_gusgift.text":"@, ^^ Вилли упомянул, что ты подумываешь об изготовлении фирменной медовухи! Тебе пригодится это, чтобы начать, верно?^^ - Гас",
+
+"alesxmeads_clintgift.text":"@, ^^ Привет. Письма это не для меня, но я хотел тебя поддержать, здорово, что ты пытаешься делать разную медовуху. Подумал, что это может помочь.^^ - Клинт",
+
+"alesxmeads_sandygift.text":"@, ^^ Привет, конфетка! Ты знаешь, что из плодов кактуса получается отличная медовуха? Если хочешь, можешь называть это моим фирменным напитком!^^ - Сэнди",
+
+}

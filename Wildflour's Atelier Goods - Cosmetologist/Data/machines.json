@@ -1,0 +1,2411 @@
+{
+    "Changes": [
+
+//Add Machines to Big Craftables
+
+{
+    "LogName": "Add Magic Makeup Machines to BigCraftables",
+    "Action": "EditData",
+    "Target": "Data/BigCraftables",
+    "Entries": {
+        "wildflour.ateliermakeup_CosmeticCrystal": {
+            "Name": "wildflour.ateliermakeup_CosmeticCrystal",
+            "DisplayName": "{{i18n: ateliermakeup_CosmeticCrystal.name}}",
+            "Description": "{{i18n: ateliermakeup_CosmeticCrystal.description}}",
+            "Price": 50,
+            "Fragility": 0,
+            "CanBePlacedOutdoors": true,
+            "CanBePlacedIndoors": true,
+            "IsLamp": false,
+            "Texture": "Mods\\wildflour.ateliermakeup\\Machines_{{MachineColorConfig}}",
+            "SpriteIndex": 0,
+            "CustomFields": {}
+          },
+     
+    }
+},
+
+//Machine Rules for Output
+
+{
+    "LogName": "Add Magic Makeup Rules",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "Entries": {
+        "(BC)wildflour.ateliermakeup_CosmeticCrystal": {
+            "OutputRules": [
+                {
+                    "Id": "wildflour.ateliermakeup_archmage_polish",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)563",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_archmage_polish",
+                            "ItemId": "(O)wildflour.ateliermakeup_archmage_polish",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_harvest_goddess_polish",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)562",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_harvest_goddess_polish",
+                            "ItemId": "(O)wildflour.ateliermakeup_harvest_goddess_polish",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_hedgewitch_polish",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)548",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_hedgewitch_polish",
+                            "ItemId": "(O)wildflour.ateliermakeup_hedgewitch_polish",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_ice_queen_polish",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)566",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_ice_queen_polish",
+                            "ItemId": "(O)wildflour.ateliermakeup_ice_queen_polish",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_lady_lake_polish",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)550",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_lady_lake_polish",
+                            "ItemId": "(O)wildflour.ateliermakeup_lady_lake_polish",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_little_mermaid_polish",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)545",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_little_mermaid_polish",
+                            "ItemId": "(O)wildflour.ateliermakeup_little_mermaid_polish",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_pretty_princess_polish",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)555",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_pretty_princess_polish",
+                            "ItemId": "(O)wildflour.ateliermakeup_pretty_princess_polish",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_spring_goddess_polish",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)543",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_spring_goddess_polish",
+                            "ItemId": "(O)wildflour.ateliermakeup_spring_goddess_polish",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_sweet_sorceress_polish",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)542",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_sweet_sorceress_polish",
+                            "ItemId": "(O)wildflour.ateliermakeup_sweet_sorceress_polish",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_wise_warlock_polish",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)558",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_wise_warlock_polish",
+                            "ItemId": "(O)wildflour.ateliermakeup_wise_warlock_polish",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_aquarius_lotion",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)62",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_aquarius_lotion",
+                            "ItemId": "(O)wildflour.ateliermakeup_aquarius_lotion",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_aries_lotion",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)547",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_aries_lotion",
+                            "ItemId": "(O)wildflour.ateliermakeup_aries_lotion",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_cancer_lotion",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)560",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_cancer_lotion",
+                            "ItemId": "(O)wildflour.ateliermakeup_cancer_lotion",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_capricorn_lotion",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)60",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_capricorn_lotion",
+                            "ItemId": "(O)wildflour.ateliermakeup_capricorn_lotion",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_gemini_lotion",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)546",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_gemini_lotion",
+                            "ItemId": "(O)wildflour.ateliermakeup_gemini_lotion",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_leo_lotion",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)554",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_leo_lotion",
+                            "ItemId": "(O)wildflour.ateliermakeup_leo_lotion",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_libra_lotion",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)573",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_libra_lotion",
+                            "ItemId": "(O)wildflour.ateliermakeup_libra_lotion",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_pisces_lotion",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)572",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_pisces_lotion",
+                            "ItemId": "(O)wildflour.ateliermakeup_pisces_lotion",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_sagittarius_lotion",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)559",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_sagittarius_lotion",
+                            "ItemId": "(O)wildflour.ateliermakeup_sagittarius_lotion",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_scorpio_lotion",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)574",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_scorpio_lotion",
+                            "ItemId": "(O)wildflour.ateliermakeup_scorpio_lotion",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_taurus_lotion",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)539",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_taurus_lotion",
+                            "ItemId": "(O)wildflour.ateliermakeup_taurus_lotion",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_virgo_lotion",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)552",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_virgo_lotion",
+                            "ItemId": "(O)wildflour.ateliermakeup_virgo_lotion",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_envy_blush",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)568",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_envy_blush",
+                            "ItemId": "(O)wildflour.ateliermakeup_envy_blush",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_gluttony_blush",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)540",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_gluttony_blush",
+                            "ItemId": "(O)wildflour.ateliermakeup_gluttony_blush",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_greed_blush",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)64",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_greed_blush",
+                            "ItemId": "(O)wildflour.ateliermakeup_greed_blush",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_lust_blush",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)578",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_lust_blush",
+                            "ItemId": "(O)wildflour.ateliermakeup_lust_blush",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_pride_blush",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)556",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_pride_blush",
+                            "ItemId": "(O)wildflour.ateliermakeup_pride_blush",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_sloth_blush",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)577",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_sloth_blush",
+                            "ItemId": "(O)wildflour.ateliermakeup_sloth_blush",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_wrath_blush",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)848",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_wrath_blush",
+                            "ItemId": "(O)wildflour.ateliermakeup_wrath_blush",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_air_cleanser",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)80",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_air_cleanser",
+                            "ItemId": "(O)wildflour.ateliermakeup_air_cleanser",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_earth_cleanser",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)86",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_earth_cleanser",
+                            "ItemId": "(O)wildflour.ateliermakeup_earth_cleanser",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_fire_cleanser",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)82",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_fire_cleanser",
+                            "ItemId": "(O)wildflour.ateliermakeup_fire_cleanser",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_water_cleanser",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)84",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_water_cleanser",
+                            "ItemId": "(O)wildflour.ateliermakeup_water_cleanser",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_brightening_powder",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)74",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_brightening_powder",
+                            "ItemId": "(O)wildflour.ateliermakeup_brightening_powder",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_bronzing_powder",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)768",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_bronzing_powder",
+                            "ItemId": "(O)wildflour.ateliermakeup_bronzing_powder",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_concealing_powder",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)561",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_concealing_powder",
+                            "ItemId": "(O)wildflour.ateliermakeup_concealing_powder",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_illusion_powder",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)557",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_illusion_powder",
+                            "ItemId": "(O)wildflour.ateliermakeup_illusion_powder",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_mysterious_powder",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)564",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_mysterious_powder",
+                            "ItemId": "(O)wildflour.ateliermakeup_mysterious_powder",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_refreshing_powder",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)575",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_refreshing_powder",
+                            "ItemId": "(O)wildflour.ateliermakeup_refreshing_powder",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_dawn_lipstick",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)68",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_dawn_lipstick",
+                            "ItemId": "(O)wildflour.ateliermakeup_dawn_lipstick",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_dusk_lipstick",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)70",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_dusk_lipstick",
+                            "ItemId": "(O)wildflour.ateliermakeup_dusk_lipstick",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_lunar_lipstick",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)551",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_lunar_lipstick",
+                            "ItemId": "(O)wildflour.ateliermakeup_lunar_lipstick",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_midnight_lipstick",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)66",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_midnight_lipstick",
+                            "ItemId": "(O)wildflour.ateliermakeup_midnight_lipstick",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_solar_lipstick",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)541",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_solar_lipstick",
+                            "ItemId": "(O)wildflour.ateliermakeup_solar_lipstick",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_stellar_lipstick",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)72",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_stellar_lipstick",
+                            "ItemId": "(O)wildflour.ateliermakeup_stellar_lipstick",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_twilight_lipstick",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)569",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_twilight_lipstick",
+                            "ItemId": "(O)wildflour.ateliermakeup_twilight_lipstick",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_earth_lipgloss",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)544",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_earth_lipgloss",
+                            "ItemId": "(O)wildflour.ateliermakeup_earth_lipgloss",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_jupiter_lipgloss",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)386",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_jupiter_lipgloss",
+                            "ItemId": "(O)wildflour.ateliermakeup_jupiter_lipgloss",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_mars_lipgloss",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)570",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_mars_lipgloss",
+                            "ItemId": "(O)wildflour.ateliermakeup_mars_lipgloss",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_mercury_lipgloss",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)565",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_mercury_lipgloss",
+                            "ItemId": "(O)wildflour.ateliermakeup_mercury_lipgloss",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_neptune_lipgloss",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)553",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_neptune_lipgloss",
+                            "ItemId": "(O)wildflour.ateliermakeup_neptune_lipgloss",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_pluto_lipgloss",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)576",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_pluto_lipgloss",
+                            "ItemId": "(O)wildflour.ateliermakeup_pluto_lipgloss",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_saturn_lipgloss",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)571",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_saturn_lipgloss",
+                            "ItemId": "(O)wildflour.ateliermakeup_saturn_lipgloss",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_uranus_lipgloss",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)567",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_uranus_lipgloss",
+                            "ItemId": "(O)wildflour.ateliermakeup_uranus_lipgloss",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_venus_lipgloss",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)549",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_venus_lipgloss",
+                            "ItemId": "(O)wildflour.ateliermakeup_venus_lipgloss",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_black_cat_mascara",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)382",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_black_cat_mascara",
+                            "ItemId": "(O)wildflour.ateliermakeup_black_cat_mascara",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_goblin_gaze_mascara",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)769",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_goblin_gaze_mascara",
+                            "ItemId": "(O)wildflour.ateliermakeup_goblin_gaze_mascara",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_brush",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)771",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_brush",
+                            "ItemId": "(O)wildflour.ateliermakeup_brush",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_blues_palette",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)394",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_blues_palette",
+                            "ItemId": "(O)wildflour.ateliermakeup_blues_palette",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_fall_palette",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)497",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_fall_palette",
+                            "ItemId": "(O)wildflour.ateliermakeup_fall_palette",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_greens_palette",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)152",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_greens_palette",
+                            "ItemId": "(O)wildflour.ateliermakeup_greens_palette",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_pinks_palette",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)393",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_pinks_palette",
+                            "ItemId": "(O)wildflour.ateliermakeup_pinks_palette",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_purples_palette",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)397",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_purples_palette",
+                            "ItemId": "(O)wildflour.ateliermakeup_purples_palette",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_spring_palette",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)495",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_spring_palette",
+                            "ItemId": "(O)wildflour.ateliermakeup_spring_palette",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_summer_palette",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)496",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_summer_palette",
+                            "ItemId": "(O)wildflour.ateliermakeup_summer_palette",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_winter_palette",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)498",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_winter_palette",
+                            "ItemId": "(O)wildflour.ateliermakeup_winter_palette",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_faerie_fire",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)420",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_faerie_fire",
+                            "ItemId": "(O)wildflour.ateliermakeup_faerie_fire",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_forest_echo",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)281",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_forest_echo",
+                            "ItemId": "(O)wildflour.ateliermakeup_forest_echo",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_frostbite",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)414",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_frostbite",
+                            "ItemId": "(O)wildflour.ateliermakeup_frostbite",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_lightning_strike",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)422",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_lightning_strike",
+                            "ItemId": "(O)wildflour.ateliermakeup_lightning_strike",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_maelstrom",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)402",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_maelstrom",
+                            "ItemId": "(O)wildflour.ateliermakeup_maelstrom",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_misty_step",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)418",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_misty_step",
+                            "ItemId": "(O)wildflour.ateliermakeup_misty_step",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_morning_dew",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)22",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_morning_dew",
+                            "ItemId": "(O)wildflour.ateliermakeup_morning_dew",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_thunderclap",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)259",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_thunderclap",
+                            "ItemId": "(O)wildflour.ateliermakeup_thunderclap",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_whirlwind",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)18",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_whirlwind",
+                            "ItemId": "(O)wildflour.ateliermakeup_whirlwind",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_amber_polish",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Lumisteria.MtVapius_Amber",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_amber_polish",
+                            "ItemId": "(O)wildflour.ateliermakeup_amber_polish",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_demantoide_lotion",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Lumisteria.MtVapius_Demantoide",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_demantoide_lotion",
+                            "ItemId": "(O)wildflour.ateliermakeup_demantoide_lotion",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_carnelian_blush",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Lumisteria.MtVapius_Carnelian",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_carnelian_blush",
+                            "ItemId": "(O)wildflour.ateliermakeup_carnelian_blush",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_turquoise_cleanser",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Lumisteria.MtVapius_Turquoise",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_turquoise_cleanser",
+                            "ItemId": "(O)wildflour.ateliermakeup_turquoise_cleanser",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_garnet_powder",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Lumisteria.MtVapius_Garnet",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_garnet_powder",
+                            "ItemId": "(O)wildflour.ateliermakeup_garnet_powder",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_morganite_lipstick",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Lumisteria.MtVapius_Morganite",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_morganite_lipstick",
+                            "ItemId": "(O)wildflour.ateliermakeup_morganite_lipstick",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_heliodor_lipgloss",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Lumisteria.MtVapius_Heliodor",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_heliodor_lipgloss",
+                            "ItemId": "(O)wildflour.ateliermakeup_heliodor_lipgloss",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_labradorite_mascara",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Lumisteria.MtVapius_Labradorite",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_labradorite_mascara",
+                            "ItemId": "(O)wildflour.ateliermakeup_labradorite_mascara",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_void_palette",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Lumisteria.MtVapius_VoidDiamond",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_void_palette",
+                            "ItemId": "(O)wildflour.ateliermakeup_void_palette",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_tourmaline_perfume",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Lumisteria.MtVapius_Tourmaline",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_tourmaline_perfume",
+                            "ItemId": "(O)wildflour.ateliermakeup_tourmaline_perfume",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_larimar_perfume",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Lumisteria.MtVapius_Larimar",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_larimar_perfume",
+                            "ItemId": "(O)wildflour.ateliermakeup_larimar_perfume",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+                {
+                    "Id": "wildflour.ateliermakeup_blue_agathe_perfume",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Lumisteria.MtVapius_BlueAgathe",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "wildflour.ateliermakeup_blue_agathe_perfume",
+                            "ItemId": "(O)wildflour.ateliermakeup_blue_agathe_perfume",
+                            "CopyQuality":true,
+                            "CopyPrice": true,
+                            "PriceModifiers": 
+                            [
+                               
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 2.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1400
+                },
+            ],
+            "AdditionalConsumedItems":[
+                {
+                    "ItemId":"(O)Moss",
+                    "RequiredCount": 1,
+                    "InvalidCountMessage":"{{i18n:ateliermakeup_CosmeticCrystal_InvalidCount.message}}"
+                }
+            ],
+            "InvalidItemMessage":"{{i18n:ateliermakeup_CosmeticCrystal_InvalidItem.message}}",
+            "ShowNextIndexWhileWorking":false,
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "WorkingEffects":[
+                {
+                    "Frames":[1,2,3,4,5,6],
+                    "Interval":200
+                }
+           ] 
+        }
+    
+      
+    }
+}
+   
+
+]
+}

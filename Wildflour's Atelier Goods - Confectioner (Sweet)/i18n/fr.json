@@ -1,0 +1,290 @@
+{
+
+	//////////////
+	// MACHINES //
+	//////////////
+
+	"ateliercandy_GumballMachine.name": "Machine à bonbons",
+	"ateliercandy_GumballMachine.description": "Donne des boules de gomme et des bonbons durs.",
+
+	"ateliercandy_MarshmallowMixer.name": "Malaxeur à guimauve",
+	"ateliercandy_MarshmallowMixer.description": "Transforme des fleurs de guimauve en guimauve colorée et parfumée.",
+
+	"ateliercandy_SugarBoiler.name": "Poêlon à sucre",
+	"ateliercandy_SugarBoiler.description": "Fond le sucre à la bonne température pour faire des sucettes et des cristaux de sucre.",
+
+	///////////////////////////
+	// MACHINE NOTIFICATIONS //
+	///////////////////////////
+
+	"ateliercandy_GumballMachine_InvalidItem.message": "Ne fonctionne pas avec cela",
+	"ateliercandy_GumballMachine_InvalidCount.message": "Nécessite 1 sucre",
+
+	"ateliercandy_MarshmallowMixer_InvalidItem.message": "Ne fonctionne pas avec cela",
+	"ateliercandy_MarshmallowMixer_InvalidCount.message": "Nécessite 2 guimauves (fleur)",
+
+	"ateliercandy_SugarBoiler_InvalidItem.message": "Ne fonctionne pas avec cela",
+	"ateliercandy_SugarBoiler_InvalidCount.message": "Nécessite 1 sucre",
+
+	/////////////
+	// STRINGS //
+	/////////////
+
+	"ateliercandy_flavor_lollipop": "{0} Sucette",
+	"ateliercandy_flavor_gourmet_lollipop": "{0} Sucette gourmande",
+	"ateliercandy_flavor_gumballs": "{0} Boules de gomme",
+	"ateliercandy_flavor_crystal_candy": "{0} Cristal en sucre",
+	"ateliercandy_flavor_marshmallows": "{0} Guimauves",
+	"ateliercandy_flavor_marshmallow_pop": "{0} Guimauve torsadée",
+	"ateliercandy_flavor_hard_candy.":"{0} Bonbon",
+	"ateliercandy_flavor_fairy_floss": "{0} Barbe à papa",
+
+	////////////////////////
+	// GENERIC NAMING NEW //
+	////////////////////////
+
+	"ateliercandy_flavor_marshmallows.name":"Guimauves",
+	"ateliercandy_flavor_marshmallows.description":"Des guimauves maison incroyablement tendres.",
+
+	"ateliercandy_flavor_lollipop.name": "Sucette",
+	"ateliercandy_flavor_lollipop.description": "La friandise préférée des enfants. Du sucre facilement transportable !",
+
+	"ateliercandy_flavor_gourmet_lollipop.name": "Sucette gourmande",
+	"ateliercandy_flavor_gourmet_lollipop.description": "Cette sucette est ÉNORME. Attention à votre taux de sucre !",
+
+	"ateliercandy_flavor_gumballs.name": "Boules de gomme",
+	"ateliercandy_flavor_gumballs.description": "Des bonbons en forme de boule avec un cœur de chewing gum.",
+
+	"ateliercandy_flavor_crystal_candy.name": "Cristal en sucre",
+	"ateliercandy_flavor_crystal_candy.description": "Du sucre coloré cristallisé sur un bâtonnet. Trop beau !",
+
+	"ateliercandy_flavor_marshmallow_pop.name": "Guimauve torsadée",
+	"ateliercandy_flavor_marshmallow_pop.description": "Une guimauve de différentes couleurs et saveurs servie sur un bâton. Trop kawaii !",
+
+	"ateliercandy_flavor_hard_candy.name": "Bonbon",
+	"ateliercandy_flavor_hard_candy.description": "Un bonbon dur enveloppé dans un joli papier pastel.",
+
+	"ateliercandy_flavor_fairy_floss.name": "Barbe à papa",
+	"ateliercandy_flavor_fairy_floss.description": "De très fins filaments de sucre coloré et aromatisé. On dirait un nuage.",
+
+
+	//////////////
+	// GUMBALLS //
+	//////////////
+
+	"ateliercandy_apple_gumballs.name": "Boules de gomme à la pomme verte",
+	"ateliercandy_apple_gumballs.description": "Des bonbons à la pomme en forme de boule avec un cœur de chewing gum.",
+
+	"ateliercandy_cherry_gumballs.name": "Boules de gomme à la cerise",
+	"ateliercandy_cherry_gumballs.description": "Des bonbons à la cerise en forme de boule avec un cœur de chewing gum.",
+
+	"ateliercandy_classic_gumballs.name": "Boules de gomme classiques",
+	"ateliercandy_classic_gumballs.description": "Des bonbons en forme de boule avec un cœur de chewing gum.",
+
+	"ateliercandy_grape_gumballs.name": "Boules de gomme au raisin",
+	"ateliercandy_grape_gumballs.description": "Des bonbons au raisin en forme de boule avec un cœur de chewing gum.",
+ 
+	"ateliercandy_lemon_gumballs.name": "Boules de gomme au citron",
+	"ateliercandy_lemon_gumballs.description": "Des bonbons au citron en forme de boule avec un cœur de chewing gum.",
+
+	"ateliercandy_orange_gumballs.name": "Boules de gomme à l'orange",
+	"ateliercandy_orange_gumballs.description": "Des bonbons à l'orange en forme de boule avec un cœur de chewing gum.",
+
+	//////////////////
+	// MARSHMALLOWS //
+	//////////////////
+
+    "ateliercandy_ancient_marshmallow.name": "Guimauves à l'ancienne",
+	"ateliercandy_ancient_marshmallow.description": "Des guimauves maison incroyablement tendres.",
+
+	"ateliercandy_vanilla_marshmallow.name": "Guimauves à la vanille",
+	"ateliercandy_vanilla_marshmallow.description": "Des guimauves maison incroyablement tendres.",
+
+	"ateliercandy_coconut_marshmallow.name": "Guimauves à la noix de coco",
+	"ateliercandy_coconut_marshmallow.description": "Des guimauves maison incroyablement tendres.",
+
+	"ateliercandy_confetti_marshmallow.name": "Guimauves confetti",
+	"ateliercandy_confetti_marshmallow.description": "Des guimauves maison incroyablement tendres.",
+
+	"ateliercandy_lavender_marshmallow.name": "Guimauves à la lavande",
+	"ateliercandy_lavender_marshmallow.description": "Des guimauves maison incroyablement tendres.",
+
+	"ateliercandy_matcha_marshmallow.name": "Guimauves au thé matcha",
+	"ateliercandy_matcha_marshmallow.description": "Des guimauves maison incroyablement tendres.",
+
+	"ateliercandy_strawberry_marshmallow.name": "Guimauves à la fraise",
+	"ateliercandy_strawberry_marshmallow.description": "Des guimauves maison incroyablement tendres.",
+	
+	//////////////////////
+	// MARSHMALLOW POPS //
+	//////////////////////
+
+	"ateliercandy_ancient_mallow_pop.name": "Guimauve torsadée à l'ancienne",
+	"ateliercandy_ancient_mallow_pop.description": "Une guimauve de différentes couleurs et saveurs servie sur un bâton. Trop kawaii !",
+
+	"ateliercandy_colada_mallow_pop.name": "Guimauve torsadée Piña colada",
+	"ateliercandy_colada_mallow_pop.description": "Une guimauve de différentes couleurs et saveurs servie sur un bâton. Trop kawaii !",
+
+	"ateliercandy_candy_mallow_pop.name": "Guimauve torsadée barbe à papa",
+	"ateliercandy_candy_mallow_pop.description": "Une guimauve de différentes couleurs et saveurs servie sur un bâton. Trop kawaii !",
+
+	"ateliercandy_earlgrey_mallow_pop.name": "Guimauve torsadée au thé Earl Grey",
+	"ateliercandy_earlgrey_mallow_pop.description": "Une guimauve de différentes couleurs et saveurs servie sur un bâton. Trop kawaii !",
+
+	"ateliercandy_gem_mallow_pop.name": "Guimauve torsadée gemme",
+	"ateliercandy_gem_mallow_pop.description": "Une guimauve de différentes couleurs et saveurs servie sur un bâton. Trop kawaii !",
+
+	"ateliercandy_peach_mallow_pop.name": "Guimauve torsadée pêche et crème",
+	"ateliercandy_peach_mallow_pop.description": "Une guimauve de différentes couleurs et saveurs servie sur un bâton. Trop kawaii !",
+	
+	///////////////
+	// LOLLIPOPS //
+	///////////////
+
+	"ateliercandy_blueberry_lollipop.name": "Sucette à la myrtille",
+	"ateliercandy_blueberry_lollipop.description": "La friandise préférée des enfants. Du sucre facilement transportable !",
+
+	"ateliercandy_cherry_lollipop.name": "Sucette à la cerise",
+	"ateliercandy_cherry_lollipop.description": "La friandise préférée des enfants. Du sucre facilement transportable !",
+
+	"ateliercandy_fairy_lollipop.name": "Sucette féérique",
+	"ateliercandy_fairy_lollipop.description": "La friandise préférée des enfants. Du sucre facilement transportable !",
+
+	"ateliercandy_lemon_lollipop.name": "Sucette au citron",
+	"ateliercandy_lemon_lollipop.description": "La friandise préférée des enfants. Du sucre facilement transportable !",
+
+	"ateliercandy_slime_lollipop.name": "Sucette au slime",
+	"ateliercandy_slime_lollipop.description": "La friandise préférée des enfants... enfin, normalement. Quelqu'un a dû mal lire et confondre lime et slime...",
+
+	"ateliercandy_lime_lollipop.name": "Sucette à la lime",
+	"ateliercandy_lime_lollipop.description": "La friandise préférée des enfants. Du sucre facilement transportable !",
+
+	"ateliercandy_powdermelon_lollipop.name": "Sucre au poudremelon",
+	"ateliercandy_powdermelon_lollipop.description": "La friandise préférée des enfants. Du sucre facilement transportable !",
+
+	"ateliercandy_orange_lollipop.name": "Sucette à l'orange",
+	"ateliercandy_orange_lollipop.description": "La friandise préférée des enfants. Du sucre facilement transportable !",
+
+	"ateliercandy_raspberry_lollipop.name": "Sucette à la framboise",
+	"ateliercandy_raspberry_lollipop.description": "La friandise préférée des enfants. Du sucre facilement transportable !",
+
+	//////////////////////
+	// GOURMET LOLLIPOP //
+	//////////////////////
+
+	"ateliercandy_blueberry_gourmet_pop.name": "Sucette gourmande tarte aux myrtilles",
+	"ateliercandy_blueberry_gourmet_pop.description": "Cette sucette est ÉNORME. Attention à votre taux de sucre !",
+
+	"ateliercandy_lemon_gourmet_pop.name": "Sucette gourmande tarte citron meringuée",
+	"ateliercandy_lemon_gourmet_pop.description": "Cette sucette est ÉNORME. Attention à votre taux de sucre !",
+
+	"ateliercandy_mint_gourmet_pop.name": "Sucette gourmande menthe-vanille",
+	"ateliercandy_mint_gourmet_pop.description": "Cette sucette est ÉNORME. Attention à votre taux de sucre !",
+
+	"ateliercandy_berry_gourmet_pop.name": "Sucette gourmande baie'xquise",
+	"ateliercandy_berry_gourmet_pop.description": "Cette sucette est ÉNORME. Attention à votre taux de sucre !",
+
+	"ateliercandy_shortcake_gourmet_pop.name": "Sucette gourmande charlotte aux fraises",
+	"ateliercandy_shortcake_gourmet_pop.description": "Cette sucette est ÉNORME. Attention à votre taux de sucre !",
+
+	//////////////////
+	// HARD CANDIES //
+	//////////////////
+
+	"ateliercandy_cinnamon_candy.name": "Bonbon à la cannelle",
+	"ateliercandy_cinnamon_candy.description": "Un bonbon dur enveloppé dans un joli papier pastel.",
+
+	"ateliercandy_blue_candy.name": "Bonbon bleu cristal",
+	"ateliercandy_blue_candy.description": "Un bonbon dur enveloppé dans un joli papier pastel.",
+
+	"ateliercandy_ginger_candy.name": "Bonbon au gingembre",
+	"ateliercandy_ginger_candy.description": "Un bonbon dur enveloppé dans un joli papier pastel.",
+
+	"ateliercandy_lime_candy.name": "Bonbon au citron vert",
+	"ateliercandy_lime_candy.description": "Un bonbon dur enveloppé dans un joli papier pastel.",
+
+	"ateliercandy_orange_candy.name": "Bonbon à l'orange",
+	"ateliercandy_orange_candy.description": "Un bonbon dur enveloppé dans un joli papier pastel.",
+
+	"ateliercandy_grape_candy.name": "Bonbon au raisin",
+	"ateliercandy_grape_candy.description": "Un bonbon dur enveloppé dans un joli papier pastel.",
+
+	"ateliercandy_melon_candy.name": "Bonbon au melon",
+	"ateliercandy_melon_candy.description": "Un bonbon dur enveloppé dans un joli papier pastel.",
+
+	/////////////////
+	// FAIRY FLOSS //
+	/////////////////
+
+	"ateliercandy_classic_fairyfloss.name": "Barbe à papa",
+	"ateliercandy_classic_fairyfloss.description": "De très fins filaments de sucre coloré et aromatisé. On dirait un nuage.",
+
+	"ateliercandy_lavender_fairyfloss.name": "Barbe à papa à la lavande",
+	"ateliercandy_lavender_fairyfloss.description": "De très fins filaments de sucre coloré et aromatisé. On dirait un nuage.",
+
+	"ateliercandy_lemon_fairyfloss.name": "Barbe à papa citron meringué",
+	"ateliercandy_lemon_fairyfloss.description": "De très fins filaments de sucre coloré et aromatisé. On dirait un nuage.",
+
+	"ateliercandy_orange_fairyfloss.name": "Barbe à papa à l'orange",
+	"ateliercandy_orange_fairyfloss.description": "De très fins filaments de sucre coloré et aromatisé. On dirait un nuage.",
+
+	"ateliercandy_mint_fairyfloss.name": "Barbe à papa à la menthe",
+	"ateliercandy_mint_fairyfloss.description": "De très fins filaments de sucre coloré et aromatisé. On dirait un nuage.",
+
+	"ateliercandy_strawberry_fairyfloss.name": "Barbe à papa à la fraise",
+	"ateliercandy_strawberry_fairyfloss.description": "De très fins filaments de sucre coloré et aromatisé. On dirait un nuage.",
+
+	"ateliercandy_vanilla_fairyfloss.name": "Barbe à papa à la vanille",
+	"ateliercandy_vanilla_fairyfloss.description": "De très fins filaments de sucre coloré et aromatisé. On dirait un nuage.",
+
+	///////////////////
+	// CRYSTAL CANDY //
+	///////////////////
+
+	"ateliercandy_amethyst_rock_candy.name": "Cristal de sucre améthyste",
+	"ateliercandy_amethyst_rock_candy.description": "Du sucre coloré cristallisé sur un bâtonnet. Trop beau !",
+
+	"ateliercandy_aqua_rock_candy.name": "Cristal de sucre marine",
+	"ateliercandy_aqua_rock_candy.description": "Du sucre coloré cristallisé sur un bâtonnet. Trop beau !",
+
+	"ateliercandy_emerald_rock_candy.name": "Cristal de sucre émeraude",
+	"ateliercandy_emerald_rock_candy.description": "Du sucre coloré cristallisé sur un bâtonnet. Trop beau !",
+
+	"ateliercandy_lemon_rock_candy.name": "Cristal de sucre citron",
+	"ateliercandy_lemon_rock_candy.description": "Du sucre coloré cristallisé sur un bâtonnet. Trop beau !",
+
+	"ateliercandy_rainbow_rock_candy.name": "Cristal de sucre arc-en-ciel",
+	"ateliercandy_rainbow_rock_candy.description": "Du sucre coloré cristallisé sur un bâtonnet. Trop beau !",
+
+	"ateliercandy_ruby_rock_candy.name": "Cristal de sucre rubis",
+	"ateliercandy_ruby_rock_candy.description": "Du sucre coloré cristallisé sur un bâtonnet. Trop beau !",
+
+	"ateliercandy_starry_rock_candy.name": "Cristal de sucre étoilé",
+	"ateliercandy_starry_rock_candy.description": "Du sucre coloré cristallisé sur un bâtonnet. Trop beau !",
+
+	"ateliercandy_topaz_rock_candy.name": "Cristal de sucre topaze",
+	"ateliercandy_topaz_rock_candy.description": "Du sucre coloré cristallisé sur un bâtonnet. Trop beau !",
+
+	//////////
+	// MAIL //
+	//////////
+
+	"ateliercandy_CandyMachineRecipe.name":"Un cadeau des junimos",
+	"ateliercandy_CandyMachineRecipe.text":"Jeune @, ^^ Ne te méprends pas : je ne mange pas de bonbons. Cependant, plusieurs Junimos ont récemment décidé d'envahir ma tour et de ne pas la quitter tant que je ne t'aurais pas envoyé cette recette. J'espère retrouver un peu de paix, désormais.^^       - M. Rasmodius",
+    
+	"ateliercandy_MarshmallowMixerRecipe.name":"Opération Marshmallow",
+    "ateliercandy_MarshmallowMixerRecipe.text":"@, ^^ Ne raconte ça à personne, mais j'adore les marshmallows. Ou guimauves, je ne sais pas comment tu dis. Bref, pas pour moi, pour Jas. Elle adore les couleurs et la texture et je lui en ramène dès que je vais à Zuzu.^^ Si tu parviens à en faire ici, ce serait génial.^^       - Shane",
+    
+	"ateliercandy_SugarBoilerRecipe.name":"Pour faire bouillir du sucre",
+    "ateliercandy_SugarBoilerRecipe.text":"Bonjour @, ^^ Je faisais des bonbons maison avec ma grand-mère dans I used to make candies with my grandmother using a sugar boiler just like this; however, as I'm sure you can imagine, Vincent isn't exactly a calm child, and the idea of having him handle molten sugar scares the socks off me. Maybe you can drop off a lollipop or two with him instead? Thanks!^^ Bien à toi,^     - Jodi",
+    
+	"ateliercandy_vincent_gift.name":"Du suuuuuuucre !",
+    "ateliercandy_vincent_gift.text":"Bonjour @, ^^ Est-ce que tu arrêtes les légumes pour faire des bonbons ? Quand je serai grand, je veux être fabricant de bonbons !^ Comme hier je me promenais dans les bois et j'ai trouvé ces fruits qui ressemblent à des bonbons, je voulais les partager avec toi !^^ - Vincent",
+    
+	"ateliercandy_abigail_gift.name":"Quartz à croquer pour tous",
+    "ateliercandy_abigail_gift.text":"Salut @, ^^ Je n'ai pas l'habitude de partager les choses que je trouve dans les mines avec qui que ce soit, mais j'ai entendu dire que tu fabriquais des bonbons. Disons simplement que j'aime beaucoup les bâtonnets de cristal de sucre...^^ - Abigail",
+    
+	"ateliercandy_penny_gift.name":"Péché mignon",
+    "ateliercandy_penny_gift.text":"Bonjour @, ^^ Je voudrais t'avouer que j'ai un petit faible pour les jolis bonbons colorés... Est-ce possible de faire des bonbons avec ces fleurs ? Préviens-moi si tu y arrives !^^ - Penny",
+    
+}

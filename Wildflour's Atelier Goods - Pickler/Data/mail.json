@@ -1,0 +1,44 @@
+{
+    "Changes": [
+
+//////////////
+// ADD MAIL //
+//////////////
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Mail",
+                "Entries": {
+                    "wildflour.pickles_haleygift": "{{i18n: pickles_haley.text}} %item id (O)wildflour.ateliercrops_cacaopod 3 %%[#]{{i18n: pickles_haley.name}}",
+                    "wildflour.pickles_georgegift": "{{i18n: pickles_george.text}} %item id (O)wildflour.ateliercrops_vanilla 3 %%[#]{{i18n: pickles_george.name}}",
+                    "wildflour.pickles_sebastiangift": "{{i18n: pickles_sebastian.text}} %item id (O)84 3 %%[#]{{i18n: pickles_sebastian.name}}"     
+                }
+            },
+
+
+///////////////
+// SEND MAIL //
+///////////////
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+        
+            "Entries": {	
+                "wildflour.pickles_haleymail/f Haley 750/x wildflour.pickles_haleygift": "null",
+                "wildflour.pickles_georgemail/f George 1000/x wildflour.pickles_georgegift": "null",
+                "wildflour.pickles_sebastianmail/f Sebastian 750/x wildflour.pickles_sebastiangift": "null"
+            }
+            },         
+        
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "Entries": {
+               
+            },
+            "When": {"EasyRecipes": false}
+            }       
+
+]
+}

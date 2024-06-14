@@ -1,0 +1,32 @@
+{
+    "Changes": [
+
+
+        {
+            "LogName":"Add Atelier Candy Objects",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "wildflour.ateliercandy_lavender_fairyfloss": {
+                    "Name": "wildflour.ateliercandy_lavender_fairyfloss",
+                    "DisplayName": "{{i18n:ateliercandy_lavender_fairyfloss.name}}",
+                    "Description": "{{i18n:ateliercandy_lavender_fairyfloss.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 18,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_candy_item",
+                    "food_sweet",
+                    "fairy_floss_item",
+                    "color_pale_violet"],
+
+                    "Texture": "Mods/wildflour.ateliercandy/Objects",
+                    "SpriteIndex": 97
+            }
+        }
+        }
+
+    ]
+}

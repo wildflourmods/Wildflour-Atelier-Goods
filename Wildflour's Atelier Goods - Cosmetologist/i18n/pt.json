@@ -1,0 +1,319 @@
+{
+	//MACHINE
+
+	"ateliermakeup_CosmeticCrystal.name": "Bola de Cristal",
+"ateliermakeup_CosmeticCrystal.description": "Cria magicamente vários cosméticos!",
+
+
+///////////////////////////
+// MACHINE NOTIFICATIONS //
+///////////////////////////
+
+"ateliermakeup_CosmeticCrystal_InvalidItem.message": "Não é possível processar este item",
+
+//////////////////////
+// MODDED ITEMS NEW //
+//////////////////////
+
+	"ateliermakeup_amber_polish.name": "Esmalte Âmbar",
+"ateliermakeup_amber_polish.description": "Este esmalte de unhas está repleto de energia espiritual.",
+
+"ateliermakeup_demantoide_lotion.name": "Loção Demantoide",
+"ateliermakeup_demantoide_lotion.description": "Um bálsamo hidratante feito especificamente para aqueles nascidos sob o signo de aquário.",
+
+"ateliermakeup_carnelian_blush.name": "Blush de Cornalina",
+"ateliermakeup_carnelian_blush.description": "Um blush raro feito com cornalina triturada.",
+
+"ateliermakeup_turquoise_cleanser.name": "Cleanser Turquesa",
+"ateliermakeup_turquoise_cleanser.description": "Este cleanser foi feito utilizando os elementos das pedras do oceano.",
+
+"ateliermakeup_garnet_powder.name": "Pó de Granada",
+"ateliermakeup_garnet_powder.description": "Um antigo remédio de bruxa para esconder imperfeições... ou talvez para se esconder completamente?",
+
+"ateliermakeup_morganite_lipstick.name": "Batom Morganite",
+"ateliermakeup_morganite_lipstick.description": "Um batom mágico da cor do sol nascente.",
+
+"ateliermakeup_heliodor_lipgloss.name": "Gloss de Heliodor",
+"ateliermakeup_heliodor_lipgloss.description": "Um gloss místico que brilha com energia planetária.",
+
+"ateliermakeup_labradorite_mascara.name": "Máscara de Labradorita",
+"ateliermakeup_labradorite_mascara.description": "Uma máscara azul profundo.",
+
+"ateliermakeup_void_palette.name": "Paleta Vazio",
+"ateliermakeup_void_palette.description": "Um conjunto de quatro cores de sombra de olhos perfeitas para misturar nas sombras da noite.",
+
+"ateliermakeup_tourmaline_perfume.name": "Perfume de Turmalina",
+"ateliermakeup_tourmaline_perfume.description": "Um tônico perfumado sutil, mas encantador; a fragrância lembra a chuva.",
+
+"ateliermakeup_larimar_perfume.name": "Perfume de Larimar",
+"ateliermakeup_larimar_perfume.description": "Um tônico perfumado sutil, mas encantador; a fragrância lembra a chuva.",
+
+"ateliermakeup_blue_agathe_perfume.name": "Perfume de Ágata Azul",
+"ateliermakeup_blue_agathe_perfume.description": "Um tônico perfumado sutil, mas encantador; a fragrância lembra a chuva.",
+
+
+
+
+
+	// LIPGLOSS
+	
+    "ateliermakeup_earth_lipgloss.name": "Brilho Labial - Terra",
+"ateliermakeup_earth_lipgloss.description": "Um brilho labial místico que reluz com energia planetária.",
+
+"ateliermakeup_jupiter_lipgloss.name": "Brilho Labial - Júpiter",
+"ateliermakeup_jupiter_lipgloss.description": "Um brilho labial místico que reluz com energia planetária.",
+
+"ateliermakeup_mars_lipgloss.name": "Brilho Labial - Marte",
+"ateliermakeup_mars_lipgloss.description": "Um brilho labial místico que reluz com energia planetária.",
+
+"ateliermakeup_mercury_lipgloss.name": "Brilho Labial - Mercúrio",
+"ateliermakeup_mercury_lipgloss.description": "Um brilho labial místico que reluz com energia planetária.",
+
+"ateliermakeup_neptune_lipgloss.name": "Brilho Labial - Netuno",
+"ateliermakeup_neptune_lipgloss.description": "Um brilho labial místico que reluz com energia planetária.",
+
+"ateliermakeup_pluto_lipgloss.name": "Brilho Labial - Plutão",
+"ateliermakeup_pluto_lipgloss.description": "Um brilho labial místico que reluz com energia planetária.",
+
+"ateliermakeup_saturn_lipgloss.name": "Brilho Labial - Saturno",
+"ateliermakeup_saturn_lipgloss.description": "Um brilho labial místico que reluz com energia planetária.",
+
+"ateliermakeup_uranus_lipgloss.name": "Brilho Labial - Urano",
+"ateliermakeup_uranus_lipgloss.description": "Um brilho labial místico que reluz com energia planetária.",
+
+"ateliermakeup_venus_lipgloss.name": "Brilho Labial - Vênus",
+"ateliermakeup_venus_lipgloss.description": "Um brilho labial místico que reluz com energia planetária.",
+
+	
+	// LIPSTICK
+
+	"ateliermakeup_dawn_lipstick.name": "Batom da Alvorada",
+"ateliermakeup_dawn_lipstick.description": "Um batom mágico da cor do sol nascente.",
+
+"ateliermakeup_dusk_lipstick.name": "Batom Poente",
+"ateliermakeup_dusk_lipstick.description": "Um batom mágico da cor do sol poente.",
+
+"ateliermakeup_lunar_lipstick.name": "Batom Lunar",
+"ateliermakeup_lunar_lipstick.description": "Um batom mágico que reluz como a lua cheia.",
+
+"ateliermakeup_midnight_lipstick.name": "Batom da Meia-Noite",
+"ateliermakeup_midnight_lipstick.description": "Um batom mágico que brilha como a luz das estrelas à meia-noite.",
+
+"ateliermakeup_solar_lipstick.name": "Batom Solar",
+"ateliermakeup_solar_lipstick.description": "Um batom mágico que brilha como o sol da manhã.",
+
+"ateliermakeup_stellar_lipstick.name": "Batom Estelar",
+"ateliermakeup_stellar_lipstick.description": "Um batom mágico que reluz como estrelas cadentes.",
+
+"ateliermakeup_twilight_lipstick.name": "Batom Crepúsculo",
+"ateliermakeup_twilight_lipstick.description": "Um batom mágico dito ser o favorito das vampiras.",
+
+	// LOTION
+
+	"ateliermakeup_aquarius_lotion.name": "Loção Aquário",
+"ateliermakeup_aquarius_lotion.description": "Uma pomada hidratante feita especificamente para aqueles nascidos sob o signo de aquário.",
+
+"ateliermakeup_aries_lotion.name": "Loção Áries",
+"ateliermakeup_aries_lotion.description": "Uma pomada hidratante feita especificamente para aqueles nascidos sob o signo de áries.",
+
+"ateliermakeup_cancer_lotion.name": "Loção Câncer",
+"ateliermakeup_cancer_lotion.description": "Uma pomada hidratante feita especificamente para aqueles nascidos sob o signo de câncer.",
+
+"ateliermakeup_capricorn_lotion.name": "Loção Capricórnio",
+"ateliermakeup_capricorn_lotion.description": "Uma pomada hidratante feita especificamente para aqueles nascidos sob o signo de capricórnio.",
+
+"ateliermakeup_gemini_lotion.name": "Loção Gêmeos",
+"ateliermakeup_gemini_lotion.description": "Uma pomada hidratante feita especificamente para aqueles nascidos sob o signo de gêmeos.",
+
+"ateliermakeup_leo_lotion.name": "Loção Leão",
+"ateliermakeup_leo_lotion.description": "Uma pomada hidratante feita especificamente para aqueles nascidos sob o signo de leão.",
+
+"ateliermakeup_libra_lotion.name": "Loção Libra",
+"ateliermakeup_libra_lotion.description": "Uma pomada hidratante feita especificamente para aqueles nascidos sob o signo de libra.",
+
+"ateliermakeup_pisces_lotion.name": "Loção Peixes",
+"ateliermakeup_pisces_lotion.description": "Uma pomada hidratante feita especificamente para aqueles nascidos sob o signo de peixes.",
+
+"ateliermakeup_sagittarius_lotion.name": "Loção Sagitário",
+"ateliermakeup_sagittarius_lotion.description": "Uma pomada hidratante feita especificamente para aqueles nascidos sob o signo de sagitário.",
+
+"ateliermakeup_scorpio_lotion.name": "Loção Escorpião",
+"ateliermakeup_scorpio_lotion.description": "Uma pomada hidratante feita especificamente para aqueles nascidos sob o signo de escorpião.",
+
+"ateliermakeup_taurus_lotion.name": "Loção Touro",
+"ateliermakeup_taurus_lotion.description": "Uma pomada hidratante feita especificamente para aqueles nascidos sob o signo de touro.",
+
+"ateliermakeup_virgo_lotion.name": "Loção Virgem",
+"ateliermakeup_virgo_lotion.description": "Uma pomada hidratante feita especificamente para aqueles nascidos sob o signo de virgem.",
+
+	// CLEANSER
+
+	"ateliermakeup_air_cleanser.name": "Limpador Facial do Ar",
+"ateliermakeup_air_cleanser.description": "Este cleanser foi feito aproveitando os elementos dos céus celestiais.",
+
+"ateliermakeup_earth_cleanser.name": "Limpador Facial da Terra",
+"ateliermakeup_earth_cleanser.description": "Este cleanser foi feito aproveitando os elementos da terra fértil.",
+
+"ateliermakeup_fire_cleanser.name": "Limpador Facial do Fogo",
+"ateliermakeup_fire_cleanser.description": "Este cleanser foi feito aproveitando os elementos do núcleo ígneo do planeta.",
+
+"ateliermakeup_water_cleanser.name": "Limpador Facial da Água",
+"ateliermakeup_water_cleanser.description": "Este cleanser foi feito aproveitando os elementos do mar profundo.",
+
+	// POWDER
+
+	"ateliermakeup_brightening_powder.name": "Pó Iluminador",
+"ateliermakeup_brightening_powder.description": "Um antigo remédio de bruxa para olheiras escuras... OU simplesmente para iluminar o seu humor!",
+
+"ateliermakeup_bronzing_powder.name": "Pó Bronzeador",
+"ateliermakeup_bronzing_powder.description": "Normalmente usado para adicionar um brilho bronzeado à pele, as bruxas também podem usá-lo em poções alquímicas para bronzeiar objetos.",
+
+"ateliermakeup_concealing_powder.name": "Pó Corretivo",
+"ateliermakeup_concealing_powder.description": "Um antigo remédio de bruxa para esconder imperfeições... ou talvez para se esconder completamente?",
+
+"ateliermakeup_illusion_powder.name": "Pó Ilusionista",
+"ateliermakeup_illusion_powder.description": "Um antigo remédio de bruxa para transformar a aparência com magias ilusórias.",
+
+"ateliermakeup_mysterious_powder.name": "Pó Misterioso",
+"ateliermakeup_mysterious_powder.description": "... este pó certamente faz... algo... provavelmente.",
+
+"ateliermakeup_refreshing_powder.name": "Pó Refrescante",
+"ateliermakeup_refreshing_powder.description": "Um antigo remédio de bruxa para o cansaço. Funciona melhor do que um latte à tarde!",
+
+	// NAIL POLISH
+
+	"ateliermakeup_archmage_polish.name": "Esmalte de Arquimago",
+"ateliermakeup_archmage_polish.description": "Este esmalte está transbordando de energia espiritual.",
+
+"ateliermakeup_harvest_goddess_polish.name": "Esmalte da Deusa da Colheita",
+"ateliermakeup_harvest_goddess_polish.description": "Este esmalte está transbordando de energia espiritual.",
+
+"ateliermakeup_hedgewitch_polish.name": "Esmalte de Bruxa da Sebe",
+"ateliermakeup_hedgewitch_polish.description": "Este esmalte está transbordando de energia espiritual.",
+
+"ateliermakeup_ice_queen_polish.name": "Esmalte da Rainha do Gelo",
+"ateliermakeup_ice_queen_polish.description": "Este esmalte está transbordando de energia espiritual.",
+
+"ateliermakeup_lady_lake_polish.name": "Esmalte da Dama do Lago",
+"ateliermakeup_lady_lake_polish.description": "Este esmalte está transbordando de energia espiritual.",
+
+"ateliermakeup_little_mermaid_polish.name": "Esmalte da Pequena Sereia",
+"ateliermakeup_little_mermaid_polish.description": "Este esmalte está transbordando de energia espiritual.",
+
+"ateliermakeup_pretty_princess_polish.name": "Esmalte da Princesa Bonita",
+"ateliermakeup_pretty_princess_polish.description": "Este esmalte está transbordando de energia espiritual.",
+
+"ateliermakeup_spring_goddess_polish.name": "Esmalte da Deusa da Primavera",
+"ateliermakeup_spring_goddess_polish.description": "Este esmalte está transbordando de energia espiritual.",
+
+"ateliermakeup_sweet_sorceress_polish.name": "Esmalte da Feiticeira Doce",
+"ateliermakeup_sweet_sorceress_polish.description": "Este esmalte está transbordando de energia espiritual.",
+
+"ateliermakeup_wise_warlock_polish.name": "Esmalte do Bruxo Sábio",
+"ateliermakeup_wise_warlock_polish.description": "Este esmalte está transbordando de energia espiritual.",
+
+	// BLUSH
+
+	"ateliermakeup_envy_blush.name": "Blush da Inveja",
+"ateliermakeup_envy_blush.description": "Um dos Sete Blushes Capitais _ extremamente poderoso, mas pode fazer com que o usuário fique irracionalmente com ciúmes de seus amigos se usado com muita frequência.",
+
+"ateliermakeup_gluttony_blush.name": "Blush da Gula",
+"ateliermakeup_gluttony_blush.description": "Um dos Sete Blushes Capitais _ extremamente poderoso, mas pode fazer com que o usuário sinta fome desconfortavelmente se usado com muita frequência.",
+
+"ateliermakeup_greed_blush.name": "Blush da Ganância",
+"ateliermakeup_greed_blush.description": "Um dos Sete Blushes Capitais _ extremamente poderoso, mas pode fazer com que o usuário fique obcecado por riqueza se usado com muita frequência.",
+
+"ateliermakeup_lust_blush.name": "Blush da Luxúria",
+"ateliermakeup_lust_blush.description": "Um dos Sete Blushes Capitais _ extremamente poderoso, mas pode fazer com que o usuário fique terrivelmente lascivo se usado com muita frequência.",
+
+"ateliermakeup_pride_blush.name": "Blush do Orgulho",
+"ateliermakeup_pride_blush.description": "Um dos Sete Blushes Capitais _ extremamente poderoso, mas pode fazer com que o usuário fique excessivamente orgulhoso se usado com muita frequência.",
+
+"ateliermakeup_sloth_blush.name": "Blush da Preguiça",
+"ateliermakeup_sloth_blush.description": "Um dos Sete Blushes Capitais _ extremamente poderoso, mas pode fazer com que o usuário fique sonolento se usado com muita frequência.",
+
+"ateliermakeup_wrath_blush.name": "Blush da Ira",
+"ateliermakeup_wrath_blush.description": "Um dos Sete Blushes Mortais _ extremamente poderoso, mas pode fazer com que o usuário fique irracionalmente com raiva se usado com muita frequência.",
+
+	//PALETTE
+
+	"ateliermakeup_blues_palette.name": "Paleta Azure",
+"ateliermakeup_blues_palette.description": "Um conjunto de quatro cores de sombra de olho reminiscentes das profundezas do oceano.",
+
+"ateliermakeup_fall_palette.name": "Paleta do Equinócio de Outono",
+"ateliermakeup_fall_palette.description": "Um conjunto de quatro cores de sombra de olho perfeitas para a Véspera dos Espíritos.",
+
+"ateliermakeup_greens_palette.name": "Paleta Verdenza",
+"ateliermakeup_greens_palette.description": "Um conjunto de quatro cores de sombra de olho reminiscentes das florestas secretas.",
+
+"ateliermakeup_pinks_palette.name": "Paleta Rosalina",
+"ateliermakeup_pinks_palette.description": "Um conjunto de quatro cores de sombra de olho reminiscentes das pétalas de cerejeira caindo.",
+
+"ateliermakeup_purples_palette.name": "Paleta Violeta",
+"ateliermakeup_purples_palette.description": "Um conjunto de quatro cores de sombra de olho reminiscentes das flores vibrantes do verão.",
+
+"ateliermakeup_spring_palette.name": "Paleta do Equinócio de Primavera",
+"ateliermakeup_spring_palette.description": "Um conjunto de quatro cores de sombra de olho perfeitas para a Dança das Flores da Primavera.",
+
+"ateliermakeup_summer_palette.name": "Paleta do Solstício de Verão",
+"ateliermakeup_summer_palette.description": "Um conjunto de quatro cores de sombra de olho perfeitas para o Luau de Verão.",
+
+"ateliermakeup_winter_palette.name": "Paleta do Solstício de Inverno",
+"ateliermakeup_winter_palette.description": "Um conjunto de quatro cores de sombra de olho perfeitas para a Festa da Estrela do Inverno.",
+	
+	//PERFUMES
+
+	"ateliermakeup_faerie_fire.name": "Fogo das Fadas",
+"ateliermakeup_faerie_fire.description": "Uma tintura sutil, mas encantadora; a fragrância lembra você de uma fogueira queimando.",
+
+"ateliermakeup_forest_echo.name": "Eco da Floresta",
+"ateliermakeup_forest_echo.description": "Uma tintura sutil, mas encantadora; a fragrância lembra você de folhas caídas.",
+
+"ateliermakeup_frostbite.name": "Congelamento",
+"ateliermakeup_frostbite.description": "Uma tintura sutil, mas encantadora; a fragrância lembra você dos ventos de inverno.",
+
+"ateliermakeup_lightning_strike.name": "Relâmpago",
+"ateliermakeup_lightning_strike.description": "Uma tintura sutil, mas encantadora; a fragrância lembra você de uma tempestade se aproximando.",
+
+"ateliermakeup_maelstrom.name": "Redemoinho de água",
+"ateliermakeup_maelstrom.description": "Uma tintura sutil, mas encantadora; a fragrância lembra você da chuva.",
+
+"ateliermakeup_misty_step.name": "Passo Nebuloso",
+"ateliermakeup_misty_step.description": "Uma tintura sutil, mas encantadora; a fragrância lembra você do lado do oceano.",
+
+"ateliermakeup_morning_dew.name": "Orvalho da Manhã",
+"ateliermakeup_morning_dew.description": "Uma tintura sutil, mas encantadora; a fragrância lembra você de um sopro de ar fresco da manhã.",
+
+"ateliermakeup_thunderclap.name": "Trovão",
+"ateliermakeup_thunderclap.description": "Uma tintura sutil, mas encantadora; a fragrância lembra você das noites de verão quentes.",
+
+"ateliermakeup_whirlwind.name": "Redemoinho",
+"ateliermakeup_whirlwind.description": "Uma tintura sutil, mas encantadora; a fragrância lembra você do cheiro de flores no vento.",
+
+	//MISC
+
+	"ateliermakeup_black_cat_mascara.name": "Máscara de Cílios Gato Preto",
+"ateliermakeup_black_cat_mascara.description": "Uma máscara de cílios preta profunda.",
+
+"ateliermakeup_goblin_gaze_mascara.name": "Máscara de Cílios Olhar do Goblin",
+"ateliermakeup_goblin_gaze_mascara.description": "Uma máscara de cílios verde escuro vibrante.",
+
+"ateliermakeup_brush.name": "Pincel Mágico",
+"ateliermakeup_brush.description": "Embora pareça ser um simples pincel de maquiagem, a bruxa ou bruxo conhecedor pode ver as propriedades mágicas subjacentes em suas cerdas.",
+
+//////////
+// MAIL //
+//////////
+
+	"ateliermakeup_CosmeticCrystalRecipe.name": "Receita Cristal Cosmético",
+"ateliermakeup_CosmeticCrystalRecipe.text": "@, ^^ Emily disse que eu poderia criar minha própria maquiagem com isso, mas eu não faço ideia de como eu deveria fazer isso com uma bola de cristal?! Se você descobrir, por favor me avise. ^^ - Haley",
+
+"ateliermakeup_emily_gift.name": "Minerios na Maquiagem",
+"ateliermakeup_emily_gift.text": "@, ^^ Você sabia que os minerios que você encontra nas minas podem ser transformados em maquiagem? Eu estou falando sério! Tente usar isso na sua bola de cristal e me avise como fica. ^^ - Emily",
+
+"ateliermakeup_elliott_gift.name": "Cuidados Pessoais",
+"ateliermakeup_elliott_gift.text": "@, ^^ Eu sei que as pessoas podem pensar que cosméticos são apenas para mulheres, mas isso parece bastante antiquado. Não vejo por que não podemos todos desfrutar de um pouco de cuidados pessoais e mimos de vez em quando, certo? Agora, não tenho certeza, mas acho que se você colocar essa planta que eu encontrei na praia no seu cristal de cosméticos, você pode acabar com algo ótimo! Boa sorte! ^^ - Elliott",
+
+
+
+}

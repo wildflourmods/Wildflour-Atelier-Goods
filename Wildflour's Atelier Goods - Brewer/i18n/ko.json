@@ -1,0 +1,430 @@
+{
+
+///////////////////////
+///GENERIC ITEMS NEW //
+///////////////////////
+
+"alesxmeads_FruitAle.name": "과일맥주",
+"alesxmeads_FruitAle.description": "양조 과정에서 신선한 과일을 더해 만든 맥주.",
+
+"alesxmeads_FruitMead.name": "과일꿀술",
+"alesxmeads_FruitMead.description": "양조 과정에서 신선한 과일을 더해 맛을 낸 꿀술.",
+
+"alesxmeads_FlowerMead.name": "가향꿀술",
+"alesxmeads_FlowerMead.description": "양조 과정에서 향긋한 꽃을 더해 향을 강화한 꿀술.",
+
+/////////////////
+///STRINGS NEW //
+/////////////////
+
+"alesxmeads_FruitAle": "{0} 에일",
+"alesxmeads_FruitMead": "{0} 벌꿀 술",
+"alesxmeads_FlowerMead": "{0} 벌꿀 술",
+
+/////////////////////////////
+// NEW MOD SUPPORTED ITEMS //
+/////////////////////////////
+
+"alesxmeads_gardenia_mead.name":"치자꽃 꿀술",
+"alesxmeads_gardenia_mead.description":"치자꽃을 더해 맛을 낸 꿀술.",
+
+"alesxmeads_hibiscus_mead.name":"히비스커스 꿀술",
+"alesxmeads_hibiscus_mead.description":"히비스커스 꽃을 더해 맛을 낸 꿀술.",
+
+"alesxmeads_borage_mead.name":"보리지 꿀술",
+"alesxmeads_borage_mead.description":"보리지를 더해 맛을 낸 꿀술.",
+
+"alesxmeads_calendula_mead.name":"금잔화 꿀술",
+"alesxmeads_calendula_mead.description":"금잔화를 더해 맛을 낸 꿀술.",
+
+"alesxmeads_hollyhock_mead.name":"접시꽃 꿀술",
+"alesxmeads_hollyhock_mead.description":"접시꽃을 더해 맛을 낸 꿀술.",
+
+"alesxmeads_springpansy_mead.name":"봄팬지 꿀술",
+"alesxmeads_springpansy_mead.description":"봄팬지를 더해 맛을 낸 꿀술.",
+
+"alesxmeads_orangeblossom_mead.name":"오렌지꽃 꿀술",
+"alesxmeads_orangeblossom_mead.description":"오렌지꽃을 더해 맛을 낸 꿀술.",
+
+//////////////
+///MACHINES///
+//////////////
+
+"alesxmeads_AleKeg.name": "맥주용 술통",
+"alesxmeads_AleKeg.description": "다양한 맛의 맥주를 생산합니다.",
+
+"alesxmeads_MeadKeg.name": "장인용 꿀술통",
+"alesxmeads_MeadKeg.description": "다양한 맛의 꿀술을 생산합니다.",
+
+///////////////////////////
+// MACHINE NOTIFICATIONS //
+///////////////////////////
+
+"alesxmeads_AleKeg_InvalidCount.message": "홉 필요",
+"alesxmeads_AleKeg_InvalidItem.message": "실행 불가",
+
+"alesxmeads_MeadKeg_InvalidCount.message": "벌꿀 필요",
+"alesxmeads_MeadKeg_InvalidItem.message": "실행 불가",
+
+//////////
+///ALES///
+//////////
+
+"alesxmeads_ancient_ale.name": "고대과일 라거",
+"alesxmeads_ancient_ale.description": "신비하고, 마법 같으면서도 맛있어요.",
+
+"alesxmeads_apple_ale.name": "사과 필스너",
+"alesxmeads_apple_ale.description": "떨어지는 낙엽처럼 아삭하고 신선해요.",
+
+"alesxmeads_apricot_ale.name": "살구 에일",
+"alesxmeads_apricot_ale.description": "상큼하면서도 가벼운 단맛, 봄에 딱 어울리는 에일입니다.",
+
+"alesxmeads_banana_ale.name": "바나나 스타우트",
+"alesxmeads_banana_ale.description": "바나나 빵처럼 달콤하면서도 따뜻합니다.",
+
+"alesxmeads_blackberry_ale.name": "블랙베리 스타우트",
+"alesxmeads_blackberry_ale.description": "올 여름 최고의 블랙베리를 듬뿍 넣어 만든 진하고 풍부한 맛의 맥주.",
+
+"alesxmeads_blueberry_ale.name": "블루베리 에일",
+"alesxmeads_blueberry_ale.description": "갓 구운 블루베리 코블러를 연상시키는 달콤한 에일.",
+
+"alesxmeads_cactus_ale.name": "선인장 에일",
+"alesxmeads_cactus_ale.description": "칼리코 사막의 명물.",
+
+"alesxmeads_cherry_ale.name": "체리 레드에일",
+"alesxmeads_cherry_ale.description": "한 잔의 에일에 산미와 달콤함이 완벽한 균형을 이루고 있습니다.",
+
+"alesxmeads_coconut_ale.name": "코코넛밀크 스타우트",
+"alesxmeads_coconut_ale.description": "피냐 콜라다를 좋아하지만 데킬라를 꺼려한다면, 완벽한 대체제가 되어줄거에요.",   
+
+"alesxmeads_cranberry_ale.name": "크랜베리 페일에일",
+"alesxmeads_cranberry_ale.description": "겨울 별 연회의 식사자리에 곁들이기 좋습니다.", 
+
+"alesxmeads_crystal_ale.name": "수정과일 라거",
+"alesxmeads_crystal_ale.description": "막 내리는 눈처럼 시원하면서도 상쾌한 맥주.", 
+
+"alesxmeads_mango_ale.name": "망고 라거",
+"alesxmeads_mango_ale.description": "거스가 진저 섬 리조트에서 정식으로 판매하는 맥주.", 
+
+"alesxmeads_melon_ale.name": "멜론 페일에일",
+"alesxmeads_melon_ale.description": "무더운 여름, 더위를 식히기 딱 좋은 맥주.", 
+
+"alesxmeads_orange_ale.name": "오렌지 필스너",
+"alesxmeads_orange_ale.description": "꼭 오렌지 크림시클 칵테일을 떠올리는 맛이에요.", 
+
+"alesxmeads_peach_ale.name": "복숭아 스타우트",
+"alesxmeads_peach_ale.description": "피치 앤 크림같은 달콤한 맛.", 
+
+"alesxmeads_pineapple_ale.name": "파인애플 페일에일",
+"alesxmeads_pineapple_ale.description": "여름 오후, 해변가에서 즐기기 딱 좋습니다.", 
+
+"alesxmeads_pomegranate_ale.name": "석류 에일",
+"alesxmeads_pomegranate_ale.description": "달콤하고 상큼한, 전설에 따르면 저승의 여왕이 사랑하는 에일이었다고 합니다.", 
+
+"alesxmeads_pumpkin_ale.name": "호박 에일",
+"alesxmeads_pumpkin_ale.description": "호박, 향신료, 메이플 시럽, 맥주.... 누가 이걸 싫어하겠어요?", 
+
+"alesxmeads_salmonberry_ale.name": "새먼베리 에일",
+"alesxmeads_salmonberry_ale.description": "남아도는 새먼베리를 처분할 수 있는 깔끔한 방법이죠.", 
+
+"alesxmeads_spiced_ale.name": "스파이스 포터",
+"alesxmeads_spiced_ale.description": "백량금은 보통 여름에 수확되지만, 이 향신료를 더해 만든 맥주는 좀 더 서늘한 가을에 먹기 좋습니다.", 
+
+"alesxmeads_starfruit_ale.name": "스타후르츠 에일",
+"alesxmeads_starfruit_ale.description": "여름철 루아우 축제 때 마시기 좋은 황금빛 맥주.", 
+
+"alesxmeads_strawberry_ale.name": "딸기 포터",
+"alesxmeads_strawberry_ale.description": "이 딸기 쇼트케이크 같은 맛은 누구도 참지 못할거에요.", 
+
+"alesxmeads_gem_ale.name": "보석베리 라거",
+"alesxmeads_gem_ale.description": "성 카놀리가 제일 좋아했다는 술.", 
+
+"alesxmeads_plum_ale.name": "자두 스타우트",
+"alesxmeads_plum_ale.description": "빨리 마시지 않으면 말린 자두 스타우트가 되어버릴걸요.", 
+
+//PPJA ALES
+
+"alesxmeads_honeycrisp_apple_ale.name": "허니크리스피 페일에일",
+"alesxmeads_honeycrisp_apple_ale.description": "산미가 강한, 가을철 페일에일.", 
+
+"alesxmeads_dragonfruit_ale.name": "용과 에일",
+"alesxmeads_dragonfruit_ale.description": "칼리코 사막에서 공수해온 여름철 에일.",
+
+"alesxmeads_fig_ale.name": "무화과 스타우트",
+"alesxmeads_fig_ale.description": "무화과 푸딩, 그리고 겨울 별 연회의 캐롤과 잘 어울립니다.", 
+
+"alesxmeads_grapefruit_ale.name": "자몽 페일에일",
+"alesxmeads_grapefruit_ale.description": "산미가 강하고 시트러스 풍미가 짙은 페일에일.", 
+
+"alesxmeads_lemon_ale.name": "레몬 바이스비어",
+"alesxmeads_lemon_ale.description": "레모네이드를 떠올리지만, 좀 더 맛있어요!", 
+
+"alesxmeads_lime_ale.name": "라임 바이스비어",
+"alesxmeads_lime_ale.description": "대담한 시트러스 풍미의 맥주로, 여름철에 홀짝이기 좋아요.", 
+
+"alesxmeads_lychee_ale.name": "리치 에일",
+"alesxmeads_lychee_ale.description": "달콤하고, 희미한 꽃 향기와 알콜 풍미가 있어요.", 
+
+"alesxmeads_papaya_ale.name": "파파야 에일",
+"alesxmeads_papaya_ale.description": "샌디가 특별히 개발해서 만든 맥주 중 한 종류입니다.",
+
+"alesxmeads_pear_ale.name": "서양배 필스너",
+"alesxmeads_pear_ale.description": "가볍고 아삭한 느낌의 맥주.", 
+
+"alesxmeads_persimmon_ale.name": "감 에일",
+"alesxmeads_persimmon_ale.description": "벌꿀과 멜론을 떠올리게 하는 섬세한 맛의 맥주.", 
+
+"alesxmeads_pomelo_ale.name": "포멜로 에일",
+"alesxmeads_pomelo_ale.description": "자몽과 비슷하지만 좀 더 달콤합니다.", 
+
+//WILD FOOD ALES
+
+"alesxmeads_vanilla_ale.name": "바닐라 스타우트",
+"alesxmeads_vanilla_ale.description": "선선한 저녁에 몸을 데워줄 따뜻하고 달콤한 맥주.", 
+
+"alesxmeads_petite_lemon_ale.name": "레몬 스타우트",
+"alesxmeads_petite_lemon_ale.description": "바이스비어와 달리, 이 맥주의 레몬맛은 크리미하면서도 달콤해서 꼭 디저트 같아요.", 
+
+"alesxmeads_petite_lime_ale.name": "라임 스타우트",
+"alesxmeads_petite_lime_ale.description": "바이스비어와 달리, 이 맥주의 라임맛은 크리미하면서도 달콤해서 꼭 디저트 같아요.", 
+
+"alesxmeads_wild_raspberry_ale.name": "라즈베리 에일",
+"alesxmeads_wild_raspberry_ale.description": "갓 수확한 라즈베리로 만든 에일; 진정한 여름철 간식", 
+
+"alesxmeads_wild_strawberry_ale.name": "산딸기 에일",
+"alesxmeads_wild_strawberry_ale.description": "갓 수확한 산딸기로 만든 에일; 진정한 봄철 간식", 
+
+//PIXIE FORAGE ALES
+
+"alesxmeads_ambrosia_apple_ale.name": "암브로시아 에일",
+"alesxmeads_ambrosia_apple_ale.description": "가을 절기인 추분을 기념하여 요정들이 만든 특별한 맥주.",
+
+"alesxmeads_moongold_apricot_ale.name": "황금달 에일",
+"alesxmeads_moongold_apricot_ale.description": "봄 절기인 춘분을 기념하여 요정들이 만든 특별한 맥주.",
+
+"alesxmeads_ladyfinger_banana_ale.name": "레이디핑거 에일",
+"alesxmeads_ladyfinger_banana_ale.description": "여름 절기인 하지를 기념하여 요정들이 만든 특별한 맥주.",
+
+"alesxmeads_sour_cherry_ale.name": "유성산 에일",
+"alesxmeads_sour_cherry_ale.description": "봄 절기인 춘분을 기념하여 요정들이 만든 특별한 맥주.",
+
+"alesxmeads_sunset_mango_ale.name": "저녁놀 에일",
+"alesxmeads_sunset_mango_ale.description": "여름 절기인 하지를 기념하여 요정들이 만든 특별한 맥주.",
+
+"alesxmeads_blood_orange_ale.name": "붉은빛 에일",
+"alesxmeads_blood_orange_ale.description": "여름 절기인 하지를 기념하여 요정들이 만든 특별한 맥주.",
+
+"alesxmeads_snow_peach_ale.name": "설미려 에일",
+"alesxmeads_snow_peach_ale.description": "여름 절기인 하지를 기념하여 요정들이 만든 특별한 맥주.",
+
+"alesxmeads_eversweet_pomegranate_ale.name": "에버스윗 에일",
+"alesxmeads_eversweet_pomegranate_ale.description": "가을 절기인 추분을 기념하여 요정들이 만든 특별한 맥주.",
+
+///////////
+///MEADS///
+///////////
+
+//BASE GAME
+
+"alesxmeads_ancient_mead.name": "고대과일 꿀술",
+"alesxmeads_ancient_mead.description": "따스하면서도 편안한 맛 - 맛을 보면 이상하면서도 마법적인 기분이 듭니다.",
+
+"alesxmeads_apple_mead.name": "아삭한 사과 꿀술",
+"alesxmeads_apple_mead.description": "따스하면서도 편안한 맛 - 상쾌한 가을 저녁을 떠올리게 하는 맛입니다.",
+
+"alesxmeads_apricot_mead.name": "봄살구 꿀술",
+"alesxmeads_apricot_mead.description": "막 꽃이 핀 나무 아래에서 즐길 수 있는 달콤한 봄철 꿀술.",
+
+"alesxmeads_banana_mead.name": "행복바나나 꿀술",
+"alesxmeads_banana_mead.description": "만약 꿀벌이 바나나빵을 만들면 이런 맛이 나지 않을까요?",
+
+"alesxmeads_blackberry_mead.name": "블랙베리덤불 꿀술",
+"alesxmeads_blackberry_mead.description": "베리를 채집하는 것에서 영감을 받아 만든 새콤달콤한 꿀술.",
+
+"alesxmeads_blueberry_mead.name": "블루베리 코블러 꿀술",
+"alesxmeads_blueberry_mead.description": "블루베리 파이를 액체 형태로 마실 줄은 꿈에도 몰랐을걸요, 지금까지는요!",
+
+"alesxmeads_cactus_mead.name": "칼리코 선인장 꿀술",
+"alesxmeads_cactus_mead.description": "칼리코 사막의 명물.",
+
+"alesxmeads_cherry_mead.name": "체리 꿀술",
+"alesxmeads_cherry_mead.description": "벚꽃이 지는 걸 보며 즐기는 새콤달콤한 맛.",
+
+"alesxmeads_coconut_mead.name": "트로피컬 코코넛 꿀술",
+"alesxmeads_coconut_mead.description": "모두가 이 코코넛 맛에 중독되었어요!",   
+
+"alesxmeads_cranberry_mead.name": "상큼한 크랜베리 꿀술",
+"alesxmeads_cranberry_mead.description": "상큼하고 산뜻한 가을철 꿀술.", 
+
+"alesxmeads_crystal_mead.name": "수정과일 꿀술",
+"alesxmeads_crystal_mead.description": "겨울 별 연회에 완벽하게 어울리는 꿀술.", 
+
+"alesxmeads_mango_mead.name": "섬망고 꿀술",
+"alesxmeads_mango_mead.description": "진저 섬의 명물.", 
+
+"alesxmeads_melon_mead.name": "여름멜론 꿀술",
+"alesxmeads_melon_mead.description": "이 유쾌한 분홍빛 꿀술은 여름 내내 마시기 좋습니다.", 
+
+"alesxmeads_orange_mead.name": "오렌지 크림시클 꿀술",
+"alesxmeads_orange_mead.description": "미모사 술을 연상시키는 밝고 시트러스 풍미가 진한 꿀술.", 
+
+"alesxmeads_peach_mead.name": "피치앤크림 꿀술",
+"alesxmeads_peach_mead.description": "달콤한 여름이여!", 
+
+"alesxmeads_pineapple_mead.name": "작은새 파인애플 꿀술",
+"alesxmeads_pineapple_mead.description": "이 술의 비법은 진저섬의 앵무새들이 지키고 있습니다.", 
+
+"alesxmeads_pomegranate_mead.name": "석류 꿀술",
+"alesxmeads_pomegranate_mead.description": "영령의 전야제에서 마시기 좋은 꿀술.", 
+
+"alesxmeads_salmonberry_mead.name": "새먼베리 꿀술",
+"alesxmeads_salmonberry_mead.description": "새먼베리를 이용해서 만든 가볍고 달콤한 꿀술.", 
+
+"alesxmeads_spiced_mead.name": "스파이스 꿀술",
+"alesxmeads_spiced_mead.description": "선선한 저녁, 몸을 따뜻하게 데워주는 꿀술.", 
+
+"alesxmeads_starfruit_mead.name": "스타후르츠 하늘 꿀술",
+"alesxmeads_starfruit_mead.description": "여름철, 꿈결처럼 즐길 수 있는 황금빛 꿀술.", 
+
+"alesxmeads_strawberry_mead.name": "딸기밭 꿀술",
+"alesxmeads_strawberry_mead.description": "꼭 딸기 밀크셰이크 같지만, 좀 더 맛있어요.", 
+
+"alesxmeads_gem_mead.name": "보석베리 꿀술",
+"alesxmeads_gem_mead.description": "비밀의 숲에 사는 주니모들이 만들었다는 소문이 난 마법의 꿀술.", 
+
+"alesxmeads_plum_mead.name": "가을자두 꿀술",
+"alesxmeads_plum_mead.description": "달콤하게 즐길 수 있는 가을 제철의 꿀술.", 
+
+//cornucopia_mead
+
+"alesxmeads_dragon_mead.name": "용과 꿀술",
+"alesxmeads_dragon_mead.description": "그 어떤 용들도 이 꿀술을 만들 때 희생되지 않았습니다.",
+
+"alesxmeads_fig_mead.name": "겨울무화과 꿀술",
+"alesxmeads_fig_mead.description": "염소 치즈와 잘 어울립니다!", 
+
+"alesxmeads_grapefruit_mead.name": "쌉쌀한 자몽 꿀술",
+"alesxmeads_grapefruit_mead.description": "약간의 산미가 있는 꿀술.", 
+
+"alesxmeads_lemon_mead.name": "레몬머랭 꿀술",
+"alesxmeads_lemon_mead.description": "이 꿀술을 마시고 있노라면 어머니가 만들어주던 레몬 과자가 생각나는군요.", 
+
+"alesxmeads_lime_mead.name": "키라임파이 꿀술",
+"alesxmeads_lime_mead.description": "괴혈병을 예방할 목적은 아니지만, 맛있습니다.", 
+
+"alesxmeads_lychee_mead.name": "리치러브 꿀술",
+"alesxmeads_lychee_mead.description": "달콤하면서도 희미한 꽃 향기와 알콜 풍미가 있습니다.", 
+
+"alesxmeads_papaya_mead.name": "파파야섬 꿀술",
+"alesxmeads_papaya_mead.description": "샌디가 특별히 개발한 꿀술의 한 종류.",
+
+"alesxmeads_pear_mead.name": "아삭한 서양배 꿀술",
+"alesxmeads_pear_mead.description": "아삭아삭하고 상큼해요.", 
+
+"alesxmeads_persimmon_mead.name": "작은감 꿀술",
+"alesxmeads_persimmon_mead.description": "모자를 파는 생쥐가 원할 것 같지 않나요?", 
+
+"alesxmeads_pomelo_mead.name": "상큼한 포멜로 꿀술",
+"alesxmeads_pomelo_mead.description": "제일 쓸쓸한 겨울에도 즐거움을 안겨줄 수 있는 시트러스 풍미의 꿀술.", 
+
+//WILD FOOD Mead
+
+"alesxmeads_vanilla_mead.name": "바닐라 꿀술",
+"alesxmeads_vanilla_mead.description": "바닐라 꽃에서 얻은 꿀로 만든 술입니다.", 
+
+"alesxmeads_cinnamon_mead.name": "시나몬 꿀술",
+"alesxmeads_cinnamon_mead.description": "시나몬 꽃에서 얻은 꿀로 만든 술입니다.",
+
+"alesxmeads_chamomile_mead.name": "캐모마일 초원 꿀술",
+"alesxmeads_chamomile_mead.description": "캐모마일 꽃에서 얻은 꿀로 만든 술입니다.", 
+
+"alesxmeads_lavender_mead.name": "라벤더들판 꿀술",
+"alesxmeads_lavender_mead.description": "라벤더 꽃에서 얻은 꿀로 만든 술입니다.", 
+
+"alesxmeads_mallow_mead.name": "마시멜로 꿀술",
+"alesxmeads_mallow_mead.description": "마시멜로 꽃에서 얻은 꿀로 만든 술입니다.", 
+
+"alesxmeads_petite_lemon_mead.name": "레몬꿀술",
+"alesxmeads_petite_lemon_mead.description": "레몬나무의 꽃에서 얻은 꿀로 만든 술입니다.", 
+
+"alesxmeads_petite_lime_mead.name": "라임꿀술",
+"alesxmeads_petite_lime_mead.description": "라임나무의 꽃에서 얻은 꿀로 만든 술입니다.", 
+
+"alesxmeads_sakura_mead.name": "벚꽃꿀술",
+"alesxmeads_sakura_mead.description": "벚꽃에서 얻은 꿀로 만든 술입니다.", 
+
+"alesxmeads_wild_raspberry_mead.name": "라즈베리 꿀술",
+"alesxmeads_wild_raspberry_mead.description": "라즈베리 꽃에서 얻은 꿀로 만든 술입니다.", 
+
+"alesxmeads_wild_strawberry_mead.name": "딸기크림 꿀술",
+"alesxmeads_wild_strawberry_mead.description": "산딸기 꽃에서 얻은 꿀로 만든 술입니다.", 
+
+//PIXIE FORAGE MEAD
+
+"alesxmeads_ambrosia_apple_mead.name": "암브로시아 꿀술",
+"alesxmeads_ambrosia_apple_mead.description": "요정들을 위해 특별 제작된 꿀술; 전설에 의하면, 인간이 마시게 될 경우 마법 생물들과 대화할 수 있게 된다고 합니다.",
+
+"alesxmeads_moongold_apricot_mead.name": "황금달 꿀술",
+"alesxmeads_moongold_apricot_mead.description": "요정들을 위해 특별 제작된 꿀술; 전설에 의하면, 인간이 마시게 될 경우 마법 생물들과 대화할 수 있게 된다고 합니다.",
+
+"alesxmeads_ladyfinger_banana_mead.name": "레이디핑거 꿀술",
+"alesxmeads_ladyfinger_banana_mead.description": "요정들을 위해 특별 제작된 꿀술; 전설에 의하면, 인간이 마시게 될 경우 마법 생물들과 대화할 수 있게 된다고 합니다.",
+
+"alesxmeads_sour_cherry_mead.name": "유성산 꿀술",
+"alesxmeads_sour_cherry_mead.description": "요정들을 위해 특별 제작된 꿀술; 전설에 의하면, 인간이 마시게 될 경우 마법 생물들과 대화할 수 있게 된다고 합니다.",
+
+"alesxmeads_sunset_mango_mead.name": "저녁놀 꿀술",
+"alesxmeads_sunset_mango_mead.description": "요정들을 위해 특별 제작된 꿀술; 전설에 의하면, 인간이 마시게 될 경우 마법 생물들과 대화할 수 있게 된다고 합니다.",
+
+"alesxmeads_blood_orange_mead.name": "붉은빛 꿀술",
+"alesxmeads_blood_orange_mead.description": "요정들을 위해 특별 제작된 꿀술; 전설에 의하면, 인간이 마시게 될 경우 마법 생물들과 대화할 수 있게 된다고 합니다.",
+
+"alesxmeads_snow_peach_mead.name": "설미려 꿀술",
+"alesxmeads_snow_peach_mead.description": "요정들을 위해 특별 제작된 꿀술; 전설에 의하면, 인간이 마시게 될 경우 마법 생물들과 대화할 수 있게 된다고 합니다.",
+
+"alesxmeads_eversweet_pomegranate_mead.name": "에버스윗 꿀술",
+"alesxmeads_eversweet_pomegranate_mead.description": "요정들을 위해 특별 제작된 꿀술; 전설에 의하면, 인간이 마시게 될 경우 마법 생물들과 대화할 수 있게 된다고 합니다.",
+
+"alesxmeads_cake_mead.name": "케이크 꿀술",
+"alesxmeads_cake_mead.description": "마력을 품은 요정의 꽃으로 만든 꿀술; 이상하게 바닐라 케이크 맛이 납니다.",
+
+"alesxmeads_caramel_mead.name": "카라멜 꿀술",
+"alesxmeads_caramel_mead.description": "마력을 품은 요정의 꽃으로 만든 꿀술; 이상하게 카라멜 사과 맛이 납니다.",
+
+"alesxmeads_creamsicle_mead.name": "크림시클 꿀술",
+"alesxmeads_creamsicle_mead.description": "마력을 품은 요정의 꽃으로 만든 꿀술; 이상하게 오렌지 아이스크림 맛이 납니다.",
+
+"alesxmeads_custard_mead.name": "커스터드 꿀술",
+"alesxmeads_custard_mead.description": "마력을 품은 요정의 꽃으로 만든 꿀술; 이상하게 바닐라 커스터드 맛이 납니다.",
+
+"alesxmeads_gumdrop_mead.name": "구미젤리 꿀술",
+"alesxmeads_gumdrop_mead.description": "마력을 품은 요정의 꽃으로 만든 꿀술; 이상하게 과일젤리 맛이 납니다.",
+
+"alesxmeads_macaron_mead.name": "마카롱 꿀술",
+"alesxmeads_macaron_mead.description": "마력을 품은 요정의 꽃으로 만든 꿀술; 이상하게 아몬드 마카롱 맛이 납니다.",
+
+"alesxmeads_pie_mead.name": "파이 꿀술",
+"alesxmeads_pie_mead.description": "마력을 품은 요정의 꽃으로 만든 꿀술; 이상하게 블루베리 파이 맛이 납니다.",
+
+"alesxmeads_sprinkle_mead.name": "스프링클 꿀술",
+"alesxmeads_sprinkle_mead.description": "마력을 품은 요정의 꽃으로 만든 꿀술; 이상하게 레인보우 스프링클 맛이 납니다.",
+
+"alesxmeads_sugar_mead.name": "설탕 꿀술",
+"alesxmeads_sugar_mead.description": "마력을 품은 요정의 꽃으로 만든 꿀술; 이상하게 백설탕 맛이 납니다.",
+
+
+//////////
+///MAIL///
+//////////
+
+"alesxmeads_AleKeg.text":"@, ^^ 너도 페일에일은 먹어봤을거야. 그런데 설마 맥주의 전부라고 생각하는 건 아니지? 여기 적힌 맥주통을 만들어서 과일이랑 홉을 넣어봐; 아, 나한테 나눠주는 거 잊지 말고. 알겠냐, 꼬마야?^^ - 팸",
+"alesxmeads_shanegift.text":"@, ^^ 팸이 너한테 술통 제작법을 알려준 거 맞지? 솔직히 꽤 멋지네. 참나무 수지가 많이 필요할 거래서. 작년에 재스랑 같이 숲에서 찾은거야.^^ - 셰인",
+"alesxmeads_elliottgift.text":"@, ^^ 현지에서 직접 만드는 술? 정말 멋진 이야기야! 양조에 대해 자세히 알진 못하지만, 홉이 필요하다는 건 알고 있어. 건배!^^ - 엘리엇",
+"alesxmeads_pierregift.text":"@, ^^ 내가 해외에 있을 적에, 동료 중 한 명이 보석해의 섬 출신이었어. 그 녀석은 망고로 만든 맥주에 대해 찬사를 늘어놓곤 했지... 네가 그걸 만들 수 있다면, 나도 먹어보고 싶어.^^ - 켄트",
+	
+"alesxmeads_MeadKeg.text":"@, ^^ 다양한 꽃, 과일이 꿀술의 맛에 영향을 준다는 걸 알고 있는가? 물론 모를 수 있지. 이 전용 술통을 한 번 만들어서 써보게. 만들 수 있는 종류가 어마어마하니 놀라지 말고.^^ - 거스",
+"alesxmeads_gusgift.text":"@, ^^ 윌리 말로는, 자네가 전문적으로 꿀술을 만드는 데에 관심이 있다면서? 그럼 이런 게 몇 개 필요할거야.^^ - 거스",
+"alesxmeads_clintgift.text":"@, ^^ 어, 음. 안녕. 편지를 잘 쓰진 않지만... 다양한 술을 만들 거라고 해서. 그건 꽤 멋지잖아, 그치? 도움이 될 거 같아서 보내.^^ - 클린트",
+"alesxmeads_sandygift.text":"@, ^^ 안녕, 자기야! 선인장 열매로 꿀술을 만들 수 있다는 걸 알아? 원한다면 샌디 스페셜이라고 불러도 괜찮아!^^ - 샌디",
+
+}

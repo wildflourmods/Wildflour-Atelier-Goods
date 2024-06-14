@@ -1,0 +1,18 @@
+{
+    "Changes": [
+        
+    //////////////////
+	// ADD TEXTURES //
+	//////////////////
+    
+    {
+        "Action": "Load",
+        "Target": "Mods/wildflour.alesxmeads/Objects, Mods/wildflour.alesxmeads/Machines",
+        "FromFile": "assets/{{TargetWithoutPath}}.png"
+
+ 
+    }
+
+       
+    ]
+}

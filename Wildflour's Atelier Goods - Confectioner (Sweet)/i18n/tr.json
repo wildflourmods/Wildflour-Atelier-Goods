@@ -1,0 +1,189 @@
+{
+	//MACHINE
+
+	"ateliercandy_CandyMachine.name": "Şeker Makinesi",
+	"ateliercandy_CandyMachine.description": "Çeşitli şekerler hazırlar.",
+
+	
+	///////////////////////////
+	// MACHINE NOTIFICATIONS //
+	///////////////////////////
+
+	"ateliercandy_CandyMachine_InvalidItem.message": "Bunu işleyemez.",
+	"ateliercandy_CandyMachine_InvalidCount.message": "Şeker Gerektirir",
+
+	// MARSHMALLOWS
+	
+    "ateliercandy_ancient_marshmallow.name": "Antik Eski Marşmelov",
+	"ateliercandy_ancient_marshmallow.description": "Aşırı yumuşak ve tatlı ev yapımı marşmelov.",
+
+	"ateliercandy_vanilla_marshmallow.name": "Vanilyalı Marşmelov",
+	"ateliercandy_vanilla_marshmallow.description": "Aşırı yumuşak ve tatlı ev yapımı marşmelov.",
+
+	"ateliercandy_coconut_marshmallow.name": "Hindistan Cevizli Marşmelov",
+	"ateliercandy_coconut_marshmallow.description": "Aşırı yumuşak ve tatlı ev yapımı marşmelov.",
+
+	"ateliercandy_confetti_marshmallow.name": "Konfeti Marşmelov",
+	"ateliercandy_confetti_marshmallow.description": "Aşırı yumuşak ve tatlı ev yapımı marşmelov.",
+
+	"ateliercandy_lavender_marshmallow.name": "Lavantalı Marşmelov",
+	"ateliercandy_lavender_marshmallow.description": "Aşırı yumuşak ve tatlı ev yapımı marşmelov.",
+
+	"ateliercandy_matcha_marshmallow.name": "Matcha Marşmelov",
+	"ateliercandy_matcha_marshmallow.description": "Aşırı yumuşak ve tatlı ev yapımı marşmelov.",
+
+	"ateliercandy_strawberry_marshmallow.name": "Çilekli Marşmelov",
+	"ateliercandy_strawberry_marshmallow.description": "Aşırı yumuşak ve tatlı ev yapımı marşmelov.",
+	
+
+	// MARSHMALLOW POPS
+
+	"ateliercandy_ancient_mallow_pop.name": "Antik Eski Marşmelov Twist Pop",
+	"ateliercandy_ancient_mallow_pop.description": "Çeşitli renk ve tatlarla süslenip bir çubuğun üstünde servis edilen marşmelov! Çok kawaii!",
+
+	"ateliercandy_colada_mallow_pop.name": "Pina Colada Marşmelov Twist Pop",
+	"ateliercandy_colada_mallow_pop.description": "Çeşitli renk ve tatlarla süslenip bir çubuğun üstünde servis edilen marşmelov! Çok kawaii!",
+
+	"ateliercandy_candy_mallow_pop.name": "Pamuk Şekeri Marşmelov Twist Pop",
+	"ateliercandy_candy_mallow_pop.description": "Çeşitli renk ve tatlarla süslenip bir çubuğun üstünde servis edilen marşmelov! Çok kawaii!",
+
+	"ateliercandy_earlgrey_mallow_pop.name": "Earl Grey Marşmelov Twist Pop",
+	"ateliercandy_earlgrey_mallow_pop.description": "Çeşitli renk ve tatlarla süslenip bir çubuğun üstünde servis edilen marşmelov! Çok kawaii!",
+
+	"ateliercandy_gem_mallow_pop.name": "Tatlıtaş Marşmelov Twist Pop",
+	"ateliercandy_gem_mallow_pop.description": "Çeşitli renk ve tatlarla süslenip bir çubuğun üstünde servis edilen marşmelov! Çok kawaii!",
+
+	"ateliercandy_peach_mallow_pop.name": "Kremalı Şeftalili Marşmelov Twist Pop",
+	"ateliercandy_peach_mallow_pop.description": "Çeşitli renk ve tatlarla süslenip bir çubuğun üstünde servis edilen marşmelov! Çok kawaii!",
+
+	//LOLLIPOPS
+
+	"ateliercandy_blueberry_lollipop.name": "Yabanmersinli Lolipop",
+	"ateliercandy_blueberry_lollipop.description": "Çocukların klasik atıştırmalığı. Şekerli ve taşınabilir de!",
+
+	"ateliercandy_cherry_lollipop.name": "Kirazlı Lolipop",
+	"ateliercandy_cherry_lollipop.description": "Çocukların klasik atıştırmalığı. Şekerli ve taşınabilir de!",
+
+	"ateliercandy_fairy_lollipop.name": "Peri Lolipopu",
+	"ateliercandy_fairy_lollipop.description": "Çocukların klasik atıştırmalığı. Şekerli ve taşınabilir de!",
+
+	"ateliercandy_lemon_lollipop.name": "Limonlu Lolipop",
+	"ateliercandy_lemon_lollipop.description": "Çocukların klasik atıştırmalığı. Şekerli ve taşınabilir de!",
+
+	"ateliercandy_slime_lollipop.name": "Slime Lolipop",
+	"ateliercandy_slime_lollipop.description": "Çocukların klasik atıştırmalığı... sanırsan. Belki de biri lime ve slime'ı birbirine karıştırdı...",
+
+	"ateliercandy_powdermelon_lollipop.name": "Kış Kavunlu Lolipop",
+	"ateliercandy_powdermelon_lollipop.description": "Çocukların klasik atıştırmalığı. Şekerli ve taşınabilir de!",
+
+	"ateliercandy_orange_lollipop.name": "Portakallı Lolipop",
+	"ateliercandy_orange_lollipop.description": "Çocukların klasik atıştırmalığı. Şekerli ve taşınabilir de!",
+
+	"ateliercandy_raspberry_lollipop.name": "Ahududulu Lollipop",
+	"ateliercandy_raspberry_lollipop.description": "Çocukların klasik atıştırmalığı. Şekerli ve taşınabilir de!",
+
+	//GOURMET LOLLIPOP
+
+	"ateliercandy_blueberry_gourmet_pop.name": "Yabanmersini Turtalı Gurme Lolipop",
+	"ateliercandy_blueberry_gourmet_pop.description": "Bu lolipop KOCAMAN. Şeker patlaması yolda!",
+
+	"ateliercandy_lemon_gourmet_pop.name": "Limon Mezeli Gurme Lolipop",
+	"ateliercandy_lemon_gourmet_pop.description": "Bu lolipop KOCAMAN. Şeker patlaması yolda!",
+
+	"ateliercandy_mint_gourmet_pop.name": "Vanilyalı Naneli Gurme Lolipop",
+	"ateliercandy_mint_gourmet_pop.description": "Bu lolipop KOCAMAN. Şeker patlaması yolda!",
+
+	"ateliercandy_berry_gourmet_pop.name": "Karışık Meyveli Gurme Lolipop",
+	"ateliercandy_berry_gourmet_pop.description": "Bu lolipop KOCAMAN. Şeker patlaması yolda!",
+
+	"ateliercandy_shortcake_gourmet_pop.name": "Çilekli Shortcake Gurme Lolipop",
+	"ateliercandy_shortcake_gourmet_pop.description": "Bu lolipop KOCAMAN. Şeker patlaması yolda!",
+
+	//HARD CANDIES
+
+	"ateliercandy_cinnamon_candy.name": "Tarçınlı Akide Şekeri",
+	"ateliercandy_cinnamon_candy.description": "Pastel, güzel bir paketin içinde meyveli bir şeker.",
+
+	"ateliercandy_blue_candy.name": "Buz Mavisi Akide Şekeri",
+	"ateliercandy_blue_candy.description": "Pastel, güzel bir paketin içinde meyveli bir şeker.",
+
+	"ateliercandy_ginger_candy.name": "Zencefilli Akide Şekeri",
+	"ateliercandy_ginger_candy.description": "Pastel, güzel bir paketin içinde meyveli bir şeker.",
+
+	"ateliercandy_lime_candy.name": "Yeşil Limonlu Akide Şekeri",
+	"ateliercandy_lime_candy.description": "Pastel, güzel bir paketin içinde meyveli bir şeker.",
+
+	"ateliercandy_orange_candy.name": "Portakallı Akide Şekeri",
+	"ateliercandy_orange_candy.description": "Pastel, güzel bir paketin içinde meyveli bir şeker.",
+
+	"ateliercandy_grape_candy.name": "Üzümlü Akide Şekeri",
+	"ateliercandy_grape_candy.description": "Pastel, güzel bir paketin içinde meyveli bir şeker.",
+
+	"ateliercandy_melon_candy.name": "Kavunlu Akide Şekeri",
+	"ateliercandy_melon_candy.description": "Pastel, güzel bir paketin içinde meyveli bir şeker.",
+
+	//FAIRY FLOSS
+
+	"ateliercandy_classic_fairyfloss.name": "Pamuk Şeker",
+	"ateliercandy_classic_fairyfloss.description": "Şeker ve aromalarla yapılan ipliksi bir tatlı.",
+
+	"ateliercandy_lavender_fairyfloss.name": "Lavantalı Pamuk Şeker",
+	"ateliercandy_lavender_fairyfloss.description": "Şeker ve aromalarla yapılan ipliksi bir tatlı.",
+
+	"ateliercandy_lemon_fairyfloss.name": "Limon Mezeli Pamuk Şeker",
+	"ateliercandy_lemon_fairyfloss.description": "Şeker ve aromalarla yapılan ipliksi bir tatlı.",
+
+	"ateliercandy_orange_fairyfloss.name": "Portakal Creamsicle Pamuk Şeker",
+	"ateliercandy_orange_fairyfloss.description": "Şeker ve aromalarla yapılan ipliksi bir tatlı.",
+
+	"ateliercandy_mint_fairyfloss.name": "Naneli Pamuk Şeker",
+	"ateliercandy_mint_fairyfloss.description": "Şeker ve aromalarla yapılan ipliksi bir tatlı.",
+
+	"ateliercandy_strawberry_fairyfloss.name": "Çilekli Shortcake Pamuk Şeker",
+	"ateliercandy_strawberry_fairyfloss.description": "Şeker ve aromalarla yapılan ipliksi bir tatlı.",
+
+	"ateliercandy_vanilla_fairyfloss.name": "Vanilyalı Pamuk Şeker",
+	"ateliercandy_vanilla_fairyfloss.description": "Şeker ve aromalarla yapılan ipliksi bir tatlı.",
+
+
+	//CRYSTAL CANDY
+
+	"ateliercandy_amethyst_rock_candy.name": "Ametist Kristal Şeker",
+	"ateliercandy_amethyst_rock_candy.description": "Kristalize edilmiş bir şeker.",
+
+	"ateliercandy_aqua_rock_candy.name": "Gök Kristal Şeker",
+	"ateliercandy_aqua_rock_candy.description": "Kristalize edilmiş bir şeker.",
+
+	"ateliercandy_emerald_rock_candy.name": "Zümrüt Kristal Şeker",
+	"ateliercandy_emerald_rock_candy.description": "Kristalize edilmiş bir şeker.",
+
+	"ateliercandy_lemon_rock_candy.name": "Limonlu Kristal Şeker",
+	"ateliercandy_lemon_rock_candy.description": "Kristalize edilmiş bir şeker.",
+
+	"ateliercandy_rainbow_rock_candy.name": "Rengarenk Kristal Şeker",
+	"ateliercandy_rainbow_rock_candy.description": "Kristalize edilmiş bir şeker.",
+
+	"ateliercandy_ruby_rock_candy.name": "Yakut Kristal Şeker",
+	"ateliercandy_ruby_rock_candy.description": "Kristalize edilmiş bir şeker.",
+
+	"ateliercandy_starry_rock_candy.name": "Yıldızlı Kristal Şeker",
+	"ateliercandy_starry_rock_candy.description": "Kristalize edilmiş bir şeker.",
+
+	"ateliercandy_topaz_rock_candy.name": "Topaz Kristal Şeker",
+	"ateliercandy_topaz_rock_candy.description": "Kristalize edilmiş bir şeker.",
+
+	//MAIL
+
+	"ateliercandy_CandyMachineRecipe.name": "Junimolardan Bir Hediye",
+    "ateliercandy_CandyMachineRecipe.text": "@, ^^ Yanlış anlama; şekerlerle bir alakam yok. Ancak, sana bu tarifi göndermem için ısrarcı olan ve kulemi terketmeyen junimolar var. Umarım şimdi biraz sessizlik ve huzur bulabilirim.^^ - Wizard",
+    
+	"ateliercandy_vincent_gift.name": "Tatlı Mantarlar!",
+	"ateliercandy_vincent_gift.text": "@, ^^ Şimdi bir şeker çiftçisi mi olacaksın yani!? Keşke ben de şeker çiftçisi olsam, çok harika olurdu. Ormanda bu mantarları buldum ve şekere benziyorlar, o yüzden sana da göndereyim diye düşündüm!^^ - Vincent",
+    
+	"ateliercandy_abigail_gift.name": "Sert Şeker?!",
+	"ateliercandy_abigail_gift.text": "@, ^^ Madenlerde bulduğum şeyleri kimseyle paylaşmak gibi bir alışkanlığım yok, ama duydum ki sen şeker yapıyormuşsun. Paylaşmak istersen biraz akide şekerine bayılırım diyelim...^^ - Abigail",
+    
+	"ateliercandy_penny_gift.name": "Şeker Zaafı",
+	"ateliercandy_penny_gift.text": "@, ^^ Şekerleri birazcık fazla sevdiğimi itiraf etmeliyim. Ayrıca birçok şeker rengarenk ve çok güzel. Galiba bu çiçekleri şekerlere dönüştürebilirsin. Nasıl olduğunu çözersen bana haber ver!^^ - Penny",
+	
+}

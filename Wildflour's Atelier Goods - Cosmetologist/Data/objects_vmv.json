@@ -1,0 +1,230 @@
+{
+    "Changes": [
+        
+
+        {
+            "LogName":"Add Cosmetologist Objects for VMV",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "wildflour.ateliermakeup_amber_polish": {
+                    "Name": "wildflour.ateliermakeup_amber_polish",
+                    "DisplayName": "{{i18n:ateliermakeup_amber_polish.name}}",
+                    "Description": "{{i18n:ateliermakeup_amber_polish.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    
+                    "ContextTags":
+                    ["wildflour_makeup_item",
+                    "nail_polish_item",
+                    "color_gold"],
+
+                    "Texture": "Mods/wildflour.ateliermakeup/Objects",
+                    "SpriteIndex": 8
+            },
+                "wildflour.ateliermakeup_demantoide_lotion": {
+                    "Name": "wildflour.ateliermakeup_demantoide_lotion",
+                    "DisplayName": "{{i18n:ateliermakeup_demantoide_lotion.name}}",
+                    "Description": "{{i18n:ateliermakeup_demantoide_lotion.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    
+                    "ContextTags":
+                    ["wildflour_makeup_item",
+                    "lotion_item",
+                    "color_green"],
+
+                    "Texture": "Mods/wildflour.ateliermakeup/Objects",
+                    "SpriteIndex": 19
+            }, 
+                "wildflour.ateliermakeup_carnelian_blush": {
+                    "Name": "wildflour.ateliermakeup_carnelian_blush",
+                    "DisplayName": "{{i18n:ateliermakeup_carnelian_blush.name}}",
+                    "Description": "{{i18n:ateliermakeup_carnelian_blush.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    
+                    "ContextTags":
+                    ["wildflour_makeup_item",
+                    "blush_item",
+                    "color_red"],
+                
+                    "Texture": "Mods/wildflour.ateliermakeup/Objects",
+                    "SpriteIndex": 37
+            },
+                "wildflour.ateliermakeup_turquoise_cleanser": {
+                    "Name": "wildflour.ateliermakeup_turquoise_cleanser",
+                    "DisplayName": "{{i18n:ateliermakeup_turquoise_cleanser.name}}",
+                    "Description": "{{i18n:ateliermakeup_turquoise_cleanser.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    
+                    "ContextTags":
+                    ["wildflour_makeup_item",
+                    "cleanser_item",
+                    "color_dark_blue"],
+                
+                    "Texture": "Mods/wildflour.ateliermakeup/Objects",
+                    "SpriteIndex": 52
+            },
+                "wildflour.ateliermakeup_garnet_powder": {
+                    "Name": "wildflour.ateliermakeup_garnet_powder",
+                    "DisplayName": "{{i18n:ateliermakeup_garnet_powder.name}}",
+                    "Description": "{{i18n:ateliermakeup_garnet_powder.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    
+                    "ContextTags":
+                    ["wildflour_makeup_item",
+                    "powder_item",
+                    "color_red"],
+                
+                    "Texture": "Mods/wildflour.ateliermakeup/Objects",
+                    "SpriteIndex": 65
+            },
+                "wildflour.ateliermakeup_morganite_lipstick": {
+                    "Name": "wildflour.ateliermakeup_morganite_lipstick",
+                    "DisplayName": "{{i18n:ateliermakeup_morganite_lipstick.name}}",
+                    "Description": "{{i18n:ateliermakeup_morganite_lipstick.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    
+                    "ContextTags":
+                    ["wildflour_makeup_item",
+                    "lipstick_item",
+                    "color_orange"],
+                
+                    "Texture": "Mods/wildflour.ateliermakeup/Objects",
+                    "SpriteIndex": 81
+            },
+                "wildflour.ateliermakeup_heliodor_lipgloss": {
+                    "Name": "wildflour.ateliermakeup_heliodor_lipgloss",
+                    "DisplayName": "{{i18n:ateliermakeup_heliodor_lipgloss.name}}",
+                    "Description": "{{i18n:ateliermakeup_heliodor_lipgloss.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                    "ContextTags":
+                    ["wildflour_makeup_item",
+                    "lipgloss_item",
+                    "color_gold"],
+                
+                    "Texture": "Mods/wildflour.ateliermakeup/Objects",
+                    "SpriteIndex": 100
+            },
+                "wildflour.ateliermakeup_labradorite_mascara": {
+                    "Name": "wildflour.ateliermakeup_labradorite_mascara",
+                    "DisplayName": "{{i18n:ateliermakeup_labradorite_mascara.name}}",
+                    "Description": "{{i18n:ateliermakeup_labradorite_mascara.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                    "ContextTags":
+                    ["wildflour_makeup_item",
+                    "mascara_item",
+                    "color_blue"],
+                
+                    "Texture": "Mods/wildflour.ateliermakeup/Objects",
+                    "SpriteIndex": 112
+            },
+                "wildflour.ateliermakeup_void_palette": {
+                    "Name": "wildflour.ateliermakeup_void_palette",
+                    "DisplayName": "{{i18n:ateliermakeup_void_palette.name}}",
+                    "Description": "{{i18n:ateliermakeup_void_palette.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                    "ContextTags":
+                    ["wildflour_makeup_item",
+                    "palette_item",
+                    "color_dark_purple"],
+                
+                    "Texture": "Mods/wildflour.ateliermakeup/Objects",
+                    "SpriteIndex": 132
+            },
+                "wildflour.ateliermakeup_tourmaline_perfume": {
+                    "Name": "wildflour.ateliermakeup_tourmaline_perfume",
+                    "DisplayName": "{{i18n:ateliermakeup_tourmaline_perfume.name}}",
+                    "Description": "{{i18n:ateliermakeup_tourmaline_perfume.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    
+                    "ContextTags":
+                    ["wildflour_makeup_item",
+                    "perfume_item",
+                    "color_pink"],
+                
+                    "Texture": "Mods/wildflour.ateliermakeup/Objects",
+                    "SpriteIndex": 153
+            },
+                "wildflour.ateliermakeup_larimar_perfume": {
+                    "Name": "wildflour.ateliermakeup_larimar_perfume",
+                    "DisplayName": "{{i18n:ateliermakeup_larimar_perfume.name}}",
+                    "Description": "{{i18n:ateliermakeup_larimar_perfume.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                    "ContextTags":
+                    ["wildflour_makeup_item",
+                    "perfume_item",
+                    "color_light_blue"],
+                
+                    "Texture": "Mods/wildflour.ateliermakeup/Objects",
+                    "SpriteIndex": 151
+            },
+                "wildflour.ateliermakeup_blue_agathe_perfume": {
+                    "Name": "wildflour.ateliermakeup_blue_agathe_perfume",
+                    "DisplayName": "{{i18n:ateliermakeup_blue_agathe_perfume.name}}",
+                    "Description": "{{i18n:ateliermakeup_blue_agathe_perfume.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                    "ContextTags":
+                    ["wildflour_makeup_item",
+                    "perfume_item",
+                    "color_dark_blue"],
+                
+                    "Texture": "Mods/wildflour.ateliermakeup/Objects",
+                    "SpriteIndex": 154
+            },
+    }
+    }
+
+    ]
+}

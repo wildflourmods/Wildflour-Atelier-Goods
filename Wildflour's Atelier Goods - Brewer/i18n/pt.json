@@ -1,0 +1,430 @@
+{
+
+//////////////////
+///GENERIC ITEMS NEW///
+//////////////////
+
+"alesxmeads_FruitAle.name": "Ale Aromatizada",
+"alesxmeads_FruitAle.description": "Uma cerveja ousada feita com adição de frutas frescas ao processo de fabricação.",
+
+"alesxmeads_FruitMead.name": "Hidromel Aromatizado",
+"alesxmeads_FruitMead.description": "Um hidromel doce feito com adição de frutas frescas ao processo de fabricação.",
+
+"alesxmeads_FlowerMead.name": "Hidromel Perfumado",
+"alesxmeads_FlowerMead.description": "Um hidromel doce feito com adição de flores frescas ao processo de fabricação.",
+
+/////////////////
+///STRINGS NEW //
+/////////////////
+
+"alesxmeads_FruitAle": "{0} Ale",
+"alesxmeads_FruitMead": "{0} hidromel",
+"alesxmeads_FlowerMead": "{0} hidromel",
+
+/////////////////////////////
+// NEW MOD SUPPORTED ITEMS //
+/////////////////////////////
+
+"alesxmeads_gardenia_mead.name": "Hidromel de Gardenia",
+"alesxmeads_gardenia_mead.description": "Hidromel de mel com sabor de flores de gardenia.",
+
+"alesxmeads_hibiscus_mead.name": "Hidromel de Hibisco",
+"alesxmeads_hibiscus_mead.description": "Hidromel de mel com sabor de flores de hibisco.",
+
+"alesxmeads_borage_mead.name": "Hidromel de Borragem",
+"alesxmeads_borage_mead.description": "Hidromel de mel com sabor de flores de borragem.",
+
+"alesxmeads_calendula_mead.name": "Hidromel de Calêndula",
+"alesxmeads_calendula_mead.description": "Hidromel de mel com sabor de flores de calêndula.",
+
+"alesxmeads_hollyhock_mead.name": "Hidromel de Malva",
+"alesxmeads_hollyhock_mead.description": "Hidromel de mel com sabor de flores de malva.",
+
+"alesxmeads_springpansy_mead.name": "Hidromel de Amor-perfeito",
+"alesxmeads_springpansy_mead.description": "Hidromel de mel com sabor de flores de amor-perfeito.",
+
+"alesxmeads_orangeblossom_mead.name": "Hidromel de Flor de Laranjeira",
+"alesxmeads_orangeblossom_mead.description": "Hidromel de mel com sabor de flores de flor de laranjeira.",
+
+//////////////
+///MACHINES///
+//////////////
+
+"alesxmeads_AleKeg.name": "Barril de Ale",
+"alesxmeads_AleKeg.description": "Um barril para fermentar cervejas aromatizadas.",
+
+"alesxmeads_MeadKeg.name": "Barril de Hidromel Artesanal",
+"alesxmeads_MeadKeg.description": "Um barril para fermentar hidromeis aromatizados.",
+
+///////////////////////////
+// MACHINE NOTIFICATIONS //
+///////////////////////////
+
+"alesxmeads_AleKeg_InvalidCount.message": "Requer Lúpulo",
+"alesxmeads_AleKeg_InvalidItem.message": "Não Pode Processar Isso",
+
+"alesxmeads_MeadKeg_InvalidCount.message": "Requer Mel",
+"alesxmeads_MeadKeg_InvalidItem.message": "Não Pode Processar Isso",
+
+//////////
+///ALES///
+//////////
+
+"alesxmeads_ancient_ale.name": "Ale Antiga",
+"alesxmeads_ancient_ale.description": "Mística, mágica e deliciosa.",
+
+"alesxmeads_apple_ale.name": "Pilsen de Maçã",
+"alesxmeads_apple_ale.description": "Fresca e crocante, como as folhas caídas.",
+
+"alesxmeads_apricot_ale.name": "Ale de Damasco",
+"alesxmeads_apricot_ale.description": "Agridoce e ligeiramente doce, a cerveja perfeita para a primavera.",
+
+"alesxmeads_banana_ale.name": "Stout de Aveia com Banana",
+"alesxmeads_banana_ale.description": "Doce e reconfortante como uma fatia de pão de banana.",
+
+"alesxmeads_blackberry_ale.name": "Stout de Amora",
+"alesxmeads_blackberry_ale.description": "Uma rica cerveja stout infundida com as melhores amoras do verão.",
+
+"alesxmeads_blueberry_ale.name": "Ale de Mirtilo",
+"alesxmeads_blueberry_ale.description": "Uma cerveja doce que lembra a torta de mirtilo recém-assada.",
+
+"alesxmeads_cactus_ale.name": "Ale de Cacto",
+"alesxmeads_cactus_ale.description": "Uma cerveja especial do Deserto de Calico.",
+
+"alesxmeads_cherry_ale.name": "Ale Azeda de Cereja",
+"alesxmeads_cherry_ale.description": "Agridoce e perfeitamente equilibrada em uma cerveja.",
+
+"alesxmeads_coconut_ale.name": "Stout de Leite de Coco",
+"alesxmeads_coconut_ale.description": "A bebida perfeita se você gosta de Piña Coladas, mas tem uma relação difícil com tequila.",
+
+"alesxmeads_cranberry_ale.name": "Pale Ale de Oxicoco",
+"alesxmeads_cranberry_ale.description": "O acompanhamento perfeito para um jantar de feriado.",
+
+"alesxmeads_crystal_ale.name": "Lager Cristal",
+"alesxmeads_crystal_ale.description": "Uma cerveja tão fresca e refrescante quanto a neve recém-caída.",
+
+"alesxmeads_mango_ale.name": "Lager de Manga",
+"alesxmeads_mango_ale.description": "A cerveja oficial do Bar à Beira-Mar de Ginger Island.",
+
+"alesxmeads_melon_ale.name": "Pale Ale de Melão",
+"alesxmeads_melon_ale.description": "A cerveja perfeita para se refrescar em uma noite quente de verão.",
+
+"alesxmeads_orange_ale.name": "Pilsen de Laranja",
+"alesxmeads_orange_ale.description": "Lembra um picolé de laranja.",
+
+"alesxmeads_peach_ale.name": "Stout de Pêssego",
+"alesxmeads_peach_ale.description": "Doce como pêssegos com creme.",
+
+"alesxmeads_pineapple_ale.name": "Pale Ale de Abacaxi",
+"alesxmeads_pineapple_ale.description": "Perfeita para uma tarde de verão na praia.",
+
+"alesxmeads_pomegranate_ale.name": "Cerveja de Romã",
+"alesxmeads_pomegranate_ale.description": "Doce e azeda, diz a lenda que era a cerveja favorita de Perséfone.",
+
+"alesxmeads_pumpkin_ale.name": "Cerveja de Abóbora e Especiarias",
+"alesxmeads_pumpkin_ale.description": "Abóbora, especiarias, bordo, cerveja... o que não amar?",
+
+"alesxmeads_salmonberry_ale.name": "Cerveja de Amora Silvestre",
+"alesxmeads_salmonberry_ale.description": "Uma forma refrescante de usar todas aquelas amoras silvestres.",
+
+"alesxmeads_spiced_ale.name": "Porter Especiada",
+"alesxmeads_spiced_ale.description": "Embora as frutas sejam colhidas no verão, esta cerveja quente e especiada é melhor servida nos meses mais frios do outono.",
+
+"alesxmeads_starfruit_ale.name": "Cerveja de Carambola",
+"alesxmeads_starfruit_ale.description": "Uma cerveja dourada perfeita para festas de luau de verão.",
+
+"alesxmeads_strawberry_ale.name": "Porter de Morango",
+"alesxmeads_strawberry_ale.description": "Ninguém resiste ao seu sabor de bolo de morango.",
+
+"alesxmeads_gem_ale.name": "Lager de Gemas",
+"alesxmeads_gem_ale.description": "A favorita do Velho Mestre Cannoli.",
+
+"alesxmeads_plum_ale.name": "Stout de Ameixa",
+"alesxmeads_plum_ale.description": "Beba rápido ou se tornará um stout de ameixa.",
+ 
+//PPJA ALES
+
+"alesxmeads_honeycrisp_apple_ale.name": "Pale Ale de Maçã Honeycrisp",
+"alesxmeads_honeycrisp_apple_ale.description": "Uma IPA azeda e outonal.",
+
+"alesxmeads_dragonfruit_ale.name": "Ale de Pitaya",
+"alesxmeads_dragonfruit_ale.description": "Uma cerveja de verão fresca do Deserto de Calico.",
+
+"alesxmeads_fig_ale.name": "Stout de Figo",
+"alesxmeads_fig_ale.description": "Melhor combinado com pudim de figo e uma boa canção de Natal.",
+
+"alesxmeads_grapefruit_ale.name": "Pale Ale de Toranja",
+"alesxmeads_grapefruit_ale.description": "Uma IPA azeda e cítrica.",
+
+"alesxmeads_lemon_ale.name": "Hefeweizen de Limão",
+"alesxmeads_lemon_ale.description": "Lembra limonada, mas melhor!",
+
+"alesxmeads_lime_ale.name": "Hefeweizen de Limão",
+"alesxmeads_lime_ale.description": "Uma cerveja ousada e cítrica, perfeita para saborear no verão.",
+
+"alesxmeads_lychee_ale.name": "Ale de Lichia",
+"alesxmeads_lychee_ale.description": "Doce, ligeiramente floral e ácida.",
+
+"alesxmeads_papaya_ale.name": "Ale de Mamão",
+"alesxmeads_papaya_ale.description": "Uma das variedades de cerveja especialmente desenvolvidas por Sandy.",
+
+"alesxmeads_pear_ale.name": "Pilsen de Pera",
+"alesxmeads_pear_ale.description": "Uma cerveja leve e crocante.",
+
+"alesxmeads_persimmon_ale.name": "Ale de Caqui",
+"alesxmeads_persimmon_ale.description": "Uma cerveja delicadamente aromatizada, lembrando mel e melão.",
+
+"alesxmeads_pomelo_ale.name": "Ale de Pomelo",
+"alesxmeads_pomelo_ale.description": "Tem gosto de toranja, mas é mais doce.", 
+
+//WILD FOOD ALES
+
+"alesxmeads_vanilla_ale.name": "Stout de Baunilha de Calico",
+"alesxmeads_vanilla_ale.description": "Uma cerveja doce e quente para aquecer você em uma noite fresca.",
+
+"alesxmeads_petite_lemon_ale.name": "Stout de Limão Doce",
+"alesxmeads_petite_lemon_ale.description": "Ao contrário da hefeweizen, o sabor de limão nesta cerveja é cremoso e doce, quase como uma sobremesa.",
+
+"alesxmeads_petite_lime_ale.name": "Stout de Lima Doce",
+"alesxmeads_petite_lime_ale.description": "Ao contrário da hefeweizen, o sabor de lima nesta cerveja é cremoso e doce, quase como uma sobremesa.",
+
+"alesxmeads_wild_raspberry_ale.name": "Ale de Framboesa Silvestre",
+"alesxmeads_wild_raspberry_ale.description": "Cerveja feita com framboesas frescas colhidas na hora; um verdadeiro mimo de verão.",
+
+"alesxmeads_wild_strawberry_ale.name": "Ale de Morango Silvestre",
+"alesxmeads_wild_strawberry_ale.description": "Cerveja feita com morangos frescos colhidos na hora; um verdadeiro mimo de primavera.",
+
+// CERVEJAS ESPECIAIS DO PIXIE FORAGE
+
+"alesxmeads_ambrosia_apple_ale.name": "Ale Ambrosia",
+"alesxmeads_ambrosia_apple_ale.description": "Uma cerveja especial elaborada pelos Seres das Fadas de Ferngill para celebrar o equinócio de outono.",
+
+"alesxmeads_moongold_apricot_ale.name": "Ale Luar de Ouro",
+"alesxmeads_moongold_apricot_ale.description": "Uma cerveja especial elaborada pelos Seres das Fadas de Ferngill para celebrar o equinócio de primavera.",
+
+"alesxmeads_ladyfinger_banana_ale.name": "Ale Dedos de Dama",
+"alesxmeads_ladyfinger_banana_ale.description": "Uma cerveja especial elaborada pelos Seres das Fadas da Ilha de Ginger para celebrar o solstício de verão.",
+
+"alesxmeads_sour_cherry_ale.name": "Ale Meteoro",
+"alesxmeads_sour_cherry_ale.description": "Uma cerveja especial elaborada pelos Seres das Fadas de Ferngill para celebrar o equinócio de primavera.",
+
+"alesxmeads_sunset_mango_ale.name": "Ale Pôr do Sol",
+"alesxmeads_sunset_mango_ale.description": "Uma cerveja especial elaborada pelos Seres das Fadas da Ilha de Ginger para celebrar o solstício de verão.",
+
+"alesxmeads_blood_orange_ale.name": "Ale Vermelha",
+"alesxmeads_blood_orange_ale.description": "Uma cerveja especial elaborada pelos Seres das Fadas de Ferngill para celebrar o solstício de verão.",
+
+"alesxmeads_snow_peach_ale.name": "Ale Bela da Neve",
+"alesxmeads_snow_peach_ale.description": "Uma cerveja especial elaborada pelos Seres das Fadas de Ferngill para celebrar o solstício de verão.",
+
+"alesxmeads_eversweet_pomegranate_ale.name": "Ale Sempre Doce",
+"alesxmeads_eversweet_pomegranate_ale.description": "Uma cerveja especial elaborada pelos Seres das Fadas de Ferngill para celebrar o equinócio de outono.",
+
+///////////
+///MEADS///
+///////////
+
+//BASE GAME
+
+"alesxmeads_ancient_mead.name": "Hidromel Antigo Doce",
+"alesxmeads_ancient_mead.description": "Quente e reconfortante - experimentá-lo enche você de um sentimento estranho e mágico.",
+
+"alesxmeads_apple_mead.name": "Hidromel de Maçã Crocante",
+"alesxmeads_apple_mead.description": "Quente e reconfortante - experimentá-lo traz pensamentos de noites outonais crocantes.",
+
+"alesxmeads_apricot_mead.name": "Hidromel de Damasco Primaveril",
+"alesxmeads_apricot_mead.description": "Um doce hidromel primaveril para desfrutar sob uma árvore recém-florescida.",
+
+"alesxmeads_banana_mead.name": "Hidromel Banana Bliss",
+"alesxmeads_banana_mead.description": "Se o pão de banana fosse feito por abelhas, teria esse sabor.",
+
+"alesxmeads_blackberry_mead.name": "Hidromel de Amora",
+"alesxmeads_blackberry_mead.description": "Um hidromel doce e azedo inspirado na colheita de amoras silvestres.",
+
+"alesxmeads_blueberry_mead.name": "Hidromel de Torta de Mirtilo",
+"alesxmeads_blueberry_mead.description": "Você não sabia que gostaria de beber uma torta de mirtilo líquida, até agora.",
+
+"alesxmeads_cactus_mead.name": "Hidromel de Cacto Calico",
+"alesxmeads_cactus_mead.description": "Uma especialidade do Deserto de Calico.",
+
+"alesxmeads_cherry_mead.name": "Hidromel de Cereja Doce",
+"alesxmeads_cherry_mead.description": "Doce e azedo, melhor apreciado enquanto se observa as cerejeiras em flor.",
+
+"alesxmeads_coconut_mead.name": "Hidromel de Coco Tropical",
+"alesxmeads_coconut_mead.description": "Todo mundo fica Louco por este Coco - Hidromel de Noz!",
+
+"alesxmeads_cranberry_mead.name": "Hidromel de Oxicoco Azedo",
+"alesxmeads_cranberry_mead.description": "Um hidromel azedo e refrescante de outono.",
+
+"alesxmeads_crystal_mead.name": "Hidromel Cristal",
+"alesxmeads_crystal_mead.description": "O hidromel perfeito para a Festa da Estrela do Inverno.",
+
+"alesxmeads_mango_mead.name": "Hidromel de Manga da Ilha",
+"alesxmeads_mango_mead.description": "Um hidromel especial da Ilha de Ginger.",
+
+"alesxmeads_melon_mead.name": "Hidromel de Melão de Verão",
+"alesxmeads_melon_mead.description": "Este hidromel agradavelmente rosa é perfeito para qualquer soirée de verão.",
+
+"alesxmeads_orange_mead.name": "Hidromel de Laranja Creamsicle",
+"alesxmeads_orange_mead.description": "Um hidromel brilhante e cítrico, reminiscente de um mimosa.",
+
+"alesxmeads_peach_mead.name": "Hidromel de Pêssegos com Creme",
+"alesxmeads_peach_mead.description": "Doce e veraneio.",
+
+"alesxmeads_pineapple_mead.name": "Hidromel de Abacaxi Birdie",
+"alesxmeads_pineapple_mead.description": "A receita secreta é guardada de perto pelos Papagaios da Ilha de Ginger.",
+
+"alesxmeads_pomegranate_mead.name": "Hidromel de Romã Doce",
+"alesxmeads_pomegranate_mead.description": "O hidromel perfeito para servir na sua festa de Eve do Espírito.",
+
+"alesxmeads_salmonberry_mead.name": "Hidromel de Amora-silvestre",
+"alesxmeads_salmonberry_mead.description": "Um hidromel levemente doce feito com salmonberries silvestres.",
+
+"alesxmeads_spiced_mead.name": "Hidromel Temperado",
+"alesxmeads_spiced_mead.description": "Um hidromel aquecedor perfeito para uma noite fresca.",
+
+"alesxmeads_starfruit_mead.name": "Hidromel Céus de Carambola",
+"alesxmeads_starfruit_mead.description": "Um hidromel dourado melhor apreciado durante as noites de verão observando as estrelas.",
+
+"alesxmeads_strawberry_mead.name": "Hidromel Campos de Morango",
+"alesxmeads_strawberry_mead.description": "Lembra um milkshake de morango, mas melhor.",
+
+"alesxmeads_gem_mead.name": "Hidromel da Gema",
+"alesxmeads_gem_mead.description": "Um hidromel mágico rumores de ter sido criado pelos junimos que vivem na floresta secreta.",
+
+"alesxmeads_plum_mead.name": "Hidromel de Ameixa Outonal",
+"alesxmeads_plum_mead.description": "Uma variedade doce de hidromel para o outono.",
+
+//cornucopia_mead
+
+"alesxmeads_dragon_mead.name": "Hidromel do Dragão",
+"alesxmeads_dragon_mead.description": "Nenhum dragão foi prejudicado na criação deste hidromel.",
+
+"alesxmeads_fig_mead.name": "Hidromel de Figo de Inverno",
+"alesxmeads_fig_mead.description": "Combina bem com queijo de cabra!",
+
+"alesxmeads_grapefruit_mead.name": "Hidromel de Toranja Agridoce",
+"alesxmeads_grapefruit_mead.description": "Um hidromel um pouco azedo.",
+
+"alesxmeads_lemon_mead.name": "Hidromel de Limão e Merengue",
+"alesxmeads_lemon_mead.description": "Ao provar este hidromel, você se lembra dos famosos bolinhos de limão da sua mãe.",
+
+"alesxmeads_lime_mead.name": "Hidromel de Torta de Limão",
+"alesxmeads_lime_mead.description": "Não previne escorbuto, mas tem um sabor delicioso.",
+
+"alesxmeads_lychee_mead.name": "Hidromel de Lichia",
+"alesxmeads_lychee_mead.description": "Um hidromel doce e ligeiramente floral.",
+
+"alesxmeads_papaya_mead.name": "Hidromel da Ilha Papaya",
+"alesxmeads_papaya_mead.description": "Outra variedade de licor especialmente desenvolvida por Sandy.",
+
+"alesxmeads_pear_mead.name": "Hidromel de Pera Crocante",
+"alesxmeads_pear_mead.description": "Crocante e azedo.",
+
+"alesxmeads_persimmon_mead.name": "Hidromel de Caqui Okay Poke",
+"alesxmeads_persimmon_mead.description": "Talvez o Rato do Chapéu goste de uma garrafa?",
+
+"alesxmeads_pomelo_mead.name": "Hidromel de Pomelo Azedo",
+"alesxmeads_pomelo_mead.description": "Um hidromel cítrico que pode alegrar até os dias de inverno mais sombrios.", 
+
+//WILD FOOD Mead
+
+"alesxmeads_vanilla_mead.name": "Hidromel de Baunilha Calico",
+"alesxmeads_vanilla_mead.description": "Hidromel feito com mel polinizado com flores de baunilha calico.", 
+
+"alesxmeads_cinnamon_mead.name": "Hidromel de Canela Doce",
+"alesxmeads_cinnamon_mead.description": "Hidromel feito com mel polinizado com casca de canela de Cindersap.",
+
+"alesxmeads_chamomile_mead.name": "Hidromel de Camomila dos Campos",
+"alesxmeads_chamomile_mead.description": "Hidromel feito com mel polinizado com flores de camomila.",
+
+"alesxmeads_lavender_mead.name": "Hidromel de Lavanda dos Campos",
+"alesxmeads_lavender_mead.description": "Hidromel feito com mel polinizado com lavanda da floresta.",
+
+"alesxmeads_mallow_mead.name": "Hidromel de Marshmallow",
+"alesxmeads_mallow_mead.description": "Hidromel feito com mel polinizado com flores de malva.",
+
+"alesxmeads_petite_lemon_mead.name": "Hidromel de Limão Petite",
+"alesxmeads_petite_lemon_mead.description": "Hidromel feito com mel polinizado com flores de limão.", 
+
+"alesxmeads_petite_lime_mead.name": "Hidromel de Lima Petite",
+"alesxmeads_petite_lime_mead.description": "Hidromel feito com mel polinizado com flores de limão.", 
+
+"alesxmeads_sakura_mead.name": "Hidromel de Sakura",
+"alesxmeads_sakura_mead.description": "Hidromel feito com mel polinizado com flores de cerejeira.",
+
+"alesxmeads_wild_raspberry_mead.name": "Hidromel de Framboesa Doce",
+"alesxmeads_wild_raspberry_mead.description": "Hidromel feito com mel polinizado com flores de framboesa selvagem.", 
+
+"alesxmeads_wild_strawberry_mead.name": "Hidromel de Morango e Creme",
+"alesxmeads_wild_strawberry_mead.description": "Hidromel feito com mel polinizado com flores de morango selvagem.",
+ 
+//PIXIE FORAGE MEAD
+
+"alesxmeads_ambrosia_apple_mead.name": "Hidromel Ambrosia",
+"alesxmeads_ambrosia_apple_mead.description": "Um hidromel feito especialmente para o povo fae; a lenda diz que se um humano o beber, poderá falar com criaturas mágicas.",
+
+"alesxmeads_moongold_apricot_mead.name": "Hidromel Luar de Ouro",
+"alesxmeads_moongold_apricot_mead.description": "Um hidromel feito especialmente para o povo fae; a lenda diz que se um humano o beber, poderá falar com criaturas mágicas.",
+
+"alesxmeads_ladyfinger_banana_mead.name": "Hidromel Dedos de Dama",
+"alesxmeads_ladyfinger_banana_mead.description": "Um hidromel feito especialmente para o povo fae; a lenda diz que se um humano o beber, poderá falar com criaturas mágicas.",
+
+"alesxmeads_sour_cherry_mead.name": "Hidromel Meteoro",
+"alesxmeads_sour_cherry_mead.description": "Um hidromel feito especialmente para o povo fae; a lenda diz que se um humano o beber, poderá falar com criaturas mágicas.",
+
+"alesxmeads_sunset_mango_mead.name": "Hidromel Pôr do Sol",
+"alesxmeads_sunset_mango_mead.description": "Um hidromel feito especialmente para o povo fae; a lenda diz que se um humano o beber, poderá falar com criaturas mágicas.",
+
+"alesxmeads_blood_orange_mead.name": "Hidromel Vermelho",
+"alesxmeads_blood_orange_mead.description": "Um hidromel feito especialmente para o povo fae; a lenda diz que se um humano o beber, poderá falar com criaturas mágicas.",
+
+"alesxmeads_snow_peach_mead.name": "Hidromel Bela da Neve",
+"alesxmeads_snow_peach_mead.description": "Um hidromel feito especialmente para o povo fae; a lenda diz que se um humano o beber, poderá falar com criaturas mágicas.",
+
+"alesxmeads_eversweet_pomegranate_mead.name": "Hidromel de Sempre Doce",
+"alesxmeads_eversweet_pomegranate_mead.description": "Um hidromel feito especialmente para o povo fae; a lenda diz que se um humano o beber, poderá falar com criaturas mágicas.",
+
+"alesxmeads_cake_mead.name": "Hidromel de Bolo",
+"alesxmeads_cake_mead.description": "Um hidromel feito a partir de flores mágicas de fadas; tem um sabor estranhamente parecido com bolo de baunilha.",
+
+"alesxmeads_caramel_mead.name": "Hidromel de Caramelo",
+"alesxmeads_caramel_mead.description": "Um hidromel feito a partir de flores mágicas de fadas; tem um sabor estranhamente parecido com uma maçã caramelizada.",
+
+"alesxmeads_creamsicle_mead.name": "Hidromel de Creamsicle",
+"alesxmeads_creamsicle_mead.description": "Um hidromel feito a partir de flores mágicas de fadas; tem um sabor estranhamente parecido com um picolé de laranja.",
+
+"alesxmeads_custard_mead.name": "Hidromel de Creme",
+"alesxmeads_custard_mead.description": "Um hidromel feito a partir de flores mágicas de fadas; tem um sabor estranhamente parecido com creme de baunilha.",
+
+"alesxmeads_gumdrop_mead.name": "Hidromel de Jujuba",
+"alesxmeads_gumdrop_mead.description": "Um hidromel feito a partir de flores mágicas de fadas; tem um sabor estranhamente parecido com gomas de frutas.",
+
+"alesxmeads_macaron_mead.name": "Hidromel de Macaron",
+"alesxmeads_macaron_mead.description": "Um hidromel feito a partir de flores mágicas de fadas; tem um sabor estranhamente parecido com um macaron de amêndoa.",
+
+"alesxmeads_pie_mead.name": "Hidromel de Torta",
+"alesxmeads_pie_mead.description": "Um hidromel feito a partir de flores mágicas de fadas; tem um sabor estranhamente parecido com torta de mirtilo.",
+
+"alesxmeads_sprinkle_mead.name": "Hidromel de Granulado",
+"alesxmeads_sprinkle_mead.description": "Um hidromel feito a partir de flores mágicas de fadas; tem um sabor estranhamente parecido com confeitos coloridos.",
+
+"alesxmeads_sugar_mead.name": "Hidromel de Açúcar",
+"alesxmeads_sugar_mead.description": "Um hidromel feito a partir de flores mágicas de fadas; tem um sabor estranhamente parecido com açúcar puro.",
+
+
+//////////
+///MAIL///
+//////////
+
+"alesxmeads_AleKeg.text": "@, ^^ Você já experimentou uma pale ale, mas isso é apenas a ponta do iceberg quando se trata de cervejas de qualidade. Experimente fazer um desses barris: adicione frutas e alguns lúpulos e prepare-se para ficar maravilhado. Ah, e não se esqueça de compartilhar, certo? ^^ - Pam",
+"alesxmeads_shanegift.text": "@, ^^ Então, a Pam te enviou os projetos para um novo barril de cerveja, né? Parece bem legal, para ser honesto. Ela disse que você precisaria de bastante resina de carvalho, então pensei em te enviar um pouco que a Jas e eu extraímos na floresta no ano passado como um projeto. ^^ - Shane",
+"alesxmeads_elliottgift.text": "@, ^^ Cervejas especiais produzidas localmente? Parece absolutamente fabuloso! Eu não entendo muito sobre cervejaria, mas sei que você precisa de lúpulos! Saúde! ^^ - Elliott",
+"alesxmeads_pierregift.text": "@, ^^ Quando eu estava no exterior, um dos meus colegas era das Ilhas do Mar das Gemas. Ele costumava falar muito sobre cervejas infusionadas com manga. Se você conseguir fazer isso, adoraria experimentar. ^^ - Kent",
+
+"alesxmeads_MeadKeg.text": "@, ^^ Já se perguntou se diferentes frutas e flores poderiam afetar o sabor do seu hidromel? Podem! Experimente fazer um desses barris de hidromel especializados e você ficará maravilhado com os novos hidromeis que poderá destilar. ^^ - Gus",
+"alesxmeads_gusgift.text": "@, ^^ Willy mencionou que você está pensando em destilar hidromeis especiais! Você precisará de alguns destes para começar, certo? ^^ - Gus",
+"alesxmeads_clintgift.text": "@, ^^ Ah, oi. Cartas realmente não são o meu forte, mas acho legal que você esteja tentando fazer hidromeis diferentes. Achei que isso poderia ajudar. ^^ - Clint",
+"alesxmeads_sandygift.text": "@, ^^ Oi, querido! Você sabia que o fruto do cacto faz um excelente hidromel? Você pode chamá-lo de Especialidade da Sandy, se quiser! ^^ - Sandy",
+
+}

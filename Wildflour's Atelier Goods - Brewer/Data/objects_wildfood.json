@@ -1,0 +1,99 @@
+{
+    "Changes": [
+        
+/////////////////
+// ALE OBJECTS //
+/////////////////
+
+
+        {
+            "LogName":"Add Wild Food Ale Objects",
+            "Action":"EditData",
+            "Target":"Data/Objects",
+            "Entries":{
+                "wildflour.alesxmeads_wild_strawberry_ale": {
+                    "Name": "wildflour.alesxmeads_wild_strawberry_ale",
+                    "DisplayName": "{{i18n:alesxmeads_wild_strawberry_ale.name}}",
+                    "Description": "{{i18n:alesxmeads_wild_strawberry_ale.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_ale_item",
+                    "alcohol_item",
+                    "color_dark_brown"],
+
+                    "Texture": "Mods/wildflour.alesxmeads/Objects",
+                    "SpriteIndex": 36
+            }
+        }
+        },
+
+//////////////////
+// MEAD OBJECTS //
+//////////////////
+
+        {
+            "LogName":"Add Wild Food Mead Objects",
+            "Action":"EditData",
+            "Target":"Data/Objects",
+            "Entries":{
+              
+                "wildflour.alesxmeads_mallow_mead": {
+                    "Name": "wildflour.alesxmeads_mallow_mead",
+                    "DisplayName": "{{i18n:alesxmeads_mallow_mead.name}}",
+                    "Description": "{{i18n:alesxmeads_mallow_mead.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_mead_item",
+                    "alcohol_item",
+                    "color_dark_brown"],
+
+                    "Texture": "Mods/wildflour.alesxmeads/Objects",
+                    "SpriteIndex": 117
+            },
+                "wildflour.alesxmeads_sakura_mead": {
+                    "Name": "wildflour.alesxmeads_sakura_mead",
+                    "DisplayName": "{{i18n:alesxmeads_sakura_mead.name}}",
+                    "Description": "{{i18n:alesxmeads_sakura_mead.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_mead_item",
+                    "alcohol_item",
+                    "color_dark_brown"],
+
+                    "Texture": "Mods/wildflour.alesxmeads/Objects",
+                    "SpriteIndex": 118
+            },
+                "wildflour.alesxmeads_wild_strawberry_mead": {
+                    "Name": "wildflour.alesxmeads_wild_strawberry_mead",
+                    "DisplayName": "{{i18n:alesxmeads_wild_strawberry_mead.name}}",
+                    "Description": "{{i18n:alesxmeads_wild_strawberry_mead.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_mead_item",
+                    "alcohol_item",
+                    "color_dark_brown"],
+
+                    "Texture": "Mods/wildflour.alesxmeads/Objects",
+                    "SpriteIndex": 121
+            }        
+            }
+        }
+
+    ]
+}

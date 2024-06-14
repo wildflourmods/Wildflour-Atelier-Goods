@@ -1,0 +1,18 @@
+{
+    "Changes": [
+        
+    //////////////////
+	// ADD TEXTURES //
+	//////////////////
+    
+    {
+        "Action": "Load",
+        "Target": "Mods/wildflour.ateliermakeup/Objects, Mods/wildflour.ateliermakeup/Machines_Base, Mods/wildflour.ateliermakeup/Machines_Black, Mods/wildflour.ateliermakeup/Machines_Blue, Mods/wildflour.ateliermakeup/Machines_Cream, Mods/wildflour.ateliermakeup/Machines_Mint, Mods/wildflour.ateliermakeup/Machines_Pink, Mods/wildflour.ateliermakeup/Machines_Purple",
+        "FromFile": "assets/{{TargetWithoutPath}}.png"
+
+ 
+    }
+
+       
+    ]
+}

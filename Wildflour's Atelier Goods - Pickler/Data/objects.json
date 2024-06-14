@@ -1,0 +1,408 @@
+{
+    "Changes": [
+        
+///////////////////
+// Pickles ITEMS //
+///////////////////
+
+        {
+            "LogName":"Add Pickles Objects",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "wildflour.pickles_bruschetta": {
+                    "Name": "wildflour.pickles_bruschetta",
+                    "DisplayName": "{{i18n:pickles_bruschetta.name}}",
+                    "Description": "{{i18n:pickles_bruschetta.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 10,
+                    "Price": 390,
+
+                    "ContextTags":
+                    ["wildflour_pickle_item",
+                    "pickle_item",
+                    "color_red"],
+
+                    "Texture": "Mods/wildflour.pickles/Objects",
+                    "SpriteIndex": 0
+            },
+                "wildflour.pickles_onion_chutney": {
+                    "Name": "wildflour.pickles_onion_chutney",
+                    "DisplayName": "{{i18n:pickles_onion_chutney.name}}",
+                    "Description": "{{i18n:pickles_onion_chutney.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 1010,
+                    "Price": 100,
+
+                    "ContextTags":
+                    ["wildflour_pickle_item",
+                    "pickle_item",
+                    "color_gold"],
+
+                    "Texture": "Mods/wildflour.pickles/Objects",
+                    "SpriteIndex": 1
+            },
+                "wildflour.pickles_pineapple_salsa": {
+                    "Name": "wildflour.pickles_pineapple_salsa",
+                    "DisplayName": "{{i18n:pickles_pineapple_salsa.name}}",
+                    "Description": "{{i18n:pickles_pineapple_salsa.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 10,
+                    "Price": 1090,
+
+                    "ContextTags":
+                    ["wildflour_pickle_item",
+                    "pickle_item",
+                    "color_gold"],
+
+                    "Texture": "Mods/wildflour.pickles/Objects",
+                    "SpriteIndex": 2
+            },
+                "wildflour.pickles_giardiniera": {
+                    "Name": "wildflour.pickles_giardiniera",
+                    "DisplayName": "{{i18n:pickles_giardiniera.name}}",
+                    "Description": "{{i18n:pickles_giardiniera.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 10,
+                    "Price": 1120,
+
+                    "ContextTags":
+                    ["wildflour_pickle_item",
+                    "pickle_item",
+                    "color_orange"],
+
+                    "Texture": "Mods/wildflour.pickles/Objects",
+                    "SpriteIndex": 3
+            },
+                "wildflour.pickles_horseradish_chips": {
+                    "Name": "wildflour.pickles_horseradish_chips",
+                    "DisplayName": "{{i18n:pickles_horseradish_chips.name}}",
+                    "Description": "{{i18n:pickles_horseradish_chips.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 10,
+                    "Price": 525,
+
+                    "ContextTags":
+                    ["wildflour_pickle_item",
+                    "pickle_item",
+                    "color_green"],
+
+                    "Texture": "Mods/wildflour.pickles/Objects",
+                    "SpriteIndex": 4
+            },
+                "wildflour.pickles_kale_pesto": {
+                    "Name": "wildflour.pickles_kale_pesto",
+                    "DisplayName": "{{i18n:pickles_kale_pesto.name}}",
+                    "Description": "{{i18n:pickles_kale_pesto.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 10,
+                    "Price": 945,
+
+                    "ContextTags":
+                    ["wildflour_pickle_item",
+                    "pickle_item",
+                    "color_green"],
+
+                    "Texture": "Mods/wildflour.pickles/Objects",
+                    "SpriteIndex": 5
+            },
+                "wildflour.pickles_marinated_mushrooms": {
+                    "Name": "wildflour.pickles_marinated_mushrooms",
+                    "DisplayName": "{{i18n:pickles_marinated_mushrooms.name}}",
+                    "Description": "{{i18n:pickles_marinated_mushrooms.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 10,
+                    "Price": 1200,
+
+                    "ContextTags":
+                    ["wildflour_pickle_item",
+                    "pickle_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.pickles/Objects",
+                    "SpriteIndex": 6
+            },
+                "wildflour.pickles_tomato_salsa": {
+                    "Name": "wildflour.pickles_tomato_salsa",
+                    "DisplayName": "{{i18n:pickles_tomato_salsa.name}}",
+                    "Description": "{{i18n:pickles_tomato_salsa.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 10,
+                    "Price": 495,
+
+                    "ContextTags":
+                    ["wildflour_pickle_item",
+                    "pickle_item",
+                    "color_dark_red"],
+
+                    "Texture": "Mods/wildflour.pickles/Objects",
+                    "SpriteIndex": 7
+            },
+                "wildflour.pickles_olive_tapenade": {
+                    "Name": "wildflour.pickles_olive_tapenade",
+                    "DisplayName": "{{i18n:pickles_olive_tapenade.name}}",
+                    "Description": "{{i18n:pickles_olive_tapenade.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 10,
+                    "Price": 1100,
+
+                    "ContextTags":
+                    ["wildflour_pickle_item",
+                    "pickle_item",
+                    "color_dark_green"],
+
+                    "Texture": "Mods/wildflour.pickles/Objects",
+                    "SpriteIndex": 8
+            },
+                "wildflour.pickles_peach_salsa": {
+                    "Name": "wildflour.pickles_peach_salsa",
+                    "DisplayName": "{{i18n:pickles_peach_salsa.name}}",
+                    "Description": "{{i18n:pickles_peach_salsa.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 10,
+                    "Price": 910,
+
+                    "ContextTags":
+                    ["wildflour_pickle_item",
+                    "pickle_item",
+                    "color_salmon"],
+
+                    "Texture": "Mods/wildflour.pickles/Objects",
+                    "SpriteIndex": 9
+            },
+                "wildflour.pickles_pepper_relish": {
+                    "Name": "wildflour.pickles_pepper_relish",
+                    "DisplayName": "{{i18n:pickles_pepper_relish.name}}",
+                    "Description": "{{i18n:pickles_pepper_relish.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 10,
+                    "Price": 870,
+
+                    "ContextTags":
+                    ["wildflour_pickle_item",
+                    "pickle_item",
+                    "color_red"],
+
+                    "Texture": "Mods/wildflour.pickles/Objects",
+                    "SpriteIndex": 10
+            },
+                "wildflour.pickles_artichoke_hearts": {
+                    "Name": "wildflour.pickles_artichoke_hearts",
+                    "DisplayName": "{{i18n:pickles_artichoke_hearts.name}}",
+                    "Description": "{{i18n:pickles_artichoke_hearts.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 10,
+                    "Price": 1070,
+
+                    "ContextTags":
+                    ["wildflour_pickle_item",
+                    "pickle_item",
+                    "color_green"],
+
+                    "Texture": "Mods/wildflour.pickles/Objects",
+                    "SpriteIndex": 11
+            },
+                "wildflour.pickles_pickled_fish": {
+                    "Name": "wildflour.pickles_pickled_fish",
+                    "DisplayName": "{{i18n:pickles_pickled_fish.name}}",
+                    "Description": "{{i18n:pickles_pickled_fish.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 10,
+                    "Price": 750,
+
+                    "ContextTags":
+                    ["wildflour_pickle_item",
+                    "pickle_item",
+                    "color_gray"],
+
+                    "Texture": "Mods/wildflour.pickles/Objects",
+                    "SpriteIndex": 12
+            },
+                "wildflour.pickles_pickled_olives": {
+                    "Name": "wildflour.pickles_pickled_olives",
+                    "DisplayName": "{{i18n:pickles_pickled_olives.name}}",
+                    "Description": "{{i18n:pickles_pickled_olives.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 10,
+                    "Price": 600,
+
+                    "ContextTags":
+                    ["wildflour_pickle_item",
+                    "pickle_item",
+                    "color_green"],
+
+                    "Texture": "Mods/wildflour.pickles/Objects",
+                    "SpriteIndex": 13
+            },
+                "wildflour.pickles_pickled_onions": {
+                    "Name": "wildflour.pickles_pickled_onions",
+                    "DisplayName": "{{i18n:pickles_pickled_onions.name}}",
+                    "Description": "{{i18n:pickles_pickled_onions.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 10,
+                    "Price": 675,
+
+                    "ContextTags":
+                    ["wildflour_pickle_item",
+                    "pickle_item",
+                    "color_dark_pink"],
+
+                    "Texture": "Mods/wildflour.pickles/Objects",
+                    "SpriteIndex": 14
+            },
+                "wildflour.pickles_pickled_carrots": {
+                    "Name": "wildflour.pickles_pickled_carrots",
+                    "DisplayName": "{{i18n:pickles_pickled_carrots.name}}",
+                    "Description": "{{i18n:pickles_pickled_carrots.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 10,
+                    "Price": 855,
+
+                    "ContextTags":
+                    ["wildflour_pickle_item",
+                    "pickle_item",
+                    "color_orange"],
+
+                    "Texture": "Mods/wildflour.pickles/Objects",
+                    "SpriteIndex": 15
+            },
+                "wildflour.pickles_roasted_peppers": {
+                    "Name": "wildflour.pickles_roasted_peppers",
+                    "DisplayName": "{{i18n:pickles_roasted_peppers.name}}",
+                    "Description": "{{i18n:pickles_roasted_peppers.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 10,
+                    "Price": 720,
+
+                    "ContextTags":
+                    ["wildflour_pickle_item",
+                    "pickle_item",
+                    "color_dark_red"],
+
+                    "Texture": "Mods/wildflour.pickles/Objects",
+                    "SpriteIndex": 16
+            },
+                "wildflour.pickles_sauerkraut": {
+                    "Name": "wildflour.pickles_sauerkraut",
+                    "DisplayName": "{{i18n:pickles_sauerkraut.name}}",
+                    "Description": "{{i18n:pickles_sauerkraut.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 10,
+                    "Price": 1150,
+
+                    "ContextTags":
+                    ["wildflour_pickle_item",
+                    "pickle_item",
+                    "color_dark_green"],
+
+                    "Texture": "Mods/wildflour.pickles/Objects",
+                    "SpriteIndex": 17
+            },
+                "wildflour.pickles_mango_salsa": {
+                    "Name": "wildflour.pickles_mango_salsa",
+                    "DisplayName": "{{i18n:pickles_mango_salsa.name}}",
+                    "Description": "{{i18n:pickles_mango_salsa.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 10,
+                    "Price": 690,
+
+                    "ContextTags":
+                    ["wildflour_pickle_item",
+                    "pickle_item",
+                    "color_yellow"],
+
+                    "Texture": "Mods/wildflour.pickles/Objects",
+                    "SpriteIndex": 18
+            },
+                "wildflour.pickles_spicy_tomato_salsa": {
+                    "Name": "wildflour.pickles_spicy_tomato_salsa",
+                    "DisplayName": "{{i18n:pickles_spicy_tomato_salsa.name}}",
+                    "Description": "{{i18n:pickles_spicy_tomato_salsa.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 10,
+                    "Price": 614,
+
+                    "ContextTags":
+                    ["wildflour_pickle_item",
+                    "pickle_item",
+                    "color_dark_red"],
+
+                    "Texture": "Mods/wildflour.pickles/Objects",
+                    "SpriteIndex": 19
+            },
+                "wildflour.pickles_sundried_tomatoes": {
+                    "Name": "wildflour.pickles_sundried_tomatoes",
+                    "DisplayName": "{{i18n:pickles_sundried_tomatoes.name}}",
+                    "Description": "{{i18n:pickles_sundried_tomatoes.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 10,
+                    "Price": 1245,
+
+                    "ContextTags":
+                    ["wildflour_pickle_item",
+                    "pickle_item",
+                    "color_dark_red"],
+
+                    "Texture": "Mods/wildflour.pickles/Objects",
+                    "SpriteIndex": 20
+            },
+                "wildflour.pickles_basil_pesto": {
+                    "Name": "wildflour.pickles_basil_pesto",
+                    "DisplayName": "{{i18n:pickles_basil_pesto.name}}",
+                    "Description": "{{i18n:pickles_basil_pesto.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 10,
+                    "Price": 1005,
+
+                    "ContextTags":
+                    ["wildflour_pickle_item",
+                    "pickle_item",
+                    "color_green"],
+
+                    "Texture": "Mods/wildflour.pickles/Objects",
+                    "SpriteIndex": 21
+            },
+                "wildflour.pickles_tomato_corn_salsa": {
+                    "Name": "wildflour.pickles_tomato_corn_salsa",
+                    "DisplayName": "{{i18n:pickles_tomato_corn_salsa.name}}",
+                    "Description": "{{i18n:pickles_tomato_corn_salsa.description}}",
+                    "Type": "Cooking",          
+                    "Category": -26,
+                    "Edibility": 10,
+                    "Price": 645,
+
+                    "ContextTags":
+                    ["wildflour_pickle_item",
+                    "pickle_item",
+                    "color_gold"],
+
+                    "Texture": "Mods/wildflour.pickles/Objects",
+                    "SpriteIndex": 22
+            }
+        }
+        }
+
+    ]
+}

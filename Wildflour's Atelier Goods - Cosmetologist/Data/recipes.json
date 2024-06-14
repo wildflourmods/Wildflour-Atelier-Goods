@@ -1,0 +1,14 @@
+{
+  "Changes": [
+    //crafting recipes for machines
+
+    {
+	  "LogName": "CraftingRecipes",
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+			"wildflour.ateliermakeup_CosmeticCrystal": "80 1 86 1 335 2/Home/wildflour.ateliermakeup_CosmeticCrystal/true/{{RecipeConfig}}/{{i18n: ateliermakeup_CosmeticCrystal.name}}",
+      }
+    }
+  ]
+}

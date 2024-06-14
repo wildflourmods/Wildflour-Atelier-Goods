@@ -1,0 +1,17 @@
+{
+    "Name": "wildflour's Atelier Goods - Confectioner (Sweet)",
+    "Author": "wildflourmods",
+    "Version": "1.0.3",
+    "Description": "This mod adds new items and machines centered around sugary confections like candy and marshmallows!",
+    "UniqueID": "wildflour.ateliercandy",
+    "UpdateKeys": ["Nexus:22737"], 
+    "MinimumApiVersion": "4.0.0-alpha",
+    "Dependencies": [
+        {"UniqueID": "Atelier.Cauldron", "IsRequired": true},
+        {"UniqueID": "wildflour.gourmetpantry","IsRequired": true},
+        {"UniqueID": "wildflour.ateliercrops", "IsRequired": false}
+    ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

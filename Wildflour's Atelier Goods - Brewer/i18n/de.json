@@ -1,0 +1,430 @@
+{
+
+///////////////////
+///GENERIC ITEMS //
+///////////////////
+
+"alesxmeads_FruitAle.name": "Aromatisiertes Ale",
+"alesxmeads_FruitAle.description": "Ein kräftiges Bier, das durch die Zugabe von frischem Obst im Brauprozess hergestellt wird.",
+
+"alesxmeads_FruitMead.name": "Aromatisiertes Met",
+"alesxmeads_FruitMead.description": "Ein süßer Met, der durch Zugabe von frischem Obst während des Brauprozesses hergestellt wird.",
+
+"alesxmeads_FlowerMead.name": "Duftender Met",
+"alesxmeads_FlowerMead.description": "Ein süßer Met, der durch die Zugabe von frischen Blumen zum Brauprozess hergestellt wird.",
+
+/////////////////
+///STRINGS NEW //
+/////////////////
+
+"alesxmeads_FruitAle": "{0} Ale",
+"alesxmeads_FruitMead": "{0} Met",
+"alesxmeads_FlowerMead": "{0} Met",
+
+/////////////////////////
+// MOD SUPPORTED ITEMS //
+/////////////////////////
+
+"alesxmeads_gardenia_mead.name":"Gardenien-Met",
+"alesxmeads_gardenia_mead.description":"Honigmet, aromatisiert mit Gardenienblüten.",
+
+"alesxmeads_hibiscus_mead.name":"Hibiskus-Met",
+"alesxmeads_hibiscus_mead.description":"Mit Hibiskusblüten aromatisierter Honigmet.",
+
+"alesxmeads_borage_mead.name":"Borretsch-Met",
+"alesxmeads_borage_mead.description":"Mit Borretschblüten aromatisierter Honigmet.",
+
+"alesxmeads_calendula_mead.name":"Ringelblumen-Met",
+"alesxmeads_calendula_mead.description":"Mit Ringelblumenblüten aromatisierter Honigmet.",
+
+"alesxmeads_hollyhock_mead.name":"Stockrosen-Met",
+"alesxmeads_hollyhock_mead.description":"Honigmet, aromatisiert mit Stockrosenblüten.",
+
+"alesxmeads_springpansy_mead.name":"Frühlings-Stiefmütterchen-Met",
+"alesxmeads_springpansy_mead.description":"Mit Stiefmütterchenblüten aromatisierter Honigmet.",
+
+"alesxmeads_orangeblossom_mead.name":"Orangenblüten-Met",
+"alesxmeads_orangeblossom_mead.description":"Mit Orangenblüten aromatisierter Honigmet.",
+
+//////////////
+///MACHINES///
+//////////////
+
+"alesxmeads_AleKeg.name": "Ale-Fass",
+"alesxmeads_AleKeg.description": "Ein Fass zum Brauen von aromatisierten Bieren.",
+
+"alesxmeads_MeadKeg.name": "Handwerkliches Met-Fass",
+"alesxmeads_MeadKeg.description": "Ein Fass zum Brauen von aromatisiertem Met.",
+
+///////////////////////////
+// MACHINE NOTIFICATIONS //
+///////////////////////////
+
+"alesxmeads_AleKeg_InvalidCount.message": "Erfordert Hopfen",
+"alesxmeads_AleKeg_InvalidItem.message": "Kann dies nicht verarbeiten",
+
+"alesxmeads_MeadKeg_InvalidCount.message": "Erfordert Honig",
+"alesxmeads_MeadKeg_InvalidItem.message": "Kann dies nicht verarbeiten",
+
+//////////
+///ALES///
+//////////
+
+"alesxmeads_ancient_ale.name": "Antikes Lagerbier",
+"alesxmeads_ancient_ale.description": "Mystisch, magisch und köstlich.",
+
+"alesxmeads_apple_ale.name": "Apfel-Pils",
+"alesxmeads_apple_ale.description": "Knackig und frisch, wie gefallenes Laub.",
+
+"alesxmeads_apricot_ale.name": "Aprikosen-Ale",
+"alesxmeads_apricot_ale.description": "Herb und leicht süß, das perfekte Bier für den Frühling.",
+
+"alesxmeads_banana_ale.name": "Bananen-Hafermehl-Starkbier",
+"alesxmeads_banana_ale.description": "Süß und warm wie eine Scheibe Bananenbrot.",
+
+"alesxmeads_blackberry_ale.name": "Brombeer-Starkbier",
+"alesxmeads_blackberry_ale.description": "Ein gehaltvolles Starkbier, das mit den besten Brombeeren des Sommers versetzt ist.",
+
+"alesxmeads_blueberry_ale.name": "Blaubeer-Ale",
+"alesxmeads_blueberry_ale.description": "Ein süßes Ale, das an frisch gebackenen Blaubeerkuchen erinnert.",
+
+"alesxmeads_cactus_ale.name": "Kaktus-Ale",
+"alesxmeads_cactus_ale.description": "Ein Calico Desert Spezialgebräu.",
+
+"alesxmeads_cherry_ale.name": "Sauerkirsch- Ale",
+"alesxmeads_cherry_ale.description": "Herb und süß perfekt ausbalanciert in einem Bier.",
+
+"alesxmeads_coconut_ale.name": "Kokosnuss-Milch-Starkbier",
+"alesxmeads_coconut_ale.description": "Der perfekte Drink, wenn du Pina Coladas magst, aber eine schwierige Beziehung zu Tequila hast.",   
+
+"alesxmeads_cranberry_ale.name": "Preiselbeer-Pale-Ale",
+"alesxmeads_cranberry_ale.description": "Die perfekte Beilage zu einem Festtagsessen.", 
+
+"alesxmeads_crystal_ale.name": "Kristall-Lagerbier",
+"alesxmeads_crystal_ale.description": "Ein Bier so kühl und erfrischend wie frisch gefallener Schnee.", 
+
+"alesxmeads_mango_ale.name": "Mango-Lagerbier",
+"alesxmeads_mango_ale.description": "Das offizielle Bier von Gus' Bar auf der Ingwerinsel.", 
+
+"alesxmeads_melon_ale.name": "Melonen-Pale-Ale",
+"alesxmeads_melon_ale.description": "Das perfekte Bier zur Abkühlung an einem warmen Sommertag.", 
+
+"alesxmeads_orange_ale.name": "Orangen-Pilsner",
+"alesxmeads_orange_ale.description": "It reminds you of an orange creamsicle.", 
+
+"alesxmeads_peach_ale.name": "Pfirsich-Starkbier",
+"alesxmeads_peach_ale.description": "Süß wie Pfirsiche und Sahne.", 
+
+"alesxmeads_pineapple_ale.name": "Ananas-Pale-Ale",
+"alesxmeads_pineapple_ale.description": "Perfekt für einen Sommernachmittag am Strand.", 
+
+"alesxmeads_pomegranate_ale.name": "Granatapfel-Ale",
+"alesxmeads_pomegranate_ale.description": "Der Legende nach war es das Lieblingsbier von Persephone, süß und herb.", 
+
+"alesxmeads_pumpkin_ale.name": "Kürbis-Gewürzbier",
+"alesxmeads_pumpkin_ale.description": "Kürbis, Gewürze, Ahornholz, Bier... was kann man daran nicht lieben?", 
+
+"alesxmeads_salmonberry_ale.name": "Wilde Lachsbeeren-Ale",
+"alesxmeads_salmonberry_ale.description": "Eine erfrischende Art, die vielen Lachsbeeren zu verwerten.", 
+
+"alesxmeads_spiced_ale.name": "Gewürztes Porter",
+"alesxmeads_spiced_ale.description": "Obwohl die Beeren im Sommer geerntet werden, wird dieses warme, würzige Bier am besten in den kühleren Herbstmonaten serviert.", 
+
+"alesxmeads_starfruit_ale.name": "Sternfrucht-Ale",
+"alesxmeads_starfruit_ale.description": "Ein goldenes Bier, das sich perfekt für sommerliche Luau-Partys eignet.", 
+
+"alesxmeads_strawberry_ale.name": "Erdbeer-Porter",
+"alesxmeads_strawberry_ale.description": "Seinem erdbeerartigen Geschmack kann niemand widerstehen.", 
+
+"alesxmeads_gem_ale.name": "Edelstein-Lagerbier",
+"alesxmeads_gem_ale.description": "Das Lieblingsessen von Altmeister Cannoli.", 
+
+"alesxmeads_plum_ale.name": "Pflaumen-Starkbier",
+"alesxmeads_plum_ale.description": "Trinke ihn schnell, sonst wird er zu Pflaumenmus.", 
+
+//CORNUCOPIA ALES
+
+"alesxmeads_dragonfruit_ale.name": "Drachenfrucht-Ale",
+"alesxmeads_dragonfruit_ale.description": "Ein sommerliches Bier frisch aus der Calico-Wüste.",
+
+"alesxmeads_fig_ale.name": "Feigen-Starkbier",
+"alesxmeads_fig_ale.description": "Am besten mit Feigenpudding und einem guten Weihnachtslied.", 
+
+"alesxmeads_grapefruit_ale.name": "Grapefruit-Pale-Ale",
+"alesxmeads_grapefruit_ale.description": "Ein säuerliches, zitrusartiges IPA.", 
+
+"alesxmeads_lemon_ale.name": "Zitronen-Hefeweizen",
+"alesxmeads_lemon_ale.description": "Sie erinnert an Limonade, aber besser!", 
+
+"alesxmeads_lime_ale.name": "Limetten-Hefeweizen",
+"alesxmeads_lime_ale.description": "Ein kräftiges, zitrusartiges Gebräu, perfekt für die Sommerzeit.", 
+
+"alesxmeads_lychee_ale.name": "Litschi-Ale",
+"alesxmeads_lychee_ale.description": "Süß, leicht blumig und säuerlich.", 
+
+"alesxmeads_papaya_ale.name": "Papaya-Ale",
+"alesxmeads_papaya_ale.description": "Eine von Sandys speziell entwickelten Biersorten.",
+
+"alesxmeads_pear_ale.name": "Birnen-Pilsner",
+"alesxmeads_pear_ale.description": "Ein leichtes und frisches Bier.", 
+
+"alesxmeads_persimmon_ale.name": "Dattelpflaumen-Ale",
+"alesxmeads_persimmon_ale.description": "Ein delikates Bier, das an Honig und Melone erinnert.", 
+
+"alesxmeads_pomelo_ale.name": "Pomelo-Ale",
+"alesxmeads_pomelo_ale.description": "Sie schmeckt wie Grapefruit, aber süßer.", 
+
+//WILD FOOD ALES
+
+"alesxmeads_vanilla_ale.name": "Calico Vanille Starkbier",
+"alesxmeads_vanilla_ale.description": "Ein süßes, warmes Bier, das Sie an einem kühlen Abend wärmt.", 
+
+"alesxmeads_petite_lemon_ale.name": "Süßes Zitronen-Starkbier",
+"alesxmeads_petite_lemon_ale.description": "Im Gegensatz zum Hefeweizen ist der Zitronengeschmack in diesem Bier cremig und süß, fast wie ein Dessert.", 
+
+"alesxmeads_petite_lime_ale.name": "Süßes Limetten-Starkbier",
+"alesxmeads_petite_lime_ale.description": "Im Gegensatz zum Hefeweizen ist der Zitronengeschmack in diesem Bier cremig und süß, fast wie ein Dessert.", 
+
+"alesxmeads_wild_raspberry_ale.name": "Wildes Himbeer-Ale",
+"alesxmeads_wild_raspberry_ale.description": "Ein Bier mit frisch gepflückten Himbeeren - ein wahrer Sommergenuss.", 
+
+"alesxmeads_wild_strawberry_ale.name": "Wildes Erdbeer-Ale",
+"alesxmeads_wild_strawberry_ale.description": "Ein Bier, das mit frisch gepflückten Erdbeeren hergestellt wird - ein wahrer Frühlingsgenuss.", 
+
+//PIXIE FORAGE ALES
+
+"alesxmeads_ambrosia_apple_ale.name": "Ambrosia-Ale",
+"alesxmeads_ambrosia_apple_ale.description": "Ein besonderes Bier, das vom Ferngill Fae Folk zur Feier der Herbsttagundnachtgleiche gebraut wurde.",
+
+"alesxmeads_moongold_apricot_ale.name": "Mondgold-Ale",
+"alesxmeads_moongold_apricot_ale.description": "Ein spezielles Bier, das vom Ferngill Fae Folk zur Feier des Frühlingsäquinoktiums gebraut wird.",
+
+"alesxmeads_ladyfinger_banana_ale.name": "Löffelbiskuit-Ale",
+"alesxmeads_ladyfinger_banana_ale.description": "Ein besonderes Bier, das vom Ingwerinsel Fae Folk zur Feier der Sommersonnenwende gebraut wurde.",
+
+"alesxmeads_sour_cherry_ale.name": "Meteor-Ale",
+"alesxmeads_sour_cherry_ale.description": "Ein spezielles Bier, das vom Ferngill Fae Folk zur Feier des Frühlingsäquinoktiums gebraut wird.",
+
+"alesxmeads_sunset_mango_ale.name": "Sonnenuntergang-Ale",
+"alesxmeads_sunset_mango_ale.description": "Ein besonderes Bier, das vom Ingwerinsel Fae Folk zur Feier der Sommersonnenwende gebraut wurde.",
+
+"alesxmeads_blood_orange_ale.name": "Blut-Ale",
+"alesxmeads_blood_orange_ale.description": "Ein besonderes Bier, das vom Ferngill Fae Folk zur Feier der Sommersonnenwende gebraut wurde.",
+
+"alesxmeads_snow_peach_ale.name": "Schneeschönheit-Ale",
+"alesxmeads_snow_peach_ale.description": "Ein besonderes Bier, das vom Ferngill Fae Folk zur Feier der Sommersonnenwende gebraut wurde.",
+
+"alesxmeads_eversweet_pomegranate_ale.name": "Eversweet-Ale",
+"alesxmeads_eversweet_pomegranate_ale.description": "Ein besonderes Bier, das vom Ferngill Fae Folk zur Feier der Herbsttagundnachtgleiche gebraut wurde.",
+
+///////////
+///MEADS///
+///////////
+
+//BASE GAME
+
+"alesxmeads_ancient_mead.name": "Antiker süßer Met",
+"alesxmeads_ancient_mead.description": "Warm und wohlig - wenn man ihn schmeckt, hat man ein seltsames, magisches Gefühl.",
+
+"alesxmeads_apple_mead.name": "Knackiger Apfel-Met",
+"alesxmeads_apple_mead.description": "Warm und gemütlich - wenn man ihn probiert, denkt man an kühle Herbstabende.",
+
+"alesxmeads_apricot_mead.name": "Frühlings-Aprikosen-Met",
+"alesxmeads_apricot_mead.description": "Ein süßer Frühlingsmet, den man unter einem frisch erblühten Baum genießen kann.",
+
+"alesxmeads_banana_mead.name": "Bananen-Glückseligkeit-Met",
+"alesxmeads_banana_mead.description": "Wenn Bananenbrot von Bienen gemacht würde, würde es so schmecken.",
+
+"alesxmeads_blackberry_mead.name": "Brombeer-Buschel-Met",
+"alesxmeads_blackberry_mead.description": "Ein süßer, herber Met, inspiriert durch das Sammeln von Waldbeeren.",
+
+"alesxmeads_blueberry_mead.name": "Blaubeer-Cobbler-Met",
+"alesxmeads_blueberry_mead.description": "Du wusstest nicht, dass du flüssigen Blaubeerkuchen trinken kannst - bis jetzt.",
+
+"alesxmeads_cactus_mead.name": "Calico-Kaktus-Met",
+"alesxmeads_cactus_mead.description": "Eine Spezialität der Calico-Wüste",
+
+"alesxmeads_cherry_mead.name": "Süßkirschen-Met",
+"alesxmeads_cherry_mead.description": "Süß und säuerlich, am besten zu genießen, während man den Kirschblüten beim Fallen zusieht.",
+
+"alesxmeads_coconut_mead.name": "Tropischer Kokosnuss-Met",
+"alesxmeads_coconut_mead.description": "Everyone goes Loco for this Coco - nut Mead!",   
+
+"alesxmeads_cranberry_mead.name": "Säuerlicher Preiselbeer-Met",
+"alesxmeads_cranberry_mead.description": "Ein säuerlicher und erfrischender Herbstmet.", 
+
+"alesxmeads_crystal_mead.name": "Kristall-Met",
+"alesxmeads_crystal_mead.description": "Der perfekte Met für das Fest des Wintersterns.", 
+
+"alesxmeads_mango_mead.name": "Insel Mango-Met",
+"alesxmeads_mango_mead.description": "Eine Met-Spezialität von der Ingwerinsel", 
+
+"alesxmeads_melon_mead.name": "Sommer-Melonen-Met",
+"alesxmeads_melon_mead.description": "Dieser angenehm rosafarbene Met ist perfekt für jede Sommerparty.", 
+
+"alesxmeads_orange_mead.name": "Orangen-Eis am Stiel-Met",
+"alesxmeads_orange_mead.description": "Ein heller, zitrusartiger Met, der an eine Mimose erinnert.", 
+
+"alesxmeads_peach_mead.name": "Pfirsich-Sahne-Met",
+"alesxmeads_peach_mead.description": "Süß und sommerlich.", 
+
+"alesxmeads_pineapple_mead.name": "Birdie's Ananas-Met",
+"alesxmeads_pineapple_mead.description": "Das Geheimrezept wird von den Ingwerinsel-Papageien streng gehütet.", 
+
+"alesxmeads_pomegranate_mead.name": "Süßer Granatapfel-Met",
+"alesxmeads_pomegranate_mead.description": "Der perfekte Met für Ihre Geisterabend-Party.", 
+
+"alesxmeads_salmonberry_mead.name": "Wildes Lachsbeeren-Met",
+"alesxmeads_salmonberry_mead.description": "Ein leicht süßer Met, der mit wilden Lachsbeeren hergestellt wird.", 
+
+"alesxmeads_spiced_mead.name": "Gewürz-Met",
+"alesxmeads_spiced_mead.description": "Ein wärmender Met, perfekt für einen kühlen Abend.", 
+
+"alesxmeads_starfruit_mead.name": "Sternfrucht-Himmel-Met",
+"alesxmeads_starfruit_mead.description": "Ein goldfarbener Met, der am besten bei sommerlichen Sternenbeobachtungen genossen wird.", 
+
+"alesxmeads_strawberry_mead.name": "Erdbeerfelder-Met",
+"alesxmeads_strawberry_mead.description": "Er erinnert an einen Erdbeermilchshake, nur besser.", 
+
+"alesxmeads_gem_mead.name": "Edelstein-Met",
+"alesxmeads_gem_mead.description": "Ein magischer Met, der Gerüchten zufolge von den in den geheimen Wäldern lebenden Junimos hergestellt wurde.", 
+
+"alesxmeads_plum_mead.name": "Herbstlicher Pflaumen-Met",
+"alesxmeads_plum_mead.description": "Eine süße, herbstliche Met-Sorte", 
+
+//cornucopia_mead
+
+"alesxmeads_dragon_mead.name": "Drachen-Met",
+"alesxmeads_dragon_mead.description": "Bei der Herstellung dieses Mets wurde kein Drache verletzt.",
+
+"alesxmeads_fig_mead.name": "Winter-Feigen-Met",
+"alesxmeads_fig_mead.description": "Passt gut zu Ziegenkäse!", 
+
+"alesxmeads_grapefruit_mead.name": "Bittersüßer Grapefruit-Met",
+"alesxmeads_grapefruit_mead.description": "Ein etwas herber Met.", 
+
+"alesxmeads_lemon_mead.name": "Zitronen-Baiser-Met",
+"alesxmeads_lemon_mead.description": "Wenn Sie diesen Met probieren, erinnert er ein wenig an die berühmten Zitronenriegel deiner Mutter.", 
+
+"alesxmeads_lime_mead.name": "Key-Lime-Kuchen-Met",
+"alesxmeads_lime_mead.description": "Es beugt Skorbut nicht vor, schmeckt aber köstlich.", 
+
+"alesxmeads_lychee_mead.name": "Litschi-Liebhaber-Met",
+"alesxmeads_lychee_mead.description": "Eine süße und leicht blumige Met-Spezialität", 
+
+"alesxmeads_papaya_mead.name": "Papaya-Insel-Met",
+"alesxmeads_papaya_mead.description": "Eine weitere von Sandy speziell entwickelte Likörsorte.",
+
+"alesxmeads_pear_mead.name": "Knackiger Birnen-Met",
+"alesxmeads_pear_mead.description": "Knackig und säuerlich.", 
+
+"alesxmeads_persimmon_mead.name": "Okay Stups-Kaki-Met",
+"alesxmeads_persimmon_mead.description": "Möchte die Hutmaus vielleicht eine Flasche?", 
+
+"alesxmeads_pomelo_mead.name": "Herber Pomelo-Met",
+"alesxmeads_pomelo_mead.description": "Ein zitrusartiger Met, der selbst die trübsten Wintertage aufhellen kann.", 
+
+//WILD FOOD Mead
+
+"alesxmeads_vanilla_mead.name": "Calico Vanille-Met",
+"alesxmeads_vanilla_mead.description": "Met aus Honig, der mit Calico-Vanilleblüten bestäubt wurde.", 
+
+"alesxmeads_cinnamon_mead.name": "Süßer Zimt-Met",
+"alesxmeads_cinnamon_mead.description": "Met, hergestellt aus mit Zimtrinde bestäubtem Honig.",
+
+"alesxmeads_chamomile_mead.name": "Kamille-Wiesen-Met",
+"alesxmeads_chamomile_mead.description": "Met, hergestellt aus mit Kamillenblüten bestäubtem Honig.",
+
+"alesxmeads_lavender_mead.name": "Lavendel-Wiesen-Met",
+"alesxmeads_lavender_mead.description": "Met aus mit Waldlavendel bestäubtem Honig.",
+
+"alesxmeads_mallow_mead.name": "Marshmallow-Met",
+"alesxmeads_mallow_mead.description": "Met aus mit Eibischblüten bestäubtem Honig.",
+
+"alesxmeads_petite_lemon_mead.name": "Kleiner Zitronen-Met",
+"alesxmeads_petite_lemon_mead.description": "Met, hergestellt aus mit Zitronenblüten bestäubtem Honig.", 
+
+"alesxmeads_petite_lime_mead.name": "Kleiner Limetten-Met",
+"alesxmeads_petite_lime_mead.description": "Met, hergestellt aus mit Lindenblüten bestäubtem Honig.", 
+
+"alesxmeads_sakura_mead.name": "Sakura-Met",
+"alesxmeads_sakura_mead.description": "Met, hergestellt aus mit Kirschblüten bestäubtem Honig.",
+
+"alesxmeads_wild_raspberry_mead.name": "Süßer Himbeer-Met",
+"alesxmeads_wild_raspberry_mead.description": "Honigwein aus Honig, der mit wilden Himbeerblüten bestäubt wurde.", 
+
+"alesxmeads_wild_strawberry_mead.name": "Erdbeeren und Sahne-Met",
+"alesxmeads_wild_strawberry_mead.description": "Honigwein aus mit Walderdbeerblüten bestäubtem Honig.", 
+
+//PIXIE FORAGE MEAD
+
+"alesxmeads_ambrosia_apple_mead.name": "Ambrosia-Met",
+"alesxmeads_ambrosia_apple_mead.description": "Ein Met, der speziell für das Feenvolk hergestellt wird; der Legende nach kann ein Mensch, der ihn trinkt, mit magischen Kreaturen sprechen.",
+
+"alesxmeads_moongold_apricot_mead.name": "Mondgold-Met",
+"alesxmeads_moongold_apricot_mead.description": "Ein Met, der speziell für das Feenvolk hergestellt wird; der Legende nach kann ein Mensch, der ihn trinkt, mit magischen Kreaturen sprechen.",
+
+"alesxmeads_ladyfinger_banana_mead.name": "Löffelbiskuit-Met",
+"alesxmeads_ladyfinger_banana_mead.description": "Ein Met, der speziell für das Feenvolk hergestellt wird; der Legende nach kann ein Mensch, der ihn trinkt, mit magischen Kreaturen sprechen.",
+
+"alesxmeads_sour_cherry_mead.name": "Meteor-Met",
+"alesxmeads_sour_cherry_mead.description": "Ein Met, der speziell für das Feenvolk hergestellt wird; der Legende nach kann ein Mensch, der ihn trinkt, mit magischen Kreaturen sprechen.",
+
+"alesxmeads_sunset_mango_mead.name": "Sonnenuntergang-Met",
+"alesxmeads_sunset_mango_mead.description": "Ein Met, der speziell für das Feenvolk hergestellt wird; der Legende nach kann ein Mensch, der ihn trinkt, mit magischen Kreaturen sprechen.",
+
+"alesxmeads_blood_orange_mead.name": "Blut-Met",
+"alesxmeads_blood_orange_mead.description": "Ein Met, der speziell für das Feenvolk hergestellt wird; der Legende nach kann ein Mensch, der ihn trinkt, mit magischen Kreaturen sprechen.",
+
+"alesxmeads_snow_peach_mead.name": "Schnee-Schönheit-Met",
+"alesxmeads_snow_peach_mead.description": "Ein Met, der speziell für das Feenvolk hergestellt wird; der Legende nach kann ein Mensch, der ihn trinkt, mit magischen Kreaturen sprechen.",
+
+"alesxmeads_eversweet_pomegranate_mead.name": "Eversweet-Met",
+"alesxmeads_eversweet_pomegranate_mead.description": "Ein Met, der speziell für das Feenvolk hergestellt wird; der Legende nach kann ein Mensch, der ihn trinkt, mit magischen Kreaturen sprechen.",
+
+"alesxmeads_cake_mead.name": "Torten-Met",
+"alesxmeads_cake_mead.description": "Ein Met, der aus magischen Feenblüten hergestellt wird; er schmeckt seltsam nach Vanillekuchen.",
+
+"alesxmeads_caramel_mead.name": "Karamell-Met",
+"alesxmeads_caramel_mead.description": "Ein Met, der aus magischen Feenblüten hergestellt wird und seltsam nach Karamellapfel schmeckt.",
+
+"alesxmeads_creamsicle_mead.name": "Eis am Stiel-Met",
+"alesxmeads_creamsicle_mead.description": "Ein Met, der aus magischen Feenblüten hergestellt wird; er schmeckt seltsamerweise wie ein Orangen-Eis am Stiel.",
+
+"alesxmeads_custard_mead.name": "Vanille-Met",
+"alesxmeads_custard_mead.description": "Ein Met, der aus magischen Feenblüten hergestellt wird; er schmeckt seltsam nach Vanillepudding.",
+
+"alesxmeads_gumdrop_mead.name": "Gummibärchen-Met",
+"alesxmeads_gumdrop_mead.description": "Ein Met, der aus magischen Feenblüten hergestellt wird; er schmeckt seltsam nach fruchtigen Kaugummis.",
+
+"alesxmeads_macaron_mead.name": "Macaron-Met",
+"alesxmeads_macaron_mead.description": "Ein Met aus magischen Feenblüten, der seltsamerweise wie ein Mandelmacaron schmeckt.",
+
+"alesxmeads_pie_mead.name": "Kuchen-Met",
+"alesxmeads_pie_mead.description": "Ein Met, der aus magischen Feenblüten hergestellt wird; er schmeckt seltsam nach Blaubeerkuchen.",
+
+"alesxmeads_sprinkle_mead.name": "Streu-Met",
+"alesxmeads_sprinkle_mead.description": "Ein Met, der aus magischen Feenblüten hergestellt wird; er schmeckt seltsam nach Regenbogenstreuseln.",
+
+"alesxmeads_shortcake_mead.name": "Mürbeteig-Met",
+"alesxmeads_shortcake_mead.description": "Ein Met aus magischen Feenblüten; er schmeckt seltsam nach Vanillekuchen und Erdbeeren.",
+
+"alesxmeads_sugar_mead.name": "Zucker-Met",
+"alesxmeads_sugar_mead.description": "Ein Met aus magischen Feenblüten, der seltsamerweise wie reiner Zucker schmeckt.",
+
+
+//////////
+///MAIL///
+//////////
+
+"alesxmeads_AleKeg.text":"@, ^^ Du hast vielleicht schon ein Pale Ale probiert, aber das ist nur die Spitze des Eisbergs, wenn es um Qualitätsbiere geht. Versuche, dir eines dieser Fässer zu machen: gib Früchte und etwas Hopfen hinzu und lass dich überraschen. Oh, und vergiss nicht zu teilen, ja?^^ - Pam",
+"alesxmeads_shanegift.text":"@, ^^ Pam hat dir also die Pläne für ein neues Bierfass geschickt, richtig? Klingt ziemlich cool, um ehrlich zu sein. Sie sagte, du bräuchtest eine Menge Eichenharz, also dachte ich, ich schicke dir etwas, das Jas und ich letztes Jahr als Projekt im Wald gezapft haben.^^ - Shane",
+"alesxmeads_elliottgift.text":"@, ^^ Lokal gebraute Bierspezialitäten? Klingt absolut fabelhaft! Ich weiß nicht viel über das Brauen, aber ich weiß, dass man Hopfen braucht! Prost!^^ - Elliott",
+"alesxmeads_pierregift.text":"@, ^^ Als ich in Übersee war, stammte einer meiner Landsleute von den Edelsteinseeinseln. Er schwärmte immer wieder von Bieren mit Mangoaufguss. Wenn du es schaffst, ihn zu brauen, würde ich ihn gerne probieren.^^ - Kent",
+	
+"alesxmeads_MeadKeg.text":"@, ^^ Hast du dich jemals gefragt, ob verschiedene Früchte und Blumen den Geschmack deines Mets beeinflussen können? Das können sie! Versuche, eines dieser speziellen Met-Fässer herzustellen, und du wirst erstaunt sein, welche neuen Metarten du destillieren kannst.^^ - Gus",
+"alesxmeads_gusgift.text":"@, ^^ Willy erwähnte, dass du darüber nachdenkst, Spezial-Met zu destillieren! Dann brauchst du ein paar davon für den Anfang, oder?^^ - Gus",
+"alesxmeads_clintgift.text":"@, ^^ Äh, hallo. Briefe sind nicht wirklich mein Ding, aber ich finde es cool, dass du versuchst, verschiedene Mets zu machen. Ich dachte, das könnte helfen.^^ - Clint",
+"alesxmeads_sandygift.text":"@, ^^ Hallo Schätzchen! Wusstest du, dass sich aus Kaktusfrüchten ein hervorragender Met herstellen lässt? Du kannst es Sandy's Specialty nennen, wenn du willst!^^ - Sandy",
+
+}

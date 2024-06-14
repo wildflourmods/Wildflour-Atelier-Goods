@@ -1,0 +1,477 @@
+{
+    "Changes": [
+
+    {
+        "LogName":"Add Wild Food Frozen Objects",
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "Entries": {      
+
+            "wildflour.atelierfrozen_cherryblossom_cone": {
+                "Name": "wildflour.atelierfrozen_cherryblossom_cone",
+                "DisplayName": "{{i18n:atelierfrozen_cherryblossom_cone.name}}",
+                "Description": "{{i18n:atelierfrozen_cherryblossom_cone.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 0,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                "Buff": {
+                    "BuffId": null,
+                    "IconTexture": null,
+                    "IconSpriteIndex": 0,
+                    "Duration": 360,
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "CustomAttributes": {
+                      "FarmingLevel": 0,
+                      "FishingLevel": 0,
+                      "MiningLevel": 0,
+                      "LuckLevel": 1,
+                      "ForagingLevel": 0,
+                      "MaxStamina": 0,
+                      "MagneticRadius": 0,
+                      "Speed": 0,
+                      "Defense": 0,
+                      "Attack": 0
+                    },
+                    "CustomFields": {}
+                  },
+
+                "ContextTags":
+                ["wildflour_frozen_item",
+                "ice_cream_cone_item",
+                "color_light_pink"],
+
+                "Texture": "Mods/wildflour.atelierfrozen/Objects",
+                "SpriteIndex": 3
+        },
+            "wildflour.atelierfrozen_wildberry_popsicle": {
+                "Name": "wildflour.atelierfrozen_wildberry_popsicle",
+                "DisplayName": "{{i18n:atelierfrozen_wildberry_popsicle.name}}",
+                "Description": "{{i18n:atelierfrozen_wildberry_popsicle.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 45,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                "Buff": {
+                    "BuffId": null,
+                    "IconTexture": null,
+                    "IconSpriteIndex": 0,
+                    "Duration": 360,
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "CustomAttributes": {
+                      "FarmingLevel": 0,
+                      "FishingLevel": 0,
+                      "MiningLevel": 0,
+                      "LuckLevel": 0,
+                      "ForagingLevel": 0,
+                      "MaxStamina": 30,
+                      "MagneticRadius": 0,
+                      "Speed": 0,
+                      "Defense": 0,
+                      "Attack": 0
+                    },
+                    "CustomFields": {}
+                  },
+
+                "ContextTags":
+                ["wildflour_frozen_item",
+                "popsicle_item",
+                "color_dark_pink"],
+
+                "Texture": "Mods/wildflour.atelierfrozen/Objects",
+                "SpriteIndex": 31
+        },
+            "wildflour.atelierfrozen_wildberry_froyo": {
+                "Name": "wildflour.atelierfrozen_wildberry_froyo",
+                "DisplayName": "{{i18n:atelierfrozen_wildberry_froyo.name}}",
+                "Description": "{{i18n:atelierfrozen_wildberry_froyo.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 65,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                "Buff": {
+                    "BuffId": null,
+                    "IconTexture": null,
+                    "IconSpriteIndex": 0,
+                    "Duration": 360,
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "CustomAttributes": {
+                    "FarmingLevel": 0,
+                    "FishingLevel": 0,
+                    "MiningLevel": 0,
+                    "LuckLevel": 0,
+                    "ForagingLevel": 0,
+                    "MaxStamina": 0,
+                    "MagneticRadius": 0,
+                    "Speed": 1,
+                    "Defense": 0,
+                    "Attack": 0
+                    },
+                    "CustomFields": {}
+                },
+
+                "ContextTags":
+                ["wildflour_frozen_item",
+                "sundae_item",
+                "color_dark_pink"],
+
+                "Texture": "Mods/wildflour.atelierfrozen/Objects",
+                "SpriteIndex": 45
+        },
+            "wildflour.atelierfrozen_cinnamon_chocolate_sandwich": {
+            "Name": "wildflour.atelierfrozen_cinnamon_chocolate_sandwich",
+            "DisplayName": "{{i18n:atelierfrozen_cinnamon_chocolate_sandwich.name}}",
+            "Description": "{{i18n:atelierfrozen_cinnamon_chocolate_sandwich.description}}",
+            "Type": "Cooking",          
+            "Category": -26,
+            "Edibility": 85,
+            "Price": 1200,
+            "Buff": {
+                "BuffId": null,
+                "IconTexture": null,
+                "IconSpriteIndex": 0,
+                "Duration": 360,
+                "IsDebuff": false,
+                "GlowColor": null,
+                "CustomAttributes": {
+                "FarmingLevel": 0,
+                "FishingLevel": 0,
+                "MiningLevel": 0,
+                "LuckLevel": 0,
+                "ForagingLevel": 0,
+                "MaxStamina": 0,
+                "MagneticRadius": 0,
+                "Speed": 0,
+                "Defense": 0,
+                "Attack": 2
+                },
+                "CustomFields": {}
+            },
+
+            "ContextTags":
+            ["wildflour_frozen_item",
+            "ice_cream_sandwich_item",
+            "color_cream"],
+
+            "Texture": "Mods/wildflour.atelierfrozen/Objects",
+            "SpriteIndex": 64
+        },        
+            "wildflour.atelierfrozen_mint_chocolate_sandwich": {
+                "Name": "wildflour.atelierfrozen_mint_chocolate_sandwich",
+                "DisplayName": "{{i18n:atelierfrozen_mint_chocolate_sandwich.name}}",
+                "Description": "{{i18n:atelierfrozen_mint_chocolate_sandwich.description}}",
+                "Type": "Cooking",          
+                "Category": -26,
+                "Edibility": 85,
+                "Price": 1200,
+                "Buff": {
+                    "BuffId": null,
+                    "IconTexture": null,
+                    "IconSpriteIndex": 0,
+                    "Duration": 360,
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "CustomAttributes": {
+                    "FarmingLevel": 0,
+                    "FishingLevel": 0,
+                    "MiningLevel": 0,
+                    "LuckLevel": 0,
+                    "ForagingLevel": 0,
+                    "MaxStamina": 0,
+                    "MagneticRadius": 0,
+                    "Speed": 0,
+                    "Defense": 0,
+                    "Attack": 2
+                    },
+                    "CustomFields": {}
+                },
+
+                "ContextTags":
+                ["wildflour_frozen_item",
+                "ice_cream_sandwich_item",
+                "color_jade"],
+
+                "Texture": "Mods/wildflour.atelierfrozen/Objects",
+                "SpriteIndex": 65
+        },               
+            "wildflour.atelierfrozen_mocha_coconut_sandwich": {
+                "Name": "wildflour.atelierfrozen_mocha_coconut_sandwich",
+                "DisplayName": "{{i18n:atelierfrozen_mocha_coconut_sandwich.name}}",
+                "Description": "{{i18n:atelierfrozen_mocha_coconut_sandwich.description}}",
+                "Type": "Cooking",          
+                "Category": -26,
+                "Edibility": 85,
+                "Price": 1200,
+                "Buff": {
+                    "BuffId": null,
+                    "IconTexture": null,
+                    "IconSpriteIndex": 0,
+                    "Duration": 360,
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "CustomAttributes": {
+                    "FarmingLevel": 0,
+                    "FishingLevel": 0,
+                    "MiningLevel": 0,
+                    "LuckLevel": 0,
+                    "ForagingLevel": 0,
+                    "MaxStamina": 0,
+                    "MagneticRadius": 0,
+                    "Speed": 0,
+                    "Defense": 0,
+                    "Attack": 2
+                    },
+                    "CustomFields": {}
+                },
+
+                "ContextTags":
+                ["wildflour_frozen_item",
+                "ice_cream_sandwich_item",
+                "color_cream"],
+
+                "Texture": "Mods/wildflour.atelierfrozen/Objects",
+                "SpriteIndex": 66
+        },        
+            "wildflour.atelierfrozen_mocha_sandwich": {
+                "Name": "wildflour.atelierfrozen_mocha_sandwich",
+                "DisplayName": "{{i18n:atelierfrozen_mocha_sandwich.name}}",
+                "Description": "{{i18n:atelierfrozen_mocha_sandwich.description}}",
+                "Type": "Cooking",          
+                "Category": -26,
+                "Edibility": 85,
+                "Price": 1200,
+                "Buff": {
+                    "BuffId": null,
+                    "IconTexture": null,
+                    "IconSpriteIndex": 0,
+                    "Duration": 360,
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "CustomAttributes": {
+                    "FarmingLevel": 0,
+                    "FishingLevel": 0,
+                    "MiningLevel": 0,
+                    "LuckLevel": 0,
+                    "ForagingLevel": 0,
+                    "MaxStamina": 0,
+                    "MagneticRadius": 0,
+                    "Speed": 0,
+                    "Defense": 0,
+                    "Attack": 2
+                    },
+                    "CustomFields": {}
+                },
+
+                "ContextTags":
+                ["wildflour_frozen_item",
+                "ice_cream_sandwich_item",
+                "color_dark_brown"],
+
+                "Texture": "Mods/wildflour.atelierfrozen/Objects",
+                "SpriteIndex": 64
+        },        
+            "wildflour.atelierfrozen_pistachio_sandwich": {
+                "Name": "wildflour.atelierfrozen_pistachio_sandwich",
+                "DisplayName": "{{i18n:atelierfrozen_pistachio_sandwich.name}}",
+                "Description": "{{i18n:atelierfrozen_pistachio_sandwich.description}}",
+                "Type": "Cooking",          
+                "Category": -26,
+                "Edibility": 85,
+                "Price": 1200,
+                "Buff": {
+                    "BuffId": null,
+                    "IconTexture": null,
+                    "IconSpriteIndex": 0,
+                    "Duration": 360,
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "CustomAttributes": {
+                    "FarmingLevel": 0,
+                    "FishingLevel": 0,
+                    "MiningLevel": 0,
+                    "LuckLevel": 0,
+                    "ForagingLevel": 0,
+                    "MaxStamina": 0,
+                    "MagneticRadius": 0,
+                    "Speed": 0,
+                    "Defense": 0,
+                    "Attack": 2
+                    },
+                    "CustomFields": {}
+                },
+
+                "ContextTags":
+                ["wildflour_frozen_item",
+                "ice_cream_sandwich_item",
+                "color_dark_green"],
+
+                "Texture": "Mods/wildflour.atelierfrozen/Objects",
+                "SpriteIndex": 67
+        },            
+            "wildflour.atelierfrozen_vanilla_sandwich": {
+                "Name": "wildflour.atelierfrozen_vanilla_sandwich",
+                "DisplayName": "{{i18n:atelierfrozen_vanilla_sandwich.name}}",
+                "Description": "{{i18n:atelierfrozen_vanilla_sandwich.description}}",
+                "Type": "Cooking",          
+                "Category": -26,
+                "Edibility": 85,
+                "Price": 1200,
+                "Buff": {
+                    "BuffId": null,
+                    "IconTexture": null,
+                    "IconSpriteIndex": 0,
+                    "Duration": 360,
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "CustomAttributes": {
+                    "FarmingLevel": 0,
+                    "FishingLevel": 0,
+                    "MiningLevel": 0,
+                    "LuckLevel": 0,
+                    "ForagingLevel": 0,
+                    "MaxStamina": 0,
+                    "MagneticRadius": 0,
+                    "Speed": 0,
+                    "Defense": 0,
+                    "Attack": 2
+                    },
+                    "CustomFields": {}
+                },
+
+                "ContextTags":
+                ["wildflour_frozen_item",
+                "ice_cream_sandwich_item",
+                "color_cream"],
+
+                "Texture": "Mods/wildflour.atelierfrozen/Objects",
+                "SpriteIndex": 69
+        },
+            "wildflour.atelierfrozen_sakura_milkshake": {
+                "Name": "wildflour.atelierfrozen_sakura_milkshake",
+                "DisplayName": "{{i18n:atelierfrozen_sakura_milkshake.name}}",
+                "Description": "{{i18n:atelierfrozen_FlavoredMilkshake.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 55,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                "Buff": {
+                    "BuffId": null,
+                    "IconTexture": null,
+                    "IconSpriteIndex": 0,
+                    "Duration": 360,
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "CustomAttributes": {
+                    "FarmingLevel": 0,
+                    "FishingLevel": 0,
+                    "MiningLevel": 0,
+                    "LuckLevel": 0,
+                    "ForagingLevel": 1,
+                    "MaxStamina": 0,
+                    "MagneticRadius": 0,
+                    "Speed": 0,
+                    "Defense": 0,
+                    "Attack": 0
+                    },
+                    "CustomFields": {}
+                },
+
+                "ContextTags":
+                ["wildflour_frozen_item",
+                "milkshake_item",
+                "color_light_pink"],
+
+                "Texture": "Mods/wildflour.atelierfrozen/Objects",
+                "SpriteIndex": 49
+        },
+            "wildflour.atelierfrozen_marshmallow_milkshake": {
+                "Name": "wildflour.atelierfrozen_marshmallow_milkshake",
+                "DisplayName": "{{i18n:atelierfrozen_marshmallow_milkshake.name}}",
+                "Description": "{{i18n:atelierfrozen_FlavoredMilkshake.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 55,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                "Buff": {
+                    "BuffId": null,
+                    "IconTexture": null,
+                    "IconSpriteIndex": 0,
+                    "Duration": 360,
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "CustomAttributes": {
+                    "FarmingLevel": 0,
+                    "FishingLevel": 0,
+                    "MiningLevel": 0,
+                    "LuckLevel": 0,
+                    "ForagingLevel": 1,
+                    "MaxStamina": 0,
+                    "MagneticRadius": 0,
+                    "Speed": 0,
+                    "Defense": 0,
+                    "Attack": 0
+                    },
+                    "CustomFields": {}
+                },
+    
+                "ContextTags":
+                ["wildflour_frozen_item",
+                "milkshake_item",
+                "color_cream"],
+    
+                "Texture": "Mods/wildflour.atelierfrozen/Objects",
+                "SpriteIndex": 49
+        },
+            "wildflour.atelierfrozen_plain_froyo": {
+                "Name": "wildflour.atelierfrozen_plain_froyo",
+                "DisplayName": "{{i18n:atelierfrozen_plain_froyo.name}}",
+                "Description": "{{i18n:atelierfrozen_FlavoredFroyo.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 65,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                "Buff": {
+                    "BuffId": null,
+                    "IconTexture": null,
+                    "IconSpriteIndex": 0,
+                    "Duration": 360,
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "CustomAttributes": {
+                    "FarmingLevel": 0,
+                    "FishingLevel": 0,
+                    "MiningLevel": 0,
+                    "LuckLevel": 0,
+                    "ForagingLevel": 0,
+                    "MaxStamina": 0,
+                    "MagneticRadius": 0,
+                    "Speed": 1,
+                    "Defense": 0,
+                    "Attack": 0
+                    },
+                    "CustomFields": {}
+                },
+        
+                "ContextTags":
+                ["wildflour_frozen_item",
+                "froyo_item",
+                "color_cream"],
+        
+                "Texture": "Mods/wildflour.atelierfrozen/Objects",
+                "SpriteIndex": 34
+        },
+        
+    }
+    }
+
+    ]
+}

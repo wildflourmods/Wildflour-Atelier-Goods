@@ -1,0 +1,254 @@
+{
+
+//MACHINES
+
+"atelierfrozen_BlastChiller.name":"Холодильник шоковой заморозки",
+"atelierfrozen_BlastChiller.description":"Мини-морозилка, в которой можно создавать замороженные лакомства!",
+
+"atelierfrozen_TreatMaker.name":"Аппарат для изготовления замороженных лакомств",
+"atelierfrozen_TreatMaker.description":"Устройство для взбивания домашнего мороженого и замороженных йогуртов.",
+
+///////////////////////////
+// MACHINE NOTIFICATIONS //
+///////////////////////////
+
+"atelierfrozen_BlastChiller_InvalidItem.message": "Это невозможно обработать",
+"atelierfrozen_BlastChiller_InvalidCount.message": "Требуется cнегодыня",
+
+"atelierfrozen_TreatMaker_InvalidItem.message": "Это невозможно обработать",
+"atelierfrozen_TreatMaker_InvalidCount.message": "Требуется cнегодыня",
+
+/////////////
+// STRINGS //
+/////////////
+
+"atelierfrozen_FlavoredPopsicle": "{0} PЭскимо",
+"atelierfrozen_FlavoredFroyo": "{0} Фрогурт",
+"atelierfrozen_FlavoredIceCream": "{0} Мороженое",
+"atelierfrozen_FlavoredMilkshake": "{0} Молочный коктейль",
+
+/////GENERIC ITEMS//////
+
+"atelierfrozen_FlavoredPopsicle.name": "Эскимо",
+"atelierfrozen_FlavoredPopsicle.description": "Эскимо с восхитительным вкусом",
+"atelierfrozen_FlavoredFroyo.name": "Фрогурт",
+"atelierfrozen_FlavoredFroyo.description": "Свежевзбитый замороженный йогурт",
+"atelierfrozen_FlavoredIceCream.name": "Мороженое",
+"atelierfrozen_FlavoredIceCream.description": "Свежевзбитое мороженое.",
+"atelierfrozen_FlavoredMilkshake.name": "Молочный коктейль",
+"atelierfrozen_FlavoredMilkshake.description": "Вкусный молочный коктейль, приготовленный вручную.",
+
+//ICE CREAM CUP
+
+"atelierfrozen_cake_froyo.name": "Торт-фрогурт для Дня рождения",
+"atelierfrozen_cake_froyo.description": "Чашка свежеприготовленного замороженного йогурта – очень вкусно!",
+
+"atelierfrozen_blueberry_froyo.name": "Фрогурт со вкусом черничного чизкейка",
+"atelierfrozen_blueberry_froyo.description": "Чашка свежеприготовленного замороженного йогурта – очень вкусно!",
+
+"atelierfrozen_cheesecake_froyo.name": "Фрогурт со вкусом чизкейка",
+"atelierfrozen_cheesecake_froyo.description": "Чашка свежеприготовленного замороженного йогурта – очень вкусно!",
+
+"atelierfrozen_cherrychoco_froyo.name": "Фрогурт со вкусом вишневого шоколада",
+"atelierfrozen_cherrychoco_froyo.description": "Чашка свежеприготовленного замороженного йогурта – очень вкусно!",
+
+"atelierfrozen_fruity_froyo.name": "Фруктовый фрогурт",
+"atelierfrozen_fruity_froyo.description": "Чашка свежеприготовленного замороженного йогурта – очень вкусно!",
+
+"atelierfrozen_choco_froyo.name": "Шоколадный фрогурт",
+"atelierfrozen_choco_froyo.description": "Чашка свежеприготовленного замороженного йогурта – очень вкусно!",
+
+"atelierfrozen_lemon_froyo.name": "Лимонный шербет",
+"atelierfrozen_lemon_froyo.description": "Свежие фрукты, смешанные со сливками, образуют легкий и сладкий шербет.",
+
+"atelierfrozen_mango_froyo.name": "Манговый шербет",
+"atelierfrozen_mango_froyo.description": "Свежие фрукты, смешанные со сливками, образуют легкий и сладкий шербет.",
+
+"atelierfrozen_melon_froyo.name": "Дынный шербет",
+"atelierfrozen_melon_froyo.description": "Свежие фрукты, смешанные со сливками, образуют легкий и сладкий шербет.",
+
+"atelierfrozen_mintchoco_froyo.name": "Фрогурт со вкусом мятного шоколада",
+"atelierfrozen_mintchoco_froyo.description": "Чашка свежеприготовленного замороженного йогурта — очень вкусно!",
+
+"atelierfrozen_orange_froyo.name": "Апельсиновый шербет",
+"atelierfrozen_orange_froyo.description": "Свежие фрукты, смешанные со сливками, образуют легкий и сладкий шербет.",
+
+"atelierfrozen_pumpkin_froyo.name": "Фрогурт с тыквенными специями",
+"atelierfrozen_pumpkin_froyo.description": "Чашка свежеприготовленного замороженного йогурта — очень вкусно!",
+
+"atelierfrozen_starfruit_froyo.name": "Шербет с карамболой",
+"atelierfrozen_starfruit_froyo.description": "Свежие фрукты, смешанные со сливками, образуют легкий и сладкий шербет.",
+
+"atelierfrozen_gem_froyo.name": "Фрогурт со сладкой ягодой",
+"atelierfrozen_gem_froyo.description": "Чашка свежеприготовленного замороженного йогурта — очень вкусно!",
+
+"atelierfrozen_wildberry_froyo.name": "Фрогурт со вкусом диких ягод",
+"atelierfrozen_wildberry_froyo.description": "Чашка свежеприготовленного замороженного йогурта — очень вкусно!",
+
+//ICE CREAM CONE
+
+"atelierfrozen_ancient_cone.name": "Древнее мороженое",
+"atelierfrozen_ancient_cone.description": "Домашнее мороженое в вафельном рожке.",
+
+"atelierfrozen_apple_cone.name": "Мороженое с кусочками яблочного пирога",
+"atelierfrozen_apple_cone.description": "Домашнее мороженое в вафельном рожке.",
+
+"atelierfrozen_cherrynut_cone.name": "Вишнёво-миндальное мороженое",
+"atelierfrozen_cherrynut_cone.description": "Домашнее мороженое в вафельном рожке.",
+
+"atelierfrozen_cherryblossom_cone.name": "Мороженое с сакурой",
+"atelierfrozen_cherryblossom_cone.description": "Домашнее мороженое в вафельном рожке.",
+
+"atelierfrozen_chocolate_cone.name": "Шоколадное мороженое",
+"atelierfrozen_chocolate_cone.description": "Домашнее мороженое в вафельном рожке.",
+
+"atelierfrozen_coconut_cone.name": "Кокосовое мороженое",
+"atelierfrozen_coconut_cone.description": "Домашнее мороженое в вафельном рожке.",
+
+"atelierfrozen_coffee_cone.name": "Кофейное мороженое",
+"atelierfrozen_coffee_cone.description": "Домашнее мороженое в вафельном рожке.",
+
+"atelierfrozen_cookie_dough_cone.name": "Мороженое со вкусом печенья",
+"atelierfrozen_cookie_dough_cone.description": "Домашнее мороженое в вафельном рожке.",
+
+"atelierfrozen_cookie_cone.name": "Мороженое с кусочками шоколадного торта",
+"atelierfrozen_cookie_cone.description": "Домашнее мороженое в вафельном рожке.",
+
+"atelierfrozen_horchata_cone.name": "Мороженое с корицей",
+"atelierfrozen_horchata_cone.description": "Домашнее мороженое в вафельном рожке.",
+
+"atelierfrozen_lavender_cone.name": "Лавандово-лимонное мороженое",
+"atelierfrozen_lavender_cone.description": "Домашнее мороженое в вафельном рожке.",
+
+"atelierfrozen_maple_cone.name": "Мороженое с грецкими орехами и кленовом сиропом",
+"atelierfrozen_maple_cone.description": "Домашнее мороженое в вафельном рожке.",
+
+"atelierfrozen_mint_cone.name": "Мятно-шоколадное мороженое",
+"atelierfrozen_mint_cone.description": "Домашнее мороженое в вафельном рожке.",
+
+"atelierfrozen_pistachio_cone.name": "Фисташковое мороженое",
+"atelierfrozen_pistachio_cone.description": "Домашнее мороженое в вафельном рожке.",
+
+"atelierfrozen_strawberry_cone.name": "Сливочное мороженое с клубникой",
+"atelierfrozen_strawberry_cone.description": "Домашнее мороженое в вафельном рожке.",
+
+"atelierfrozen_vanilla_cone.name": "Ванильное мороженое",
+"atelierfrozen_vanilla_cone.description": "Домашнее мороженое в вафельном рожке.",
+
+//MILKSHAKES
+
+"atelierfrozen_choco_milkshake.name": "Шоколадный молочный коктейль",
+"atelierfrozen_choco_milkshake.description": "Мороженое превратилось в холодный напиток!",
+
+"atelierfrozen_candy_milkshake.name": "Молочный коктейль со сладкой ватой",
+"atelierfrozen_candy_milkshake.description": "Мороженое превратилось в холодный напиток!",
+
+"atelierfrozen_orange_milkshake.name": "Молочный коктейль с апельсиновым кремом",
+"atelierfrozen_orange_milkshake.description": "Мороженое превратилось в холодный напиток!",
+
+"atelierfrozen_earlgrey_milkshake.name": "Молочный коктейль Эрл Грей",
+"atelierfrozen_earlgrey_milkshake.description": "Мороженое превратилось в холодный напиток!",
+
+"atelierfrozen_lime_milkshake.name": "Молочный коктейль со вкусом лаймового пирога",
+"atelierfrozen_lime_milkshake.description": "Мороженое превратилось в холодный напиток!",
+
+"atelierfrozen_colada_milkshake.name": "Молочный коктейль Пина Колада",
+"atelierfrozen_colada_milkshake.description": "Мороженое превратилось в холодный напиток!",
+
+"atelierfrozen_pumpkin_milkshake.name": "Молочный коктейль с тыквенными специями",
+"atelierfrozen_pumpkin_milkshake.description": "Мороженое превратилось в холодный напиток!",
+
+"atelierfrozen_strawberry_milkshake.name": "Клубничный молочный коктейль",
+"atelierfrozen_strawberry_milkshake.description": "Мороженое превратилось в холодный напиток!",
+
+"atelierfrozen_vanilla_milkshake.name": "Ванильный молочный коктейль",
+"atelierfrozen_vanilla_milkshake.description": "Мороженое превратилось в холодный напиток!",
+
+//POPSICLES
+
+"atelierfrozen_ancient_popsicle.name": "Древнее эскимо",
+"atelierfrozen_ancient_popsicle.description": "Замороженный фруктовый сок на палочке — очаровательное летнее лакомство.",
+
+"atelierfrozen_blueberry_popsicle.name": "Черничное эскимо",
+"atelierfrozen_blueberry_popsicle.description": "Замороженный фруктовый сок на палочке — очаровательное летнее лакомство.",
+
+"atelierfrozen_cherry_popsicle.name": "Вишневое эскимо",
+"atelierfrozen_cherry_popsicle.description": "Замороженный фруктовый сок на палочке — очаровательное летнее лакомство.",
+
+"atelierfrozen_coconut_popsicle.name": "Кокосовое эскимо",
+"atelierfrozen_coconut_popsicle.description": "Замороженный фруктовый сок на палочке — очаровательное летнее лакомство.",
+
+"atelierfrozen_fruity_popsicle.name": "Фруктовое эскимо",
+"atelierfrozen_fruity_popsicle.description": "Замороженный фруктовый сок на палочке — очаровательное летнее лакомство.",
+
+"atelierfrozen_grape_popsicle.name": "Виноградное эскимо",
+"atelierfrozen_grape_popsicle.description": "Замороженный фруктовый сок на палочке — очаровательное летнее лакомство.",
+
+"atelierfrozen_lemon_popsicle.name": "Лимонное эскимо",
+"atelierfrozen_lemon_popsicle.description": "Замороженный фруктовый сок на палочке — очаровательное летнее лакомство.",
+
+"atelierfrozen_lime_popsicle.name": "Лаймовое эскимо",
+"atelierfrozen_lime_popsicle.description": "Замороженный фруктовый сок на палочке — очаровательное летнее лакомство.",
+
+"atelierfrozen_gem_popsicle.name": "Эскимо из сладкой ягоды",
+"atelierfrozen_gem_popsicle.description": "Замороженный фруктовый сок на палочке — очаровательное летнее лакомство.",
+
+"atelierfrozen_mango_popsicle.name": "Манговое эскимо",
+"atelierfrozen_mango_popsicle.description": "Замороженный фруктовый сок на палочке — очаровательное летнее лакомство.",
+
+"atelierfrozen_melon_popsicle.name": "Дынное эскимо",
+"atelierfrozen_melon_popsicle.description": "Замороженный фруктовый сок на палочке — очаровательное летнее лакомство.",
+
+"atelierfrozen_orange_popsicle.name": "Апельсиновое эскимо",
+"atelierfrozen_orange_popsicle.description": "Замороженный фруктовый сок на палочке — очаровательное летнее лакомство.",
+
+"atelierfrozen_peach_popsicle.name": "Персиковое эскимо",
+"atelierfrozen_peach_popsicle.description": "Замороженный фруктовый сок на палочке — очаровательное летнее лакомство.",
+
+"atelierfrozen_pineapple_popsicle.name": "Ананасовое эскимо",
+"atelierfrozen_pineapple_popsicle.description": "Замороженный фруктовый сок на палочке — очаровательное летнее лакомство.",
+
+"atelierfrozen_starfruit_popsicle.name": "Эскимо из карамболы",
+"atelierfrozen_starfruit_popsicle.description": "Замороженный фруктовый сок на палочке — очаровательное летнее лакомство.",
+
+"atelierfrozen_strawberry_popsicle.name": "Клубничное эскимо",
+"atelierfrozen_strawberry_popsicle.description": "Замороженный фруктовый сок на палочке — очаровательное летнее лакомство.",
+
+"atelierfrozen_raspberry_popsicle.name": "Малиновое эскимо",
+"atelierfrozen_raspberry_popsicle.description": "Замороженный фруктовый сок на палочке — очаровательное летнее лакомство.",
+
+"atelierfrozen_wildberry_popsicle.name": "Эскимо из диких ягод",
+"atelierfrozen_wildberry_popsicle.description": "Замороженный фруктовый сок на палочке — очаровательное летнее лакомство.",
+
+//ICE CREAM SANDWICHES
+
+"atelierfrozen_cinnamon_chocolate_sandwich.name": "Сэндвич с мороженым и корицей",
+"atelierfrozen_cinnamon_chocolate_sandwich.description": "Мороженое, зажатое между двумя шоколадными печеньями, похожими на коржи тортиков. Ням!!",
+
+"atelierfrozen_mint_chocolate_sandwich.name": "Сэндвич с мятно-шоколадным мороженым",
+"atelierfrozen_mint_chocolate_sandwich.description": "Мороженое, зажатое между двумя шоколадными печеньями, похожими на коржи тортиков. Ням!",
+
+"atelierfrozen_mocha_coconut_sandwich.name": "Сэндвич с кокосовым мороженым",
+"atelierfrozen_mocha_coconut_sandwich.description": "Мороженое, зажатое между двумя шоколадными печеньями, похожими на коржи тортиков. Ням!",
+
+"atelierfrozen_mocha_sandwich.name": "Сэндвич с шоколадным мороженым",
+"atelierfrozen_mocha_sandwich.description": "Мороженое, зажатое между двумя печеньями, похожими на коржи тортиков. Ням!",
+
+"atelierfrozen_pistachio_sandwich.name": "Сэндвич с фисташковым мороженым",
+"atelierfrozen_pistachio_sandwich.description": "Мороженое, зажатое между двумя шоколадными печеньями, похожими на коржи тортиков. Ням!",
+
+"atelierfrozen_strawberry_sandwich.name": "Сэндвич с клубничным мороженым",
+"atelierfrozen_strawberry_sandwich.description": "Мороженое, зажатое между двумя печеньями, похожими на коржи тортиков. Ням!",
+
+"atelierfrozen_vanilla_sandwich.name": "Сэндвич с ванильным мороженым",
+"atelierfrozen_vanilla_sandwich.description": "Мороженое, зажатое между двумя печеньями, похожими на коржи тортиков. Ням!",
+
+//MAIL
+
+"atelierfrozen_TreatMakerRecipe.text":"@, ^^ В древности жители деревни отправлялись в заснеженные горы за льдом, а затем несли его в домой, чтобы приготовить замороженные деликатесы. Я рад, что сейчас у нас есть наука.^^ - Деметриус",
+"atelierfrozen_ChillerRecipe.text":"@, ^^Я хотела поделиться с тобой чертежами для холодильника шоковой заморозки, которые я только что создала. С его помощью ты сможешь приготовить потрясающие эскимо из фруктов с твоей фермы! Может быть, ты зайдешь ко мне и немного ими поделишься? Деметриусу и Мару это понравится!^^ - Робин",
+"atelierfrozen_vincent_gift.text":"@, ^^ Я умоляю об этом МОРОЖЕНОМ! Разве не было бы круто, если бы ты просил мороженое, и потом оно просто волшебным образом появлялось у тебя в руке? Я бы потерял голос, требуя льда со сливками целый день! Можешь сделать из этого мороженое? Я нашел их в лесу, они приятно пахнут.^^ - Винсент",
+"atelierfrozen_jodi_gift.text":"@, ^^ Винсент так увлекся мороженым, что я боюсь, что он переборщит. Можешь ли ты попробовать приготовить замороженный йогурт и посмотреть, съест ли он его вместо мороженого? По крайней мере, будет ощущение, что он ест что-то полезное.^^ - Джоди",
+"atelierfrozen_sam_gift.text":"@, ^^ Приготовление домашнего мороженого, а? Есть ли что-нибудь, что ты не пытаешься сделать? А если серьезно, это звучит очень круто! Думаю, эти грибы могут тебе помочь. Я где-то читал, что они производят молоко, но надеюсь, они не ядовиты...^^ - Сэм",
+
+}

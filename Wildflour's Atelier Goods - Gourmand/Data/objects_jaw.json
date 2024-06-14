@@ -1,0 +1,115 @@
+{
+    "Changes": [
+        
+        {
+            "LogName":"Add Just Add Whip Milkshake Items",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "wildflour.gourmetpantry_banana_whip_milkshake": {
+                    "Name": "wildflour.gourmetpantry_banana_whip_milkshake",
+                    "DisplayName": "{{i18n:gourmetpantry_banana_whip_milkshake.name}}",
+                    "Description": "{{i18n:gourmetpantry_banana_whip_milkshake.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 58,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_pantry",
+                    "milkshake_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.gourmetpantry/Objects",
+                    "SpriteIndex": 128
+            },
+                "wildflour.gourmetpantry_blueberry_whip_milkshake": {
+                    "Name": "wildflour.gourmetpantry_blueberry_whip_milkshake",
+                    "DisplayName": "{{i18n:gourmetpantry_blueberry_whip_milkshake.name}}",
+                    "Description": "{{i18n:gourmetpantry_blueberry_whip_milkshake.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 40,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_pantry",
+                    "nut_butter_item",
+                    "color_blue"],
+
+                    "Texture": "Mods/wildflour.gourmetpantry/Objects",
+                    "SpriteIndex": 129
+            },
+                "wildflour.gourmetpantry_choccy_whip_milkshake": {
+                    "Name": "wildflour.gourmetpantry_choccy_whip_milkshake",
+                    "DisplayName": "{{i18n:gourmetpantry_choccy_whip_milkshake.name}}",
+                    "Description": "{{i18n:gourmetpantry_choccy_whip_milkshake.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 62,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_pantry",
+                    "milkshake_item",
+                    "color_brown"],
+
+                    "Texture": "Mods/wildflour.gourmetpantry/Objects",
+                    "SpriteIndex": 130
+            },
+                "wildflour.gourmetpantry_orange_whip_milkshake": {
+                    "Name": "wildflour.gourmetpantry_orange_whip_milkshake",
+                    "DisplayName": "{{i18n:gourmetpantry_orange_whip_milkshake.name}}",
+                    "Description": "{{i18n:gourmetpantry_orange_whip_milkshake.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 55,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_pantry",
+                    "milkshake_item",
+                    "color_orange"],
+
+                    "Texture": "Mods/wildflour.gourmetpantry/Objects",
+                    "SpriteIndex": 131
+            },
+                "wildflour.gourmetpantry_shamrock_whip_milkshake": {
+                    "Name": "wildflour.gourmetpantry_shamrock_whip_milkshake",
+                    "DisplayName": "{{i18n:gourmetpantry_shamrock_whip_milkshake.name}}",
+                    "Description": "{{i18n:gourmetpantry_shamrock_whip_milkshake.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 65,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_pantry",
+                    "milkshake_item",
+                    "color_green"],
+
+                    "Texture": "Mods/wildflour.gourmetpantry/Objects",
+                    "SpriteIndex": 132
+            },
+                "wildflour.gourmetpantry_strawberry_whip_milkshake": {
+                    "Name": "wildflour.gourmetpantry_strawberry_whip_milkshake",
+                    "DisplayName": "{{i18n:gourmetpantry_strawberry_whip_milkshake.name}}",
+                    "Description": "{{i18n:gourmetpantry_strawberry_whip_milkshake.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 70,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_pantry",
+                    "milkshake_item",
+                    "color_pink"],
+
+                    "Texture": "Mods/wildflour.gourmetpantry/Objects",
+                    "SpriteIndex": 133
+            }
+        }
+        }
+
+    ]
+}

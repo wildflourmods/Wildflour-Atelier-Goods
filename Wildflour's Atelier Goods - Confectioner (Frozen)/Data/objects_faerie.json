@@ -1,0 +1,480 @@
+{
+    "Changes": [
+
+    {
+        "LogName":"Add Atelier Frozen Objects",
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "Entries": {
+            "wildflour.atelierfrozen_cake_froyo": {
+                "Name": "wildflour.atelierfrozen_cake_froyo",
+                "DisplayName": "{{i18n:atelierfrozen_cake_froyo.name}}",
+                "Description": "{{i18n:atelierfrozen_cake_froyo.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 65,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                "Buff": {
+                    "BuffId": null,
+                    "IconTexture": null,
+                    "IconSpriteIndex": 0,
+                    "Duration": 360,
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "CustomAttributes": {
+                    "FarmingLevel": 0,
+                    "FishingLevel": 0,
+                    "MiningLevel": 0,
+                    "LuckLevel": 0,
+                    "ForagingLevel": 0,
+                    "MaxStamina": 0,
+                    "MagneticRadius": 0,
+                    "Speed": 1,
+                    "Defense": 0,
+                    "Attack": 0
+                    },
+                    "CustomFields": {}
+                },
+
+                "ContextTags":
+                ["wildflour_frozen_item",
+                "froyo_item",
+                "color_white"],
+
+                "Texture": "Mods/wildflour.atelierfrozen/Objects",
+                "SpriteIndex": 32
+        },
+            "wildflour.atelierfrozen_cheesecake_froyo": {
+                "Name": "wildflour.atelierfrozen_cheesecake_froyo",
+                "DisplayName": "{{i18n:atelierfrozen_cheesecake_froyo.name}}",
+                "Description": "{{i18n:atelierfrozen_cheesecake_froyo.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 65,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                "Buff": {
+                    "BuffId": null,
+                    "IconTexture": null,
+                    "IconSpriteIndex": 0,
+                    "Duration": 360,
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "CustomAttributes": {
+                    "FarmingLevel": 0,
+                    "FishingLevel": 0,
+                    "MiningLevel": 0,
+                    "LuckLevel": 0,
+                    "ForagingLevel": 0,
+                    "MaxStamina": 0,
+                    "MagneticRadius": 0,
+                    "Speed": 1,
+                    "Defense": 0,
+                    "Attack": 0
+                    },
+                    "CustomFields": {}
+                },
+
+                "ContextTags":
+                ["wildflour_frozen_item",
+                "froyo_item",
+                "color_cream"],
+
+                "Texture": "Mods/wildflour.atelierfrozen/Objects",
+                "SpriteIndex": 34
+        },
+            "wildflour.atelierfrozen_caramel_froyo": {
+                "Name": "wildflour.atelierfrozen_caramel_froyo",
+                "DisplayName": "{{i18n:atelierfrozen_caramel_froyo.name}}",
+                "Description": "{{i18n:atelierfrozen_FlavoredFroyo.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 65,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                "Buff": {
+                    "BuffId": null,
+                    "IconTexture": null,
+                    "IconSpriteIndex": 0,
+                    "Duration": 360,
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "CustomAttributes": {
+                    "FarmingLevel": 0,
+                    "FishingLevel": 0,
+                    "MiningLevel": 0,
+                    "LuckLevel": 0,
+                    "ForagingLevel": 0,
+                    "MaxStamina": 0,
+                    "MagneticRadius": 0,
+                    "Speed": 1,
+                    "Defense": 0,
+                    "Attack": 0
+                    },
+                    "CustomFields": {}
+                },
+            
+                "ContextTags":
+                ["wildflour_frozen_item",
+                "froyo_item",
+                "color_tan"],
+            
+                "Texture": "Mods/wildflour.atelierfrozen/Objects",
+                "SpriteIndex": 41
+        },
+            "wildflour.atelierfrozen_creamsicle_froyo": {
+            "Name": "wildflour.atelierfrozen_creamsicle_froyo",
+            "DisplayName": "{{i18n:atelierfrozen_creamsicle_froyo.name}}",
+            "Description": "{{i18n:atelierfrozen_FlavoredFroyo.description}}",
+            "Type": "ArtisanGoods",          
+            "Category": -26,
+            "Edibility": 65,
+            "Price": 100,
+            "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+            "Buff": {
+                "BuffId": null,
+                "IconTexture": null,
+                "IconSpriteIndex": 0,
+                "Duration": 360,
+                "IsDebuff": false,
+                "GlowColor": null,
+                "CustomAttributes": {
+                "FarmingLevel": 0,
+                "FishingLevel": 0,
+                "MiningLevel": 0,
+                "LuckLevel": 0,
+                "ForagingLevel": 0,
+                "MaxStamina": 0,
+                "MagneticRadius": 0,
+                "Speed": 1,
+                "Defense": 0,
+                "Attack": 0
+                },
+                "CustomFields": {}
+            },
+          
+            "ContextTags":
+            ["wildflour_frozen_item",
+            "froyo_item",
+            "color_light_orange"],
+          
+            "Texture": "Mods/wildflour.atelierfrozen/Objects",
+            "SpriteIndex": 99
+        },
+            "wildflour.atelierfrozen_custard_froyo": {
+                "Name": "wildflour.atelierfrozen_custard_froyo",
+                "DisplayName": "{{i18n:atelierfrozen_custard_froyo.name}}",
+                "Description": "{{i18n:atelierfrozen_FlavoredFroyo.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 65,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                "Buff": {
+                    "BuffId": null,
+                    "IconTexture": null,
+                    "IconSpriteIndex": 0,
+                    "Duration": 360,
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "CustomAttributes": {
+                    "FarmingLevel": 0,
+                    "FishingLevel": 0,
+                    "MiningLevel": 0,
+                    "LuckLevel": 0,
+                    "ForagingLevel": 0,
+                    "MaxStamina": 0,
+                    "MagneticRadius": 0,
+                    "Speed": 1,
+                    "Defense": 0,
+                    "Attack": 0
+                    },
+                    "CustomFields": {}
+                },
+        
+                "ContextTags":
+                ["wildflour_frozen_item",
+                "froyo_item",
+                "color_cream"],
+        
+                "Texture": "Mods/wildflour.atelierfrozen/Objects",
+                "SpriteIndex": 34
+        },
+            "wildflour.atelierfrozen_candy_froyo": {
+                "Name": "wildflour.atelierfrozen_candy_froyo",
+                "DisplayName": "{{i18n:atelierfrozen_candy_froyo.name}}",
+                "Description": "{{i18n:atelierfrozen_FlavoredFroyo.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 65,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                "Buff": {
+                    "BuffId": null,
+                    "IconTexture": null,
+                    "IconSpriteIndex": 0,
+                    "Duration": 360,
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "CustomAttributes": {
+                    "FarmingLevel": 0,
+                    "FishingLevel": 0,
+                    "MiningLevel": 0,
+                    "LuckLevel": 0,
+                    "ForagingLevel": 0,
+                    "MaxStamina": 0,
+                    "MagneticRadius": 0,
+                    "Speed": 1,
+                    "Defense": 0,
+                    "Attack": 0
+                    },
+                    "CustomFields": {}
+                },
+        
+                "ContextTags":
+                ["wildflour_frozen_item",
+                "froyo_item",
+                "color_cpink"],
+        
+                "Texture": "Mods/wildflour.atelierfrozen/Objects",
+                "SpriteIndex": 45
+        },
+            "wildflour.atelierfrozen_tiramisu_froyo": {
+                "Name": "wildflour.atelierfrozen_tiramisu_froyo",
+                "DisplayName": "{{i18n:atelierfrozen_tiramisu_froyo.name}}",
+                "Description": "{{i18n:atelierfrozen_FlavoredFroyo.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 65,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                "Buff": {
+                    "BuffId": null,
+                    "IconTexture": null,
+                    "IconSpriteIndex": 0,
+                    "Duration": 360,
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "CustomAttributes": {
+                    "FarmingLevel": 0,
+                    "FishingLevel": 0,
+                    "MiningLevel": 0,
+                    "LuckLevel": 0,
+                    "ForagingLevel": 0,
+                    "MaxStamina": 0,
+                    "MagneticRadius": 0,
+                    "Speed": 1,
+                    "Defense": 0,
+                    "Attack": 0
+                    },
+                    "CustomFields": {}
+                },
+        
+                "ContextTags":
+                ["wildflour_frozen_item",
+                "froyo_item",
+                "color_tan"],
+        
+                "Texture": "Mods/wildflour.atelierfrozen/Objects",
+                "SpriteIndex": 100
+        },
+            "wildflour.atelierfrozen_macaron_froyo": {
+                "Name": "wildflour.atelierfrozen_macaron_froyo",
+                "DisplayName": "{{i18n:atelierfrozen_macaron_froyo.name}}",
+                "Description": "{{i18n:atelierfrozen_FlavoredFroyo.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 65,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                "Buff": {
+                    "BuffId": null,
+                    "IconTexture": null,
+                    "IconSpriteIndex": 0,
+                    "Duration": 360,
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "CustomAttributes": {
+                    "FarmingLevel": 0,
+                    "FishingLevel": 0,
+                    "MiningLevel": 0,
+                    "LuckLevel": 0,
+                    "ForagingLevel": 0,
+                    "MaxStamina": 0,
+                    "MagneticRadius": 0,
+                    "Speed": 1,
+                    "Defense": 0,
+                    "Attack": 0
+                    },
+                    "CustomFields": {}
+                },
+        
+                "ContextTags":
+                ["wildflour_frozen_item",
+                "froyo_item",
+                "color_pale_violet"],
+        
+                "Texture": "Mods/wildflour.atelierfrozen/Objects",
+                "SpriteIndex": 44
+        },
+            "wildflour.atelierfrozen_galaxy_froyo": {
+            "Name": "wildflour.atelierfrozen_galaxy_froyo",
+            "DisplayName": "{{i18n:atelierfrozen_galaxy_froyo.name}}",
+            "Description": "{{i18n:atelierfrozen_FlavoredFroyo.description}}",
+            "Type": "ArtisanGoods",          
+            "Category": -26,
+            "Edibility": 65,
+            "Price": 100,
+            "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+            "Buff": {
+                "BuffId": null,
+                "IconTexture": null,
+                "IconSpriteIndex": 0,
+                "Duration": 360,
+                "IsDebuff": false,
+                "GlowColor": null,
+                "CustomAttributes": {
+                "FarmingLevel": 0,
+                "FishingLevel": 0,
+                "MiningLevel": 0,
+                "LuckLevel": 0,
+                "ForagingLevel": 0,
+                "MaxStamina": 0,
+                "MagneticRadius": 0,
+                "Speed": 1,
+                "Defense": 0,
+                "Attack": 0
+                },
+                "CustomFields": {}
+            },
+      
+            "ContextTags":
+            ["wildflour_frozen_item",
+            "froyo_item",
+            "color_red"],
+      
+            "Texture": "Mods/wildflour.atelierfrozen/Objects",
+            "SpriteIndex": 101
+        },
+            "wildflour.atelierfrozen_pie_froyo": {
+                "Name": "wildflour.atelierfrozen_pie_froyo",
+                "DisplayName": "{{i18n:atelierfrozen_pie_froyo.name}}",
+                "Description": "{{i18n:atelierfrozen_FlavoredFroyo.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "Edibility": 65,
+                "Price": 100,
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                "Buff": {
+                    "BuffId": null,
+                    "IconTexture": null,
+                    "IconSpriteIndex": 0,
+                    "Duration": 360,
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "CustomAttributes": {
+                    "FarmingLevel": 0,
+                    "FishingLevel": 0,
+                    "MiningLevel": 0,
+                    "LuckLevel": 0,
+                    "ForagingLevel": 0,
+                    "MaxStamina": 0,
+                    "MagneticRadius": 0,
+                    "Speed": 1,
+                    "Defense": 0,
+                    "Attack": 0
+                    },
+                    "CustomFields": {}
+                },
+        
+                "ContextTags":
+                ["wildflour_frozen_item",
+                "froyo_item",
+                "color_blue"],
+        
+                "Texture": "Mods/wildflour.atelierfrozen/Objects",
+                "SpriteIndex": 33
+        },
+            "wildflour.atelierfrozen_shortcake_froyo": {
+            "Name": "wildflour.atelierfrozen_shortcake_froyo",
+            "DisplayName": "{{i18n:atelierfrozen_shortcake_froyo.name}}",
+            "Description": "{{i18n:atelierfrozen_FlavoredFroyo.description}}",
+            "Type": "ArtisanGoods",          
+            "Category": -26,
+            "Edibility": 65,
+            "Price": 100,
+            "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+            "Buff": {
+                "BuffId": null,
+                "IconTexture": null,
+                "IconSpriteIndex": 0,
+                "Duration": 360,
+                "IsDebuff": false,
+                "GlowColor": null,
+                "CustomAttributes": {
+                "FarmingLevel": 0,
+                "FishingLevel": 0,
+                "MiningLevel": 0,
+                "LuckLevel": 0,
+                "ForagingLevel": 0,
+                "MaxStamina": 0,
+                "MagneticRadius": 0,
+                "Speed": 1,
+                "Defense": 0,
+                "Attack": 0
+                },
+                "CustomFields": {}
+            },
+      
+            "ContextTags":
+            ["wildflour_frozen_item",
+            "froyo_item",
+            "color_pink"],
+      
+            "Texture": "Mods/wildflour.atelierfrozen/Objects",
+            "SpriteIndex": 39
+        },
+            "wildflour.atelierfrozen_cotton_candy_froyo": {
+            "Name": "wildflour.atelierfrozen_cotton_candy_froyo",
+            "DisplayName": "{{i18n:atelierfrozen_cotton_candy_froyo.name}}",
+            "Description": "{{i18n:atelierfrozen_FlavoredFroyo.description}}",
+            "Type": "ArtisanGoods",          
+            "Category": -26,
+            "Edibility": 65,
+            "Price": 100,
+            "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+            "Buff": {
+                "BuffId": null,
+                "IconTexture": null,
+                "IconSpriteIndex": 0,
+                "Duration": 360,
+                "IsDebuff": false,
+                "GlowColor": null,
+                "CustomAttributes": {
+                "FarmingLevel": 0,
+                "FishingLevel": 0,
+                "MiningLevel": 0,
+                "LuckLevel": 0,
+                "ForagingLevel": 0,
+                "MaxStamina": 0,
+                "MagneticRadius": 0,
+                "Speed": 1,
+                "Defense": 0,
+                "Attack": 0
+                },
+                "CustomFields": {}
+            },
+    
+            "ContextTags":
+            ["wildflour_frozen_item",
+            "froyo_item",
+            "color_light_blue"],
+    
+            "Texture": "Mods/wildflour.atelierfrozen/Objects",
+            "SpriteIndex": 33
+        },
+    }
+    }
+    ]
+}

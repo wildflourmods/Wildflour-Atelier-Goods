@@ -1,0 +1,317 @@
+{
+	//MACHINE
+
+	"ateliermakeup_CosmeticCrystal.name": "水晶球",
+	"ateliermakeup_CosmeticCrystal.description": "神奇地创造出各种各样的化妆品！",
+
+	
+///////////////////////////
+// MACHINE NOTIFICATIONS //
+///////////////////////////
+
+	"ateliermakeup_CosmeticCrystal_InvalidItem.message": "无法创造",
+
+//////////////////////
+// MODDED ITEMS NEW //
+//////////////////////
+
+	"ateliermakeup_amber_polish.name": "指甲油《琥珀》",
+	"ateliermakeup_amber_polish.description": "这瓶指甲油充满灵魂能量。",
+
+	"ateliermakeup_demantoide_lotion.name": "乳液《翠榴》",
+	"ateliermakeup_demantoide_lotion.description": "专为水瓶座使用者设计的保湿软膏。",
+
+	"ateliermakeup_carnelian_blush.name": "腮红《玉髓》",
+	"ateliermakeup_carnelian_blush.description": "将红玉髓磨碎制成的稀有腮红。",
+	
+	"ateliermakeup_turquoise_cleanser.name": "洗面奶《松》",
+	"ateliermakeup_turquoise_cleanser.description": "利用海洋岩石元素制成的洗面奶。",
+	
+	"ateliermakeup_garnet_powder.name": "蜜粉《石榴》",
+	"ateliermakeup_garnet_powder.description": "女巫用于遮瑕的古老疗方……或许还可以让人完全隐身？",
+	
+	"ateliermakeup_morganite_lipstick.name": "唇膏《摩根》",
+	"ateliermakeup_morganite_lipstick.description": "拥有日出色彩的魔法唇膏。",
+	
+	"ateliermakeup_heliodor_lipgloss.name": "唇蜜《绿柱》",
+	"ateliermakeup_heliodor_lipgloss.description": "闪烁着行星能量的神秘唇蜜。",
+	
+	"ateliermakeup_labradorite_mascara.name": "睫毛膏《拉长》",
+	"ateliermakeup_labradorite_mascara.description": "深蓝色的睫毛膏。",
+	
+	"ateliermakeup_void_palette.name": "眼影《虚空》",
+	"ateliermakeup_void_palette.description": "颜色组合能完美融入夜色中的四色眼影盘。",
+	
+	"ateliermakeup_tourmaline_perfume.name": "香水《碧玺》",
+	"ateliermakeup_tourmaline_perfume.description": "淡雅迷人的香氛酊剂；其香味使你想起雨水。",
+
+	"ateliermakeup_larimar_perfume.name": "香水《海纹》",
+	"ateliermakeup_larimar_perfume.description": "淡雅迷人的香氛酊剂；其香味使你想起雨水。",
+
+	"ateliermakeup_blue_agathe_perfume.name": "香水《蓝纹玛瑙》",
+	"ateliermakeup_blue_agathe_perfume.description": "淡雅迷人的香氛酊剂；其香味使你想起雨水。",
+
+
+
+
+	// LIPGLOSS
+	
+    "ateliermakeup_earth_lipgloss.name": "唇蜜《地球》",
+	"ateliermakeup_earth_lipgloss.description": "闪烁着行星能量的神秘唇蜜。",
+
+	"ateliermakeup_jupiter_lipgloss.name": "唇蜜《木星》",
+	"ateliermakeup_jupiter_lipgloss.description": "闪烁着行星能量的神秘唇蜜。",
+
+	"ateliermakeup_mars_lipgloss.name": "唇蜜《火星》",
+	"ateliermakeup_mars_lipgloss.description": "闪烁着行星能量的神秘唇蜜。",
+
+	"ateliermakeup_mercury_lipgloss.name": "唇蜜《水星》",
+	"ateliermakeup_mercury_lipgloss.description": "闪烁着行星能量的神秘唇蜜。",
+
+	"ateliermakeup_neptune_lipgloss.name": "唇蜜《海王星》",
+	"ateliermakeup_neptune_lipgloss.description": "闪烁着行星能量的神秘唇蜜。",
+
+	"ateliermakeup_pluto_lipgloss.name": "唇蜜《冥王星》",
+	"ateliermakeup_pluto_lipgloss.description": "闪烁着行星能量的神秘唇蜜。",
+
+	"ateliermakeup_saturn_lipgloss.name": "唇蜜《土星》",
+	"ateliermakeup_saturn_lipgloss.description": "闪烁着行星能量的神秘唇蜜。",
+
+	"ateliermakeup_uranus_lipgloss.name": "唇蜜《土星》",
+	"ateliermakeup_uranus_lipgloss.description": "闪烁着行星能量的神秘唇蜜。",
+
+	"ateliermakeup_venus_lipgloss.name": "唇蜜《金星》",
+	"ateliermakeup_venus_lipgloss.description": "闪烁着行星能量的神秘唇蜜。",
+	
+	// LIPSTICK
+
+	"ateliermakeup_dawn_lipstick.name": "唇膏《晨曦》",
+	"ateliermakeup_dawn_lipstick.description": "拥有日出色彩的魔法唇膏。",
+
+	"ateliermakeup_dusk_lipstick.name": "唇膏《薄暮》",
+	"ateliermakeup_dusk_lipstick.description": "拥有日落色彩的魔法唇膏。",
+
+	"ateliermakeup_lunar_lipstick.name": "唇膏《月华》",
+	"ateliermakeup_lunar_lipstick.description": "如满月般闪烁的魔法唇膏。",
+
+	"ateliermakeup_midnight_lipstick.name": "唇膏《子夜》",
+	"ateliermakeup_midnight_lipstick.description": "如午夜星光般闪亮的魔法唇膏。",
+
+	"ateliermakeup_solar_lipstick.name": "唇膏《丽日》",
+	"ateliermakeup_solar_lipstick.description": "如朝日般闪耀的魔法唇膏。",
+
+	"ateliermakeup_stellar_lipstick.name": "唇膏《流星》",
+	"ateliermakeup_stellar_lipstick.description": "如坠星般闪烁的魔法唇膏。",
+
+	"ateliermakeup_twilight_lipstick.name": "唇膏《暮光》",
+	"ateliermakeup_twilight_lipstick.description": "传说是女吸血鬼最喜欢的魔法唇膏。",
+
+	// LOTION
+
+	"ateliermakeup_aquarius_lotion.name": "乳液《水瓶》",
+	"ateliermakeup_aquarius_lotion.description": "专为水瓶座使用者设计的保湿软膏。",
+		
+	"ateliermakeup_aries_lotion.name": "乳液《牡羊》",
+	"ateliermakeup_aries_lotion.description": "专为牡羊座使用者设计的保湿软膏。",
+		
+	"ateliermakeup_cancer_lotion.name": "乳液《巨蟹》",
+	"ateliermakeup_cancer_lotion.description": "专为巨蟹座使用者设计的保湿软膏。",
+		
+	"ateliermakeup_capricorn_lotion.name": "乳液《魔羯》",
+	"ateliermakeup_capricorn_lotion.description": "专为魔羯座使用者设计的保湿软膏。",
+
+	"ateliermakeup_gemini_lotion.name": "乳液《双子》",
+	"ateliermakeup_gemini_lotion.description": "专为双子座使用者设计的保湿软膏。",
+
+	"ateliermakeup_leo_lotion.name": "乳液《狮子》",
+	"ateliermakeup_leo_lotion.description": "专为狮子座使用者设计的保湿软膏。",
+
+	"ateliermakeup_libra_lotion.name": "乳液《天秤》",
+	"ateliermakeup_libra_lotion.description": "专为天秤座使用者设计的保湿软膏。",
+
+	"ateliermakeup_pisces_lotion.name": "乳液《双鱼》",
+	"ateliermakeup_pisces_lotion.description": "专为双鱼座使用者设计的保湿软膏。",
+
+	"ateliermakeup_sagittarius_lotion.name": "乳液《射手》",
+	"ateliermakeup_sagittarius_lotion.description": "专为射手座使用者设计的保湿软膏。",
+
+	"ateliermakeup_scorpio_lotion.name": "乳液《天蝎》",
+	"ateliermakeup_scorpio_lotion.description": "专为天蝎座使用者设计的保湿软膏。",
+
+	"ateliermakeup_taurus_lotion.name": "乳液《金牛》",
+	"ateliermakeup_taurus_lotion.description": "专为金牛座使用者设计的保湿软膏。",
+
+	"ateliermakeup_virgo_lotion.name": "乳液《处女》",
+	"ateliermakeup_virgo_lotion.description": "专为处女座使用者设计的保湿软膏。",
+
+	// CLEANSER
+
+	"ateliermakeup_air_cleanser.name": "洗面奶《风》",
+	"ateliermakeup_air_cleanser.description": "利用神圣天堂元素制成的洗面奶。",
+	
+	"ateliermakeup_earth_cleanser.name": "洗面奶《地》",
+	"ateliermakeup_earth_cleanser.description": "利用繁茂大地元素制成的洗面奶。",
+
+	"ateliermakeup_fire_cleanser.name": "洗面奶《火》",
+	"ateliermakeup_fire_cleanser.description": "利用炽热地核元素制成的洗面奶。",
+
+	"ateliermakeup_water_cleanser.name": "洗面奶《水》",
+	"ateliermakeup_water_cleanser.description": "利用深渊海底元素制成的洗面奶。",
+
+	// POWDER
+
+	"ateliermakeup_brightening_powder.name": "蜜粉《亮白》",
+	"ateliermakeup_brightening_powder.description": "女巫用于对抗黑眼圈的古老疗方……或着只是用来点亮你的心情！",
+
+	"ateliermakeup_bronzing_powder.name": "蜜粉《古铜》",
+	"ateliermakeup_bronzing_powder.description": "通常用于给皮肤增添日晒光泽，但女巫们也会放进炼金药水使物品呈现古铜色。",
+
+	"ateliermakeup_concealing_powder.name": "蜜粉《遮藏》",
+	"ateliermakeup_concealing_powder.description": "女巫用于遮瑕的古老疗方……或许还可以让人完全隐身？",
+	
+	"ateliermakeup_illusion_powder.name": "蜜粉《幻象》",
+	"ateliermakeup_illusion_powder.description": "女巫用于变化成他人外貌的幻术魔法古老疗方。",
+
+	"ateliermakeup_mysterious_powder.name": "蜜粉《神秘》",
+	"ateliermakeup_mysterious_powder.description": "……这蜜粉肯定……有什么用……大概吧。",
+
+	"ateliermakeup_refreshing_powder.name": "蜜粉《清新》",
+	"ateliermakeup_refreshing_powder.description": "女巫用于对抗疲倦的古老疗方。比午后拿铁还有用！",
+
+	// NAIL POLISH
+
+	"ateliermakeup_archmage_polish.name": "指甲油《大法师》",
+	"ateliermakeup_archmage_polish.description": "这瓶指甲油充满灵魂能量。",
+
+	"ateliermakeup_harvest_goddess_polish.name": "指甲油《地母神》",
+	"ateliermakeup_harvest_goddess_polish.description": "这瓶指甲油充满灵魂能量。",
+
+	"ateliermakeup_hedgewitch_polish.name": "指甲油《树林女巫》",
+	"ateliermakeup_hedgewitch_polish.description": "这瓶指甲油充满灵魂能量。",
+
+	"ateliermakeup_ice_queen_polish.name": "指甲油《冰雪女王》",
+	"ateliermakeup_ice_queen_polish.description": "这瓶指甲油充满灵魂能量。",
+
+	"ateliermakeup_lady_lake_polish.name": "指甲油《湖中妖女》",
+	"ateliermakeup_lady_lake_polish.description": "这瓶指甲油充满灵魂能量。",
+
+	"ateliermakeup_little_mermaid_polish.name": "指甲油《小美人鱼》",
+	"ateliermakeup_little_mermaid_polish.description": "这瓶指甲油充满灵魂能量。",
+
+	"ateliermakeup_pretty_princess_polish.name": "指甲油《美丽公主》",
+	"ateliermakeup_pretty_princess_polish.description": "这瓶指甲油充满灵魂能量。",
+
+	"ateliermakeup_spring_goddess_polish.name": "指甲油《春之女神》",
+	"ateliermakeup_spring_goddess_polish.description": "这瓶指甲油充满灵魂能量。",
+
+	"ateliermakeup_sweet_sorceress_polish.name": "指甲油《甜蜜魔女》",
+	"ateliermakeup_sweet_sorceress_polish.description": "这瓶指甲油充满灵魂能量。",
+
+	"ateliermakeup_wise_warlock_polish.name": "指甲油《睿智契术士》",
+	"ateliermakeup_wise_warlock_polish.description": "这瓶指甲油充满灵魂能量。",
+
+	// BLUSH
+
+	"ateliermakeup_envy_blush.name": "腮红《嫉妒》",
+	"ateliermakeup_envy_blush.description": "七大腮红之一——极其强大，但使用过于频繁时会无来由地妒忌朋友。",
+
+	"ateliermakeup_gluttony_blush.name": "腮红《暴食》",
+	"ateliermakeup_gluttony_blush.description": "七大腮红之一——极其强大，但使用过于频繁时会感到饥饿难耐。",
+
+	"ateliermakeup_greed_blush.name": "腮红《贪婪》",
+	"ateliermakeup_greed_blush.description": "七大腮红之一——极其强大，但使用过于频繁时会着迷于财富。",
+
+	"ateliermakeup_lust_blush.name": "腮红《色欲》",
+	"ateliermakeup_lust_blush.description": "七大腮红之一——极其强大，但使用过于频繁时会变得淫秽不堪。",
+
+	"ateliermakeup_pride_blush.name": "腮红《傲慢》",
+	"ateliermakeup_pride_blush.description": "七大腮红之一——极其强大，但使用过于频繁时会导致过度自大。",
+
+	"ateliermakeup_sloth_blush.name": "腮红《怠惰》",
+	"ateliermakeup_sloth_blush.description": "七大腮红之一——极其强大，但使用过于频繁时会引发嗜睡。",
+
+	"ateliermakeup_wrath_blush.name": "腮红《愤怒》",
+	"ateliermakeup_wrath_blush.description": "七大腮红之一——极其强大，但使用过于频繁时会无来由地发怒。",
+
+	//PALETTE
+
+	"ateliermakeup_blues_palette.name": "眼影《蔚蓝》",
+	"ateliermakeup_blues_palette.description": "颜色组合使你联想到海底深渊的四色眼影盘。",
+
+	"ateliermakeup_fall_palette.name": "眼影《秋分》",
+	"ateliermakeup_fall_palette.description": "颜色组合最配万灵节的四色眼影盘。",
+
+	"ateliermakeup_greens_palette.name": "眼影《苍翠》",
+	"ateliermakeup_greens_palette.description": "颜色组合使你联想到秘密森林的四色眼影盘。",
+
+	"ateliermakeup_pinks_palette.name": "眼影《蔷薇》",
+	"ateliermakeup_pinks_palette.description": "颜色组合使你联想到落樱的四色眼影盘。",
+
+	"ateliermakeup_purples_palette.name": "眼影《紫罗兰》",
+	"ateliermakeup_purples_palette.description": "颜色组合使你联想到盛夏鲜艳繁花的四色眼影盘。",
+
+	"ateliermakeup_spring_palette.name": "眼影《春分》",
+	"ateliermakeup_spring_palette.description": "颜色组合最配春舞节的四色眼影盘。",
+
+	"ateliermakeup_summer_palette.name": "眼影《夏至》",
+	"ateliermakeup_summer_palette.description": "颜色组合最配夏威夷宴会的四色眼影盘。",
+
+	"ateliermakeup_winter_palette.name": "眼影《冬至》",
+	"ateliermakeup_winter_palette.description": "颜色组合最配冬日星盛宴的四色眼影盘。",
+	
+	//PERFUMES
+
+	"ateliermakeup_faerie_fire.name":"妖火",
+	"ateliermakeup_faerie_fire.description":"淡雅迷人的香氛酊剂；其香味使你想起营火燃烧。",
+
+	"ateliermakeup_forest_echo.name":"森林回声",
+	"ateliermakeup_forest_echo.description":"淡雅迷人的香氛酊剂；其香味使你想起落叶。",
+
+	"ateliermakeup_frostbite.name":"霜噬",
+	"ateliermakeup_frostbite.description":"淡雅迷人的香氛酊剂；其香味使你想起冬日寒风。",
+
+	"ateliermakeup_lightning_strike.name":"雷霆",
+	"ateliermakeup_lightning_strike.description":"淡雅迷人的香氛酊剂；其香味使你想起即将来临的雷雨。",
+
+	"ateliermakeup_maelstrom.name":"大漩涡",
+	"ateliermakeup_maelstrom.description":"淡雅迷人的香氛酊剂；其香味使你想起雨水。",
+
+	"ateliermakeup_misty_step.name":"迷踪步",
+	"ateliermakeup_misty_step.description":"淡雅迷人的香氛酊剂；其香味使你想起海岸。",
+
+	"ateliermakeup_morning_dew.name":"晨露",
+	"ateliermakeup_morning_dew.description":"淡雅迷人的香氛酊剂；其香味使你想起呼吸清晨新鲜空气。",
+
+	"ateliermakeup_thunderclap.name":"鸣雷破",
+	"ateliermakeup_thunderclap.description":"淡雅迷人的香氛酊剂；其香味使你想起闷热夏夜。",
+
+	"ateliermakeup_whirlwind.name":"龙卷旋风",
+	"ateliermakeup_whirlwind.description":"淡雅迷人的香氛酊剂；其香味使你想起风中花香。",
+
+	//MISC
+
+	"ateliermakeup_black_cat_mascara.name": "睫毛膏《黑猫》",
+	"ateliermakeup_black_cat_mascara.description": "深黑色的睫毛膏。",
+
+	"ateliermakeup_goblin_gaze_mascara.name": "睫毛膏《哥布林凝视》",
+	"ateliermakeup_goblin_gaze_mascara.description": "鲜艳的暗绿色睫毛膏。",
+
+	"ateliermakeup_brush.name":"魔法化妆刷",
+	"ateliermakeup_brush.description":"尽管看起来只是枝普通化妆刷，见多识广的女巫与契术士还是能看出隐藏于刷毛下的魔法特性。",
+
+//////////
+// MAIL //
+//////////
+
+	"ateliermakeup_CosmeticCrystalRecipe.name":"化妆水晶球",
+	"ateliermakeup_CosmeticCrystalRecipe.text":"@，^^艾米丽说我可以用这东西自己做化妆品，但这只是颗水晶球是要我怎么做？！如果你找到方法的话请跟我说。^^海莉",
+	
+	"ateliermakeup_emily_gift.name":"化妆品中的矿物",
+	"ateliermakeup_emily_gift.text":"@，^^你知道在矿井发现的矿物可以做成化妆品吗？我是认真的！试试看把这东西放进你的化妆水晶球，记得跟我说最后做出什么东西。^^艾米丽",
+
+	"ateliermakeup_elliott_gift.name":"保养",
+	"ateliermakeup_elliott_gift.text":"@，^^我知道人们总以为化妆品是女性专用的，但那观念已经过时了。我不懂为什么大家不能偶尔保养一下犒赏自己，你懂吗？我不确定，但我觉得如果你把我在海滩觅食的这东西放进你的化妆水晶球，或许会产出什么好东西！祝你好运！^^艾利欧特",
+
+
+
+}
