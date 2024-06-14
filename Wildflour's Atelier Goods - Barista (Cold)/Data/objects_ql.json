@@ -1,0 +1,60 @@
+{
+    "Changes": [
+
+        {
+            "LogName":"Add Atelier Beverages Quaint Living Objects",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "wildflour.atelierjuicebar_gardenia_lemonade": {
+                    "Name": "wildflour.atelierjuicebar_gardenia_lemonade",
+                    "DisplayName": "{{i18n:atelierjuicebar_gardenia_lemonade.name}}",
+                    "Description": "{{i18n:atelierjuicebar_gardenia_lemonade.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_beverage_item",
+                    "wildflour_lemonade_item",
+                    "color_pink"],
+
+                    "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                    "SpriteIndex": 144
+            }
+            }
+            },
+
+            {
+                "LogName":"Atelier Beverages - Modded Crop Objects",
+                "Action": "EditData",
+                "Target": "Data/Objects",
+                "When":{"HasMod |contains=wildflour.atelierbarista": true},
+                "Entries": {
+                        "wildflour.atelierjuicebar_gardenia_kombucha": {
+                            "Name": "wildflour.atelierjuicebar_gardenia_kombucha",
+                            "DisplayName": "{{i18n:atelierjuicebar_gardenia_kombucha.name}}",
+                            "Description": "{{i18n:atelierjuicebar_gardenia_kombucha.description}}",
+                            "Type": "ArtisanGoods",          
+                            "Category": -26,
+                            "IsDrink": true,
+                            "Edibility": 14,
+                            "Price": 100,       
+                            "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+        
+                            "ContextTags":
+                            ["wildflour_tea_item",
+                            "kombucha_item",
+                            "color_light_pink"],
+        
+                            "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                            "SpriteIndex": 160
+                    }
+
+                }
+            }
+
+    ]
+}

@@ -1,0 +1,945 @@
+{
+    "Changes": [
+
+        {
+            "LogName":"Add Atelier Beverages Objects",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "wildflour.atelierjuicebar_boba_pearls": {
+                    "Name": "wildflour.atelierjuicebar_boba_pearls",
+                    "DisplayName": "{{i18n:atelierjuicebar_boba_pearls.name}}",
+                    "Description": "{{i18n:atelierjuicebar_boba_pearls.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 1,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_beverage_item",
+                    "wildflour_boba_item",
+                    "color_dark_brown"],
+
+                    "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                    "SpriteIndex": 50
+            },
+                "wildflour.atelierjuicebar_banana_boba": {
+                    "Name": "wildflour.atelierjuicebar_banana_boba",
+                    "DisplayName": "{{i18n:atelierjuicebar_banana_boba.name}}",
+                    "Description": "{{i18n:atelierjuicebar_banana_boba.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_beverage_item",
+                    "wildflour_boba_item",
+                    "color_yellow"],
+
+                    "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                    "SpriteIndex": 32
+            },
+                "wildflour.atelierjuicebar_blacktea_boba": {
+                    "Name": "wildflour.atelierjuicebar_blacktea_boba",
+                    "DisplayName": "{{i18n:atelierjuicebar_blacktea_boba.name}}",
+                    "Description": "{{i18n:atelierjuicebar_blacktea_boba.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_beverage_item",
+                    "wildflour_boba_item",
+                    "color_dark_brown"],
+
+                    "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                    "SpriteIndex": 33
+            },               
+                "wildflour.atelierjuicebar_blueberry_boba": {
+                    "Name": "wildflour.atelierjuicebar_blueberry_boba",
+                    "DisplayName": "{{i18n:atelierjuicebar_blueberry_boba.name}}",
+                    "Description": "{{i18n:atelierjuicebar_blueberry_boba.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_beverage_item",
+                    "wildflour_boba_item",
+                    "color_blue"],
+
+                    "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                    "SpriteIndex": 34
+            },
+                "wildflour.atelierjuicebar_brownsugar_boba": {
+                    "Name": "wildflour.atelierjuicebar_brownsugar_boba",
+                    "DisplayName": "{{i18n:atelierjuicebar_brownsugar_boba.name}}",
+                    "Description": "{{i18n:atelierjuicebar_brownsugar_boba.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_beverage_item",
+                    "wildflour_boba_item",
+                    "color_dark_brown"],
+
+                    "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                    "SpriteIndex": 35
+            },
+                "wildflour.atelierjuicebar_caramel_boba": {
+                    "Name": "wildflour.atelierjuicebar_caramel_boba",
+                    "DisplayName": "{{i18n:atelierjuicebar_caramel_boba.name}}",
+                    "Description": "{{i18n:atelierjuicebar_caramel_boba.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_beverage_item",
+                    "wildflour_boba_item",
+                    "color_brown"],
+
+                    "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                    "SpriteIndex": 36
+            },
+                "wildflour.atelierjuicebar_coconut_boba": {
+                    "Name": "wildflour.atelierjuicebar_coconut_boba",
+                    "DisplayName": "{{i18n:atelierjuicebar_coconut_boba.name}}",
+                    "Description": "{{i18n:atelierjuicebar_coconut_boba.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_beverage_item",
+                    "wildflour_boba_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                    "SpriteIndex": 37
+            },
+                "wildflour.atelierjuicebar_coffee_boba": {
+                    "Name": "wildflour.atelierjuicebar_coffee_boba",
+                    "DisplayName": "{{i18n:atelierjuicebar_coffee_boba.name}}",
+                    "Description": "{{i18n:atelierjuicebar_coffee_boba.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_beverage_item",
+                    "wildflour_boba_item",
+                    "color_brown"],
+
+                    "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                    "SpriteIndex": 38
+            },
+                "wildflour.atelierjuicebar_mango_boba": {
+                    "Name": "wildflour.atelierjuicebar_mango_boba",
+                    "DisplayName": "{{i18n:atelierjuicebar_mango_boba.name}}",
+                    "Description": "{{i18n:atelierjuicebar_mango_boba.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_beverage_item",
+                    "wildflour_boba_item",
+                    "color_gold"],
+
+                    "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                    "SpriteIndex": 40
+            },
+                "wildflour.atelierjuicebar_matcha_boba": {
+                    "Name": "wildflour.atelierjuicebar_matcha_boba",
+                    "DisplayName": "{{i18n:atelierjuicebar_matcha_boba.name}}",
+                    "Description": "{{i18n:atelierjuicebar_matcha_boba.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_beverage_item",
+                    "wildflour_boba_item",
+                    "color_dark_green"],
+
+                    "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                    "SpriteIndex": 41
+            },
+                "wildflour.atelierjuicebar_melon_boba": {
+                    "Name": "wildflour.atelierjuicebar_melon_boba",
+                    "DisplayName": "{{i18n:atelierjuicebar_melon_boba.name}}",
+                    "Description": "{{i18n:atelierjuicebar_melon_boba.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_beverage_item",
+                    "wildflour_boba_item",
+                    "color_pink"],
+
+                    "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                    "SpriteIndex": 42
+            },
+                "wildflour.atelierjuicebar_oolong_boba": {
+                    "Name": "wildflour.atelierjuicebar_oolong_boba",
+                    "DisplayName": "{{i18n:atelierjuicebar_oolong_boba.name}}",
+                    "Description": "{{i18n:atelierjuicebar_oolong_boba.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_beverage_item",
+                    "wildflour_boba_item",
+                    "color_brown"],
+
+                    "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                    "SpriteIndex": 43
+            },
+                "wildflour.atelierjuicebar_peach_boba": {
+                    "Name": "wildflour.atelierjuicebar_peach_boba",
+                    "DisplayName": "{{i18n:atelierjuicebar_peach_boba.name}}",
+                    "Description": "{{i18n:atelierjuicebar_peach_boba.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_beverage_item",
+                    "wildflour_boba_item",
+                    "color_dark_pink"],
+
+                    "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                    "SpriteIndex": 44
+            },
+                "wildflour.atelierjuicebar_rose_boba": {
+                    "Name": "wildflour.atelierjuicebar_rose_boba",
+                    "DisplayName": "{{i18n:atelierjuicebar_rose_boba.name}}",
+                    "Description": "{{i18n:atelierjuicebar_rose_boba.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_beverage_item",
+                    "wildflour_boba_item",
+                    "color_light_pink"],
+
+                    "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                    "SpriteIndex": 45
+            },
+                "wildflour.atelierjuicebar_strawberry_boba": {
+                    "Name": "wildflour.atelierjuicebar_strawberry_boba",
+                    "DisplayName": "{{i18n:atelierjuicebar_strawberry_boba.name}}",
+                    "Description": "{{i18n:atelierjuicebar_strawberry_boba.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_beverage_item",
+                    "wildflour_boba_item",
+                    "color_pink"],
+
+                    "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                    "SpriteIndex": 46
+            },
+                "wildflour.atelierjuicebar_taro_boba": {
+                    "Name": "wildflour.atelierjuicebar_taro_boba",
+                    "DisplayName": "{{i18n:atelierjuicebar_taro_boba.name}}",
+                    "Description": "{{i18n:atelierjuicebar_taro_boba.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_beverage_item",
+                    "wildflour_boba_item",
+                    "color_cream"],
+
+                    "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                    "SpriteIndex": 47
+            },
+                "wildflour.atelierjuicebar_thai_boba": {
+                    "Name": "wildflour.atelierjuicebar_thai_boba",
+                    "DisplayName": "{{i18n:atelierjuicebar_thai_boba.name}}",
+                    "Description": "{{i18n:atelierjuicebar_thai_boba.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_beverage_item",
+                    "wildflour_boba_item",
+                    "color_dark_brown"],
+
+                    "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                    "SpriteIndex": 48
+            },
+                "wildflour.atelierjuicebar_apple_juice": {
+                    "Name": "wildflour.atelierjuicebar_apple_juice",
+                    "DisplayName": "{{i18n:atelierjuicebar_apple_juice.name}}",
+                    "Description": "{{i18n:atelierjuicebar_apple_juice.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_beverage_item",
+                    "wildflour_juice_item",
+                    "color_dark_orange"],
+
+                    "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                    "SpriteIndex": 2
+            },
+                "wildflour.atelierjuicebar_berry_juice": {
+                    "Name": "wildflour.atelierjuicebar_berry_juice",
+                    "DisplayName": "{{i18n:atelierjuicebar_berry_juice.name}}",
+                    "Description": "{{i18n:atelierjuicebar_berry_juice.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_beverage_item",
+                    "wildflour_juice_item",
+                    "color_dark_red"],
+
+                    "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                    "SpriteIndex": 4
+            },
+                "wildflour.atelierjuicebar_carrot_juice": {
+                    "Name": "wildflour.atelierjuicebar_carrot_juice",
+                    "DisplayName": "{{i18n:atelierjuicebar_carrot_juice.name}}",
+                    "Description": "{{i18n:atelierjuicebar_carrot_juice.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_beverage_item",
+                    "wildflour_juice_item",
+                    "color_orange"],
+
+                    "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                    "SpriteIndex": 5
+            },
+                "wildflour.atelierjuicebar_grape_juice": {
+                    "Name": "wildflour.atelierjuicebar_grape_juice",
+                    "DisplayName": "{{i18n:atelierjuicebar_grape_juice.name}}",
+                    "Description": "{{i18n:atelierjuicebar_grape_juice.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_beverage_item",
+                    "wildflour_juice_item",
+                    "color_purple"],
+
+                    "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                    "SpriteIndex": 8
+            },
+                "wildflour.atelierjuicebar_mix_juice": {
+                    "Name": "wildflour.atelierjuicebar_mix_juice",
+                    "DisplayName": "{{i18n:atelierjuicebar_mix_juice.name}}",
+                    "Description": "{{i18n:atelierjuicebar_mix_juice.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_beverage_item",
+                    "wildflour_juice_item",
+                    "color_dark_red"],
+
+                    "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                    "SpriteIndex": 12
+            },
+                "wildflour.atelierjuicebar_orange_juice": {
+                    "Name": "wildflour.atelierjuicebar_orange_juice",
+                    "DisplayName": "{{i18n:atelierjuicebar_orange_juice.name}}",
+                    "Description": "{{i18n:atelierjuicebar_orange_juice.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_beverage_item",
+                    "wildflour_juice_item",
+                    "color_orange"],
+
+                    "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                    "SpriteIndex": 14
+            },
+                "wildflour.atelierjuicebar_pomegranate_juice": {
+                    "Name": "wildflour.atelierjuicebar_pomegranate_juice",
+                    "DisplayName": "{{i18n:atelierjuicebar_pomegranate_juice.name}}",
+                    "Description": "{{i18n:atelierjuicebar_pomegranate_juice.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_beverage_item",
+                    "wildflour_juice_item",
+                    "color_dark_purple"],
+
+                    "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                    "SpriteIndex": 17
+            },
+                "wildflour.atelierjuicebar_tropical_juice": {
+                    "Name": "wildflour.atelierjuicebar_tropical_juice",
+                    "DisplayName": "{{i18n:atelierjuicebar_tropical_juice.name}}",
+                    "Description": "{{i18n:atelierjuicebar_tropical_juice.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_beverage_item",
+                    "wildflour_juice_item",
+                    "color_orange"],
+
+                    "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                    "SpriteIndex": 18
+            },
+                "wildflour.atelierjuicebar_fruit_punch": {
+                    "Name": "wildflour.atelierjuicebar_fruit_punch",
+                    "DisplayName": "{{i18n:atelierjuicebar_fruit_punch.name}}",
+                    "Description": "{{i18n:atelierjuicebar_fruit_punch.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_beverage_item",
+                    "wildflour_juice_item",
+                    "color_dark_red"],
+
+                    "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                    "SpriteIndex": 7
+            },
+                "wildflour.atelierjuicebar_ancient_smoothie": {
+                    "Name": "wildflour.atelierjuicebar_ancient_smoothie",
+                    "DisplayName": "{{i18n:atelierjuicebar_ancient_smoothie.name}}",
+                    "Description": "{{i18n:atelierjuicebar_ancient_smoothie.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_beverage_item",
+                    "wildflour_smoothie_item",
+                    "color_blue"],
+
+                    "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                    "SpriteIndex": 64
+            },
+                "wildflour.atelierjuicebar_berrybanana_smoothie": {
+                    "Name": "wildflour.atelierjuicebar_berrybanana_smoothie",
+                    "DisplayName": "{{i18n:atelierjuicebar_berrybanana_smoothie.name}}",
+                    "Description": "{{i18n:atelierjuicebar_berrybanana_smoothie.description}}",
+                    "Type": "ArtisanGoods",      
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_beverage_item",
+                    "wildflour_smoothie_item",
+                    "color_pink"],
+
+                    "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                    "SpriteIndex": 67
+            },
+                "wildflour.atelierjuicebar_berrykale_smoothie": {
+                    "Name": "wildflour.atelierjuicebar_berrykale_smoothie",
+                    "DisplayName": "{{i18n:atelierjuicebar_berrykale_smoothie.name}}",
+                    "Description": "{{i18n:atelierjuicebar_berrykale_smoothie.description}}",
+                    "Type": "ArtisanGoods",        
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_beverage_item",
+                    "wildflour_smoothie_item",
+                    "color_dark_red"],
+
+                    "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                    "SpriteIndex": 65
+            },
+                "wildflour.atelierjuicebar_gemberry_smoothie": {
+                    "Name": "wildflour.atelierjuicebar_gemberry_smoothie",
+                    "DisplayName": "{{i18n:atelierjuicebar_gemberry_smoothie.name}}",
+                    "Description": "{{i18n:atelierjuicebar_gemberry_smoothie.description}}",
+                    "Type": "ArtisanGoods",      
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_beverage_item",
+                    "wildflour_smoothie_item",
+                    "color_dark_dark_pink"],
+
+                    "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                    "SpriteIndex": 68
+            },
+                "wildflour.atelierjuicebar_peachmango_smoothie": {
+                    "Name": "wildflour.atelierjuicebar_peachmango_smoothie",
+                    "DisplayName": "{{i18n:atelierjuicebar_peachmango_smoothie.name}}",
+                    "Description": "{{i18n:atelierjuicebar_peachmango_smoothie.description}}",
+                    "Type": "ArtisanGoods",       
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_beverage_item",
+                    "wildflour_smoothie_item",
+                    "color_salmon"],
+
+                    "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                    "SpriteIndex": 69
+            },
+                "wildflour.atelierjuicebar_sunshine_smoothie": {
+                    "Name": "wildflour.atelierjuicebar_sunshine_smoothie",
+                    "DisplayName": "{{i18n:atelierjuicebar_sunshine_smoothie.name}}",
+                    "Description": "{{i18n:atelierjuicebar_sunshine_smoothie.description}}",
+                    "Type": "ArtisanGoods",     
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_beverage_item",
+                    "wildflour_smoothie_item",
+                    "color_gold"],
+
+                    "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                    "SpriteIndex": 70
+            },
+                "wildflour.atelierjuicebar_tropical_smoothie": {
+                    "Name": "wildflour.atelierjuicebar_tropical_smoothie",
+                    "DisplayName": "{{i18n:atelierjuicebar_tropical_smoothie.name}}",
+                    "Description": "{{i18n:atelierjuicebar_tropical_smoothie.description}}",
+                    "Type": "ArtisanGoods",     
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_beverage_item",
+                    "wildflour_smoothie_item",
+                    "color_orange"],
+
+                    "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                    "SpriteIndex": 72
+            },
+                "wildflour.atelierjuicebar_FruitJuice": {
+                    "Name": "wildflour.atelierjuicebar_FruitJuice",
+                    "DisplayName": "{{i18n:atelierjuicebar_FruitJuice.name}}",
+                    "Description": "{{i18n:atelierjuicebar_FruitJuice.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": true,
+                    "ContextTags":
+                    ["wildflour_beverage_item",
+                    "color_blue"],
+
+                    "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                    "SpriteIndex": 18
+            },
+                "wildflour.atelierjuicebar_FruitSmoothie": {
+                    "Name": "wildflour.atelierjuicebar_FruitSmoothie",
+                    "DisplayName": "{{i18n:atelierjuicebar_FruitSmoothie.name}}",
+                    "Description": "{{i18n:atelierjuicebar_FruitSmoothie.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": true,
+                    "ContextTags":
+                    ["wildflour_beverage_item",
+                    "color_blue"],
+
+                    "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                    "SpriteIndex": 73
+            },
+                "wildflour.atelierjuicebar_FruitBoba": {
+                    "Name": "wildflour.atelierjuicebar_FruitBoba",
+                    "DisplayName": "{{i18n:atelierjuicebar_FlavoredBoba.name}}",
+                    "Description": "{{i18n:atelierjuicebar_FlavoredBoba.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": true,
+                    "ContextTags":
+                    ["wildflour_beverage_item",
+                    "color_blue"],
+
+                    "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                    "SpriteIndex": 52
+            },
+                "wildflour.atelierjuicebar_FlowerBoba": {
+                    "Name": "wildflour.atelierjuicebar_FlowerBoba",
+                    "DisplayName": "{{i18n:atelierjuicebar_FlavoredBoba.name}}",
+                    "Description": "{{i18n:atelierjuicebar_FlavoredBoba.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "Edibility": 20,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": true,
+                    "ContextTags":
+                    ["wildflour_beverage_item",
+                    "color_blue"],
+
+                    "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                    "SpriteIndex": 52
+            }
+            }
+            },
+
+        {
+            "LogName":"Atelier Beverages - Iced Tea and Kombucha Objects",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "When":{"HasMod |contains=wildflour.atelierbarista": true},
+            "Entries": {
+                "wildflour.atelierjuicebar_iced_tea": {
+                    "Name": "wildflour.atelierjuicebar_iced_tea",
+                    "DisplayName": "{{i18n:atelierjuicebar_iced_tea.name}}",
+                    "Description": "{{i18n:atelierjuicebar_iced_tea.description}}",
+                    "Type": "ArtisanGoods",    
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_beverage_item",
+                    "wildflour_iced_tea_item",
+                    "color_dark_brown"],
+
+                    "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                    "SpriteIndex": 97
+            },
+                "wildflour.atelierjuicebar_green_icedtea": {
+                    "Name": "wildflour.atelierjuicebar_green_icedtea",
+                    "DisplayName": "{{i18n:atelierjuicebar_green_icedtea.name}}",
+                    "Description": "{{i18n:atelierjuicebar_green_icedtea.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_beverage_item",
+                    "wildflour_iced_tea_item",
+                    "color_dark_green"],
+
+                    "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                    "SpriteIndex": 96
+            },
+                "wildflour.atelierjuicebar_pineapple_icedtea": {
+                    "Name": "wildflour.atelierjuicebar_pineapple_icedtea",
+                    "DisplayName": "{{i18n:atelierjuicebar_pineapple_icedtea.name}}",
+                    "Description": "{{i18n:atelierjuicebar_pineapple_icedtea.description}}",
+                    "Type": "ArtisanGoods",       
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_beverage_item",
+                    "wildflour_iced_tea_item",
+                    "color_orange"],
+
+                    "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                    "SpriteIndex": 98
+            },
+                "wildflour.atelierjuicebar_peach_icedtea": {
+                    "Name": "wildflour.atelierjuicebar_peach_icedtea",
+                    "DisplayName": "{{i18n:atelierjuicebar_peach_icedtea.name}}",
+                    "Description": "{{i18n:atelierjuicebar_peach_icedtea.description}}",
+                    "Type": "ArtisanGoods",  
+                    "Category": -26,
+                    "IsDrink": true,
+                    "Edibility": 14,
+                    "Price": 100,
+                    "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+                    "ContextTags":
+                    ["wildflour_beverage_item",
+                    "wildflour_iced_tea_item",
+                    "color_dark_pink"],
+
+                    "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                    "SpriteIndex": 99
+            },
+            "wildflour.atelierjuicebar_apple_kombucha": {
+                "Name": "wildflour.atelierjuicebar_apple_kombucha",
+                "DisplayName": "{{i18n:atelierjuicebar_apple_kombucha.name}}",
+                "Description": "{{i18n:atelierjuicebar_apple_kombucha.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "IsDrink": true,
+                "Edibility": 14,
+                "Price": 100,       
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                "ContextTags":
+                ["wildflour_tea_item",
+                "kombucha_item",
+                "color_red"],
+
+                "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                "SpriteIndex": 112
+        },
+            "wildflour.atelierjuicebar_matcha_kombucha": {
+                "Name": "wildflour.atelierjuicebar_matcha_kombucha",
+                "DisplayName": "{{i18n:atelierjuicebar_matcha_kombucha.name}}",
+                "Description": "{{i18n:atelierjuicebar_matcha_kombucha.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "IsDrink": true,
+                "Edibility": 14,
+                "Price": 100,       
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                "ContextTags":
+                ["wildflour_tea_item",
+                "kombucha_item",
+                "color_dark_green"],
+
+                "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                "SpriteIndex": 114
+        },
+            "wildflour.atelierjuicebar_breakfast_kombucha": {
+                "Name": "wildflour.atelierjuicebar_breakfast_kombucha",
+                "DisplayName": "{{i18n:atelierjuicebar_breakfast_kombucha.name}}",
+                "Description": "{{i18n:atelierjuicebar_breakfast_kombucha.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "IsDrink": true,
+                "Edibility": 14,
+                "Price": 100,       
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                "ContextTags":
+                ["wildflour_tea_item",
+                "kombucha_item",
+                "color_dark_brown"],
+
+                "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                "SpriteIndex": 117
+        },
+            "wildflour.atelierjuicebar_ginger_kombucha": {
+                "Name": "wildflour.atelierjuicebar_ginger_kombucha",
+                "DisplayName": "{{i18n:atelierjuicebar_ginger_kombucha.name}}",
+                "Description": "{{i18n:atelierjuicebar_ginger_kombucha.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "IsDrink": true,
+                "Edibility": 14,
+                "Price": 100,       
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                "ContextTags":
+                ["wildflour_tea_item",
+                "kombucha_item",
+                "color_gold"],
+
+                "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                "SpriteIndex": 119
+        },
+            "wildflour.atelierjuicebar_berry_kombucha": {
+                "Name": "wildflour.atelierjuicebar_berry_kombucha",
+                "DisplayName": "{{i18n:atelierjuicebar_berry_kombucha.name}}",
+                "Description": "{{i18n:atelierjuicebar_berry_kombucha.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "IsDrink": true,
+                "Edibility": 14,
+                "Price": 100,       
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                "ContextTags":
+                ["wildflour_tea_item",
+                "kombucha_item",
+                "color_dark_red"],
+
+                "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                "SpriteIndex": 123
+        },
+            "wildflour.atelierjuicebar_peach_kombucha": {
+                "Name": "wildflour.atelierjuicebar_peach_kombucha",
+                "DisplayName": "{{i18n:atelierjuicebar_peach_kombucha.name}}",
+                "Description": "{{i18n:atelierjuicebar_peach_kombucha.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "IsDrink": true,
+                "Edibility": 14,
+                "Price": 100,       
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                "ContextTags":
+                ["wildflour_tea_item",
+                "kombucha_item",
+                "color_salmon"],
+
+                "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                "SpriteIndex": 124
+        },
+            "wildflour.atelierjuicebar_pineapple_kombucha": {
+                "Name": "wildflour.atelierjuicebar_pineapple_kombucha",
+                "DisplayName": "{{i18n:atelierjuicebar_pineapple_kombucha.name}}",
+                "Description": "{{i18n:atelierjuicebar_pineapple_kombucha.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "IsDrink": true,
+                "Edibility": 14,
+                "Price": 100,       
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                "ContextTags":
+                ["wildflour_tea_item",
+                "kombucha_item",
+                "color_gold"],
+
+                "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                "SpriteIndex": 125
+        },
+            "wildflour.atelierjuicebar_pomegranate_kombucha": {
+                "Name": "wildflour.atelierjuicebar_pomegranate_kombucha",
+                "DisplayName": "{{i18n:atelierjuicebar_pomegranate_kombucha.name}}",
+                "Description": "{{i18n:atelierjuicebar_pomegranate_kombucha.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "IsDrink": true,
+                "Edibility": 14,
+                "Price": 100,       
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                "ContextTags":
+                ["wildflour_tea_item",
+                "kombucha_item",
+                "color_dark_purple"],
+
+                "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                "SpriteIndex": 126
+        },
+            "wildflour.atelierjuicebar_rose_kombucha": {
+                "Name": "wildflour.atelierjuicebar_rose_kombucha",
+                "DisplayName": "{{i18n:atelierjuicebar_rose_kombucha.name}}",
+                "Description": "{{i18n:atelierjuicebar_rose_kombucha.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "IsDrink": true,
+                "Edibility": 14,
+                "Price": 100,       
+                "ExcludeFromShippingCollection": "{{ShippingConfig}}",
+
+                "ContextTags":
+                ["wildflour_tea_item",
+                "kombucha_item",
+                "color_light_pink"],
+
+                "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                "SpriteIndex": 128
+        },
+            "wildflour.atelierjuicebar_flavored_kombucha": {
+                "Name": "wildflour.atelierjuicebar_flavored_kombucha",
+                "DisplayName": "{{i18n:atelierjuicebar_flavored_kombucha.name}}",
+                "Description": "{{i18n:atelierjuicebar_flavored_kombucha.description}}",
+                "Type": "ArtisanGoods",          
+                "Category": -26,
+                "IsDrink": true,
+                "Edibility": 14,
+                "Price": 100,       
+                "ExcludeFromShippingCollection": true,
+            
+                "ContextTags":
+                ["wildflour_tea_item",
+                "kombucha_item",
+                "color_red"],
+            
+                "Texture": "Mods/wildflour.atelierjuicebar/Objects",
+                "SpriteIndex": 130
+        }
+            }
+        }
+
+       
+
+      
+
+    ]
+}

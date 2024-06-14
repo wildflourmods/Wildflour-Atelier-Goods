@@ -1,0 +1,19 @@
+{
+    "Changes": [
+
+{
+    "Action": "EditData",
+    "Target": "Strings/Objects",
+    "Entries": {
+      "wildflour.atelierjuicebar_FruitJuice": "{{i18n: atelierjuicebar_FruitJuice}}",
+      "wildflour.atelierjuicebar_FlavoredTea": "{{i18n: atelierjuicebar_FlavoredTea}}",
+      "wildflour.atelierjuicebar_FruitLemonade": "{{i18n: atelierjuicebar_FruitLemonade}}",
+      "wildflour.atelierjuicebar_FlowerLemonade": "{{i18n: atelierjuicebar_FlowerLemonade}}",
+      "wildflour.atelierjuicebar_FruitBoba": "{{i18n: atelierjuicebar_FlavoredBoba}}",
+      "wildflour.atelierjuicebar_FlowerBoba": "{{i18n: atelierjuicebar_FlavoredBoba}}",
+      "wildflour.atelierjuicebar_FruitSmoothie": "{{i18n: atelierjuicebar_FruitSmoothie}}",
+      "wildflour.atelierjuicebar_flavored_kombucha": "{{i18n: atelierbarista_flavored_kombucha}}"
+    }
+}
+    ]
+}

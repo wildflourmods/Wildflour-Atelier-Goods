@@ -1,0 +1,416 @@
+{
+
+//////////////
+// MACHINES //
+//////////////
+
+"atelierjuicebar_JuiceStation.name":"주스 기계",
+"atelierjuicebar_JuiceStation.description":"과일과 벌꿀을 넣어 주스로 만듭니다.",
+
+"atelierjuicebar_BobaStation.name":"버블티 기계",
+"atelierjuicebar_BobaStation.description":"타피오카 펄과 특정 재료를 버블티로 만듭니다.",
+
+"atelierjuicebar_LemonadeStand.name":"레모네이드 가판대",
+"atelierjuicebar_LemonadeStand.description":"과일과 레몬 시럽을 레모네이드로 만듭니다.",
+
+///////////////////////////
+// MACHINE NOTIFICATIONS //
+///////////////////////////
+
+"atelierjuicebar_JuiceStation_InvalidItem.message": "실행 불가",
+"atelierjuicebar_JuiceStation_InvalidCount.message": "벌꿀 필요",
+
+"atelierjuicebar_BobaStation_InvalidItem.message": "실행 불가",
+"atelierjuicebar_BobaStation_InvalidCount.message": "타피오카 펄 필요",
+
+"atelierjuicebar_LemonadeStand_InvalidItem.message": "실행 불가",
+"atelierjuicebar_LemonadeStand_InvalidCount.message": "레몬 시럽 필요",
+
+/////////////////////////////
+// NEW MOD SUPPORTED ITEMS //
+/////////////////////////////
+
+"atelierjuicebar_gardenia_lemonade.name":"치자 레모네이드",
+"atelierjuicebar_gardenia_lemonade.description":"신선한 레모네이드에 치자꽃으로 맛을 더했습니다.",
+
+"atelierjuicebar_hibiscus_lemonade.name":"히비스커스 레모네이드",
+"atelierjuicebar_hibiscus_lemonade.description":"신선한 레모네이드에 히비스커스 꽃으로 맛을 더했습니다.",
+
+"atelierjuicebar_gardenia_kombucha.name":"치자 콤부차",
+"atelierjuicebar_gardenia_kombucha.description":"치자차를 발효시켜 만든 음료.",
+
+"atelierjuicebar_hibiscus_kombucha.name":"히비스커스 콤부차",
+"atelierjuicebar_hibiscus_kombucha.description":"히비스커스 차를 발효시켜 만든 음료.",
+
+"atelierjuicebar_borage_lemonade.name":"보리지 레모네이드",
+"atelierjuicebar_borage_lemonade.description":"신선한 레모네이드에 보리지꽃으로 맛을 더했습니다.",
+
+"atelierjuicebar_calendula_lemonade.name":"금잔화 레모네이드",
+"atelierjuicebar_calendula_lemonade.description":"신선한 레모네이드에 금잔화로 맛을 더했습니다.",
+
+"atelierjuicebar_borage_kombucha.name":"보리지 콤부차",
+"atelierjuicebar_borage_kombucha.description":"보리지차를 발효시켜 만든 음료.",
+
+"atelierjuicebar_calendula_kombucha.name":"금잔화 콤부차",
+"atelierjuicebar_calendula_kombucha.description":"금잔화차를 발효시켜 만든 음료.",
+
+"atelierjuicebar_hollyhock_lemonade.name":"접시꽃 레모네이드",
+"atelierjuicebar_hollyhock_lemonade.description":"신선한 레모네이드에 접시꽃으로 맛을 더했습니다.",
+
+"atelierjuicebar_springpansy_lemonade.name":"봄팬지 레모네이드",
+"atelierjuicebar_springpansy_lemonade.description":"신선한 레모네이드에 팬지꽃으로 맛을 더했습니다.",
+
+"atelierjuicebar_hollyhock_kombucha.name":"접시꽃 콤부차",
+"atelierjuicebar_hollyhock_kombucha.description":"접시꽃차를 발효시켜 만든 음료.",
+
+"atelierjuicebar_springpansy_kombucha.name":"봄팬지 콤부차",
+"atelierjuicebar_springpansy_kombucha.description":"봄팬지차를 발효시켜 만든 음료.",
+
+"atelierjuicebar_orangeblossom_lemonade.name":"오렌지꽃 레모네이드",
+"atelierjuicebar_orangeblossom_lemonade.description":"신선한 레모네이드에 오렌지꽃으로 맛을 더했습니다.",
+
+"atelierjuicebar_orangeblossom_kombucha.name":"오렌지꽃 콤부차",
+"atelierjuicebar_orangeblossom_kombucha.description":"오렌지꽃차를 발효시켜 만든 음료.",
+
+///////////////////////
+// NEW GENERIC ITEMS //
+///////////////////////
+
+"atelierjuicebar_FruitJuice.name":"주스",
+"atelierjuicebar_FruitJuice.description":"막 만들어 신선합니다!",
+
+"atelierjuicebar_FruitLemonade.name":"과일 레모네이드",
+"atelierjuicebar_FruitLemonade.description":"막 만들어 신선합니다!",
+
+"atelierjuicebar_FlowerLemonade.name":"꽃 레모네이드",
+"atelierjuicebar_FlowerLemonade.description":"막 만들어 신선합니다!",
+
+"atelierjuicebar_FruitSmoothie.name":"스무디",
+"atelierjuicebar_FruitSmoothie.description":"완벽한 아침식사용 음료입니다!",
+
+"atelierjuicebar_FruitBoba.name":"버블티",
+"atelierjuicebar_FruitBoba.description":"신선한 과일을 더한 버블티.",
+
+"atelierjuicebar_FlavoredTea.name":"아이스티",
+"atelierjuicebar_FlavoredTea.description":"과일로 만든 신선한 아이스티.",
+
+"atelierjuicebar_flavored_kombucha.name":"콤부차",
+"atelierjuicebar_flavored_kombucha.description":"차를 발효시켜 만든 음료입니다!",
+
+/////////////
+// STRINGS //
+/////////////
+
+"atelierjuicebar_FruitJuice":"{0} 주스",
+"atelierjuicebar_FruitLemonade":"{0} 레모네이드",
+"atelierjuicebar_FlowerLemonade":"{0} 레모네이드",
+"atelierjuicebar_FruitSmoothie":"{0} 스무디",
+"atelierjuicebar_FruitBoba":"{0} 버블티",
+"atelierjuicebar_FlavoredTea":"{0} 아이스티",
+"atelierjuicebar_flavored_kombucha":"{0} 콤부차",
+
+
+//////////
+// BOBA //
+//////////
+
+"atelierjuicebar_boba_pearls.name": "타피오카 펄",
+"atelierjuicebar_boba_pearls.description": "버블티를 만들 때 사용되는 전분으로 만든 쫄깃한 구슬.",
+
+"atelierjuicebar_banana_boba.name": "바나나 버블티",
+"atelierjuicebar_banana_boba.description": "바나나로 맛을 더한 아이스티에 우유와 쫄깃한 타피오카 펄로 마무리한 맛있고 귀여운 음료!",
+
+"atelierjuicebar_blacktea_boba.name": "버블티",
+"atelierjuicebar_blacktea_boba.description": "아이스티에 우유와 쫄깃한 타피오카 펄로 마무리한 맛있고 귀여운 음료!",
+
+"atelierjuicebar_blueberry_boba.name": "블루베리 버블티",
+"atelierjuicebar_blueberry_boba.description": "블루베리로 맛을 더한 아이스티에 우유와 쫄깃한 타피오카 펄로 마무리한 맛있고 귀여운 음료!",
+
+"atelierjuicebar_brownsugar_boba.name": "흑당버블티",
+"atelierjuicebar_brownsugar_boba.description": "황설탕으로 맛을 더한 아이스티에 우유와 쫄깃한 타피오카 펄로 마무리한 맛있고 귀여운 음료!",
+
+"atelierjuicebar_caramel_boba.name": "카라멜 버블티",
+"atelierjuicebar_caramel_boba.description": "카라멜로 맛을 더한 아이스티에 우유와 쫄깃한 타피오카 펄로 마무리한 맛있고 귀여운 음료!",
+
+"atelierjuicebar_coconut_boba.name": "코코넛 버블티",
+"atelierjuicebar_coconut_boba.description": "코코넛으로 맛을 더한 아이스티에 우유와 쫄깃한 타피오카 펄로 마무리한 맛있고 귀여운 음료!",
+
+"atelierjuicebar_coffee_boba.name": "버블라떼",
+"atelierjuicebar_coffee_boba.description": "커피로 맛을 더한 아이스티에 우유와 쫄깃한 타피오카 펄로 마무리한 맛있고 귀여운 음료!",
+
+"atelierjuicebar_jasmine_boba.name": "자스민 버블티",
+"atelierjuicebar_jasmine_boba.description": "자스민으로 맛을 더한 아이스티에 우유와 쫄깃한 타피오카 펄로 마무리한 맛있고 귀여운 음료!",
+
+"atelierjuicebar_mango_boba.name": "망고 버블티",
+"atelierjuicebar_mango_boba.description": "망고로 맛을 더한 아이스티에 우유와 쫄깃한 타피오카 펄로 마무리한 맛있고 귀여운 음료!",
+
+"atelierjuicebar_matcha_boba.name": "말차 버블티",
+"atelierjuicebar_matcha_boba.description": "냉녹차에 우유와 쫄깃한 타피오카 펄로 마무리한 맛있고 귀여운 음료!",
+
+"atelierjuicebar_melon_boba.name": "멜론 버블티",
+"atelierjuicebar_melon_boba.description": "멜론으로 맛을 더한 아이스티에 우유와 쫄깃한 타피오카 펄로 마무리한 맛있고 귀여운 음료!",
+
+"atelierjuicebar_oolong_boba.name": "우롱 버블티",
+"atelierjuicebar_oolong_boba.description": "차가운 우롱차에 우유와 쫄깃한 타피오카 펄로 마무리한 맛있고 귀여운 음료!",
+
+"atelierjuicebar_peach_boba.name": "복숭아 버블티",
+"atelierjuicebar_peach_boba.description": "복숭아로 맛을 더한 아이스티에 우유와 쫄깃한 타피오카 펄로 마무리한 맛있고 귀여운 음료!",
+
+"atelierjuicebar_rose_boba.name": "장미 버블티",
+"atelierjuicebar_rose_boba.description": "장미로 맛을 더한 아이스티에 우유와 쫄깃한 타피오카 펄로 마무리한 맛있고 귀여운 음료!",
+
+"atelierjuicebar_strawberry_boba.name": "딸기 버블티",
+"atelierjuicebar_strawberry_boba.description": "딸기로 맛을 더한 아이스티에 우유와 쫄깃한 타피오카 펄로 마무리한 맛있고 귀여운 음료!",
+
+"atelierjuicebar_taro_boba.name": "타로 버블티",
+"atelierjuicebar_taro_boba.description": "토란으로 맛을 더한 아이스티에 우유와 쫄깃한 타피오카 펄로 마무리한 맛있고 귀여운 음료!",
+
+"atelierjuicebar_thai_boba.name": "차이 버블티",
+"atelierjuicebar_thai_boba.description": "아이스티에 코코넛 밀크와 쫄깃한 타피오카 펄로 마무리한 맛있고 귀여운 음료!",
+
+"atelierjuicebar_vanilla_boba.name": "바닐라 버블티",
+"atelierjuicebar_vanilla_boba.description": "바닐라로 맛을 더한 아이스티에 우유와 쫄깃한 타피오카 펄로 마무리한 맛있고 귀여운 음료!",
+
+//////////////////
+// FRUIT JUICES //
+//////////////////
+
+"atelierjuicebar_apple_juice.name": "놀라운 사과주스",
+"atelierjuicebar_apple_juice.description": "신선한 사과로 만든 주스!",
+
+"atelierjuicebar_berry_juice.name": "세련된 베리주스",
+"atelierjuicebar_berry_juice.description": "신선한 베리로 만든 주스!",
+
+"atelierjuicebar_carrot_juice.name": "토끼의 당근주스",
+"atelierjuicebar_carrot_juice.description": "신선한 당근으로 만든 주스!",
+
+"atelierjuicebar_grape_juice.name": "포도주스",
+"atelierjuicebar_grape_juice.description": "신선한 포도로 만든 주스!",
+
+"atelierjuicebar_mix_juice.name": "혼합과일 주스",
+"atelierjuicebar_mix_juice.description": "신선한 과일로 만든 주스!",
+
+"atelierjuicebar_orange_juice.name": "얼리버드 오렌지주스",
+"atelierjuicebar_orange_juice.description": "신선한 오렌지로 만든 주스!",
+
+"atelierjuicebar_pomegranate_juice.name": "석류주스",
+"atelierjuicebar_pomegranate_juice.description": "신선한 석류로 만든 주스!",
+
+"atelierjuicebar_tropical_juice.name": "트로피컬 주스",
+"atelierjuicebar_tropical_juice.description": "신선한 열대과일로 만든 주스!",
+
+"atelierjuicebar_fruit_punch.name": "후르츠 펀치",
+"atelierjuicebar_fruit_punch.description": "신선한 과일로 만든 음료.",
+
+"atelierjuicebar_amber_juice.name": "호박달 넥타르",
+"atelierjuicebar_amber_juice.description": "마법의 힘이 담긴 달방울 포도로 만든 주스.",
+
+"atelierjuicebar_jade_juice.name": "옥색달 넥타르",
+"atelierjuicebar_jade_juice.description": "마법의 힘이 담긴 달방울 포도로 만든 주스.",
+
+"atelierjuicebar_lapis_juice.name": "푸른달 넥타르",
+"atelierjuicebar_lapis_juice.description": "마법의 힘이 담긴 달방울 포도로 만든 주스.",
+
+"atelierjuicebar_pearl_juice.name": "진주달 넥타르",
+"atelierjuicebar_pearl_juice.description": "마법의 힘이 담긴 달방울 포도로 만든 주스.",
+
+"atelierjuicebar_apple_elixir.name": "매혹의 엘릭서",
+"atelierjuicebar_apple_elixir.description": "신비한 사과로 만든 주스.",
+
+"atelierjuicebar_apricot_elixir.name": "향기로운 엘릭서",
+"atelierjuicebar_apricot_elixir.description": "신비한 살구로 만든 주스.",
+
+"atelierjuicebar_cherry_elixir.name": "명랑한 엘릭서",
+"atelierjuicebar_cherry_elixir.description": "신비한 체리로 만든 주스.",
+
+"atelierjuicebar_mango_elixir.name": "고양감의 엘릭서",
+"atelierjuicebar_mango_elixir.description": "신비한 망고로 만든 주스.",
+
+"atelierjuicebar_orange_elixir.name": "황홀감의 엘릭서",
+"atelierjuicebar_orange_elixir.description": "신비한 오렌지로 만든 주스.",
+
+"atelierjuicebar_peach_elixir.name": "명랑함의 엘릭서",
+"atelierjuicebar_peach_elixir.description": "신비한 복숭아로 만든 주스.",
+
+"atelierjuicebar_pomegranate_elixir.name": "정열의 엘릭서",
+"atelierjuicebar_pomegranate_elixir.description": "신비한 석류로 만든 주스.",
+
+///////////////
+// LEMONADES //
+///////////////
+
+"atelierjuicebar_blackberry_lemonade.name": "블랙베리 레모네이드",
+"atelierjuicebar_blackberry_lemonade.description": "블랙베리를 더해 만든 신선한 레모네이드.",
+
+"atelierjuicebar_chamomile_lemonade.name": "캐모마일 레모네이드",
+"atelierjuicebar_chamomile_lemonade.description": "캐모마일 꽃잎을 더해 만든 신선한 레모네이드.",
+
+"atelierjuicebar_cherry_lemonade.name": "체리에이드",
+"atelierjuicebar_cherry_lemonade.description": "신선한 체리를 레모네이드에 섞어 만들었습니다. 재밌네요!",
+
+"atelierjuicebar_classic_lemonade.name": "정통 레모네이드",
+"atelierjuicebar_classic_lemonade.description": "갓 짜낸 레몬으로 만든 상큼한 음료입니다.",
+
+"atelierjuicebar_green_lemonade.name": "녹차 레모네이드",
+"atelierjuicebar_green_lemonade.description": "녹차를 더해 만든 신선한 레모네이드.",
+
+"atelierjuicebar_jasmine_lemonade.name": "자스민 레모네이드",
+"atelierjuicebar_jasmine_lemonade.description": "자스민 꽃잎을 더해 만든 신선한 레모네이드.",
+
+"atelierjuicebar_lavender_lemonade.name": "라벤더에이드",
+"atelierjuicebar_lavender_lemonade.description": "라벤더 꽃잎을 더해 만든 신선한 레모네이드.",
+
+"atelierjuicebar_lime_lemonade.name": "라임에이드",
+"atelierjuicebar_lime_lemonade.description": "라임을 더해 만든 신선한 레모네이드.",
+
+"atelierjuicebar_melon_lemonade.name": "멜로네이드",
+"atelierjuicebar_melon_lemonade.description": "여름 멜론을 더해 만든 신선한 레모네이드.",
+
+"atelierjuicebar_mint_lemonade.name": "민트 레모네이드",
+"atelierjuicebar_mint_lemonade.description": "박하의 잎을 더해 만든 신선한 레모네이드.",
+
+"atelierjuicebar_pomegranate_lemonade.name": "석류에이드",
+"atelierjuicebar_pomegranate_lemonade.description": "석류즙을 더해 만든 신선한 레모네이드.",
+
+"atelierjuicebar_pink_lemonade.name": "핑크 레모네이드",
+"atelierjuicebar_pink_lemonade.description": "딸기 과즙을 더해 만든 신선한 레모네이드.",
+
+"atelierjuicebar_rose_lemonade.name": "장미에이드",
+"atelierjuicebar_rose_lemonade.description": "장미 꽃잎을 더해 만든 신선한 레모네이드.",
+
+"atelierjuicebar_raspberry_lemonade.name": "라즈베리 에이드",
+"atelierjuicebar_raspberry_lemonade.description": "라즈베리 과즙을 더해 만든 신선한 레모네이드.",
+
+//////////////
+// ICED TEA //
+//////////////
+
+"atelierjuicebar_iced_tea.name": "달콤한 아이스티",
+"atelierjuicebar_iced_tea.description": "시원한 아이스티 한 잔.",
+
+"atelierjuicebar_green_icedtea.name": "냉녹차",
+"atelierjuicebar_green_icedtea.description": "시원한 냉녹차 한 잔.",
+
+"atelierjuicebar_pineapple_icedtea.name": "파인애플 아이스티",
+"atelierjuicebar_pineapple_icedtea.description": "파인애플로 맛을 더한 시원한 아이스티.",
+
+"atelierjuicebar_peach_icedtea.name": "복숭아 아이스티",
+"atelierjuicebar_peach_icedtea.description": "복숭아로 맛을 더한 시원한 아이스티.",
+
+"atelierjuicebar_thai_icedtea.name": "아이스 차이",
+"atelierjuicebar_thai_icedtea.description": "코코넛 밀크를 더한 달콤한 아이스티.",
+
+///////////////
+// SMOOTHIES //
+///////////////
+
+"atelierjuicebar_ancient_smoothie.name": "고대의 지혜 스무디",
+"atelierjuicebar_ancient_smoothie.description": "산뜻한 스무디, 완벽한 아침을 시작할 수 있어요!",
+
+"atelierjuicebar_berry_smoothie.name": "베리 블리츠",
+"atelierjuicebar_berry_smoothie.description": "산뜻한 스무디, 완벽한 아침을 시작할 수 있어요!",
+
+"atelierjuicebar_berrybanana_smoothie.name": "딸기바나나 스무디",
+"atelierjuicebar_berrybanana_smoothie.description": "산뜻한 스무디, 완벽한 아침을 시작할 수 있어요!",
+
+"atelierjuicebar_berrykale_smoothie.name": "베리케일 스무디",
+"atelierjuicebar_berrykale_smoothie.description": "산뜻한 스무디, 완벽한 아침을 시작할 수 있어요!",
+
+"atelierjuicebar_chocoberry_smoothie.name": "초코베리 스무디",
+"atelierjuicebar_chocoberry_smoothie.description": "산뜻한 스무디, 완벽한 아침을 시작할 수 있어요!",
+
+"atelierjuicebar_gemberry_smoothie.name": "보석베리 블라스트",
+"atelierjuicebar_gemberry_smoothie.description": "산뜻한 스무디, 완벽한 아침을 시작할 수 있어요!",
+
+"atelierjuicebar_peachmango_smoothie.name": "복숭아망고 스무디",
+"atelierjuicebar_peachmango_smoothie.description": "산뜻한 스무디, 완벽한 아침을 시작할 수 있어요!",
+
+"atelierjuicebar_sunshine_smoothie.name": "여름햇살 스무디",
+"atelierjuicebar_sunshine_smoothie.description": "산뜻한 스무디, 완벽한 아침을 시작할 수 있어요!",
+
+"atelierjuicebar_tropical_smoothie.name": "트로피컬 스무디",
+"atelierjuicebar_tropical_smoothie.description": "산뜻한 스무디, 완벽한 아침을 시작할 수 있어요!",
+
+//KOMBUCHA
+
+"atelierjuicebar_apple_kombucha.name": "사과 콤부차",
+"atelierjuicebar_apple_kombucha.description": "차에 꿀을 더해 발효시켜 기분 좋게 마실 수 있는 탄산음료.",
+
+"atelierjuicebar_vanilla_kombucha.name": "바닐라 콤부차",
+"atelierjuicebar_vanilla_kombucha.description": "차에 꿀을 더해 발효시켜 기분 좋게 마실 수 있는 탄산음료.",
+
+"atelierjuicebar_matcha_kombucha.name": "의식용 콤부차",
+"atelierjuicebar_matcha_kombucha.description": "차에 꿀을 더해 발효시켜 기분 좋게 마실 수 있는 탄산음료.",
+
+"atelierjuicebar_cinnamon_kombucha.name": "시나몬 콤부차",
+"atelierjuicebar_cinnamon_kombucha.description": "차에 꿀을 더해 발효시켜 기분 좋게 마실 수 있는 탄산음료.",
+
+"atelierjuicebar_chamomile_kombucha.name": "캐모마일 콤부차",
+"atelierjuicebar_chamomile_kombucha.description": "차에 꿀을 더해 발효시켜 기분 좋게 마실 수 있는 탄산음료.",
+
+"atelierjuicebar_breakfast_kombucha.name": "브렉퍼스트 콤부차",
+"atelierjuicebar_breakfast_kombucha.description": "차에 꿀을 더해 발효시켜 기분 좋게 마실 수 있는 탄산음료.",
+
+"atelierjuicebar_jasmine_kombucha.name": "자스민 콤부차",
+"atelierjuicebar_jasmine_kombucha.description": "차에 꿀을 더해 발효시켜 기분 좋게 마실 수 있는 탄산음료.",
+
+"atelierjuicebar_ginger_kombucha.name": "복숭아생강 콤부차",
+"atelierjuicebar_ginger_kombucha.description": "차에 꿀을 더해 발효시켜 기분 좋게 마실 수 있는 탄산음료.",
+
+"atelierjuicebar_grey_kombucha.name": "레이디 그레이 콤부차",
+"atelierjuicebar_grey_kombucha.description": "차에 꿀을 더해 발효시켜 기분 좋게 마실 수 있는 탄산음료.",
+
+"atelierjuicebar_lemon_kombucha.name": "레몬생강 콤부차",
+"atelierjuicebar_lemon_kombucha.description": "차에 꿀을 더해 발효시켜 기분 좋게 마실 수 있는 탄산음료.",
+
+"atelierjuicebar_mint_kombucha.name": "박하 콤부차",
+"atelierjuicebar_mint_kombucha.description": "차에 꿀을 더해 발효시켜 기분 좋게 마실 수 있는 탄산음료.",
+
+"atelierjuicebar_berry_kombucha.name": "믹스베리 콤부차",
+"atelierjuicebar_berry_kombucha.description": "차에 꿀을 더해 발효시켜 기분 좋게 마실 수 있는 탄산음료.",
+
+"atelierjuicebar_peach_kombucha.name": "복숭아망고 콤부차",
+"atelierjuicebar_peach_kombucha.description": "차에 꿀을 더해 발효시켜 기분 좋게 마실 수 있는 탄산음료.",
+
+"atelierjuicebar_pineapple_kombucha.name": "파인애플 콤부차",
+"atelierjuicebar_pineapple_kombucha.description": "차에 꿀을 더해 발효시켜 기분 좋게 마실 수 있는 탄산음료.",
+
+"atelierjuicebar_pomegranate_kombucha.name": "석류 콤부차",
+"atelierjuicebar_pomegranate_kombucha.description": "차에 꿀을 더해 발효시켜 기분 좋게 마실 수 있는 탄산음료.",
+
+"atelierjuicebar_raspberry_kombucha.name": "라즈베리 콤부차",
+"atelierjuicebar_raspberry_kombucha.description": "차에 꿀을 더해 발효시켜 기분 좋게 마실 수 있는 탄산음료.",
+
+"atelierjuicebar_rose_kombucha.name": "장미 콤부차",
+"atelierjuicebar_rose_kombucha.description": "차에 꿀을 더해 발효시켜 기분 좋게 마실 수 있는 탄산음료.",
+
+"atelierjuicebar_sakura_kombucha.name": "벚꽃 콤부차",
+"atelierjuicebar_sakura_kombucha.description": "차에 꿀을 더해 발효시켜 기분 좋게 마실 수 있는 탄산음료.",
+
+"atelierjuicebar_strawberry_kombucha.name": "산딸기 콤부차",
+"atelierjuicebar_strawberry_kombucha.description": "차에 꿀을 더해 발효시켜 기분 좋게 마실 수 있는 탄산음료.",
+
+
+//////////
+// MAIL //
+//////////
+
+"atelierjuicebar_JuicerRecipe.name":"갓 짜낸 주스를!",
+"atelierjuicebar_JuicerRecipe.text":"@, ^^ 네 농장이 빠르게 발전하는 만큼, 조만간 여유분의 과일이 생길거라고 생각해! 로빈은 옛날에 나랑 주스 기계의 청사진을 공유한 적이 있어. 내 생각엔 나보단 네게 더 도움이 될 것 같아서 보내.^^ - 조디",
+
+"atelierjuicebar_BobaStationRecipe.name":"버블티가 더 좋아!",
+"atelierjuicebar_BobaStationRecipe.text":"@, ^^ 나는 과학실험 이후에 나만의 버블티를 만들어 마시는 걸 좋아해. 물론 대부분의 실험 도중에 뭔갈 먹는 건 추천할만한 일이 아니지만, 네가 나눠주는 거라면 언제든 기쁘게 받을 수 있을거야! ^^ - 마루",
+
+"atelierjuicebar_LemonadeStandRecipe.name":"레모네이드 좋아해요?",
+"atelierjuicebar_LemonadeStandRecipe.text":"@, ^^ 어릴 적에 레모네이드를 팔아본 적 있어요? 마니 이모는 너구리가 내 레모네이드를 다 훔쳐갈 거라면서 숲에 혼자 나가지 말랬어요. 만약 괜찮다면 레모네이드를 만들 때 같이 해도 괜찮을까요?^^ - 재스",
+
+"atelierjuicebar_evelyn.name":"시원하고 상쾌한 음료",
+"atelierjuicebar_evelyn.text":"@, ^^ 내가 차를 좋아한다는 사실을 잘 알고 있으니, 아이스티를 즐기는 것도 그리 놀랄만한 일은 아니겠구나. 이 작은 과일들은 뜨겁거나 차가운 것에 관계없이 차와 잘 어울린단다. 부디 네게 도움이 되길 바란단다, 아가.^^ - 에블린",
+
+"atelierjuicebar_emily.name":"버블티 여신",
+"atelierjuicebar_emily.text":"@, ^^ 마루가 버블티 기계에 대한 청사진을 나눠줬다고 들었어! 정말 멋진 소식이야! 겨울철에 이 근처에서 파낸 겨울 뿌리로 타피오카 펄을 만들 수 있다는 걸 알고 있어? 만약 만들게 되면 내게도 조금 나눠줄 수 있을까? 나도 너와 몇 가지 공유하고 싶은 게 있어.^^ - 에밀리",
+
+"atelierjuicebar_lewis.name":"당신의 삶에 라임을",
+"atelierjuicebar_lewis.text":"@, ^^ 나는 신선한 레모네이드를 좋아하네만, 라임에이드도 제법 괜찮다는 걸 알고 있었는가? 나는 몇 년 전부터 집에서 작은 라임 나무 하나를 키우고 있다네. 자네도 사용해보면 어떻겠나?^^ - 루이스",
+
+}

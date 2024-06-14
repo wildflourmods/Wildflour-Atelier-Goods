@@ -1,0 +1,404 @@
+{
+
+//////////////
+// MACHINES //
+//////////////
+
+"atelierjuicebar_JuiceStation.name": "Meyve Suyu Makinesi",
+"atelierjuicebar_JuiceStation.description": "Bal ve meyveyi meyve suyuna ya da çay ve balı buzlu çaya çevirir.",
+
+"atelierjuicebar_BobaStation.name": "Boba Makinesi",
+"atelierjuicebar_BobaStation.description": "Boba incilerini ve malzemeleri İncili Çaya çevirir.",
+
+"atelierjuicebar_LemonadeStand.name": "Limonata Standı",
+"atelierjuicebar_LemonadeStand.description": "Meyveleri ve limon şurubunu aromalı limonataya dönüştürür.",
+
+///////////////////////////
+// MACHINE NOTIFICATIONS //
+///////////////////////////
+
+"atelierjuicebar_JuiceStation_InvalidItem.message": "Bunu işleyemez.",
+"atelierjuicebar_JuiceStation_InvalidCount.message": "Bal Gerektirir",
+
+"atelierjuicebar_BobaStation_InvalidItem.message": "Bunu işleyemez.",
+"atelierjuicebar_BobaStation_InvalidCount.message": "Boba İncisi Gerektirir",
+
+"atelierjuicebar_LemonadeStand_InvalidItem.message": "Bunu işleyemez.",
+"atelierjuicebar_LemonadeStand_InvalidCount.message": "Limon Şurubu Gerektirir",
+
+/////////////////////////////
+// NEW MOD SUPPORTED ITEMS //
+/////////////////////////////
+
+"atelierjuicebar_gardenia_lemonade.name": "Gardenya Limonata",
+"atelierjuicebar_gardenia_lemonade.description": "Gardenya çiçekleriyle tatlandırılmış taze sıkılmış limonata.",
+
+"atelierjuicebar_hibiscus_lemonade.name": "Hibiskus Limonata",
+"atelierjuicebar_hibiscus_lemonade.description": "Hibiskus çiçekleriyle tatlandırılmış taze sıkılmış limonata.",
+
+"atelierjuicebar_gardenia_kombucha.name": "Gardenya Kombucha",
+"atelierjuicebar_gardenia_kombucha.description": "Gardenya çayıyla yapılmış fermente içecek.",
+
+"atelierjuicebar_hibiscus_kombucha.name": "Hibiskus Kombucha",
+"atelierjuicebar_hibiscus_kombucha.description": "Hibiskus çayıyla yapılmış fermente içecek.",
+
+"atelierjuicebar_borage_lemonade.name": "Hodan Limonata",
+"atelierjuicebar_borage_lemonade.description": "Hodan çiçekleriyle tatlandırılmış taze sıkılmış limonata.",
+
+"atelierjuicebar_calendula_lemonade.name": "Aynısefa Limonata",
+"atelierjuicebar_calendula_lemonade.description": "Aynısefa çiçekleriyle tatlandırılmış taze sıkılmış limonata.",
+
+"atelierjuicebar_borage_kombucha.name": "Hodan Kombucha",
+"atelierjuicebar_borage_kombucha.description": "Hodan çayıyla yapılmış fermente içecek.",
+
+"atelierjuicebar_calendula_kombucha.name": "Aynısefa Kombucha",
+"atelierjuicebar_calendula_kombucha.description": "Aynısefa çayıyla yapılmış fermente içecek.",
+
+"atelierjuicebar_hollyhock_lemonade.name": "Gülhatmi Limonata",
+"atelierjuicebar_hollyhock_lemonade.description": "Gülhatmi çiçekleriyle tatlandırılmış taze sıkılmış limonata.",
+
+"atelierjuicebar_springpansy_lemonade.name": "Hercai Menekşe Limonata",
+"atelierjuicebar_springpansy_lemonade.description": "Hercai menekşe çiçekleriyle tatlandırılmış taze sıkılmış limonata.",
+
+"atelierjuicebar_hollyhock_kombucha.name": "Gülhatmi Kombucha",
+"atelierjuicebar_hollyhock_kombucha.description": "Gülhatmi çayıyla yapılmış fermente içecek.",
+
+"atelierjuicebar_springpansy_kombucha.name": "Hercai Menekşe Kombucha",
+"atelierjuicebar_springpansy_kombucha.description": "Hercai menekşe çayıyla yapılmış fermente içecek.",
+
+"atelierjuicebar_orangeblossom_lemonade.name": "Portakal Çiçeği Limonata",
+"atelierjuicebar_orangeblossom_lemonade.description": "Portakal çiçekleriyle tatlandırılmış taze sıkılmış limonata.",
+
+"atelierjuicebar_orangeblossom_kombucha.name": "Portakal Çiçeği Kombucha",
+"atelierjuicebar_orangeblossom_kombucha.description": "Portakal çiçeği menekşe çayıyla yapılmış fermente içecek.",
+    
+///////////////////////
+// NEW GENERIC ITEMS //
+///////////////////////
+
+"atelierjuicebar_FruitJuice.name": "Meyve Suyu",
+"atelierjuicebar_FruitJuice.description": "Taze Sıkılmış!",
+
+"atelierjuicebar_FruitLemonade.name": "Limonata",
+"atelierjuicebar_FruitLemonade.description": "Taze Sıkılmış!",
+
+"atelierjuicebar_FlowerLemonade.name": "Limonata",
+"atelierjuicebar_FlowerLemonade.description": "Taze Sıkılmış!",
+
+"atelierjuicebar_FruitSmoothie.name": "Smoothie",
+"atelierjuicebar_FruitSmoothie.description": "Mükemmel kahvaltılık içecek!",
+
+"atelierjuicebar_FruitBoba.name": "İncili Çay",
+"atelierjuicebar_FruitBoba.description": "Taze meyveyle yapılmış baloncuk çayı.",
+
+"atelierjuicebar_FlavoredTea.name": "Buzlu Çayı",
+"atelierjuicebar_FlavoredTea.description": "Tat için meyve eklenmiş, taze buzlu çay.",
+
+"atelierjuicebar_flavored_kombucha.name": "Kombucha",
+"atelierjuicebar_flavored_kombucha.description": "Sadece en iyi çayla yapıldı!",
+	
+//////////
+// BOBA //
+//////////
+
+"atelierjuicebar_boba_pearls.name": "Boba İncileri",
+"atelierjuicebar_boba_pearls.description": "İncili çay yapımı için süt ve soğuk çaya konulan sert jelatin toplar.",
+
+"atelierjuicebar_banana_boba.name": "Muzlu İncili Çay",
+"atelierjuicebar_banana_boba.description": "Muzlarla tatlandırılıp boba incileri ve sütle tamamlanan soğuk çaydan oluşan hoş bir içecek!",
+
+"atelierjuicebar_blacktea_boba.name": "İncili Çay",
+"atelierjuicebar_blacktea_boba.description": "Boba incileri ve sütle tamamlanan soğuk çaydan oluşan hoş bir içecek!",
+
+"atelierjuicebar_blueberry_boba.name": "Yabanmersinli İncili Çay",
+"atelierjuicebar_blueberry_boba.description": "Yabanmersinleriyle tatlandırılıp boba incileri ve sütle tamamlanan soğuk çaydan oluşan hoş bir içecek!",
+
+"atelierjuicebar_brownsugar_boba.name": "Esmer Şekerli İncili Çay",
+"atelierjuicebar_brownsugar_boba.description": "Esmer şekerle tatlandırılıp boba incileri ve sütle tamamlanan soğuk çaydan oluşan hoş bir içecek!",
+
+"atelierjuicebar_caramel_boba.name": "Karamelli İncili Çay",
+"atelierjuicebar_caramel_boba.description": "Karamelle tatlandırılıp boba incileri ve sütle tamamlanan soğuk çaydan oluşan hoş bir içecek!",
+
+"atelierjuicebar_coconut_boba.name": "Hindistan Cevizli İncili Çay",
+"atelierjuicebar_coconut_boba.description": "Hindistan ceviziyle tatlandırılıp boba incileri ve sütle tamamlanan soğuk çaydan oluşan hoş bir içecek!",
+
+"atelierjuicebar_coffee_boba.name": "Kahveli İncili Çay",
+"atelierjuicebar_coffee_boba.description": "Kahveyle tatlandırılıp boba incileri ve sütle tamamlanan soğuk çaydan oluşan hoş bir içecek!",
+
+"atelierjuicebar_jasmine_boba.name": "Yaseminli İncili Çay",
+"atelierjuicebar_jasmine_boba.description": "Yaseminle tatlandırılıp boba incileri ve sütle tamamlanan soğuk çaydan oluşan hoş bir içecek!",
+
+"atelierjuicebar_mango_boba.name": "Mangolu İncili Çay",
+"atelierjuicebar_mango_boba.description": "Mangoyla tatlandırılıp boba incileri ve sütle tamamlanan soğuk çaydan oluşan hoş bir içecek!",
+
+"atelierjuicebar_matcha_boba.name": "Matchalı İncili Çay",
+"atelierjuicebar_matcha_boba.description": "Matchayla tatlandırılıp boba incileri ve sütle tamamlanan soğuk çaydan oluşan hoş bir içecek!",
+
+"atelierjuicebar_melon_boba.name": "Kavunlu İncili Çay",
+"atelierjuicebar_melon_boba.description": "Kavunla tatlandırılıp boba incileri ve sütle tamamlanan soğuk çaydan oluşan hoş bir içecek!",
+
+"atelierjuicebar_oolong_boba.name": "Oolong İncili Çay",
+"atelierjuicebar_oolong_boba.description": "Boba incileri ve sütle tamamlanan soğuk oolonglu çaydan oluşan hoş bir içecek!",
+
+"atelierjuicebar_peach_boba.name": "Şeftalili İncili Çay",
+"atelierjuicebar_peach_boba.description": "Şeftalilerle tatlandırılıp boba incileri ve sütle tamamlanan soğuk çaydan oluşan hoş bir içecek!",
+
+"atelierjuicebar_rose_boba.name": "Güllü İncili Çay",
+"atelierjuicebar_rose_boba.description": "Güllerle tatlandırılıp boba incileri ve sütle tamamlanan soğuk çaydan oluşan hoş bir içecek!",
+
+"atelierjuicebar_strawberry_boba.name": "Çilekli İncili Çay",
+"atelierjuicebar_strawberry_boba.description": "Çileklerle tatlandırılıp boba incileri ve sütle tamamlanan soğuk çaydan oluşan hoş bir içecek!",
+
+"atelierjuicebar_taro_boba.name": "Gölevezli İncili Çay",
+"atelierjuicebar_taro_boba.description": "Gölevezlerle tatlandırılıp boba incileri ve sütle tamamlanan soğuk çaydan oluşan hoş bir içecek!",
+
+"atelierjuicebar_thai_boba.name": "Tayland İncili Çay",
+"atelierjuicebar_thai_boba.description": "Boba incileri ve hindistan cevizi sütüyle tamamlanan soğuk çaydan oluşan hoş bir içecek!",
+
+"atelierjuicebar_vanilla_boba.name": "Vanilyalı İncili Çay",
+"atelierjuicebar_vanilla_boba.description": "Vanilyayla tatlandırılıp boba incileri ve sütle tamamlanan soğuk çaydan oluşan hoş bir içecek!",
+
+//////////////////
+// FRUIT JUICES //
+//////////////////
+
+"atelierjuicebar_apple_juice.name": "Müthiş Elma Suyu",
+"atelierjuicebar_apple_juice.description": "Taze toplanmış elmaların suyu!",
+
+"atelierjuicebar_berry_juice.name": "Enfes Meyve Suyu",
+"atelierjuicebar_berry_juice.description": "Çiftlikten taze meyvelerin suyu!",
+
+"atelierjuicebar_carrot_juice.name": "Tavşan Favorisi Havuç Suyu",
+"atelierjuicebar_carrot_juice.description": "Çiftlikten taze havuçların suyu!",
+
+"atelierjuicebar_grape_juice.name": "Üzüm Suyu",
+"atelierjuicebar_grape_juice.description": "Çiftlikten taze üzümlerin suyu!",
+
+"atelierjuicebar_mix_juice.name": "Karışık Meyve Suyu",
+"atelierjuicebar_mix_juice.description": "Çiftlikten taze meyvelerin suyu!",
+
+"atelierjuicebar_orange_juice.name": "Sabahçı Portakal Suyu",
+"atelierjuicebar_orange_juice.description": "Çiftlikten taze portakalların suyu!",
+
+"atelierjuicebar_pomegranate_juice.name": "Nar Suyu",
+"atelierjuicebar_pomegranate_juice.description": "Çiftlikten taze narların suyu!",
+
+"atelierjuicebar_tropical_juice.name": "Tropikal Meyve Suyu",
+"atelierjuicebar_tropical_juice.description": "Tatlı ada meyvelerinin suyu!",
+
+"atelierjuicebar_fruit_punch.name": "Canlı Meyve Suyu",
+"atelierjuicebar_fruit_punch.description": "Çiftlikten taze meyvelerin suyu!",
+
+"atelierjuicebar_amber_juice.name": "Kehribar Ay Nektarı",
+"atelierjuicebar_amber_juice.description": "Büyülü aydamlası üzümlerinin suyu.",
+
+"atelierjuicebar_jade_juice.name": "Yeşim Ay Nektarı",
+"atelierjuicebar_jade_juice.description": "Büyülü aydamlası üzümlerinin suyu.",
+
+"atelierjuicebar_lapis_juice.name": "Lapis Ay Nektarı",
+"atelierjuicebar_lapis_juice.description": "Büyülü aydamlası üzümlerinin suyu.",
+
+"atelierjuicebar_pearl_juice.name": "İnci Ay Nektarı",
+"atelierjuicebar_pearl_juice.description": "Büyülü aydamlası üzümlerinin suyu.",
+
+"atelierjuicebar_apple_elixir.name": "Çekici Elma İksiri",
+"atelierjuicebar_apple_elixir.description": "Büyülü elmaların suyu.",
+
+"atelierjuicebar_apricot_elixir.name": "Aromatik Kayısı İksiri",
+"atelierjuicebar_apricot_elixir.description": "Büyülü kayısıların suyu.",
+
+"atelierjuicebar_cherry_elixir.name": "Neşeli Kiraz İksiri",
+"atelierjuicebar_cherry_elixir.description": "Büyülü kirazların suyu.",
+
+"atelierjuicebar_mango_elixir.name": "Güleç Mango İksiri",
+"atelierjuicebar_mango_elixir.description": "Büyülü mangoların suyu.",
+
+"atelierjuicebar_orange_elixir.name": "Büyüleyici Portakal İksiri",
+"atelierjuicebar_orange_elixir.description": "Büyülü portakalların suyu.",
+
+"atelierjuicebar_peach_elixir.name": "Oyuncu Şeftali İksiri",
+"atelierjuicebar_peach_elixir.description": "Büyülü şeftalilerin suyu.",
+
+"atelierjuicebar_pomegranate_elixir.name": "Tutkulu Nar İksiri",
+"atelierjuicebar_pomegranate_elixir.description": "Büyülü narların suyu.",
+
+///////////////
+// LEMONADES //
+///////////////
+
+"atelierjuicebar_blackberry_lemonade.name": "Böğürtlenli Limonata",
+"atelierjuicebar_blackberry_lemonade.description": "Toplanmış böğürtlenlerle yapılan limonata.",
+
+"atelierjuicebar_chamomile_lemonade.name": "Papatyalı Limonata",
+"atelierjuicebar_chamomile_lemonade.description": "Papatya yapraklarıyla yapılan limonata.",
+
+"atelierjuicebar_cherry_limeade.name": "Kirazlı Yeşil Limonata",
+"atelierjuicebar_cherry_limeade.description": "Yeşil limon ve kirazlarla yapılan ilginç bir limonata.",
+
+"atelierjuicebar_classic_lemonade.name": "Klasik Limonata",
+"atelierjuicebar_classic_lemonade.description": "Taze sıkılmış limonlardan yapılan ferahlatıcı bir içecek.",
+
+"atelierjuicebar_green_lemonade.name": "Yeşil Çaylı Limonata",
+"atelierjuicebar_green_lemonade.description": "Yeşil çayla yapılan limonata.",
+
+"atelierjuicebar_jasmine_lemonade.name": "Yaseminli Limonata",
+"atelierjuicebar_jasmine_lemonade.description": "Yasemin yapraklarıyla yapılan limonata.",
+
+"atelierjuicebar_lavender_lemonade.name": "Lavantalı Limonata",
+"atelierjuicebar_lavender_lemonade.description": "Lavantayla yapılan limonata.",
+
+"atelierjuicebar_lime_lemonade.name": "Yeşil Limonata",
+"atelierjuicebar_lime_lemonade.description": "Ekşi yeşil limon suyuyla yapılan limonata.",
+
+"atelierjuicebar_melon_lemonade.name": "Kavunata",
+"atelierjuicebar_melon_lemonade.description": "Yaz kavunlarıyla yapılan limonata.",
+
+"atelierjuicebar_mint_lemonade.name": "Naneli Limonata",
+"atelierjuicebar_mint_lemonade.description": "Nane yapraklarıyla yapılan limonata.",
+
+"atelierjuicebar_pomegranate_lemonade.name": "Narlı Limonata",
+"atelierjuicebar_pomegranate_lemonade.description": "Nar suyuyla yapılan limonata.",
+
+"atelierjuicebar_pink_lemonade.name": "Pembiş Limonata",
+"atelierjuicebar_pink_lemonade.description": "Çilek suyuyla yapılan limonata.",
+
+"atelierjuicebar_rose_lemonade.name": "Güllü Limonata",
+"atelierjuicebar_rose_lemonade.description": "Gül yapraklarıyla yapılan limonata.",
+
+"atelierjuicebar_raspberry_lemonade.name": "Ahududulu Limonata",
+"atelierjuicebar_raspberry_lemonade.description": "Ahududu suyuyla yapılan limonata.",
+
+//////////////
+// ICED TEA //
+//////////////
+
+"atelierjuicebar_iced_tea.name": "Tatlı Soğuk Çay",
+"atelierjuicebar_iced_tea.description": "Büyük bir bardak soğuk çay.",
+
+"atelierjuicebar_green_icedtea.name": "Soğuk Yeşil Çay",
+"atelierjuicebar_green_icedtea.description": "Büyük bir bardak soğuk yeşil çay.",
+
+"atelierjuicebar_mango_icedtea.name": "Mangolu Soğuk Çay",
+"atelierjuicebar_mango_icedtea.description": "Mangoyla tatlandırılmış büyük bir bardak soğuk çay.",
+
+"atelierjuicebar_peach_icedtea.name": "Şeftalili Soğuk Çay",
+"atelierjuicebar_peach_icedtea.description": "Şeftaliyle tatlandırılmış büyük bir bardak soğuk çay.",
+
+"atelierjuicebar_thai_icedtea.name": "Tayland Soğuk Çay",
+"atelierjuicebar_thai_icedtea.description": "Hindistan cevizi sütüyle tatlandırılmış büyük bir bardak soğuk çay.",
+
+///////////////
+// SMOOTHIES //
+///////////////
+
+"atelierjuicebar_ancient_smoothie.name": "Antik Bilgelik Smoothie",
+"atelierjuicebar_ancient_smoothie.description": "Ferahlatan bir smoothie, tam da giderken kahvaltıda içmelik!",
+
+"atelierjuicebar_berry_smoothie.name": "Meyve Yıldırımı Smoothie",
+"atelierjuicebar_berry_smoothie.description": "Ferahlatan bir smoothie, tam da giderken kahvaltıda içmelik!",
+
+"atelierjuicebar_berrybanana_smoothie.name": "Çilek-Muz Smoothie",
+"atelierjuicebar_berrybanana_smoothie.description": "Ferahlatan bir smoothie, tam da giderken kahvaltıda içmelik!",
+
+"atelierjuicebar_berrykale_smoothie.name": "Yabanmersini-Kıvırcık Smoothie",
+"atelierjuicebar_berrykale_smoothie.description": "Ferahlatan bir smoothie, tam da giderken kahvaltıda içmelik!",
+
+"atelierjuicebar_chocoberry_smoothie.name": "Çikolatalı Meyveli Smoothie",
+"atelierjuicebar_chocoberry_smoothie.description": "Ferahlatan bir smoothie, tam da giderken kahvaltıda içmelik!",
+
+"atelierjuicebar_gemberry_smoothie.name": "Cevher Meyvesi Smoothie",
+"atelierjuicebar_gemberry_smoothie.description": "Ferahlatan bir smoothie, tam da giderken kahvaltıda içmelik!",
+
+"atelierjuicebar_peachmango_smoothie.name": "Şeftali-Mango Smoothie",
+"atelierjuicebar_peachmango_smoothie.description": "Ferahlatan bir smoothie, tam da giderken kahvaltıda içmelik!",
+
+"atelierjuicebar_sunshine_smoothie.name": "Yaz Işığı Smoothie",
+"atelierjuicebar_sunshine_smoothie.description": "Ferahlatan bir smoothie, tam da giderken kahvaltıda içmelik!",
+
+"atelierjuicebar_tropical_smoothie.name": "Tropikal Vaha Smoothie",
+"atelierjuicebar_tropical_smoothie.description": "Ferahlatan bir smoothie, tam da giderken kahvaltıda içmelik!",
+
+
+//KOMBUCHA
+
+"atelierjuicebar_apple_kombucha.name": "Güz Elma Kombucha",
+"atelierjuicebar_apple_kombucha.description": "İçimi çok güzel olan balla fermente edilmiş çay.",
+
+"atelierjuicebar_vanilla_kombucha.name": "Patisko Vanilya Kombucha",
+"atelierjuicebar_vanilla_kombucha.description": "İçimi çok güzel olan balla fermente edilmiş çay.",
+
+"atelierjuicebar_matcha_kombucha.name": "Geleneksel Matcha Kombucha",
+"atelierjuicebar_matcha_kombucha.description": "İçimi çok güzel olan balla fermente edilmiş çay.",
+
+"atelierjuicebar_cinnamon_kombucha.name": "Tarçınlı Kombucha",
+"atelierjuicebar_cinnamon_kombucha.description": "İçimi çok güzel olan balla fermente edilmiş çay.",
+
+"atelierjuicebar_chamomile_kombucha.name": "Sıcak Papatya Kombucha",
+"atelierjuicebar_chamomile_kombucha.description": "İçimi çok güzel olan balla fermente edilmiş çay.",
+
+"atelierjuicebar_breakfast_kombucha.name": "İngiliz Kahvaltısı Kombucha",
+"atelierjuicebar_breakfast_kombucha.description": "İçimi çok güzel olan balla fermente edilmiş çay.",
+
+"atelierjuicebar_jasmine_kombucha.name": "Kokulu Yasemin Kombucha",
+"atelierjuicebar_jasmine_kombucha.description": "İçimi çok güzel olan balla fermente edilmiş çay.",
+
+"atelierjuicebar_ginger_kombucha.name": "Zencefil-Şeftali Kombucha",
+"atelierjuicebar_ginger_kombucha.description": "İçimi çok güzel olan balla fermente edilmiş çay.",
+
+"atelierjuicebar_grey_kombucha.name": "Lady Grey Kombucha",
+"atelierjuicebar_grey_kombucha.description": "İçimi çok güzel olan balla fermente edilmiş çay.",
+
+"atelierjuicebar_lemon_kombucha.name": "Limon-Zencefil Kombucha",
+"atelierjuicebar_lemon_kombucha.description": "İçimi çok güzel olan balla fermente edilmiş çay.",
+
+"atelierjuicebar_mint_kombucha.name": "Naneli Kombucha",
+"atelierjuicebar_mint_kombucha.description": "İçimi çok güzel olan balla fermente edilmiş çay.",
+
+"atelierjuicebar_berry_kombucha.name": "Karışık Meyveli Kombucha",
+"atelierjuicebar_berry_kombucha.description": "İçimi çok güzel olan balla fermente edilmiş çay.",
+
+"atelierjuicebar_peach_kombucha.name": "Şeftali-Mango Kombucha",
+"atelierjuicebar_peach_kombucha.description": "İçimi çok güzel olan balla fermente edilmiş çay.",
+
+"atelierjuicebar_pineapple_kombucha.name": "Ananas-Hindistan Cevizi Kombucha",
+"atelierjuicebar_pineapple_kombucha.description": "İçimi çok güzel olan balla fermente edilmiş çay.",
+
+"atelierjuicebar_pomegranate_kombucha.name": "Narlı Yeşil Kombucha",
+"atelierjuicebar_pomegranate_kombucha.description": "İçimi çok güzel olan balla fermente edilmiş çay.",
+
+"atelierjuicebar_raspberry_kombucha.name": "Ahududu Kombucha",
+"atelierjuicebar_raspberry_kombucha.description": "İçimi çok güzel olan balla fermente edilmiş çay.",
+
+"atelierjuicebar_rose_kombucha.name": "Gül Yaprağı Kombucha",
+"atelierjuicebar_rose_kombucha.description": "İçimi çok güzel olan balla fermente edilmiş çay.",
+
+"atelierjuicebar_sakura_kombucha.name": "Kiraz Çiçeği Kombucha",
+"atelierjuicebar_sakura_kombucha.description": "İçimi çok güzel olan balla fermente edilmiş çay.",
+
+"atelierjuicebar_strawberry_kombucha.name": "Yabani Çiçek Kombucha",
+"atelierjuicebar_strawberry_kombucha.description": "İçimi çok güzel olan balla fermente edilmiş çay.",
+
+
+//////////
+// MAIL //
+//////////
+
+"atelierjuicebar_JuicerRecipe.name": "Taze Sıkılmış Meyve Suyu",
+"atelierjuicebar_JuicerRecipe.text": "@, ^^ Çiftlik gerçekten canlanıyor ve muhtemelen yakında gırtlağına kadar fazladan meyven olacak! Robin bana bu tarifi kim bilir ne zaman verdi, ama muhtemelen benden çok senin işine yarar!^^ - Jodi",
+
+"atelierjuicebar_BobaStationRecipe.name": "Boba Daha Güzel!",
+"atelierjuicebar_BobaStationRecipe.text": "@, ^^ Kendi inci çayını yapmak, sonrasında içebileceğin bir bilim deneyi gibidir. Çoğu deney için bunu önermem, ancak inci çayını istediğin zaman benimle paylaşabilirsin!^^ - Maru",
+
+"atelierjuicebar_LemonadeStandRecipe.name": "Limonata Sever Misin?",
+"atelierjuicebar_LemonadeStandRecipe.text": "@, ^^ Çocukken hiç limonata standın oldu mu?? Marnie Teyze ormanda bir tane yapmama izin vermiyor çünkü rakunların hepsini çalacağını düşünüyor. Belki ben oraya gelirim ve beraber limonata yaparız?^^ - Jas",
+
+"atelierjuicebar_evelyn.name": "Buzla Ferahlama",
+"atelierjuicebar_evelyn.text": "@, ^^ Çayı sevdiğimi biliyorsun, o yüzden sana çok da sürpriz olmayabilir ama soğuk çay da severim! Sıcak ya da soğuk olsun, minyon limonlar çayı güzelleştiriyor. Umarım kullanacak güzel bir şey bulursun!^^ - Evelyn",
+
+"atelierjuicebar_emily.name": "İncili Güzellik",
+"atelierjuicebar_emily.text": "@, ^^ Maru bana seninle bir boba makinesi için tarif paylaştığını söyledi! Bu çok güzel! En soğuk aylarda oradan buradan kazdığın kış kökleriyle boba incisi yapabileceğini biliyor muydun? Yaptığında bana da biraz inci çayı getirirsin olur mu??! Seninle paylaşmayı ben de isterim.^^ - Emily",
+
+"atelierjuicebar_lewis.name": "Hayat Sana Yeşil Limon Verirse",
+"atelierjuicebar_lewis.text": "@, ^^ Bir bardak taze limonatayı ben de severim, ama yeşil limon da kullanabileceğini biliyor muydun? Birkaç senedir kendi evimde ben de bir yeşil limon ağacı yetiştiriyorum, neden sen de meyve sularında kullanmayı denemiyorsun?^^ - Lewis",
+
+}

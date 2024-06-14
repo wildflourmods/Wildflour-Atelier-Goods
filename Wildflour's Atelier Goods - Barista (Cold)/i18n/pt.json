@@ -1,0 +1,416 @@
+{
+
+//////////////
+// MACHINES //
+//////////////
+
+"atelierjuicebar_JuiceStation.name": "Estação de Suco",
+"atelierjuicebar_JuiceStation.description": "Transforma frutas e mel em suco.",
+
+"atelierjuicebar_BobaStation.name": "Estação de Boba",
+"atelierjuicebar_BobaStation.description": "Transforma ingredientes e pérolas de boba em Bubble Tea.",
+
+"atelierjuicebar_LemonadeStand.name": "Barraca de Limonada",
+"atelierjuicebar_LemonadeStand.description": "Transforma frutas e Petite Lemons em limonada aromatizada.",
+
+///////////////////////////
+// MACHINE NOTIFICATIONS //
+///////////////////////////
+
+"atelierjuicebar_JuiceStation_InvalidItem.message": "Não é possível processar isso",
+"atelierjuicebar_JuiceStation_InvalidCount.message": "Requer mel",
+
+"atelierjuicebar_BobaStation_InvalidItem.message": "Não é possível processar isso",
+"atelierjuicebar_BobaStation_InvalidCount.message": "Requer pérolas de boba",
+
+"atelierjuicebar_LemonadeStand_InvalidItem.message": "Não é possível processar isso",
+"atelierjuicebar_LemonadeStand_InvalidCount.message": "Requer Lemão Petite",
+
+/////////////////////////////
+// NEW MOD SUPPORTED ITEMS //
+/////////////////////////////
+
+"atelierjuicebar_gardenia_lemonade.name": "Limonada de Gardenia",
+"atelierjuicebar_gardenia_lemonade.description": "Limonada fresca com sabor de flores de gardenia.",
+
+"atelierjuicebar_hibiscus_lemonade.name": "Limonada de Hibisco",
+"atelierjuicebar_hibiscus_lemonade.description": "Limonada fresca com sabor de flores de hibisco.",
+
+"atelierjuicebar_gardenia_kombucha.name": "Kombucha de Gardenia",
+"atelierjuicebar_gardenia_kombucha.description": "Bebida fermentada feita com chá de gardenia.",
+
+"atelierjuicebar_hibiscus_kombucha.name": "Kombucha de Hibisco",
+"atelierjuicebar_hibiscus_kombucha.description": "Bebida fermentada feita com chá de hibisco.",
+
+"atelierjuicebar_borage_lemonade.name": "Limonada de Borragem",
+"atelierjuicebar_borage_lemonade.description": "Limonada fresca com sabor de flores de borragem.",
+
+"atelierjuicebar_calendula_lemonade.name": "Limonada de Calêndula",
+"atelierjuicebar_calendula_lemonade.description": "Limonada fresca com sabor de flores de calêndula.",
+
+"atelierjuicebar_borage_kombucha.name": "Kombucha de Borragem",
+"atelierjuicebar_borage_kombucha.description": "Bebida fermentada feita com chá de borragem.",
+
+"atelierjuicebar_calendula_kombucha.name": "Kombucha de Calêndula",
+"atelierjuicebar_calendula_kombucha.description": "Bebida fermentada feita com chá de calêndula.",
+
+"atelierjuicebar_hollyhock_lemonade.name": "Limonada de Malva",
+"atelierjuicebar_hollyhock_lemonade.description": "Limonada fresca com sabor de flores de malva.",
+
+"atelierjuicebar_springpansy_lemonade.name": "Limonada de Amor-perfeito",
+"atelierjuicebar_springpansy_lemonade.description": "Limonada fresca com sabor de flores de amor-perfeito.",
+
+"atelierjuicebar_hollyhock_kombucha.name": "Kombucha de Malva",
+"atelierjuicebar_hollyhock_kombucha.description": "Bebida fermentada feita com chá de malva.",
+
+"atelierjuicebar_springpansy_kombucha.name": "Kombucha de Amor-perfeito",
+"atelierjuicebar_springpansy_kombucha.description": "Bebida fermentada feita com chá de amor-perfeito.",
+
+"atelierjuicebar_orangeblossom_lemonade.name": "Limonada de Flor de Laranjeira",
+"atelierjuicebar_orangeblossom_lemonade.description": "Limonada fresca com sabor de flores de flor de laranjeira.",
+
+"atelierjuicebar_orangeblossom_kombucha.name": "Kombucha de Flor de Laranjeira",
+"atelierjuicebar_orangeblossom_kombucha.description": "Bebida fermentada feita com chá de flor de laranjeira.",
+
+///////////////////////
+// NEW GENERIC ITEMS //
+///////////////////////
+
+"atelierjuicebar_FruitJuice.name":"Suco",
+"atelierjuicebar_FruitJuice.description":"Espremido na hora!",
+
+"atelierjuicebar_FruitLemonade.name":"Limonada",
+"atelierjuicebar_FruitLemonade.description":"Espremido na hora!",
+
+"atelierjuicebar_FlowerLemonade.name":"Limonada",
+"atelierjuicebar_FlowerLemonade.description":"Espremido na hora!",
+
+"atelierjuicebar_FruitSmoothie.name":"Smoothie",
+"atelierjuicebar_FruitSmoothie.description":"A bebida perfeita para o café da manhã!",
+
+"atelierjuicebar_FruitBoba.name":"Boba",
+"atelierjuicebar_FruitBoba.description":"Chá de bolhas feito com frutas frescas.",
+
+"atelierjuicebar_FlavoredTea.name":"Chá gelado",
+"atelierjuicebar_FlavoredTea.description":"Chá fresco gelado com adição de frutas para dar sabor.",
+
+"atelierjuicebar_flavored_kombucha.name":"Kombucha",
+"atelierjuicebar_flavored_kombucha.description":"Feito apenas com o melhor chá!",
+
+/////////////
+// STRINGS //
+/////////////
+
+"atelierjuicebar_FruitJuice":"{0} Suco",
+"atelierjuicebar_FruitLemonade":"{0} Limonada",
+"atelierjuicebar_FlowerLemonade":"{0} Limonada",
+"atelierjuicebar_FruitSmoothie":"{0} Smoothie",
+"atelierjuicebar_FruitBoba":"{0} Boba",
+"atelierjuicebar_FlavoredTea":"{0} Chá gelado",
+"atelierjuicebar_flavored_kombucha":"{0} Kombucha",
+
+
+//////////
+// BOBA //
+//////////
+
+"atelierjuicebar_boba_pearls.name": "Pérolas de Boba",
+"atelierjuicebar_boba_pearls.description": "Esferas amiláceas e gelatinosas adicionadas ao chá gelado e leite para fazer chá de bolhas.",
+
+"atelierjuicebar_banana_boba.name": "Chá de Bolhas de Banana",
+"atelierjuicebar_banana_boba.description": "Uma bebida saborosa e fofa composta por chá gelado com sabor de bananas, finalizado com leite e pérolas de boba mastigáveis!",
+
+"atelierjuicebar_blacktea_boba.name": "Chá de Bolhas",
+"atelierjuicebar_blacktea_boba.description": "Uma bebida saborosa e fofa composta por chá gelado finalizado com leite e pérolas de boba mastigáveis!",
+
+"atelierjuicebar_blueberry_boba.name": "Chá de Bolhas de Mirtilo",
+"atelierjuicebar_blueberry_boba.description": "Uma bebida saborosa e fofa composta por chá gelado com sabor de mirtilos, finalizado com leite e pérolas de boba mastigáveis!",
+
+"atelierjuicebar_brownsugar_boba.name": "Chá de Bolhas de Açúcar Mascavo",
+"atelierjuicebar_brownsugar_boba.description": "Uma bebida saborosa e fofa composta por chá gelado com sabor de açúcar mascavo, finalizado com leite e pérolas de boba mastigáveis!",
+
+"atelierjuicebar_caramel_boba.name": "Chá de Bolhas de Caramelo",
+"atelierjuicebar_caramel_boba.description": "Uma bebida saborosa e fofa composta por chá gelado com sabor de caramelo, finalizado com leite e pérolas de boba mastigáveis!",
+
+"atelierjuicebar_coconut_boba.name": "Chá de Bolhas de Coco",
+"atelierjuicebar_coconut_boba.description": "Uma bebida saborosa e fofa composta por chá gelado com sabor de coco, finalizado com leite e pérolas de boba mastigáveis!",
+
+"atelierjuicebar_coffee_boba.name": "Chá de Bolhas de Café",
+"atelierjuicebar_coffee_boba.description": "Uma bebida saborosa e fofa composta por chá gelado com sabor de café, finalizado com leite e pérolas de boba mastigáveis!",
+
+"atelierjuicebar_jasmine_boba.name": "Chá de Bolhas de Jasmim",
+"atelierjuicebar_jasmine_boba.description": "Uma bebida saborosa e fofa composta por chá gelado com sabor de jasmim, finalizado com leite e pérolas de boba mastigáveis!",
+
+"atelierjuicebar_mango_boba.name": "Chá de Bolhas de Manga",
+"atelierjuicebar_mango_boba.description": "Uma bebida saborosa e fofa composta por chá gelado com sabor de manga, finalizado com leite e pérolas de boba mastigáveis!",
+
+"atelierjuicebar_matcha_boba.name": "Chá de Bolhas de Matcha",
+"atelierjuicebar_matcha_boba.description": "Uma bebida saborosa e fofa composta por chá gelado de matcha, finalizado com leite e pérolas de boba mastigáveis!",
+
+"atelierjuicebar_melon_boba.name": "Chá de Bolhas de Melão",
+"atelierjuicebar_melon_boba.description": "Uma bebida saborosa e fofa composta por chá gelado com sabor de melão, finalizado com leite e pérolas de boba mastigáveis!",
+
+"atelierjuicebar_oolong_boba.name": "Chá de Bolhas de Oolong",
+"atelierjuicebar_oolong_boba.description": "Uma bebida saborosa e fofa composta por chá gelado de oolong, finalizado com leite e pérolas de boba mastigáveis!",
+
+"atelierjuicebar_peach_boba.name": "Chá de Bolhas de Pêssego",
+"atelierjuicebar_peach_boba.description": "Uma bebida saborosa e fofa composta por chá gelado com sabor de pêssegos, finalizado com leite e pérolas de boba mastigáveis!",
+
+"atelierjuicebar_rose_boba.name": "Chá de Bolhas de Rosa",
+"atelierjuicebar_rose_boba.description": "Uma bebida saborosa e fofa composta por chá gelado com sabor de rosa, finalizado com leite e pérolas de boba mastigáveis!",
+
+"atelierjuicebar_strawberry_boba.name": "Chá de Bolhas de Morango",
+"atelierjuicebar_strawberry_boba.description": "Uma bebida saborosa e fofa composta por chá gelado com sabor de morangos, finalizado com leite e pérolas de boba mastigáveis!",
+
+"atelierjuicebar_taro_boba.name": "Chá de Bolhas de Inhame-coco",
+"atelierjuicebar_taro_boba.description": "Uma bebida saborosa e fofa composta por chá gelado com sabor de inhame-coco, finalizado com leite e pérolas de boba mastigáveis!",
+
+"atelierjuicebar_thai_boba.name": "Chá de Bolhas Tailandês",
+"atelierjuicebar_thai_boba.description": "Uma bebida saborosa e fofa composta por chá gelado com leite de coco e pérolas de boba mastigáveis!",
+
+"atelierjuicebar_vanilla_boba.name": "Chá de Bolhas de Baunilha",
+"atelierjuicebar_vanilla_boba.description": "Uma bebida saborosa e fofa composta por chá gelado com sabor de baunilha, finalizado com leite e pérolas de boba mastigáveis!",
+
+//////////////////
+// FRUIT JUICES //
+//////////////////
+
+"atelierjuicebar_apple_juice.name": "Suco de Maçã Surpreendente",
+"atelierjuicebar_apple_juice.description": "Suco feito com maçãs frescas colhidas!",
+
+"atelierjuicebar_berry_juice.name": "Suco de Frutas Vermelhas Deliciosas",
+"atelierjuicebar_berry_juice.description": "Suco feito com frutas vermelhas frescas da fazenda!",
+
+"atelierjuicebar_carrot_juice.name": "Suco de Cenoura para Amantes de Coelhos",
+"atelierjuicebar_carrot_juice.description": "Suco feito com cenouras frescas da fazenda!",
+
+"atelierjuicebar_grape_juice.name": "Suco de Uva",
+"atelierjuicebar_grape_juice.description": "Suco feito com uvas frescas da fazenda!",
+
+"atelierjuicebar_mix_juice.name": "Suco de Frutas Variadas",
+"atelierjuicebar_mix_juice.description": "Suco feito com frutas frescas da fazenda!",
+
+"atelierjuicebar_orange_juice.name": "Suco de Laranja Madrugadora",
+"atelierjuicebar_orange_juice.description": "Suco feito com laranjas frescas da fazenda!",
+
+"atelierjuicebar_pomegranate_juice.name": "Suco de Romã",
+"atelierjuicebar_pomegranate_juice.description": "Suco feito com romãs frescas da fazenda!",
+
+"atelierjuicebar_tropical_juice.name": "Suco de Frutas Tropicais",
+"atelierjuicebar_tropical_juice.description": "Suco feito com frutas doces das ilhas!",
+
+"atelierjuicebar_fruit_punch.name": "Ponche de Frutas",
+"atelierjuicebar_fruit_punch.description": "Suco feito com frutas frescas da fazenda!",
+
+"atelierjuicebar_amber_juice.name": "Néctar da Lua Âmbar",
+"atelierjuicebar_amber_juice.description": "Suco feito com uvas mágicas Moondrop.",
+
+"atelierjuicebar_jade_juice.name": "Néctar da Lua de Jade",
+"atelierjuicebar_jade_juice.description": "Suco feito com uvas mágicas Moondrop.",
+
+"atelierjuicebar_lapis_juice.name": "Néctar da Lua Lápis",
+"atelierjuicebar_lapis_juice.description": "Suco feito com uvas mágicas Moondrop.",
+
+"atelierjuicebar_pearl_juice.name": "Néctar da Lua Pérola",
+"atelierjuicebar_pearl_juice.description": "Suco feito com uvas mágicas Moondrop.",
+
+"atelierjuicebar_apple_elixir.name": "Elixir de Maçã Sedutora",
+"atelierjuicebar_apple_elixir.description": "Suco feito com maçãs místicas.",
+
+"atelierjuicebar_apricot_elixir.name": "Elixir de Damasco Aromático",
+"atelierjuicebar_apricot_elixir.description": "Suco feito com damascos místicos.",
+
+"atelierjuicebar_cherry_elixir.name": "Elixir de Cereja Alegre",
+"atelierjuicebar_cherry_elixir.description": "Suco feito com cerejas místicas.",
+
+"atelierjuicebar_mango_elixir.name": "Elixir de Manga Alegre",
+"atelierjuicebar_mango_elixir.description": "Suco feito com mangas místicas.",
+
+"atelierjuicebar_orange_elixir.name": "Elixir de Laranja Encantadora",
+"atelierjuicebar_orange_elixir.description": "Suco feito com laranjas místicas.",
+
+"atelierjuicebar_peach_elixir.name": "Elixir de Pêssego Divertido",
+"atelierjuicebar_peach_elixir.description": "Suco feito com pêssegos místicos.",
+
+"atelierjuicebar_pomegranate_elixir.name": "Elixir de Romã Apaixonante",
+"atelierjuicebar_pomegranate_elixir.description": "Suco feito com romãs místicas.",
+
+///////////////
+// LEMONADES //
+///////////////
+
+"atelierjuicebar_blackberry_lemonade.name": "Limomada de Amora",
+"atelierjuicebar_blackberry_lemonade.description": "Limomada fresca feita com amoras colhidas.",
+
+"atelierjuicebar_chamomile_lemonade.name": "Limomada de Camomila",
+"atelierjuicebar_chamomile_lemonade.description": "Limomada fresca feita com pétalas de camomila.",
+
+"atelierjuicebar_cherry_lemonade.name": "Limomada de Cereja",
+"atelierjuicebar_cherry_lemonade.description": "Uma variação divertida da limomada, feita com cerejas frescas.",
+
+"atelierjuicebar_classic_lemonade.name": "Limomada Clássica",
+"atelierjuicebar_classic_lemonade.description": "Uma bebida refrescante feita com limões espremidos na hora.",
+
+"atelierjuicebar_green_lemonade.name": "Limomada de Chá Verde",
+"atelierjuicebar_green_lemonade.description": "Limomada fresca feita com chá verde.",
+
+"atelierjuicebar_jasmine_lemonade.name": "Limomada de Jasmim",
+"atelierjuicebar_jasmine_lemonade.description": "Limomada fresca feita com pétalas de jasmim.",
+
+"atelierjuicebar_lavender_lemonade.name": "Limomada de Lavanda",
+"atelierjuicebar_lavender_lemonade.description": "Limomada fresca feita com lavanda.",
+
+"atelierjuicebar_lime_lemonade.name": "Limomada de Limão",
+"atelierjuicebar_lime_lemonade.description": "Limomada fresca feita com suco de limão zesty.",
+
+"atelierjuicebar_melon_lemonade.name": "Melãomada",
+"atelierjuicebar_melon_lemonade.description": "Limomada fresca feita com melão de verão.",
+
+"atelierjuicebar_mint_lemonade.name": "Limomada de Menta",
+"atelierjuicebar_mint_lemonade.description": "Limomada fresca feita com folhas de menta.",
+
+"atelierjuicebar_pomegranate_lemonade.name": "Limomada de Romã",
+"atelierjuicebar_pomegranate_lemonade.description": "Limomada fresca feita com suco de romã.",
+
+"atelierjuicebar_pink_lemonade.name": "Limomada Rosa",
+"atelierjuicebar_pink_lemonade.description": "Limomada fresca feita com suco de morango.",
+
+"atelierjuicebar_rose_lemonade.name": "Limomada de Rosa",
+"atelierjuicebar_rose_lemonade.description": "Limomada fresca feita com pétalas de rosa.",
+
+"atelierjuicebar_raspberry_lemonade.name": "Limomada de Framboesa",
+"atelierjuicebar_raspberry_lemonade.description": "Limomada fresca feita com suco de framboesa.",
+
+//////////////
+// ICED TEA //
+//////////////
+
+"atelierjuicebar_iced_tea.name": "Chá Gelado Doce",
+"atelierjuicebar_iced_tea.description": "Um copo grande de chá gelado.",
+
+"atelierjuicebar_green_icedtea.name": "Chá Verde Gelado",
+"atelierjuicebar_green_icedtea.description": "Um copo grande de chá verde gelado.",
+
+"atelierjuicebar_pineapple_icedtea.name": "Chá Gelado de Abacaxi",
+"atelierjuicebar_pineapple_icedtea.description": "Um copo grande de chá gelado com sabor de abacaxis.",
+
+"atelierjuicebar_peach_icedtea.name": "Chá Gelado de Pêssego",
+"atelierjuicebar_peach_icedtea.description": "Um copo grande de chá gelado com sabor de pêssegos.",
+
+"atelierjuicebar_thai_icedtea.name": "Chá Gelado Tailandês",
+"atelierjuicebar_thai_icedtea.description": "Um copo grande de chá gelado adoçado com leite de coco.",
+
+///////////////
+// SMOOTHIES //
+///////////////
+
+"atelierjuicebar_ancient_smoothie.name": "Smoothie Sabedoria Antiga",
+"atelierjuicebar_ancient_smoothie.description": "Um smoothie refrescante, perfeito para o café da manhã rápido!",
+
+"atelierjuicebar_berry_smoothie.name": "Smoothie Explosão de Frutas Vermelhas",
+"atelierjuicebar_berry_smoothie.description": "Um smoothie refrescante, perfeito para o café da manhã rápido!",
+
+"atelierjuicebar_berrybanana_smoothie.name": "Smoothie Morango Banana",
+"atelierjuicebar_berrybanana_smoothie.description": "Um smoothie refrescante, perfeito para o café da manhã rápido!",
+
+"atelierjuicebar_berrykale_smoothie.name": "Smoothie Blueberry Kale",
+"atelierjuicebar_berrykale_smoothie.description": "Um smoothie refrescante, perfeito para o café da manhã rápido!",
+
+"atelierjuicebar_chocoberry_smoothie.name": "Smoothie Chocolate e Frutas Vermelhas",
+"atelierjuicebar_chocoberry_smoothie.description": "Um smoothie refrescante, perfeito para o café da manhã rápido!",
+
+"atelierjuicebar_gemberry_smoothie.name": "Smoothie Explosão de Frutas Exóticas",
+"atelierjuicebar_gemberry_smoothie.description": "Um smoothie refrescante, perfeito para o café da manhã rápido!",
+
+"atelierjuicebar_peachmango_smoothie.name": "Smoothie Pêssego Manga",
+"atelierjuicebar_peachmango_smoothie.description": "Um smoothie refrescante, perfeito para o café da manhã rápido!",
+
+"atelierjuicebar_sunshine_smoothie.name": "Smoothie Verão Radiante",
+"atelierjuicebar_sunshine_smoothie.description": "Um smoothie refrescante, perfeito para o café da manhã rápido!",
+
+"atelierjuicebar_tropical_smoothie.name": "Smoothie Oásis Tropical",
+"atelierjuicebar_tropical_smoothie.description": "Um smoothie refrescante, perfeito para o café da manhã rápido!",
+
+//KOMBUCHA
+
+"atelierjuicebar_apple_kombucha.name": "Kombucha de Maçã de Outono",
+"atelierjuicebar_apple_kombucha.description": "Chá fermentado com mel em uma deliciosa bebida borbulhante.",
+
+"atelierjuicebar_vanilla_kombucha.name": "Kombucha de Baunilha Calico",
+"atelierjuicebar_vanilla_kombucha.description": "Chá fermentado com mel em uma deliciosa bebida borbulhante.",
+
+"atelierjuicebar_matcha_kombucha.name": "Kombucha de Matcha Cerimonial",
+"atelierjuicebar_matcha_kombucha.description": "Chá fermentado com mel em uma deliciosa bebida borbulhante.",
+
+"atelierjuicebar_cinnamon_kombucha.name": "Kombucha de Especiarias de Canela",
+"atelierjuicebar_cinnamon_kombucha.description": "Chá fermentado com mel em uma deliciosa bebida borbulhante.",
+
+"atelierjuicebar_chamomile_kombucha.name": "Kombucha de Camomila Aconchegante",
+"atelierjuicebar_chamomile_kombucha.description": "Chá fermentado com mel em uma deliciosa bebida borbulhante.",
+
+"atelierjuicebar_breakfast_kombucha.name": "Kombucha da Manhã Inglês",
+"atelierjuicebar_breakfast_kombucha.description": "Chá fermentado com mel em uma deliciosa bebida borbulhante.",
+
+"atelierjuicebar_jasmine_kombucha.name": "Kombucha de Jasmim Perfumado",
+"atelierjuicebar_jasmine_kombucha.description": "Chá fermentado com mel em uma deliciosa bebida borbulhante.",
+
+"atelierjuicebar_ginger_kombucha.name": "Kombucha de Pêssego e Gengibre",
+"atelierjuicebar_ginger_kombucha.description": "Chá fermentado com mel em uma deliciosa bebida borbulhante.",
+
+"atelierjuicebar_grey_kombucha.name": "Kombucha Lady Grey",
+"atelierjuicebar_grey_kombucha.description": "Chá fermentado com mel em uma deliciosa bebida borbulhante.",
+
+"atelierjuicebar_lemon_kombucha.name": "Kombucha de Limão e Gengibre",
+"atelierjuicebar_lemon_kombucha.description": "Chá fermentado com mel em uma deliciosa bebida borbulhante.",
+
+"atelierjuicebar_mint_kombucha.name": "Kombucha de Menta Refrescante",
+"atelierjuicebar_mint_kombucha.description": "Chá fermentado com mel em uma deliciosa bebida borbulhante.",
+
+"atelierjuicebar_berry_kombucha.name": "Kombucha de Frutas Silvestres",
+"atelierjuicebar_berry_kombucha.description": "Chá fermentado com mel em uma deliciosa bebida borbulhante.",
+
+"atelierjuicebar_peach_kombucha.name": "Kombucha de Pêssego e Manga",
+"atelierjuicebar_peach_kombucha.description": "Chá fermentado com mel em uma deliciosa bebida borbulhante.",
+
+"atelierjuicebar_pineapple_kombucha.name": "Kombucha de Abacaxi e Coco",
+"atelierjuicebar_pineapple_kombucha.description": "Chá fermentado com mel em uma deliciosa bebida borbulhante.",
+
+"atelierjuicebar_pomegranate_kombucha.name": "Kombucha Verde de Romã",
+"atelierjuicebar_pomegranate_kombucha.description": "Chá fermentado com mel em uma deliciosa bebida borbulhante.",
+
+"atelierjuicebar_raspberry_kombucha.name": "Kombucha de Framboesa",
+"atelierjuicebar_raspberry_kombucha.description": "Chá fermentado com mel em uma deliciosa bebida borbulhante.",
+
+"atelierjuicebar_rose_kombucha.name": "Kombucha de Pétalas de Rosa",
+"atelierjuicebar_rose_kombucha.description": "Chá fermentado com mel em uma deliciosa bebida borbulhante.",
+
+"atelierjuicebar_sakura_kombucha.name": "Kombucha de Sakura",
+"atelierjuicebar_sakura_kombucha.description": "Chá fermentado com mel em uma deliciosa bebida borbulhante.",
+
+"atelierjuicebar_strawberry_kombucha.name": "Kombucha de Morango Silvestre",
+"atelierjuicebar_strawberry_kombucha.description": "Chá fermentado com mel em uma deliciosa bebida borbulhante.",
+
+
+//////////
+// MAIL //
+//////////
+
+"atelierjuicebar_JuicerRecipe.name":"Suco Espremido na Hora",
+"atelierjuicebar_JuicerRecipe.text":"@, ^^ A fazenda está indo muito bem, e imagino que em breve você estará com um monte de frutas extras! Robin me deu esses planos para um espremedor há muito tempo, mas provavelmente será mais útil para você do que para mim!^^ - Jodi",
+
+"atelierjuicebar_BobaStationRecipe.name":"Boba é Melhor!",
+"atelierjuicebar_BobaStationRecipe.text":"@, ^^ Fazer seu próprio bubble tea é como um experimento científico que você pode beber depois. Não é algo que eu recomendaria com a maioria dos experimentos científicos, mas sinta-se à vontade para compartilhar seu bubble tea comigo a qualquer momento!^^ - Maru",
+
+"atelierjuicebar_LemonadeStandRecipe.name":"Você Gosta de Limonada?",
+"atelierjuicebar_LemonadeStandRecipe.text":"@, ^^ Você já teve uma barraquinha de limonada quando era criança? Tia Marnie não me deixa montar uma na floresta porque acha que os guaxinins vão roubar toda a minha limonada. Talvez eu possa ir até aí e a gente fazer limonada juntos?^^ - Jas",
+
+"atelierjuicebar_evelyn.name":"Refrescância Gelada",
+"atelierjuicebar_evelyn.text":"@, ^^ Você sabe que eu adoro chá, então não deve ser uma grande surpresa para você que eu também goste de chá gelado! Esses limões pequenos são uma adição adorável ao chá, quente ou frio. Espero que você encontre um bom uso para eles!^^ - Evelyn",
+
+"atelierjuicebar_emily.name":"Bolhas Deliciosas",
+"atelierjuicebar_emily.text":"@, ^^ Maru me disse que compartilhou os planos de uma estação de boba com você! Que legal! Você sabia que pode fazer pérolas de boba a partir das raízes de inverno que você cava por aqui nos meses mais frios? Compartilhe um bubble tea comigo quando fizer algum, okay?!! Eu adoraria compartilhar um pouco com você.^^ - Emily",
+
+"atelierjuicebar_lewis.name":"Quando a Vida te Dá Limões",
+"atelierjuicebar_lewis.text":"@, ^^ Eu adoro um copo de limonada fresca, mas você sabia que também pode fazer limonada de lima? Eu tenho cultivado uma pequena árvore de lima em casa há alguns anos; por que você não tenta usar algumas em seus sucos?^^ - Lewis",
+
+}

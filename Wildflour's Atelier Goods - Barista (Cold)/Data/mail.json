@@ -1,0 +1,58 @@
+{
+    "Changes": [
+
+//////////////
+// ADD MAIL //
+//////////////
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Mail",
+                "Entries": {
+                    "wildflour.atelierjuicebar_BobaStationRecipe": "{{i18n: atelierjuicebar_BobaStationRecipe.text}} %item craftingRecipe wildflour.atelierjuicebar_BobaStation %%[#]{{i18n: atelierjuicebar_BobaStationRecipe.name}}",
+                    "wildflour.atelierjuicebar_JuicerRecipe": "{{i18n: atelierjuicebar_JuicerRecipe.text}} %item craftingRecipe wildflour.atelierjuicebar_JuiceStation %%[#]{{i18n: atelierjuicebar_JuicerRecipe.name}}",
+                    "wildflour.atelierjuicebar_LemonadeStandRecipe": "{{i18n: atelierjuicebar_LemonadeStandRecipe.text}} %item craftingRecipe wildflour.atelierjuicebar_LemonadeStand %%[#]{{i18n: atelierjuicebar_LemonadeStandRecipe.name}}",
+                    "wildflour.atelierjuicebar_evelyngift": "{{i18n: atelierjuicebar_evelyn.text}} %item id (O)wildflour.ateliercrops_lemon 3 %%[#]{{i18n: atelierjuicebar_evelyn.name}}",
+                    "wildflour.atelierjuicebar_emilygift": "{{i18n: atelierjuicebar_emily.text}} %item id (O)wildflour.atelierjuicebar_boba_pearls 3 %%[#]{{i18n: atelierjuicebar_emily.name}}",
+                    "wildflour.atelierjuicebar_lewisgift": "{{i18n: atelierjuicebar_lewis.text}} %item id (O)wildflour.ateliercrops_lime 3 %%[#]{{i18n: atelierjuicebar_lewis.name}}",     
+                    }
+            },
+
+///////////////
+// SEND MAIL //
+///////////////
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+        
+            "Entries": {	
+                "wildflour.atelierjuicebar_emilymail/f Emily 1000/G {{HasCraftingRecipe: wildflour.atelierjuicebar_BobaStation}}/x wildflour.atelierjuicebar_emilygift": "null",
+            }
+        },         
+        
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "When":{"Atelier.Cauldron/ConfigValue:WildFood": "True"},
+            "Entries": {	
+                "wildflour.atelierjuicebar_evelynmail/f Evelyn 750/G {{HasCraftingRecipe: wildflour.atelierjuicebar_JuiceStation}}/x wildflour.atelierjuicebar_evelyngift": "null",
+                "wildflour.atelierjuicebar_lewismail/f Lewis 750/G {{HasCraftingRecipe: wildflour.atelierjuicebar_LemonadeStand}}/x wildflour.atelierjuicebar_lewisgift": "null"
+            }
+        },  
+
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "When":{"Atelier.Cauldron/ConfigValue:EasyRecipes": "False"},
+            "Entries": {
+                "wildflour.atelierjuicebar_bobamail/f Maru 500/x wildflour.atelierjuicebar_BobaStationRecipe": "null",
+                "wildflour.atelierjuicebar_juicermail/f Jodi 500/x wildflour.atelierjuicebar_JuicerRecipe": "null",
+                "wildflour.atelierjuicebar_lemonademail/f Jas 500/x wildflour.atelierjuicebar_LemonadeStandRecipe": "null"			
+            }
+
+        }
+
+]
+}

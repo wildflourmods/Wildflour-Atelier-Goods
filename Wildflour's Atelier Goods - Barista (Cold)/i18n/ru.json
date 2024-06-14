@@ -1,0 +1,416 @@
+{
+
+//////////////
+// MACHINES //
+//////////////
+
+"atelierjuicebar_JuiceStation.name":"Стенд с соком",
+"atelierjuicebar_JuiceStation.description":"Превращает фрукты и мед в сок.",
+
+"atelierjuicebar_BobaStation.name":"Бабл-мейкер",
+"atelierjuicebar_BobaStation.description":"Превращает ингредиенты и джус боллы в бабл-ти.",
+
+"atelierjuicebar_LemonadeStand.name":"Стенд с лимонадом",
+"atelierjuicebar_LemonadeStand.description":"Превращает фрукты и лимонный сироп в ароматизированный лимонад.",
+
+///////////////////////////
+// MACHINE NOTIFICATIONS //
+///////////////////////////
+
+"atelierjuicebar_JuiceStation_InvalidItem.message": "Это невозможно обработать",
+"atelierjuicebar_JuiceStation_InvalidCount.message": "Требуется мед",
+
+"atelierjuicebar_BobaStation_InvalidItem.message": "Это невозможно обработать",
+"atelierjuicebar_BobaStation_InvalidCount.message": "Требуются джус боллы",
+
+"atelierjuicebar_LemonadeStand_InvalidItem.message": "Это невозможно обработать",
+"atelierjuicebar_LemonadeStand_InvalidCount.message": "Требуется лимонный сироп",
+
+/////////////////////////////
+// NEW MOD SUPPORTED ITEMS //
+/////////////////////////////
+
+"atelierjuicebar_gardenia_lemonade.name":"Лимонад с гарденией",
+"atelierjuicebar_gardenia_lemonade.description":"Свежевыжатый лимонад со вкусом цветов гардении.",
+
+"atelierjuicebar_hibiscus_lemonade.name":"Лимонад с гибискусом",
+"atelierjuicebar_hibiscus_lemonade.description":"Свежевыжатый лимонад со вкусом цветов гибискуса.",
+
+"atelierjuicebar_gardenia_kombucha.name":"Комбуча с гарденией",
+"atelierjuicebar_gardenia_kombucha.description":"Ферментированный напиток, который готовят из чая с гарденией.",
+
+"atelierjuicebar_hibiscus_kombucha.name":"Комбуча с гибискусом",
+"atelierjuicebar_hibiscus_kombucha.description":"Ферментированный напиток, который готовят из чая каркаде.",
+
+"atelierjuicebar_borage_lemonade.name":"Лимонад с бурачником",
+"atelierjuicebar_borage_lemonade.description":"Свежевыжатый лимонад со вкусом цветов бурачника.",
+
+"atelierjuicebar_calendula_lemonade.name":"Лимонад с календулой",
+"atelierjuicebar_calendula_lemonade.description":"Свежевыжатый лимонад со вкусом цветов календулы.",
+
+"atelierjuicebar_borage_kombucha.name":"Комбуча с бурачником",
+"atelierjuicebar_borage_kombucha.description":"Ферментированный напиток, который готовят из чая с бурачником.",
+
+"atelierjuicebar_calendula_kombucha.name":"Комбуча с календулой",
+"atelierjuicebar_calendula_kombucha.description":"Ферментированный напиток, который готовят из чая с календулой.",
+
+"atelierjuicebar_hollyhock_lemonade.name":"Лимонад с мальвой",
+"atelierjuicebar_hollyhock_lemonade.description":"Свежевыжатый лимонад со вкусом цветов мальвы.",
+
+"atelierjuicebar_springpansy_lemonade.name":"Фиалковый лимонад",
+"atelierjuicebar_springpansy_lemonade.description":"Свежевыжатый лимонад со вкусом анютиных глазок.",
+
+"atelierjuicebar_hollyhock_kombucha.name":"Комбуча с мальвой",
+"atelierjuicebar_hollyhock_kombucha.description":"Ферментированный напиток, который готовят из чая с мальвой.",
+
+"atelierjuicebar_springpansy_kombucha.name":"Фиалковая комбуча",
+"atelierjuicebar_springpansy_kombucha.description":"Ферментированный напиток, который готовят из фиалкового чая.",
+
+"atelierjuicebar_orangeblossom_lemonade.name":"Лимонад с цветками апельсина",
+"atelierjuicebar_orangeblossom_lemonade.description":"Свежевыжатый лимонад со вкусом цветов апельсина.",
+
+"atelierjuicebar_orangeblossom_kombucha.name":"Комбуча с цветками апельсина",
+"atelierjuicebar_orangeblossom_kombucha.description":"Ферментированный напиток, который готовят из чая с цветками апельсина.",
+
+///////////////////////
+// NEW GENERIC ITEMS //
+///////////////////////
+
+"atelierjuicebar_FruitJuice.name":"Сок",
+"atelierjuicebar_FruitJuice.description":"Свежевыжатый!",
+
+"atelierjuicebar_FruitLemonade.name":"Лимонад",
+"atelierjuicebar_FruitLemonade.description":"Свежевыжатый!",
+
+"atelierjuicebar_FlowerLemonade.name":"Лимонад",
+"atelierjuicebar_FlowerLemonade.description":"Свежевыжатый!",
+
+"atelierjuicebar_FruitSmoothie.name":"Смузи",
+"atelierjuicebar_FruitSmoothie.description":"Идеальный напиток для завтрака!",
+
+"atelierjuicebar_FruitBoba.name":"Бабл-ти",
+"atelierjuicebar_FruitBoba.description":"Бабл-чай со свежими фруктами.",
+
+"atelierjuicebar_FlavoredTea.name":"Холодный чай",
+"atelierjuicebar_FlavoredTea.description":"Свежий холодный чай с добавлением фруктов для придания ему разных вкусов.",
+
+"atelierjuicebar_flavored_kombucha.name":"Комбуча",
+"atelierjuicebar_flavored_kombucha.description":"Ее готовят только из лучшего чая!",
+
+/////////////
+// STRINGS //
+/////////////
+
+"atelierjuicebar_FruitJuice":"{0} Сок",
+"atelierjuicebar_FruitLemonade":"{0} Лимонад",
+"atelierjuicebar_FlowerLemonade":"{0} Лимонад",
+"atelierjuicebar_FruitSmoothie":"{0} Смузи",
+"atelierjuicebar_FruitBoba":"{0} Бабл-ти",
+"atelierjuicebar_FlavoredTea":"{0} Холодный чай",
+"atelierjuicebar_flavored_kombucha":"{0} Комбуча",
+
+
+//////////
+// BOBA //
+//////////
+
+"atelierjuicebar_boba_pearls.name": "Джус боллы",
+"atelierjuicebar_boba_pearls.description": "Желатиновые шарики, которые добавляют в холодный чай и молоко для приготовления бабл-ти.",
+
+"atelierjuicebar_banana_boba.name": "Банановый бабл-ти",
+"atelierjuicebar_banana_boba.description": "Вкусный, прелестный напиток, состоящий из холодного чая с банановым вкусом, с добавлением молока и джус боллов!",
+
+"atelierjuicebar_blacktea_boba.name": "Бабл-ти",
+"atelierjuicebar_blacktea_boba.description": "Вкусный, прелестный напиток, состоящий из холодного чая, с добавлением молока и джус боллов!",
+
+"atelierjuicebar_blueberry_boba.name": "Черничный бабл-ти",
+"atelierjuicebar_blueberry_boba.description": "Вкусный, прелестный напиток, состоящий из холодного чая с черничным вкусом, с добавлением молока и джус боллов!",
+
+"atelierjuicebar_brownsugar_boba.name": "Бабл-ти с коричневым сахаром",
+"atelierjuicebar_brownsugar_boba.description": "Вкусный, прелестный напиток, состоящий из холодного чая со вкусом коричневого сахара, с добавлением молока и джус боллов!",
+
+"atelierjuicebar_caramel_boba.name": "Карамельный бабл-ти",
+"atelierjuicebar_caramel_boba.description": "Вкусный, прелестный напиток, состоящий из холодного чая с карамельным вкусом, с добавлением молока и джус боллов!",
+
+"atelierjuicebar_coconut_boba.name": "Кокосовый бабл-ти",
+"atelierjuicebar_coconut_boba.description": "Вкусный, прелестный напиток, состоящий из холодного чая с кокосовым вкусом, с добавлением молока и джус боллов!",
+
+"atelierjuicebar_coffee_boba.name": "Кофейный бабл-ти",
+"atelierjuicebar_coffee_boba.description": "Вкусный, прелестный напиток, состоящий из холодного чая с кофейным вкусом, с добавлением молока и джус боллов!",
+
+"atelierjuicebar_jasmine_boba.name": "Жасминовый бабл-ти",
+"atelierjuicebar_jasmine_boba.description": "Вкусный, прелестный напиток, состоящий из холодного чая с жасминовым вкусом, с добавлением молока и джус боллов!",
+
+"atelierjuicebar_mango_boba.name": "Манговый бабл-ти",
+"atelierjuicebar_mango_boba.description": "Вкусный, прелестный напиток, состоящий из холодного чая с манговым вкусом, с добавлением молока и джус боллов!",
+
+"atelierjuicebar_matcha_boba.name": "Бабл-матча",
+"atelierjuicebar_matcha_boba.description": "Вкусный, прелестный напиток, состоящий из холодной матчи, с добавлением молока и джус боллов!",
+
+"atelierjuicebar_melon_boba.name": "Дынный бабл-ти",
+"atelierjuicebar_melon_boba.description": "Вкусный, прелестный напиток, состоящий из холодного чая со вкусом дыни, с добавлением молока и джус боллов!",
+
+"atelierjuicebar_oolong_boba.name": "Улуновый бабл-ти",
+"atelierjuicebar_oolong_boba.description": "Вкусный, прелестный напиток, состоящий из холодного улуна, с добавлением молока и джус боллов!",
+
+"atelierjuicebar_peach_boba.name": "Персиковый бабл-ти",
+"atelierjuicebar_peach_boba.description": "Вкусный, прелестный напиток, состоящий из холодного чая с персиковым вкусом, с добавлением молока и джус боллов!",
+
+"atelierjuicebar_rose_boba.name": "Розовый бабл-ти",
+"atelierjuicebar_rose_boba.description": "Вкусный, прелестный напиток, состоящий из холодного чая со вкусом розы, с добавлением молока и джус боллов!",
+
+"atelierjuicebar_strawberry_boba.name": "Клубничный бабл-ти",
+"atelierjuicebar_strawberry_boba.description": "Вкусный, прелестный напиток, состоящий из холодного чая с клубничным вкусом, с добавлением молока и джус боллов!",
+
+"atelierjuicebar_taro_boba.name": "Бабл-ти с корнем Таро",
+"atelierjuicebar_taro_boba.description": "Вкусный, прелестный напиток, состоящий из холодного чая со вкусом корня Таро, с добавлением молока и джус боллов!",
+
+"atelierjuicebar_thai_boba.name": "Тайский бабл-ти",
+"atelierjuicebar_thai_boba.description": "Вкусный, прелестный напиток, состоящий из холодного чая, с добавлением кокосового молока и джус боллов!",
+
+"atelierjuicebar_vanilla_boba.name": "Ванильный бабл-ти",
+"atelierjuicebar_vanilla_boba.description": "Вкусный, прелестный напиток, состоящий из холодного чая с ванильным вкусом, с добавлением молока и джус боллов!",
+
+//////////////////
+// FRUIT JUICES //
+//////////////////
+
+"atelierjuicebar_apple_juice.name": "Изумительный яблочный сок",
+"atelierjuicebar_apple_juice.description": "Сок, приготовленный из свежесобранных яблок!",
+
+"atelierjuicebar_berry_juice.name": "Вкусный ягодный сок",
+"atelierjuicebar_berry_juice.description": "Сок, приготовленный из свежих ягод с фермы!",
+
+"atelierjuicebar_carrot_juice.name": "Морковный кроличий сок",
+"atelierjuicebar_carrot_juice.description": "Сок, приготовленный из свежей моркови с фермы!",
+
+"atelierjuicebar_grape_juice.name": "Виноградный сок",
+"atelierjuicebar_grape_juice.description": "Сок, приготовленный из свежего винограда с фермы!",
+
+"atelierjuicebar_mix_juice.name": "Мультифруктовый сок",
+"atelierjuicebar_mix_juice.description": "Сок, приготовленный из свежих фруктов с фермы!",
+
+"atelierjuicebar_orange_juice.name": "Апельсиновый сок для ранних пташек",
+"atelierjuicebar_orange_juice.description": "Сок, приготовленный из свежих апельсинов с фермы!",
+
+"atelierjuicebar_pomegranate_juice.name": "Гранатовый сок",
+"atelierjuicebar_pomegranate_juice.description": "Сок, приготовленный из свежих гранатов с фермы!",
+
+"atelierjuicebar_tropical_juice.name": "Тропический сок",
+"atelierjuicebar_tropical_juice.description": "Сок из сладких фруктов тропических островов!",
+
+"atelierjuicebar_fruit_punch.name": "Фруктовый пунш",
+"atelierjuicebar_fruit_punch.description": "Сок, приготовленный из свежих фруктов с фермы!",
+
+"atelierjuicebar_amber_juice.name": "Янтарный лунный нектар",
+"atelierjuicebar_amber_juice.description": "Сок из волшебного сорта винограда \"Лунная Капля\".",
+
+"atelierjuicebar_jade_juice.name": "Нефритовый лунный нектар",
+"atelierjuicebar_jade_juice.description": "Сок из волшебного сорта винограда \"Лунная Капля\".",
+
+"atelierjuicebar_lapis_juice.name": "Лазурный лунный нектар",
+"atelierjuicebar_lapis_juice.description": "Сок из волшебного сорта винограда \"Лунная Капля\".",
+
+"atelierjuicebar_pearl_juice.name": "Жемчужный лунный нектар",
+"atelierjuicebar_pearl_juice.description": "Сок из волшебного сорта винограда \"Лунная Капля\".",
+
+"atelierjuicebar_apple_elixir.name": "Притягательный яблочный эликсир",
+"atelierjuicebar_apple_elixir.description": "Сок из мистических яблок.",
+
+"atelierjuicebar_apricot_elixir.name": "Ароматный абрикосовый эликсир",
+"atelierjuicebar_apricot_elixir.description": "Сок из мистических абрикосов.",
+
+"atelierjuicebar_cherry_elixir.name": "Задорный вишневый эликсир",
+"atelierjuicebar_cherry_elixir.description": "Сок из мистической вишни.",
+
+"atelierjuicebar_mango_elixir.name": "Веселящий манговый эликсир",
+"atelierjuicebar_mango_elixir.description": "Сок из мистического манго.",
+
+"atelierjuicebar_orange_elixir.name": "Чарующий апельсиновый эликсир",
+"atelierjuicebar_orange_elixir.description": "Сок из мистических апельсинов.",
+
+"atelierjuicebar_peach_elixir.name": "Игривый персиковый эликсир",
+"atelierjuicebar_peach_elixir.description": "Сок из мистических персиков.",
+
+"atelierjuicebar_pomegranate_elixir.name": "Страстный гранатовый эликсир",
+"atelierjuicebar_pomegranate_elixir.description": "Сок из мистических гранатов.",
+
+///////////////
+// LEMONADES //
+///////////////
+
+"atelierjuicebar_blackberry_lemonade.name": "Ежевичный лимонад",
+"atelierjuicebar_blackberry_lemonade.description": "Освежающий лимонад из свежесобранной ежевики.",
+
+"atelierjuicebar_chamomile_lemonade.name": "Ромашковый лимонад",
+"atelierjuicebar_chamomile_lemonade.description": "Освежающий лимонад из лепестков ромашки",
+
+"atelierjuicebar_cherry_lemonade.name": "Вишневый лимонад",
+"atelierjuicebar_cherry_lemonade.description": "Интересный вариант лимонада из свежей вишни.",
+
+"atelierjuicebar_classic_lemonade.name": "Классический лимонад",
+"atelierjuicebar_classic_lemonade.description": "Освежающий напиток на основе свежевыжатого лимонного сока.",
+
+"atelierjuicebar_green_lemonade.name": "Лимонад с зеленым чаем",
+"atelierjuicebar_green_lemonade.description": "Освежающий лимонад на основе зеленого чая.",
+
+"atelierjuicebar_jasmine_lemonade.name": "Жасминовый лимонад",
+"atelierjuicebar_jasmine_lemonade.description": "Освежающий лимонад с лепестками жасмина.",
+
+"atelierjuicebar_lavender_lemonade.name": "Лавандовый лимонад",
+"atelierjuicebar_lavender_lemonade.description": "Освежающий лимонад с лавандой.",
+
+"atelierjuicebar_lime_lemonade.name": "Лаймовый лимонад",
+"atelierjuicebar_lime_lemonade.description": "Освежающий лимонад с пикантным соком лайма.",
+
+"atelierjuicebar_melon_lemonade.name": "Мелонад",
+"atelierjuicebar_melon_lemonade.description": "Освежающий лимонад из летней дыни.",
+
+"atelierjuicebar_mint_lemonade.name": "Мятный лимонад",
+"atelierjuicebar_mint_lemonade.description": "Освежающий лимонад с мятой.",
+
+"atelierjuicebar_pomegranate_lemonade.name": "Гранатовый лимонад",
+"atelierjuicebar_pomegranate_lemonade.description": "Освежающий лимонад на основе гранатового сока.",
+
+"atelierjuicebar_pink_lemonade.name": "Очень розовый лимонад",
+"atelierjuicebar_pink_lemonade.description": "Освежающий лимонад на основе клубничного сока.",
+
+"atelierjuicebar_rose_lemonade.name": "Розовый лимонад",
+"atelierjuicebar_rose_lemonade.description": "Освежающий лимонад с лепестками роз.",
+
+"atelierjuicebar_raspberry_lemonade.name": "Малиновый лимонад",
+"atelierjuicebar_raspberry_lemonade.description": "Освежающий лимонад на основе малинового сока.",
+
+//////////////
+// ICED TEA //
+//////////////
+
+"atelierjuicebar_iced_tea.name": "Сладкий холодный чай",
+"atelierjuicebar_iced_tea.description": "Холодный чай в стакане.",
+
+"atelierjuicebar_green_icedtea.name": "Холодный зеленый чай",
+"atelierjuicebar_green_icedtea.description": "Холодный зеленый чай в стакане.",
+
+"atelierjuicebar_pineapple_icedtea.name": "Ананасовый холодный чай",
+"atelierjuicebar_pineapple_icedtea.description": "Холодный чай со вкусом ананаса в стакане.",
+
+"atelierjuicebar_peach_icedtea.name": "Персиковый холодный чай",
+"atelierjuicebar_peach_icedtea.description": "Холодный чай со вкусом персика в стакане.",
+
+"atelierjuicebar_thai_icedtea.name": "Тайский холодный чай",
+"atelierjuicebar_thai_icedtea.description": "Холодный чай, подслащенный кокосовым молоком, в стакане.",
+
+///////////////
+// SMOOTHIES //
+///////////////
+
+"atelierjuicebar_ancient_smoothie.name": "Смузи \"Древняя Мудрость\"",
+"atelierjuicebar_ancient_smoothie.description": "Освежающий смузи, идеально подходящий для завтрака на ходу!",
+
+"atelierjuicebar_berry_smoothie.name": "Смузи \"Ягодный Блиц\"",
+"atelierjuicebar_berry_smoothie.description": "Освежающий смузи, идеально подходящий для завтрака на ходу!",
+
+"atelierjuicebar_berrybanana_smoothie.name": "Клубнично-банановый смузи",
+"atelierjuicebar_berrybanana_smoothie.description": "Освежающий смузи, идеально подходящий для завтрака на ходу!",
+
+"atelierjuicebar_berrykale_smoothie.name": "Чернично-капустный смузи",
+"atelierjuicebar_berrykale_smoothie.description": "Освежающий смузи, идеально подходящий для завтрака на ходу!",
+
+"atelierjuicebar_chocoberry_smoothie.name": "Шоколадно-ягодный смузи",
+"atelierjuicebar_chocoberry_smoothie.description": "Освежающий смузи, идеально подходящий для завтрака на ходу!",
+
+"atelierjuicebar_gemberry_smoothie.name": "Смузи \"Взрыв Сладкой Ягоды\"",
+"atelierjuicebar_gemberry_smoothie.description": "Освежающий смузи, идеально подходящий для завтрака на ходу!",
+
+"atelierjuicebar_peachmango_smoothie.name": "Персиково-манговый смузи",
+"atelierjuicebar_peachmango_smoothie.description": "Освежающий смузи, идеально подходящий для завтрака на ходу!",
+
+"atelierjuicebar_sunshine_smoothie.name": "Смузи \"Летнее Солнце\"",
+"atelierjuicebar_sunshine_smoothie.description": "Освежающий смузи, идеально подходящий для завтрака на ходу!",
+
+"atelierjuicebar_tropical_smoothie.name": "Смузи \"Тропический Оазис\"",
+"atelierjuicebar_tropical_smoothie.description": "Освежающий смузи, идеально подходящий для завтрака на ходу!",
+
+//KOMBUCHA
+
+"ateliertea_apple_kombucha.name": "Осенняя яблочная комбуча",
+"ateliertea_apple_kombucha.description": "Чай с медом после ферментации превращается в восхитительный шипучий напиток.",
+
+"ateliertea_vanilla_kombucha.name": "Ванильная комбуча",
+"ateliertea_vanilla_kombucha.description": "Чай с медом после ферментации превращается в восхитительный шипучий напиток.",
+
+"ateliertea_matcha_kombucha.name": "Комбуча на Церемониальной матче",
+"ateliertea_matcha_kombucha.description": "Чай с медом после ферментации превращается в восхитительный шипучий напиток.",
+
+"ateliertea_cinnamon_kombucha.name": "Комбуча с корицей",
+"ateliertea_cinnamon_kombucha.description": "Чай с медом после ферментации превращается в восхитительный шипучий напиток.",
+
+"ateliertea_chamomile_kombucha.name": "Уютная ромашковая комбуча",
+"ateliertea_chamomile_kombucha.description": "Чай с медом после ферментации превращается в восхитительный шипучий напиток.",
+
+"ateliertea_breakfast_kombucha.name": "Английская комбуча",
+"ateliertea_breakfast_kombucha.description": "Чай с медом после ферментации превращается в восхитительный шипучий напиток.",
+
+"ateliertea_jasmine_kombucha.name": "Ароматная жасминовая комбуча",
+"ateliertea_jasmine_kombucha.description": "Чай с медом после ферментации превращается в восхитительный шипучий напиток.",
+
+"ateliertea_ginger_kombucha.name": "Имбирно-персиковая комбуча",
+"ateliertea_ginger_kombucha.description": "Чай с медом после ферментации превращается в восхитительный шипучий напиток.",
+
+"ateliertea_grey_kombucha.name": "Комбуча Леди Грей",
+"ateliertea_grey_kombucha.description": "Чай с медом после ферментации превращается в восхитительный шипучий напиток.",
+
+"ateliertea_lemon_kombucha.name": "Лимонно-имбирная комбуча",
+"ateliertea_lemon_kombucha.description": "Чай с медом после ферментации превращается в восхитительный шипучий напиток.",
+
+"ateliertea_mint_kombucha.name": "Мятная комбуча",
+"ateliertea_mint_kombucha.description": "Чай с медом после ферментации превращается в восхитительный шипучий напиток.",
+
+"ateliertea_berry_kombucha.name": "Ягодная комбуча",
+"ateliertea_berry_kombucha.description": "Чай с медом после ферментации превращается в восхитительный шипучий напиток.",
+
+"ateliertea_peach_kombucha.name": "Персиково-манговая комбуча",
+"ateliertea_peach_kombucha.description": "Чай с медом после ферментации превращается в восхитительный шипучий напиток.",
+
+"ateliertea_pineapple_kombucha.name": "Ананасово-кокосовая комбуча",
+"ateliertea_pineapple_kombucha.description": "Чай с медом после ферментации превращается в восхитительный шипучий напиток.",
+
+"ateliertea_pomegranate_kombucha.name": "Гранатовая комбуча на зелёном чае",
+"ateliertea_pomegranate_kombucha.description": "Чай с медом после ферментации превращается в восхитительный шипучий напиток.",
+
+"ateliertea_raspberry_kombucha.name": "Малиновая комбуча",
+"ateliertea_raspberry_kombucha.description": "Чай с медом после ферментации превращается в восхитительный шипучий напиток.",
+
+"ateliertea_rose_kombucha.name": "Розовая комбуча",
+"ateliertea_rose_kombucha.description": "Чай с медом после ферментации превращается в восхитительный шипучий напиток.",
+
+"ateliertea_sakura_kombucha.name": "Комбуча с сакурой",
+"ateliertea_sakura_kombucha.description": "Чай с медом после ферментации превращается в восхитительный шипучий напиток.",
+
+"ateliertea_strawberry_kombucha.name": "Клубничная комбуча",
+"ateliertea_strawberry_kombucha.description": "Чай с медом после ферментации превращается в восхитительный шипучий напиток.",
+
+
+//////////
+// MAIL //
+//////////
+
+"atelierjuicebar_JuicerRecipe.name":"Свежевыжатый сок",
+"atelierjuicebar_JuicerRecipe.text":"@, ^^ Ферма действительно набирает обороты, думаю, скоро ты будешь по уши в фруктах! Робин поделилась со мной этим чертежом соковыжималки много лет назад, но вероятно, тебе он больше пригодится, чем мне!^^ - Джоди",
+
+"atelierjuicebar_BobaStationRecipe.name":"Бабл-ти лучше!",
+"atelierjuicebar_BobaStationRecipe.text":"@, ^^ Приготовление бабл-ти своими руками похоже на научный эксперимент, который потом можно выпить. Не рекомендую это делать с большинством других научных экспериментов. Не стесняйся поделиться со мной своим бабл-ти в любое время! ^^ - Мару",
+
+"atelierjuicebar_LemonadeStandRecipe.name":"Тебе нравится лимонад?",
+"atelierjuicebar_LemonadeStandRecipe.text":"@, ^^ У тебя в детстве когда-нибудь был стенд с лимонадом?? Тетя Марни не разрешила мне поставить его в лесу, потому что она думает, что еноты украдут весь мой лимонад.. Может быть, я смогу прийти, чтобы мы приготовили лимонад вместе?^^ - Джас",
+
+"atelierjuicebar_evelyn.name":"Ледяная свежесть",
+"atelierjuicebar_evelyn.text":"@, ^^ Ты знаешь, что я люблю чай, поэтому для тебя не должно быть большим сюрпризом то, что я люблю и чай со льдом! Эти мини-лимоны станут прекрасным дополнением к чаю, горячему или холодному. Надеюсь, ты найдешь им хорошее применение!^^ - Эвелин",
+
+"atelierjuicebar_emily.name":"Шариковая милость",
+"atelierjuicebar_emily.text":"@, ^^ Мару упомянула, что поделилась с тобой чертежом бабл-мейкера! Это так классно! Ты знаешь, что можно сделать джус боллы из зимнего корня, который ты выкапываешь здесь в холодное время года? Поделись со мной бабл-ти, когда приготовишь, ладно??! Я бы тоже хотела поделиться кое-чем с тобой.^^ - Эмили",
+
+"atelierjuicebar_lewis.name":"Когда жизнь дает тебе лаймы",
+"atelierjuicebar_lewis.text":"@, ^^ Я люблю выпить стакан свежего лимонада, но ты знаешь, что можно готовить и лаймонад? Я уже несколько лет выращиваю у себя мини-лаймовое дерево; почему бы тебе не попробовать добавить их в свои домашние соки?^^ - Льюис",
+
+}

@@ -1,0 +1,404 @@
+{
+
+//////////////
+// MACHINES //
+//////////////
+
+"atelierjuicebar_JuiceStation.name": "Estación de Jugo",
+"atelierjuicebar_JuiceStation.description": "Convierte frutas y miel en jugo.",
+
+"atelierjuicebar_BobaStation.name": "Estación de Boba",
+"atelierjuicebar_BobaStation.description": "Convierte ingredientes y perlas de boba en Bubble Tea.",
+
+"atelierjuicebar_LemonadeStand.name": "Puesto de Limonada",
+"atelierjuicebar_LemonadeStand.description": "Convierte frutas y jarabe de limón en limonada con sabor.",
+
+///////////////////////////
+// MACHINE NOTIFICATIONS //
+///////////////////////////
+
+"atelierjuicebar_JuiceStation_InvalidItem.message": "No se puede procesar esto",
+"atelierjuicebar_JuiceStation_InvalidCount.message": "Requiere miel",
+
+"atelierjuicebar_BobaStation_InvalidItem.message": "No se puede procesar esto",
+"atelierjuicebar_BobaStation_InvalidCount.message": "Requiere Perlas de Boba",
+
+"atelierjuicebar_LemonadeStand_InvalidItem.message": "No se puede procesar esto",
+"atelierjuicebar_LemonadeStand_InvalidCount.message": "Requiere Jarabe de Limón",
+
+/////////////////////////////
+// NEW MOD SUPPORTED ITEMS //
+/////////////////////////////
+
+"atelierjuicebar_gardenia_lemonade.name": "Limonada de Gardenia",
+"atelierjuicebar_gardenia_lemonade.description": "Limonada recién exprimida con sabor a flores de gardenia.",
+
+"atelierjuicebar_hibiscus_lemonade.name": "Limonada de Hibisco",
+"atelierjuicebar_hibiscus_lemonade.description": "Limonada recién exprimida con sabor a flores de hibisco.",
+
+"atelierjuicebar_gardenia_kombucha.name": "Kombucha de Gardenia",
+"atelierjuicebar_gardenia_kombucha.description": "Bebida fermentada hecha con té de gardenia.",
+
+"atelierjuicebar_hibiscus_kombucha.name": "Kombucha de Hibisco",
+"atelierjuicebar_hibiscus_kombucha.description": "Bebida fermentada hecha con té de hibisco.",
+
+"atelierjuicebar_borage_lemonade.name": "Limonada de Borraja",
+"atelierjuicebar_borage_lemonade.description": "Limonada recién exprimida con sabor a flores de borraja.",
+
+"atelierjuicebar_calendula_lemonade.name": "Limonada de Caléndula",
+"atelierjuicebar_calendula_lemonade.description": "Limonada recién exprimida con sabor a flores de caléndula.",
+
+"atelierjuicebar_borage_kombucha.name": "Kombucha de Borraja",
+"atelierjuicebar_borage_kombucha.description": "Bebida fermentada hecha con té de borraja.",
+
+"atelierjuicebar_calendula_kombucha.name": "Kombucha de Caléndula",
+"atelierjuicebar_calendula_kombucha.description": "Bebida fermentada hecha con té de caléndula.",
+
+"atelierjuicebar_hollyhock_lemonade.name": "Limonada de Malvarosa",
+"atelierjuicebar_hollyhock_lemonade.description": "Limonada recién exprimida con sabor a flores de malvarrosa.",
+
+"atelierjuicebar_springpansy_lemonade.name": "Limonada de Pensamiento",
+"atelierjuicebar_springpansy_lemonade.description": "Limonada recién exprimida con sabor a flores de pensamiento.",
+
+"atelierjuicebar_hollyhock_kombucha.name": "Kombucha de Malvarrosa",
+"atelierjuicebar_hollyhock_kombucha.description": "Bebida fermentada hecha con té de malvarrosa.",
+
+"atelierjuicebar_springpansy_kombucha.name": "Kombucha de Pensamiento",
+"atelierjuicebar_springpansy_kombucha.description": "Bebida fermentada hecha con té de pensamiento.",
+
+"atelierjuicebar_orangeblossom_lemonade.name": "Limonada de Flor de Azahar",
+"atelierjuicebar_orangeblossom_lemonade.description": "Limonada recién exprimida con sabor a flores de azahar.",
+
+"atelierjuicebar_orangeblossom_kombucha.name": "Kombucha de Flor de Azahar",
+"atelierjuicebar_orangeblossom_kombucha.description": "Bebida fermentada hecha con té de flor de azahar.",
+
+///////////////////////
+// NEW GENERIC ITEMS //
+///////////////////////
+
+"atelierjuicebar_FruitJuice.name": "Jugo",
+"atelierjuicebar_FruitJuice.description": "¡Recién exprimido!",
+
+"atelierjuicebar_FruitLemonade.name": "Limonada",
+"atelierjuicebar_FruitLemonade.description": "¡Recién exprimido!",
+
+"atelierjuicebar_FlowerLemonade.name": "Limonada",
+"atelierjuicebar_FlowerLemonade.description": "¡Recién exprimido!",
+
+"atelierjuicebar_FruitSmoothie.name": "Batido",
+"atelierjuicebar_FruitSmoothie.description": "¡La bebida perfecta para el desayuno!",
+
+"atelierjuicebar_FruitBoba.name": "Boba",
+"atelierjuicebar_FruitBoba.description": "Té de burbujas hecho con fruta fresca.",
+
+"atelierjuicebar_FlavoredTea.name": "Té Helado",
+"atelierjuicebar_FlavoredTea.description": "¡Té helado fresco con fruta añadida para sabor!",
+
+"atelierjuicebar_flavored_kombucha.name": "Kombucha",
+"atelierjuicebar_flavored_kombucha.description": "¡Elaborado solo con el mejor té!",
+
+    
+//////////
+// BOBA //
+//////////
+
+"atelierjuicebar_boba_pearls.name": "Perlas de Boba",
+"atelierjuicebar_boba_pearls.description": "Esferas almidonadas y gelatinosas que se añaden al té frío y la leche para hacer té de burbujas.",
+
+"atelierjuicebar_banana_boba.name": "Té de Boba de Plátano",
+"atelierjuicebar_banana_boba.description": "¡Una deliciosa y linda bebida que consiste en té helado con sabor a plátano, terminado con leche y perlas de boba masticables!",
+
+"atelierjuicebar_blacktea_boba.name": "Té de Boba",
+"atelierjuicebar_blacktea_boba.description": "¡Una deliciosa y linda bebida que consiste en té helado terminado con leche y perlas de boba masticables!",
+
+"atelierjuicebar_blueberry_boba.name": "Té de Boba de Arándano",
+"atelierjuicebar_blueberry_boba.description": "¡Una deliciosa y linda bebida que consiste en té helado con sabor a arándano, terminado con leche y perlas de boba masticables!",
+
+"atelierjuicebar_brownsugar_boba.name": "Té de Boba de Azúcar Moreno",
+"atelierjuicebar_brownsugar_boba.description": "¡Una deliciosa y linda bebida que consiste en té helado con sabor a azúcar moreno, terminado con leche y perlas de boba masticables!",
+
+"atelierjuicebar_caramel_boba.name": "Té de Boba de Caramelo",
+"atelierjuicebar_caramel_boba.description": "¡Una deliciosa y linda bebida que consiste en té helado con sabor a caramelo, terminado con leche y perlas de boba masticables!",
+
+"atelierjuicebar_coconut_boba.name": "Té de Boba de Coco",
+"atelierjuicebar_coconut_boba.description": "¡Una deliciosa y linda bebida que consiste en té helado con sabor a coco, terminado con leche y perlas de boba masticables!",
+
+"atelierjuicebar_coffee_boba.name": "Té de Boba de Café",
+"atelierjuicebar_coffee_boba.description": "¡Una deliciosa y linda bebida que consiste en té helado con sabor a café, terminado con leche y perlas de boba masticables!",
+
+"atelierjuicebar_jasmine_boba.name": "Té de Boba de Jazmín",
+"atelierjuicebar_jasmine_boba.description": "¡Una deliciosa y linda bebida que consiste en té helado con sabor a jazmín, terminado con leche y perlas de boba masticables!",
+
+"atelierjuicebar_mango_boba.name": "Té de Boba de Mango",
+"atelierjuicebar_mango_boba.description": "¡Una deliciosa y linda bebida que consiste en té helado con sabor a mango, terminado con leche y perlas de boba masticables!",
+
+"atelierjuicebar_matcha_boba.name": "Té de Boba de Matcha",
+"atelierjuicebar_matcha_boba.description": "¡Una deliciosa y linda bebida que consiste en té helado de matcha terminado con leche y perlas de boba masticables!",
+
+"atelierjuicebar_melon_boba.name": "Té de Boba de Melón",
+"atelierjuicebar_melon_boba.description": "¡Una deliciosa y linda bebida que consiste en té helado con sabor a melón, terminado con leche y perlas de boba masticables!",
+
+"atelierjuicebar_oolong_boba.name": "Té de Boba de Oolong",
+"atelierjuicebar_oolong_boba.description": "¡Una deliciosa y linda bebida que consiste en té oolong helado, terminado con leche y perlas de boba masticables!",
+
+"atelierjuicebar_peach_boba.name": "Té de Boba de Durazno",
+"atelierjuicebar_peach_boba.description": "¡Una deliciosa y linda bebida que consiste en té helado con sabor a duraznos, terminado con leche y perlas de boba masticables!",
+
+"atelierjuicebar_rose_boba.name": "Té de Boba de Rosa",
+"atelierjuicebar_rose_boba.description": "¡Una deliciosa y linda bebida que consiste en té helado con sabor a rosa, terminado con leche y perlas de boba masticables!",
+
+"atelierjuicebar_strawberry_boba.name": "Té de Boba de Fresa",
+"atelierjuicebar_strawberry_boba.description": "¡Una deliciosa y linda bebida que consiste en té helado con sabor a fresas, terminado con leche y perlas de boba masticables!",
+
+"atelierjuicebar_taro_boba.name": "Té de Boba de Taro",
+"atelierjuicebar_taro_boba.description": "¡Una deliciosa y linda bebida que consiste en té helado con sabor a taro, terminado con leche y perlas de boba masticables!",
+
+"atelierjuicebar_thai_boba.name": "Té de Boba Tailandés",
+"atelierjuicebar_thai_boba.description": "¡Una deliciosa y linda bebida que consiste en té helado con leche de coco y perlas de boba masticables!",
+
+"atelierjuicebar_vanilla_boba.name": "Té de Boba de Vainilla",
+"atelierjuicebar_vanilla_boba.description": "¡Una deliciosa y linda bebida que consiste en té helado con sabor a vainilla, terminado con leche y perlas de boba masticables!",
+
+//////////////////
+// FRUIT JUICES //
+//////////////////
+
+"atelierjuicebar_apple_juice.name": "Jugo de Manzana Asombroso",
+"atelierjuicebar_apple_juice.description": "¡Jugo hecho con manzanas recién cosechadas!",
+
+"atelierjuicebar_berry_juice.name": "Jugo de Bayas Deliciosas",
+"atelierjuicebar_berry_juice.description": "¡Jugo hecho con bayas frescas de la granja!",
+
+"atelierjuicebar_carrot_juice.name": "Jugo de Zanahoria Amorosa",
+"atelierjuicebar_carrot_juice.description": "¡Jugo hecho con zanahorias frescas de la granja!",
+
+"atelierjuicebar_grape_juice.name": "Jugo de Uva",
+"atelierjuicebar_grape_juice.description": "¡Jugo hecho con uvas frescas de la granja!",
+
+"atelierjuicebar_mix_juice.name": "Jugo de Frutas Variadas",
+"atelierjuicebar_mix_juice.description": "¡Jugo hecho con frutas frescas de la granja!",
+
+"atelierjuicebar_orange_juice.name": "Jugo de Naranja Madrugadora",
+"atelierjuicebar_orange_juice.description": "¡Jugo hecho con naranjas frescas de la granja!",
+
+"atelierjuicebar_pomegranate_juice.name": "Jugo de Granada",
+"atelierjuicebar_pomegranate_juice.description": "¡Jugo hecho con granadas frescas de la granja!",
+
+"atelierjuicebar_tropical_juice.name": "Jugo de Frutas Tropicales",
+"atelierjuicebar_tropical_juice.description": "¡Jugo hecho con dulces frutas isleñas!",
+
+"atelierjuicebar_fruit_punch.name": "Ponche de Frutas",
+"atelierjuicebar_fruit_punch.description": "¡Jugo hecho con frutas frescas de la granja!",
+
+"atelierjuicebar_amber_juice.name": "Néctar de Luna Ámbar",
+"atelierjuicebar_amber_juice.description": "Jugo hecho de uvas mágicas de gotas de luna.",
+
+"atelierjuicebar_jade_juice.name": "Néctar de Luna de Jade",
+"atelierjuicebar_jade_juice.description": "Jugo hecho de uvas mágicas de gotas de luna.",
+
+"atelierjuicebar_lapis_juice.name": "Néctar de Luna de Lapislázuli",
+"atelierjuicebar_lapis_juice.description": "Jugo hecho de uvas mágicas de gotas de luna.",
+
+"atelierjuicebar_pearl_juice.name": "Néctar de Luna de Perla",
+"atelierjuicebar_pearl_juice.description": "Jugo hecho de uvas mágicas de gotas de luna.",
+
+"atelierjuicebar_apple_elixir.name": "Elixir de Manzana Encantador",
+"atelierjuicebar_apple_elixir.description": "Jugo hecho de manzanas místicas.",
+
+"atelierjuicebar_apricot_elixir.name": "Elixir de Albaricoque Aromático",
+"atelierjuicebar_apricot_elixir.description": "Jugo hecho de albaricoques místicos.",
+
+"atelierjuicebar_cherry_elixir.name": "Elixir de Cereza Alegre",
+"atelierjuicebar_cherry_elixir.description": "Jugo hecho de cerezas místicas.",
+
+"atelierjuicebar_mango_elixir.name": "Elixir de Mango Alegre",
+"atelierjuicebar_mango_elixir.description": "Jugo hecho de mangos místicos.",
+
+"atelierjuicebar_orange_elixir.name": "Elixir de Naranja Encantador",
+"atelierjuicebar_orange_elixir.description": "Jugo hecho de naranjas místicas.",
+
+"atelierjuicebar_peach_elixir.name": "Elixir de Durazno Juguetón",
+"atelierjuicebar_peach_elixir.description": "Jugo hecho de duraznos místicos.",
+
+"atelierjuicebar_pomegranate_elixir.name": "Elixir de Granada Apasionado",
+"atelierjuicebar_pomegranate_elixir.description": "Jugo hecho de granadas místicas.",
+
+///////////////
+// LEMONADES //
+///////////////
+
+"atelierjuicebar_blackberry_lemonade.name": "Limonada de Mora",
+"atelierjuicebar_blackberry_lemonade.description": "Limonada fresca hecha con moras recolectadas.",
+
+"atelierjuicebar_chamomile_lemonade.name": "Limonada de Manzanilla",
+"atelierjuicebar_chamomile_lemonade.description": "Limonada fresca hecha con pétalos de manzanilla.",
+
+"atelierjuicebar_cherry_lemonade.name": "Limonada de Cereza",
+"atelierjuicebar_cherry_lemonade.description": "Una divertida variante de limonada, hecha con cerezas frescas.",
+
+"atelierjuicebar_classic_lemonade.name": "Limonada Clásica",
+"atelierjuicebar_classic_lemonade.description": "Una refrescante bebida hecha con limones recién exprimidos.",
+
+"atelierjuicebar_green_lemonade.name": "Limonada de Té Verde",
+"atelierjuicebar_green_lemonade.description": "Limonada fresca hecha con té verde.",
+
+"atelierjuicebar_jasmine_lemonade.name": "Limonada de Jazmín",
+"atelierjuicebar_jasmine_lemonade.description": "Limonada fresca hecha con pétalos de jazmín.",
+
+"atelierjuicebar_lavender_lemonade.name": "Limonada de Lavanda",
+"atelierjuicebar_lavender_lemonade.description": "Limonada fresca hecha con lavanda.",
+
+"atelierjuicebar_lime_lemonade.name": "Limonada de Lima",
+"atelierjuicebar_lime_lemonade.description": "Limonada fresca hecha con jugo de lima zestia.",
+
+"atelierjuicebar_melon_lemonade.name": "Melonada",
+"atelierjuicebar_melon_lemonade.description": "Limonada fresca hecha con melón de verano.",
+
+"atelierjuicebar_mint_lemonade.name": "Limonada de Menta",
+"atelierjuicebar_mint_lemonade.description": "Limonada fresca hecha con hojas de menta.",
+
+"atelierjuicebar_pomegranate_lemonade.name": "Limonada de Granada",
+"atelierjuicebar_pomegranate_lemonade.description": "Limonada fresca hecha con jugo de granada.",
+
+"atelierjuicebar_pink_lemonade.name": "Limonada Rosada",
+"atelierjuicebar_pink_lemonade.description": "Limonada fresca hecha con jugo de fresa.",
+
+"atelierjuicebar_rose_lemonade.name": "Limonada de Rosa",
+"atelierjuicebar_rose_lemonade.description": "Limonada fresca hecha con pétalos de rosa.",
+
+"atelierjuicebar_raspberry_lemonade.name": "Limonada de Frambuesa",
+"atelierjuicebar_raspberry_lemonade.description": "Limonada fresca hecha con jugo de frambuesa.",
+
+//////////////
+// ICED TEA //
+//////////////
+
+"atelierjuicebar_iced_tea.name": "Té Helado Dulce",
+"atelierjuicebar_iced_tea.description": "Un vaso alto de té helado.",
+
+"atelierjuicebar_green_icedtea.name": "Té Verde Helado",
+"atelierjuicebar_green_icedtea.description": "Un vaso alto de té verde helado.",
+
+"atelierjuicebar_pineapple_icedtea.name": "Té Helado de Piña",
+"atelierjuicebar_pineapple_icedtea.description": "Un vaso alto de té helado con sabor a mango.",
+
+"atelierjuicebar_peach_icedtea.name": "Té Helado de Durazno",
+"atelierjuicebar_peach_icedtea.description": "Un vaso alto de té helado con sabor a duraznos.",
+
+"atelierjuicebar_thai_icedtea.name": "Té Helado Tailandés",
+"atelierjuicebar_thai_icedtea.description": "Un vaso alto de té helado endulzado con leche de coco.",
+
+///////////////
+// SMOOTHIES //
+///////////////
+
+"atelierjuicebar_ancient_smoothie.name": "Batido de Sabiduría Antigua",
+"atelierjuicebar_ancient_smoothie.description": "Un batido refrescante, perfecto para desayunar sobre la marcha.",
+
+"atelierjuicebar_berry_smoothie.name": "Batido de Bayas Explosivas",
+"atelierjuicebar_berry_smoothie.description": "Un batido refrescante, perfecto para desayunar sobre la marcha.",
+
+"atelierjuicebar_berrybanana_smoothie.name": "Batido de Fresa y Plátano",
+"atelierjuicebar_berrybanana_smoothie.description": "Un batido refrescante, perfecto para desayunar sobre la marcha.",
+
+"atelierjuicebar_berrykale_smoothie.name": "Batido de Arándanos y Col Rizada",
+"atelierjuicebar_berrykale_smoothie.description": "Un batido refrescante, perfecto para desayunar sobre la marcha.",
+
+"atelierjuicebar_chocoberry_smoothie.name": "Batido de Chocolate y Bayas",
+"atelierjuicebar_chocoberry_smoothie.description": "Un batido refrescante, perfecto para desayunar sobre la marcha.",
+
+"atelierjuicebar_gemberry_smoothie.name": "Batido Explosión de Bayas Gemas",
+"atelierjuicebar_gemberry_smoothie.description": "Un batido refrescante, perfecto para desayunar sobre la marcha.",
+
+"atelierjuicebar_peachmango_smoothie.name": "Batido de Durazno y Mango",
+"atelierjuicebar_peachmango_smoothie.description": "Un batido refrescante, perfecto para desayunar sobre la marcha.",
+
+"atelierjuicebar_sunshine_smoothie.name": "Batido de Verano Radiante",
+"atelierjuicebar_sunshine_smoothie.description": "Un batido refrescante, perfecto para desayunar sobre la marcha.",
+
+"atelierjuicebar_tropical_smoothie.name": "Batido Oasis Tropical",
+"atelierjuicebar_tropical_smoothie.description": "Un batido refrescante, perfecto para desayunar sobre la marcha.",
+
+//KOMBUCHA
+
+"atelierjuicebar_apple_kombucha.name": "Kombucha de Manzana de Otoño",
+"atelierjuicebar_apple_kombucha.description": "Té que ha sido fermentado con miel en una deliciosa bebida efervescente.",
+
+"atelierjuicebar_vanilla_kombucha.name": "Kombucha de Vainilla Calico",
+"atelierjuicebar_vanilla_kombucha.description": "Té que ha sido fermentado con miel en una deliciosa bebida efervescente.",
+
+"atelierjuicebar_matcha_kombucha.name": "Kombucha de Matcha Ceremonial",
+"atelierjuicebar_matcha_kombucha.description": "Té que ha sido fermentado con miel en una deliciosa bebida efervescente.",
+
+"atelierjuicebar_cinnamon_kombucha.name": "Kombucha de Especias de Canela",
+"atelierjuicebar_cinnamon_kombucha.description": "Té que ha sido fermentado con miel en una deliciosa bebida efervescente.",
+
+"atelierjuicebar_chamomile_kombucha.name": "Kombucha de Manzanilla Acogedora",
+"atelierjuicebar_chamomile_kombucha.description": "Té que ha sido fermentado con miel en una deliciosa bebida efervescente.",
+
+"atelierjuicebar_breakfast_kombucha.name": "Kombucha de Té 'Earl Grey'",
+"atelierjuicebar_breakfast_kombucha.description": "Té que ha sido fermentado con miel en una deliciosa bebida efervescente.",
+
+"atelierjuicebar_jasmine_kombucha.name": "Kombucha de Jazmín Fragante",
+"atelierjuicebar_jasmine_kombucha.description": "Té que ha sido fermentado con miel en una deliciosa bebida efervescente.",
+
+"atelierjuicebar_ginger_kombucha.name": "Kombucha de Durazno y Jengibre",
+"atelierjuicebar_ginger_kombucha.description": "Té que ha sido fermentado con miel en una deliciosa bebida efervescente.",
+
+"atelierjuicebar_grey_kombucha.name": "Kombucha de Lady Grey",
+"atelierjuicebar_grey_kombucha.description": "Té que ha sido fermentado con miel en una deliciosa bebida efervescente.",
+
+"atelierjuicebar_lemon_kombucha.name": "Kombucha de Limón y Jengibre",
+"atelierjuicebar_lemon_kombucha.description": "Té que ha sido fermentado con miel en una deliciosa bebida efervescente.",
+
+"atelierjuicebar_mint_kombucha.name": "Kombucha de Menta Alegre",
+"atelierjuicebar_mint_kombucha.description": "Té que ha sido fermentado con miel en una deliciosa bebida efervescente.",
+
+"atelierjuicebar_berry_kombucha.name": "Kombucha de Bayas Mixtas",
+"atelierjuicebar_berry_kombucha.description": "Té que ha sido fermentado con miel en una deliciosa bebida efervescente.",
+
+"atelierjuicebar_peach_kombucha.name": "Kombucha de Durazno y Mango",
+"atelierjuicebar_peach_kombucha.description": "Té que ha sido fermentado con miel en una deliciosa bebida efervescente.",
+
+"atelierjuicebar_pineapple_kombucha.name": "Kombucha de Piña y Coco",
+"atelierjuicebar_pineapple_kombucha.description": "Té que ha sido fermentado con miel en una deliciosa bebida efervescente.",
+
+"atelierjuicebar_pomegranate_kombucha.name": "Kombucha de Granada Verde",
+"atelierjuicebar_pomegranate_kombucha.description": "Té que ha sido fermentado con miel en una deliciosa bebida efervescente.",
+
+"atelierjuicebar_raspberry_kombucha.name": "Kombucha de Frambuesa",
+"atelierjuicebar_raspberry_kombucha.description": "Té que ha sido fermentado con miel en una deliciosa bebida efervescente.",
+
+"atelierjuicebar_rose_kombucha.name": "Kombucha de Pétalos de Rosa",
+"atelierjuicebar_rose_kombucha.description": "Té que ha sido fermentado con miel en una deliciosa bebida efervescente.",
+
+"atelierjuicebar_sakura_kombucha.name": "Kombucha de Sakura",
+"atelierjuicebar_sakura_kombucha.description": "Té que ha sido fermentado con miel en una deliciosa bebida efervescente.",
+
+"atelierjuicebar_strawberry_kombucha.name": "Kombucha de Fresa Silvestre",
+"atelierjuicebar_strawberry_kombucha.description": "Té que ha sido fermentado con miel en una deliciosa bebida efervescente.",
+
+
+//////////
+// MAIL //
+//////////
+
+"atelierjuicebar_JuicerRecipe.name": "Jugo Recién Exprimido",
+"atelierjuicebar_JuicerRecipe.text": "@, ^^ ¡La granja está realmente progresando, y me imagino que pronto estarás nadando en frutas extra! Robin compartió estos planos para una exprimidora conmigo hace siglos, ¡pero probablemente te serán más útiles a ti que a mí!^^ - Jodi",
+
+"atelierjuicebar_BobaStationRecipe.name": "¡El Boba es Mejor!",
+"atelierjuicebar_BobaStationRecipe.text": "@, ^^ Hacer tu propio té de boba es como un experimento de ciencias que puedes beber después. No es algo que recomendaría con la mayoría de los experimentos de ciencias, ¡pero siéntete libre de compartir tu té de burbujas conmigo en cualquier momento!^^ - Maru",
+
+"atelierjuicebar_LemonadeStandRecipe.name": "¿Te Gusta la Limonada?",
+"atelierjuicebar_LemonadeStandRecipe.text": "@, ^^ ¿Alguna vez tuviste un puesto de limonada cuando eras niño? la Tía Marnie no me dejará abrir uno en el bosque porque piensa que los mapaches robarán toda mi limonada. ¿Quizás puedo ir a tu casa y hacer limonada juntos?^^ - Jas",
+
+"atelierjuicebar_evelyn.name": "Refrescante a Temperatura Fría",
+"atelierjuicebar_evelyn.text": "@, ^^ Sabes que amo el té, así que no debería sorprenderte que también disfrute del té helado. Estos pequeños limones son una adición encantadora al té, ya sea caliente o frío. ¡Espero que les encuentres un buen uso!^^ - Evelyn",
+
+"atelierjuicebar_emily.name": "Burbujeante Delicia",
+"atelierjuicebar_emily.text": "@, ^^ ¡Maru me mencionó que compartió contigo los planos para una estación de boba! ¡Eso es genial! ¿Sabías que puedes hacer perlas de boba a partir de las raíces de invierno que desenterras por aquí en los meses más fríos? ¡Comparte un poco de té de burbujas conmigo cuando lo prepares, ¿de acuerdo?! Me encantaría compartir un poco contigo.^^ - Emily",
+
+"atelierjuicebar_lewis.name": "Cuando la Vida te Da Limones",
+"atelierjuicebar_lewis.text": "@, ^^ Me encanta un vaso de limonada fresca, pero ¿sabías que también puedes hacer limonada de lima? He estado cultivando un pequeño árbol de lima en casa durante unos años; ¿por qué no pruebas a usar algunos en tus jugos?^^ - Lewis"
+
+}

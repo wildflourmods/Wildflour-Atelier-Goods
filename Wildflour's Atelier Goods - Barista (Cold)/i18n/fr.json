@@ -1,0 +1,415 @@
+{
+
+//////////////
+// MACHINES //
+//////////////
+
+"atelierjuicebar_JuiceStation.name":"Extracteur de jus",
+"atelierjuicebar_JuiceStation.description":"Transforme des fruits en jus et autres boissons.",
+
+"atelierjuicebar_BobaStation.name":"Machine à bubble tea",
+"atelierjuicebar_BobaStation.description":"Pour préparer du thé aux perles.",
+
+"atelierjuicebar_LemonadeStand.name":"Stand de citronnade",
+"atelierjuicebar_LemonadeStand.description":"Pour préparer de la citronnade avec du sirop de citron et des fruits.",
+
+///////////////////////////
+// MACHINE NOTIFICATIONS //
+///////////////////////////
+
+"atelierjuicebar_JuiceStation_InvalidItem.message": "Ne fonctionne pas avec cela",
+"atelierjuicebar_JuiceStation_InvalidCount.message": "Nécessite 1 miel",
+
+"atelierjuicebar_BobaStation_InvalidItem.message": "Ne fonctionne pas avec cela",
+"atelierjuicebar_BobaStation_InvalidCount.message": "Nécessite des perles de tapioca",
+
+"atelierjuicebar_LemonadeStand_InvalidItem.message": "Ne fonctionne pas avec cela",
+"atelierjuicebar_LemonadeStand_InvalidCount.message": "Nécessite 1 sirop de citron",
+
+/////////////////////////////
+// NEW MOD SUPPORTED ITEMS //
+/////////////////////////////
+
+"atelierjuicebar_gardenia_lemonade.name":"Citronnade au gardénia",
+"atelierjuicebar_gardenia_lemonade.description":"De la citronnade fraîche aromatisée avec des pétales de gardénia.",
+
+"atelierjuicebar_hibiscus_lemonade.name":"Citronnade à l'hibiscus",
+"atelierjuicebar_hibiscus_lemonade.description":"De la citronnade fraîche aromatisée avec des fleurs d'hibiscus.",
+
+"atelierjuicebar_gardenia_kombucha.name":"Kombucha au gardénia",
+"atelierjuicebar_gardenia_kombucha.description":"FUne boisson pétillante réalisée en faisant fermenter du thé et du miel.",
+
+"atelierjuicebar_hibiscus_kombucha.name":"Kombucha à l'hibiscus",
+"atelierjuicebar_hibiscus_kombucha.description":"Une boisson pétillante réalisée en faisant fermenter du thé et du miel.",
+
+"atelierjuicebar_borage_lemonade.name":"Citronnade à la bourrache",
+"atelierjuicebar_borage_lemonade.description":"De la citronnade fraîche aromatisée avec des fleurs de bourrache.",
+
+"atelierjuicebar_calendula_lemonade.name":"Citronnade au souci",
+"atelierjuicebar_calendula_lemonade.description":"De la citronnade fraîche aromatisée avec des pétales de souci.",
+
+"atelierjuicebar_borage_kombucha.name":"Kombucha à la bourrage",
+"atelierjuicebar_borage_kombucha.description":"Une boisson pétillante réalisée en faisant fermenter du thé et du miel.",
+
+"atelierjuicebar_calendula_kombucha.name":"Kombucha au souci",
+"atelierjuicebar_calendula_kombucha.description":"Une boisson pétillante réalisée en faisant fermenter du thé et du miel.",
+
+"atelierjuicebar_hollyhock_lemonade.name":"Citronnade à la passerose",
+"atelierjuicebar_hollyhock_lemonade.description":"De la citronnade fraîche aromatisée avec des pétales de passerose.",
+
+"atelierjuicebar_springpansy_lemonade.name":"Citronnade aux pensées de printemps",
+"atelierjuicebar_springpansy_lemonade.description":"De la citronnade fraîche aromatisée avec des pétales de pensée.",
+
+"atelierjuicebar_hollyhock_kombucha.name":"Kombucha à la passerose",
+"atelierjuicebar_hollyhock_kombucha.description":"Une boisson pétillante réalisée en faisant fermenter du thé et du miel.",
+
+"atelierjuicebar_springpansy_kombucha.name":"Kombucha aux pensées de printemps",
+"atelierjuicebar_springpansy_kombucha.description":"Une boisson pétillante réalisée en faisant fermenter du thé et du miel.",
+
+"atelierjuicebar_orangeblossom_lemonade.name":"Citronnade à la fleur d'oranger",
+"atelierjuicebar_orangeblossom_lemonade.description":"De la citronnade fraîche aromatisée avec des fleurs d'oranger.",
+
+"atelierjuicebar_orangeblossom_kombucha.name":"Kombucha à la fleur d'oranger",
+"atelierjuicebar_orangeblossom_kombucha.description":"Une boisson pétillante réalisée en faisant fermenter du thé et du miel.",
+
+///////////////////////
+// NEW GENERIC ITEMS //
+///////////////////////
+
+"atelierjuicebar_FruitJuice.name": "Jus",
+"atelierjuicebar_FruitJuice.description": "Fraîchement pressé !",
+
+"atelierjuicebar_FruitLemonade.name": "Citronnade",
+"atelierjuicebar_FruitLemonade.description": "Fraîchement pressée !",
+
+"atelierjuicebar_FlowerLemonade.name": "Citronnade",
+"atelierjuicebar_FlowerLemonade.description": "Fraîchement pressée !",
+
+"atelierjuicebar_FruitSmoothie.name": "Smoothie",
+"atelierjuicebar_FruitSmoothie.description": "Un smoothie plein de vitamines, pour un petit-déjeuner tout-en-un !",
+
+"atelierjuicebar_FruitBoba.name": "Bubble tea",
+"atelierjuicebar_FruitBoba.description": "Du thé aux perles aromatisé aux fruits.",
+
+"atelierjuicebar_FlavoredTea.name": "Thé glacé",
+"atelierjuicebar_FlavoredTea.description": "Du thé glacé aromatisé aux fruits.",
+
+"atelierjuicebar_flavored_kombucha.name": "Kombucha",
+"atelierjuicebar_flavored_kombucha.description": "Du thé de la meilleure qualité fermenté avec soin !",
+
+/////////////
+// STRINGS //
+/////////////
+
+"atelierjuicebar_FruitJuice":"{0} Jus",
+"atelierjuicebar_FruitLemonade":"{0} Citronnade",
+"atelierjuicebar_FlowerLemonade":"{0} Citronnade",
+"atelierjuicebar_FruitSmoothie":"{0} Smoothie",
+"atelierjuicebar_FruitBoba":"{0} Bubble Tea",
+"atelierjuicebar_FlavoredTea":"{0} Thé glacé",
+"atelierjuicebar_flavored_kombucha":"{0} Kombucha",
+
+//////////
+// BOBA //
+//////////
+
+"atelierjuicebar_boba_pearls.name": "Perles de tapioca",
+"atelierjuicebar_boba_pearls.description": "De grosses perles gélatineuses qui donnent leur nom au thé aux perles, ou bubble tea.",
+
+"atelierjuicebar_banana_boba.name": "Bubble tea à la banane",
+"atelierjuicebar_banana_boba.description": "Une boisson rigolote composée de thé glacé à la banane, de lait et de perles de tapioca !",
+
+"atelierjuicebar_blacktea_boba.name": "Bubble tea",
+"atelierjuicebar_blacktea_boba.description": "Une boisson rigolote composée de thé glacé, de lait et de perles de tapioca !",
+
+"atelierjuicebar_blueberry_boba.name": "Bubble tea à la myrtille",
+"atelierjuicebar_blueberry_boba.description": "Une boisson rigolote composée de thé glacé aux myrtilles, de lait et de perles de tapioca !",
+
+"atelierjuicebar_brownsugar_boba.name": "Bubble tea à la cassonnade",
+"atelierjuicebar_brownsugar_boba.description": "Une boisson rigolote composée de thé glacé très sucré, de lait et de perles de tapioca !",
+
+"atelierjuicebar_caramel_boba.name": "Bubble tea au caramel",
+"atelierjuicebar_caramel_boba.description": "Une boisson rigolote composée de thé glacé au caramel, de lait et de perles de tapioca !",
+
+"atelierjuicebar_coconut_boba.name": "Bubble tea à la noix de coco",
+"atelierjuicebar_coconut_boba.description": "Une boisson rigolote composée de thé glacé à la noix de coco, de lait et de perles de tapioca !",
+
+"atelierjuicebar_coffee_boba.name": "Bubble tea au café",
+"atelierjuicebar_coffee_boba.description": "Une boisson rigolote composée de thé glacé au café, de lait et de perles de tapioca !",
+
+"atelierjuicebar_jasmine_boba.name": "Bubble tea au jasmin",
+"atelierjuicebar_jasmine_boba.description": "Une boisson rigolote composée de thé au jasmin glacé, de lait et de perles de tapioca !",
+
+"atelierjuicebar_mango_boba.name": "Bubble tea à la mangue",
+"atelierjuicebar_mango_boba.description": "Une boisson rigolote composée de thé glacé à la mangue, de lait et de perles de tapioca !",
+
+"atelierjuicebar_matcha_boba.name": "Bubble tea matcha",
+"atelierjuicebar_matcha_boba.description": "Une boisson rigolote composée de thé matcha glacé, de lait et de perles de tapioca !",
+
+"atelierjuicebar_melon_boba.name": "Bubble tea au melon",
+"atelierjuicebar_melon_boba.description": "Une boisson rigolote composée de thé glacé au melon, de lait et de perles de tapioca !",
+
+"atelierjuicebar_oolong_boba.name": "Bubble tea oolong",
+"atelierjuicebar_oolong_boba.description": "Une boisson rigolote composée de thé oolong glacé, de lait et de perles de tapioca !",
+
+"atelierjuicebar_peach_boba.name": "Bubble tea à la pêche",
+"atelierjuicebar_peach_boba.description": "Une boisson rigolote composée de thé glacé à la pêche, de lait et de perles de tapioca !",
+
+"atelierjuicebar_rose_boba.name": "Bubble tea à la rose",
+"atelierjuicebar_rose_boba.description": "Une boisson rigolote composée de thé glacé à la rose, de lait et de perles de tapioca !",
+
+"atelierjuicebar_strawberry_boba.name": "Bubble tea à la fraise",
+"atelierjuicebar_strawberry_boba.description": "Une boisson rigolote composée de thé glacé à la fraise, de lait et de perles de tapioca !",
+
+"atelierjuicebar_taro_boba.name": "Bubble tea au taro",
+"atelierjuicebar_taro_boba.description": "Une boisson rigolote composée de thé glacé au taro, de lait et de perles de tapioca !",
+
+"atelierjuicebar_thai_boba.name": "Bubble tea thaï",
+"atelierjuicebar_thai_boba.description": "Une boisson rigolote composée de thé glacé aux épices, de lait de coco et de perles de tapioca !",
+
+"atelierjuicebar_vanilla_boba.name": "Bubble tea à la vanille",
+"atelierjuicebar_vanilla_boba.description": "Une boisson rigolote composée de thé glacé à la vanille, de lait et de perles de tapioca !",
+
+//////////////////
+// FRUIT JUICES //
+//////////////////
+
+"atelierjuicebar_apple_juice.name": "Jus pom'pomme",
+"atelierjuicebar_apple_juice.description": "Fait avec des pommes fraîchement cueillies !",
+
+"atelierjuicebar_berry_juice.name": "Jus baie'xquis",
+"atelierjuicebar_berry_juice.description": "Fait avec des baies cueillies à la ferme !",
+
+"atelierjuicebar_carrot_juice.name": "Jus de carotte qui croque",
+"atelierjuicebar_carrot_juice.description": "Fait avec des carottes de la ferme !",
+
+"atelierjuicebar_grape_juice.name": "Jus de raisin frais",
+"atelierjuicebar_grape_juice.description": "Fait avec des raisins de la ferme !",
+
+"atelierjuicebar_mix_juice.name": "Jus tutti frutti",
+"atelierjuicebar_mix_juice.description": "Fait avec des fruits frais de la ferme !",
+
+"atelierjuicebar_orange_juice.name": "Jus d'orange pour lève-tôt",
+"atelierjuicebar_orange_juice.description": "Fait avec des oranges de la ferme !",
+
+"atelierjuicebar_pomegranate_juice.name": "Jus de grenade frais",
+"atelierjuicebar_pomegranate_juice.description": "Fait avec des grenades de la ferme !",
+
+"atelierjuicebar_tropical_juice.name": "Jus des tropiques",
+"atelierjuicebar_tropical_juice.description": "Fait avec des fruits de l'Île Gingembre !",
+
+"atelierjuicebar_fruit_punch.name": "Punch aux fruits",
+"atelierjuicebar_fruit_punch.description": "Fait avec des fruits frais de la ferme !",
+
+"atelierjuicebar_amber_juice.name": "Nectar de lune d'ambre",
+"atelierjuicebar_amber_juice.description": "Un jus tiré d'un raisin magique, le Gouttelune.",
+
+"atelierjuicebar_jade_juice.name": "Nectar de lune de jade",
+"atelierjuicebar_jade_juice.description": "Un jus tiré d'un raisin magique, le Gouttelune.",
+
+"atelierjuicebar_lapis_juice.name": "Nectar de lune de lapis",
+"atelierjuicebar_lapis_juice.description": "Un jus tiré d'un raisin magique, le Gouttelune.",
+
+"atelierjuicebar_pearl_juice.name": "Nectar de lune de perle",
+"atelierjuicebar_pearl_juice.description": "Un jus tiré d'un raisin magique, le Gouttelune.",
+
+"atelierjuicebar_apple_elixir.name": "Élixir de pomme poétique",
+"atelierjuicebar_apple_elixir.description": "Le jus de pommes mystiques fraîchement pressées.",
+
+"atelierjuicebar_apricot_elixir.name": "Élixir d'abricot abracadabrant",
+"atelierjuicebar_apricot_elixir.description": "Le jus d'abricots mystiques fraîchement pressés.",
+
+"atelierjuicebar_cherry_elixir.name": "Élixir de cerise splendide",
+"atelierjuicebar_cherry_elixir.description": "Le jus de cerises mystiques fraîchement pressées.",
+
+"atelierjuicebar_mango_elixir.name": "Élixir de mangue magnifique",
+"atelierjuicebar_mango_elixir.description": "Le jus de mangues mystiques fraîchement pressées.",
+
+"atelierjuicebar_orange_elixir.name": "Élixir d'orange onirique",
+"atelierjuicebar_orange_elixir.description": "Le jus d'oranges mystiques fraîchement pressées.",
+
+"atelierjuicebar_peach_elixir.name": "Élixir de pêche prospère",
+"atelierjuicebar_peach_elixir.description": "Le jus de pêches mystiques fraîchement pressées.",
+
+"atelierjuicebar_pomegranate_elixir.name": "Élixir de grenade grandiose",
+"atelierjuicebar_pomegranate_elixir.description": "Le jus de grenades mystiques fraîchement pressées.",
+
+///////////////
+// LEMONADES //
+///////////////
+
+"atelierjuicebar_blackberry_lemonade.name": "Citronnade à la mûre",
+"atelierjuicebar_blackberry_lemonade.description": "De la citronnade fraîche aromatisée avec des mûres.",
+
+"atelierjuicebar_chamomile_lemonade.name": "Citronnade à la camomille",
+"atelierjuicebar_chamomile_lemonade.description": "De la citronnade fraîche aromatisée avec des fleurs de camomille.",
+
+"atelierjuicebar_cherry_limeade.name": "Limonade aux cerises",
+"atelierjuicebar_cherry_limeade.description": "Une boisson à base de citron vert aromatisée à la cerise.",
+
+"atelierjuicebar_classic_lemonade.name": "Citronnade classique",
+"atelierjuicebar_classic_lemonade.description": "Une boisson rafraîchissante à base de citrons fraîchement pressés.",
+
+"atelierjuicebar_green_lemonade.name": "Citronnade au thé vert",
+"atelierjuicebar_green_lemonade.description": "De la citronnade fraîche aromatisée avec du thé vert.",
+
+"atelierjuicebar_jasmine_lemonade.name": "Citronnade au jasmin",
+"atelierjuicebar_jasmine_lemonade.description": "De la citronnade fraîche aromatisée avec des pétales de jasmin.",
+
+"atelierjuicebar_lavender_lemonade.name": "Citronnade à la lavande",
+"atelierjuicebar_lavender_lemonade.description": "De la citronnade fraîche aromatisée avec de la lavande.",
+
+"atelierjuicebar_lime_lemonade.name": "Limo-citronnade",
+"atelierjuicebar_lime_lemonade.description": "De la citronnade fraîche aromatisée avec du jus de lime.",
+
+"atelierjuicebar_melon_lemonade.name": "Melonade",
+"atelierjuicebar_melon_lemonade.description": "De la citronnade fraîche aromatisée avec du melon d'été.",
+
+"atelierjuicebar_mint_lemonade.name": "Citronnade à la menthe",
+"atelierjuicebar_mint_lemonade.description": "De la citronnade fraîche aromatisée avec des feuilles de menthe.",
+
+"atelierjuicebar_pomegranate_lemonade.name": "Citronnade à la grenade",
+"atelierjuicebar_pomegranate_lemonade.description": "De la citronnade fraîche aromatisée avec du jus de grenade.",
+
+"atelierjuicebar_pink_lemonade.name": "Citronnade à la fraise",
+"atelierjuicebar_pink_lemonade.description": "De la citronnade fraîche aromatisée avec du jus de fraise.",
+
+"atelierjuicebar_rose_lemonade.name": "Citronnade à la rose",
+"atelierjuicebar_rose_lemonade.description": "De la citronnade fraîche aromatisée avec des pétales de rose.",
+
+"atelierjuicebar_raspberry_lemonade.name": "Citronnade à la framboise",
+"atelierjuicebar_raspberry_lemonade.description": "De la citronnade fraîche aromatisée avec du jus de framboise.",
+
+//////////////
+// ICED TEA //
+//////////////
+
+"atelierjuicebar_iced_tea.name": "Thé glacé",
+"atelierjuicebar_iced_tea.description": "Un grand verre de thé glacé bien sucré.",
+
+"atelierjuicebar_green_icedtea.name": "Thé vert glacé",
+"atelierjuicebar_green_icedtea.description": "Un grand verre de thé vert glacé.",
+
+"atelierjuicebar_mango_icedtea.name": "Thé glacé à l'ananas",
+"atelierjuicebar_mango_icedtea.description": "Un grand verre de thé glacé parfumé à la mangue.",
+
+"atelierjuicebar_peach_icedtea.name": "Thé glacé à la pêche",
+"atelierjuicebar_peach_icedtea.description": "Un grand verre de thé glacé parfumé à la pêche.",
+
+"atelierjuicebar_thai_icedtea.name": "Thé glacé thaï",
+"atelierjuicebar_thai_icedtea.description": "Un grand verre de thé glacé sucré au lait de coco.",
+
+///////////////
+// SMOOTHIES //
+///////////////
+
+"atelierjuicebar_ancient_smoothie.name": "Smoothie à l'ancienne",
+"atelierjuicebar_ancient_smoothie.description": "Un smoothie plein de vitamines, pour un petit-déjeuner tout-en-un !",
+
+"atelierjuicebar_berry_smoothie.name": "Smoothie baie'xquis",
+"atelierjuicebar_berry_smoothie.description": "Un smoothie plein de vitamines, pour un petit-déjeuner tout-en-un !",
+
+"atelierjuicebar_berrybanana_smoothie.name": "Smoothie fraise-banane",
+"atelierjuicebar_berrybanana_smoothie.description": "Un smoothie plein de vitamines, pour un petit-déjeuner tout-en-un !",
+
+"atelierjuicebar_berrykale_smoothie.name": "Smoothie myrtilles et chou frisé",
+"atelierjuicebar_berrykale_smoothie.description": "Un smoothie plein de vitamines, pour un petit-déjeuner tout-en-un !",
+
+"atelierjuicebar_chocoberry_smoothie.name": "Smoothie choco-fruits des bois",
+"atelierjuicebar_chocoberry_smoothie.description": "Un smoothie plein de vitamines, pour un petit-déjeuner tout-en-un !",
+
+"atelierjuicebar_gemberry_smoothie.name": "Smoothie des gemmes",
+"atelierjuicebar_gemberry_smoothie.description": "Un smoothie plein de vitamines, pour un petit-déjeuner tout-en-un !",
+
+"atelierjuicebar_peachmango_smoothie.name": "Smoothie pêche-mangue",
+"atelierjuicebar_peachmango_smoothie.description": "Un smoothie plein de vitamines, pour un petit-déjeuner tout-en-un !",
+
+"atelierjuicebar_sunshine_smoothie.name": "Smoothie rayon de soleil",
+"atelierjuicebar_sunshine_smoothie.description": "Un smoothie plein de vitamines, pour un petit-déjeuner tout-en-un !",
+
+"atelierjuicebar_tropical_smoothie.name": "Smoothie oasis",
+"atelierjuicebar_tropical_smoothie.description": "Un smoothie plein de vitamines, pour un petit-déjeuner tout-en-un !",
+
+//KOMBUCHA
+
+"atelierjuicebar_apple_kombucha.name": "Kombucha aux pommes d'automne",
+"atelierjuicebar_apple_kombucha.description": "Une boisson pétillante réalisée en faisant fermenter du thé et du miel.",
+
+"atelierjuicebar_vanilla_kombucha.name": "Kombucha à la vanille de Calico",
+"atelierjuicebar_vanilla_kombucha.description": "Une boisson pétillante réalisée en faisant fermenter du thé et du miel.",
+
+"atelierjuicebar_matcha_kombucha.name": "Kombucha au matcha de cérémonie",
+"atelierjuicebar_matcha_kombucha.description": "Une boisson pétillante réalisée en faisant fermenter du thé et du miel.",
+
+"atelierjuicebar_cinnamon_kombucha.name": "Kombucha à la cannelle",
+"atelierjuicebar_cinnamon_kombucha.description": "Une boisson pétillante réalisée en faisant fermenter du thé et du miel.",
+
+"atelierjuicebar_chamomile_kombucha.name": "Kombucha à la camomille forestière",
+"atelierjuicebar_chamomile_kombucha.description": "Une boisson pétillante réalisée en faisant fermenter du thé et du miel.",
+
+"atelierjuicebar_breakfast_kombucha.name": "Kombucha English Breakfast",
+"atelierjuicebar_breakfast_kombucha.description": "Une boisson pétillante réalisée en faisant fermenter du thé et du miel.",
+
+"atelierjuicebar_jasmine_kombucha.name": "Kombucha au jasmin des Gemmes",
+"atelierjuicebar_jasmine_kombucha.description": "Une boisson pétillante réalisée en faisant fermenter du thé et du miel.",
+
+"atelierjuicebar_ginger_kombucha.name": "Kombucha pêche-gingembre",
+"atelierjuicebar_ginger_kombucha.description": "Une boisson pétillante réalisée en faisant fermenter du thé et du miel.",
+
+"atelierjuicebar_grey_kombucha.name": "Kombucha Lady Grey",
+"atelierjuicebar_grey_kombucha.description": "Une boisson pétillante réalisée en faisant fermenter du thé et du miel.",
+
+"atelierjuicebar_lemon_kombucha.name": "Kombucha citron-gingembre",
+"atelierjuicebar_lemon_kombucha.description": "Une boisson pétillante réalisée en faisant fermenter du thé et du miel.",
+
+"atelierjuicebar_mint_kombucha.name": "Kombucha à la menthe Pélican",
+"atelierjuicebar_mint_kombucha.description": "Une boisson pétillante réalisée en faisant fermenter du thé et du miel.",
+
+"atelierjuicebar_berry_kombucha.name": "Kombucha aux fruits des bois",
+"atelierjuicebar_berry_kombucha.description": "Une boisson pétillante réalisée en faisant fermenter du thé et du miel.",
+
+"atelierjuicebar_peach_kombucha.name": "Kombucha pêche-mangue",
+"atelierjuicebar_peach_kombucha.description": "Une boisson pétillante réalisée en faisant fermenter du thé et du miel.",
+
+"atelierjuicebar_pineapple_kombucha.name": "Kombucha ananas-coco",
+"atelierjuicebar_pineapple_kombucha.description": "Une boisson pétillante réalisée en faisant fermenter du thé et du miel.",
+
+"atelierjuicebar_pomegranate_kombucha.name": "Kombucha à la grenade",
+"atelierjuicebar_pomegranate_kombucha.description": "Une boisson pétillante réalisée en faisant fermenter du thé et du miel.",
+
+"atelierjuicebar_raspberry_kombucha.name": "Kombucha à la framboise",
+"atelierjuicebar_raspberry_kombucha.description": "Une boisson pétillante réalisée en faisant fermenter du thé et du miel.",
+
+"atelierjuicebar_rose_kombucha.name": "Kombucha aux pétales de rose",
+"atelierjuicebar_rose_kombucha.description": "Une boisson pétillante réalisée en faisant fermenter du thé et du miel.",
+
+"atelierjuicebar_sakura_kombucha.name": "Kombucha Sakura",
+"atelierjuicebar_sakura_kombucha.description": "Une boisson pétillante réalisée en faisant fermenter du thé et du miel.",
+
+"atelierjuicebar_strawberry_kombucha.name": "Kombucha à la fraise des bois",
+"atelierjuicebar_strawberry_kombucha.description": "Une boisson pétillante réalisée en faisant fermenter du thé et du miel.",
+
+
+//////////
+// MAIL //
+//////////
+
+"atelierjuicebar_JuicerRecipe.name":"Tout frais pressé",
+"atelierjuicebar_JuicerRecipe.text":"Bonjour @, ^^ Je vois que ta ferme est plus prospère de jour en jour. J'imagine que tu dois avoir pas mal de fruits ! Robine m'a envoyé un schéma d'extracteur de jus il y a longtemps, mais ça te sera plus utile qu'à moi.^^ - Jodi",
+
+"atelierjuicebar_BobaStationRecipe.name":"Bulles ou perles ?",
+"atelierjuicebar_BobaStationRecipe.text":"Salut @, ^^ Faire son propre thé aux perles, c'est comme une expérience en laboratoire que tu peux boire à la fin. Ce qui est déconseillé avec la plupart des expériences en laboratoire. Mais n'hésite pas à partager le résultat avec moi !^^ - Maru",
+
+"atelierjuicebar_LemonadeStandRecipe.name":"Vive la citronnade !",
+"atelierjuicebar_LemonadeStandRecipe.text":"Bonjour @, ^^ Est-ce que tu avais un stand de citronnade quand tu étais enfant ? Tata ne veut pas me laisser en installer un dans la forêt parce que les ratons laveurs risquent de tout voler.^^ Si tu es d'accord, je pourrais venir chez toi et on en ferait ensemble !^^Au revoir !^     - Jas",
+
+"atelierjuicebar_evelyn.name":"Thé froid",
+"atelierjuicebar_evelyn.text":"Bonjour mon petit, ^^ Tu sais que j'adore le thé, mais je l'aime aussi quand il est glacé ! Tu trouveras des petits citrons avec cette lettre. Utilise-les voir pour aromatiser ton thé, qu'il soit chaud ou froid, d'ailleurs !^^ - Evelyn",
+
+"atelierjuicebar_emily.name":"Dans ma bulle",
+"atelierjuicebar_emily.text":"Coucou @, ^^ Maru m'a dit qu'elle t'avait donné les plans de fabrication d'une machine à bubble tea, c'est génial !^ Sais-tu que tu peux fabriquer des perles avec des racines d'hiver ? Maintenant oui !^ Apporte-moi du thé aux perles la prochaine fois que tu en fais, d'accord ?!^^ - Emily",
+
+"atelierjuicebar_lewis.name":"Quand la vie vous donne des citrons verts",
+"atelierjuicebar_lewis.text":"Bonjour @, ^^ J'adore la citronnade fraîche, mais sais-tu que tu peux en faire avec du citron vert ? J'ai un petit limettier chez moi depuis quelques années. Essaie donc avec cette récolte !^^ - Lewis",
+
+}
