@@ -130,32 +130,6 @@
                     "MinutesUntilReady": 20
                 },
                 {
-                    "Id": "wildflour.gourmetpantry_coconut_flour",
-                    "Triggers": [
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)88",
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "OutputItem": [
-                        {
-                            "Id": "wildflour.gourmetpantry_coconut_flour",
-                            "ItemId": "(O)wildflour.gourmetpantry_coconut_flour",
-                            "CopyQuality":true,
-                            "CopyPrice": true,
-                            "PriceModifiers": 
-                            [
-                                {
-                                "Modification": "Multiply",
-                                "Amount": 1.2
-                                }
-                            ]
-                        }
-                    ],
-                    "MinutesUntilReady": 20
-                },
-                {
                     "Id": "wildflour.gourmetpantry_cake_flour",
                     "Triggers": [
                         {
@@ -296,33 +270,6 @@
                     "MinutesUntilReady": 20
                 },
                 {
-                    "Id": "wildflour.gourmetpantry_espresso_powder",
-                    "Triggers": [
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)433",
-                            "RequiredCount": 5
-                        }
-                    ],
-                    "OutputItem": [
-                        {
-                            "Id": "wildflour.gourmetpantry_espresso_powder",
-                            "ItemId": "(O)wildflour.gourmetpantry_espresso_powder",
-                            "CopyQuality":true,
-                            "CopyPrice": true,
-                            "PriceModifiers": 
-                            [
-                                {
-                                "Modification": "Multiply",
-                                "Amount": 2
-                                }
-                            ]
-                        }
-                    ],
-                    "MinutesUntilReady": 20
-                },
-
-                {
                     "Id": "wildflour.gourmetpantry_cocoa_powder",
                     "Triggers": [
                         {
@@ -418,32 +365,6 @@
                         {
                             "Id": "wildflour.gourmetpantry_pectin",
                             "ItemId": "(O)wildflour.gourmetpantry_pectin",
-                            "CopyQuality":true,
-                            "CopyPrice": true,
-                            "PriceModifiers": 
-                            [
-                                {
-                                "Modification": "Multiply",
-                                "Amount": 1.2
-                                }
-                            ]
-                        }
-                    ],
-                    "MinutesUntilReady": 20
-                },
-                {
-                    "Id": "wildflour.gourmetpantry_chocolate_chips",
-                    "Triggers": [
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)wildflour.gourmetpantry_semisweet_chocolate",
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "OutputItem": [
-                        {
-                            "Id": "wildflour.gourmetpantry_chocolate_chips",
-                            "ItemId": "(O)wildflour.gourmetpantry_chocolate_chips",
                             "CopyQuality":true,
                             "CopyPrice": true,
                             "PriceModifiers": 
@@ -678,7 +599,7 @@
                         {
                             "Trigger": "ItemPlacedInMachine",
                             "RequiredItemId": "(O)wildflour.gourmetpantry_butter",
-                            "RequiredCount": 1.2
+                            "RequiredCount": 1
                         }
                     ],
                     "OutputItem": [
@@ -716,83 +637,18 @@
 			"HasOutput": false,
             "OutputRules": [   
                 {
-                    "Id": "wildflour.gourmetpantry_ancient_yogurt",
+                    "Id": "wildflour.gourmetpantry_cookies_n_cream_yogurt",
                     "Triggers": [
                         {
                             "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)454",
+                            "RequiredItemId": "(O)223",
                             "RequiredCount": 1
                         }
                     ],
                     "OutputItem": [
                         {
-                            "Id": "wildflour.gourmetpantry_ancient_yogurt",
-                            "ItemId": "(O)wildflour.gourmetpantry_ancient_yogurt",
-                            "CopyQuality":true,
-                            "CopyPrice": true,
-                            "PriceModifiers": 
-                            [
-                                {
-                                "Modification": "Multiply",
-                                "Amount": 1.8
-                                },
-                                {
-                                "Modification": "Add",
-                                "Amount": 50
-                                }
-                            ]
-                        }
-                    ],
-                    "MinutesUntilReady": 1400
-                },   
-                {
-                    "Id": "wildflour.gourmetpantry_blueberry_yogurt",
-                    "Triggers": [
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)258",
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "OutputItem": [
-                        {
-                            "Id": "wildflour.gourmetpantry_blueberry_yogurt",
-                            "ItemId": "(O)wildflour.gourmetpantry_blueberry_yogurt",
-                            "CopyQuality":true,
-                            "CopyPrice": true,
-                            "PriceModifiers": 
-                            [
-                                {
-                                "Modification": "Multiply",
-                                "Amount": 1.8
-                                },
-                                {
-                                "Modification": "Add",
-                                "Amount": 50
-                                }
-                            ]
-                        }
-                    ],
-                    "MinutesUntilReady": 1400
-                },   
-                {
-                    "Id": "wildflour.gourmetpantry_chocolate_yogurt",
-                    "Triggers": [
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)wildflour.ateliercrops_cacaopod",
-                            "RequiredCount": 1
-                        },
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)Cornucopia_CocoaPod",
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "OutputItem": [
-                        {
-                            "Id": "wildflour.gourmetpantry_chocolate_yogurt",
-                            "ItemId": "(O)wildflour.gourmetpantry_chocolate_yogurt",
+                            "Id": "wildflour.gourmetpantry_cookies_n_cream_yogurt",
+                            "ItemId": "(O)wildflour.gourmetpantry_cookies_n_cream_yogurt",
                             "CopyQuality":true,
                             "CopyPrice": true,
                             "PriceModifiers": 
@@ -810,463 +666,6 @@
                     ],
                     "MinutesUntilReady": 1400
                 },      
-                {
-                    "Id": "wildflour.gourmetpantry_cheesecake_yogurt",
-                    "Triggers": [
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)wildflour.ateliercrops_cake_blossom",
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "OutputItem": [
-                        {
-                            "Id": "wildflour.gourmetpantry_cheesecake_yogurt",
-                            "ItemId": "(O)wildflour.gourmetpantry_cheesecake_yogurt",
-                            "CopyQuality":true,
-                            "CopyPrice": true,
-                            "PriceModifiers": 
-                            [
-                                {
-                                "Modification": "Multiply",
-                                "Amount": 1.8
-                                },
-                                {
-                                "Modification": "Add",
-                                "Amount": 50
-                                }
-                            ]
-                        }
-                    ],
-                    "MinutesUntilReady": 1400
-                },    
-                {
-                    "Id": "wildflour.gourmetpantry_vanilla_yogurt",
-                    "Triggers": [
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)wildflour.ateliercrops_vanilla",
-                            "RequiredCount": 1
-                        },
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)Cornucopia_Vanilla",
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "OutputItem": [
-                        {
-                            "Id": "wildflour.gourmetpantry_vanilla_yogurt",
-                            "ItemId": "(O)wildflour.gourmetpantry_vanilla_yogurt",
-                            "CopyQuality":true,
-                            "CopyPrice": true,
-                            "PriceModifiers": 
-                            [
-                                {
-                                "Modification": "Multiply",
-                                "Amount": 1.8
-                                },
-                                {
-                                "Modification": "Add",
-                                "Amount": 50
-                                }
-                            ]
-                        }
-                    ],
-                    "MinutesUntilReady": 1400
-                },    
-                {
-                    "Id": "wildflour.gourmetpantry_caramel_yogurt",
-                    "Triggers": [
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)wildflour.ateliercrops_caramel_blossom",
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "OutputItem": [
-                        {
-                            "Id": "wildflour.gourmetpantry_caramel_yogurt",
-                            "ItemId": "(O)wildflour.gourmetpantry_caramel_yogurt",
-                            "CopyQuality":true,
-                            "CopyPrice": true,
-                            "PriceModifiers": 
-                            [
-                                {
-                                "Modification": "Multiply",
-                                "Amount": 1.8
-                                },
-                                {
-                                "Modification": "Add",
-                                "Amount": 50
-                                }
-                            ]
-                        }
-                    ],
-                    "MinutesUntilReady": 1400
-                },    
-                {
-                    "Id": "wildflour.gourmetpantry_cherry_yogurt",
-                    "Triggers": [
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)638",
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "OutputItem": [
-                        {
-                            "Id": "wildflour.gourmetpantry_cherry_yogurt",
-                            "ItemId": "(O)wildflour.gourmetpantry_cherry_yogurt",
-                            "CopyQuality":true,
-                            "CopyPrice": true,
-                            "PriceModifiers": 
-                            [
-                                {
-                                "Modification": "Multiply",
-                                "Amount": 1.8
-                                },
-                                {
-                                "Modification": "Add",
-                                "Amount": 50
-                                }
-                            ]
-                        }
-                    ],
-                    "MinutesUntilReady": 1400
-                },
-                {
-                    "Id": "wildflour.gourmetpantry_coffee_yogurt",
-                    "Triggers": [
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)433",
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "OutputItem": [
-                        {
-                            "Id": "wildflour.gourmetpantry_coffee_yogurt",
-                            "ItemId": "(O)wildflour.gourmetpantry_coffee_yogurt",
-                            "CopyQuality":true,
-                            "CopyPrice": true,
-                            "PriceModifiers": 
-                            [
-                                {
-                                "Modification": "Multiply",
-                                "Amount": 1.8
-                                },
-                                {
-                                "Modification": "Add",
-                                "Amount": 50
-                                }
-                            ]
-                        }
-                    ],
-                    "MinutesUntilReady": 1400
-                },    
-                {
-                    "Id": "wildflour.gourmetpantry_creamsicle_yogurt",
-                    "Triggers": [
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)wildflour.ateliercrops_creamsicle_blossom",
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "OutputItem": [
-                        {
-                            "Id": "wildflour.gourmetpantry_creamsicle_yogurt",
-                            "ItemId": "(O)wildflour.gourmetpantry_creamsicle_yogurt",
-                            "CopyQuality":true,
-                            "CopyPrice": true,
-                            "PriceModifiers": 
-                            [
-                                {
-                                "Modification": "Multiply",
-                                "Amount": 1.8
-                                },
-                                {
-                                "Modification": "Add",
-                                "Amount": 50
-                                }
-                            ]
-                        }
-                    ],
-                    "MinutesUntilReady": 1400
-                },    
-                {
-                    "Id": "wildflour.gourmetpantry_galaxy_yogurt",
-                    "Triggers": [
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)wildflour.ateliercrops_cherry",
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "OutputItem": [
-                        {
-                            "Id": "wildflour.gourmetpantry_galaxy_yogurt",
-                            "ItemId": "(O)wildflour.gourmetpantry_galaxy_yogurt",
-                            "CopyQuality":true,
-                            "CopyPrice": true,
-                            "PriceModifiers": 
-                            [
-                                {
-                                "Modification": "Multiply",
-                                "Amount": 1.8
-                                },
-                                {
-                                "Modification": "Add",
-                                "Amount": 50
-                                }
-                            ]
-                        }
-                    ],
-                    "MinutesUntilReady": 1400
-                },    
-                {
-                    "Id": "wildflour.gourmetpantry_custard_yogurt",
-                    "Triggers": [
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)wildflour.ateliercrops_custard_blossom",
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "OutputItem": [
-                        {
-                            "Id": "wildflour.gourmetpantry_custard_yogurt",
-                            "ItemId": "(O)wildflour.gourmetpantry_custard_yogurt",
-                            "CopyQuality":true,
-                            "CopyPrice": true,
-                            "PriceModifiers": 
-                            [
-                                {
-                                "Modification": "Multiply",
-                                "Amount": 1.8
-                                },
-                                {
-                                "Modification": "Add",
-                                "Amount": 50
-                                }
-                            ]
-                        }
-                    ],
-                    "MinutesUntilReady": 1400
-                },    
-  
-                {
-                    "Id": "wildflour.gourmetpantry_candy_yogurt",
-                    "Triggers": [
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)wildflour.ateliercrops_gumdrop_blossom",
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "OutputItem": [
-                        {
-                            "Id": "wildflour.gourmetpantry_candy_yogurt",
-                            "ItemId": "(O)wildflour.gourmetpantry_candy_yogurt",
-                            "CopyQuality":true,
-                            "CopyPrice": true,
-                            "PriceModifiers": 
-                            [
-                                {
-                                "Modification": "Multiply",
-                                "Amount": 1.8
-                                },
-                                {
-                                "Modification": "Add",
-                                "Amount": 50
-                                }
-                            ]
-                        }
-                    ],
-                    "MinutesUntilReady": 1400
-                },    
-                {
-                    "Id": "wildflour.gourmetpantry_tiramisu_yogurt",
-                    "Triggers": [
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)wildflour.ateliercrops_banana",
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "OutputItem": [
-                        {
-                            "Id": "wildflour.gourmetpantry_tiramisu_yogurt",
-                            "ItemId": "(O)wildflour.gourmetpantry_tiramisu_yogurt",
-                            "CopyQuality":true,
-                            "CopyPrice": true,
-                            "PriceModifiers": 
-                            [
-                                {
-                                "Modification": "Multiply",
-                                "Amount": 1.8
-                                },
-                                {
-                                "Modification": "Add",
-                                "Amount": 50
-                                }
-                            ]
-                        }
-                    ],
-                    "MinutesUntilReady": 1400
-                },    
-                {
-                    "Id": "wildflour.gourmetpantry_macaron_yogurt",
-                    "Triggers": [
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)wildflour.ateliercrops_macaron_blossom",
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "OutputItem": [
-                        {
-                            "Id": "wildflour.gourmetpantry_macaron_yogurt",
-                            "ItemId": "(O)wildflour.gourmetpantry_macaron_yogurt",
-                            "CopyQuality":true,
-                            "CopyPrice": true,
-                            "PriceModifiers": 
-                            [
-                                {
-                                "Modification": "Multiply",
-                                "Amount": 1.8
-                                },
-                                {
-                                "Modification": "Add",
-                                "Amount": 50
-                                }
-                            ]
-                        }
-                    ],
-                    "MinutesUntilReady": 1400
-                },    
-                {
-                    "Id": "wildflour.gourmetpantry_mango_yogurt",
-                    "Triggers": [
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)834",
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "OutputItem": [
-                        {
-                            "Id": "wildflour.gourmetpantry_mango_yogurt",
-                            "ItemId": "(O)wildflour.gourmetpantry_mango_yogurt",
-                            "CopyQuality":true,
-                            "CopyPrice": true,
-                            "PriceModifiers": 
-                            [
-                                {
-                                "Modification": "Multiply",
-                                "Amount": 1.8
-                                },
-                                {
-                                "Modification": "Add",
-                                "Amount": 50
-                                }
-                            ]
-                        }
-                    ],
-                    "MinutesUntilReady": 1400
-                },    
-                {
-                    "Id": "wildflour.gourmetpantry_plain_yogurt",
-                    "Triggers": [
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)wildflour.ateliercrops_milkshroom",
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "OutputItem": [
-                        {
-                            "Id": "wildflour.gourmetpantry_plain_yogurt",
-                            "ItemId": "(O)wildflour.gourmetpantry_plain_yogurt",
-                            "CopyQuality":true,
-                            "CopyPrice": true,
-                            "PriceModifiers": 
-                            [
-                                {
-                                "Modification": "Multiply",
-                                "Amount": 1.8
-                                },
-                                {
-                                "Modification": "Add",
-                                "Amount": 50
-                                }
-                            ]
-                        }
-                    ],
-                    "MinutesUntilReady": 1400
-                },    
-  
-                {
-                    "Id": "wildflour.gourmetpantry_orange_yogurt",
-                    "Triggers": [
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)635",
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "OutputItem": [
-                        {
-                            "Id": "wildflour.gourmetpantry_orange_yogurt",
-                            "ItemId": "(O)wildflour.gourmetpantry_orange_yogurt",
-                            "CopyQuality":true,
-                            "CopyPrice": true,
-                            "PriceModifiers": 
-                            [
-                                {
-                                "Modification": "Multiply",
-                                "Amount": 1.8
-                                },
-                                {
-                                "Modification": "Add",
-                                "Amount": 50
-                                }
-                            ]
-                        }
-                    ],
-                    "MinutesUntilReady": 1400
-                },    
-                {
-                    "Id": "wildflour.gourmetpantry_peach_yogurt",
-                    "Triggers": [
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)636",
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "OutputItem": [
-                        {
-                            "Id": "wildflour.gourmetpantry_peach_yogurt",
-                            "ItemId": "(O)wildflour.gourmetpantry_peach_yogurt",
-                            "CopyQuality":true,
-                            "CopyPrice": true,
-                            "PriceModifiers": 
-                            [
-                                {
-                                "Modification": "Multiply",
-                                "Amount": 1.8
-                                },
-                                {
-                                "Modification": "Add",
-                                "Amount": 50
-                                }
-                            ]
-                        }
-                    ],
-                    "MinutesUntilReady": 1400
-                },    
                 {
                     "Id": "wildflour.gourmetpantry_mint_yogurt",
                     "Triggers": [
@@ -1373,67 +772,6 @@
                     "MinutesUntilReady": 1400
                 },    
                 {
-                    "Id": "wildflour.gourmetpantry_pie_yogurt",
-                    "Triggers": [
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)wildflour.ateliercrops_pie_blossom",
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "OutputItem": [
-                        {
-                            "Id": "wildflour.gourmetpantry_pie_yogurt",
-                            "ItemId": "(O)wildflour.gourmetpantry_pie_yogurt",
-                            "CopyQuality":true,
-                            "CopyPrice": true,
-                            "PriceModifiers": 
-                            [
-                                {
-                                "Modification": "Multiply",
-                                "Amount": 1.8
-                                },
-                                {
-                                "Modification": "Add",
-                                "Amount": 50
-                                }
-                            ]
-                        }
-                    ],
-                    "MinutesUntilReady": 1400
-                },    
-                {
-                    "Id": "wildflour.gourmetpantry_pineapple_yogurt",
-                    "Triggers": [
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)832",
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "OutputItem": [
-                        {
-                            "Id": "wildflour.gourmetpantry_pineapple_yogurt",
-                            "ItemId": "(O)wildflour.gourmetpantry_pineapple_yogurt",
-                            "CopyQuality":true,
-                            "CopyPrice": true,
-                            "PriceModifiers": 
-                            [
-                                {
-                                "Modification": "Multiply",
-                                "Amount": 1.8
-                                },
-                                {
-                                "Modification": "Add",
-                                "Amount": 50
-                                }
-                            ]
-                        }
-                    ],
-                    "MinutesUntilReady": 1400
-                },    
-
-                {
                     "Id": "wildflour.gourmetpantry_pumpkin_yogurt",
                     "Triggers": [
                         {
@@ -1464,173 +802,18 @@
                     "MinutesUntilReady": 1400
                 },    
                 {
-                    "Id": "wildflour.gourmetpantry_shortcake_yogurt",
+                    "Id": "wildflour.gourmetpantry_birthday_cake_yogurt",
                     "Triggers": [
                         {
                             "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)wildflour.ateliercrops_shortcake_blossom",
+                            "RequiredItemId": "(O)wildflour.gourmetpantry_rainbow_sprinkles",
                             "RequiredCount": 1
                         }
                     ],
                     "OutputItem": [
                         {
-                            "Id": "wildflour.gourmetpantry_shortcake_yogurt",
-                            "ItemId": "(O)wildflour.gourmetpantry_shortcake_yogurt",
-                            "CopyQuality":true,
-                            "CopyPrice": true,
-                            "PriceModifiers": 
-                            [
-                                {
-                                "Modification": "Multiply",
-                                "Amount": 1.8
-                                },
-                                {
-                                "Modification": "Add",
-                                "Amount": 50
-                                }
-                            ]
-                        }
-                    ],
-                    "MinutesUntilReady": 1400
-                },    
-                {
-                    "Id": "wildflour.gourmetpantry_sprinkle_yogurt",
-                    "Triggers": [
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)wildflour.ateliercrops_sprinkle_blossom",
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "OutputItem": [
-                        {
-                            "Id": "wildflour.gourmetpantry_sprinkle_yogurt",
-                            "ItemId": "(O)wildflour.gourmetpantry_sprinkle_yogurt",
-                            "CopyQuality":true,
-                            "CopyPrice": true,
-                            "PriceModifiers": 
-                            [
-                                {
-                                "Modification": "Multiply",
-                                "Amount": 1.8
-                                },
-                                {
-                                "Modification": "Add",
-                                "Amount": 50
-                                }
-                            ]
-                        }
-                    ],
-                    "MinutesUntilReady": 1400
-                },    
-                {
-                    "Id": "wildflour.gourmetpantry_starfruit_yogurt",
-                    "Triggers": [
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)268",
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "OutputItem": [
-                        {
-                            "Id": "wildflour.gourmetpantry_starfruit_yogurt",
-                            "ItemId": "(O)wildflour.gourmetpantry_starfruit_yogurt",
-                            "CopyQuality":true,
-                            "CopyPrice": true,
-                            "PriceModifiers": 
-                            [
-                                {
-                                "Modification": "Multiply",
-                                "Amount": 1.8
-                                },
-                                {
-                                "Modification": "Add",
-                                "Amount": 50
-                                }
-                            ]
-                        }
-                    ],
-                    "MinutesUntilReady": 1400
-                },    
-                {
-                    "Id": "wildflour.gourmetpantry_sugar_yogurt",
-                    "Triggers": [
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)wildflour.ateliercrops_sugar_blossom",
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "OutputItem": [
-                        {
-                            "Id": "wildflour.gourmetpantry_sugar_yogurt",
-                            "ItemId": "(O)wildflour.gourmetpantry_sugar_yogurt",
-                            "CopyQuality":true,
-                            "CopyPrice": true,
-                            "PriceModifiers": 
-                            [
-                                {
-                                "Modification": "Multiply",
-                                "Amount": 1.8
-                                },
-                                {
-                                "Modification": "Add",
-                                "Amount": 50
-                                }
-                            ]
-                        }
-                    ],
-                    "MinutesUntilReady": 1400
-                },       
-                {
-                    "Id": "wildflour.gourmetpantry_gem_yogurt",
-                    "Triggers": [
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)417",
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "OutputItem": [
-                        {
-                            "Id": "wildflour.gourmetpantry_gem_yogurt",
-                            "ItemId": "(O)wildflour.gourmetpantry_gem_yogurt",
-                            "CopyQuality":true,
-                            "CopyPrice": true,
-                            "PriceModifiers": 
-                            [
-                                {
-                                "Modification": "Multiply",
-                                "Amount": 1.8
-                                },
-                                {
-                                "Modification": "Add",
-                                "Amount": 50
-                                }
-                            ]
-                        }
-                    ],
-                    "MinutesUntilReady": 1400
-                },    
-                {
-                    "Id": "wildflour.gourmetpantry_raspberry_yogurt",
-                    "Triggers": [
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)wildflour.ateliercrops_raspberry",
-                            "RequiredCount": 1
-                        },
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)Cornucopia_Raspberry",
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "OutputItem": [
-                        {
-                            "Id": "wildflour.gourmetpantry_raspberry_yogurt",
-                            "ItemId": "(O)wildflour.gourmetpantry_raspberry_yogurt",
+                            "Id": "wildflour.gourmetpantry_birthday_cake_yogurt",
+                            "ItemId": "(O)wildflour.gourmetpantry_birthday_cake_yogurt",
                             "CopyQuality":true,
                             "CopyPrice": true,
                             "PriceModifiers": 
@@ -1685,40 +868,13 @@
                     "MinutesUntilReady": 1400
                 },
                 {
-                    "Id": "wildflour.gourmetpantry_fruit_yogurt",
+                    "Id": "wildflour.gourmetpantry_flavor_yogurt",
                     "Triggers": [
                         {
                             "Trigger": "ItemPlacedInMachine",
                             "RequiredTags": ["category_fruits"],
                             "RequiredCount": 1
-                        }
-                    ],
-                    "OutputItem": [
-                        {
-                            "ItemId": "CAULDRON_CUSTOM_PRESERVE wildflour.gourmetpantry_fruit_yogurt DROP_IN_ID",
-                            "ObjectDisplayName": "[LocalizedText Strings\\Objects:wildflour.gourmetpantry_fruit_yogurt %PRESERVED_DISPLAY_NAME]",
-                            "ObjectInternalName": "{0} Yogurt",
-                            "PreserveId": "DROP_IN",
-                            "CopyQuality": true,
-                            "CopyPrice": true,
-                            "PriceModifiers": 
-                            [
-                                {
-                                    "Modification": "Multiply",
-                                    "Amount": 1.8
-                                    },
-                                    {
-                                    "Modification": "Add",
-                                    "Amount": 50
-                                    }
-                            ]
-                        }    
-                    ],
-                    "MinutesUntilReady": 1400
-                },
-                {
-                    "Id": "wildflour.gourmetpantry_flower_yogurt",
-                    "Triggers": [
+                        },
                         {
                             "Trigger": "ItemPlacedInMachine",
                             "RequiredTags": ["edible_flower_item"],
@@ -1727,8 +883,8 @@
                     ],
                     "OutputItem": [
                         {
-                            "ItemId": "CAULDRON_CUSTOM_PRESERVE wildflour.gourmetpantry_flower_yogurt DROP_IN_ID",
-                            "ObjectDisplayName": "[LocalizedText Strings\\Objects:wildflour.gourmetpantry_flower_yogurt %PRESERVED_DISPLAY_NAME]",
+                            "ItemId": "CAULDRON_CUSTOM_PRESERVE wildflour.gourmetpantry_flavor_yogurt DROP_IN_ID",
+                            "ObjectDisplayName": "[LocalizedText Strings\\Objects:wildflour.gourmetpantry_fruit_yogurt %PRESERVED_DISPLAY_NAME]",
                             "ObjectInternalName": "{0} Yogurt",
                             "PreserveId": "DROP_IN",
                             "CopyQuality": true,
@@ -1765,32 +921,6 @@
             "HasInput": false,
             "HasOutput": false,
             "OutputRules": [
-                {
-                    "Id": "wildflour.gourmetpantry_ancient_syrup",
-                    "Triggers": [
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)454",
-                            "RequiredCount": 3
-                        }
-                    ],
-                    "OutputItem": [
-                        {
-                            "Id": "wildflour.gourmetpantry_ancient_syrup",
-                            "ItemId": "(O)wildflour.gourmetpantry_ancient_syrup",
-                            "CopyQuality":true,
-                            "CopyPrice": true,
-                            "PriceModifiers": 
-                            [
-                                {
-                                "Modification": "Multiply",
-                                "Amount": 3.25
-                                }
-                            ]
-                        }
-                    ],
-                    "MinutesUntilReady": 240
-                },
                 {
                     "Id": "wildflour.gourmetpantry_apple_syrup",
                     "Triggers": [
@@ -1870,141 +1000,6 @@
                     "MinutesUntilReady": 240
                 },
                 {
-                    "Id": "wildflour.gourmetpantry_blueberry_syrup",
-                    "Triggers": [
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)258",
-                            "RequiredCount": 3
-                        }
-                    ],
-                    "OutputItem": [
-                        {
-                            "Id": "wildflour.gourmetpantry_blueberry_syrup",
-                            "ItemId": "(O)wildflour.gourmetpantry_blueberry_syrup",
-                            "CopyQuality":true,
-                            "CopyPrice": true,
-                            "PriceModifiers": 
-                            [
-                                {
-                                "Modification": "Multiply",
-                                "Amount": 3.25
-                                }
-                            ]
-                        }
-                    ],
-                    "MinutesUntilReady": 240
-                },
-                {
-                    "Id": "wildflour.gourmetpantry_caramel_syrup",
-                    "Triggers": [
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)wildflour.ateliercrops_caramel_blossom",
-                            "RequiredCount": 3
-                        }
-                    ],
-                    "OutputItem": [
-                        {
-                            "Id": "wildflour.gourmetpantry_caramel_syrup",
-                            "ItemId": "(O)wildflour.gourmetpantry_caramel_syrup",
-                            "CopyQuality":true,
-                            "CopyPrice": true,
-                            "PriceModifiers": 
-                            [
-                                {
-                                "Modification": "Multiply",
-                                "Amount": 3.25
-                                }
-                            ]
-                        }
-                    ],
-                    "MinutesUntilReady": 240
-                },
-                {
-                    "Id": "wildflour.gourmetpantry_chai_syrup",
-                    "Triggers": [
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)815",
-                            "RequiredCount": 3
-                        }
-                    ],
-                    "OutputItem": [
-                        {
-                            "Id": "wildflour.gourmetpantry_chai_syrup",
-                            "ItemId": "(O)wildflour.gourmetpantry_chai_syrup",
-                            "CopyQuality":true,
-                            "CopyPrice": true,
-                            "PriceModifiers": 
-                            [
-                                {
-                                "Modification": "Multiply",
-                                "Amount": 3.25
-                                }
-                            ]
-                        }
-                    ],
-                    "MinutesUntilReady": 240
-                },
-                {
-                    "Id": "wildflour.gourmetpantry_cinnamon_syrup",
-                    "Triggers": [
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)wildflour.ateliercrops_cinnamon",
-                            "RequiredCount": 3
-                        },
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)Cornucopia_CinnamonSticks",
-                            "RequiredCount": 3
-                        },
-                    ],
-                    "OutputItem": [
-                        {
-                            "Id": "wildflour.gourmetpantry_cinnamon_syrup",
-                            "ItemId": "(O)wildflour.gourmetpantry_cinnamon_syrup",
-                            "CopyQuality":true,
-                            "CopyPrice": true,
-                            "PriceModifiers": 
-                            [
-                                {
-                                "Modification": "Multiply",
-                                "Amount": 3.25
-                                }
-                            ]
-                        }
-                    ],
-                    "MinutesUntilReady": 240
-                },
-                {
-                    "Id": "wildflour.gourmetpantry_matcha_syrup",
-                    "Triggers": [
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)614",
-                            "RequiredCount": 3
-                        }
-                    ],
-                    "OutputItem": [
-                        {
-                            "Id": "wildflour.gourmetpantry_matcha_syrup",
-                            "ItemId": "(O)wildflour.gourmetpantry_matcha_syrup",
-                            "CopyQuality":true,
-                            "CopyPrice": true,
-                            "PriceModifiers": 
-                            [
-                                {
-                                "Modification": "Multiply",
-                                "Amount": 3.25
-                                }
-                            ]
-                        }
-                    ],
-                    "MinutesUntilReady": 240
-                },
-                {
                     "Id": "wildflour.gourmetpantry_cherry_syrup",
                     "Triggers": [
                         {
@@ -2062,63 +1057,6 @@
                     "MinutesUntilReady": 240
                 },
                 {
-                    "Id": "wildflour.gourmetpantry_elderberry_syrup",
-                    "Triggers": [
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)wildflour.ateliercrops_elderberries",
-                            "RequiredCount": 3
-                        },
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)Cornucopia_Elderberries",
-                            "RequiredCount": 3
-                        }
-                    ],
-                    "OutputItem": [
-                        {
-                            "Id": "wildflour.gourmetpantry_elderberry_syrup",
-                            "ItemId": "(O)wildflour.gourmetpantry_elderberry_syrup",
-                            "CopyQuality":true,
-                            "CopyPrice": true,
-                            "PriceModifiers": 
-                            [
-                                {
-                                "Modification": "Multiply",
-                                "Amount": 3.25
-                                }
-                            ]
-                        }
-                    ],
-                    "MinutesUntilReady": 240
-                },
-                {
-                    "Id": "wildflour.gourmetpantry_gem_syrup",
-                    "Triggers": [
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)417",
-                            "RequiredCount": 3
-                        }
-                    ],
-                    "OutputItem": [
-                        {
-                            "Id": "wildflour.gourmetpantry_gem_syrup",
-                            "ItemId": "(O)wildflour.gourmetpantry_gem_syrup",
-                            "CopyQuality":true,
-                            "CopyPrice": true,
-                            "PriceModifiers": 
-                            [
-                                {
-                                "Modification": "Multiply",
-                                "Amount": 3.25
-                                }
-                            ]
-                        }
-                    ],
-                    "MinutesUntilReady": 240
-                },
-                {
                     "Id": "wildflour.gourmetpantry_grenadine_syrup",
                     "Triggers": [
                         {
@@ -2131,42 +1069,6 @@
                         {
                             "Id": "wildflour.gourmetpantry_grenadine_syrup",
                             "ItemId": "(O)wildflour.gourmetpantry_grenadine_syrup",
-                            "CopyQuality":true,
-                            "CopyPrice": true,
-                            "PriceModifiers": 
-                            [
-                                {
-                                "Modification": "Multiply",
-                                "Amount": 3.25
-                                }
-                            ]
-                        }
-                    ],
-                    "MinutesUntilReady": 240
-                },
-                {
-                    "Id": "wildflour.gourmetpantry_lavender_syrup",
-                    "Triggers": [
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)wildflour.ateliercrops_lavender",
-                            "RequiredCount": 3
-                        },
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)Cornucopia_Lavender",
-                            "RequiredCount": 3
-                        },
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)QL_Lavender",
-                            "RequiredCount": 3
-                        }
-                    ],
-                    "OutputItem": [
-                        {
-                            "Id": "wildflour.gourmetpantry_lavender_syrup",
-                            "ItemId": "(O)wildflour.gourmetpantry_lavender_syrup",
                             "CopyQuality":true,
                             "CopyPrice": true,
                             "PriceModifiers": 
@@ -2212,37 +1114,6 @@
                     "MinutesUntilReady": 240
                 },
                 {
-                    "Id": "wildflour.gourmetpantry_lime_syrup",
-                    "Triggers": [
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)wildflour.ateliercrops_lime",
-                            "RequiredCount": 3
-                        },
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)Cornucopia_Lime",
-                            "RequiredCount": 3
-                        }
-                    ],
-                    "OutputItem": [
-                        {
-                            "Id": "wildflour.gourmetpantry_lime_syrup",
-                            "ItemId": "(O)wildflour.gourmetpantry_lime_syrup",
-                            "CopyQuality":true,
-                            "CopyPrice": true,
-                            "PriceModifiers": 
-                            [
-                                {
-                                "Modification": "Multiply",
-                                "Amount": 3.25
-                                }
-                            ]
-                        }
-                    ],
-                    "MinutesUntilReady": 240
-                },
-                {
                     "Id": "wildflour.gourmetpantry_mango_syrup",
                     "Triggers": [
                         {
@@ -2255,63 +1126,6 @@
                         {
                             "Id": "wildflour.gourmetpantry_mango_syrup",
                             "ItemId": "(O)wildflour.gourmetpantry_mango_syrup",
-                            "CopyQuality":true,
-                            "CopyPrice": true,
-                            "PriceModifiers": 
-                            [
-                                {
-                                "Modification": "Multiply",
-                                "Amount": 3.25
-                                }
-                            ]
-                        }
-                    ],
-                    "MinutesUntilReady": 240
-                },
-                {
-                    "Id": "wildflour.gourmetpantry_marshmallow_syrup",
-                    "Triggers": [
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)wildflour.ateliercrops_mallow",
-                            "RequiredCount": 3
-                        }
-                    ],
-                    "OutputItem": [
-                        {
-                            "Id": "wildflour.gourmetpantry_marshmallow_syrup",
-                            "ItemId": "(O)wildflour.gourmetpantry_marshmallow_syrup",
-                            "CopyQuality":true,
-                            "CopyPrice": true,
-                            "PriceModifiers": 
-                            [
-                                {
-                                "Modification": "Multiply",
-                                "Amount": 3.25
-                                }
-                            ]
-                        }
-                    ],
-                    "MinutesUntilReady": 240
-                },
-                {
-                    "Id": "wildflour.gourmetpantry_mint_syrup",
-                    "Triggers": [
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)wildflour.ateliercrops_mint",
-                            "RequiredCount": 3
-                        },
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)Cornucopia_Mint",
-                            "RequiredCount": 3
-                        }
-                    ],
-                    "OutputItem": [
-                        {
-                            "Id": "wildflour.gourmetpantry_mint_syrup",
-                            "ItemId": "(O)wildflour.gourmetpantry_mint_syrup",
                             "CopyQuality":true,
                             "CopyPrice": true,
                             "PriceModifiers": 
@@ -2378,141 +1192,6 @@
                     "MinutesUntilReady": 240
                 },     
                 {
-                    "Id": "wildflour.gourmetpantry_pineapple_syrup",
-                    "Triggers": [
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)832",
-                            "RequiredCount": 3
-                        }
-                    ],
-                    "OutputItem": [
-                        {
-                            "Id": "wildflour.gourmetpantry_pineapple_syrup",
-                            "ItemId": "(O)wildflour.gourmetpantry_pineapple_syrup",
-                            "CopyQuality":true,
-                            "CopyPrice": true,
-                            "PriceModifiers": 
-                            [
-                                {
-                                "Modification": "Multiply",
-                                "Amount": 3.25
-                                }
-                            ]
-                        }
-                    ],
-                    "MinutesUntilReady": 240
-                },     
-                {
-                    "Id": "wildflour.gourmetpantry_pumpkin_syrup",
-                    "Triggers": [
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)276",
-                            "RequiredCount": 3
-                        }
-                    ],
-                    "OutputItem": [
-                        {
-                            "Id": "wildflour.gourmetpantry_pumpkin_syrup",
-                            "ItemId": "(O)wildflour.gourmetpantry_pumpkin_syrup",
-                            "CopyQuality":true,
-                            "CopyPrice": true,
-                            "PriceModifiers": 
-                            [
-                                {
-                                "Modification": "Multiply",
-                                "Amount": 3.25
-                                }
-                            ]
-                        }
-                    ],
-                    "MinutesUntilReady": 240
-                },            
-                {
-                    "Id": "wildflour.gourmetpantry_raspberry_syrup",
-                    "Triggers": [
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)wildflour.ateliercrops_raspberry",
-                            "RequiredCount": 3
-                        },
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)Cornucopia_Raspberry",
-                            "RequiredCount": 3
-                        }
-                    ],
-                    "OutputItem": [
-                        {
-                            "Id": "wildflour.gourmetpantry_raspberry_syrup",
-                            "ItemId": "(O)wildflour.gourmetpantry_raspberry_syrup",
-                            "CopyQuality":true,
-                            "CopyPrice": true,
-                            "PriceModifiers": 
-                            [
-                                {
-                                "Modification": "Multiply",
-                                "Amount": 3.25
-                                }
-                            ]
-                        }
-                    ],
-                    "MinutesUntilReady": 240
-                },
-                {
-                    "Id": "wildflour.gourmetpantry_rose_syrup",
-                    "Triggers": [
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)595",
-                            "RequiredCount": 3
-                        }
-                    ],
-                    "OutputItem": [
-                        {
-                            "Id": "wildflour.gourmetpantry_rose_syrup",
-                            "ItemId": "(O)wildflour.gourmetpantry_rose_syrup",
-                            "CopyQuality":true,
-                            "CopyPrice": true,
-                            "PriceModifiers": 
-                            [
-                                {
-                                "Modification": "Multiply",
-                                "Amount": 3.25
-                                }
-                            ]
-                        }
-                    ],
-                    "MinutesUntilReady": 240
-                },
-                {
-                    "Id": "wildflour.gourmetpantry_sakura_syrup",
-                    "Triggers": [
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)wildflour.ateliercrops_cherryblossoms",
-                            "RequiredCount": 3
-                        }
-                    ],
-                    "OutputItem": [
-                        {
-                            "Id": "wildflour.gourmetpantry_sakura_syrup",
-                            "ItemId": "(O)wildflour.gourmetpantry_sakura_syrup",
-                            "CopyQuality":true,
-                            "CopyPrice": true,
-                            "PriceModifiers": 
-                            [
-                                {
-                                "Modification": "Multiply",
-                                "Amount": 3.25
-                                }
-                            ]
-                        }
-                    ],
-                    "MinutesUntilReady": 240
-                },
-                {
                     "Id": "wildflour.gourmetpantry_simple_syrup",
                     "Triggers": [
                         {
@@ -2544,38 +1223,7 @@
                     "MinutesUntilReady": 240
                 },
                 {
-                    "Id": "wildflour.gourmetpantry_vanilla_syrup",
-                    "Triggers": [
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)wildflour.ateliercrops_vanilla",
-                            "RequiredCount": 3
-                        },
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)Cornucopia_Vanilla",
-                            "RequiredCount": 3
-                        }
-                    ],
-                    "OutputItem": [
-                        {
-                            "Id": "wildflour.gourmetpantry_vanilla_syrup",
-                            "ItemId": "(O)wildflour.gourmetpantry_vanilla_syrup",
-                            "CopyQuality":true,
-                            "CopyPrice": true,
-                            "PriceModifiers": 
-                            [
-                                {
-                                "Modification": "Multiply",
-                                "Amount": 3.25
-                                }
-                            ]
-                        }
-                    ],
-                    "MinutesUntilReady": 240
-                },
-                {
-                    "Id": "wildflour.gourmetpantry_wild_strawberry_syrup",
+                    "Id": "wildflour.gourmetpantry_strawberry_syrup",
                     "Triggers": [
                         {
                             "Trigger": "ItemPlacedInMachine",
@@ -2590,8 +1238,8 @@
                     ],
                     "OutputItem": [
                         {
-                            "Id": "wildflour.gourmetpantry_wild_strawberry_syrup",
-                            "ItemId": "(O)wildflour.gourmetpantry_wild_strawberry_syrup",
+                            "Id": "wildflour.gourmetpantry_strawberry_syrup",
+                            "ItemId": "(O)wildflour.gourmetpantry_strawberry_syrup",
                             "CopyQuality":true,
                             "CopyPrice": true,
                             "PriceModifiers": 
@@ -2606,36 +1254,13 @@
                     "MinutesUntilReady": 240
                 },
                 {
-                    "Id": "wildflour.gourmetpantry_fruit_syrup",
+                    "Id": "wildflour.gourmetpantry_flavor_syrup",
                     "Triggers": [
                         {
                             "Trigger": "ItemPlacedInMachine",
                             "RequiredTags": ["category_fruits","!item_cactus_fruit"],
                             "RequiredCount": 3
-                        }
-                    ],
-                    "OutputItem": [
-                        {
-                            "ItemId": "CAULDRON_CUSTOM_PRESERVE wildflour.gourmetpantry_fruit_syrup DROP_IN_ID",
-                            "ObjectDisplayName": "[LocalizedText Strings\\Objects:wildflour.gourmetpantry_fruit_syrup %PRESERVED_DISPLAY_NAME]",
-                            "ObjectInternalName": "{0} Syrup",
-                            "PreserveId": "DROP_IN",
-                            "CopyQuality": true,
-                            "CopyPrice": true,
-                            "PriceModifiers": 
-                            [
-                                {
-                                    "Modification": "Multiply",
-                                    "Amount": 3.25
-                                }
-                            ]
-                        }    
-                    ],
-                    "MinutesUntilReady": 240
-                },
-                {
-                    "Id": "wildflour.gourmetpantry_flower_syrup",
-                    "Triggers": [
+                        },
                         {
                             "Trigger": "ItemPlacedInMachine",
                             "RequiredTags": ["edible_flower_item"],
@@ -2644,8 +1269,8 @@
                     ],
                     "OutputItem": [
                         {
-                            "ItemId": "CAULDRON_CUSTOM_PRESERVE wildflour.gourmetpantry_flower_syrup DROP_IN_ID",
-                            "ObjectDisplayName": "[LocalizedText Strings\\Objects:wildflour.gourmetpantry_flower_syrup %PRESERVED_DISPLAY_NAME]",
+                            "ItemId": "CAULDRON_CUSTOM_PRESERVE wildflour.gourmetpantry_flavor_syrup DROP_IN_ID",
+                            "ObjectDisplayName": "[LocalizedText Strings\\Objects:wildflour.gourmetpantry_flavor_syrup %PRESERVED_DISPLAY_NAME]",
                             "ObjectInternalName": "{0} Syrup",
                             "PreserveId": "DROP_IN",
                             "CopyQuality": true,
@@ -2685,398 +1310,6 @@
     "Target": "Data/Machines",
     "TargetField": ["(BC)24", "OutputRules"],
     "Entries": {
-        "wildflour.gourmetpantry_MayoMachine_lemon_curd": {
-            "Id": "wildflour.gourmetpantry_MayoMachine_lemon_curd",
-            "Triggers": [
-                {
-                    "Trigger": "ItemPlacedInMachine",
-                    "RequiredItemId": "(O)wildflour.ateliercrops_lemon",
-                    "RequiredCount": 2
-                },
-                {
-                    "Trigger": "ItemPlacedInMachine",
-                    "RequiredItemId": "(O)Cornucopia_Lemon",
-                    "RequiredCount": 2
-                }
-            ],
-            "OutputItem": [
-                {
-                    "Id": "wildflour.gourmetpantry_lemon_curd",
-                    "ItemId": "(O)wildflour.gourmetpantry_lemon_curd",
-                    "CopyPrice": true,
-                    "PriceModifierMode":"Stack",
-                    "PriceModifiers": 
-                    [
-                        {
-                            "Id": "wildflour.gourmetpantry_artisan_modifier",
-                            "Modification": "Multiply",
-                            "Amount": 2.75
-                        }
-                    ]
-                }
-            ],
-            "MinutesUntilReady": 180
-        },
-        "wildflour.gourmetpantry_MayoMachine_lime_curd": {
-            "Id": "wildflour.gourmetpantry_MayoMachine_lime_curd",
-            "Triggers": [
-                {
-                    "Trigger": "ItemPlacedInMachine",
-                    "RequiredItemId": "(O)wildflour.ateliercrops_lime",
-                    "RequiredCount": 2
-                },
-                {
-                    "Trigger": "ItemPlacedInMachine",
-                    "RequiredItemId": "(O)Cornucopia_Lime",
-                    "RequiredCount": 2
-                }
-            ],
-            "OutputItem": [
-                {
-                    "Id": "wildflour.gourmetpantry_lime_curd",
-                    "ItemId": "(O)wildflour.gourmetpantry_lime_curd",
-                    "CopyPrice": true,
-                    "PriceModifierMode":"Stack",
-                    "PriceModifiers": 
-                    [
-                        {
-                            "Id": "wildflour.gourmetpantry_artisan_modifier",
-                            "Modification": "Multiply",
-                            "Amount": 2.75
-                        }
-                    ]
-                }
-            ],
-            "MinutesUntilReady": 180
-        },
-        "wildflour.gourmetpantry_MayoMachine_orange_curd": {
-            "Id": "wildflour.gourmetpantry_MayoMachine_orange_curd",
-            "Triggers": [
-                {
-                    "Trigger": "ItemPlacedInMachine",
-                    "RequiredItemId": "(O)635",
-                    "RequiredCount": 2
-                }
-            ],
-            "OutputItem": [
-                {
-                    "Id": "wildflour.gourmetpantry_orange_curd",
-                    "ItemId": "(O)wildflour.gourmetpantry_orange_curd",
-                    "CopyPrice": true,
-                    "CopyQuality":true,
-                    "PriceModifierMode":"Stack",
-                    "PriceModifiers": 
-                    [
-                        {
-                            "Id": "wildflour.gourmetpantry_artisan_modifier",
-                            "Modification": "Multiply",
-                            "Amount": 2.75
-                        }
-                    ]
-                }
-            ],
-            "MinutesUntilReady": 180
-        },
-        "wildflour.gourmetpantry_MayoMachine_apple_butter": {
-            "Id": "wildflour.gourmetpantry_MayoMachine_apple_butter",
-            "Triggers": [
-                {
-                    "Trigger": "ItemPlacedInMachine",
-                    "RequiredItemId": "(O)613",
-                    "RequiredCount": 2
-                }
-            ],
-            "OutputItem": [
-                {
-                    "Id": "wildflour.gourmetpantry_apple_butter",
-                    "ItemId": "(O)wildflour.gourmetpantry_apple_butter",
-                    "CopyPrice": true,
-                    "CopyQuality":true,
-                    "PriceModifierMode":"Stack",
-                    "PriceModifiers": 
-                    [
-                        {
-                            "Id": "wildflour.gourmetpantry_artisan_modifier",
-                            "Modification": "Multiply",
-                            "Amount": 2.75
-                        }
-                    ]
-                }
-            ],
-            "MinutesUntilReady": 180
-        },
-        "wildflour.gourmetpantry_MayoMachine_honey_butter": {
-            "Id": "wildflour.gourmetpantry_MayoMachine_honey_butter",
-            "Triggers": [
-                {
-                    "Trigger": "ItemPlacedInMachine",
-                    "RequiredItemId": "(O)340",
-                    "RequiredCount": 2
-                }
-            ],
-            "OutputItem": [
-                {
-                    "Id": "wildflour.gourmetpantry_honey_butter",
-                    "ItemId": "(O)wildflour.gourmetpantry_honey_butter",
-                    "CopyPrice": true,
-                    "CopyQuality":true,
-                    "PriceModifierMode":"Stack",
-                    "PriceModifiers": 
-                    [
-                        {
-                            "Id": "wildflour.gourmetpantry_artisan_modifier",
-                            "Modification": "Multiply",
-                            "Amount": 2.75
-                        }
-                    ]
-                }
-            ],
-            "MinutesUntilReady": 180
-        },
-        "wildflour.gourmetpantry_MayoMachine_maple_butter": {
-            "Id": "wildflour.gourmetpantry_MayoMachine_maple_butter",
-            "Triggers": [
-                {
-                    "Trigger": "ItemPlacedInMachine",
-                    "RequiredItemId": "(O)724",
-                    "RequiredCount": 2
-                }
-            ],
-            "OutputItem": [
-                {
-                    "Id": "wildflour.gourmetpantry_maple_butter",
-                    "ItemId": "(O)wildflour.gourmetpantry_maple_butter",
-                    "PriceModifierMode":"Stack",
-                    "CopyPrice": true,
-                    "CopyQuality":true,
-                    "PriceModifiers": 
-                    [
-                        {
-                            "Id": "wildflour.gourmetpantry_artisan_modifier",
-                            "Modification": "Multiply",
-                            "Amount": 2.75
-                        }
-                    ]
-                }
-            ],
-            "MinutesUntilReady": 180
-        },
-        "wildflour.gourmetpantry_MayoMachine_pumpkin_butter": {
-            "Id": "wildflour.gourmetpantry_MayoMachine_pumpkin_butter",
-            "Triggers": [
-                {
-                    "Trigger": "ItemPlacedInMachine",
-                    "RequiredItemId": "(O)276",
-                    "RequiredCount": 2
-                }
-            ],
-            "OutputItem": [
-                {
-                    "Id": "wildflour.gourmetpantry_pumpkin_butter",
-                    "ItemId": "(O)wildflour.gourmetpantry_pumpkin_butter",
-                    "PriceModifierMode":"Stack",
-                    "CopyPrice": true,
-                    "CopyQuality":true,
-                    "PriceModifiers": 
-                    [
-                        {
-                            "Id": "wildflour.gourmetpantry_artisan_modifier",
-                            "Modification": "Multiply",
-                            "Amount": 2.75
-                        }
-                    ]
-                }
-            ],
-            "MinutesUntilReady": 180
-        },
-        "wildflour.gourmetpantry_MayoMachine_almond_butter": {
-            "Id": "wildflour.gourmetpantry_MayoMachine_almond_butter",
-            "Triggers": [
-                {
-                    "Trigger": "ItemPlacedInMachine",
-                    "RequiredItemId": "(O)wildflour.ateliercrops_almond",
-                    "RequiredCount": 2
-                },
-                {
-                    "Trigger": "ItemPlacedInMachine",
-                    "RequiredItemId": "(O)Cornucopia_Almond",
-                    "RequiredCount": 2
-                }
-            ],
-            "OutputItem": [
-                {
-                    "Id": "wildflour.gourmetpantry_almond_butter",
-                    "ItemId": "(O)wildflour.gourmetpantry_almond_butter",
-                    "PriceModifierMode":"Stack",
-                    "CopyPrice": true,
-                    "CopyQuality":true,
-                    "PriceModifiers": 
-                    [
-                        {
-                            "Id": "wildflour.gourmetpantry_artisan_modifier",
-                            "Modification": "Multiply",
-                            "Amount": 2.75
-                        }
-                    ]
-                }
-            ],
-            "MinutesUntilReady": 180
-        },
-        "wildflour.gourmetpantry_MayoMachine_cashew_butter": {
-            "Id": "wildflour.gourmetpantry_MayoMachine_cashew_butter",
-            "Triggers": [
-                {
-                    "Trigger": "ItemPlacedInMachine",
-                    "RequiredItemId": "(O)wildflour.ateliercrops_cashew",
-                    "RequiredCount": 2
-                },
-                {
-                    "Trigger": "ItemPlacedInMachine",
-                    "RequiredItemId": "(O)Cornucopia_Cashew",
-                    "RequiredCount": 2
-                }
-            ],
-            "OutputItem": [
-                {
-                    "Id": "wildflour.gourmetpantry_cashew_butter",
-                    "ItemId": "(O)wildflour.gourmetpantry_cashew_butter",
-                    "CopyPrice": true,
-                    "CopyQuality":true,
-                    "PriceModifierMode":"Stack",
-                    "PriceModifiers": 
-                    [
-                        {
-                            "Id": "wildflour.gourmetpantry_artisan_modifier",
-                            "Modification": "Multiply",
-                            "Amount": 2.75
-                        }
-                    ]
-                }
-            ],
-            "MinutesUntilReady": 180
-        },
-        "wildflour.gourmetpantry_MayoMachine_coconut_butter": {
-            "Id": "wildflour.gourmetpantry_MayoMachine_coconut_butter",
-            "Triggers": [
-                {
-                    "Trigger": "ItemPlacedInMachine",
-                    "RequiredItemId": "(O)88",
-                    "RequiredCount": 2
-                }
-            ],
-            "OutputItem": [
-                {
-                    "Id": "wildflour.gourmetpantry_coconut_butter",
-                    "ItemId": "(O)wildflour.gourmetpantry_coconut_butter",
-                    "CopyPrice": true,
-                    "CopyQuality":true,
-                    "PriceModifierMode":"Stack",
-                    "PriceModifiers": 
-                    [
-                        {
-                            "Id": "wildflour.gourmetpantry_artisan_modifier",
-                            "Modification": "Multiply",
-                            "Amount": 2.75
-                        }
-                    ]
-                }
-            ],
-            "MinutesUntilReady": 180
-        },
-        "wildflour.gourmetpantry_MayoMachine_hazelnut_butter": {
-            "Id": "wildflour.gourmetpantry_MayoMachine_hazelnut_butter",
-            "Triggers": [
-                {
-                    "Trigger": "ItemPlacedInMachine",
-                    "RequiredItemId": "(O)408",
-                    "RequiredCount": 2
-                }
-            ],
-            "OutputItem": [
-                {
-                    "Id": "wildflour.gourmetpantry_hazelnut_butter",
-                    "ItemId": "(O)wildflour.gourmetpantry_hazelnut_butter",
-                    "PriceModifierMode":"Stack",
-                    "CopyPrice": true,
-                    "CopyQuality":true,
-                    "PriceModifiers": 
-                    [
-                        {
-                            "Id": "wildflour.gourmetpantry_artisan_modifier",
-                            "Modification": "Multiply",
-                            "Amount": 2.75
-                        }
-                    ]
-                }
-            ],
-            "MinutesUntilReady": 180
-        },
-        "wildflour.gourmetpantry_MayoMachine_pistachio_butter": {
-            "Id": "wildflour.gourmetpantry_MayoMachine_pistachio_butter",
-            "Triggers": [
-                {
-                    "Trigger": "ItemPlacedInMachine",
-                    "RequiredItemId": "(O)wildflour.ateliercrops_pistachio",
-                    "RequiredCount": 2
-                },
-                {
-                    "Trigger": "ItemPlacedInMachine",
-                    "RequiredItemId": "(O)Cornucopia_Pistachio",
-                    "RequiredCount": 2
-                }
-            ],
-            "OutputItem": [
-                {
-                    "Id": "wildflour.gourmetpantry_pistachio_butter",
-                    "ItemId": "(O)wildflour.gourmetpantry_pistachio_butter",
-                    "PriceModifierMode":"Stack",
-                    "CopyPrice": true,
-                    "CopyQuality":true,
-                    "PriceModifiers": 
-                    [
-                        {
-                            "Id": "wildflour.gourmetpantry_artisan_modifier",
-                            "Modification": "Multiply",
-                            "Amount": 2.75
-                        }
-                    ]
-                }
-            ],
-            "MinutesUntilReady": 180
-        },
-        "wildflour.gourmetpantry_MayoMachine_walnut_butter": {
-            "Id": "wildflour.gourmetpantry_MayoMachine_walnut_butter",
-            "Triggers": [
-                {
-                    "Trigger": "ItemPlacedInMachine",
-                    "RequiredItemId": "(O)wildflour.ateliercrops_walnut",
-                    "RequiredCount": 2
-                },
-                {
-                    "Trigger": "ItemPlacedInMachine",
-                    "RequiredItemId": "(O)Cornucopia_Walnut",
-                    "RequiredCount": 2
-                }
-            ],
-            "OutputItem": [
-                {
-                    "Id": "wildflour.gourmetpantry_walnut_butter",
-                    "ItemId": "(O)wildflour.gourmetpantry_walnut_butter",
-                    "PriceModifierMode":"Stack",
-                    "CopyPrice": true,
-                    "CopyQuality":true,
-                    "PriceModifiers": 
-                    [
-                        {
-                            "Id": "wildflour.gourmetpantry_artisan_modifier",
-                            "Modification": "Multiply",
-                            "Amount": 2.75
-                        }
-                    ]
-                }
-            ],
-            "MinutesUntilReady": 180
-        },
         "wildflour.gourmetpantry_MayoMachine_butter": {
             "Id": "wildflour.gourmetpantry_MayoMachine_butter",
             "Triggers": [
@@ -3129,40 +1362,6 @@
                 {
                     "Id": "wildflour.gourmetpantry_olive_oil",
                     "ItemId": "(O)wildflour.gourmetpantry_olive_oil",
-                    "PriceModifierMode":"Stack",
-                    "CopyPrice": true,
-                    "CopyQuality":true,
-                    "PriceModifiers": 
-                    [
-                        {
-                            "Id": "wildflour.gourmetpantry_artisan_modifier",
-                            "Modification": "Multiply",
-                            "Amount": 2.0
-                        }
-                    ]
-                   
-                }
-            ],
-            "MinutesUntilReady": 240
-        },
-        "wildflour.gourmetpantry_OilMaker_vanilla_extract": {
-            "Id": "wildflour.gourmetpantry_OilMaker_vanilla_extract",
-            "Triggers": [
-                {
-                    "Trigger": "ItemPlacedInMachine",
-                    "RequiredItemId": "(O)wildflour.ateliercrops_vanilla",
-                    "RequiredCount": 1
-                },
-                {
-                    "Trigger": "ItemPlacedInMachine",
-                    "RequiredItemId": "(O)Cornucopia_Vanilla",
-                    "RequiredCount": 1
-                }
-            ],
-            "OutputItem": [
-                {
-                    "Id": "wildflour.gourmetpantry_vanilla_extract",
-                    "ItemId": "(O)wildflour.gourmetpantry_vanilla_extract",
                     "PriceModifierMode":"Stack",
                     "CopyPrice": true,
                     "CopyQuality":true,
@@ -3248,7 +1447,6 @@
             ],
             "MinutesUntilReady": 40
         },
-
         "wildflour.gourmetpantry_Kiln_white_chocolate": {
             "Id": "wildflour.gourmetpantry_Kiln_white_chocolate",
             "Triggers": [
@@ -3317,9 +1515,9 @@
     }
 },
 
-//////////////////////////////////
-// Edit Gourmet Pantry Machines for JAW //
-//////////////////////////////////
+//////////////////////////////
+// Edit GP Machines for JAW //
+//////////////////////////////
 
 {
     "LogName": "Just Add Whip Kitchen Blender Edits",

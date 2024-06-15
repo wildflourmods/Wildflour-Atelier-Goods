@@ -75,41 +75,18 @@
         },
 
         {
-            "LogName": "Wild Food Pantry Objects",
-            "Action": "Include",
-            "FromFile": "Data/objects_wildfood.json",
-            "When":{"Atelier.Cauldron/ConfigValue:WildFood": "True"}
-        },
-
-        {
-            "LogName": "JAW Objects and Machine Rules",
+            "LogName": "JAW Objects",
             "Action": "Include",
             "FromFile": "Data/objects_jaw.json",
             "When":{"HasMod":"hylianxprincess.JustAddWhip"}
         },
 
         {
-            "LogName": "Faerie Pantry Objects",
-            "Action": "Include",
-            "FromFile": "Data/objects_faerie.json",
-            "When":{"Atelier.Cauldron/ConfigValue:FaerieGarden": "True"}
-        },
-
-        {
-            "LogName": "Gourmet Objects",
+            "LogName": "Modded Pantry Objects WF or CMC",
             "Action": "Include",
             "FromFile": "Data/objects_crop_overlap.json",
             "When": {
                 "Query: {{Atelier.Cauldron/ConfigValue:CMC}} OR {{Atelier.Cauldron/ConfigValue:WildFood}}": true
-                }
-        },
-
-        {
-            "LogName": "Floral Objects",
-            "Action": "Include",
-            "FromFile": "Data/objects_flower_overlap.json",
-            "When": {
-                "Query: {{Atelier.Cauldron/ConfigValue:CMF}} OR {{Atelier.Cauldron/ConfigValue:WildFood}}": true
                 }
         },
 
@@ -119,7 +96,6 @@
             "LogName": "Gourmet Pantry Crafting Recipes",
             "Action": "Include",
             "FromFile": "Data/recipes.json"
-
         },
        
         //Include Gift Tastes
@@ -146,7 +122,6 @@
             "FromFile": "Data/machines.json"
         },
 
-        
         {
             "LogName": "Gourmet Pantry Strings",
             "Action": "Include",

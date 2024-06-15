@@ -5,10 +5,8 @@
     "Action": "EditData",
     "Target": "Strings/Objects",
     "Entries": {
-        "wildflour.gourmetpantry_fruit_syrup": "{{i18n: gourmetpantry_flavored_syrup}}",
-        "wildflour.gourmetpantry_flower_syrup": "{{i18n: gourmetpantry_flavored_syrup}}",
-        "wildflour.gourmetpantry_fruit_yogurt": "{{i18n: gourmetpantry_flavored_yogurt}}",
-        "wildflour.gourmetpantry_flower_yogurt": "{{i18n: gourmetpantry_flavored_yogurt}}",
+        "wildflour.gourmetpantry_flavor_syrup": "{{i18n: gourmetpantry_flavored_syrup}}",
+        "wildflour.gourmetpantry_flavor_yogurt": "{{i18n: gourmetpantry_flavored_yogurt}}"
     }
 }
     ]

@@ -16,13 +16,6 @@
 
                 {
                     "Operation": "Append",
-                    "Target": ["Fields","George", 1],
-                    "Value": "wildflour.gourmetpantry_lemon_curd",
-                    "Delimiter": " "
-                },
-
-                {
-                    "Operation": "Append",
                     "Target": ["Fields","Gus", 1],
                     "Value": "wildflour.gourmetpantry_cake_flour wildflour.gourmetpantry_pastry_flour",
                     "Delimiter": " "
@@ -38,7 +31,7 @@
                 {
                     "Operation": "Append",
                     "Target": ["Fields","Jas", 1],
-                    "Value": "wildflour.gourmetpantry_rainbow_sprinkles wildflour.gourmetpantry_chocolate_chips",
+                    "Value": "wildflour.gourmetpantry_rainbow_sprinkles",
                     "Delimiter": " "
                 },
 
@@ -58,20 +51,6 @@
 
                 {
                     "Operation": "Append",
-                    "Target": ["Fields","Maru", 1],
-                    "Value": "wildflour.gourmetpantry_almond_butter wildflour.gourmetpantry_hazelnut_butter",
-                    "Delimiter": " "
-                },
-
-                {
-                    "Operation": "Append",
-                    "Target": ["Fields","Pierre", 1],
-                    "Value": "wildflour.gourmetpantry_maple_butter wildflour.gourmetpantry_honey_butter",
-                    "Delimiter": " "
-                },
-
-                {
-                    "Operation": "Append",
                     "Target": ["Fields","Shane", 1],
                     "Value": "wildflour.gourmetpantry_butter wildflour.gourmetpantry_cream",
                     "Delimiter": " "
@@ -80,7 +59,7 @@
                 {
                     "Operation": "Append",
                     "Target": ["Fields","Vincent", 1],
-                    "Value": "wildflour.gourmetpantry_rainbow_sprinkles wildflour.gourmetpantry_chocolate_chips",
+                    "Value": "wildflour.gourmetpantry_rainbow_sprinkles",
                     "Delimiter": " "
                 }
      

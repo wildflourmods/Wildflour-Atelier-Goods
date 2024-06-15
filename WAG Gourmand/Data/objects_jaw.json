@@ -18,10 +18,10 @@
                     "ContextTags":
                     ["wildflour_pantry",
                     "milkshake_item",
-                    "color_cream"],
+                    "color_yellow"],
 
                     "Texture": "Mods/wildflour.gourmetpantry/Objects",
-                    "SpriteIndex": 128
+                    "SpriteIndex": 48
             },
                 "wildflour.gourmetpantry_blueberry_whip_milkshake": {
                     "Name": "wildflour.gourmetpantry_blueberry_whip_milkshake",
@@ -34,11 +34,11 @@
                     "ExcludeFromShippingCollection": "{{ShippingConfig}}",
                     "ContextTags":
                     ["wildflour_pantry",
-                    "nut_butter_item",
+                    "milkshake_item",
                     "color_blue"],
 
                     "Texture": "Mods/wildflour.gourmetpantry/Objects",
-                    "SpriteIndex": 129
+                    "SpriteIndex": 49
             },
                 "wildflour.gourmetpantry_choccy_whip_milkshake": {
                     "Name": "wildflour.gourmetpantry_choccy_whip_milkshake",
@@ -55,7 +55,7 @@
                     "color_brown"],
 
                     "Texture": "Mods/wildflour.gourmetpantry/Objects",
-                    "SpriteIndex": 130
+                    "SpriteIndex": 50
             },
                 "wildflour.gourmetpantry_orange_whip_milkshake": {
                     "Name": "wildflour.gourmetpantry_orange_whip_milkshake",
@@ -72,7 +72,7 @@
                     "color_orange"],
 
                     "Texture": "Mods/wildflour.gourmetpantry/Objects",
-                    "SpriteIndex": 131
+                    "SpriteIndex": 51
             },
                 "wildflour.gourmetpantry_shamrock_whip_milkshake": {
                     "Name": "wildflour.gourmetpantry_shamrock_whip_milkshake",
@@ -89,7 +89,7 @@
                     "color_green"],
 
                     "Texture": "Mods/wildflour.gourmetpantry/Objects",
-                    "SpriteIndex": 132
+                    "SpriteIndex": 52
             },
                 "wildflour.gourmetpantry_strawberry_whip_milkshake": {
                     "Name": "wildflour.gourmetpantry_strawberry_whip_milkshake",
@@ -106,7 +106,7 @@
                     "color_pink"],
 
                     "Texture": "Mods/wildflour.gourmetpantry/Objects",
-                    "SpriteIndex": 133
+                    "SpriteIndex":53
             }
         }
         }
