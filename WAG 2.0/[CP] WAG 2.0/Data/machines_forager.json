@@ -1,0 +1,1237 @@
+{
+    "Changes": [
+
+{
+    "LogName": "Add Wild Food Sapling Rules",
+    "When": {"Atelier.Cauldron/ConfigValue:WildFood": true},
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "TargetField": ["(BC)25", "OutputRules"],
+    "Entries": {
+
+        "Wildflour.AtelierGoods_Seedmaker_Pistachio": {
+            "Id": "Wildflour.AtelierGoods_Seedmaker_Pistachio",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "Wildflour.AtelierGoods_Pistachio",
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Pistachio_Sapling",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Pistachio_Sapling",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+        "Wildflour.AtelierGoods_Seedmaker_Olive": {
+            "Id": "Wildflour.AtelierGoods_Seedmaker_Olive",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "Wildflour.AtelierGoods_Olive",
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Olive_Sapling",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Olive_Sapling",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+        "Wildflour.AtelierGoods_Seedmaker_Cashew": {
+            "Id": "Wildflour.AtelierGoods_Seedmaker_Cashew",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "Wildflour.AtelierGoods_Cashew",
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Cashew_Sapling",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Cashew_Sapling",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+        "Wildflour.AtelierGoods_Seedmaker_Walnut": {
+            "Id": "Wildflour.AtelierGoods_Seedmaker_Walnut",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "Wildflour.AtelierGoods_Walnut",
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Walnut_Sapling",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Walnut_Sapling",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+        "Wildflour.AtelierGoods_Seedmaker_Lemon": {
+            "Id": "Wildflour.AtelierGoods_Seedmaker_Lemon",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "Wildflour.AtelierGoods_Lemon",
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Lemon_Sapling",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Lemon_Sapling",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+        "Wildflour.AtelierGoods_Seedmaker_Lime": {
+            "Id": "Wildflour.AtelierGoods_Seedmaker_Lime",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "Wildflour.AtelierGoods_Lime",
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Lime_Sapling",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Lime_Sapling",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+        "Wildflour.AtelierGoods_Seedmaker_Almond": {
+            "Id": "Wildflour.AtelierGoods_Seedmaker_Almond",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "Wildflour.AtelierGoods_Almond",
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Almond_Sapling",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Almond_Sapling",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+        "Wildflour.AtelierGoods_Seedmaker_Anise": {
+            "Id": "Wildflour.AtelierGoods_Seedmaker_Anise",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "Wildflour.AtelierGoods_Anise",
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Anise_Sapling",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Anise_Sapling",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+        "Wildflour.AtelierGoods_Seedmaker_Cacao_Pod": {
+            "Id": "Wildflour.AtelierGoods_Seedmaker_Cacao_Pod",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "Wildflour.AtelierGoods_Cacao_Pod",
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Cacao_Sapling",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Cacao_Sapling",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+        "Wildflour.AtelierGoods_Seedmaker_Elderberries": {
+            "Id": "Wildflour.AtelierGoods_Seedmaker_Elderberries",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "Wildflour.AtelierGoods_Elderberries",
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Elder_Sapling",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Elder_Sapling",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        }
+    },
+    "MoveEntries": [
+        {
+            "ID": "Wildflour.AtelierGoods_Seedmaker_Almond",
+            "BeforeId": "Default"
+        },
+        {
+            "ID": "Wildflour.AtelierGoods_Seedmaker_Pistachio",
+            "BeforeId": "Default"
+        },
+        {
+            "ID": "Wildflour.AtelierGoods_Seedmaker_Olive",
+            "BeforeId": "Default"
+        },
+        {
+            "ID": "Wildflour.AtelierGoods_Seedmaker_Cashew",
+            "BeforeId": "Default"
+        },
+        {
+            "ID": "Wildflour.AtelierGoods_Seedmaker_Walnut",
+            "BeforeId": "Default"
+        },
+        {
+            "ID": "Wildflour.AtelierGoods_Seedmaker_Lemon",
+            "BeforeId": "Default"
+        },
+        {
+            "ID": "Wildflour.AtelierGoods_Seedmaker_Lime",
+            "BeforeId": "Default"
+        },
+        {
+            "ID": "Wildflour.AtelierGoods_Seedmaker_Cacao_Pod",
+            "BeforeId": "Default"
+        },
+        {
+            "ID": "Wildflour.AtelierGoods_Seedmaker_Anise",
+            "BeforeId": "Default"
+        },
+        {
+            "ID": "Wildflour.AtelierGoods_Seedmaker_Elderberries",
+            "BeforeId": "Default"
+        },
+    ]
+},
+
+{
+    "LogName": "Wild Food Mushroom Rules Preserves Jar",
+    "When": {"Atelier.Cauldron/ConfigValue:WildFood": true},
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "TargetField": ["(BC)15", "OutputRules"],
+    "Entries": {
+        "Wildflour.AtelierGoods_Preservesjar_Chicken_Woods": {
+            "Id": "Wildflour.AtelierGoods_Preservesjar_Chicken_Woods",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "Wildflour.AtelierGoods_Chicken_Woods",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Egg",
+                    "ItemId": "(O)176",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+        "Wildflour.AtelierGoods_Preservesjar_Honey_Fungus": {
+            "Id": "Wildflour.AtelierGoods_Preservesjar_Honey_Fungus",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "Wildflour.AtelierGoods_Honey_Fungus",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Honey",
+                    "ItemId": "(O)340",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+        "Wildflour.AtelierGoods_Preservesjar_Meringue_Mushroom": {
+            "Id": "Wildflour.AtelierGoods_Preservesjar_Meringue_Mushroom",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "Wildflour.AtelierGoods_Meringue_Mushroom",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Sugar",
+                    "ItemId": "(O)245",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+        "Wildflour.AtelierGoods_Preservesjar_Milk_Mushroom": {
+            "Id": "Wildflour.AtelierGoods_Preservesjar_Milk_Mushroom",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "Wildflour.AtelierGoods_Milk_Mushroom",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Milk",
+                    "ItemId": "(O)184",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GoodForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                            "Modification": "Add",
+                            "Amount": 1
+                        },
+                        {
+                            "Id": "GreatForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                            "Modification": "Add",
+                            "Amount": 2
+                        },
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 3
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+        "Wildflour.AtelierGoods_Preservesjar_Wheatberry_Mushroom": {
+                    "Id": "Wildflour.AtelierGoods_Preservesjar_Wheatberry_Mushroom",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "Wildflour.AtelierGoods_Wheatberry_Mushroom",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Wheat Flour",
+                            "ItemId": "(O)246",
+                            "MinStack": 1,
+                            "MaxStack": 1,
+                            "StackModifiers": [
+                                {
+                                    "Id": "GoodForager",
+                                    "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                                    "Modification": "Add",
+                                    "Amount": 1
+                                },
+                                {
+                                    "Id": "GreatForager",
+                                    "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                                    "Modification": "Add",
+                                    "Amount": 2
+                                },
+                                {
+                                    "Id": "GreatestForager",
+                                    "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                                    "Modification": "Add",
+                                    "Amount": 3
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 20
+        }
+    },
+    "MoveEntries": [
+        {
+            "ID": "Wildflour.AtelierGoods_Preservesjar_Chicken_Woods",
+            "BeforeId": "Default_Pickled"
+        },
+        {
+            "ID": "Wildflour.AtelierGoods_Preservesjar_Honey_Fungus",
+            "BeforeId": "Default_Pickled"
+        },
+        {
+            "ID": "Wildflour.AtelierGoods_Preservesjar_Meringue_Mushroom",
+            "BeforeId": "Default_Pickled"
+        },
+        {
+            "ID": "Wildflour.AtelierGoods_Preservesjar_Milk_Mushroom",
+            "BeforeId": "Default_Pickled"
+        },
+        {
+            "ID": "Wildflour.AtelierGoods_Preservesjar_Wheatberry_Mushroom",
+            "BeforeId": "Default_Pickled"
+        }
+    ]
+},
+
+
+{
+"LogName": "Add Faerie Garden Seeds to Seed Maker",
+"Action": "EditData",
+"Target": "Data/Machines",
+"When": {"Atelier.Cauldron/ConfigValue:FaerieGarden": true},
+"TargetField": ["(BC)25", "OutputRules"],
+"Entries": {
+"Wildflour.AtelierGoods_Seedmaker_Geranium": {
+    "Id": "Wildflour.AtelierGoods_Seedmaker_Geranium",
+    "Triggers": [
+        {
+            "Trigger": "ItemPlacedInMachine",
+            "RequiredItemId": "Wildflour.AtelierGoods_Geranium",
+            "RequiredCount": 3
+        }
+    ],
+    "OutputItem": [
+        {
+            "Id": "Wildflour.AtelierGoods_Geranium_Sapling",
+            "ItemId": "(O)Wildflour.AtelierGoods_Geranium_Sapling",
+            "MinStack": 1,
+            "MaxStack": 1,
+            "StackModifiers": [
+                {
+                    "Id": "GoodForager",
+                    "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                    "Modification": "Add",
+                    "Amount": 1
+                }
+            ]
+        }
+    ],
+    "MinutesUntilReady": 20
+},
+
+"Wildflour.AtelierGoods_Seedmaker_Daisy": {
+    "Id": "Wildflour.AtelierGoods_Seedmaker_Daisy",
+    "Triggers": [
+        {
+            "Trigger": "ItemPlacedInMachine",
+            "RequiredItemId": "Wildflour.AtelierGoods_Daisy",
+            "RequiredCount": 3
+        }
+    ],
+    "OutputItem": [
+        {
+            "Id": "Wildflour.AtelierGoods_Daisy_Sapling",
+            "ItemId": "(O)Wildflour.AtelierGoods_Daisy_Sapling",
+            "MinStack": 1,
+            "MaxStack": 1,
+            "StackModifiers": [
+                {
+                    "Id": "GreatestForager",
+                    "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                    "Modification": "Add",
+                    "Amount": 1
+                }
+            ]
+        }
+    ],
+    "MinutesUntilReady": 20
+},
+"Wildflour.AtelierGoods_Seedmaker_Mysteria": {
+  "Id": "Wildflour.AtelierGoods_Seedmaker_Mysteria",
+  "Triggers": [
+      {
+          "Trigger": "ItemPlacedInMachine",
+          "RequiredItemId": "Wildflour.AtelierGoods_Mysteria",
+          "RequiredCount": 3
+      }
+  ],
+  "OutputItem": [
+      {
+          "Id": "Wildflour.AtelierGoods_Mysteria_Sapling",
+          "ItemId": "(O)Wildflour.AtelierGoods_Mysteria_Sapling",
+          "MinStack": 1,
+          "MaxStack": 1,
+          "StackModifiers": [
+            {
+                "Id": "GreatestForager",
+                "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                "Modification": "Add",
+                "Amount": 1
+            }
+        ]
+      }
+  ],
+  "MinutesUntilReady": 20
+},
+"Wildflour.AtelierGoods_Seedmaker_Primrose": {
+    "Id": "Wildflour.AtelierGoods_Seedmaker_Primrose",
+    "Triggers": [
+        {
+            "Trigger": "ItemPlacedInMachine",
+            "RequiredItemId": "Wildflour.AtelierGoods_Primrose",
+            "RequiredCount": 3
+        }
+    ],
+    "OutputItem": [
+        {
+            "Id": "Wildflour.AtelierGoods_Primrose_Sapling",
+            "ItemId": "(O)Wildflour.AtelierGoods_Primrose_Sapling",
+            "MinStack": 1,
+            "MaxStack": 1,
+            "StackModifiers": [
+                {
+                    "Id": "GreatestForager",
+                    "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                    "Modification": "Add",
+                    "Amount": 1
+                }
+            ]
+        }
+    ],
+    "MinutesUntilReady": 20
+},
+"Wildflour.AtelierGoods_Seedmaker_Chiffon": {
+    "Id": "Wildflour.AtelierGoods_Seedmaker_Chiffon",
+    "Triggers": [
+        {
+            "Trigger": "ItemPlacedInMachine",
+            "RequiredItemId": "Wildflour.AtelierGoods_Chiffon",
+            "RequiredCount": 3
+        }
+    ],
+    "OutputItem": [
+        {
+            "Id": "Wildflour.AtelierGoods_Chiffon_Sapling",
+            "ItemId": "(O)Wildflour.AtelierGoods_Chiffon_Sapling",
+            "MinStack": 1,
+            "MaxStack": 1,
+            "StackModifiers": [
+                {
+                    "Id": "GreatestForager",
+                    "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                    "Modification": "Add",
+                    "Amount": 1
+                }
+            ]
+        }
+    ],
+    "MinutesUntilReady": 20
+},  
+"Wildflour.AtelierGoods_Seedmaker_Violet": {
+    "Id": "Wildflour.AtelierGoods_Seedmaker_Violet",
+    "Triggers": [
+        {
+            "Trigger": "ItemPlacedInMachine",
+            "RequiredItemId": "Wildflour.AtelierGoods_Violet",
+            "RequiredCount": 3
+        }
+    ],
+    "OutputItem": [
+        {
+            "Id": "Wildflour.AtelierGoods_Violet_Sapling",
+            "ItemId": "(O)Wildflour.AtelierGoods_Violet_Sapling",
+            "MinStack": 1,
+            "MaxStack": 1,
+            "StackModifiers": [
+                {
+                    "Id": "GreatestForager",
+                    "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                    "Modification": "Add",
+                    "Amount": 1
+                }
+            ]
+        }
+    ],
+    "MinutesUntilReady": 20
+},
+"Wildflour.AtelierGoods_Seedmaker_Dawn_Lily": {
+    "Id": "Wildflour.AtelierGoods_Seedmaker_Dawn_Lily",
+    "Triggers": [
+        {
+            "Trigger": "ItemPlacedInMachine",
+            "RequiredItemId": "Wildflour.AtelierGoods_Dawn_Lily",
+            "RequiredCount": 3
+        }
+    ],
+    "OutputItem": [
+        {
+            "Id": "Wildflour.AtelierGoods_Dawn_Sapling",
+            "ItemId": "(O)Wildflour.AtelierGoods_Dawn_Sapling",
+            "MinStack": 1,
+            "MaxStack": 1,
+            "StackModifiers": [
+                {
+                    "Id": "GreatestForager",
+                    "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                    "Modification": "Add",
+                    "Amount": 1
+                }
+            ]
+        }
+    ],
+    "MinutesUntilReady": 20
+},
+"Wildflour.AtelierGoods_Seedmaker_Dusk_Lily": {
+    "Id": "Wildflour.AtelierGoods_Seedmaker_Dusk_Lily",
+    "Triggers": [
+        {
+            "Trigger": "ItemPlacedInMachine",
+            "RequiredItemId": "Wildflour.AtelierGoods_Dusk_Lily",
+            "RequiredCount": 3
+        }
+    ],
+    "OutputItem": [
+        {
+            "Id": "Wildflour.AtelierGoods_Dusk_Sapling",
+            "ItemId": "(O)Wildflour.AtelierGoods_Dusk_Sapling",
+            "MinStack": 1,
+            "MaxStack": 1,
+            "StackModifiers": [
+                {
+                    "Id": "GreatestForager",
+                    "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                    "Modification": "Add",
+                    "Amount": 1
+                }
+            ]
+        }
+    ],
+    "MinutesUntilReady": 20
+}
+
+},
+"MoveEntries": [
+{
+    "ID": "Wildflour.AtelierGoods_Seedmaker_Geranium",
+    "BeforeId": "Default"
+},
+{
+  "ID": "Wildflour.AtelierGoods_Seedmaker_Mysteria",
+  "BeforeId": "Default"
+},
+{
+    "ID": "Wildflour.AtelierGoods_Seedmaker_Daisy",
+    "BeforeId": "Default"
+},
+{
+    "ID": "Wildflour.AtelierGoods_Seedmaker_Primrose",
+    "BeforeId": "Default"
+},
+{
+    "ID": "Wildflour.AtelierGoods_Seedmaker_Chiffon",
+    "BeforeId": "Default"
+},
+{
+    "ID": "Wildflour.AtelierGoods_Seedmaker_Violet",
+    "BeforeId": "Default"
+},
+{
+    "ID": "Wildflour.AtelierGoods_Seedmaker_Dawn_Lily",
+    "BeforeId": "Default"
+},
+{
+    "ID": "Wildflour.AtelierGoods_Seedmaker_Dusk_Lily",
+    "BeforeId": "Default"
+}
+]
+},
+
+{
+"LogName": "Faerie Garden Mushroom Rules Recycling Machine",
+"Action": "EditData",
+"Target": "Data/Machines",
+"When": {"Atelier.Cauldron/ConfigValue:FaerieGarden": true},
+"TargetField": ["(BC)20", "OutputRules"],
+"Entries": {
+"Wildflour.AtelierGoods_Recyclingmachine_Blush_Cap": {
+  "Id": "Wildflour.AtelierGoods_Recyclingmachine_Blush_Cap",
+  "Triggers": [
+      {
+          "Trigger": "ItemPlacedInMachine",
+          "RequiredItemId": "Wildflour.AtelierGoods_Blush_Cap",
+          "RequiredCount": 1
+      }
+  ],
+  "OutputItem": [
+      {
+          "Id": "Deluxe Fertilizer",
+          "ItemId": "(O)919",
+          "MinStack": 7,
+          "MaxStack": 10,
+          "StackModifiers": [
+              {
+                  "Id": "GoodForager",
+                  "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                  "Modification": "Add",
+                  "Amount": 1
+              },
+              {
+                  "Id": "GreatForager",
+                  "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                  "Modification": "Add",
+                  "Amount": 2
+              },
+              {
+                  "Id": "GreatestForager",
+                  "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                  "Modification": "Add",
+                  "Amount": 3
+              }
+          ]
+      }
+  ],
+  "MinutesUntilReady": 60
+},
+"Wildflour.AtelierGoods_Recyclingmachine_Dawn_Trumpet": {
+  "Id": "Wildflour.AtelierGoods_Recyclingmachine_Dawn_Trumpet",
+  "Triggers": [
+      {
+          "Trigger": "ItemPlacedInMachine",
+          "RequiredItemId": "Wildflour.AtelierGoods_Dawn_Trumpet",
+          "RequiredCount": 1
+      }
+  ],
+  "OutputItem": [
+      {
+          "Id": "Deluxe Retaining Soil",
+          "ItemId": "(O)920",
+          "MinStack": 10,
+          "MaxStack": 10,
+          "StackModifiers": [
+              {
+                  "Id": "GoodForager",
+                  "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                  "Modification": "Add",
+                  "Amount": 1
+              },
+              {
+                  "Id": "GreatForager",
+                  "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                  "Modification": "Add",
+                  "Amount": 2
+              },
+              {
+                  "Id": "GreatestForager",
+                  "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                  "Modification": "Add",
+                  "Amount": 3
+              }
+          ]
+      }
+  ],
+  "MinutesUntilReady": 60
+},
+"Wildflour.AtelierGoods_Recyclingmachine_Dusk_Cap": {
+  "Id": "Wildflour.AtelierGoods_Recyclingmachine_Dusk_Cap",
+  "Triggers": [
+      {
+          "Trigger": "ItemPlacedInMachine",
+          "RequiredItemId": "Wildflour.AtelierGoods_Dusk_Cap",
+          "RequiredCount": 1
+      }
+  ],
+  "OutputItem": [
+      {
+          "Id": "Quality Retaining Soil",
+          "ItemId": "(O)371",
+          "MinStack": 10,
+          "MaxStack": 10,
+          "StackModifiers": [
+              {
+                  "Id": "GoodForager",
+                  "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                  "Modification": "Add",
+                  "Amount": 1
+              },
+              {
+                  "Id": "GreatForager",
+                  "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                  "Modification": "Add",
+                  "Amount": 2
+              },
+              {
+                  "Id": "GreatestForager",
+                  "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                  "Modification": "Add",
+                  "Amount": 3
+              }
+          ]
+      }
+  ],
+  "MinutesUntilReady": 60
+},
+"Wildflour.AtelierGoods_Recyclingmachine_Faerie_Helmets": {
+  "Id": "Wildflour.AtelierGoods_Recyclingmachine_Faerie_Helmets",
+  "Triggers": [
+      {
+          "Trigger": "ItemPlacedInMachine",
+          "RequiredItemId": "Wildflour.AtelierGoods_Faerie_Helmets",
+          "RequiredCount": 1
+      }
+  ],
+  "OutputItem": [
+      {
+          "Id": "Quality Fertilizer",
+          "ItemId": "(O)369",
+          "MinStack": 10,
+          "MaxStack": 10,
+          "StackModifiers": [
+              {
+                  "Id": "GoodForager",
+                  "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                  "Modification": "Add",
+                  "Amount": 1
+              },
+              {
+                  "Id": "GreatForager",
+                  "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                  "Modification": "Add",
+                  "Amount": 2
+              },
+              {
+                  "Id": "GreatestForager",
+                  "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                  "Modification": "Add",
+                  "Amount": 3
+              }
+          ]
+      }
+  ],
+  "MinutesUntilReady": 20
+},
+"Wildflour.AtelierGoods_Recyclingmachine_Giant_Amanita": {
+          "Id": "Wildflour.AtelierGoods_Recyclingmachine_Giant_Amanita",
+          "Triggers": [
+              {
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "Wildflour.AtelierGoods_Giant_Amanita",
+                  "RequiredCount": 1
+              }
+          ],
+          "OutputItem": [
+              {
+                  "Id": "Hyper Speed Gro",
+                  "ItemId": "(O)918",
+                  "MinStack": 5,
+                  "MaxStack": 7,
+                  "StackModifiers": [
+                      {
+                          "Id": "GoodForager",
+                          "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                          "Modification": "Add",
+                          "Amount": 1
+                      },
+                      {
+                          "Id": "GreatForager",
+                          "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                          "Modification": "Add",
+                          "Amount": 2
+                      },
+                      {
+                          "Id": "GreatestForager",
+                          "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                          "Modification": "Add",
+                          "Amount": 3
+                      }
+                  ]
+              }
+          ],
+          "MinutesUntilReady": 20
+},
+"Wildflour.AtelierGoods_Recyclingmachine_Amanita_Cluster": {
+"Id": "Wildflour.AtelierGoods_Recyclingmachine_Amanita_Cluster",
+"Triggers": [
+    {
+        "Trigger": "ItemPlacedInMachine",
+        "RequiredItemId": "Wildflour.AtelierGoods_Amanita_Cluster",
+        "RequiredCount": 1
+    }
+],
+"OutputItem": [
+    {
+        "Id": "Deluxe Speed Gro",
+        "ItemId": "(O)466",
+        "MinStack": 7,
+        "MaxStack": 7,
+        "StackModifiers": [
+            {
+                "Id": "GoodForager",
+                "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                "Modification": "Add",
+                "Amount": 1
+            },
+            {
+                "Id": "GreatForager",
+                "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                "Modification": "Add",
+                "Amount": 2
+            },
+            {
+                "Id": "GreatestForager",
+                "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                "Modification": "Add",
+                "Amount": 3
+            }
+        ]
+    }
+],
+"MinutesUntilReady": 20
+},
+"Wildflour.AtelierGoods_Recyclingmachine_Verdigris_Agaric": {
+"Id": "Wildflour.AtelierGoods_Recyclingmachine_Verdigris_Agaric",
+"Triggers": [
+    {
+        "Trigger": "ItemPlacedInMachine",
+        "RequiredItemId": "Wildflour.AtelierGoods_Verdigris_Agaric",
+        "RequiredCount": 1
+    }
+],
+"OutputItem": [
+    {
+        "Id": "Tree Fertilizer",
+        "ItemId": "(O)805",
+        "MinStack": 10,
+        "MaxStack": 10,
+        "StackModifiers": [
+            {
+                "Id": "GoodForager",
+                "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                "Modification": "Add",
+                "Amount": 1
+            },
+            {
+                "Id": "GreatForager",
+                "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                "Modification": "Add",
+                "Amount": 2
+            },
+            {
+                "Id": "GreatestForager",
+                "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                "Modification": "Add",
+                "Amount": 3
+            }
+        ]
+    }
+],
+"MinutesUntilReady": 20
+},
+"Wildflour.AtelierGoods_Recyclingmachine_Fire_Dragon_Scale": {
+"Id": "Wildflour.AtelierGoods_Recyclingmachine_Fire_Dragon_Scale",
+"Triggers": [
+    {
+        "Trigger": "ItemPlacedInMachine",
+        "RequiredItemId": "Wildflour.AtelierGoods_Fire_Dragon_Scale",
+        "RequiredCount": 1
+    }
+],
+"OutputItem": [
+    {
+        "Id": "Cinder Shards",
+        "ItemId": "(O)848",
+        "MinStack": 10,
+        "MaxStack": 10,
+        "StackModifiers": [
+            {
+                "Id": "GoodForager",
+                "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                "Modification": "Add",
+                "Amount": 1
+            },
+            {
+                "Id": "GreatForager",
+                "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                "Modification": "Add",
+                "Amount": 2
+            },
+            {
+                "Id": "GreatestForager",
+                "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                "Modification": "Add",
+                "Amount": 3
+            }
+        ]
+    }
+],
+"MinutesUntilReady": 20
+},
+"Wildflour.AtelierGoods_Recyclingmachine_Ice_Dragon_Scale": {
+"Id": "Wildflour.AtelierGoods_Recyclingmachine_Ice_Dragon_Scale",
+"Triggers": [
+    {
+        "Trigger": "ItemPlacedInMachine",
+        "RequiredItemId": "Wildflour.AtelierGoods_Ice_Dragon_Scale",
+        "RequiredCount": 1
+    }
+],
+"OutputItem": [
+    {
+        "Id": "Frozen Tear",
+        "ItemId": "(O)84",
+        "MinStack": 10,
+        "MaxStack": 10
+    }
+],
+"MinutesUntilReady": 20
+},
+"Wildflour.AtelierGoods_Recyclingmachine_Shooting_Star": {
+"Id": "Wildflour.AtelierGoods_Recyclingmachine_Shooting_Star",
+"Triggers": [
+    {
+        "Trigger": "ItemPlacedInMachine",
+        "RequiredItemId": "Wildflour.AtelierGoods_Shooting_Star",
+        "RequiredCount": 1
+    }
+],
+"OutputItem": [
+    {
+        "Id": "Battery Pack",
+        "ItemId": "(O)787",
+        "MinStack": 1,
+        "MaxStack": 3
+    }
+],
+"MinutesUntilReady": 20
+},
+"Wildflour.AtelierGoods_Recyclingmachine_Unicorn_Horn": {
+"Id": "Wildflour.AtelierGoods_Recyclingmachine_Unicorn_Horn",
+"Triggers": [
+    {
+        "Trigger": "ItemPlacedInMachine",
+        "RequiredItemId": "Wildflour.AtelierGoods_Unicorn_Horn",
+        "RequiredCount": 1
+    }
+],
+"OutputItem": [
+    {
+        "Id": "Artifact Trove",
+        "ItemId": "(O)275",
+        "MinStack": 10,
+        "MaxStack": 10
+    }
+],
+"MinutesUntilReady": 20
+},
+"Wildflour.AtelierGoods_Recyclingmachine_Clover": {
+"Id": "Wildflour.AtelierGoods_Recyclingmachine_Clover",
+"Triggers": [
+    {
+        "Trigger": "ItemPlacedInMachine",
+        "RequiredItemId": "Wildflour.AtelierGoods_Clover",
+        "RequiredCount": 1
+    }
+],
+"OutputItem": [
+    {
+        "Id": "Blue Grass",
+        "ItemId": "(O)BlueGrassStarter",
+        "MinStack": 1,
+        "MaxStack": 3,
+        "StackModifiers": [
+            {
+                "Id": "GoodForager",
+                "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                "Modification": "Add",
+                "Amount": 1
+            },
+            {
+                "Id": "GreatForager",
+                "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                "Modification": "Add",
+                "Amount": 2
+            },
+            {
+                "Id": "GreatestForager",
+                "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                "Modification": "Add",
+                "Amount": 3
+            }
+        ]
+    }
+],
+"MinutesUntilReady": 20
+}
+}
+
+}
+
+]
+}

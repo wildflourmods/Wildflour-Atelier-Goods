@@ -1,0 +1,21 @@
+{
+    "Name": "Wildflour's Atelier Goods",
+    "Author": "wildflourmods",
+    "Version": "0.1.1",
+    "Description": "This mod focuses on crafting artisanal items",
+    "UniqueID": "Wildflour.AtelierGoods",
+    "UpdateKeys": [""], 
+    "MinimumApiVersion": "4.0.0-alpha",
+    "Dependencies": [
+        {"UniqueID": "Atelier.Cauldron", "IsRequired": true},
+        {"UniqueID": "DLX.Bundles","IsRequired": true},
+        {"UniqueID": "selph.ExtraMachineConfig", "IsRequired": true},
+        {"UniqueID":"NCarigon.BushBloomMod","IsRequired": false},
+        {"UniqueID":"Esca.FarmTypeManager","IsRequired": false},
+        {"UniqueID":"PC.CP.QL.FlowerGarden2","IsRequired": false}
+        /*{"UniqueID": "spacechase0.SpaceCore","IsRequired": true}*/
+    ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}
