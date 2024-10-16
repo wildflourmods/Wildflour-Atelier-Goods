@@ -9,7 +9,7 @@
     "LogName": "Blast Chiller Added to BigCraftables",
     "Action": "EditData",
     "Target": "Data/BigCraftables",
-    "When": {"Query: ({{Atelier.Cauldron/ConfigValue:Popsicles}} = 'true') OR ({{Atelier.Cauldron/ConfigValue:Coffee}} = 'true')": true},
+    "When": {"Query: ({{Atelier.Cauldron/ConfigValue:Popsicles}} = 'true') OR ({{Atelier.Cauldron/ConfigValue:Coffee}} = 'true') OR ({{Atelier.Cauldron/ConfigValue:Tea}} = 'true')": true},
     "Entries": {
         "Wildflour.AtelierGoods_BlastChiller": {
             "Name": "Wildflour.AtelierGoods_BlastChiller",
@@ -31,7 +31,7 @@
     "LogName": "Add Blast Chiller Crafting Recipe",
     "Action": "EditData",
     "Target": "Data/CraftingRecipes",
-    "When": {"Query: ({{Atelier.Cauldron/ConfigValue:Popsicles}} = 'true') OR ({{Atelier.Cauldron/ConfigValue:Coffee}} = 'true')": true},
+    "When": {"Query: ({{Atelier.Cauldron/ConfigValue:Popsicles}} = 'true') OR ({{Atelier.Cauldron/ConfigValue:Coffee}} = 'true') OR ({{Atelier.Cauldron/ConfigValue:Tea}} = 'true')": true},
     "Entries": {
         "Wildflour.AtelierGoods_BlastChiller": "388 50 335 2 84 2/Home/Wildflour.AtelierGoods_BlastChiller/true/{{RecipeConfig}}/{{i18n: AtelierGoods_BlastChiller.name}}"
     }
