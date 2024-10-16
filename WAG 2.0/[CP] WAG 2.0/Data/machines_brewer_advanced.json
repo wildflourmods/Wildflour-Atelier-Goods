@@ -96,7 +96,7 @@
                         "ItemId": "Wildflour.AtelierGoods_Bobbin_For_Aleples",
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementTags.1": "thyme_item",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:AleKegFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Thyme_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "CopyQuality":true,
@@ -136,7 +136,7 @@
                         "ItemId": "Wildflour.AtelierGoods_Bonfire_Ale",
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)709",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:AleKegFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Hardwood_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "CopyQuality":true,
@@ -171,7 +171,7 @@
                         "ItemId": "Wildflour.AtelierGoods_Dust_Sprite_Stout",
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)433",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:AleKegFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CoffeeBean_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "CopyQuality":true,
@@ -276,7 +276,7 @@
                         "ItemId": "Wildflour.AtelierGoods_Livin_Off_The_Land_Ale",
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)634",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:AleKegFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Apricot_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "CopyQuality":true,
@@ -311,7 +311,7 @@
                         "ItemId": "Wildflour.AtelierGoods_Pelican_Pilsner",
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)396",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:AleKegFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:SpiceBerry_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "CopyQuality":true,
@@ -346,7 +346,7 @@
                         "ItemId": "Wildflour.AtelierGoods_Sandcastle_IPA",
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)829",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:AleKegFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Ginger_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "CopyQuality":true,
@@ -415,8 +415,8 @@
                         "Id": "Wildflour.AtelierGoods_Scrooge_Tripel",
                         "ItemId": "Wildflour.AtelierGoods_Scrooge_Tripel",
                         "CustomData": {
-                            "selph.ExtraMachineConfig.RequirementTags.1": "star_anise_item",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:AleKegFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementTags.1": "cinnamon_item",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cinnamon_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "CopyQuality":true,
@@ -486,7 +486,7 @@
                         "ItemId": "Wildflour.AtelierGoods_Wednesdays_Void_Lager",
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)769",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:AleKegFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:VoidEssence_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "CopyQuality":true,
@@ -584,7 +584,7 @@
                         "ItemId": "Wildflour.AtelierGoods_Beach_Party_Mead",
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementTags.1": "jasmine_item",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MeadKegFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Jasmine_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "CopyQuality": true,
@@ -619,7 +619,7 @@
                         "ItemId": "Wildflour.AtelierGoods_Falling_Petals_Mead",
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)400",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MeadKegFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Strawberry_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "CopyQuality": true,
@@ -654,7 +654,7 @@
                         "ItemId": "Wildflour.AtelierGoods_Farmhouse_Cider_Mead",
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)829",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MeadKegFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Ginger_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "CopyQuality": true,
@@ -689,7 +689,7 @@
                         "ItemId": "Wildflour.AtelierGoods_Fireworks_Mead",
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementTags.1": "raspberry_item",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MeadKegFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Raspberry_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "CopyQuality": true,
@@ -724,7 +724,7 @@
                         "ItemId": "Wildflour.AtelierGoods_Gentle_Breeze_Mead",
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementTags.1": "chamomile_item",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MeadKegFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Chamomile_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "CopyQuality": true,
@@ -794,7 +794,7 @@
                         "ItemId": "Wildflour.AtelierGoods_Picnic_Basket_Mead",
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementTags.1": "almond_item",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MeadKegFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Almond_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "CopyQuality": true,
@@ -829,7 +829,7 @@
                         "ItemId": "Wildflour.AtelierGoods_Spellbound_Mead",
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementTags.1": "mint_item",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MeadKegFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Mint_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "CopyQuality": true,
@@ -899,7 +899,7 @@
                         "ItemId": "Wildflour.AtelierGoods_Twinkle_Mead",
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)595",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MeadKegFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:FairyRose_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "CopyQuality": true,
@@ -934,7 +934,7 @@
                         "ItemId": "Wildflour.AtelierGoods_Weird_Sisters_Mead",
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)595",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MeadKegFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:FairyRose_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "CopyQuality": true,
@@ -969,7 +969,7 @@
                         "ItemId": "Wildflour.AtelierGoods_Yule_Log_Mead",
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementTags.1": "star_anise_item",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MeadKegFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:StarAnise_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "CopyQuality": true,

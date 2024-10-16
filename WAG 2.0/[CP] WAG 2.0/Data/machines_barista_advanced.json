@@ -293,7 +293,7 @@
                         "ItemId": "Wildflour.AtelierGoods_Early_Riser_Ground_Coffee",
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)724",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CoffeeGrinderFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MapleSyrup_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "CopyQuality": true,
@@ -328,7 +328,7 @@
                         "ItemId": "Wildflour.AtelierGoods_Mucha_Mocha_Ground_Coffee",
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)408",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CoffeeGrinderFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Hazelnut_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "CopyQuality": true,
@@ -362,8 +362,8 @@
                         "Id": "Wildflour.AtelierGoods_Pistachio_Buzz_Ground_Coffee",
                         "ItemId": "Wildflour.AtelierGoods_Pistachio_Buzz_Ground_Coffee",
                         "CustomData": {
-                            "selph.ExtraMachineConfig.RequirementId.1": 340,
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CoffeeGrinderFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementId.1": "(O)340",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Honey_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "CopyQuality": true,
@@ -432,8 +432,8 @@
                         "Id": "Wildflour.AtelierGoods_Sleigh_Ride_Ground_Coffee",
                         "ItemId": "Wildflour.AtelierGoods_Sleigh_Ride_Ground_Coffee",
                         "CustomData": {
-                            "selph.ExtraMachineConfig.RequirementTags.1": "brown_sugar_item",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CoffeeGrinderFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Brown_Sugar",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:BrownSugar_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "CopyQuality": true,
@@ -507,8 +507,8 @@
                         "Id": "Wildflour.AtelierGoods_Warm_Vanilla_Sugar_Ground_Coffee",
                         "ItemId": "Wildflour.AtelierGoods_Warm_Vanilla_Sugar_Ground_Coffee",
                         "CustomData": {
-                            "selph.ExtraMachineConfig.RequirementTags.1": "brown_sugar_item",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CoffeeGrinderFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Brown_Sugar",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:BrownSugar_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "CopyQuality": true,
@@ -980,7 +980,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementTags.1": "raspberry_item",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:TeaProcessorFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Raspberry_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -1015,7 +1015,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Matcha_Powder",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:TeaProcessorFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Matcha_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -1055,7 +1055,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Matcha_Powder",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:TeaProcessorFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Matcha_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -1125,7 +1125,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementTags.1": "thyme_item",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:TeaProcessorFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Thyme_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -1160,7 +1160,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementTags.1": "chamomile_item",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:TeaProcessorFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Chamomile_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -1300,7 +1300,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)595",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:TeaProcessorFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:FairyRose_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -1335,7 +1335,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementTags.1": "jasmine_item",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:TeaProcessorFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Jasmine_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -1583,11 +1583,6 @@
                         "ItemId": "Wildflour.AtelierGoods_Good_Thyme_Tea",
                         "CopyQuality": true,
                         "CopyPrice": true,
-                        "CustomData": {
-                            "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Matcha_Powder",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:TeaProcessorFuelNeededMessage}}",
-                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
-                            },
                         "PriceModifiers": 
                             [ 
                                 {
@@ -1618,11 +1613,6 @@
                         "ItemId": "Wildflour.AtelierGoods_Happy_Harvest_Tea",
                         "CopyQuality": true,
                         "CopyPrice": true,
-                        "CustomData": {
-                            "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Matcha_Powder",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:TeaProcessorFuelNeededMessage}}",
-                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
-                            },
                         "PriceModifiers": 
                             [ 
                                 {
@@ -1653,11 +1643,6 @@
                         "ItemId": "Wildflour.AtelierGoods_North_Pole_Tea",
                         "CopyQuality": true,
                         "CopyPrice": true,
-                        "CustomData": {
-                            "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Matcha_Powder",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:TeaProcessorFuelNeededMessage}}",
-                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
-                            },
                         "PriceModifiers": 
                             [ 
                                 {
@@ -1688,11 +1673,6 @@
                         "ItemId": "Wildflour.AtelierGoods_Pelican_Fog_Tea",
                         "CopyQuality": true,
                         "CopyPrice": true,
-                        "CustomData": {
-                            "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Matcha_Powder",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:TeaProcessorFuelNeededMessage}}",
-                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
-                            },
                         "PriceModifiers": 
                             [ 
                                 {
@@ -1723,11 +1703,6 @@
                         "ItemId": "Wildflour.AtelierGoods_Plum_Chai_Tea",
                         "CopyQuality": true,
                         "CopyPrice": true,
-                        "CustomData": {
-                            "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Matcha_Powder",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:TeaProcessorFuelNeededMessage}}",
-                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
-                            },
                         "PriceModifiers": 
                             [ 
                                 {
@@ -1758,11 +1733,6 @@
                         "ItemId": "Wildflour.AtelierGoods_Positivitea_Tea",
                         "CopyQuality": true,
                         "CopyPrice": true,
-                        "CustomData": {
-                            "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Matcha_Powder",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:TeaProcessorFuelNeededMessage}}",
-                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
-                            },
                         "PriceModifiers": 
                             [ 
                                 {
@@ -1793,11 +1763,6 @@
                         "ItemId": "Wildflour.AtelierGoods_Sun_Room_Tea",
                         "CopyQuality": true,
                         "CopyPrice": true,
-                        "CustomData": {
-                            "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Matcha_Powder",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:TeaProcessorFuelNeededMessage}}",
-                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
-                            },
                         "PriceModifiers": 
                             [ 
                                 {
@@ -1828,11 +1793,6 @@
                         "ItemId": "Wildflour.AtelierGoods_Sunny_Delight_Tea",
                         "CopyQuality": true,
                         "CopyPrice": true,
-                        "CustomData": {
-                            "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Matcha_Powder",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:TeaKettleFuelNeededMessage}}",
-                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
-                            },
                         "PriceModifiers": 
                             [ 
                                 {
@@ -2269,7 +2229,7 @@
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementTags.1": "lemon_item",
                             "selph.ExtraMachineConfig.RequirementTags.2": "berry_item",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:LemonadeStandFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:BerryThyme_Lemonade_Fuel_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "CopyQuality": true,
@@ -2301,7 +2261,7 @@
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementTags.1": "lemon_item",
                             "selph.ExtraMachineConfig.RequirementTags.2": "mint_item",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:LemonadeStandFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Chamomile_Lemonade_Fuel_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "CopyQuality": true,
@@ -2364,7 +2324,7 @@
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementTags.1": "lemon_item",
                             "selph.ExtraMachineConfig.RequirementTags.2": "id_(o)340",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:LemonadeStandFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:HoneyLemon_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "CopyQuality": true,
@@ -2396,7 +2356,7 @@
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementTags.1": "lemon_item",
                             "selph.ExtraMachineConfig.RequirementTags.2": "id_(o)340",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:LemonadeStandFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:HoneyLemon_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "CopyQuality": true,
@@ -2428,7 +2388,7 @@
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementTags.1": "lemon_item",
                             "selph.ExtraMachineConfig.RequirementTags.2": "hibiscus_item",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:LemonadeStandFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:HibiscusLemon_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "CopyQuality": true,
@@ -2466,7 +2426,7 @@
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementTags.1": "lemon_item",
                             "selph.ExtraMachineConfig.RequirementTags.2": "id_(o)22",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:LemonadeStandFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:LemonDandelion_NeededMessage}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "CopyQuality": true,
@@ -2498,7 +2458,7 @@
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementTags.1": "lemon_item",
                             "selph.ExtraMachineConfig.RequirementTags.2": "vanilla_item",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:LemonadeStandFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:VanillaLemon_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "CopyQuality": true,
@@ -2535,7 +2495,7 @@
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementTags.1": "lemon_item",
                             "selph.ExtraMachineConfig.RequirementTags.2": "id_(o)252",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:LemonadeStandFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:RhubarbLemon_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "CopyQuality": true,
@@ -2556,7 +2516,7 @@
                     "Triggers": [
                         {
                         "Trigger": "ItemPlacedInMachine",
-                        "RequiredTags": ["category_fruits"],
+                        "RequiredItemId": "(O)595",
                         "RequiredCount": 1
                         }
                 ],
@@ -2567,7 +2527,7 @@
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementTags.1": "lemon_item",
                             "selph.ExtraMachineConfig.RequirementTags.2": "id_(o)340",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:LemonadeStandFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:HoneyLemon_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "CopyQuality": true,
@@ -2717,8 +2677,8 @@
                             "Id": "Wildflour.AtelierGoods_Honey_Nut_Junimo_Smoothie",
                             "ItemId": "Wildflour.AtelierGoods_Honey_Nut_Junimo_Smoothie",
                             "CustomData": {
-                                "selph.ExtraMachineConfig.RequirementTags.1": "nut_item",
-                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:BlenderFuelNeededMessage}}",
+                                "selph.ExtraMachineConfig.RequirementTags.1": "walnut_item",
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Walnut_Needed_Message}}",
                                 "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                 },
                             "PriceModifiers": 
@@ -2783,7 +2743,7 @@
                             "ItemId": "Wildflour.AtelierGoods_Lucky_Charms_Smoothie",
                             "CustomData": {
                                 "selph.ExtraMachineConfig.RequirementTags.1": "mint_item",
-                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:BlenderFuelNeededMessage}}",
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Mint_Needed_Message}}",
                                 "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                 },
                             "PriceModifiers": 
@@ -2813,7 +2773,7 @@
                             "ItemId": "Wildflour.AtelierGoods_Mean_Green_Smoothie",
                             "CustomData": {
                                 "selph.ExtraMachineConfig.RequirementId.1": "(O)258",
-                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:BlenderFuelNeededMessage}}",
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Blueberry_Needed_Message}}",
                                 "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                 },
                             "PriceModifiers": 
@@ -2842,8 +2802,8 @@
                             "Id": "Wildflour.AtelierGoods_Monkey_Business_Smoothie",
                             "ItemId": "Wildflour.AtelierGoods_Monkey_Business_Smoothie",
                             "CustomData": {
-                                "selph.ExtraMachineConfig.RequirementTags.1": "nut_item",
-                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:BlenderFuelNeededMessage}}",
+                                "selph.ExtraMachineConfig.RequirementTags.1": "walnut_item",
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Walnut_Needed_Message}}",
                                 "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                 },
                             "PriceModifiers": 
@@ -2873,7 +2833,7 @@
                             "ItemId": "Wildflour.AtelierGoods_Oops_All_Berries_Smoothie",
                             "CustomData": {
                                 "selph.ExtraMachineConfig.RequirementTags.1": "raspberry_item",
-                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:BlenderFuelNeededMessage}}",
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Raspberry_Needed_Message}}",
                                 "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                 },
                             "PriceModifiers": 
@@ -2933,7 +2893,7 @@
                             "ItemId": "Wildflour.AtelierGoods_Walkin_On_Sunshine_Smoothie",
                             "CustomData": {
                                 "selph.ExtraMachineConfig.RequirementId.1": "(O)834",
-                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:BlenderFuelNeededMessage}}",
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Mango_Needed_Message}}",
                                 "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                 },
                             "PriceModifiers": 
@@ -3623,8 +3583,8 @@
                             "Id": "Wildflour.AtelierGoods_Honey_Nut_Junimo_Smoothie",
                             "ItemId": "Wildflour.AtelierGoods_Honey_Nut_Junimo_Smoothie",
                             "CustomData": {
-                                "selph.ExtraMachineConfig.RequirementTags.1": "nut_item",
-                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:BlenderFuelNeededMessage}}",
+                                "selph.ExtraMachineConfig.RequirementTags.1": "walnut_item",
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Walnut_Needed_Message}}",
                                 "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                 },
                             "PriceModifiers": 
@@ -3689,7 +3649,7 @@
                             "ItemId": "Wildflour.AtelierGoods_Lucky_Charms_Smoothie",
                             "CustomData": {
                                 "selph.ExtraMachineConfig.RequirementTags.1": "mint_item",
-                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:BlenderFuelNeededMessage}}",
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Mint_Needed_Message}}",
                                 "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                 },
                             "PriceModifiers": 
@@ -3719,7 +3679,7 @@
                             "ItemId": "Wildflour.AtelierGoods_Mean_Green_Smoothie",
                             "CustomData": {
                                 "selph.ExtraMachineConfig.RequirementId.1": "(O)258",
-                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:BlenderFuelNeededMessage}}",
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Blueberry_Needed_Message}}",
                                 "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                 },
                             "PriceModifiers": 
@@ -3748,8 +3708,8 @@
                             "Id": "Wildflour.AtelierGoods_Monkey_Business_Smoothie",
                             "ItemId": "Wildflour.AtelierGoods_Monkey_Business_Smoothie",
                             "CustomData": {
-                                "selph.ExtraMachineConfig.RequirementTags.1": "nut_item",
-                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:BlenderFuelNeededMessage}}",
+                                "selph.ExtraMachineConfig.RequirementTags.1": "walnut_item",
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Walnut_Needed_Message}}",
                                 "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                 },
                             "PriceModifiers": 
@@ -3779,7 +3739,7 @@
                             "ItemId": "Wildflour.AtelierGoods_Oops_All_Berries_Smoothie",
                             "CustomData": {
                                 "selph.ExtraMachineConfig.RequirementTags.1": "raspberry_item",
-                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:BlenderFuelNeededMessage}}",
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Raspberry_Needed_Message}}",
                                 "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                 },
                             "PriceModifiers": 
@@ -3839,7 +3799,7 @@
                             "ItemId": "Wildflour.AtelierGoods_Walkin_On_Sunshine_Smoothie",
                             "CustomData": {
                                 "selph.ExtraMachineConfig.RequirementId.1": "(O)834",
-                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:BlenderFuelNeededMessage}}",
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Mango_Needed_Message}}",
                                 "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                 },
                             "PriceModifiers": 

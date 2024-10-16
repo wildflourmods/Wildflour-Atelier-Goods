@@ -849,7 +849,7 @@
                         "ItemId": "Wildflour.AtelierGoods_Gingerbread_Latte_IceCream",
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementTags.1": "(O)433",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:TreatMakerFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CoffeeBean_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "CopyQuality": true,
@@ -917,7 +917,7 @@
                         "ItemId": "Wildflour.AtelierGoods_Hopeless_Romantic_IceCream",
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementTags.1": "pistachio_item",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:TreatMakerFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Pistachio_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "CopyQuality": true,
@@ -985,7 +985,7 @@
                         "ItemId": "Wildflour.AtelierGoods_Key_Lime_Pie_IceCream",
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Brown_Sugar",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:TreatMakerFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:BrownSugar_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "CopyQuality": true,
@@ -1087,7 +1087,7 @@
                         "ItemId": "Wildflour.AtelierGoods_Nuts4Cherries_IceCream",
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementTags.1": "almond_item",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:TreatMakerFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Almond_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "CopyQuality": true,
@@ -1252,7 +1252,7 @@
                         "ItemId": "Wildflour.AtelierGoods_Unicorn_IceCream",
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementTags.1": "(O)245",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:TreatMakerFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Grape_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "CopyQuality": true,
@@ -1384,7 +1384,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementTags.1": "(O)223",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CookieNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cookie_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -1415,7 +1415,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementTags.1": "(O)223",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CookieNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cookie_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -1446,7 +1446,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementTags.1": "(O)223",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CookieNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cookie_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -1477,7 +1477,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementTags.1": "(O)223",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CookieNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cookie_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -1508,7 +1508,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementTags.1": "(O)223",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CookieNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cookie_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -1539,7 +1539,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementTags.1": "(O)223",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CookieNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cookie_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -1570,7 +1570,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementTags.1": "(O)223",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CookieNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cookie_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -1601,7 +1601,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementTags.1": "(O)223",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CookieNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cookie_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -1632,7 +1632,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementTags.1": "(O)223",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CookieNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cookie_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -1663,7 +1663,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementTags.1": "(O)223",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CookieNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cookie_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -1694,7 +1694,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementTags.1": "(O)223",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CookieNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cookie_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -1725,7 +1725,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementTags.1": "(O)223",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CookieNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cookie_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -1756,7 +1756,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementTags.1": "(O)223",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CookieNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cookie_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -1787,7 +1787,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementTags.1": "(O)223",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CookieNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cookie_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -1818,7 +1818,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementTags.1": "(O)223",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CookieNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cookie_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -1849,7 +1849,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementTags.1": "(O)223",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CookieNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cookie_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -1880,7 +1880,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementTags.1": "(O)223",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CookieNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cookie_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -1911,7 +1911,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementTags.1": "(O)223",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CookieNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cookie_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -1942,7 +1942,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementTags.1": "(O)223",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CookieNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cookie_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -1973,7 +1973,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementTags.1": "(O)223",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CookieNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cookie_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -2019,7 +2019,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)91",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CandyJarFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Banana_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -2050,7 +2050,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementTags.1": "raspberry_item",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CandyJarFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Raspberry_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -2174,7 +2174,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)88",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CandyJarFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Coconut_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                        "PriceModifiers": 
@@ -2267,7 +2267,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)396",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CandyJarFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:SpiceBerry_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -2721,7 +2721,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)91",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CandyJarFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Banana_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                        "PriceModifiers": 
@@ -2752,7 +2752,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementTags.1": "raspberry_item",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CandyJarFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Raspberry_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                        "PriceModifiers": 
@@ -2876,7 +2876,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)88",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CandyJarFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Coconut_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                       "PriceModifiers": 
@@ -2969,7 +2969,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)396",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CandyJarFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:SpiceBerry_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                        "PriceModifiers": 
@@ -3398,7 +3398,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)340",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:SugarBoilerFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Honey_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -3429,7 +3429,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Brown_Sugar",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:SugarBoilerFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:BrownSugar_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -3460,7 +3460,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Brown_Sugar",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:SugarBoilerFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:BrownSugar_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                       "PriceModifiers": 
@@ -3491,7 +3491,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)340",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:SugarBoilerFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Honey_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -3584,7 +3584,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Brown_Sugar",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:SugarBoilerFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:BrownSugar_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -3615,7 +3615,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)613",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:SugarBoilerFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Apple_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -3646,7 +3646,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)613",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:SugarBoilerFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Apple_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -3677,7 +3677,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)613",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:SugarBoilerFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Apple_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                       "PriceModifiers": 
@@ -4311,7 +4311,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)340",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:SugarBoilerFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Honey_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -4342,7 +4342,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Brown_Sugar",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:SugarBoilerFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:BrownSugar_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                        "PriceModifiers": 
@@ -4373,7 +4373,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Brown_Sugar",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:SugarBoilerFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:BrownSugar_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -4404,7 +4404,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)340",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:SugarBoilerFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Honey_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -4497,7 +4497,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Brown_Sugar",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:SugarBoilerFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:BrownSugar_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -4528,7 +4528,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)613",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:SugarBoilerFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Apple_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -4559,7 +4559,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)613",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:SugarBoilerFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Apple_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                        "PriceModifiers": 
@@ -4590,7 +4590,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)613",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:SugarBoilerFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Apple_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -5200,7 +5200,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)724",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MarshmallowMixerFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MapleSyrup_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -5235,7 +5235,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementTags.1": "berry_item",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MarshmallowMixerFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:AnyBerry_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -5269,8 +5269,8 @@
                         "CopyQuality": true,
                         "CopyPrice": true,
                         "CustomData": {
-                            "selph.ExtraMachineConfig.RequirementTags.1": "cacao_item",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MarshmallowMixerFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementTags.1": "cocoa_item",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cocoa_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -5304,8 +5304,8 @@
                         "CopyQuality": true,
                         "CopyPrice": true,
                         "CustomData": {
-                            "selph.ExtraMachineConfig.RequirementTags.1": "cacao_item",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MarshmallowMixerFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementTags.1": "cocoa_item",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cocoa_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -5410,7 +5410,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Matcha_Powder",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MarshmallowMixerFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Matcha_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -5514,7 +5514,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Milk_Chocolate",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:ChocolatierBarrelFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MilkChocolate_NeededMessage}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -5545,7 +5545,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Dark_Chocolate",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:ChocolatierBarrelFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:DarkChocolate_NeededMessage}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -5576,7 +5576,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Milk_Chocolate",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:ChocolatierBarrelFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MilkChocolate_NeededMessage}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -5638,7 +5638,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_White_Chocolate",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:ChocolatierBarrelFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WhiteChocolate_NeededMessage}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -5669,7 +5669,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Dark_Chocolate",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:ChocolatierBarrelFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:DarkChocolate_NeededMessage}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -5731,7 +5731,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Milk_Chocolate",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:ChocolatierBarrelFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MilkChocolate_NeededMessage}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -5793,7 +5793,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Brown_Sugar",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:ChocolatierBarrelFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:BrownSugar_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -5860,7 +5860,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Dark_Chocolate",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:ChocolatierBarrelFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:DarkChocolate_NeededMessage}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -5891,7 +5891,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_White_Chocolate",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:ChocolatierBarrelFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WhiteChocolate_NeededMessage}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -5927,7 +5927,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_White_Chocolate",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:ChocolatierBarrelFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WhiteChocolate_NeededMessage}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                        "PriceModifiers": 
@@ -5958,7 +5958,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Dark_Chocolate",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:ChocolatierBarrelFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:DarkChocolate_NeededMessage}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                        "PriceModifiers": 
@@ -5989,7 +5989,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_White_Chocolate",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:ChocolatierBarrelFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WhiteChocolate_NeededMessage}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                        "PriceModifiers": 
@@ -6020,7 +6020,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Milk_Chocolate",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:ChocolatierBarrelFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MilkChocolate_NeededMessage}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                        "PriceModifiers": 
@@ -6051,7 +6051,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_White_Chocolate",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:ChocolatierBarrelFuelNeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WhiteChocolate_NeededMessage}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                       "PriceModifiers": 
@@ -6135,7 +6135,7 @@
                     "CopyPrice": true,
                     "CustomData": {
                         "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Rose_Syrup",
-                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:FairyFlossFuelNeededMessage}}",
+                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:RoseSyrup_Needed_Message}}",
                         "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                         },
                     "PriceModifiers": 
@@ -6165,7 +6165,7 @@
                     "CopyPrice": true,
                     "CustomData": {
                         "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Vanilla_Syrup",
-                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:FairyFlossFuelNeededMessage}}",
+                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:VanillaSyrup_Needed_Message}}",
                         "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                         },
                     "PriceModifiers": 
@@ -6195,7 +6195,7 @@
                     "CopyPrice": true,
                     "CustomData": {
                         "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Lavender_Syrup",
-                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:FairyFlossFuelNeededMessage}}",
+                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:LavenderSyrup_Needed_Message}}",
                         "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                         },
                     "PriceModifiers": 
@@ -6225,7 +6225,7 @@
                     "CopyPrice": true,
                     "CustomData": {
                         "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Lemon_Syrup",
-                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:FairyFlossFuelNeededMessage}}",
+                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:LemonSyrup_Needed_Message}}",
                         "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                         },
                     "PriceModifiers": 
@@ -6255,7 +6255,7 @@
                     "CopyPrice": true,
                     "CustomData": {
                         "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Mint_Syrup",
-                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:FairyFlossFuelNeededMessage}}",
+                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MintSyrup_Needed_Message}}",
                         "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                         },
                     "PriceModifiers": 
@@ -6285,7 +6285,7 @@
                     "CopyPrice": true,
                     "CustomData": {
                         "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Peach_Syrup",
-                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:FairyFlossFuelNeededMessage}}",
+                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:PeachSyrup_Needed_Message}}",
                         "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                         },
                     "PriceModifiers": 
@@ -6315,7 +6315,7 @@
                     "CopyPrice": true,
                     "CustomData": {
                         "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Vanilla_Syrup",
-                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:FairyFlossFuelNeededMessage}}",
+                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:VanillaSyrup_Needed_Message}}",
                         "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                         },
                     "PriceModifiers": 

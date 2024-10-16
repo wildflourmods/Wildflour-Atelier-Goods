@@ -130,7 +130,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Walnut_Muffins",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementTags.1": "walnut_item",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:OvenFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Walnut_Needed_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -165,7 +165,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Pistachio_Muffins",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Dark_Chocolate",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:OvenFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:DarkChocolate_NeededMessage}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -200,7 +200,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Coffee_Cake_Muffins",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Confectioners_Sugar",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:OvenFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:ConfectionersSugar_Needed_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -335,7 +335,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Cranberry_Scones",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementId.1": "(O)635",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:OvenFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Orange_Needed_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -559,7 +559,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Citrus_Thyme_Cake",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementTags.1": "thyme_item",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CakeStationFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Thyme_Needed_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality": true,
@@ -594,7 +594,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Raspberry_Chamomile_Cake",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementTags.1": "chamomile_item",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CakeStationFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Chamomile_Needed_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality": true,
@@ -699,7 +699,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Tropical_Floral_Cake",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementTags.1": "jasmine_item",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CakeStationFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Jasmine_Needed_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality": true,
@@ -734,7 +734,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Almond_Elderflower_Cake",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementTags.1": "elderberry_item",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CakeStationFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Elderberry_Needed_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality": true,
@@ -769,7 +769,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Victoria_Sponge_Cake",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Confectioners_Sugar",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CakeStationFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:ConfectionersSugar_Needed_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality": true,
@@ -804,7 +804,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Pink_Velvet_Cake",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Buttermilk",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CakeStationFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Buttermilk_Needed_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality": true,
@@ -839,7 +839,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Summer_Flower_Cake",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementId.1": "(O)376",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CakeStationFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:PoppyNeededMessage}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality": true,
@@ -874,7 +874,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Chocolate_Mudslide_Cake",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Milk_Chocolate",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CakeStationFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MilkChocolate_NeededMessage}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality": true,
@@ -1123,7 +1123,7 @@
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Strawberry_Cupcakes",
                                     "selph.ExtraMachineConfig.RequirementId.2": "(O)Wildflour.AtelierGoods_Vanilla_Cupcakes",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:DessertStandFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Neapolitan_Cupcake_FuelMessage}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.2":"1.0"
                                     },
@@ -1159,7 +1159,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Matcha_Cupcakes",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementId.1": "(O)340",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:DessertStandFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Honey_Needed_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -1229,7 +1229,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Tropical_Cupcakes",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementId.1": "(O)268",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:DessertStandFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Starfruit_Needed_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -1303,7 +1303,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Floral_Petit_Fours",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementId.1": "(O)344",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:DessertStandFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Jelly_Needed_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -1338,7 +1338,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Pineapple_Cherry_Petit_Fours",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementId.1": "(O)638",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:DessertStandFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cherry_Needed_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -1409,7 +1409,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Blueberry_Petit_Fours",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Lemon_Curd",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:DessertStandFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:LemonCurd_Needed_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -1444,7 +1444,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Carrot_Petit_Fours",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Cream_Cheese",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:DessertStandFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CreamCheese_Needed_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -1479,7 +1479,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Chocolate_Strawberry_Petit_Fours",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementId.1": "(O)400",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:DessertStandFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Strawberry_Needed_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -1549,7 +1549,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Citrus_Petit_Fours",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Lemon_Curd",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:DessertStandFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:LemonCurd_Needed_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -1584,7 +1584,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Red_Velvet_Petit_Fours",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Buttermilk",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:DessertStandFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Buttermilk_Needed_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -1734,7 +1734,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Brown_Sugar_Pie",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Maple_Butter",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:PieStationFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MapleButter_Needed_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -1770,7 +1770,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Cherry_Pie",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementId.1": "(O)348",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:PieStationFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Wine_Needed_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -1842,7 +1842,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Apple_Pie",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Caramel",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:PieStationFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Caramel_Needed_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -2056,7 +2056,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Peach_Pie",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementTags.1": "thyme_item",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:PieStationFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Thyme_Needed_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -2091,7 +2091,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Blueberry_Tart",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementTags.1": "basil_item",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:PieStationFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:BasilNeededMessage}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -2161,7 +2161,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Orange_Dandelion_Tart",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementId.1": "(O)22",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:PieStationFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Dandelion_Needed_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -2196,7 +2196,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Raspberry_Pistachio_Tart",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementTags.1": "pistachio_item",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:PieStationFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Pistachio_Needed_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -2231,7 +2231,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Starfruit_Tart",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Orange_Curd",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:PieStationFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:OrangeCurd_Needed_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -2301,7 +2301,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Mango_Pineapple_Tart",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementId.1": "(O)832",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:PieStationFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Pineapple_Needed_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -2455,7 +2455,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Vanilla_Heart_Cookies",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Honey_Butter",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MixerFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:HoneyButter_Needed_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -2490,7 +2490,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Cherry_Thumbprint_Cookies",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementTags.1": "almond_item",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MixerFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Almond_Needed_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -2615,7 +2615,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Chocolate_Thumbprint_Cookies",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementId.1": "(O)433",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MixerFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CoffeeBean_Needed_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -2650,7 +2650,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Lemon_Cookies",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementTags.1": "thyme_item",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MixerFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Thyme_Needed_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -2685,7 +2685,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Strawberry_Heart_Cookies",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_White_Chocolate",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MixerFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WhiteChocolate_NeededMessage}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -2720,7 +2720,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Rose_Cookies",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementTags.1": "pistachio_item",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MixerFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Pistachio_Needed_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -2755,7 +2755,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Honey_Lavender_Cookies",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementTags.1": "lavender_item",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MixerFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Lavender_Needed_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -2791,7 +2791,7 @@
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementId.1": "(O)593",
                                     "selph.ExtraMachineConfig.RequirementId.2": "(O)376",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MixerFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:FloralMac_Fuel_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.2":"1.0"
                                     },
@@ -2828,7 +2828,7 @@
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementId.1": "(O)258",
                                     "selph.ExtraMachineConfig.RequirementId.2": "(O)410",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MixerFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:BerryMac_Fuel_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.2":"1.0"
                                     },
@@ -2865,7 +2865,7 @@
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementId.1": "(O)395",
                                     "selph.ExtraMachineConfig.RequirementId.2": "(O)253",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MixerFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CafeMac_Fuel_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.2":"1.0"
                                     },
@@ -2939,7 +2939,7 @@
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_White_Chocolate",
                                     "selph.ExtraMachineConfig.RequirementId.2": "(O)Wildflour.AtelierGoods_Milk_Chocolate",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MixerFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WhiteMilkChocolate_Needed_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.2":"1.0"
                                     },
@@ -3005,7 +3005,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Mint_Brownies",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Dark_Chocolate",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MixerFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:DarkChocolate_NeededMessage}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -3040,7 +3040,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Coconut_Brownies",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Dark_Chocolate",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MixerFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:DarkChocolate_NeededMessage}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -3075,7 +3075,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Lemon_Bars",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_White_Chocolate",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MixerFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WhiteChocolate_NeededMessage}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -3110,7 +3110,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Red_Velvet_Brownies",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Dark_Chocolate",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MixerFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:DarkChocolate_NeededMessage}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -3780,7 +3780,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Herb_Focaccia",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementTags.1": "thyme_item",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:RollingPinFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Thyme_Needed_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -3815,7 +3815,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Tomato_Basil_Focaccia",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementTags.1": "basil_item",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:RollingPinFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:BasilNeededMessage}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -3946,7 +3946,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Strawberry_Doughnuts",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementTags.1": "chamomile_item",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:RollingPinFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Chamomile_Needed_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -3983,7 +3983,7 @@
                                 "CopyPrice": true,
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Dark_Chocolate",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:RollingPinFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:DarkChocolate_NeededMessage}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                     "PriceModifiers": 
@@ -4051,7 +4051,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Lavender_Doughnuts",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementTags.1": "jasmine_item",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:RollingPinFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Jasmine_Needed_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -4086,7 +4086,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Apple_Doughnuts",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementId.1": "(O)459",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:RollingPinFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Mead_Needed_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -4225,7 +4225,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Vanilla_Eclairs",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Caramel",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MixerFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Caramel_Needed_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -4295,7 +4295,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Pistachio_Eclairs",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Dark_Chocolate",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MixerFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:DarkChocolate_NeededMessage}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -4365,7 +4365,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Mocha_Eclairs",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Dark_Chocolate",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MixerFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:DarkChocolate_NeededMessage}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -4481,7 +4481,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Strawberry_Doughnuts",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementTags.1": "chamomile_item",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:RollingPinFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Chamomile_Needed_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -4518,7 +4518,7 @@
                                 "CopyPrice": true,
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Dark_Chocolate",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:RollingPinFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:DarkChocolate_NeededMessage}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                     "PriceModifiers": 
@@ -4586,7 +4586,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Lavender_Doughnuts",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementTags.1": "jasmine_item",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:RollingPinFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Jasmine_Needed_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -4621,7 +4621,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Apple_Doughnuts",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementId.1": "(O)459",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:RollingPinFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Mead_Needed_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -4760,7 +4760,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Vanilla_Eclairs",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Caramel",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MixerFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Caramel_Needed_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -4830,7 +4830,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Pistachio_Eclairs",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Dark_Chocolate",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MixerFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:DarkChocolate_NeededMessage}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -4900,7 +4900,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Mocha_Eclairs",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Dark_Chocolate",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MixerFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:DarkChocolate_NeededMessage}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -5529,7 +5529,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Herb_Focaccia",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementTags.1": "thyme_item",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:RollingPinFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Thyme_Needed_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -5564,7 +5564,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Tomato_Basil_Focaccia",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementTags.1": "basil_item",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:RollingPinFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:BasilNeededMessage}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -5774,7 +5774,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Gem_Pudding",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementId.1": "(O)398",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:DeluxeDessertFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Grape_Needed_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -5809,7 +5809,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Mystical_Pudding",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementId.1": "(O)414",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:DeluxeDessertFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CrystalFruit_Needed_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -5879,7 +5879,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Raspberry_Pudding",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementId.1": "(O)400",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:DeluxeDessertFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Strawberry_Needed_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                 },
                                 "CopyQuality":true,
@@ -5914,7 +5914,7 @@
                                 "ItemId": "(O)Wildflour.AtelierGoods_Tropical_Pudding",
                                 "CustomData": {
                                     "selph.ExtraMachineConfig.RequirementId.1": "(O)834",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:DeluxeDessertFuelNeededMessage}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Mango_Needed_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                 },
                                 "CopyQuality":true,

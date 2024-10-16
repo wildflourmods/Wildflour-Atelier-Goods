@@ -820,7 +820,7 @@
                     "CopyPrice": true,
                     "CustomData": {
                         "selph.ExtraMachineConfig.RequirementTags.1": "milk_item",
-                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:ChocolateFuelNeededMessage}}",
+                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Milk_Needed_Message}}",
                         "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                         },
                     "PriceModifiers": 
