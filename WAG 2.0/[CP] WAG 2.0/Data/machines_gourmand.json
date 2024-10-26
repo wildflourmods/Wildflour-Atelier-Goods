@@ -95,11 +95,6 @@
                             "Trigger": "ItemPlacedInMachine",
                             "RequiredItemId": "(O)300",
                             "RequiredCount": 1
-                        },
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)Wildflour.AtelierGoods_Violet_Flax",
-                            "RequiredCount": 1
                         }
                     ],
                     "OutputItem": [
@@ -282,6 +277,21 @@
                             "Trigger": "ItemPlacedInMachine",
                             "RequiredItemId": "(O)296",
                             "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)410",
+                            "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Wildflour.AtelierGoods_Wild_Strawberry",
+                            "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Wildflour.AtelierGoods_Wild_Raspberry",
+                            "RequiredCount": 1
                         }
                     ],
                     "OutputItem": [
@@ -351,7 +361,7 @@
                     "Triggers": [
                         {
                             "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)400",
+                            "RequiredItemId": "(O)454",
                             "RequiredCount": 3
                         }
                     ],
@@ -377,7 +387,7 @@
                     "Triggers": [
                         {
                             "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)400",
+                            "RequiredItemId": "(O)613",
                             "RequiredCount": 3
                         }
                     ],
@@ -403,7 +413,7 @@
                     "Triggers": [
                         {
                             "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)400",
+                            "RequiredItemId": "(O)634",
                             "RequiredCount": 3
                         }
                     ],
@@ -429,7 +439,7 @@
                     "Triggers": [
                         {
                             "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)400",
+                            "RequiredItemId": "(O)91",
                             "RequiredCount": 3
                         }
                     ],
@@ -455,7 +465,7 @@
                     "Triggers": [
                         {
                             "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)400",
+                            "RequiredItemId": "(O)638",
                             "RequiredCount": 3
                         }
                     ],
@@ -481,7 +491,7 @@
                     "Triggers": [
                         {
                             "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)400",
+                            "RequiredItemId": "(O)637",
                             "RequiredCount": 3
                         }
                     ],
@@ -507,7 +517,7 @@
                     "Triggers": [
                         {
                             "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)400",
+                            "RequiredItemId": "(O)834",
                             "RequiredCount": 3
                         }
                     ],
@@ -533,7 +543,7 @@
                     "Triggers": [
                         {
                             "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)400",
+                            "RequiredItemId": "(O)635",
                             "RequiredCount": 3
                         }
                     ],
@@ -559,7 +569,7 @@
                     "Triggers": [
                         {
                             "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)400",
+                            "RequiredItemId": "(O)636",
                             "RequiredCount": 3
                         }
                     ],
@@ -585,7 +595,7 @@
                     "Triggers": [
                         {
                             "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)400",
+                            "RequiredItemId": "(O)276",
                             "RequiredCount": 3
                         }
                     ],
@@ -611,7 +621,7 @@
                     "Triggers": [
                         {
                             "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)400",
+                            "RequiredItemId": "(O)595",
                             "RequiredCount": 3
                         }
                     ],
@@ -745,6 +755,224 @@
 },
 
 {
+    "LogName": "WF Distiller Machine Edits",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":{"Atelier.Cauldron/ConfigValue:WildFood": true},
+    "TargetField": ["(BC)Wildflour.AtelierGoods_SyrupMaker", "OutputRules"],
+    "Entries": {
+        "Wildflour.AtelierGoods_Cherry_Blossom_Syrup":{
+            "Id": "Wildflour.AtelierGoods_Cherry_Blossom_Syrup",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "Wildflour.AtelierGoods_Cherry_Blossoms",
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Cherry_Blossom_Syrup",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Cherry_Blossom_Syrup",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 3.25
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+        "Wildflour.AtelierGoods_Chocolate_Syrup":{
+            "Id": "Wildflour.AtelierGoods_Chocolate_Syrup",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredTags": ["cocoa_item"],
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Chocolate_Syrup",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Chocolate_Syrup",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 3.25
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+        "Wildflour.AtelierGoods_Elderberry_Syrup":{
+            "Id": "Wildflour.AtelierGoods_Elderberry_Syrup",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredTags": ["elderberry_item"],
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Elderberry_Syrup",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Elderberry_Syrup",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 3.25
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+        "Wildflour.AtelierGoods_Lavender_Syrup":{
+            "Id": "Wildflour.AtelierGoods_Lavender_Syrup",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredTags": ["lavender_item"],
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Lavender_Syrup",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Lavender_Syrup",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 3.25
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+        "Wildflour.AtelierGoods_Lemon_Syrup":{
+            "Id": "Wildflour.AtelierGoods_Lemon_Syrup",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredTags": ["lemon_item"],
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Lemon_Syrup",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Lemon_Syrup",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 3.25
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+        "Wildflour.AtelierGoods_Lime_Syrup":{
+            "Id": "Wildflour.AtelierGoods_Lime_Syrup",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredTags": ["lime_item"],
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Lime_Syrup",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Lime_Syrup",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 3.25
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+        "Wildflour.AtelierGoods_Raspberry_Syrup":{
+            "Id": "Wildflour.AtelierGoods_Raspberry_Syrup",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredTags": ["raspberry_item"],
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Raspberry_Syrup",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Raspberry_Syrup",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 3.25
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+        "Wildflour.AtelierGoods_Vanilla_Syrup":{
+            "Id": "Wildflour.AtelierGoods_Vanilla_Syrup",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredTags": ["vanilla_item"],
+                    "RequiredCount": 1
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "Wildflour.AtelierGoods_Vanilla_Syrup",
+                    "ItemId": "(O)Wildflour.AtelierGoods_Vanilla_Syrup",
+                    "CopyQuality":true,
+                    "CopyPrice": true,
+                    "PriceModifiers": 
+                    [
+                        {
+                        "Modification": "Multiply",
+                        "Amount": 3.25
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        },
+    }
+},
+
+{
     "LogName": "WF Mortar Machine Edits",
     "Action": "EditData",
     "Target": "Data/Machines",
@@ -833,6 +1061,201 @@
                 }
             ],
             "MinutesUntilReady": 20
+        },
+            "Wildflour.AtelierGoods_KitchenMortar_Chicken_Woods": {
+                "Id": "Wildflour.AtelierGoods_KitchenMortar_Chicken_Woods",
+                "Triggers": [
+                    {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "Wildflour.AtelierGoods_Chicken_Woods",
+                        "RequiredCount": 1
+                    }
+                ],
+                "OutputItem": [
+                    {
+                        "Id": "Egg",
+                        "ItemId": "(O)176",
+                        "MinStack": 1,
+                        "MaxStack": 1,
+                        "StackModifiers": [
+                            {
+                                "Id": "GoodForager",
+                                "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                                "Modification": "Add",
+                                "Amount": 1
+                            },
+                            {
+                                "Id": "GreatForager",
+                                "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                                "Modification": "Add",
+                                "Amount": 2
+                            },
+                            {
+                                "Id": "GreatestForager",
+                                "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                                "Modification": "Add",
+                                "Amount": 3
+                            }
+                        ]
+                    }
+                ],
+                "MinutesUntilReady": 20
+        },
+            "Wildflour.AtelierGoods_KitchenMortar_Honey_Fungus": {
+                "Id": "Wildflour.AtelierGoods_KitchenMortar_Honey_Fungus",
+                "Triggers": [
+                    {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "Wildflour.AtelierGoods_Honey_Fungus",
+                        "RequiredCount": 1
+                    }
+                ],
+                "OutputItem": [
+                    {
+                        "Id": "Honey",
+                        "ItemId": "(O)340",
+                        "MinStack": 1,
+                        "MaxStack": 1,
+                        "StackModifiers": [
+                            {
+                                "Id": "GoodForager",
+                                "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                                "Modification": "Add",
+                                "Amount": 1
+                            },
+                            {
+                                "Id": "GreatForager",
+                                "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                                "Modification": "Add",
+                                "Amount": 2
+                            },
+                            {
+                                "Id": "GreatestForager",
+                                "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                                "Modification": "Add",
+                                "Amount": 3
+                            }
+                        ]
+                    }
+                ],
+                "MinutesUntilReady": 20
+        },
+            "Wildflour.AtelierGoods_KitchenMortar_Meringue_Mushroom": {
+                "Id": "Wildflour.AtelierGoods_KitchenMortar_Meringue_Mushroom",
+                "Triggers": [
+                    {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "Wildflour.AtelierGoods_Meringue_Mushroom",
+                        "RequiredCount": 1
+                    }
+                ],
+                "OutputItem": [
+                    {
+                        "Id": "Sugar",
+                        "ItemId": "(O)245",
+                        "MinStack": 1,
+                        "MaxStack": 1,
+                        "StackModifiers": [
+                            {
+                                "Id": "GoodForager",
+                                "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                                "Modification": "Add",
+                                "Amount": 1
+                            },
+                            {
+                                "Id": "GreatForager",
+                                "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                                "Modification": "Add",
+                                "Amount": 2
+                            },
+                            {
+                                "Id": "GreatestForager",
+                                "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                                "Modification": "Add",
+                                "Amount": 3
+                            }
+                        ]
+                    }
+                ],
+                "MinutesUntilReady": 20
+        },
+            "Wildflour.AtelierGoods_KitchenMortar_Milk_Mushroom": {
+                "Id": "Wildflour.AtelierGoods_KitchenMortar_Milk_Mushroom",
+                "Triggers": [
+                    {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "Wildflour.AtelierGoods_Milk_Mushroom",
+                        "RequiredCount": 1
+                    }
+                ],
+                "OutputItem": [
+                    {
+                        "Id": "Milk",
+                        "ItemId": "(O)184",
+                        "MinStack": 1,
+                        "MaxStack": 1,
+                        "StackModifiers": [
+                            {
+                                "Id": "GoodForager",
+                                "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                                "Modification": "Add",
+                                "Amount": 1
+                            },
+                            {
+                                "Id": "GreatForager",
+                                "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                                "Modification": "Add",
+                                "Amount": 2
+                            },
+                            {
+                                "Id": "GreatestForager",
+                                "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                                "Modification": "Add",
+                                "Amount": 3
+                            }
+                        ]
+                    }
+                ],
+                "MinutesUntilReady": 20
+        },
+            "Wildflour.AtelierGoods_KitchenMortar_Wheatberry_Mushroom": {
+                        "Id": "Wildflour.AtelierGoods_KitchenMortar_Wheatberry_Mushroom",
+                        "Triggers": [
+                            {
+                                "Trigger": "ItemPlacedInMachine",
+                                "RequiredItemId": "Wildflour.AtelierGoods_Wheatberry_Mushroom",
+                                "RequiredCount": 1
+                            }
+                        ],
+                        "OutputItem": [
+                            {
+                                "Id": "Wheat Flour",
+                                "ItemId": "(O)246",
+                                "MinStack": 1,
+                                "MaxStack": 1,
+                                "StackModifiers": [
+                                    {
+                                        "Id": "GoodForager",
+                                        "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                                        "Modification": "Add",
+                                        "Amount": 1
+                                    },
+                                    {
+                                        "Id": "GreatForager",
+                                        "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                                        "Modification": "Add",
+                                        "Amount": 2
+                                    },
+                                    {
+                                        "Id": "GreatestForager",
+                                        "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                                        "Modification": "Add",
+                                        "Amount": 3
+                                    }
+                                ]
+                            }
+                        ],
+                        "MinutesUntilReady": 20
         }
     }
 },

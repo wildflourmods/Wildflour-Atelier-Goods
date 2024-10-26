@@ -771,7 +771,7 @@
                         "OutputItem": [
                             {
                                 "Id": "Wildflour.AtelierGoods_Flavored_Pudding",
-                                "ItemId": " Wildflour.AtelierGoods_Flavored_Pudding",
+                                "ItemId": "Wildflour.AtelierGoods_Flavored_Pudding",
                                 "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Pudding %PRESERVED_DISPLAY_NAME]",
                                 "ObjectInternalName": "{0} Pudding",
                                 "PreserveID":"DROP_IN",

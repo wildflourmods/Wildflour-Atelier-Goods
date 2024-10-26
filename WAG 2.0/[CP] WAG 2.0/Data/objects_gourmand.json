@@ -1953,7 +1953,6 @@
                     "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
                     "ContextTags":
                     [
-
                     "color_gold"],
 
                     "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -1971,11 +1970,10 @@
                     "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
                     "ContextTags":
                     [
-
                     "color_gold"],
 
                     "Texture": "Mods/Wildflour.AtelierGoods/Objects",
-                    "SpriteIndex": 671
+                    "SpriteIndex": 670
             },
                 "Wildflour.AtelierGoods_Forage_Box": {
                     "Name": "Wildflour.AtelierGoods_Forage_Box",
@@ -2505,7 +2503,7 @@
                     "color_gold"],
 
                     "Texture": "Mods/Wildflour.AtelierGoods/Objects",
-                    "SpriteIndex": 671
+                    "SpriteIndex": 670
             },
                 "Wildflour.AtelierGoods_Forage_Box": {
                     "Name": "Wildflour.AtelierGoods_Forage_Box",

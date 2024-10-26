@@ -911,7 +911,7 @@
                         "OutputItem": [
                             {
                                 "Id": "Wildflour.AtelierGoods_Flavored_Cake",
-                                "ItemId": "CWildflour.AtelierGoods_Flavored_Cake",
+                                "ItemId": "Wildflour.AtelierGoods_Flavored_Cake",
                                 "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Cake %PRESERVED_DISPLAY_NAME]",
                                 "ObjectInternalName": "{0} Cake",
                                 "PreserveID":"DROP_IN",
@@ -3147,7 +3147,7 @@
                         "OutputItem": [
                             {
                                 "Id": "Wildflour.AtelierGoods_Flavored_Cookies",
-                                "ItemId": " Wildflour.AtelierGoods_Flavored_Cookies",
+                                "ItemId": "Wildflour.AtelierGoods_Flavored_Cookies",
                                 "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Cookies %PRESERVED_DISPLAY_NAME]",
                                 "ObjectInternalName": "{0} Cookies",
                                 "PreserveID":"DROP_IN",
@@ -4461,11 +4461,10 @@
         "LogName": "Add Rolling Pin Machine Rules Doughnuts ONLY",
         "Action": "EditData",
         "Target": "Data/Machines",
-        "When": {"Atelier.Cauldron/ConfigValue:Bread": false, "Atelier.Cauldron/ConfigValue:Doughnuts": true},
+        "When": {"Atelier.Cauldron/ConfigValue:Breads": false, "Atelier.Cauldron/ConfigValue:Doughnuts": true},
         "Entries": {
             "(BC)Wildflour.AtelierGoods_Rolling_Pin": {
                 "OutputRules": [
-                  
                     {
                         "Id": "Wildflour.AtelierGoods_Strawberry_Doughnuts",
                         "Triggers": [
@@ -4995,7 +4994,7 @@
         "LogName": "Add Rolling Pin Machine Rules Bread ONLY",
         "Action": "EditData",
         "Target": "Data/Machines",
-        "When": {"Atelier.Cauldron/ConfigValue:Bread": true, "Atelier.Cauldron/ConfigValue:Doughnuts": false},
+        "When": {"Atelier.Cauldron/ConfigValue:Breads": true, "Atelier.Cauldron/ConfigValue:Doughnuts": false},
         "Entries": {
             "(BC)Wildflour.AtelierGoods_Rolling_Pin": {
                 "OutputRules": [
@@ -6021,7 +6020,7 @@
                         "OutputItem": [
                             {
                                 "Id": "Wildflour.AtelierGoods_Flavored_Pudding",
-                                "ItemId": " Wildflour.AtelierGoods_Flavored_Pudding",
+                                "ItemId": "Wildflour.AtelierGoods_Flavored_Pudding",
                                 "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Pudding %PRESERVED_DISPLAY_NAME]",
                                 "ObjectInternalName": "{0} Pudding",
                                 "PreserveID":"DROP_IN",

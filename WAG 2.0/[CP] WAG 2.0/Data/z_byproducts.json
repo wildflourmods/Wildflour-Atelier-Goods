@@ -273,6 +273,7 @@
     "Action": "EditData",
     "Target": "Data/Machines",
     "TargetField": ["(BC)Wildflour.AtelierGoods_ProducePacker", "CustomFields"],
+    "When": {"Atelier.Cauldron/ConfigValue:CSA": true},
     "Entries": {
         "selph.ExtraMachineConfig.ExtraOutputIds": "JunimoGemBP"
     }

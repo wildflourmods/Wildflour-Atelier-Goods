@@ -272,7 +272,7 @@
     {
         "Action": "EditData",
         "Target": "Strings/Objects",
-        "When":  {"Atelier.Cauldron/ConfigValue:Smoothie": true},
+        "When":  {"Atelier.Cauldron/ConfigValue:Smoothies": true},
         "Entries": {
             "Wildflour.AtelierGoods_Flavored_Smoothie": "{{i18n: AtelierGoods_Flavored_Smoothie}}"
         }

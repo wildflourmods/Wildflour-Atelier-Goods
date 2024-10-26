@@ -3090,12 +3090,12 @@
                         },
                         {
                             "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemID": "(O)Wildflour.AtelierGoods_Pomegranate_Syrup",
+                            "RequiredItemID": "(O)Wildflour.AtelierGoods_Grenadine_Syrup",
                             "RequiredCount": 1
                         },
                         {
                             "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemID": "(O)Wildflour.AtelierGoods_Pumpkin_Spice_Syrup",
+                            "RequiredItemID": "(O)Wildflour.AtelierGoods_Pumpkin_Syrup",
                             "RequiredCount": 1
                         }
                 ],
@@ -3941,7 +3941,7 @@
                     "Triggers": [
                         {
                         "Trigger": "ItemPlacedInMachine",
-                        "RequiredTags": ["category_Gems"],
+                        "RequiredTags": ["category_gem"],
                         "RequiredCount": 1
                         }
                 ],
@@ -3971,7 +3971,7 @@
                     "Triggers": [
                         {
                             "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemID": "(O)Wildflour.AtelierGoods_Ancient_Syrup",
+                            "RequiredItemID": "(O)Wildflour.AtelierGoods_Ancient_Fruit_Syrup",
                             "RequiredCount": 1
                         },
                         {
@@ -4829,7 +4829,7 @@
                     "Triggers": [
                         {
                         "Trigger": "ItemPlacedInMachine",
-                        "RequiredTags": ["category_Gems"],
+                        "RequiredTags": ["category_gem"],
                         "RequiredCount": 1
                         }
                 ],
@@ -4859,7 +4859,7 @@
                     "Triggers": [
                         {
                             "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemID": "(O)Wildflour.AtelierGoods_Ancient_Syrup",
+                            "RequiredItemID": "(O)Wildflour.AtelierGoods_Ancient_Fruit_Syrup",
                             "RequiredCount": 1
                         },
                         {

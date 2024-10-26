@@ -1,0 +1,236 @@
+{
+  "WeatherForYesterday": "Festival",
+  "LNOSCounter": {},
+  "ExistingObjectLocations": {},
+  "SavedObjects": [
+    {
+      "MapName": "Beach",
+      "Name": "Wildflour.AtelierGoods_Jasmine",
+      "Tile": "40, 12",
+      "Type": "Forage",
+      "ID": "Wildflour.AtelierGoods_Jasmine",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Beach",
+      "Name": "Wildflour.AtelierGoods_Jasmine",
+      "Tile": "21, 13",
+      "Type": "Forage",
+      "ID": "Wildflour.AtelierGoods_Jasmine",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Railroad",
+      "Name": null,
+      "Tile": "9, 48",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "Buried",
+        "Contents": [
+          "Wildflour.AtelierGoods_Gentian_Root"
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Railroad",
+      "Name": "Wildflour.AtelierGoods_Milk_Mushroom",
+      "Tile": "33, 1",
+      "Type": "Forage",
+      "ID": "Wildflour.AtelierGoods_Milk_Mushroom",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Railroad",
+      "Name": "Wildflour.AtelierGoods_Milk_Mushroom",
+      "Tile": "55, 57",
+      "Type": "Forage",
+      "ID": "Wildflour.AtelierGoods_Milk_Mushroom",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Railroad",
+      "Name": "Wildflour.AtelierGoods_Sage",
+      "Tile": "33, 0",
+      "Type": "Forage",
+      "ID": "Wildflour.AtelierGoods_Sage",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "BusStop",
+      "Name": null,
+      "Tile": "35, 24",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "Buried",
+        "Contents": [
+          "Wildflour.AtelierGoods_Gentian_Root"
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "BusStop",
+      "Name": "Wildflour.AtelierGoods_Sage",
+      "Tile": "24, 2",
+      "Type": "Forage",
+      "ID": "Wildflour.AtelierGoods_Sage",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "IslandNorth",
+      "Name": "Wildflour.AtelierGoods_Jasmine",
+      "Tile": "1, 40",
+      "Type": "Forage",
+      "ID": "Wildflour.AtelierGoods_Jasmine",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "IslandNorth",
+      "Name": "Wildflour.AtelierGoods_Cashew",
+      "Tile": "22, 82",
+      "Type": "Forage",
+      "ID": "Wildflour.AtelierGoods_Cashew",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Mountain",
+      "Name": null,
+      "Tile": "67, 22",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "Buried",
+        "Contents": [
+          "Wildflour.AtelierGoods_Gentian_Root"
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Backwoods",
+      "Name": null,
+      "Tile": "21, 16",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "Buried",
+        "Contents": [
+          "Wildflour.AtelierGoods_Gentian_Root"
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Backwoods",
+      "Name": "Wildflour.AtelierGoods_Wheatberry_Mushroom",
+      "Tile": "45, 14",
+      "Type": "Forage",
+      "ID": "Wildflour.AtelierGoods_Wheatberry_Mushroom",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Forest",
+      "Name": "Wildflour.AtelierGoods_Milk_Mushroom",
+      "Tile": "43, 9",
+      "Type": "Forage",
+      "ID": "Wildflour.AtelierGoods_Milk_Mushroom",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "IslandWest",
+      "Name": "Wildflour.AtelierGoods_Jasmine",
+      "Tile": "59, 65",
+      "Type": "Forage",
+      "ID": "Wildflour.AtelierGoods_Jasmine",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "IslandWest",
+      "Name": "Wildflour.AtelierGoods_Jasmine",
+      "Tile": "107, 31",
+      "Type": "Forage",
+      "ID": "Wildflour.AtelierGoods_Jasmine",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Woods",
+      "Name": "Wildflour.AtelierGoods_Wheatberry_Mushroom",
+      "Tile": "36, 19",
+      "Type": "Forage",
+      "ID": "Wildflour.AtelierGoods_Wheatberry_Mushroom",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Desert",
+      "Name": "Wildflour.AtelierGoods_Pistachio",
+      "Tile": "19, 19",
+      "Type": "Forage",
+      "ID": "Wildflour.AtelierGoods_Pistachio",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Desert",
+      "Name": "Wildflour.AtelierGoods_Pistachio",
+      "Tile": "29, 47",
+      "Type": "Forage",
+      "ID": "Wildflour.AtelierGoods_Pistachio",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    }
+  ]
+}

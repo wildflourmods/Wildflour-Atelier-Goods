@@ -82,13 +82,13 @@
 		"When": {"HasMod:|contains= skellady.SBVCP": true},
 		"Entries": {
 			"Wildflour.AtelierGoods_Starter_Bundle": {
-				"Location": "Custom_SBV_SunberryForest",
+				"Location": "Custom_SBV_SunberryRoad",
 				"BundleName": "{{i18n: AtelierGoods_StarterBundle_SBV.Name}}",
 				"BundleDescription": "{{i18n: AtelierGoods_StarterBundle_SBV.Description}}",
 				"BundleIconAsset": "Mods/Wildflour.AtelierGoods/StarterBundle",
 				"BundleSlots": 1,		
 				"ShopEvent": "communityCenter/-100 -100/farmer 0 0 0/skippable/globalFade 0.007 false/viewport -1000 -1000/playSound junimoMeep1/spriteText 3 \"{{i18n: AtelierGoods_WarpBundleComplete}}\"/pause 100/end",  
-				"ShopPosition": "65, 54",
+				"ShopPosition": "33, 10",
 				"ShopType": "CCBundle",				
 				"Price": {
 					"(O)Wildflour.AtelierGoods_Junimo_Gem": 5
@@ -100,22 +100,23 @@
 	{
 		"LogName":"Map Patch SBV",
 		"Action": "EditMap",
-		"Target": "Maps/Custom_SBV_SunberryForest", 
+		"Target": "Maps/Custom_SBV_SunberryRoad", 
 		"When":{"DLX.Bundles/Purchased": "Wildflour.AtelierGoods_Starter_Bundle", "HasMod:|contains= skellady.SBVCP": true},
 		"FromFile": "assets/Maps/SBVShopkeeperWarp.tmx",
 		"ToArea": {
-				"X": 65,
-				"Y": 54,
-				"Width": 4,
-				"Height": 4
+				"X": 32,
+				"Y": 7,
+				"Width": 3,
+				"Height": 5
 				}
 	},
+
 
 	{
 		"LogName":"SBV Warp",
 		"Action": "EditMap",
-		"Target": "Maps/Custom_SBV_SunberryForest",
-		"AddWarps": ["66 55 Wildflour.AtelierGoods_ShopkeeperGrove 24 18"],
+		"Target": "Maps/Custom_SBV_SunberryRoad",
+		"AddWarps": ["33 8 Wildflour.AtelierGoods_ShopkeeperGrove 24 18"],
 		"When": {"DLX.Bundles/Purchased": "Wildflour.AtelierGoods_Starter_Bundle", "HasMod:|contains= skellady.SBVCP": true}
 	},
 
@@ -123,7 +124,7 @@
 		"LogName":"Shopkeeper Warps SBV",
 		"Action": "EditMap",
 		"Target": "Maps/Wildflour.AtelierGoods_ShopkeeperGrove",
-		"AddWarps": ["24 22 Custom_SBV_SunberryForest 64 54"],
+		"AddWarps": ["24 22 Custom_SBV_SunberryRoad 33 11"],
 		"When": {"HasMod:|contains= skellady.SBVCP": true}
 	},
 
@@ -779,7 +780,7 @@
 		"Entries": {
 			"JunimoGem": {
 				"Shared": true,
-				"DrawOverheadPickupAnimation": true,
+				"DrawOverheadPickupAnimation": false,
 				"OverheadPickupTexture": "Mods/Wildflour.AtelierGoods/Currency",
 				"OverheadPickupTextureSize": 16,
 				

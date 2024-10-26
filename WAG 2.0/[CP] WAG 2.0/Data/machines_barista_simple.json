@@ -445,6 +445,11 @@
                         "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Lemonade %PRESERVED_DISPLAY_NAME]",
                         "ObjectInternalName": "{0} Lemonade",
                         "PreserveID":"DROP_IN",
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementTags.1": "lemon_item",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Lemon_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
                         "CopyColor":true,
                         "CopyQuality": true,
                         "CopyPrice": true,
@@ -491,6 +496,11 @@
                         {
                             "Trigger": "ItemPlacedInMachine",
                             "RequiredTags": ["category_fruits"],
+                            "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredTags": ["edible_flower_item"],
                             "RequiredCount": 1
                         }
                     ],
@@ -583,7 +593,7 @@
     "LogName": "Add Basic Smoothie AND Milkshake Rules",
     "Action": "EditData",
     "Target": "Data/Machines",
-    "When":  {"Atelier.Cauldron/ConfigValue:Smoothies": false, "Atelier.Cauldron/ConfigValue:Milkshakes": true},
+    "When":  {"Atelier.Cauldron/ConfigValue:Smoothies": true, "Atelier.Cauldron/ConfigValue:Milkshakes": true},
     "Entries": {
         "(BC)Wildflour.AtelierGoods_KitchenBlender":{
             "OutputRules": [
@@ -593,6 +603,11 @@
                         {
                             "Trigger": "ItemPlacedInMachine",
                             "RequiredTags": ["category_fruits"],
+                            "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredTags": ["edible_flower_item"],
                             "RequiredCount": 1
                         }
                     ],
@@ -622,12 +637,7 @@
                     "Triggers": [
                             {
                             "Trigger": "ItemPlacedInMachine",
-                            "RequiredTags": ["category_fruits"],
-                            "RequiredCount": 1
-                            },
-                            {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredTags": ["edible_flower_item"],
+                            "RequiredItemId": "Wildflour.AtelierGoods_Flavored_IceCream",
                             "RequiredCount": 1
                             }
                 ],
@@ -636,7 +646,7 @@
                             "ItemId": "Wildflour.AtelierGoods_Flavored_Milkshake",
                             "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Milkshake %PRESERVED_DISPLAY_NAME]",
                             "ObjectInternalName": "{0} Milkshake",
-                            "PreserveId": "DROP_IN",
+                            "PreserveId": "DROP_IN_PRESERVE",
                             "CopyQuality": true,
                             "CopyPrice": true,
                             "CopyColor":true,
@@ -707,14 +717,9 @@
                   "Id": "Wildflour.AtelierGoods_KitchenBlender_Flavored_Milkshake",
                     "Triggers": [
                         {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredTags": ["category_fruits"],
-                            "RequiredCount": 1
-                        },
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredTags": ["edible_flower_item"],
-                            "RequiredCount": 1
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O)Wildflour.AtelierGoods_Flavored_IceCream",
+                        "RequiredCount": 1
                         }
             ],
                 "OutputItem": [
@@ -722,7 +727,7 @@
                         "ItemId": "Wildflour.AtelierGoods_Flavored_Milkshake",
                         "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Milkshake %PRESERVED_DISPLAY_NAME]",
                         "ObjectInternalName": "{0} Milkshake",
-                        "PreserveId": "DROP_IN",
+                        "PreserveId": "DROP_IN_PRESERVE",
                         "CopyQuality": true,
                         "CopyPrice": true,
                         "CopyColor":true,

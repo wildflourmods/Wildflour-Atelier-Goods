@@ -657,7 +657,7 @@
                     "Triggers": [
                         {
                         "Trigger": "ItemPlacedInMachine",
-                        "RequiredTags": ["category_gems"],
+                        "RequiredTags": ["category_gem"],
                         "RequiredCount": 1
                         }
                 ],
@@ -741,7 +741,7 @@
                     "Triggers": [
                         {
                         "Trigger": "ItemPlacedInMachine",
-                        "RequiredTags": ["category_gems"],
+                        "RequiredTags": ["category_gem"],
                         "RequiredCount": 1
                         }
                 ],

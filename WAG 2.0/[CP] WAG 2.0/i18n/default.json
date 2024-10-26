@@ -8,10 +8,10 @@
 "AtelierGoods_ShopBundleComplete":"Thank you! Come back tomorrow okay? Bye!",
 
 "AtelierGoods_JunimoGem_Vanilla_Mail.name":"Strange Gem?",
-"AtelierGoods_JunimoGem_Vanilla_Mail.text":"Bring shinies to forest by old house.",
+"AtelierGoods_JunimoGem_Vanilla_Mail.text":"Hello, @! ^^ We have not met, but my name is Wildflour and I am an alchemist from Sunberry Village who has heard great things about you! From who? Don't worry about that.^^The point is: I have discovered that those friendly with the forest spirits (also known as junimos) are finding junimo gems in their crafting machines alongside their artisan goods. Though we aren't exactly sure what they are, I've been told by a VERY RELIABLE SOURCE that you should take 5 of these gems down towards the southern tip of the forest near the abandoned house. You will be glad you did! ^^Wildflour, The Alchemist",
 
 "AtelierGoods_JunimoGem_SBV_Mail.name":"Strange Gem?",
-"AtelierGoods_JunimoGem_SBV_Mail.text":"Hello, @! ^^ A little friend told me you have discovered something 'shiny' when working with your machines. I might have an idea of what it is; would you be so kind as to bring it by the Atelier when you have a chance? Thanks! ^^ Wildflour",
+"AtelierGoods_JunimoGem_SBV_Mail.text":"Hello, @! ^^ Great news! I have discovered that those friendly with the forest spirits (also known as junimos) are finding junimo gems in their crafting machines alongside their artisan goods. I've been told by a VERY RELIABLE SOURCE that you should take 5 of these gems with you and travel to the area by the east of Sunberry road, before you enter the village. ^^Why?^^ ^^ Why NOT?^^ Just trust me on this one. ^^ Wildflour, The Alchemist",
 
 "AtelierGoods_StarterBundle_Vanilla.name": "?",
 "AtelierGoods_StarterBundle_Vanilla.description": "Give shiny gems?",
@@ -46,16 +46,16 @@
 // SHOPKEEPERS //
 /////////////////
 
-"AtelierGoods_FlorianShop_Dialogue.1":"Well if it isn't my dearest old chap, @!",
+"AtelierGoods_FlorianShop_Dialogue.1":"Well if it isn't my dearest old chap!",
 "AtelierGoods_FlorianShop_Dialogue.2":"Picked these flowers fresh today, you'll find nothing better this side of the Ferngill sea, wot wot!",
 "AtelierGoods_FlorianShop_Dialogue.3":"I'll trade you these at a discount if you sneak me a bit of one of Rose's pies...",
 
 "AtelierGoods_WisteriaShop_Dialogue.1":"Hello, darling! Come see what I have in stock today.",
 "AtelierGoods_WisteriaShop_Dialogue.2":"My, my it looks like someone is ready to shop til they drop!",
-"AtelierGoods_WisteriaShop_Dialogue.3":"@! DARLING! That outfit is to die for!",
+"AtelierGoods_WisteriaShop_Dialogue.3":"DARLING! That outfit is to die for!",
 
-"AtelierGoods_RoseShop_Dialogue.1":"Hello there @! Care for a scone?",
-"AtelierGoods_RoseShop_Dialogue.2":"What can I get you today, @?",
+"AtelierGoods_RoseShop_Dialogue.1":"Hello there! Care for a scone?",
+"AtelierGoods_RoseShop_Dialogue.2":"What can I get you today?",
 "AtelierGoods_RoseShop_Dialogue.3":"Don't forget to stock up on essentials!",
 
 "AtelierGoods_ToffeeShop_Dialogue.1":"Hello dearie, what can Granny Toffee get you today?",
@@ -66,13 +66,13 @@
 "AtelierGoods_MasonShop_Dialogue.2":"Pfft of course I have pectin, what do I look like some kind of dibbun?",
 "AtelierGoods_MasonShop_Dialogue.3":"I've got my eye on you, farmer. No one makes better pickles than me. Now that said, what can I get you?",
 
-"AtelierGoods_StoutShop_Dialogue.1":"'ello there, @ ! Wot can old Stout get ye today?",
+"AtelierGoods_StoutShop_Dialogue.1":"'ello there, friend! Wot can old Stout get ye today?",
 "AtelierGoods_StoutShop_Dialogue.2":"Wot do ye think, farmer, need help gettin' that brewery goin'? I got just the thing...",
 "AtelierGoods_StoutShop_Dialogue.3":"Gems are grand an' all, but to be 'onest with ye, share a pint with me an' I'll be just as 'appy.",
 
 "AtelierGoods_AlchemistShop_Dialogue.1":"Forage! Seeds! Mushrooms! Come get your wild food here!",
-"AtelierGoods_AlchemistShop_Dialogue.2":"@! Welcome, welcome. What can I interest you in on this fine day?",
-"AtelierGoods_AlchemistShop_Dialogue.3":"What do you think, @, care to try some of these new berries I found today? They're probably not poisonous.",
+"AtelierGoods_AlchemistShop_Dialogue.2":"Welcome, welcome. What can I interest you in on this fine day?",
+"AtelierGoods_AlchemistShop_Dialogue.3":"What do you think, care to try some of these new berries I found today? They're probably not poisonous...",
 
 //////////////
 // MACHINES //
@@ -194,7 +194,7 @@
 "AtelierGoods_RollingPin_InvalidItem.message":"Rolling Pin cannot turn this into bread or doughnuts.",
 
 "AtelierGoods_SugarBoiler.name": "Sugar Boiler",
-"AtelierGoods_SugarBoiler.description": "Boils sugar to the perfect temperature for handmade lollipops, hard candies and crystal candy.",
+"AtelierGoods_SugarBoiler.description": "Turns 1 fruit or syrup in lollipops or hard candy; it even has a special setting to turn gems and sugar into crystal candy.",
 "AtelierGoods_SugarBoiler_InvalidItem.message": "This doesn't go in the Sugar Boiler.",
 "AtelierGoods_SugarBoiler_InvalidCount.message": "Requires More Ingredients.",
 
@@ -419,6 +419,11 @@
 "AtelierGoods_Flavored_Popsicle": "{0} Popsicle",
 "AtelierGoods_Flavored_Popsicle.name": "Popsicle",
 "AtelierGoods_Flavored_Popsicle.description": "A delightfully flavored popsicle.",
+
+
+"AtelierGoods_Flavored_Pudding": "{0} Pudding",
+"AtelierGoods_Flavored_Pudding.name": "Pudding",
+"AtelierGoods_Flavored_Pudding.description": "A delightfully jiggly, wiggly pudding dessert.",
 
 "AtelierGoods_Flavored_Sachet":"{0} Tea Blend",
 "AtelierGoods_Flavored_Sachet.name":"Loose Leaf Tea Blend",
@@ -1520,7 +1525,7 @@
 "AtelierGoods_Pisces_Lotion.description": "A moisturizing salve that helps to channel spiritual balance and mystical energies.",
 
 "AtelierGoods_Sagittarius_Lotion.name": "Sagittarius Lotion",
-"AtelierGoods_Sagittarius_Lotion.description": "A moisturizing salve made specifically for those born under the sagittarius star sign.",
+"AtelierGoods_Sagittarius_Lotion.description": "A moisturizing salve that helps to channel adventure and optimism.",
 
 "AtelierGoods_Scorpio_Lotion.name": "Scorpio Lotion",
 "AtelierGoods_Scorpio_Lotion.description": "A moisturizing salve that helps to channel curiosity.",
@@ -2883,7 +2888,7 @@
 ////////////////////////////////
 
 "AtelierGoods_Junimo_Gem.name":"Junimo Gem",
-"AtelierGoods_Junimo_Gem.description":"You have no idea what this is.",
+"AtelierGoods_Junimo_Gem.description":"According to a strange alchemist, junimos leave these in your crafting machines as thanks for a small share of your artisan goods. Can be used as currency...you think.",
 
 "AtelierGoods_TeaProcessorRecipe.name":"Time to Craft Artisanal Tea Blends!",
 "AtelierGoods_TeaProcessorRecipe.text":"@, ^^ If you really want to get into tea brewing, you should try making one of these processors. It will help you craft your own artisanal tea blends! I would love to try any new teas you create.^^ - Elliott",
@@ -3003,7 +3008,7 @@
 "AtelierGoods_FragranceStationRecipe.text":"@, ^^ I clipped this out of one of my magazines. Making your own perfumes and incense is so trendy right now! Maybe you can try it out with flowers from your farm?^^ - Haley",
 
 "AtelierGoods_CandleStationRecipe.name":"Every Good Florist Needs a Cauldron",
-"AtelierGoods_CandleStationRecipe.text":"@, ^^ You read that right. If you want to dip candles or make high quality soaps with your flowers, then a cauldron is essential. It's sturdy and heats evenly, and if someone bothers you, you can throw them in too and no one will know. Just kidding.^^ - Evelyn",
+"AtelierGoods_CandleStationRecipe.text":"@, ^^ Yes, you read that right, dear. If you want to dip candles or make high quality soaps with your flowers, then a cauldron is essential. It's sturdy and heats evenly, and if someone bothers you, you can throw them in too and no one will know, hee hee! Just kidding, dear.^^ - Evelyn",
 
 "AtelierGoods_Jas_Gift.name":"Flowers for the Farmer",
 "AtelierGoods_Jas_Gift.text":"@, ^^ Aunt Marnie sent you a letter about flowers and so I wanted to write you one too! We found these pretty-smelling flowers in the forest together and she said you'd like them so here you go!^^ - Jas",
@@ -3015,34 +3020,34 @@
 "AtelierGoods_Emily_Gift.text":"@, ^^ Evelyn has been talking about your new flower projects and so I wanted to help! I think fairy roses would make for quite the stunning dried autumn bouquet, don't you?^^ - Emily",
 
 "AtelierGoods_SB_Intro_Mail.name":"Your Shrooms and Blooms Subscription!",
-"AtelierGoods_SB_Intro_Mail.text":"Welcome to the valley! Someone has gifted you a FREE subscription to Shrooms and Blooms Magazine, the premiere publication for farmers and foragers alike! Each edition is jam-packed with helpful hints and tips for honing your foraging skills, so be sure to keep an eye on your mail for more to come!",
+"AtelierGoods_SB_Intro_Mail.text":"^^ Welcome to the valley! Someone has gifted you a FREE subscription to Shrooms and Blooms Magazine, the premiere publication for farmers and foragers alike! Each edition is jam-packed with helpful hints and tips for honing your foraging skills, so be sure to keep an eye on your mail for more to come!",
 
-"AtelierGoods_SB_Mushroom_Preserve_Mail.name":"Mushrooms and Preserves Jars - More Than Just Pickles!",
-"AtelierGoods_SB_Mushroom_Preserve_Mail.text":"In today's issue of Shrooms and Blooms, we discuss a variety of edible mushrooms and their uses. Meringue, Wheatberry, Honey Fungus, Chicken of the Woods and Milky White Mushrooms are delicious on their own, but have you tried putting them in your preserves jars?  This may seem hard to believe, but the next time you stumble upon one of these mushrooms, try it. You'll be amazed at what comes out!",
+"AtelierGoods_SB_Mushroom_Preserve_Mail.name":"Mushrooms and Your Kitchen Mortar",
+"AtelierGoods_SB_Mushroom_Preserve_Mail.text":"^^ In today's issue of Shrooms and Blooms, we discuss a variety of edible mushrooms and their uses. Meringue, Wheatberry, Honey Fungus, Chicken of the Woods and Milky White Mushrooms all share a particular naming convention that led us to a great discovery: putting any of these into your Kitchen Mortar will yield common baking ingredients! This may seem hard to believe, but the next time you stumble upon one of these mushrooms, try it. You'll be amazed at what comes out!",
 
 "AtelierGoods_SB_Fruit_Sapling_Mail.name":"Starting Your Fruit Orchard on a Budget.",
-"AtelierGoods_SB_Fruit_Sapling_Mail.text":"In today's issue of Shrooms and Blooms, we focus on how foraged fruits can help you start your very own orchard! If the experienced forager stumbles upon 3 of the same fruit while foraging, they can try putting the fruits into their seed maker! Our experts have tested this with a myriad of tree fruits, even tree nuts, and all yield the same glorious results; three of the same fruit transform into a sapling!",
+"AtelierGoods_SB_Fruit_Sapling_Mail.text":"^^ In today's issue of Shrooms and Blooms, we focus on how foraged fruits can help you start your very own orchard! If the experienced forager stumbles upon 3 of the same fruit while foraging, they can try putting the fruits into their seed maker! Our experts have tested this with a myriad of tree fruits, even tree nuts, and all yield the same glorious results; three of the same fruit transform into a sapling!",
 
 "AtelierGoods_SB_MushLog_Mail.name":"Mushroom Logs for the Avid Mushroom Hunter.",
-"AtelierGoods_SB_MushLog_Mail.text":"Mushroom logs are indeed a fantastic way to bring the forage straight to the farm, but did you know you can affect what mushrooms you receive depending on where you place your logs? There are far too many combinations to list, but we here at S&B are fans of placing our mush logs near pistachio, almond, anise, cacao or walnut trees.",
+"AtelierGoods_SB_MushLog_Mail.text":"^^ Today's topic: Mushroom Logs! Mushroom logs are indeed a fantastic way to bring the forage straight to the farm, but did you know you can affect what mushrooms you receive depending on where you place your logs? There are far too many combinations to list, but we here at S&B are fans of placing our mush logs near Wild Food varieties of pistachio, almond, anise, cacao or walnut trees.",
 
 "AtelierGoods_SB_Giant_Crop_Mail.name":"Tips for Growing Giant Crops.",
-"AtelierGoods_SB_Giant_Crop_Mail.text":"Dreaming of giant crops? Better get busy turning that forage into seeds - because several forage varieties can become giant if planted on your farm. Shrooms and Blooms has the scoop on some rare giant crops you may be interested in growing. We've heard, from a reliable source in Sunberry Village, that it is possible to grow giant versions of wild strawberries, wild raspberries, Forest Lavender, Pelican Mint and even our favorite mushrooms!",
+"AtelierGoods_SB_Giant_Crop_Mail.text":"^^ Dreaming of giant crops? Better get busy turning that forage into seeds - because several forage varieties can become giant if planted on your farm. Shrooms and Blooms has the scoop on some rare giant crops you may be interested in growing. We've heard, from a reliable source in Sunberry Village, that it is possible to grow giant versions of wild strawberries, wild raspberries, Forest Lavender, Pelican Mint and even our favorite mushrooms!",
 
 "AtelierGoods_SB_Spring_Forage_Mail.name":"Forage to Put a Little 'Spring' in Your Step.",
-"AtelierGoods_SB_Spring_Forage_Mail.text":"It's finally springtime, S&B fans! This season you'll find Forest Lavender in yep, you guessed it, Cindersap Forest, but stay on the lookout for St. Cannoli Almonds, Petite Lemons, Limes and more across the valley! Pelican mint, like all mints, runs rampant and can often be found by the bus stop, the railroad, or even in town. And for our beachcombers, keep an eye out for the elusive Fern Isle Olive or Cindersap Cilantro!",
+"AtelierGoods_SB_Spring_Forage_Mail.text":"^^ It's finally springtime, S&B fans! This season you'll find Forest Lavender in yep, you guessed it, Cindersap Forest, but stay on the lookout for St. Cannoli Almonds, Petite Lemons, Limes and more across the valley! Pelican mint, like all mints, runs rampant and can often be found by the bus stop, the railroad, or even in town. And for our beachcombers, keep an eye out for the elusive Fern Isle Olive or Cindersap Cilantro!",
 
 "AtelierGoods_SB_Summer_Forage_Mail.name":"Summertime and the Forage is Freeeee.",
-"AtelierGoods_SB_Summer_Forage_Mail.text":"Things are heating up as summer arrives in the valley; chamomile and elderberries are popping up over the forest and herbs like sweet basil and lemon thyme can be foraged near the bust stop and railroad. If you're lucky, you may even find a meringue mushroom or chicken of the woods while you're out there as well!",
+"AtelierGoods_SB_Summer_Forage_Mail.text":"^^ Things are heating up as summer arrives in the valley; chamomile and elderberries are popping up over the forest and herbs like sweet basil and lemon thyme can be foraged near the bus stop and railroad. If you're lucky, you may even find a meringue mushroom or chicken of the woods while you're out there as well!",
 
 "AtelierGoods_SB_Fall_Forage_Mail.name":"Don't 'Fall' Behind on Foraging These Important Edibles.",
-"AtelierGoods_SB_Fall_Forage_Mail.text":"Though the bounty of summer is over, autumn brings its own unique forage to the valley. Mushroom lovers can find milky white and wheatberry mushrooms in the forest this time of year, and our favorite fall herbs like rosemary and sage can be found along the backwoods, mountain and bus stop. A rare find indeed, but make a visit to the beach every now and then to see if you can spot a Gem Sea Cashew or Gem Isle Jasmine!",
+"AtelierGoods_SB_Fall_Forage_Mail.text":"^^ Though the bounty of summer is over, autumn brings its own unique forage to the valley. Mushroom lovers can find milky white and wheatberry mushrooms in the forest this time of year, and our favorite fall herbs like rosemary and sage can be found along the backwoods, mountain and bus stop. A rare find indeed, but make a visit to the beach every now and then to see if you can spot a Gem Sea Cashew or Gem Isle Jasmine!",
 
 "AtelierGoods_SB_Winter_Forage_Mail.name":"Winter: No Farming Means More Time for Foraging!",
-"AtelierGoods_SB_Winter_Forage_Mail.text":"Don't let the colder temps keep you inside all season; there are rich rewards for the courageous forager who ventures out in winter. Hardy rosemary has stuck aorund from fall, but did you know you can find cindersap cinnamon this time of year? It may be on the ground, but try shaking a few maple trees, you might get lucky and shake some bark free!",
+"AtelierGoods_SB_Winter_Forage_Mail.text":"^^ Don't let the colder temps keep you inside all season; there are rich rewards for the courageous forager who ventures out in winter. Hardy rosemary has stuck aorund from fall, but did you know you can find cindersap cinnamon this time of year? It may be on the ground, but try shaking a few mahogany trees, you might get lucky and shake some bark free!",
 
 "AtelierGoods_SB_BushBloom_Mail.name":"Blooming Bushes!",
-"AtelierGoods_SB_BushBloom_Mail.text":"Foragers, take note! The bounty of the valley isn't restricted to forage on the forest floor; the bushes across Pelican Town and nearby areas are absolutely brimming with fresh berries! In the beginning of spring stock up on wild strawberries before they disappear, then do the same for wild raspberries in summer. There's nothing quite like a freshly-picked berry!",
+"AtelierGoods_SB_BushBloom_Mail.text":"^^ Foragers, take note! The bounty of the valley isn't restricted to forage on the forest floor; the bushes across Pelican Town and nearby areas are absolutely brimming with fresh berries! In the beginning of spring, stock up on wild strawberries before they disappear, then do the same for wild raspberries in summer. There's nothing quite like a freshly-picked berry!",
 
 
 
