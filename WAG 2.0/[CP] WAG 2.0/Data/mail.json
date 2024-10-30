@@ -76,7 +76,12 @@
                 "Wildflour.AtelierGoods_SB_Summer_Forage": "{{i18n: AtelierGoods_SB_Summer_Forage_Mail.text}}[letterbg Mods\\Wildflour.AtelierGoods\\SBLetterBG 0] %item id (O)907 1 %%[#]{{i18n: AtelierGoods_SB_Summer_Forage_Mail.name}}",
                 "Wildflour.AtelierGoods_SB_Fall_Forage": "{{i18n: AtelierGoods_SB_Fall_Forage_Mail.text}}[letterbg Mods\\Wildflour.AtelierGoods\\SBLetterBG 0] %item id (O)235 1 %%[#]{{i18n: AtelierGoods_SB_Fall_Forage_Mail.name}}",
                 "Wildflour.AtelierGoods_SB_Winter_Forage": "{{i18n: AtelierGoods_SB_Winter_Forage_Mail.text}}[letterbg Mods\\Wildflour.AtelierGoods\\SBLetterBG 0] %item id (O)Wildflour.AtelierGoods_Cinnamon 3 %%[#]{{i18n: AtelierGoods_SB_Winter_Forage_Mail.name}}",
-                "Wildflour.AtelierGoods_SB_BushBloom": "{{i18n: AtelierGoods_SB_BushBloom_Mail.text}}[letterbg Mods\\Wildflour.AtelierGoods\\SBLetterBG 0] %item id (O)Wildflour.AtelierGoods_Wild_Strawberry 5 %%[#]{{i18n: AtelierGoods_SB_BushBloom_Mail.name}}"
+                "Wildflour.AtelierGoods_SB_BushBloom": "{{i18n: AtelierGoods_SB_BushBloom_Mail.text}}[letterbg Mods\\Wildflour.AtelierGoods\\SBLetterBG 0] %item id (O)Wildflour.AtelierGoods_Wild_Strawberry 5 %%[#]{{i18n: AtelierGoods_SB_BushBloom_Mail.name}}",
+
+                "Wildflour.AtelierGoods_Fruit_Seeds_Mail": "{{i18n: AtelierGoods_Fruit_Seeds_Mail.text}} %item id (O)Wildflour.AtelierGoods_Fruit_Seeds 5 %%[#]{{i18n: AtelierGoods_Fruit_Seeds_Mail.name}}",
+                "Wildflour.AtelierGoods_Flower_Seeds_Mail": "{{i18n: AtelierGoods_Flower_Seeds_Mail.text}} %item id (O)Wildflour.AtelierGoods_Flower_Seeds 5 %%[#]{{i18n: AtelierGoods_Flower_Seeds_Mail.name}}",
+                "Wildflour.AtelierGoods_Herb_Seeds_Mail": "{{i18n: AtelierGoods_Herb_Seeds_Mail.text}} %item id (O)Wildflour.AtelierGoods_Herb_Seeds 5 %%[#]{{i18n: AtelierGoods_Herb_Seeds_Mail.name}}",
+                "Wildflour.AtelierGoods_Veggies_Seeds_Mail": "{{i18n: AtelierGoods_Veggies_Seeds_Mail.text}} %item id (O)Wildflour.AtelierGoods_Veggie_Seeds 5 %%[#]{{i18n: AtelierGoods_Veggies_Seeds_Mail.name}}"
             }
     },
 
@@ -515,6 +520,39 @@
             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Marnie 1000, PLAYER_HAS_CRAFTING_RECIPE Current Wildflour.AtelierGoods_KitchenBlender, CAULDRON_CONFIG_VALUE WildFood True",
             "Trigger": "DayStarted",
             "Action": "AddMail Current Wildflour.AtelierGoods_Marnie_Gift tomorrow"
+        }
+    }
+},
+
+{
+    "LogName":"Garden Variety Seeds Mail Triggers",
+    "Action": "EditData",
+    "Target": "Data/TriggerActions",
+    "When":  {"Atelier.Cauldron/ConfigValue:MixedSeeds": true},
+    "Entries": {
+        "Wildflour.AtelierGoods_Fruit_Mail_Trigger": {
+            "Id": "Wildflour.AtelierGoods_Fruit_Mail_Trigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Gus 250",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_Fruit_Mail tomorrow"
+        },
+        "Wildflour.AtelierGoods_Flower_Mail_Trigger": {
+            "Id": "Wildflour.AtelierGoods_Flower_Mail_Trigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Evelyn 250",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_Flower_Mail tomorrow"
+        },
+        "Wildflour.AtelierGoods_Herb_Mail_Trigger": {
+            "Id": "Wildflour.AtelierGoods_Herb_Mail_Trigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Leah 250",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_Herb_Mail tomorrow"
+        },
+        "Wildflour.AtelierGoods_Veggie_Mail_Trigger": {
+            "Id": "Wildflour.AtelierGoods_Veggie_Mail_Trigger",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Harvey 250",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_Veggie_Mail tomorrow"
         }
     }
 }

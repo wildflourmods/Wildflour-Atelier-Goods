@@ -1,5 +1,34 @@
 {
 
+////////////////////////////////////
+// GARDEN VARIETY MIXED SEEDS NEW //
+////////////////////////////////////
+
+
+"AtelierGoods_Fruit_Seeds.name":"Garden Variety Fruit Seeds",
+"AtelierGoods_Fruit_Seeds.description":"Plant in spring, summer or fall and see what grows!",
+
+"AtelierGoods_Flower_Seeds.name":"Alchemist's Flower Seeds",
+"AtelierGoods_Flower_Seeds.description":"Plant in spring, summer or fall and see what grows!",
+
+"AtelierGoods_Herb_Seeds.name":"Alchemist's Herb Seeds",
+"AtelierGoods_Herb_Seeds.description":"Plant in spring, summer or fall and see what grows!",
+
+"AtelierGoods_Veggie_Seeds.name":"Garden Variety Veggie Seeds",
+"AtelierGoods_Veggie_Seeds.description":"Plant in spring, summer or fall and see what grows!",
+
+"AtelierGoods_Fruit_Seeds_Mail.name":"Fruit for Thought",
+"AtelierGoods_Fruit_Seeds_Mail.text":"@, ^^ Sometimes I save fruit seeds from fruits I use for cocktails at the saloon. Maybe you can try growing some on your farm? Full disclosure: I have NO idea what's in this seed mix. Good Luck! ^^ - Gus",
+
+"AtelierGoods_Flower_Seeds_Mail.name":"Freshly Cut Flowers",
+"AtelierGoods_Flower_Seeds_Mail.text":"@, ^^ Don't tell the mayor, but sometimes I pluck the wilting flowers while I'm maintaining the town's flowerbeds so that I can keep the seeds. It's not like he was going to do anything with them anyway! Here: have some and see what lovely new flowers sprout. ^^ - Evelyn",
+
+"AtelierGoods_Herb_Seeds_Mail.name":"Herbs for Companion Planting",
+"AtelierGoods_Herb_Seeds_Mail.text":"@, ^^ A lot of the vegetables you grow on your farm could do with some companion herbs! Herbs are strong smelling and often keep pesky bugs away from your veggies. Let me know how these turn out for you! ^^ - Leah",
+
+"AtelierGoods_Veggies_Seeds_Mail.name":"A Little Variety for Your Veggie Garden",
+"AtelierGoods_Veggies_Seeds_Mail.text":"@, ^^ Did you know you can regrow quite a few vegetables you often would throw away as kitchen scraps? Now I might not have managed to do it, but the internet says its true so why don't you try with these and prove them right? ^^ - Harvey",
+
 /////////////
 // BUNDLES //
 /////////////

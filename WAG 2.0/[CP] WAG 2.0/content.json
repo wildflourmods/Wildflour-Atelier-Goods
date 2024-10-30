@@ -197,6 +197,15 @@
             "FromFile": "Data/z_byproducts.json"
         },
 
+    //Include Seed Mixes
+
+        {
+            "LogName": "WAG Garden Variety Mixed Seeds",
+            "Action": "Include",
+            "FromFile": "Data/seeds.json",
+            "When":{"Atelier.Cauldron/ConfigValue:MixedSeeds": true}
+        },
+
 	//Include Shops
 
 		{

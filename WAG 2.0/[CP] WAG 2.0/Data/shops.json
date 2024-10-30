@@ -768,10 +768,158 @@
                 "AvailableStockLimit": "Player"
           }
         }
-      },
+    },
 
+    {
+    "LogName": "Editing Wisteria's Shop to Add HxW Outdoor Catalogue",
+    "Action": "EditData",
+    "When": {"HasMod:|contains= HXW.OutdoorFurniture": true},
+    "Target": "Data/Shops",
+    "TargetField": [
+        "Wildflour.AtelierGoods_WisteriaShop",
+        "Items"
+    ],
+    "Entries": {
+        "Wildflour.AtelierGoods_WisteriaShop_OutdoorCatalogue": {
+            "Id": "Wildflour.AtelierGoods_WisteriaShop_OutdoorCatalogue",
+            "ItemId": "(F)HXW.OutdoorFurni_Catalogue",
+            "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+            "TradeItemAmount": 50,
+            "AvailableStock": 1,
+            "AvailableStockLimit": "Player"
+        }
+    }
+    },
 
+    {
+    "LogName": "Editing Wisteria's Shop to Add HxW Romantic Catalogue",
+    "Action": "EditData",
+    "When": {"HasMod:|contains= HXW.RomanticFurniture": true},
+    "Target": "Data/Shops",
+    "TargetField": [
+        "Wildflour.AtelierGoods_WisteriaShop",
+        "Items"
+    ],
+    "Entries": {
+        "Wildflour.AtelierGoods_WisteriaShop_RomanticCatalogue": {
+            "Id": "Wildflour.AtelierGoods_WisteriaShop_RomanticCatalogue",
+            "ItemId": "(F)HXW.RomanticFurniture_Catalogue",
+            "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+            "TradeItemAmount": 50,
+            "AvailableStock": 1,
+            "AvailableStockLimit": "Player"
+        }
+    }
+    },
+
+    {
+    "LogName": "Editing Wisteria's Shop to Add HxW Farmers Market Catalogue",
+    "Action": "EditData",
+    "When": {"HasMod:|contains= HXW.FMCore": true},
+    "Target": "Data/Shops",
+    "TargetField": [
+        "Wildflour.AtelierGoods_WisteriaShop",
+        "Items"
+    ],
+    "Entries": {
+        "Wildflour.AtelierGoods_WisteriaShop_MarketCatalogue": {
+            "Id": "Wildflour.AtelierGoods_WisteriaShop_MarketCatalogue",
+            "ItemId": "(F)HXW.FMCore_Catalogue",
+            "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+            "TradeItemAmount": 50,
+            "AvailableStock": 1,
+            "AvailableStockLimit": "Player"
+        }
+    }
+    },
+
+    {
+        "LogName": "Editing Wisteria's Shop to Add HxW Fairy Garden Catalogue",
+        "Action": "EditData",
+        "When": {"HasMod:|contains= HXW.FairyGardenFurniture": true},
+        "Target": "Data/Shops",
+        "TargetField": [
+            "Wildflour.AtelierGoods_WisteriaShop",
+            "Items"
+        ],
+        "Entries": {
+            "Wildflour.AtelierGoods_WisteriaShop_FairyGardenCatalogue": {
+                "Id": "Wildflour.AtelierGoods_WisteriaShop_FairyGardenCatalogue",
+                "ItemId": "(F)HXW.FairyGardenFurni_Catalogue",
+                "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                "TradeItemAmount": 50,
+                "AvailableStock": 1,
+                "AvailableStockLimit": "Player"
+            }
+        }
+        },
+
+        
+    {
+        "LogName": "Editing Wisteria's Shop to Add HxW Bathroom Catalogue",
+        "Action": "EditData",
+        "When": {"HasMod:|contains= HXW.BathroomFurniture": true},
+        "Target": "Data/Shops",
+        "TargetField": [
+            "Wildflour.AtelierGoods_WisteriaShop",
+            "Items"
+        ],
+        "Entries": {
+            "Wildflour.AtelierGoods_WisteriaShop_BathroomCatalogue": {
+                "Id": "Wildflour.AtelierGoods_WisteriaShop_BathroomCatalogue",
+                "ItemId": "(F)HXW.BathroomFurni_Catalogue",
+                "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                "TradeItemAmount": 50,
+                "AvailableStock": 1,
+                "AvailableStockLimit": "Player"
+            }
+        }
+        },
+
+        
+    {
+        "LogName": "Editing Wisteria's Shop to Add HxW Plant Lovers Catalogue",
+        "Action": "EditData",
+        "When": {"HasMod:|contains= HXW.PlantLoversFurni": true},
+        "Target": "Data/Shops",
+        "TargetField": [
+            "Wildflour.AtelierGoods_WisteriaShop",
+            "Items"
+        ],
+        "Entries": {
+            "Wildflour.AtelierGoods_WisteriaShop_PlantLoversCatalogue": {
+                "Id": "Wildflour.AtelierGoods_WisteriaShop_PlantLoversCatalogue",
+                "ItemId": "(F)HXW.PlantLoversFurni_Catalogue",
+                "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                "TradeItemAmount": 50,
+                "AvailableStock": 1,
+                "AvailableStockLimit": "Player"
+            }
+        }
+        },
     
+
+        {
+            "LogName": "Editing Wisteria's Shop to Add HxW Deco Plants Catalogue",
+            "Action": "EditData",
+            "When": {"HasMod:|contains= HXW.DecoPlants": true},
+            "Target": "Data/Shops",
+            "TargetField": [
+                "Wildflour.AtelierGoods_WisteriaShop",
+                "Items"
+            ],
+            "Entries": {
+                "Wildflour.AtelierGoods_WisteriaShop_DecoPlantsCatalogue": {
+                    "Id": "Wildflour.AtelierGoods_WisteriaShop_DecoPlantsCatalogue",
+                    "ItemId": "(F)HXW.DecoPlants_Catalogue",
+                    "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                    "TradeItemAmount": 50,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player"
+                }
+            }
+            },
+
     {
         "LogName":"Add Alchemist's Shop",
         /*"When": {"HasMod:|contains= Wildflour.SASS": false},*/
@@ -939,6 +1087,445 @@
             }
         }
     },
+
+    {
+        "LogName":"Wildflour Garden Variety Seeds Shop Additions Raccoon",
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "TargetField": [ "Raccoon", "Items" ],
+        "When":  {"Atelier.Cauldron/ConfigValue:MixedSeeds": true},
+        "Entries": {
+            "Wildflour.AtelierGoods_Fruit_Seeds_spring": {
+                "Id": "Wildflour.AtelierGoods_Fruit_Seeds_spring",
+                "ItemId": "(O)Wildflour.AtelierGoods_Fruit_Seeds",
+                "MinStack": 3,
+                "MaxStack": 5,
+                "Price": 0,
+                "TradeItemID": "(O)400",
+                "TradeItemAmount": 1,
+                "AvailableStock": -1,
+                "Condition": "SEASON spring"
+            },
+            "Wildflour.AtelierGoods_Fruit_Seeds_summer": {
+                "Id": "Wildflour.AtelierGoods_Fruit_Seeds_summer",
+                "ItemId": "(O)Wildflour.AtelierGoods_Fruit_Seeds",
+                "MinStack": 3,
+                "MaxStack": 5,
+                "Price": 0,
+                "TradeItemID": "(O)398",
+                "TradeItemAmount": 1,
+                "AvailableStock": -1,
+                "Condition": "SEASON summer"
+            },
+            "Wildflour.AtelierGoods_Fruit_Seeds_fall": {
+                "Id": "Wildflour.AtelierGoods_Fruit_Seeds_fall",
+                "ItemId": "(O)Wildflour.AtelierGoods_Fruit_Seeds",
+                "MinStack": 3,
+                "MaxStack": 5,
+                "Price": 0,
+                "TradeItemID": "(O)406",
+                "TradeItemAmount": 1,
+                "AvailableStock": -1,
+                "Condition": "SEASON fall"
+            },
+            "Wildflour.AtelierGoods_Fruit_Seeds_winter": {
+                "Id": "Wildflour.AtelierGoods_Fruit_Seeds_winter",
+                "ItemId": "(O)Wildflour.AtelierGoods_Fruit_Seeds",
+                "MinStack": 3,
+                "MaxStack": 5,
+                "Price": 0,
+                "TradeItemID": "(O)Powdermelon",
+                "TradeItemAmount": 1,
+                "AvailableStock": -1,
+                "Condition": "SEASON winter"
+            },
+            "Wildflour.AtelierGoods_Veggie_Seeds_spring": {
+                "Id": "Wildflour.AtelierGoods_Veggie_Seeds_spring",
+                "ItemId": "(O)Wildflour.AtelierGoods_Veggie_Seeds",
+                "MinStack": 3,
+                "MaxStack": 5,
+                "Price": 0,
+                "TradeItemID": "(O)192",
+                "TradeItemAmount": 1,
+                "AvailableStock": -1,
+                "Condition": "SEASON spring"
+            },
+            "Wildflour.AtelierGoods_Veggie_Seeds_summer": {
+            
+                "Id": "Wildflour.AtelierGoods_Veggie_Seeds_summer",
+                "ItemId": "(O)Wildflour.AtelierGoods_Veggie_Seeds",
+                "MinStack": 3,
+                "MaxStack": 5,
+                "Price": 0,
+                "TradeItemID": "(O)264",
+                "TradeItemAmount": 1,
+                "AvailableStock": -1,
+                "Condition": "SEASON summer"
+            },
+            "Wildflour.AtelierGoods_Veggie_Seeds_fall": {
+            
+                "Id": "Wildflour.AtelierGoods_Veggie_Seeds_fall",
+                "ItemId": "(O)Wildflour.AtelierGoods_Veggie_Seeds",
+                "MinStack": 3,
+                "MaxStack": 5,
+                "Price": 0,
+                "TradeItemID": "(O)272",
+                "TradeItemAmount": 1,
+                "AvailableStock": -1,
+                "Condition": "SEASON fall"
+            },
+            "Wildflour.AtelierGoods_Veggie_Seeds_winter": {
+            
+                "Id": "Wildflour.AtelierGoods_Veggie_Seeds_winter",
+                "ItemId": "(O)Wildflour.AtelierGoods_Veggie_Seeds",
+                "MinStack": 3,
+                "MaxStack": 5,
+                "Price": 0,
+                "TradeItemID": "(O)78",
+                "TradeItemAmount": 1,
+                "AvailableStock": -1,
+                "Condition": "SEASON winter"
+            },
+            "Wildflour.AtelierGoods_Herb_Seeds_spring": {
+                "Id": "Wildflour.AtelierGoods_Herb_Seeds_spring",
+                "ItemId": "(O)Wildflour.AtelierGoods_Herb_Seeds",
+                "MinStack": 3,
+                "MaxStack": 5,
+                "Price": 0,
+                "TradeItemID": "(O)22",
+                "TradeItemAmount": 1,
+                "AvailableStock": -1,
+                "Condition": "SEASON spring"
+            },
+            "Wildflour.AtelierGoods_Herb_Seeds_summer": {
+                "Id": "Wildflour.AtelierGoods_Herb_Seeds_summer",
+                "ItemId": "(O)Wildflour.AtelierGoods_Herb_Seeds",
+                "MinStack": 3,
+                "MaxStack": 5,
+                "Price": 0,
+                "TradeItemID": "(O)259",
+                "TradeItemAmount": 1,
+                "AvailableStock": -1,
+                "Condition": "SEASON summer"
+            },
+            "Wildflour.AtelierGoods_Herb_Seeds_fall": {
+                "Id": "Wildflour.AtelierGoods_Herb_Seeds_fall",
+                "ItemId": "(O)Wildflour.AtelierGoods_Herb_Seeds",
+                "MinStack": 3,
+                "MaxStack": 5,
+                "Price": 0,
+                "TradeItemID": "(O)274",
+                "TradeItemAmount": 1,
+                "AvailableStock": -1,
+                "Condition": "SEASON fall"
+            },
+            "Wildflour.AtelierGoods_Herb_Seeds_winter": {
+                "Id": "Wildflour.AtelierGoods_Herb_Seeds_winter",
+                "ItemId": "(O)Wildflour.AtelierGoods_Herb_Seeds",
+                "MinStack": 3,
+                "MaxStack": 5,
+                "Price": 0,
+                "TradeItemID": "(O)412",
+                "TradeItemAmount": 1,
+                "AvailableStock": -1,
+                "Condition": "SEASON winter"
+            },
+            "Wildflour.AtelierGoods_Flower_Seeds_spring": {
+                "Id": "Wildflour.AtelierGoods_Flower_Seeds_spring",
+                "ItemId": "(O)Wildflour.AtelierGoods_Flower_Seeds",
+                "MinStack": 3,
+                "MaxStack": 5,
+                "Price": 0,
+                "TradeItemID": "(O)597",
+                "TradeItemAmount": 1,
+                "AvailableStock": -1,
+                "Condition": "SEASON spring"
+            },
+            "Wildflour.AtelierGoods_Flower_Seeds_summer": {
+                "Id": "Wildflour.AtelierGoods_Flower_Seeds_summer",
+                "ItemId": "(O)Wildflour.AtelierGoods_Flower_Seeds",
+                "MinStack": 3,
+                "MaxStack": 5,
+                "Price": 0,
+                "TradeItemID": "(O)593",
+                "TradeItemAmount": 1,
+                "AvailableStock": -1,
+                "Condition": "SEASON summer"
+            },
+            "Wildflour.AtelierGoods_Flower_Seeds_fall": {
+                "Id": "Wildflour.AtelierGoods_Flower_Seeds_fall",
+                "ItemId": "(O)Wildflour.AtelierGoods_Flower_Seeds",
+                "MinStack": 3,
+                "MaxStack": 5,
+                "Price": 0,
+                "TradeItemID": "(O)421",
+                "TradeItemAmount": 1,
+                "AvailableStock": -1,
+                "Condition": "SEASON fall"
+            },
+            "Wildflour.AtelierGoods_Flower_Seeds_winter": {
+                "Id": "Wildflour.AtelierGoods_Flower_Seeds_winter",
+                "ItemId": "(O)Wildflour.AtelierGoods_Flower_Seeds",
+                "MinStack": 3,
+                "MaxStack": 5,
+                "Price": 0,
+                "TradeItemID": "(O)418",
+                "TradeItemAmount": 1,
+                "AvailableStock": -1,
+                "Condition": "SEASON winter"
+            }
+        }
+    },
+
+    {
+        "LogName":"Wildflour Garden Variety Seeds Shop Additions Krobus",
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "TargetField": [ "ShadowShop", "Items" ],
+        "When":  {"Atelier.Cauldron/ConfigValue:MixedSeeds": true},
+        "Entries": {
+            "Wildflour.AtelierGoods_Flower_Seeds_spring": {
+                "Id": "Wildflour.AtelierGoods_Flower_Seeds_spring",
+                "ItemId": "(O)Wildflour.AtelierGoods_Flower_Seeds",
+                "MinStack": 3,
+                "MaxStack": 5,
+                "Price": 0,
+                "TradeItemID": "(O)597",
+                "TradeItemAmount": 1,
+                "AvailableStock": -1,
+                "Condition": "SEASON spring"
+            },
+            "Wildflour.AtelierGoods_Flower_Seeds_summer": {
+                "Id": "Wildflour.AtelierGoods_Flower_Seeds_summer",
+                "ItemId": "(O)Wildflour.AtelierGoods_Flower_Seeds",
+                "MinStack": 3,
+                "MaxStack": 5,
+                "Price": 0,
+                "TradeItemID": "(O)593",
+                "TradeItemAmount": 1,
+                "AvailableStock": -1,
+                "Condition": "SEASON summer"
+            },
+            "Wildflour.AtelierGoods_Flower_Seeds_fall": {
+                "Id": "Wildflour.AtelierGoods_Flower_Seeds_fall",
+                "ItemId": "(O)Wildflour.AtelierGoods_Flower_Seeds",
+                "MinStack": 3,
+                "MaxStack": 5,
+                "Price": 0,
+                "TradeItemID": "(O)421",
+                "TradeItemAmount": 1,
+                "AvailableStock": -1,
+                "Condition": "SEASON fall"
+            },
+            "Wildflour.AtelierGoods_Flower_Seeds_winter": {
+                "Id": "Wildflour.AtelierGoods_Flower_Seeds_winter",
+                "ItemId": "(O)Wildflour.AtelierGoods_Flower_Seeds",
+                "MinStack": 3,
+                "MaxStack": 5,
+                "Price": 0,
+                "TradeItemID": "(O)418",
+                "TradeItemAmount": 1,
+                "AvailableStock": -1,
+                "Condition": "SEASON winter"
+            }
+        }
+    },
+
+    {
+        "LogName":"Wildflour Garden Variety Seeds Shop Additions Desert Trader",
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "TargetField": [ "DesertTrade", "Items" ],
+        "When":  {"Atelier.Cauldron/ConfigValue:MixedSeeds": true},
+        "Entries": {
+            "Wildflour.AtelierGoods_Fruit_Seeds_spring": {
+                "Id": "Wildflour.AtelierGoods_Fruit_Seeds_spring",
+                "ItemId": "(O)Wildflour.AtelierGoods_Fruit_Seeds",
+                "MinStack": 3,
+                "MaxStack": 5,
+                "Price": 0,
+                "TradeItemID": "(O)400",
+                "TradeItemAmount": 1,
+                "AvailableStock": -1,
+                "Condition": "SEASON spring"
+            },
+            "Wildflour.AtelierGoods_Fruit_Seeds_summer": {
+                "Id": "Wildflour.AtelierGoods_Fruit_Seeds_summer",
+                "ItemId": "(O)Wildflour.AtelierGoods_Fruit_Seeds",
+                "MinStack": 3,
+                "MaxStack": 5,
+                "Price": 0,
+                "TradeItemID": "(O)398",
+                "TradeItemAmount": 1,
+                "AvailableStock": -1,
+                "Condition": "SEASON summer"
+            },
+            "Wildflour.AtelierGoods_Fruit_Seeds_fall": {
+                "Id": "Wildflour.AtelierGoods_Fruit_Seeds_fall",
+                "ItemId": "(O)Wildflour.AtelierGoods_Fruit_Seeds",
+                "MinStack": 3,
+                "MaxStack": 5,
+                "Price": 0,
+                "TradeItemID": "(O)406",
+                "TradeItemAmount": 1,
+                "AvailableStock": -1,
+                "Condition": "SEASON fall"
+            },
+            "Wildflour.AtelierGoods_Fruit_Seeds_winter": {
+                "Id": "Wildflour.AtelierGoods_Fruit_Seeds_winter",
+                "ItemId": "(O)Wildflour.AtelierGoods_Fruit_Seeds",
+                "MinStack": 3,
+                "MaxStack": 5,
+                "Price": 0,
+                "TradeItemID": "(O)Powdermelon",
+                "TradeItemAmount": 1,
+                "AvailableStock": -1,
+                "Condition": "SEASON winter"
+            },
+            "Wildflour.AtelierGoods_Herb_Seeds_spring": {
+                "Id": "Wildflour.AtelierGoods_Herb_Seeds_spring",
+                "ItemId": "(O)Wildflour.AtelierGoods_Herb_Seeds",
+                "MinStack": 3,
+                "MaxStack": 5,
+                "Price": 0,
+                "TradeItemID": "(O)22",
+                "TradeItemAmount": 1,
+                "AvailableStock": -1,
+                "Condition": "SEASON spring"
+            },
+            "Wildflour.AtelierGoods_Herb_Seeds_summer": {
+                "Id": "Wildflour.AtelierGoods_Herb_Seeds_summer",
+                "ItemId": "(O)Wildflour.AtelierGoods_Herb_Seeds",
+                "MinStack": 3,
+                "MaxStack": 5,
+                "Price": 0,
+                "TradeItemID": "(O)259",
+                "TradeItemAmount": 1,
+                "AvailableStock": -1,
+                "Condition": "SEASON summer"
+            },
+            "Wildflour.AtelierGoods_Herb_Seeds_fall": {
+                "Id": "Wildflour.AtelierGoods_Herb_Seeds_fall",
+                "ItemId": "(O)Wildflour.AtelierGoods_Herb_Seeds",
+                "MinStack": 3,
+                "MaxStack": 5,
+                "Price": 0,
+                "TradeItemID": "(O)274",
+                "TradeItemAmount": 1,
+                "AvailableStock": -1,
+                "Condition": "SEASON fall"
+            },
+            "Wildflour.AtelierGoods_Herb_Seeds_winter": {
+                "Id": "Wildflour.AtelierGoods_Herb_Seeds_winter",
+                "ItemId": "(O)Wildflour.AtelierGoods_Herb_Seeds",
+                "MinStack": 3,
+                "MaxStack": 5,
+                "Price": 0,
+                "TradeItemID": "(O)412",
+                "TradeItemAmount": 1,
+                "AvailableStock": -1,
+                "Condition": "SEASON winter"
+            },
+            "Wildflour.AtelierGoods_Flower_Seeds_spring": {
+                "Id": "Wildflour.AtelierGoods_Flower_Seeds_spring",
+                "ItemId": "(O)Wildflour.AtelierGoods_Flower_Seeds",
+                "MinStack": 3,
+                "MaxStack": 5,
+                "Price": 0,
+                "TradeItemID": "(O)597",
+                "TradeItemAmount": 1,
+                "AvailableStock": -1,
+                "Condition": "SEASON spring"
+            },
+            "Wildflour.AtelierGoods_Flower_Seeds_summer": {
+                "Id": "Wildflour.AtelierGoods_Flower_Seeds_summer",
+                "ItemId": "(O)Wildflour.AtelierGoods_Flower_Seeds",
+                "MinStack": 3,
+                "MaxStack": 5,
+                "Price": 0,
+                "TradeItemID": "(O)593",
+                "TradeItemAmount": 1,
+                "AvailableStock": -1,
+                "Condition": "SEASON summer"
+            },
+            "Wildflour.AtelierGoods_Flower_Seeds_fall": {
+                "Id": "Wildflour.AtelierGoods_Flower_Seeds_fall",
+                "ItemId": "(O)Wildflour.AtelierGoods_Flower_Seeds",
+                "MinStack": 3,
+                "MaxStack": 5,
+                "Price": 0,
+                "TradeItemID": "(O)421",
+                "TradeItemAmount": 1,
+                "AvailableStock": -1,
+                "Condition": "SEASON fall"
+            },
+            "Wildflour.AtelierGoods_Flower_Seeds_winter": {
+                "Id": "Wildflour.AtelierGoods_Flower_Seeds_winter",
+                "ItemId": "(O)Wildflour.AtelierGoods_Flower_Seeds",
+                "MinStack": 3,
+                "MaxStack": 5,
+                "Price": 0,
+                "TradeItemID": "(O)418",
+                "TradeItemAmount": 1,
+                "AvailableStock": -1,
+                "Condition": "SEASON winter"
+            }
+        }
+    },
+
+    {
+        "LogName":"Wildflour Garden Variety Seeds Shop Additions Dwarf",
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "TargetField": [ "Dwarf", "Items" ],
+        "When":  {"Atelier.Cauldron/ConfigValue:MixedSeeds": true},
+        "Entries": {
+            "Wildflour.AtelierGoods_Veggie_Seeds_spring": {
+                "Id": "Wildflour.AtelierGoods_Veggie_Seeds_spring",
+                "ItemId": "(O)Wildflour.AtelierGoods_Veggie_Seeds",
+                "MinStack": 3,
+                "MaxStack": 5,
+                "Price": 0,
+                "TradeItemID": "(O)192",
+                "TradeItemAmount": 1,
+                "AvailableStock": -1,
+                "Condition": "SEASON spring"
+            },
+            "Wildflour.AtelierGoods_Veggie_Seeds_summer": {
+                "Id": "Wildflour.AtelierGoods_Veggie_Seeds_summer",
+                "ItemId": "(O)Wildflour.AtelierGoods_Veggie_Seeds",
+                "MinStack": 3,
+                "MaxStack": 5,
+                "Price": 0,
+                "TradeItemID": "(O)264",
+                "TradeItemAmount": 1,
+                "AvailableStock": -1,
+                "Condition": "SEASON summer"
+            },
+            "Wildflour.AtelierGoods_Veggie_Seeds_fall": {
+                "Id": "Wildflour.AtelierGoods_Veggie_Seeds_fall",
+                "ItemId": "(O)Wildflour.AtelierGoods_Veggie_Seeds",
+                "MinStack": 3,
+                "MaxStack": 5,
+                "Price": 0,
+                "TradeItemID": "(O)272",
+                "TradeItemAmount": 1,
+                "AvailableStock": -1,
+                "Condition": "SEASON fall"
+            },
+            "Wildflour.AtelierGoods_Veggie_Seeds_winter": {
+                "Id": "Wildflour.AtelierGoods_Veggie_Seeds_winter",
+                "ItemId": "(O)Wildflour.AtelierGoods_Veggie_Seeds",
+                "MinStack": 3,
+                "MaxStack": 5,
+                "Price": 0,
+                "TradeItemID": "(O)78",
+                "TradeItemAmount": 1,
+                "AvailableStock": -1,
+                "Condition": "SEASON winter"
+            }
+        }
+    }
 
     ]
 }
