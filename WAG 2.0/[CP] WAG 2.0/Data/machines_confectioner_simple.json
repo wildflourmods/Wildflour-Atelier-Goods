@@ -360,6 +360,11 @@
                         "Trigger": "ItemPlacedInMachine",
                         "RequiredItemId": "(O)Wildflour.AtelierGoods_Flavored_Syrup",
                         "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredTags": ["wildflour_syrup_item"],
+                            "RequiredCount": 1
                         }
                 ],
                     "OutputItem": [
@@ -480,6 +485,11 @@
                         "Trigger": "ItemPlacedInMachine",
                         "RequiredItemId": "(O)Wildflour.AtelierGoods_Flavored_Syrup",
                         "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredTags": ["wildflour_syrup_item"],
+                            "RequiredCount": 1
                         }
                 ],
                     "OutputItem": [
@@ -629,6 +639,11 @@
                         "Trigger": "ItemPlacedInMachine",
                         "RequiredItemId": "(O)Wildflour.AtelierGoods_Flavored_Syrup",
                         "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredTags": ["wildflour_syrup_item"],
+                            "RequiredCount": 1
                         }
                 ],
                     "OutputItem": [
@@ -713,6 +728,11 @@
                         "Trigger": "ItemPlacedInMachine",
                         "RequiredItemId": "(O)Wildflour.AtelierGoods_Flavored_Syrup",
                         "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredTags": ["wildflour_syrup_item"],
+                            "RequiredCount": 1
                         }
                 ],
                     "OutputItem": [
@@ -900,6 +920,11 @@
                     "Trigger": "ItemPlacedInMachine",
                     "RequiredItemId": "Wildflour.AtelierGoods_Flavored_Syrup",
                     "RequiredCount": 1
+                },
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredTags": ["wildflour_syrup_item"],
+                    "RequiredCount": 1
                 }
             ],
             "OutputItem": [
@@ -975,6 +1000,11 @@
                         "Trigger": "ItemPlacedInMachine",
                         "RequiredItemId": "Wildflour.AtelierGoods_Flavored_Syrup",
                         "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredTags": ["wildflour_syrup_item"],
+                            "RequiredCount": 1
                         }
                 ],
                     "OutputItem": [

@@ -80,23 +80,23 @@
 
 "AtelierGoods_AleKeg.name": "Ale Keg",
 "AtelierGoods_AleKeg.description": "Place one fruit or edible flower into this keg to create a flavored ale. Requires hops as fuel.",
-"AtelierGoods_AleKeg_InvalidCount.message": "Requires Hops as Fuel.",
-"AtelierGoods_AleKeg_InvalidItem.message": "Can Only Accept Fruit or Edible Flowers.",
+"AtelierGoods_AleKeg_InvalidCount.message": "Requires hops as fuel.",
+"AtelierGoods_AleKeg_InvalidItem.message": "Can only accept fruit or edible flowers.",
 
 "AtelierGoods_BlastChiller.name":"Blast Chiller",
 "AtelierGoods_BlastChiller.description":"Place fruit or edible flowers into this to make a popsicle. Can also turn ground coffee or loose leaf tea into cold drinks. Requires frozen tear as fuel.",
-"AtelierGoods_BlastChiller_InvalidItem.message": "Needs Fruit, Edible Flowers, Ground Coffee or Loose Leaf Tea.",
-"AtelierGoods_BlastChiller_InvalidCount.message": "Requires Frozen Tear as Fuel.",
+"AtelierGoods_BlastChiller_InvalidItem.message": "Needs fruit, edible flowers, ground coffee or loose leaf tea.",
+"AtelierGoods_BlastChiller_InvalidCount.message": "Requires frozen tear as fuel.",
 
 "AtelierGoods_Cake_Station.name": "Cake Counter",
-"AtelierGoods_Cake_Station.description": "Craft cakes here. Requires Cake Mix as fuel.",
-"AtelierGoods_Cake_Station_InvalidCount.message":"Requires Cake Mix as fuel.",
+"AtelierGoods_Cake_Station.description": "Craft cakes here. Requires cake mix as fuel.",
+"AtelierGoods_Cake_Station_InvalidCount.message":"Requires cake mix as fuel.",
 "AtelierGoods_Cake_Station_InvalidItem.message":"Cannot turn this into a cake.",
 
 "AtelierGoods_CandyJar.name": "Candy Jar",
 "AtelierGoods_CandyJar.description": "Turns fruit or edible flowers into gumballs and syrups into jelly beans.",
 "AtelierGoods_CandyJar_InvalidItem.message": "This doesn't go in the Candy Jar.",
-"AtelierGoods_CandyJar_InvalidCount.message": "Requires More ingredients.",
+"AtelierGoods_CandyJar_InvalidCount.message": "Requires more ingredients.",
 
 "AtelierGoods_CandleStation.name": "Wax Cauldron",
 "AtelierGoods_CandleStation.description": "Turns fresh flowers into soap or dried flowers into candles. Requires Honeycomb as fuel.",
@@ -106,7 +106,7 @@
 "AtelierGoods_ChocolatierBarrel.name": "Chocolatier Barrel",
 "AtelierGoods_ChocolatierBarrel.description": "Turns ingredients into gourmet chocolates and chocolate bars.",
 "AtelierGoods_ChocolatierBarrel_InvalidItem.message": "Needs a different ingredient.",
-"AtelierGoods_ChocolatierBarrel_InvalidCount.message": "Requires More ingredients.",
+"AtelierGoods_ChocolatierBarrel_InvalidCount.message": "Requires more ingredients.",
 
 "AtelierGoods_CoffeeBrewer.name":"Coffee Brewer",
 "AtelierGoods_CoffeeBrewer.description":"Place ground coffee into this brewer to make lattes. Requires cream as fuel.",
@@ -119,18 +119,18 @@
 "AtelierGoods_CoffeeGrinder_InvalidCount.message": "Requires coffee bean as fuel.",
 
 "AtelierGoods_CosmeticCrystal.name": "Cosmetic Crystal",
-"AtelierGoods_CosmeticCrystal.description": "Magically creates various cosmetics! Requires Moss as fuel.",
-"AtelierGoods_CosmeticCrystal_InvalidItem.message": "This doesn't go in the Cosmetic Crystal",
-"AtelierGoods_CosmeticCrystal_InvalidCount.message": "Requires Moss as fuel.",
+"AtelierGoods_CosmeticCrystal.description": "Magically creates various cosmetics from gems and minerals. Requires moss as fuel.",
+"AtelierGoods_CosmeticCrystal_InvalidItem.message": "This doesn't go in the Cosmetic Crystal.",
+"AtelierGoods_CosmeticCrystal_InvalidCount.message": "Requires moss as fuel.",
 
 "AtelierGoods_Deluxe_Dessert_Stand.name": "Deluxe Dessert Stand",
 "AtelierGoods_Deluxe_Dessert_Stand.description": "Craft puddings here using fruit syrups. Requires pectin as fuel.",
-"AtelierGoods_Deluxe_DessertStand_InvalidCount.message":"Requires Pectin as fuel.",
+"AtelierGoods_Deluxe_DessertStand_InvalidCount.message":"Requires pectin as fuel.",
 "AtelierGoods_Deluxe_DessertStand_InvalidItem.message":"Cannot make this into a pudding.",
 
 "AtelierGoods_Dessert_Stand.name": "Dessert Stand",
-"AtelierGoods_Dessert_Stand.description": "Craft cupcakes and petit fours with a variety of ingredients. Requires Cake Mix as fuel.",
-"AtelierGoods_DessertStand_InvalidCount.message":"Requires Cake Mix as fuel.",
+"AtelierGoods_Dessert_Stand.description": "Craft cupcakes and petit fours with a variety of ingredients. Requires cake mix as fuel.",
+"AtelierGoods_DessertStand_InvalidCount.message":"Requires cake mix as fuel.",
 "AtelierGoods_DessertStand_InvalidItem.message":"Cannot turn this item into cupcakes or petit fours.",
 
 "AtelierGoods_FlowerStation.name": "Flower Arranging Table",
@@ -141,11 +141,11 @@
 "AtelierGoods_FragranceStation.name":"Fragrance Extractor",
 "AtelierGoods_FragranceStation.description":"Turns fresh flowers into perfume or dried flowers into incense.",
 "AtelierGoods_FragranceStation_InvalidItem.message": "Needs fresh flowers for perfume or dried flowers for incense.",
-"AtelierGoods_FragranceStation_InvalidCount.message": "Requires More Flowers",    
+"AtelierGoods_FragranceStation_InvalidCount.message": "Requires more flowers.",    
 
 "AtelierGoods_KitchenBlender.name": "Kitchen Blender",
 "AtelierGoods_KitchenBlender.description": "Add fruit to make smoothies or ice cream to make milkshakes.",
-"AtelierGoods_KitchenBlender_InvalidItem.message": "Requires Fruit or Ice Cream",
+"AtelierGoods_KitchenBlender_InvalidItem.message": "Requires fruit or ice cream",
 "AtelierGoods_KitchenBlender_InvalidCount.message": "Requires 2 of this item.",
 
 "AtelierGoods_KitchenMortar.name": "Kitchen Mortar",
@@ -156,31 +156,31 @@
 "AtelierGoods_LemonadeStand.name":"Lemonade Stand",
 "AtelierGoods_LemonadeStand.description":"Place fruit or an edible flower into this machine to make lemonade. Requires a lemon as fuel.",
 "AtelierGoods_LemonadeStand_InvalidItem.message": "Needs fruit or edible flowers to work.",
-"AtelierGoods_LemonadeStand_InvalidCount.message": "Requires a Lemon as Fuel.",
+"AtelierGoods_LemonadeStand_InvalidCount.message": "Requires a lemon as fuel.",
 
 "AtelierGoods_MarshmallowMixer.name": "Marshmallow Mixer",
 "AtelierGoods_MarshmallowMixer.description": "Whips ingredients into fluffy, gourmet marshmallows!",
 "AtelierGoods_MarshmallowMixer_InvalidItem.message": "This doesn't go in the Marshmallow Mixer.",
-"AtelierGoods_MarshmallowMixer_InvalidCount.message": "Requires 2 Marsh Mallows as Fuel",
+"AtelierGoods_MarshmallowMixer_InvalidCount.message": "Requires 2 marsh mallows as fuel.",
 
 "AtelierGoods_MeadKeg.name": "Artisan Mead Keg",
 "AtelierGoods_MeadKeg.description": "Place one fruit or edible flower into this keg to create a flavored mead. Requires honey as fuel.",
-"AtelierGoods_MeadKeg_InvalidCount.message": "Requires Honey as Fuel.",
-"AtelierGoods_MeadKeg_InvalidItem.message": "Can Only Accept Fruit or Edible Flowers.",
+"AtelierGoods_MeadKeg_InvalidCount.message": "Requires honey as fuel.",
+"AtelierGoods_MeadKeg_InvalidItem.message": "Can Only Accept fruit or edible flowers.",
 
 "AtelierGoods_Mixer.name": "Stand Mixer",
-"AtelierGoods_Mixer.description": "Whip up cookies and brownies using a variety of ingredients. Requires Cookie Mix as fuel.",
-"AtelierGoods_Mixer_InvalidCount.message":"Requires Cookie Mix as fuel.",
+"AtelierGoods_Mixer.description": "Whip up cookies and brownies using a variety of ingredients. Requires cookie mix as fuel.",
+"AtelierGoods_Mixer_InvalidCount.message":"Requires cookie mix as fuel.",
 "AtelierGoods_Mixer_InvalidItem.message":"The stand mixer cannot turn this into cookies or brownies.",
 
 "AtelierGoods_Oven.name": "Oven",
-"AtelierGoods_Oven.description": "Bakes muffins and scones. Requires Muffin Mix as fuel.",
+"AtelierGoods_Oven.description": "Bakes muffins and scones. Requires muffin mix as fuel.",
 "AtelierGoods_Oven_InvalidItem.message":"The oven cannot turn this into muffins or scones.",
-"AtelierGoods_Oven_InvalidCount.message":"Requires Muffin Mix as Fuel.",
+"AtelierGoods_Oven_InvalidCount.message":"Requires muffin mix as fuel.",
 
 "AtelierGoods_Pie_Station.name": "Pie Counter",
 "AtelierGoods_Pie_Station.description": "Craft pies and tarts here. Requires Pie Mix as fuel.",
-"AtelierGoods_PieStation_InvalidCount.message":"Requires Pie Mix as fuel.",
+"AtelierGoods_PieStation_InvalidCount.message":"Requires pie mix as fuel.",
 "AtelierGoods_PieStation_InvalidItem.message":"Cannot turn this into a pie.",
 
 "AtelierGoods_ProducePacker.name":"Produce Packer",
@@ -191,32 +191,32 @@
 "AtelierGoods_Rolling_Pin.name": "Rolling Pin",
 "AtelierGoods_Rolling_Pin.description": "Craft breads, doughnuts and eclairs here. Requires Dough Mix as fuel.",
 "AtelierGoods_RollingPin_InvalidCount.message":"Requires Dough Mix as fuel.",
-"AtelierGoods_RollingPin_InvalidItem.message":"Rolling Pin cannot turn this into bread or doughnuts.",
+"AtelierGoods_RollingPin_InvalidItem.message":"The Rolling Pin cannot turn this into bread or doughnuts.",
 
 "AtelierGoods_SugarBoiler.name": "Sugar Boiler",
 "AtelierGoods_SugarBoiler.description": "Turns 1 fruit or syrup in lollipops or hard candy; it even has a special setting to turn gems and sugar into crystal candy.",
 "AtelierGoods_SugarBoiler_InvalidItem.message": "This doesn't go in the Sugar Boiler.",
-"AtelierGoods_SugarBoiler_InvalidCount.message": "Requires More Ingredients.",
+"AtelierGoods_SugarBoiler_InvalidCount.message": "Requires more ingredients.",
 
 "AtelierGoods_SyrupMaker.name": "Distiller",
 "AtelierGoods_SyrupMaker.description": "Add 3 fruit or edible flowers to craft artisanal syrups! You may be able to craft alcohols here as well.",
-"AtelierGoods_SyrupMaker_InvalidItem.message": "Cannot Process This Into Syrup.",
+"AtelierGoods_SyrupMaker_InvalidItem.message": "Cannot process this into syrup.",
 "AtelierGoods_SyrupMaker_InvalidCount.message": "Requires 3 of this item.",
 
 "AtelierGoods_TeaKettle.name":"Tea Kettle",
 "AtelierGoods_TeaKettle.description":"Place loose leaf tea into this kettle to make tea. Requires honey as fuel.",
 "AtelierGoods_TeaKettle_InvalidItem.message": "Needs loose leaf tea to work.",
-"AtelierGoods_TeaKettle_InvalidCount.message": "Requires Honey as Fuel.",
+"AtelierGoods_TeaKettle_InvalidCount.message": "Requires honey as fuel.",
 
 "AtelierGoods_TeaProcessor.name":"Tea Processor",
 "AtelierGoods_TeaProcessor.description":"Place one fruit or edible flower into this processor to make a blend of loose leaf tea. Requires tea leaves as fuel.",
 "AtelierGoods_TeaProcessor_InvalidItem.message": "Needs fruit or edible flowers to work.",
-"AtelierGoods_TeaProcessor_InvalidCount.message": "Requires Tea Leaves as Fuel.",
+"AtelierGoods_TeaProcessor_InvalidCount.message": "Requires tea leaves as fuel.",
 
 "AtelierGoods_TreatMaker.name":"Frozen Treat Machine",
 "AtelierGoods_TreatMaker.description":"Place fruit or edible flowers into this to make ice cream. Requires frozen tear as fuel.",
-"AtelierGoods_TreatMaker_InvalidItem.message": "Needs Fruit or Edible Flowers.",
-"AtelierGoods_TreatMaker_InvalidCount.message": "Requires Frozen Tear as Fuel.",
+"AtelierGoods_TreatMaker_InvalidItem.message": "Needs fruit or edible flowers.",
+"AtelierGoods_TreatMaker_InvalidCount.message": "Requires frozen tear as fuel.",
 
 /////////////////////////////////////
 // EMC MISSING INGREDIENT MESSAGES //
@@ -378,7 +378,7 @@
 
 "AtelierGoods_Flavored_Jelly_Beans": "{0} Jelly Beans",
 "AtelierGoods_Flavored_Jelly_Beans.name": "Gourmet Jelly Beans",
-"AtelierGoods_Flavored_Jelly_Beans.description": "A bag of gourmet-flavored jelly beans",
+"AtelierGoods_Flavored_Jelly_Beans.description": "A bag of gourmet-flavored jelly beans.",
 
 "AtelierGoods_Flavored_Kombucha":"{0} Kombucha",
 "AtelierGoods_Flavored_Kombucha.name":"Kombucha",
@@ -626,7 +626,7 @@
 "AtelierGoods_Floral_Petit_Fours.description": "Elegant tiny cakes flavored with edible flowers.",
 
 "AtelierGoods_Rose_Petit_Fours.name": "Rose Petit Fours",
-"AtelierGoods_Rose_Petit_Fours.description": "Elegant tiny cakes flavored with rose",
+"AtelierGoods_Rose_Petit_Fours.description": "Elegant tiny cakes flavored with rose.",
 
 "AtelierGoods_Lavender_Petit_Fours.name": "Lavender Petit Fours",
 "AtelierGoods_Lavender_Petit_Fours.description": "Elegant tiny cakes flavored with lavender.",
@@ -702,10 +702,10 @@
 "AtelierGoods_Starfruit_Tart.description": "Flaky, delicate pie shell with a starfruit filling.",
 
 "AtelierGoods_Mojito_Tart.name": "Mojito Tart",
-"AtelierGoods_Mojito_Tart.description": "Flaky, delicate pie shell with a lime mint filling.",
+"AtelierGoods_Mojito_Tart.description": "Flaky, delicate pie shell with a lime-mint filling.",
 
 "AtelierGoods_Mango_Pineapple_Tart.name": "Mango Pineapple Tart",
-"AtelierGoods_Mango_Pineapple_Tart.description": "Flaky, delicate pie shell with a blueberry-basil filling.",
+"AtelierGoods_Mango_Pineapple_Tart.description": "Flaky, delicate pie shell with a mango-pineapple filling.",
 
 /////////////
 // COOKIES //
@@ -1805,7 +1805,7 @@
 "AtelierGoods_Cocoa_Powder.description": "Dried cacao pods ground into a powder for use in baked goods.",
 
 "AtelierGoods_Confectioners_Sugar.name": "Confectioner's Sugar",
-"AtelierGoods_Confectioners_Sugar.description": "Also known as powdered sugar; this finely ground sugar has a bit of cornstarch added to keep it from clumping and it is often used to top baked goods",
+"AtelierGoods_Confectioners_Sugar.description": "Also known as powdered sugar; this finely ground sugar has a bit of cornstarch added to keep it from clumping and it is often used to top baked goods.",
 
 "AtelierGoods_Matcha_Powder.name": "Matcha Powder",
 "AtelierGoods_Matcha_Powder.description": "Dried tea leaves ground into a fine powder for tea-making.",
@@ -1857,7 +1857,7 @@
 "AtelierGoods_Chocolate_Syrup.description": "A simple syrup flavored with cocoa. Perfect for making custom drinks and other gourmet goodies!",
 
 "AtelierGoods_Elderberry_Syrup.name": "Elderberry Syrup",
-"AtelierGoods_Elderberry_Syrup.description": "A simple syrup flavored with cocoa. Perfect for making custom drinks and other gourmet goodies!",
+"AtelierGoods_Elderberry_Syrup.description": "A simple syrup flavored with elderberries. Perfect for making custom drinks and other gourmet goodies!",
 
 "AtelierGoods_Grenadine_Syrup.name": "Grenadine Syrup",
 "AtelierGoods_Grenadine_Syrup.description": "A simple syrup flavored with pomegranates. Perfect for making custom drinks and other gourmet goodies!",
@@ -1975,7 +1975,7 @@
 "AtelierGoods_Butterfly_Garden_Bouquet.description":"An arrangement of dried flowers from a butterfly garden.",
 
 "AtelierGoods_Cottage_Garden_Bouquet.name":"Cottage Garden Bouquet",
-"AtelierGoods_Cottage_Garden_Bouquet.description":"An arrangement of dried flowers from a butterfly garden.",
+"AtelierGoods_Cottage_Garden_Bouquet.description":"An arrangement of dried flowers from a cottage garden.",
 
 "AtelierGoods_Herb_Garden_Bouquet.name":"Herb Garden Bouquet",
 "AtelierGoods_Herb_Garden_Bouquet.description":"An arrangement of dried flowers from an herb garden.",
@@ -2596,7 +2596,7 @@
 "AtelierGoods_Vanilla.name": "Calico Vanilla",
 "AtelierGoods_Vanilla.description": "A unique vanilla found only by foraging in the Calico Desert.",
 "AtelierGoods_Vanilla_Seeds.name": "Calico Vanilla Starter",
-"AtelierGoods_Vanilla_Seeds.description": "Plant in summer. Takes 14 days to grow, then can be harvested every 5 days",
+"AtelierGoods_Vanilla_Seeds.description": "Plant in summer. Takes 14 days to grow, then can be harvested every 5 days.",
 
 "AtelierGoods_Wheatberry_Mushroom.name": "Wheatberry Mushroom",
 "AtelierGoods_Wheatberry_Mushroom.description": "An ordinary looking mushroom to the amateur forager, masters know this fungus can be transformed into a key culinary ingredient.",
@@ -2606,12 +2606,12 @@
 "AtelierGoods_Wild_Raspberry.name": "Wild Raspberry",
 "AtelierGoods_Wild_Raspberry.description": "A small, sweet berry that grows wild in forests all over Ferngill.",
 "AtelierGoods_Wild_Raspberry_Seeds.name": "Wild Raspberry Starter",
-"AtelierGoods_Wild_Raspberry_Seeds.description": "Plant in summer. Takes 8 days to grow and can be harvested every 4 days after",
+"AtelierGoods_Wild_Raspberry_Seeds.description": "Plant in summer. Takes 8 days to grow and can be harvested every 4 days after.",
 
 "AtelierGoods_Wild_Strawberry.name": "Wild Strawberry",
 "AtelierGoods_Wild_Strawberry.description": "A smaller variety of strawberry that grows wild in forests all over Ferngill.",
 "AtelierGoods_Wild_Strawberry_Seeds.name": "Wild Strawberry Starter",
-"AtelierGoods_Wild_Strawberry_Seeds.description": "Plant in spring. Takes 8 days to grow and can be harvested every 4 days after",
+"AtelierGoods_Wild_Strawberry_Seeds.description": "Plant in spring. Takes 8 days to grow and can be harvested every 4 days after.",
 
 "AtelierGoods_Wormwood.name": "Wormwood",
 "AtelierGoods_Wormwood.description": "Often known for being one of the main ingredients in absinthe, this herb has a wide variety of uses.",
@@ -2638,7 +2638,7 @@
 "AtelierGoods_Cashew_Sapling.name": "Gem Sea Cashew Sapling",
 "AtelierGoods_Cashew_Sapling.description": "Takes 28 days to produce a mature Gem Sea Cashew Tree. Bears fruit in the fall.",
 "AtelierGoods_Cashew.name": "Gem Sea Cashew",
-"AtelierGoods_Cashew.description": "The nut from the tropical Cashew Apple fruit, found only on islands in the Gem Sea",
+"AtelierGoods_Cashew.description": "The nut from the tropical cashew apple fruit, found only on islands in the Gem Sea.",
 
 "AtelierGoods_Elderberries.name": "Elderberry Blossoms",
 "AtelierGoods_Elderberries.description": "A cluster of elderberries and their flowers; these make for a great tea or cordial.",
@@ -2673,7 +2673,7 @@
 //OBJECTS
 
 "AtelierGoods_Cherry_Blossoms.name": "Cherry Blossom Petals",
-"AtelierGoods_Cherry_Blossoms.description": "Fresh petals from blooming cherry trees",
+"AtelierGoods_Cherry_Blossoms.description": "Fresh petals from blooming cherry trees.",
 
 "AtelierGoods_Cinnamon.name": "Cindersap Cinnamon",
 "AtelierGoods_Cinnamon.description": "A rare cinnamon bark that found by shaking Mahogany trees in winter.",
@@ -2793,7 +2793,7 @@
 "AtelierGoods_Dandelion_Jelly.description": "Jelly made from foraged dandelions; it tastes delicate and sweet.",
 
 "AtelierGoods_Honey_Apricot_Preserves.name": "Honey Apricot Preserves",
-"AtelierGoods_Honey_Apricot_Preserves.description": "Preserves made with local honey and freshly picked apricots",
+"AtelierGoods_Honey_Apricot_Preserves.description": "Preserves made with local honey and freshly picked apricots.",
 
 "AtelierGoods_Honey_Peach_Preserves.name": "Honey Peach Preserves",
 "AtelierGoods_Honey_Peach_Preserves.description": "Preserves made with local honey and freshly-picked peaches.",
@@ -2863,7 +2863,7 @@
 /////////////////////////
 
 "AtelierGoods_Apple_Butter.name": "Apple Butter",
-"AtelierGoods_Apple_Butter.description": "Made with the farmer's secret family recipe - warm and sweet and perfect for morning toast or slathered on the side of a muffin",
+"AtelierGoods_Apple_Butter.description": "Made with the farmer's secret family recipe - warm and sweet and perfect for morning toast or slathered on the side of a muffin.",
 
 "AtelierGoods_Honey_Butter.name": "Honey Butter",
 "AtelierGoods_Honey_Butter.description": "Made with the farmer's secret family recipe and the help of some lovely bumblebees.",
@@ -2986,8 +2986,8 @@
 "AtelierGoods_Elliott_BrewerGift.name":"Hops for You",
 "AtelierGoods_Elliott_BrewerGift.text":"@, ^^ Locally brewed specialty ales? Sounds absolutely fabulous! I don't know much about brewing, but I know you need hops! Cheers!^^ - Elliott",
 
-"AtelierGoods_Pierre_Gift.name":"Mango Ale",
-"AtelierGoods_Pierre_Gift.text":"@, ^^ When I was overseas, one of my compatriots was from the Gem Sea Isles. He used to go on and on about Mango infused ales. If you manage to brew it, I'd love to try it.^^ - Kent",
+"AtelierGoods_Kent_Gift.name":"Mango Ale",
+"AtelierGoods_Kent_Gift.text":"@, ^^ When I was overseas, one of my compatriots was from the Gem Sea Isles. He used to go on and on about Mango infused ales. If you manage to brew it, I'd love to try it.^^ - Kent",
 
 "AtelierGoods_MeadKegRecipe.name":"Mead Keg",
 "AtelierGoods_MeadKeg.text":"@, ^^ Ever wonder if different fruits and flowers could affect the flavor of your mead? They can! Try crafting one of these specialty mead kegs and you'll be amazed at the new meads you can distill.^^ - Gus",

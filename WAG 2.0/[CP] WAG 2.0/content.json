@@ -347,12 +347,23 @@
 					"StartSeason": "spring",
 					"StartDay": 1,
 					"EndSeason": "spring",
-					"EndDay": 28,
+					"EndDay": 14,
 					"Chance": 0.4,
-					"Locations":["Wildflour.NooksCrannies_BerryGrove"],
+					"Locations":["Wildflour.NooksCrannies_BerryGrove","Wildflour.NooksCrannies_AbandonedFarmhouse", "Wildflour.NooksCrannies_FrogHollow", "Wildflour.NooksCrannies_OldForest", "Wildflour.NooksCrannies_Ruins"],
 					"Weather": [ "Sun"  ]
 				},
-				"Wildflour.AtelierGoods/summer_grove_Strawberry": {
+                "Wildflour.AtelierGoods/spring_grove_TeaLeaves": {
+					"Enabled": true,
+					"ShakeOff": 815,
+					"StartSeason": "spring",
+					"StartDay": 1,
+					"EndSeason": "spring",
+					"EndDay": 14,
+					"Chance": 0.4,
+					"Locations":["Wildflour.NooksCrannies_BerryGrove","Wildflour.NooksCrannies_AbandonedFarmhouse", "Wildflour.NooksCrannies_FrogHollow", "Wildflour.NooksCrannies_OldForest", "Wildflour.NooksCrannies_Ruins"],
+					"Weather": [ "Sun"  ]
+				},
+				"Wildflour.AtelierGoods/summer_grove_Wild_Raspberry": {
 					"Enabled": true,
 					"ShakeOff": "Wildflour.AtelierGoods_Wild_Raspberry",
 					"StartSeason": "summer",
@@ -360,13 +371,41 @@
 					"EndSeason": "summer",
 					"EndDay": 28,
 					"Chance": 0.4,
-					"Locations":["Wildflour.NooksCrannies_BerryGrove"],
+					"Locations":["Wildflour.NooksCrannies_BerryGrove","Wildflour.NooksCrannies_AbandonedFarmhouse", "Wildflour.NooksCrannies_FrogHollow", "Wildflour.NooksCrannies_OldForest", "Wildflour.NooksCrannies_Ruins"],
 					"Weather": [ "Sun" ]
 				}
 			}
-
 		},
 		
+        {
+			"Action": "EditData",
+			"Target": "NCarigon.BushBloomMod/Schedules",
+			"When": {"Atelier.Cauldron/ConfigValue:Tea": true},
+			"Entries": {
+				"Wildflour.AtelierGoods/spring_TeaLeaves": {
+					"Enabled": true,
+					"ShakeOff": 815,
+					"StartSeason": "spring",
+					"StartDay": 8,
+					"EndSeason": "spring",
+					"EndDay": 19,
+					"Chance": 0.3,
+					"Locations":["Town","Mountain","Backwoods","Wildflour.NooksCrannies_BerryGrove"],
+					"Weather": [ "Sun"  ]
+				},
+			}
+		},
+
+        {
+			"Action": "EditImage",
+			"Target": "NCarigon.BushBloomMod/Textures/Wildflour.AtelierGoods/spring_TeaLeaves",
+			"FromFile": "Assets/teablooms.png"
+		},
+        {
+			"Action": "EditImage",
+			"Target": "NCarigon.BushBloomMod/Textures/Wildflour.AtelierGoods/spring_grove_TeaLeaves",
+			"FromFile": "Assets/teablooms.png"
+		},
 		{
 			"Action": "EditImage",
 			"Target": "NCarigon.BushBloomMod/Textures/Wildflour.AtelierGoods/spring_Strawberry",

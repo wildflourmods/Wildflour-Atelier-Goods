@@ -674,40 +674,6 @@
                     "MinutesUntilReady": 240
                 },
                 {
-                    "Id": "Wildflour.AtelierGoods_Flavored_Syrup",
-                    "Triggers": [
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredTags": ["category_fruits","!item_Cactus_Fruit"],
-                            "RequiredCount": 3
-                        },
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredTags": ["edible_flower_item"],
-                            "RequiredCount": 3
-                        }
-                    ],
-                    "OutputItem": [
-                        {
-                            "ItemId": "Wildflour.AtelierGoods_Flavored_Syrup",
-                            "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Syrup %PRESERVED_DISPLAY_NAME]",
-                            "ObjectInternalName": "{0} Syrup",
-                            "PreserveId": "DROP_IN",
-                            "CopyQuality": true,
-                            "CopyPrice": true,
-                            "CopyColor":true,
-                            "PriceModifiers": 
-                            [
-                                {
-                                    "Modification": "Multiply",
-                                    "Amount": 3.25
-                                }
-                            ]
-                        }    
-                    ],
-                    "MinutesUntilReady": 240
-                },
-                {
                     "Id": "Wildflour.AtelierGoods_Caramel",
                     "Triggers": [
                         {
@@ -737,7 +703,7 @@
                         }
                     ],
                     "MinutesUntilReady": 240
-                },
+                }
             ],
             "InvalidItemMessage":"{{i18n:AtelierGoods_SyrupMaker_InvalidItem.message}}",
             "InvalidCountMessage":"{{i18n:AtelierGoods_SyrupMaker_InvalidCount.message}}",
@@ -767,7 +733,7 @@
                 {
                     "Trigger": "ItemPlacedInMachine",
                     "RequiredItemId": "Wildflour.AtelierGoods_Cherry_Blossoms",
-                    "RequiredCount": 1
+                    "RequiredCount": 3
                 }
             ],
             "OutputItem": [
@@ -793,7 +759,7 @@
                 {
                     "Trigger": "ItemPlacedInMachine",
                     "RequiredTags": ["cocoa_item"],
-                    "RequiredCount": 1
+                    "RequiredCount": 3
                 }
             ],
             "OutputItem": [
@@ -819,7 +785,7 @@
                 {
                     "Trigger": "ItemPlacedInMachine",
                     "RequiredTags": ["elderberry_item"],
-                    "RequiredCount": 1
+                    "RequiredCount": 3
                 }
             ],
             "OutputItem": [
@@ -845,7 +811,7 @@
                 {
                     "Trigger": "ItemPlacedInMachine",
                     "RequiredTags": ["lavender_item"],
-                    "RequiredCount": 1
+                    "RequiredCount": 3
                 }
             ],
             "OutputItem": [
@@ -871,7 +837,7 @@
                 {
                     "Trigger": "ItemPlacedInMachine",
                     "RequiredTags": ["lemon_item"],
-                    "RequiredCount": 1
+                    "RequiredCount": 3
                 }
             ],
             "OutputItem": [
@@ -897,7 +863,7 @@
                 {
                     "Trigger": "ItemPlacedInMachine",
                     "RequiredTags": ["lime_item"],
-                    "RequiredCount": 1
+                    "RequiredCount": 3
                 }
             ],
             "OutputItem": [
@@ -923,7 +889,7 @@
                 {
                     "Trigger": "ItemPlacedInMachine",
                     "RequiredTags": ["raspberry_item"],
-                    "RequiredCount": 1
+                    "RequiredCount": 3
                 }
             ],
             "OutputItem": [
@@ -949,7 +915,7 @@
                 {
                     "Trigger": "ItemPlacedInMachine",
                     "RequiredTags": ["vanilla_item"],
-                    "RequiredCount": 1
+                    "RequiredCount": 3
                 }
             ],
             "OutputItem": [
@@ -968,8 +934,51 @@
                 }
             ],
             "MinutesUntilReady": 20
-        },
+        }
     }
+},
+
+{
+    "LogName": "WF Distiller Machine Edits for Generic Syrup",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "TargetField": ["(BC)Wildflour.AtelierGoods_SyrupMaker", "OutputRules"],
+    "Priority":"Late",
+    "Entries": {
+            "Wildflour.AtelierGoods_Flavored_Syrup":{
+                "Triggers": [
+                    {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["category_fruits","!item_Cactus_Fruit"],
+                        "RequiredCount": 3
+                    },
+                    {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["edible_flower_item"],
+                        "RequiredCount": 3
+                    }
+                ],
+                "OutputItem": [
+                    {
+                        "ItemId": "Wildflour.AtelierGoods_Flavored_Syrup",
+                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Syrup %PRESERVED_DISPLAY_NAME]",
+                        "ObjectInternalName": "{0} Syrup",
+                        "PreserveId": "DROP_IN",
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "CopyColor":true,
+                        "PriceModifiers": 
+                        [
+                            {
+                                "Modification": "Multiply",
+                                "Amount": 3.25
+                            }
+                        ]
+                    }    
+                ],
+                "MinutesUntilReady": 240
+        }
+        }
 },
 
 {

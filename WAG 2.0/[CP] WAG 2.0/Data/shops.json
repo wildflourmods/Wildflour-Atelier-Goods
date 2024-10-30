@@ -117,51 +117,53 @@
                     },
                     {   
                         "Id": "Wildflour.AtelierGoods_RoseShop_Muffin_Mix",
-                        "RandomItemId": [
-                            "Wildflour.AtelierGoods_Muffin_Mix"
-                        ],
+                        "ItemId": "Wildflour.AtelierGoods_Muffin_Mix",
                         "MinStack": 3,
                         "MaxStack": 5,
                         "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
                         "TradeItemAmount": 1,
                         "AvailableStock": -1,
-                        "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current Wildflour.AtelierGoods_Oven"
+                        "Condition": "CAULDRON_CONFIG_VALUE Muffins True"
                     },
                     {   
                         "Id": "Wildflour.AtelierGoods_RoseShop_Cake_Mix",
-                        "RandomItemId": [
-                            "Wildflour.AtelierGoods_Cake_Mix"
-                        ],
+                        "ItemId": "Wildflour.AtelierGoods_Cake_Mix",
                         "MinStack": 3,
                         "MaxStack": 5,
                         "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
                         "TradeItemAmount": 1,
                         "AvailableStock": -1,
-                        "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current Wildflour.AtelierGoods_Cake_Station"
+                        "Condition": "CAULDRON_CONFIG_VALUE Cakes True"
+                    },
+                    {   
+                        "Id": "Wildflour.AtelierGoods_RoseShop_TinyCake_Mix",
+                        "ItemId": "Wildflour.AtelierGoods_Cake_Mix",
+                        "MinStack": 1,
+                        "MaxStack": 3,
+                        "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                        "TradeItemAmount": 1,
+                        "AvailableStock": -1,
+                        "Condition": "CAULDRON_CONFIG_VALUE TinyCakes True"
                     },
                     {   
                         "Id": "Wildflour.AtelierGoods_RoseShop_Cookie_Mix",
-                        "RandomItemId": [
-                            "Wildflour.AtelierGoods_Cookie_Mix"
-                        ],
+                        "ItemId": "Wildflour.AtelierGoods_Cookie_Mix",
                         "MinStack": 3,
                         "MaxStack": 5,
                         "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
                         "TradeItemAmount": 1,
                         "AvailableStock": -1,
-                        "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current Wildflour.AtelierGoods_Mixer"
+                        "Condition": "CAULDRON_CONFIG_VALUE Cookies True"
                     },
                     {   
                         "Id": "Wildflour.AtelierGoods_RoseShop_Pie_Mix",
-                        "RandomItemId": [
-                            "Wildflour.AtelierGoods_Pie_Mix"
-                        ],
+                        "ItemId": "Wildflour.AtelierGoods_Pie_Mix",
                         "MinStack": 3,
                         "MaxStack": 5,
                         "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
                         "TradeItemAmount": 1,
                         "AvailableStock": -1,
-                        "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current Wildflour.AtelierGoods_Pie_Station"
+                        "Condition": "CAULDRON_CONFIG_VALUE Pies True"
                     },
                     {
                         "Id": "Wildflour.AtelierGoods_RoseShop_KitchenMortar",
@@ -416,7 +418,7 @@
                     },
                     {
                         "Id": "Wildflour.AtelierGoods_ToffeeShop_Frozen_Tear",
-                        "ItemId": "(O)89",
+                        "ItemId": "(O)84",
                         "Condition": "",
                         "MinStack":5,
                         "MaxStack":8,

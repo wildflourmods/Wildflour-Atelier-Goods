@@ -584,7 +584,18 @@
                 ],
                     "MinutesUntilReady": 280
                 }
-        ]
+        ],
+        "AdditionalConsumedItems":[],
+        "InvalidItemMessage":"{{i18n:AtelierGoods_KitchenBlender_InvalidItem.message}}",
+        "ShowNextIndexWhileWorking":false,
+        "ShowNextIndexWhenReady":false,
+        "WobbleWhileWorking":false,
+        "WorkingEffects":[
+            {
+                "Frames":[1,2,3,4,5,6,7],
+                "Interval":100
+            }
+       ] 
         }
     }
 },
@@ -632,7 +643,7 @@
                     ],
                     "MinutesUntilReady": 600
                 },
-                {
+               {
                     "Id": "Wildflour.AtelierGoods_KitchenBlender_Flavored_Milkshake",
                     "Triggers": [
                             {
@@ -661,7 +672,19 @@
                 ],
                     "MinutesUntilReady": 280
                 }
-        ]
+                    
+        ],
+        "AdditionalConsumedItems":[],
+        "InvalidItemMessage":"{{i18n:AtelierGoods_KitchenBlender_InvalidItem.message}}",
+        "ShowNextIndexWhileWorking":false,
+        "ShowNextIndexWhenReady":false,
+        "WobbleWhileWorking":false,
+        "WorkingEffects":[
+            {
+                "Frames":[1,2,3,4,5,6,7],
+                "Interval":100
+            }
+       ]
         }
     }
 },
@@ -701,60 +724,6 @@
                 }
             ],
             "MinutesUntilReady": 900
-        }
-    }
-},
-
-{
-    "LogName": "Basic Milkshake Rules",
-    "Action": "EditData",
-    "Target": "Data/Machines",
-    "When":  {"Atelier.Cauldron/ConfigValue:Milkshakes": true},
-    "Entries": {
-        "(BC)Wildflour.AtelierGoods_KitchenBlender":{
-            "OutputRules": [
-                {
-                  "Id": "Wildflour.AtelierGoods_KitchenBlender_Flavored_Milkshake",
-                    "Triggers": [
-                        {
-                        "Trigger": "ItemPlacedInMachine",
-                        "RequiredItemId": "(O)Wildflour.AtelierGoods_Flavored_IceCream",
-                        "RequiredCount": 1
-                        }
-            ],
-                "OutputItem": [
-                    {
-                        "ItemId": "Wildflour.AtelierGoods_Flavored_Milkshake",
-                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Milkshake %PRESERVED_DISPLAY_NAME]",
-                        "ObjectInternalName": "{0} Milkshake",
-                        "PreserveId": "DROP_IN_PRESERVE",
-                        "CopyQuality": true,
-                        "CopyPrice": true,
-                        "CopyColor":true,
-                        "PriceModifiers": 
-                        [
-                            {
-                                "Modification": "Multiply",
-                                "Amount": 3.0
-                            }
-                        ]
-                    }    
-            ],
-                "MinutesUntilReady": 800
-                }
-            ],
-            "AdditionalConsumedItems":[{}
-            ],
-            "InvalidItemMessage":"{{i18n:AtelierGoods_KitchenBlender_InvalidItem.message}}",
-            "ShowNextIndexWhileWorking":false,
-            "ShowNextIndexWhenReady":false,
-            "WobbleWhileWorking":false,
-            "WorkingEffects":[
-                {
-                    "Frames":[0,1,2,3],
-                    "Interval":150
-                }
-            ] 
         }
     }
 },

@@ -326,7 +326,7 @@
     "Target": "Data/Machines",
     "TargetField": ["(BC)24", "OutputRules", "Wildflour.AtelierGoods_MayoMachine_Butter", "OutputItem", "Wildflour.AtelierGoods_Butter", "CustomData"],
     "Entries": {
-      "selph.ExtraMachineConfig.ExtraOutputIds": "ButterMilkBP,CreamBP"
+      "selph.ExtraMachineConfig.ExtraOutputIds": "ButtermilkBP, CreamBP"
     }
   },
 
