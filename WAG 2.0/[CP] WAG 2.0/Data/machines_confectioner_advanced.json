@@ -1251,8 +1251,8 @@
                         "Id": "Wildflour.AtelierGoods_Unicorn_IceCream",
                         "ItemId": "Wildflour.AtelierGoods_Unicorn_IceCream",
                         "CustomData": {
-                            "selph.ExtraMachineConfig.RequirementTags.1": "(O)245",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Grape_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Sugar_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "CopyQuality": true,
@@ -5289,6 +5289,41 @@
                     "MinutesUntilReady": 1000
                 },
                 {
+                    "Id": "Wildflour.AtelierGoods_Choco_Lovers_Marshmallows",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemID": "(O)Wildflour.AtelierGoods_Dark_Chocolate",
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Choco_Lovers_Marshmallows",
+                        "ItemId": "Wildflour.AtelierGoods_Choco_Lovers_Marshmallows",
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_White_Chocolate",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WhiteChocolate_NeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "PriceModifiers": 
+                             [
+                                {
+                                "Modification": "Add",
+                                "Amount": 25
+                                },
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 5.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                },
+                {
                     "Id": "Wildflour.AtelierGoods_Mint_Mocha_Marshmallows",
                     "Triggers": [
                         {
@@ -6244,7 +6279,7 @@
             "Triggers": [
                 {
                     "Trigger": "ItemPlacedInMachine",
-                    "RequiredItemId": "Wildflour.AtelierGoods_Confectioners_Sugar",
+                    "RequiredItemId": "(O)Wildflour.AtelierGoods_Confectioners_Sugar",
                     "RequiredCount": 1
                 }
             ],

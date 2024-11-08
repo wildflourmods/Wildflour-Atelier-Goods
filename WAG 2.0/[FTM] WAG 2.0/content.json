@@ -404,7 +404,7 @@
         "UniqueAreaID": "Wild Food Forage Backwoods",
         "MapName": "Backwoods",
         "MinimumSpawnsPerDay": 1,
-        "MaximumSpawnsPerDay": 3,
+        "MaximumSpawnsPerDay": 2,
         "IncludeTerrainTypes": [
           "All"
         ],

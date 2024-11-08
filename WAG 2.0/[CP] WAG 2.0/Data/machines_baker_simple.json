@@ -33,7 +33,7 @@
         "Target": "Data/CraftingRecipes",
         "When": {"Atelier.Cauldron/ConfigValue:Muffins": true},
         "Entries": {
-                "Wildflour.AtelierGoods_Oven": "Wildflour.AtelierGoods_Muffin_Mix 1 388 50 335 1/Home/Wildflour.AtelierGoods_Oven/true/default/{{i18n:AtelierGoods_Oven.name}}"
+                "Wildflour.AtelierGoods_Oven": "Wildflour.AtelierGoods_Muffin_Mix 1 388 50 335 1/Home/Wildflour.AtelierGoods_Oven/true/{{RecipeConfig}}/{{i18n:AtelierGoods_Oven.name}}"
         }
     },
 
@@ -152,7 +152,7 @@
         "Target": "Data/CraftingRecipes",
         "When": {"Atelier.Cauldron/ConfigValue:Cakes": true},
         "Entries": {
-    "Wildflour.AtelierGoods_Cake_Station": "Wildflour.AtelierGoods_Cake_Mix 1 388 50 390 10/Home/Wildflour.AtelierGoods_Cake_Station/true/default/{{i18n:AtelierGoods_Cake_Station.name}}"
+    "Wildflour.AtelierGoods_Cake_Station": "Wildflour.AtelierGoods_Cake_Mix 1 388 50 390 10/Home/Wildflour.AtelierGoods_Cake_Station/true/{{RecipeConfig}}/{{i18n:AtelierGoods_Cake_Station.name}}"
     }
     },
 
@@ -270,7 +270,7 @@
         "Target": "Data/CraftingRecipes",
         "When": {"Atelier.Cauldron/ConfigValue:TinyCakes": true},
         "Entries": {
-        "Wildflour.AtelierGoods_Dessert_Stand": "Wildflour.AtelierGoods_Cake_Mix 1 335 2/Home/Wildflour.AtelierGoods_Dessert_Stand/true/default/{{i18n:AtelierGoods_Dessert_Stand.name}}"
+        "Wildflour.AtelierGoods_Dessert_Stand": "Wildflour.AtelierGoods_Cake_Mix 1 335 2/Home/Wildflour.AtelierGoods_Dessert_Stand/true/{{RecipeConfig}}/{{i18n:AtelierGoods_Dessert_Stand.name}}"
         }
     },
 
@@ -389,7 +389,7 @@
         "Target": "Data/CraftingRecipes",
         "When": {"Atelier.Cauldron/ConfigValue:Pies": true},
         "Entries": {
-        "Wildflour.AtelierGoods_Pie_Station": "Wildflour.AtelierGoods_Pie_Mix 1 388 50 390 5/Home/Wildflour.AtelierGoods_Pie_Station/true/default/{{i18n:AtelierGoods_Pie_Station.name}}"
+        "Wildflour.AtelierGoods_Pie_Station": "Wildflour.AtelierGoods_Pie_Mix 1 388 50 390 5/Home/Wildflour.AtelierGoods_Pie_Station/true/{{RecipeConfig}}/{{i18n:AtelierGoods_Pie_Station.name}}"
         }
     },
 
@@ -509,7 +509,7 @@
         "Target": "Data/CraftingRecipes",
         "When": {"Atelier.Cauldron/ConfigValue:Cookies": true},
         "Entries": {
-            "Wildflour.AtelierGoods_Mixer": "Wildflour.AtelierGoods_Cookie_Mix 1 388 50 335 1/Home/Wildflour.AtelierGoods_Mixer/true/default/{{i18n:AtelierGoods_Mixer.name}}"
+            "Wildflour.AtelierGoods_Mixer": "Wildflour.AtelierGoods_Cookie_Mix 1 388 50 335 1/Home/Wildflour.AtelierGoods_Mixer/true/{{RecipeConfig}}/{{i18n:AtelierGoods_Mixer.name}}"
     }
     },
 
@@ -628,7 +628,7 @@
         "Target": "Data/CraftingRecipes",
         "When": {"Query: ({{Atelier.Cauldron/ConfigValue:Breads}} = 'true') OR ({{Atelier.Cauldron/ConfigValue:Doughnuts}} = 'true')": true},
         "Entries": {
-            "Wildflour.AtelierGoods_Rolling_Pin": "Wildflour.AtelierGoods_Bread_Mix 1 388 50 709 5/Home/Wildflour.AtelierGoods_Rolling_Pin/true/default/{{i18n:AtelierGoods_Rolling_Pin.name}}"
+            "Wildflour.AtelierGoods_Rolling_Pin": "Wildflour.AtelierGoods_Bread_Mix 1 388 50 709 5/Home/Wildflour.AtelierGoods_Rolling_Pin/true/{{RecipeConfig}}/{{i18n:AtelierGoods_Rolling_Pin.name}}"
     }
     },
 
@@ -747,7 +747,7 @@
         "Target": "Data/CraftingRecipes",
         "When": { "Atelier.Cauldron/ConfigValue:Puddings": true},
         "Entries": {
-                "Wildflour.AtelierGoods_Deluxe_Dessert_Stand": "Wildflour.AtelierGoods_Pectin 3 335 3/Home/Wildflour.AtelierGoods_Deluxe_Dessert_Stand/true/default/{{i18n:AtelierGoods_Deluxe_Dessert_Stand.name}}"
+                "Wildflour.AtelierGoods_Deluxe_Dessert_Stand": "Wildflour.AtelierGoods_Pectin 3 335 3/Home/Wildflour.AtelierGoods_Deluxe_Dessert_Stand/true/{{RecipeConfig}}/{{i18n:AtelierGoods_Deluxe_Dessert_Stand.name}}"
         }
     },
 

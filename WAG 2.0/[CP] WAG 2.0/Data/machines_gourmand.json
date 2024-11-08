@@ -2259,7 +2259,7 @@
                     "Triggers": [
                         {
                         "Trigger": "ItemPlacedInMachine",
-                        "RequiredItemId": "(O)821",
+                        "RequiredItemId": "(O)812",
                         "RequiredCount": 5
                         }
                 ],

@@ -892,7 +892,27 @@
                     "Triggers": [
                         {
                             "Trigger": "ItemPlacedInMachine",
-                            "RequiredTags": ["season_winter","category_flowers"],
+                            "RequiredItemId": "(O)418",
+                            "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)283",
+                            "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Lumisteria.SereneMeadow_Snowdrop",
+                            "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Lumisteria.SereneMeadow_WinterPansy",
+                            "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)QL_StripedSquill",
                             "RequiredCount": 1
                         }
                 ],
@@ -1982,7 +2002,27 @@
                     "Triggers": [
                         {
                             "Trigger": "ItemPlacedInMachine",
-                            "RequiredTags": ["season_winter","category_flowers"],
+                            "RequiredItemId": "(O)418",
+                            "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)283",
+                            "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Lumisteria.SereneMeadow_Snowdrop",
+                            "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Lumisteria.SereneMeadow_WinterPansy",
+                            "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)QL_StripedSquill",
                             "RequiredCount": 1
                         }
                 ],
@@ -2787,7 +2827,7 @@
                         {
                             "Trigger": "ItemPlacedInMachine",
                             "RequiredItemId": "Wildflour.AtelierGoods_Herb_Garden_Floral_Swag",
-                            "RequiredCount": 51
+                            "RequiredCount": 1
                         }
                 ],
                     "OutputItem": [
@@ -3560,7 +3600,27 @@
                     "Triggers": [
                         {
                             "Trigger": "ItemPlacedInMachine",
-                            "RequiredTags": ["season_winter","category_flowers"],
+                            "RequiredItemId": "(O)418",
+                            "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)283",
+                            "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Lumisteria.SereneMeadow_Snowdrop",
+                            "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Lumisteria.SereneMeadow_WinterPansy",
+                            "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)QL_StripedSquill",
                             "RequiredCount": 1
                         }
                 ],
@@ -4296,7 +4356,27 @@
                         "Triggers": [
                             {
                                 "Trigger": "ItemPlacedInMachine",
-                                "RequiredTags": ["season_winter","category_flowers"],
+                                "RequiredItemId": "(O)418",
+                                "RequiredCount": 1
+                            },
+                            {
+                                "Trigger": "ItemPlacedInMachine",
+                                "RequiredItemId": "(O)283",
+                                "RequiredCount": 1
+                            },
+                            {
+                                "Trigger": "ItemPlacedInMachine",
+                                "RequiredItemId": "(O)Lumisteria.SereneMeadow_Snowdrop",
+                                "RequiredCount": 1
+                            },
+                            {
+                                "Trigger": "ItemPlacedInMachine",
+                                "RequiredItemId": "(O)Lumisteria.SereneMeadow_WinterPansy",
+                                "RequiredCount": 1
+                            },
+                            {
+                                "Trigger": "ItemPlacedInMachine",
+                                "RequiredItemId": "(O)QL_StripedSquill",
                                 "RequiredCount": 1
                             }
                     ],

@@ -459,7 +459,7 @@
             "Type": "Fruit",          
             "Category": -79,
             "Edibility": 8,
-            "Price": 70,
+            "Price": 55,
             "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
 
             "ContextTags":
@@ -479,7 +479,7 @@
             "Type": "Fruit",          
             "Category": -79,
             "Edibility": 8,
-            "Price": 70,
+            "Price": 55,
             "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
 
             "ContextTags":
@@ -1381,7 +1381,7 @@
             },
             "TileSize":{
                 "X": 3,
-                "Y": 4
+                "Y": 3
             }
     },
         "Wildflour.AtelierGoods_Giant_Wild_Strawberry": {

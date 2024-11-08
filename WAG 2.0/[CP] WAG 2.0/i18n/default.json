@@ -29,6 +29,34 @@
 "AtelierGoods_Veggies_Seeds_Mail.name":"A Little Variety for Your Veggie Garden",
 "AtelierGoods_Veggies_Seeds_Mail.text":"@, ^^ Did you know you can regrow quite a few vegetables you often would throw away as kitchen scraps? Now I might not have managed to do it, but the internet says its true so why don't you try with these and prove them right? ^^ - Harvey",
 
+////////////////////
+// BAKER MAIL NEW //
+////////////////////
+
+"AtelierGoods_Baker_Mail_Intro.name":"Your Bake it to the Limit Subscription",
+"AtelierGoods_Baker_Mail_Intro.text":"Hey honey,^^ I had your baking magazine forwarded to your new address at the farm. Remember: it's easy to make friends when you show up with cookies!^^Love, Mom",
+
+"AtelierGoods_Baker_Mixer_Mail.name":"Kooky for Cookies!",
+"AtelierGoods_Baker_Mixer_Mail.text":"Hello bakers!^^ Attached you will find blueprints for your very own mixer. With it, you can whip up chewy cookies and fudgy brownies for nearly any occasion. The key to perfect cookies and brownies is cookie mix made in your very own kitchen, so be sure to have plenty on hand before you start baking!",
+
+"AtelierGoods_Baker_CakeStation_Mail.name":"Let Us All Eat Cake!",
+"AtelierGoods_Baker_CakeStation_Mail.text":"Hello bakers!^^ Attached you will find blueprints for your very own cake counter. With it, you can create show-stopping cakes for birthdays, anniversaries, heck even just because you feel like it. Who needs an excuse for cake? We don't. Cakes require cake mix though, so don't forget to craft some in your kitchen before you start baking!",
+
+"AtelierGoods_Baker_Oven_Mail.name":"Muffin Lovin'.",
+"AtelierGoods_Baker_Oven_Mail.text":"Hello bakers!^^ Attached you will find blueprints for your very own oven. With it, you can bake chewy muffins and crumbly scones, as long as you don't forget the muffin mix! Be sure to craft up some in your kitchen before baking.",
+
+"AtelierGoods_Baker_DessertStand_Mail.name":"Cupcakes and Petit Fours For All!",
+"AtelierGoods_Baker_DessertStand_Mail.text":"Hello bakers!^^ Attached you will find blueprints for your very own dessert stand. With it, you can make adorable tiny cakes and petit fours that would impress even the fanciest among your friends. Tiny cakes, just like their big cake counterparts, require cake mix so be sure to have plenty on hand before you start baking!",
+
+"AtelierGoods_Baker_PieStation_Mail.name":"My Oh My, What a Lovely Pie!",
+"AtelierGoods_Baker_PieStation_Mail.text":"Hello bakers!^^ Attached you will find blueprints for your very own pie counter. With it, you can whip up fruit pies, sweet pies, tall pies, short pies...The Pie is the limit! Don't forget to whip up some pie mix in your kitchen before you get started.",
+
+"AtelierGoods_Baker_RollingPin_Mail.name":"Rollin' Rollin' Rollin'",
+"AtelierGoods_Baker_RollingPin_Mail.text":"Hello bakers!^^ Attached you will find blueprints for your very own rolling pin. With it, you can create light, airy doughnuts or rich, hearty breads. Doughnuts and breads require bread mix, so be sure to craft some in your kitchen before you begin baking!",
+
+"AtelierGoods_Baker_DeluxeDessertStand_Mail.name":"Deluxe Desserts!",
+"AtelierGoods_Baker_DeluxeDessertStand_Mail.text":"Hello bakers!^^ Attached you will find blueprints for your very own deluxe dessert stand. With it, you can craft picture-perfect puddings bursting with fresh fruit flavor. The key to pudding's structure is pectin, so be sure to have plenty on hand before you begin!",
+
 /////////////
 // BUNDLES //
 /////////////
@@ -37,7 +65,7 @@
 "AtelierGoods_ShopBundleComplete":"Thank you! Come back tomorrow okay? Bye!",
 
 "AtelierGoods_JunimoGem_Vanilla_Mail.name":"Strange Gem?",
-"AtelierGoods_JunimoGem_Vanilla_Mail.text":"Hello, @! ^^ We have not met, but my name is Wildflour and I am an alchemist from Sunberry Village who has heard great things about you! From who? Don't worry about that.^^The point is: I have discovered that those friendly with the forest spirits (also known as junimos) are finding junimo gems in their crafting machines alongside their artisan goods. Though we aren't exactly sure what they are, I've been told by a VERY RELIABLE SOURCE that you should take 5 of these gems down towards the southern tip of the forest near the abandoned house. You will be glad you did! ^^Wildflour, The Alchemist",
+"AtelierGoods_JunimoGem_Vanilla_Mail.text":"Hello, @! ^^ We have not met, but my name is Wildflour and I am an alchemist from Sunberry Village who has heard great things about you! From who? Don't worry about that.^^The point is: I have discovered that those friendly with the forest spirits (also known as junimos) are finding junimo gems in their crafting machines alongside their artisan goods. Though we aren't exactly sure what they are, I've been told by a VERY RELIABLE SOURCE that you should take 5 of these gems and head towards the western bit of the forest behind the Wizard's tower. You will be glad you did! ^^Wildflour, The Alchemist",
 
 "AtelierGoods_JunimoGem_SBV_Mail.name":"Strange Gem?",
 "AtelierGoods_JunimoGem_SBV_Mail.text":"Hello, @! ^^ Great news! I have discovered that those friendly with the forest spirits (also known as junimos) are finding junimo gems in their crafting machines alongside their artisan goods. I've been told by a VERY RELIABLE SOURCE that you should take 5 of these gems with you and travel to the area by the east of Sunberry road, before you enter the village. ^^Why?^^ ^^ Why NOT?^^ Just trust me on this one. ^^ Wildflour, The Alchemist",
@@ -2929,7 +2957,7 @@
 "AtelierGoods_Evelyn_Gift.text":"@, ^^ I heard you are learning more about brewing tea! What a wonderful adventure you are about to begin. Here: these are some chamomile seeds from my garden. The flowers make a soothing herbal tea that helps you sleep.^^ - Evelyn",
 
 "AtelierGoods_Leah_Gift.name":"For your Tea Garden",
-"AtelierGoods_Leah_Gift.text":"@, ^^ How is the tea brewing going? If you are having trouble foraging enough tea leaves, I would be happy to share some seeds with you! These will make for some sturdy tea bushes so you can make all the tea you want.^^ - Leah",
+"AtelierGoods_Leah_Gift.text":"@, ^^ How is the tea brewing going? If you are having trouble foraging enough tea leaves, I would be happy to share some with you! You can actually shake these from bushes at certain times in spring and summer, then you can make all the tea you want!^^ - Leah",
 
 "AtelierGoods_Maru_Gift.name":"Brewing the Booch",
 "AtelierGoods_Maru_Gift.text":"@, ^^ Did you know you can ferment tea into kombucha? It's not everybody's cup of tea (sorry for the pun) but I find it to be fizzy and delicious!^^ - Maru",

@@ -658,7 +658,7 @@
             "color_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
-            "SpriteIndex": 32
+            "SpriteIndex":768
         },
         "Wildflour.AtelierGoods_Pineapple_Cherry_Petit_Fours": {
             "Name": "Wildflour.AtelierGoods_Pineapple_Cherry_Petit_Fours",
@@ -676,7 +676,7 @@
             "color_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
-            "SpriteIndex": 33
+            "SpriteIndex": 769
         },
         "Wildflour.AtelierGoods_Floral_Petit_Fours": {
             "Name": "Wildflour.AtelierGoods_Floral_Petit_Fours",
@@ -694,7 +694,7 @@
             "color_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
-            "SpriteIndex": 34
+            "SpriteIndex": 770
         },
         "Wildflour.AtelierGoods_Rose_Petit_Fours": {
             "Name": "Wildflour.AtelierGoods_Rose_Petit_Fours",
@@ -712,7 +712,7 @@
             "color_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
-            "SpriteIndex": 35
+            "SpriteIndex": 771
         },
         "Wildflour.AtelierGoods_Blueberry_Petit_Fours": {
             "Name": "Wildflour.AtelierGoods_Blueberry_Petit_Fours",
@@ -730,7 +730,7 @@
             "color_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
-            "SpriteIndex": 36
+            "SpriteIndex": 772
         },
         "Wildflour.AtelierGoods_Carrot_Petit_Fours": {
             "Name": "Wildflour.AtelierGoods_Carrot_Petit_Fours",
@@ -748,7 +748,7 @@
             "color_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
-            "SpriteIndex": 37
+            "SpriteIndex": 773
         },
         "Wildflour.AtelierGoods_Chocolate_Strawberry_Petit_Fours": {
             "Name": "Wildflour.AtelierGoods_Chocolate_Strawberry_Petit_Fours",
@@ -766,7 +766,7 @@
             "color_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
-            "SpriteIndex": 39
+            "SpriteIndex": 775
         },
         "Wildflour.AtelierGoods_Citrus_Petit_Fours": {
             "Name": "Wildflour.AtelierGoods_Citrus_Petit_Fours",
@@ -784,7 +784,7 @@
             "color_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
-            "SpriteIndex": 40
+            "SpriteIndex": 776
         },
         "Wildflour.AtelierGoods_Red_Velvet_Petit_Fours": {
             "Name": "Wildflour.AtelierGoods_Red_Velvet_Petit_Fours",
@@ -802,7 +802,7 @@
             "color_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
-            "SpriteIndex": 41
+            "SpriteIndex": 777
         },
         "Wildflour.AtelierGoods_Apple_Petit_Fours": {
             "Name": "Wildflour.AtelierGoods_Apple_Petit_Fours",
@@ -820,7 +820,7 @@
             "color_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
-            "SpriteIndex": 42
+            "SpriteIndex": 778
         },
         "Wildflour.AtelierGoods_Flavored_Cupcakes": {
             "Name": "Wildflour.AtelierGoods_Flavored_Cupcakes",

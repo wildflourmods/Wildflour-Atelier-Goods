@@ -1,0 +1,95 @@
+{
+  "WeatherForYesterday": "Sun",
+  "LNOSCounter": {},
+  "ExistingObjectLocations": {},
+  "SavedObjects": [
+    {
+      "MapName": "Railroad",
+      "Name": "Wildflour.AtelierGoods_Thyme",
+      "Tile": "42, 11",
+      "Type": "Forage",
+      "ID": "Wildflour.AtelierGoods_Thyme",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Railroad",
+      "Name": "Wildflour.AtelierGoods_Meringue_Mushroom",
+      "Tile": "19, 42",
+      "Type": "Forage",
+      "ID": "Wildflour.AtelierGoods_Meringue_Mushroom",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Mountain",
+      "Name": "Wildflour.AtelierGoods_Wild_Raspberry",
+      "Tile": "126, 18",
+      "Type": "Forage",
+      "ID": "Wildflour.AtelierGoods_Wild_Raspberry",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "IslandWest",
+      "Name": "Wildflour.AtelierGoods_Mallow",
+      "Tile": "82, 4",
+      "Type": "Forage",
+      "ID": "Wildflour.AtelierGoods_Mallow",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Woods",
+      "Name": "Wildflour.AtelierGoods_Chamomile",
+      "Tile": "36, 20",
+      "Type": "Forage",
+      "ID": "Wildflour.AtelierGoods_Chamomile",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Desert",
+      "Name": "Wildflour.AtelierGoods_Vanilla",
+      "Tile": "18, 40",
+      "Type": "Forage",
+      "ID": "Wildflour.AtelierGoods_Vanilla",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Town",
+      "Name": "Wildflour.AtelierGoods_Thyme",
+      "Tile": "25, 79",
+      "Type": "Forage",
+      "ID": "Wildflour.AtelierGoods_Thyme",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Town",
+      "Name": "Wildflour.AtelierGoods_Thyme",
+      "Tile": "91, 87",
+      "Type": "Forage",
+      "ID": "Wildflour.AtelierGoods_Thyme",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    }
+  ]
+}
