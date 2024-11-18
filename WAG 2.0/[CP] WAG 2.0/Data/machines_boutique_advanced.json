@@ -805,11 +805,6 @@
                         },
                         {
                             "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)376",
-                            "RequiredCount": 1
-                        },
-                        {
-                            "Trigger": "ItemPlacedInMachine",
                             "RequiredTags": ["lily_item"],
                             "RequiredCount": 1
                         },
@@ -892,11 +887,6 @@
                     "Triggers": [
                         {
                             "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)418",
-                            "RequiredCount": 1
-                        },
-                        {
-                            "Trigger": "ItemPlacedInMachine",
                             "RequiredItemId": "(O)283",
                             "RequiredCount": 1
                         },
@@ -939,6 +929,11 @@
                         {
                             "Trigger": "ItemPlacedInMachine",
                             "RequiredTags": ["hibiscus_item"],
+                            "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)376",
                             "RequiredCount": 1
                         },
                         {
@@ -1071,7 +1066,7 @@
                     "Triggers": [
                         {
                             "Trigger": "ItemPlacedInMachine",
-                            "RequiredTags": ["wolfsbane_item"],
+                            "RequiredItemId": "(O)418",
                             "RequiredCount": 1
                         },
                         {
@@ -1915,11 +1910,6 @@
                         },
                         {
                             "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)376",
-                            "RequiredCount": 1
-                        },
-                        {
-                            "Trigger": "ItemPlacedInMachine",
                             "RequiredTags": ["lily_item"],
                             "RequiredCount": 1
                         },
@@ -2002,11 +1992,6 @@
                     "Triggers": [
                         {
                             "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)418",
-                            "RequiredCount": 1
-                        },
-                        {
-                            "Trigger": "ItemPlacedInMachine",
                             "RequiredItemId": "(O)283",
                             "RequiredCount": 1
                         },
@@ -2049,6 +2034,11 @@
                         {
                             "Trigger": "ItemPlacedInMachine",
                             "RequiredTags": ["hibiscus_item"],
+                            "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)376",
                             "RequiredCount": 1
                         },
                         {
@@ -2181,7 +2171,7 @@
                     "Triggers": [
                         {
                             "Trigger": "ItemPlacedInMachine",
-                            "RequiredTags": ["wolfsbane_item"],
+                            "RequiredItemId": "(O)418",
                             "RequiredCount": 1
                         },
                         {
@@ -3229,7 +3219,7 @@
             "WobbleWhileWorking":false,
             "WorkingEffects":[
                 {
-                    "Frames":[0,1,2,3,4,5,6],
+                    "Frames":[1,2,3,4,5,6],
                     "Interval":100
                 }
            ] 
@@ -3505,11 +3495,6 @@
                         },
                         {
                             "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)376",
-                            "RequiredCount": 1
-                        },
-                        {
-                            "Trigger": "ItemPlacedInMachine",
                             "RequiredTags": ["lily_item"],
                             "RequiredCount": 1
                         },
@@ -3600,11 +3585,6 @@
                     "Triggers": [
                         {
                             "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)418",
-                            "RequiredCount": 1
-                        },
-                        {
-                            "Trigger": "ItemPlacedInMachine",
                             "RequiredItemId": "(O)283",
                             "RequiredCount": 1
                         },
@@ -3651,6 +3631,11 @@
                         {
                             "Trigger": "ItemPlacedInMachine",
                             "RequiredTags": ["hibiscus_item"],
+                            "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)376",
                             "RequiredCount": 1
                         },
                         {
@@ -3795,7 +3780,7 @@
                     "Triggers": [
                         {
                             "Trigger": "ItemPlacedInMachine",
-                            "RequiredTags": ["wolfsbane_item"],
+                            "RequiredItemId": "(O)418",
                             "RequiredCount": 1
                         },
                         {
@@ -3985,7 +3970,7 @@
             "WobbleWhileWorking":false,
             "WorkingEffects":[
                 {
-                    "Frames":[1,2,3,4,5,6,7],
+                    "Frames":[1,2,3,4,5,6],
                     "Interval":100
                 }
            ] 
@@ -4261,11 +4246,6 @@
                             },
                             {
                                 "Trigger": "ItemPlacedInMachine",
-                                "RequiredItemId": "(O)376",
-                                "RequiredCount": 1
-                            },
-                            {
-                                "Trigger": "ItemPlacedInMachine",
                                 "RequiredTags": ["lily_item"],
                                 "RequiredCount": 1
                             },
@@ -4356,11 +4336,6 @@
                         "Triggers": [
                             {
                                 "Trigger": "ItemPlacedInMachine",
-                                "RequiredItemId": "(O)418",
-                                "RequiredCount": 1
-                            },
-                            {
-                                "Trigger": "ItemPlacedInMachine",
                                 "RequiredItemId": "(O)283",
                                 "RequiredCount": 1
                             },
@@ -4407,6 +4382,11 @@
                             {
                                 "Trigger": "ItemPlacedInMachine",
                                 "RequiredTags": ["hibiscus_item"],
+                                "RequiredCount": 1
+                            },
+                            {
+                                "Trigger": "ItemPlacedInMachine",
+                                "RequiredItemId": "(O)376",
                                 "RequiredCount": 1
                             },
                             {
@@ -4551,7 +4531,7 @@
                         "Triggers": [
                             {
                                 "Trigger": "ItemPlacedInMachine",
-                                "RequiredTags": ["wolfsbane_item"],
+                                "RequiredItemId": "(O)418",
                                 "RequiredCount": 1
                             },
                             {
@@ -4793,7 +4773,7 @@
                             {
                                 "Trigger": "ItemPlacedInMachine",
                                 "RequiredItemId": "Wildflour.AtelierGoods_Herb_Garden_Floral_Swag",
-                                "RequiredCount": 51
+                                "RequiredCount": 1
                             }
                     ],
                         "OutputItem": [
@@ -5195,7 +5175,7 @@
                 "WobbleWhileWorking":false,
                 "WorkingEffects":[
                     {
-                        "Frames":[1,2,3,4,5,6,7],
+                        "Frames":[1,2,3,4,5,6],
                         "Interval":100
                     }
                ] 
@@ -5450,11 +5430,6 @@
                             },
                             {
                                 "Trigger": "ItemPlacedInMachine",
-                                "RequiredItemId": "(O)376",
-                                "RequiredCount": 1
-                            },
-                            {
-                                "Trigger": "ItemPlacedInMachine",
                                 "RequiredTags": ["lily_item"],
                                 "RequiredCount": 1
                             },
@@ -5537,11 +5512,6 @@
                         "Triggers": [
                             {
                                 "Trigger": "ItemPlacedInMachine",
-                                "RequiredItemId": "(O)418",
-                                "RequiredCount": 1
-                            },
-                            {
-                                "Trigger": "ItemPlacedInMachine",
                                 "RequiredItemId": "(O)283",
                                 "RequiredCount": 1
                             },
@@ -5584,6 +5554,11 @@
                             {
                                 "Trigger": "ItemPlacedInMachine",
                                 "RequiredTags": ["hibiscus_item"],
+                                "RequiredCount": 1
+                            },
+                            {
+                                "Trigger": "ItemPlacedInMachine",
+                                "RequiredItemId": "(O)376",
                                 "RequiredCount": 1
                             },
                             {
@@ -5716,7 +5691,7 @@
                         "Triggers": [
                             {
                                 "Trigger": "ItemPlacedInMachine",
-                                "RequiredTags": ["wolfsbane_item"],
+                                "RequiredItemId": "(O)418",
                                 "RequiredCount": 1
                             },
                             {
@@ -7512,7 +7487,7 @@
                             {
                                 "Trigger": "ItemPlacedInMachine",
                                 "RequiredItemId": "(O)497",
-                                "RequiredCount": 1
+                                "RequiredCount": 10
                             }
                         ],
                         "OutputItem": [
@@ -7526,7 +7501,7 @@
                                 
                                     {
                                     "Modification": "Multiply",
-                                    "Amount": 2.5
+                                    "Amount": 10.5
                                     }
                                 ]
                             }
@@ -7620,7 +7595,7 @@
                             {
                                 "Trigger": "ItemPlacedInMachine",
                                 "RequiredItemId": "(O)495",
-                                "RequiredCount": 1
+                                "RequiredCount": 10
                             }
                         ],
                         "OutputItem": [
@@ -7634,7 +7609,7 @@
                                 
                                     {
                                     "Modification": "Multiply",
-                                    "Amount": 2.5
+                                    "Amount": 10.5
                                     }
                                 ]
                             }
@@ -7647,7 +7622,7 @@
                             {
                                 "Trigger": "ItemPlacedInMachine",
                                 "RequiredItemId": "(O)496",
-                                "RequiredCount": 1
+                                "RequiredCount": 10
                             }
                         ],
                         "OutputItem": [
@@ -7661,7 +7636,7 @@
                                 
                                     {
                                     "Modification": "Multiply",
-                                    "Amount": 2.5
+                                    "Amount": 10.5
                                     }
                                 ]
                             }
@@ -7674,7 +7649,7 @@
                             {
                                 "Trigger": "ItemPlacedInMachine",
                                 "RequiredItemId": "(O)498",
-                                "RequiredCount": 1
+                                "RequiredCount": 10
                             }
                         ],
                         "OutputItem": [
@@ -7688,7 +7663,7 @@
                                 
                                     {
                                     "Modification": "Multiply",
-                                    "Amount": 2.5
+                                    "Amount": 10.5
                                     }
                                 ]
                             }

@@ -406,7 +406,8 @@
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)258",
                             "selph.ExtraMachineConfig.RequirementId.2": "(O)88",
                             "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:FireCrackerPop_Fuel_Message}}",
-                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.2":"1.0"
                             },
                         "CopyQuality":true,
                         "CopyPrice": true,
@@ -848,7 +849,7 @@
                         "Id": "Wildflour.AtelierGoods_Gingerbread_Latte_IceCream",
                         "ItemId": "Wildflour.AtelierGoods_Gingerbread_Latte_IceCream",
                         "CustomData": {
-                            "selph.ExtraMachineConfig.RequirementTags.1": "(O)433",
+                            "selph.ExtraMachineConfig.RequirementId.1": "(O)433",
                             "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CoffeeBean_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
@@ -1365,7 +1366,7 @@
     "Action": "EditData",
     "Target": "Data/Machines",
     "TargetField": ["(BC)Wildflour.AtelierGoods_BlastChiller", "OutputRules"],
-    "When":  {"Atelier.Cauldron/ConfigValue:IceCreamSandwiches": true},
+    "When":  {"Atelier.Cauldron/ConfigValue:IceCreamSandwich": true},
     "Entries": {
         "Wildflour.AtelierGoods_BlastChiller_Birdies_Banana_IceCream_Sandwich": 
             {
@@ -1383,7 +1384,7 @@
                         "CopyQuality": true,
                         "CopyPrice": true,
                         "CustomData": {
-                            "selph.ExtraMachineConfig.RequirementTags.1": "(O)223",
+                            "selph.ExtraMachineConfig.RequirementId.1": "(O)223",
                             "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cookie_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
@@ -1391,12 +1392,12 @@
                         [
                             {
                                 "Modification": "Multiply",
-                                "Amount": 3.0
+                                "Amount": 6.0
                             }
                         ]
                     }    
             ],
-                "MinutesUntilReady": 800
+                "MinutesUntilReady": 1200
             },
         "Wildflour.AtelierGoods_BlastChiller_Birthday_Blast_IceCream_Sandwich": 
             {
@@ -1414,7 +1415,7 @@
                         "CopyQuality": true,
                         "CopyPrice": true,
                         "CustomData": {
-                            "selph.ExtraMachineConfig.RequirementTags.1": "(O)223",
+                            "selph.ExtraMachineConfig.RequirementId.1": "(O)223",
                             "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cookie_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
@@ -1422,12 +1423,12 @@
                         [
                             {
                                 "Modification": "Multiply",
-                                "Amount": 3.0
+                                "Amount": 6.0
                             }
                         ]
                     }    
             ],
-                "MinutesUntilReady": 800
+                "MinutesUntilReady": 1200
             },
         "Wildflour.AtelierGoods_BlastChiller_Blackberry_Cobbler_IceCream_Sandwich": 
             {
@@ -1445,7 +1446,7 @@
                         "CopyQuality": true,
                         "CopyPrice": true,
                         "CustomData": {
-                            "selph.ExtraMachineConfig.RequirementTags.1": "(O)223",
+                            "selph.ExtraMachineConfig.RequirementId.1": "(O)223",
                             "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cookie_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
@@ -1453,12 +1454,12 @@
                         [
                             {
                                 "Modification": "Multiply",
-                                "Amount": 3.0
+                                "Amount": 6.0
                             }
                         ]
                     }    
             ],
-                "MinutesUntilReady": 800
+                "MinutesUntilReady": 1200
             },
         "Wildflour.AtelierGoods_BlastChiller_Chocolate_Lovers_IceCream_Sandwich": 
             {
@@ -1476,7 +1477,7 @@
                         "CopyQuality": true,
                         "CopyPrice": true,
                         "CustomData": {
-                            "selph.ExtraMachineConfig.RequirementTags.1": "(O)223",
+                            "selph.ExtraMachineConfig.RequirementId.1": "(O)223",
                             "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cookie_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
@@ -1484,12 +1485,12 @@
                         [
                             {
                                 "Modification": "Multiply",
-                                "Amount": 3.0
+                                "Amount": 6.0
                             }
                         ]
                     }    
             ],
-                "MinutesUntilReady": 800
+                "MinutesUntilReady": 1200
             },
         "Wildflour.AtelierGoods_BlastChiller_Cookie_Monster_IceCream_Sandwich": 
             {
@@ -1507,7 +1508,7 @@
                         "CopyQuality": true,
                         "CopyPrice": true,
                         "CustomData": {
-                            "selph.ExtraMachineConfig.RequirementTags.1": "(O)223",
+                            "selph.ExtraMachineConfig.RequirementId.1": "(O)223",
                             "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cookie_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
@@ -1515,12 +1516,12 @@
                         [
                             {
                                 "Modification": "Multiply",
-                                "Amount": 3.0
+                                "Amount": 6.0
                             }
                         ]
                     }    
             ],
-                "MinutesUntilReady": 800
+                "MinutesUntilReady": 1200
             },
         "Wildflour.AtelierGoods_BlastChiller_Eggnog_Spice_IceCream_Sandwich": 
             {
@@ -1538,7 +1539,7 @@
                         "CopyQuality": true,
                         "CopyPrice": true,
                         "CustomData": {
-                            "selph.ExtraMachineConfig.RequirementTags.1": "(O)223",
+                            "selph.ExtraMachineConfig.RequirementId.1": "(O)223",
                             "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cookie_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
@@ -1546,12 +1547,12 @@
                         [
                             {
                                 "Modification": "Multiply",
-                                "Amount": 3.0
+                                "Amount": 6.0
                             }
                         ]
                     }    
             ],
-                "MinutesUntilReady": 800
+                "MinutesUntilReady": 1200
             },
         "Wildflour.AtelierGoods_BlastChiller_Gingerbread_Latte_IceCream_Sandwich": 
             {
@@ -1569,7 +1570,7 @@
                         "CopyQuality": true,
                         "CopyPrice": true,
                         "CustomData": {
-                            "selph.ExtraMachineConfig.RequirementTags.1": "(O)223",
+                            "selph.ExtraMachineConfig.RequirementId.1": "(O)223",
                             "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cookie_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
@@ -1577,12 +1578,12 @@
                         [
                             {
                                 "Modification": "Multiply",
-                                "Amount": 3.0
+                                "Amount": 6.0
                             }
                         ]
                     }    
             ],
-                "MinutesUntilReady": 800
+                "MinutesUntilReady": 1200
             },
         "Wildflour.AtelierGoods_BlastChiller_Grannys_Apple_Pie_IceCream_Sandwich": 
             {
@@ -1600,7 +1601,7 @@
                         "CopyQuality": true,
                         "CopyPrice": true,
                         "CustomData": {
-                            "selph.ExtraMachineConfig.RequirementTags.1": "(O)223",
+                            "selph.ExtraMachineConfig.RequirementId.1": "(O)223",
                             "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cookie_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
@@ -1608,12 +1609,12 @@
                         [
                             {
                                 "Modification": "Multiply",
-                                "Amount": 3.0
+                                "Amount": 6.0
                             }
                         ]
                     }    
             ],
-                "MinutesUntilReady": 800
+                "MinutesUntilReady": 1200
             },
         "Wildflour.AtelierGoods_BlastChiller_Hopeless_Romantic_IceCream_Sandwich": 
             {
@@ -1631,7 +1632,7 @@
                         "CopyQuality": true,
                         "CopyPrice": true,
                         "CustomData": {
-                            "selph.ExtraMachineConfig.RequirementTags.1": "(O)223",
+                            "selph.ExtraMachineConfig.RequirementId.1": "(O)223",
                             "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cookie_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
@@ -1639,12 +1640,12 @@
                         [
                             {
                                 "Modification": "Multiply",
-                                "Amount": 3.0
+                                "Amount": 6.0
                             }
                         ]
                     }    
             ],
-                "MinutesUntilReady": 800
+                "MinutesUntilReady": 1200
             },
         "Wildflour.AtelierGoods_BlastChiller_Horchata_IceCream_Sandwich": 
             {
@@ -1662,7 +1663,7 @@
                         "CopyQuality": true,
                         "CopyPrice": true,
                         "CustomData": {
-                            "selph.ExtraMachineConfig.RequirementTags.1": "(O)223",
+                            "selph.ExtraMachineConfig.RequirementId.1": "(O)223",
                             "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cookie_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
@@ -1670,12 +1671,12 @@
                         [
                             {
                                 "Modification": "Multiply",
-                                "Amount": 3.0
+                                "Amount": 6.0
                             }
                         ]
                     }    
             ],
-                "MinutesUntilReady": 800
+                "MinutesUntilReady": 1200
             },
         "Wildflour.AtelierGoods_BlastChiller_Key_Lime_Pie_IceCream_Sandwich": 
             {
@@ -1693,7 +1694,7 @@
                         "CopyQuality": true,
                         "CopyPrice": true,
                         "CustomData": {
-                            "selph.ExtraMachineConfig.RequirementTags.1": "(O)223",
+                            "selph.ExtraMachineConfig.RequirementId.1": "(O)223",
                             "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cookie_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
@@ -1701,12 +1702,12 @@
                         [
                             {
                                 "Modification": "Multiply",
-                                "Amount": 3.0
+                                "Amount": 6.0
                             }
                         ]
                     }    
             ],
-                "MinutesUntilReady": 800
+                "MinutesUntilReady": 1200
             },
         "Wildflour.AtelierGoods_BlastChiller_Lavender_Fields_IceCream_Sandwich": 
             {
@@ -1724,7 +1725,7 @@
                         "CopyQuality": true,
                         "CopyPrice": true,
                         "CustomData": {
-                            "selph.ExtraMachineConfig.RequirementTags.1": "(O)223",
+                            "selph.ExtraMachineConfig.RequirementId.1": "(O)223",
                             "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cookie_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
@@ -1732,12 +1733,12 @@
                         [
                             {
                                 "Modification": "Multiply",
-                                "Amount": 3.0
+                                "Amount": 6.0
                             }
                         ]
                     }    
             ],
-                "MinutesUntilReady": 800
+                "MinutesUntilReady": 1200
             },
         "Wildflour.AtelierGoods_BlastChiller_Lemon_Dream_IceCream_Sandwich": 
             {
@@ -1755,7 +1756,7 @@
                         "CopyQuality": true,
                         "CopyPrice": true,
                         "CustomData": {
-                            "selph.ExtraMachineConfig.RequirementTags.1": "(O)223",
+                            "selph.ExtraMachineConfig.RequirementId.1": "(O)223",
                             "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cookie_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
@@ -1763,12 +1764,12 @@
                         [
                             {
                                 "Modification": "Multiply",
-                                "Amount": 3.0
+                                "Amount": 6.0
                             }
                         ]
                     }    
             ],
-                "MinutesUntilReady": 800
+                "MinutesUntilReady": 1200
             },
         "Wildflour.AtelierGoods_BlastChiller_Nuts4Cherries_IceCream_Sandwich": 
             {
@@ -1786,7 +1787,7 @@
                         "CopyQuality": true,
                         "CopyPrice": true,
                         "CustomData": {
-                            "selph.ExtraMachineConfig.RequirementTags.1": "(O)223",
+                            "selph.ExtraMachineConfig.RequirementId.1": "(O)223",
                             "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cookie_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
@@ -1794,12 +1795,12 @@
                         [
                             {
                                 "Modification": "Multiply",
-                                "Amount": 3.0
+                                "Amount": 6.0
                             }
                         ]
                     }    
             ],
-                "MinutesUntilReady": 800
+                "MinutesUntilReady": 1200
             },
         "Wildflour.AtelierGoods_BlastChiller_Peppermint_Bark_IceCream_Sandwich": 
             {
@@ -1817,7 +1818,7 @@
                         "CopyQuality": true,
                         "CopyPrice": true,
                         "CustomData": {
-                            "selph.ExtraMachineConfig.RequirementTags.1": "(O)223",
+                            "selph.ExtraMachineConfig.RequirementId.1": "(O)223",
                             "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cookie_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
@@ -1825,12 +1826,12 @@
                         [
                             {
                                 "Modification": "Multiply",
-                                "Amount": 3.0
+                                "Amount": 6.0
                             }
                         ]
                     }    
             ],
-                "MinutesUntilReady": 800
+                "MinutesUntilReady": 1200
             },
         "Wildflour.AtelierGoods_BlastChiller_Pumpkin_Pie_IceCream_Sandwich": 
             {
@@ -1848,7 +1849,7 @@
                         "CopyQuality": true,
                         "CopyPrice": true,
                         "CustomData": {
-                            "selph.ExtraMachineConfig.RequirementTags.1": "(O)223",
+                            "selph.ExtraMachineConfig.RequirementId.1": "(O)223",
                             "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cookie_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
@@ -1856,12 +1857,12 @@
                         [
                             {
                                 "Modification": "Multiply",
-                                "Amount": 3.0
+                                "Amount": 6.0
                             }
                         ]
                     }    
             ],
-                "MinutesUntilReady": 800
+                "MinutesUntilReady": 1200
             },
         "Wildflour.AtelierGoods_BlastChiller_Red_Velvet_IceCream_Sandwich": 
             {
@@ -1879,7 +1880,7 @@
                         "CopyQuality": true,
                         "CopyPrice": true,
                         "CustomData": {
-                            "selph.ExtraMachineConfig.RequirementTags.1": "(O)223",
+                            "selph.ExtraMachineConfig.RequirementId.1": "(O)223",
                             "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cookie_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
@@ -1887,12 +1888,12 @@
                         [
                             {
                                 "Modification": "Multiply",
-                                "Amount": 3.0
+                                "Amount": 6.0
                             }
                         ]
                     }    
             ],
-                "MinutesUntilReady": 800
+                "MinutesUntilReady": 1200
             },
         "Wildflour.AtelierGoods_BlastChiller_Strawberry_Sunset_IceCream_Sandwich": 
             {
@@ -1910,7 +1911,7 @@
                         "CopyQuality": true,
                         "CopyPrice": true,
                         "CustomData": {
-                            "selph.ExtraMachineConfig.RequirementTags.1": "(O)223",
+                            "selph.ExtraMachineConfig.RequirementId.1": "(O)223",
                             "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cookie_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
@@ -1918,12 +1919,12 @@
                         [
                             {
                                 "Modification": "Multiply",
-                                "Amount": 3.0
+                                "Amount": 6.0
                             }
                         ]
                     }    
             ],
-                "MinutesUntilReady": 800
+                "MinutesUntilReady": 1200
             },
         "Wildflour.AtelierGoods_BlastChiller_Unicorn_IceCream_Sandwich": 
             {
@@ -1941,7 +1942,7 @@
                         "CopyQuality": true,
                         "CopyPrice": true,
                         "CustomData": {
-                            "selph.ExtraMachineConfig.RequirementTags.1": "(O)223",
+                            "selph.ExtraMachineConfig.RequirementId.1": "(O)223",
                             "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cookie_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
@@ -1949,12 +1950,12 @@
                         [
                             {
                                 "Modification": "Multiply",
-                                "Amount": 3.0
+                                "Amount": 6.0
                             }
                         ]
                     }    
             ],
-                "MinutesUntilReady": 800
+                "MinutesUntilReady": 1200
             },
         "Wildflour.AtelierGoods_BlastChiller_Very_Vanilla_IceCream_Sandwich": 
             {
@@ -1972,7 +1973,7 @@
                         "CopyQuality": true,
                         "CopyPrice": true,
                         "CustomData": {
-                            "selph.ExtraMachineConfig.RequirementTags.1": "(O)223",
+                            "selph.ExtraMachineConfig.RequirementId.1": "(O)223",
                             "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cookie_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
@@ -1980,12 +1981,12 @@
                         [
                             {
                                 "Modification": "Multiply",
-                                "Amount": 3.0
+                                "Amount": 6.0
                             }
                         ]
                     }    
             ],
-                "MinutesUntilReady": 800
+                "MinutesUntilReady": 1200
             }
     }
 },
@@ -4004,11 +4005,6 @@
                             "Trigger": "ItemPlacedInMachine",
                             "RequiredItemID": "(O)Wildflour.AtelierGoods_Lime_Syrup",
                             "RequiredCount": 1
-                        },
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemID": "(O)Wildflour.AtelierGoods_Mint_Syrup",
-                            "RequiredCount": 1
                         }
                 ],
                     "OutputItem": [
@@ -4892,11 +4888,6 @@
                             "Trigger": "ItemPlacedInMachine",
                             "RequiredItemID": "(O)Wildflour.AtelierGoods_Lime_Syrup",
                             "RequiredCount": 1
-                        },
-                        {
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemID": "(O)Wildflour.AtelierGoods_Mint_Syrup",
-                            "RequiredCount": 1
                         }
                 ],
                     "OutputItem": [
@@ -5305,7 +5296,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_White_Chocolate",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WhiteChocolate_NeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WhiteChocolate_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -5549,7 +5540,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Milk_Chocolate",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MilkChocolate_NeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MilkChocolate_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -5580,7 +5571,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Dark_Chocolate",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:DarkChocolate_NeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:DarkChocolate_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -5611,7 +5602,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Milk_Chocolate",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MilkChocolate_NeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MilkChocolate_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -5656,68 +5647,7 @@
                     ],
                     "MinutesUntilReady": 1000
                 },
-                {
-                    "Id": "Wildflour.AtelierGoods_Floral_Chocolate_Truffles",
-                    "Triggers": [
-                        {
-                        "Trigger": "ItemPlacedInMachine",
-                        "RequiredTags": ["edible_flower_item"],
-                        "RequiredCount": 1
-                        }
-                ],
-                    "OutputItem": [
-                        {
-                        "Id": "Wildflour.AtelierGoods_Floral_Chocolate_Truffles",
-                        "ItemId": "Wildflour.AtelierGoods_Floral_Chocolate_Truffles",
-                        "CopyQuality": true,
-                        "CopyPrice": true,
-                        "CustomData": {
-                            "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_White_Chocolate",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WhiteChocolate_NeededMessage}}",
-                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
-                            },
-                        "PriceModifiers": 
-                            [
-                                {
-                                "Modification": "Multiply",
-                                "Amount": 5.5
-                                }
-                            ]
-                        }
-                    ],
-                    "MinutesUntilReady": 1000
-                },
-                {
-                    "Id": "Wildflour.AtelierGoods_Fruity_Chocolate_Truffles",
-                    "Triggers": [
-                        {
-                        "Trigger": "ItemPlacedInMachine",
-                        "RequiredTags": ["category_fruits"],
-                        "RequiredCount": 1
-                        }
-                ],
-                    "OutputItem": [
-                        {
-                        "Id": "Wildflour.AtelierGoods_Fruity_Chocolate_Truffles",
-                        "ItemId": "Wildflour.AtelierGoods_Fruity_Chocolate_Truffles",
-                        "CopyQuality": true,
-                        "CopyPrice": true,
-                        "CustomData": {
-                            "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Dark_Chocolate",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:DarkChocolate_NeededMessage}}",
-                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
-                            },
-                        "PriceModifiers": 
-                            [
-                                {
-                                "Modification": "Multiply",
-                                "Amount": 5.5
-                                }
-                            ]
-                        }
-                    ],
-                    "MinutesUntilReady": 1000
-                },
+            
                 {
                     "Id": "Wildflour.AtelierGoods_Milk_Chocolate_Truffles",
                     "Triggers": [
@@ -5766,7 +5696,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Milk_Chocolate",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MilkChocolate_NeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MilkChocolate_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -5843,42 +5773,6 @@
                     "MinutesUntilReady": 1000
                 },
                 {
-                    "Id": "Wildflour.AtelierGoods_Flavored_Chocolate_Truffles",
-                    "Triggers": [
-                         {
-                        "Trigger": "ItemPlacedInMachine",
-                        "RequiredTags": ["category_fruits"],
-                        "RequiredCount": 1
-                        },
-                        {
-                        "Trigger": "ItemPlacedInMachine",
-                        "RequiredTags": ["edible_flower_item"],
-                        "RequiredCount": 1
-                        }
-                ],
-                    "OutputItem": [
-                        {
-                        "Id": "Wildflour.AtelierGoods_Flavored_Chocolate_Truffles",
-                        "ItemId": "Wildflour.AtelierGoods_Flavored_Chocolate_Truffles",
-                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Chocolate_Truffles %PRESERVED_DISPLAY_NAME]",
-                        "ObjectInternalName": "{0} Chocolate Truffles",
-                        "PreserveId": "DROP_IN",
-                        "CopyColor":true,
-                        "CopyQuality": true,
-                        "CopyPrice": true,
-                        "PriceModifiers": 
-                            [
-                               {
-                                "Modification": "Multiply",
-                                "Amount": 2.5
-                                }
-                            ]
-                        }
-                    ],
-                    "MinutesUntilReady": 1000
-                },
-
-                {
                     "Id": "Wildflour.AtelierGoods_Black_Forest_Chocolate_Bar",
                     "Triggers": [
                         {
@@ -5895,7 +5789,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Dark_Chocolate",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:DarkChocolate_NeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:DarkChocolate_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -5926,7 +5820,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_White_Chocolate",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WhiteChocolate_NeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WhiteChocolate_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                         "PriceModifiers": 
@@ -5962,7 +5856,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_White_Chocolate",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WhiteChocolate_NeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WhiteChocolate_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                        "PriceModifiers": 
@@ -5993,7 +5887,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Dark_Chocolate",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:DarkChocolate_NeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:DarkChocolate_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                        "PriceModifiers": 
@@ -6024,7 +5918,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_White_Chocolate",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WhiteChocolate_NeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WhiteChocolate_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                        "PriceModifiers": 
@@ -6055,7 +5949,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Milk_Chocolate",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MilkChocolate_NeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MilkChocolate_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                        "PriceModifiers": 
@@ -6086,7 +5980,7 @@
                         "CopyPrice": true,
                         "CustomData": {
                             "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_White_Chocolate",
-                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WhiteChocolate_NeededMessage}}",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WhiteChocolate_Needed_Message}}",
                             "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                             },
                       "PriceModifiers": 
@@ -6129,7 +6023,77 @@
                     }
                 ],
                 "MinutesUntilReady": 1200
-                }
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Floral_Chocolate_Truffles",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["edible_flower_item"],
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Floral_Chocolate_Truffles",
+                        "ItemId": "Wildflour.AtelierGoods_Floral_Chocolate_Truffles",
+                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Chocolate_Truffles %PRESERVED_DISPLAY_NAME]",
+                        "ObjectInternalName": "{0} Chocolate Truffles",
+                        "PreserveId": "DROP_IN",
+                        "CopyColor":true,
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_White_Chocolate",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WhiteChocolate_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 5.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                },
+                {
+                    "Id": "Wildflour.AtelierGoods_Fruity_Chocolate_Truffles",
+                    "Triggers": [
+                        {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredTags": ["category_fruits"],
+                        "RequiredCount": 1
+                        }
+                ],
+                    "OutputItem": [
+                        {
+                        "Id": "Wildflour.AtelierGoods_Fruity_Chocolate_Truffles",
+                        "ItemId": "Wildflour.AtelierGoods_Fruity_Chocolate_Truffles",
+                        "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Chocolate_Truffles %PRESERVED_DISPLAY_NAME]",
+                        "ObjectInternalName": "{0} Chocolate Truffles",
+                        "PreserveId": "DROP_IN",
+                        "CopyColor":true,
+                        "CopyQuality": true,
+                        "CopyPrice": true,
+                        "CustomData": {
+                            "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Dark_Chocolate",
+                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:DarkChocolate_Needed_Message}}",
+                            "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                            },
+                        "PriceModifiers": 
+                            [
+                                {
+                                "Modification": "Multiply",
+                                "Amount": 5.5
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                },
             ],
             "AdditionalConsumedItems":[
             ],
@@ -6139,7 +6103,7 @@
             "WobbleWhileWorking":false,
             "WorkingEffects":[
                 {
-                    "Frames":[0,1,2,3,4,5],
+                    "Frames":[1,2,3,4,5],
                     "Interval":100
                 }
            ] 
@@ -6289,8 +6253,8 @@
                     "ItemId": "Wildflour.AtelierGoods_Peppermint_Cloud_Fairy_Floss",
                     "CopyPrice": true,
                     "CustomData": {
-                        "selph.ExtraMachineConfig.RequirementId.1": "(O)Wildflour.AtelierGoods_Mint_Syrup",
-                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MintSyrup_Needed_Message}}",
+                        "selph.ExtraMachineConfig.RequirementTags.1": "mint_item",
+                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Mint_Needed_Message}}",
                         "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                         },
                     "PriceModifiers": 

@@ -347,6 +347,7 @@
             ["wildflour_forage",
             "herb_item",
             "anise_item",
+            "star_anise_item",
             "season_spring",
             "color_green"],
 
@@ -425,9 +426,10 @@
             "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
 
             "ContextTags":
-            ["AtelierGoods_Forage",
+            ["wildflour_forage",
             "berry_item",
             "elderberry_item",
+            "elderberries_item",
             "season_summer",
             "color_dark_blue"],
 
@@ -487,7 +489,7 @@
             "citrus_item",
             "lime_item",
             "season_spring",
-            "color_Lime"],
+            "color_lime"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 14
@@ -746,6 +748,7 @@
             ["wildflour_forage",
             "edible_flower_item",
             "mallow_item",
+            "hibiscus_item",
             "season_spring",
             "season_summer",
             "color_light_pink"],
@@ -1508,6 +1511,27 @@
             "Texture": "Mods/Wildflour.AtelierGoods/GiantCrops",
             "TexturePosition": {
                 "X": 144,
+                "Y": 64
+            },
+            "TileSize":{
+                "X": 3,
+                "Y": 3
+            }
+    },
+        "Wildflour.AtelierGoods_Giant_Wild_Raspberry": {
+            "FromItemId":"Wildflour.AtelierGoods_Wild_Raspberry",
+            "Seasons": [ "summer" ],
+            "Chance":1.0,
+            "HarvestItems":[
+            {
+                "ItemId":"Wildflour.AtelierGoods_Wild_Raspberry",
+                "MinStack":"9",
+                "MaxStack":"21"
+            }
+        ],
+            "Texture": "Mods/Wildflour.AtelierGoods/GiantCrops",
+            "TexturePosition": {
+                "X": 192,
                 "Y": 64
             },
             "TileSize":{

@@ -34,7 +34,7 @@
 ////////////////////
 
 "AtelierGoods_Baker_Mail_Intro.name":"Your Bake it to the Limit Subscription",
-"AtelierGoods_Baker_Mail_Intro.text":"Hey honey,^^ I had your baking magazine forwarded to your new address at the farm. Remember: it's easy to make friends when you show up with cookies!^^Love, Mom",
+"AtelierGoods_Baker_Mail_Intro.text":"Hey honey,^^ I had your baking magazine forwarded to your new address at the farm. Remember: it's easy to make friends when you show up with treats!^^Love, Mom",
 
 "AtelierGoods_Baker_Mixer_Mail.name":"Kooky for Cookies!",
 "AtelierGoods_Baker_Mixer_Mail.text":"Hello bakers!^^ Attached you will find blueprints for your very own mixer. With it, you can whip up chewy cookies and fudgy brownies for nearly any occasion. The key to perfect cookies and brownies is cookie mix made in your very own kitchen, so be sure to have plenty on hand before you start baking!",
@@ -65,10 +65,10 @@
 "AtelierGoods_ShopBundleComplete":"Thank you! Come back tomorrow okay? Bye!",
 
 "AtelierGoods_JunimoGem_Vanilla_Mail.name":"Strange Gem?",
-"AtelierGoods_JunimoGem_Vanilla_Mail.text":"Hello, @! ^^ We have not met, but my name is Wildflour and I am an alchemist from Sunberry Village who has heard great things about you! From who? Don't worry about that.^^The point is: I have discovered that those friendly with the forest spirits (also known as junimos) are finding junimo gems in their crafting machines alongside their artisan goods. Though we aren't exactly sure what they are, I've been told by a VERY RELIABLE SOURCE that you should take 5 of these gems and head towards the western bit of the forest behind the Wizard's tower. You will be glad you did! ^^Wildflour, The Alchemist",
+"AtelierGoods_JunimoGem_Vanilla_Mail.text":"Hello, @! ^^ We have not met, but my name is Wildflour and I am an alchemist from Sunberry Village who has heard great things about you! From who? Don't worry about that.^^The point is: I have discovered that those friendly with the forest spirits (also known as junimos) are finding junimo gems in certain crafting machines alongside their artisan goods. Though we aren't exactly sure what they are, I've been told by a VERY RELIABLE SOURCE that you should take 5 of these gems and head towards the southern bit of the forest by the abandoned house. You will be glad you did! ^^Wildflour, The Alchemist",
 
 "AtelierGoods_JunimoGem_SBV_Mail.name":"Strange Gem?",
-"AtelierGoods_JunimoGem_SBV_Mail.text":"Hello, @! ^^ Great news! I have discovered that those friendly with the forest spirits (also known as junimos) are finding junimo gems in their crafting machines alongside their artisan goods. I've been told by a VERY RELIABLE SOURCE that you should take 5 of these gems with you and travel to the area by the east of Sunberry road, before you enter the village. ^^Why?^^ ^^ Why NOT?^^ Just trust me on this one. ^^ Wildflour, The Alchemist",
+"AtelierGoods_JunimoGem_SBV_Mail.text":"Hello, @! ^^ Great news! I have discovered that those friendly with the forest spirits (also known as junimos) are finding junimo gems in certain crafting machines alongside their artisan goods. I've been told by a VERY RELIABLE SOURCE that you should take 5 of these gems with you and travel to the area by the east of Sunberry road, before you enter the village. ^^Why?^^ ^^ Why NOT?^^ Just trust me on this one. ^^ Wildflour, The Alchemist",
 
 "AtelierGoods_StarterBundle_Vanilla.name": "?",
 "AtelierGoods_StarterBundle_Vanilla.description": "Give shiny gems?",
@@ -176,12 +176,12 @@
 "AtelierGoods_CoffeeGrinder_InvalidCount.message": "Requires coffee bean as fuel.",
 
 "AtelierGoods_CosmeticCrystal.name": "Cosmetic Crystal",
-"AtelierGoods_CosmeticCrystal.description": "Magically creates various cosmetics from gems and minerals. Requires moss as fuel.",
+"AtelierGoods_CosmeticCrystal.description": "Magically creates various cosmetics from gems, minerals and even forage. Requires moss as fuel.",
 "AtelierGoods_CosmeticCrystal_InvalidItem.message": "This doesn't go in the Cosmetic Crystal.",
 "AtelierGoods_CosmeticCrystal_InvalidCount.message": "Requires moss as fuel.",
 
 "AtelierGoods_Deluxe_Dessert_Stand.name": "Deluxe Dessert Stand",
-"AtelierGoods_Deluxe_Dessert_Stand.description": "Craft puddings here using fruit syrups. Requires pectin as fuel.",
+"AtelierGoods_Deluxe_Dessert_Stand.description": "Craft puddings here using fruits and edible flowers. Requires pectin as fuel.",
 "AtelierGoods_Deluxe_DessertStand_InvalidCount.message":"Requires pectin as fuel.",
 "AtelierGoods_Deluxe_DessertStand_InvalidItem.message":"Cannot make this into a pudding.",
 
@@ -373,6 +373,20 @@
 //////////// BASIC ITEM STRINGS, NAMES & DESCRIPTIONS  /////////////////
 ////////////////////////////////////////////////////////////////////////
 
+
+"AtelierGoods_Generic_Flower_Basket": "{0} Basket",
+"AtelierGoods_Generic_Fish_Basket": "{0} Basket",
+"AtelierGoods_Flavored_Mushroom_Basket": "{0} Basket",
+"AtelierGoods_Fruit_Basket": "{0} Basket",
+"AtelierGoods_Veggie_Box": "Box of {0}",
+"AtelierGoods_Forage_Box": "Box of {0}",
+"AtelierGoods_Wine_Crate": "{0} Crate",
+"AtelierGoods_Juice_Crate": "{0} Crate",
+"AtelierGoods_Jelly_Crate": "{0} Crate",
+"AtelierGoods_Pickle_Crate": "{0} Crate",
+"AtelierGoods_Roe_Basket": "{0} Basket",
+"AtelierGoods_Aged_Roe_Jars": "{0} Basket",
+
 "AtelierGoods_Flavored_Ale": "{0} Ale",
 "AtelierGoods_Flavored_Ale.name": "Specialty Ale",
 "AtelierGoods_Flavored_Ale.description": "A bold ale made by adding fresh fruit or edible flowers to the brewing process.",
@@ -385,7 +399,7 @@
 "AtelierGoods_Flavored_Cake.name": "Cake",
 "AtelierGoods_Flavored_Cake.description": "Freshly-baked cake!",
 
-"AtelierGoods_Flavored_Chocolate_Bar": "{0} Chocolate_Bar",
+"AtelierGoods_Flavored_Chocolate_Bar": "{0} Chocolate Bar",
 "AtelierGoods_Flavored_Chocolate_Bar.name": "Gourmet Chocolate Bar",
 "AtelierGoods_Flavored_Chocolate_Bar.description": "A gourmet chocolate bar.",
 
@@ -413,7 +427,7 @@
 "AtelierGoods_Flavored_Fairy_Floss.name": "Fairy Floss",
 "AtelierGoods_Flavored_Fairy_Floss.description": "Otherwise known as cotton candy; a very sweet treat of spun sugar and flavorings.",
 
-"AtelierGoods_Flavored_Ground Coffee":"{0} Ground Coffee",
+"AtelierGoods_Flavored_Ground_Coffee":"{0} Ground Coffee",
 "AtelierGoods_Flavored_Ground_Coffee.name":"Ground Coffee",
 "AtelierGoods_Flavored_Ground_Coffee.description":"A custom blend of unique flavors combined into a flavored ground coffee bag.",
 
@@ -700,8 +714,8 @@
 "AtelierGoods_Chocolate_Strawberry_Petit_Fours.name": "Chocolate Strawberry Petit Fours",
 "AtelierGoods_Chocolate_Strawberry_Petit_Fours.description": "Elegant tiny cakes flavored with chocolate and strawberries.",
 
-"AtelierGoods_Citrus_Petit_Fours.name": "Chamomile Citrus Petit Fours",
-"AtelierGoods_Citrus_Petit_Fours.description": "Elegant tiny cakes flavored with chamomile and citrus.",
+"AtelierGoods_Citrus_Petit_Fours.name": "Citrus Petit Fours",
+"AtelierGoods_Citrus_Petit_Fours.description": "Elegant tiny cakes flavored with fresh citrus.",
 
 "AtelierGoods_Red_Velvet_Petit_Fours.name": "Red Velvet Petit Fours",
 "AtelierGoods_Red_Velvet_Petit_Fours.description": "Elegant tiny red velvet style cakes.",
@@ -722,8 +736,8 @@
 "AtelierGoods_Elderberry_Pie.name": "Elderberry Pie",
 "AtelierGoods_Elderberry_Pie.description": "Flaky pie crust filled with a rich elderberry filling.",
 
-"AtelierGoods_Apple_Pie.name": "Apple Cinnamon Pie",
-"AtelierGoods_Apple_Pie.description": "Flaky pie crust filled with a rich apple-cinnamon filling.",
+"AtelierGoods_Apple_Pie.name": "Caramel Apple Pie",
+"AtelierGoods_Apple_Pie.description": "Flaky pie crust filled with a rich apple-caramel filling.",
 
 "AtelierGoods_Sweet_Potato_Pie.name": "Sweet Potato Pie",
 "AtelierGoods_Sweet_Potato_Pie.description": "Flaky pie crust filled with a rich sweet potato filling.",
@@ -1376,7 +1390,7 @@
 "AtelierGoods_Green_Hard_Candy.name":"Leaf Green Hard Candy",
 "AtelierGoods_Green_Hard_Candy.description":"Old-fashioned hard candies made with green-tinted sugar syrups.",
 
-"AtelierGoods_Orange_Hard_Candy.name":"Tiger Orange Hard Candy ",
+"AtelierGoods_Orange_Hard_Candy.name":"Tiger Orange Hard Candy",
 "AtelierGoods_Orange_Hard_Candy.description":"Old-fashioned hard candies made with orange-tinted sugar syrups.",
 
 "AtelierGoods_Pink_Hard_Candy.name":"Pink Petals Hard Candy",
@@ -1831,13 +1845,13 @@
 // MILKS
 
 "AtelierGoods_Almond_Milk.name": "Almond Milk",
-"AtelierGoods_Almond_Milk.description": "An alterative milk made from almonds. A great substitute for dairy in baking, smoothies and more!",
+"AtelierGoods_Almond_Milk.description": "An alterative milk made from almonds.  A by-product from making almond flour in the kitchen mortar.",
 
 "AtelierGoods_Coconut_Milk.name": "Coconut Milk",
-"AtelierGoods_Coconut_Milk.description": "An alterative milk made from coconuts. A great substitute for dairy in baking, smoothies and more!",
+"AtelierGoods_Coconut_Milk.description": "An alterative milk made from coconuts. A by-product from making coconut flour in the kitchen mortar.",
 
 "AtelierGoods_Rice_Milk.name": "Rice Milk",
-"AtelierGoods_Rice_Milk.description": "An alterative milk made from rice. A great substitute for dairy in baking, smoothies and more!",
+"AtelierGoods_Rice_Milk.description": "An alterative milk made from rice.  A by-product from making rice flour in the kitchen mortar.",
 
 // CHOCOLATE
 
@@ -1879,13 +1893,13 @@
 // DAIRY
 
 "AtelierGoods_Butter.name": "Butter",
-"AtelierGoods_Butter.description": "Milk churned by hand into glorious butter.",
+"AtelierGoods_Butter.description": "Milk churned into glorious butter.",
 
 "AtelierGoods_Buttermilk.name": "Buttermilk",
-"AtelierGoods_Buttermilk.description": "Although it smells a bit unpleasant, this ingredient helps create tender cornbread and fluffy pancakes.",
+"AtelierGoods_Buttermilk.description": " A by-product from making butter in the kitchen mortar, buttermilk helps create tender cornbread and fluffy pancakes.",
 
 "AtelierGoods_Cream.name": "Cream",
-"AtelierGoods_Cream.description": "Cream is essential to baking certain pastries and whipping up soft, fluffy frostings!",
+"AtelierGoods_Cream.description": "A by-product from making butter in the kitchen mortar, cream is essential for whipping up soft, fluffy frostings!",
 
 "AtelierGoods_Cream_Cheese.name": "Cream Cheese",
 "AtelierGoods_Cream_Cheese.description": "Cream cheese is perfect for cheesecake or just smearing on a bagel.",
@@ -1957,7 +1971,7 @@
 "AtelierGoods_Almond_Flour.name": "Almond Flour",
 "AtelierGoods_Almond_Flour.description": "An artisanal flour made from ground almonds. Essential for macarons, but also great for gluten-free baking!",
 
-"AtelierGoods_Bread_Flour.name": "Bread Flour ",
+"AtelierGoods_Bread_Flour.name": "Bread Flour",
 "AtelierGoods_Bread_Flour.description": "An artisanal flour made from a heartier type of wheat. Its higher protein content lends itself well to most bread doughs.",
 
 "AtelierGoods_Cake_Flour.name": "Cake Flour",
@@ -2588,7 +2602,7 @@
 "AtelierGoods_Chicken_Woods.name": "Chicken of the Woods",
 "AtelierGoods_Chicken_Woods.description": "This strangely named mushroom is found all over the world and some argue it does indeed taste just like chicken!",
 "AtelierGoods_Chicken_Woods_Seeds.name":"Chicken of the Woods Starter",
-"AtelierGoods_Chicken_Woods_Seeds.description":"Plant in Summer. Takes 14 days to reach maturity and then can be harvested every 5 days after.",
+"AtelierGoods_Chicken_Woods_Seeds.description":"Plant in summer. Takes 14 days to reach maturity and then can be harvested every 5 days after.",
 
 "AtelierGoods_Cilantro.name": "Cindersap Cilantro",
 "AtelierGoods_Cilantro.description": "A wild variety of cilantro (also known as coriander) that is often used in spicy dishes or salsas.",
@@ -2598,134 +2612,134 @@
 "AtelierGoods_Honey_Fungus.name": "Honey Fungus Mushroom",
 "AtelierGoods_Honey_Fungus.description": "Though dangerous to consume raw, these mushrooms have a rich, nutty taste when cooked properly.",	
 "AtelierGoods_Honey_Fungus_Seeds.name":"Honey Fungus Mushroom Starter",
-"AtelierGoods_Honey_Fungus_Seeds.description":"Plant in Spring. Takes 21 days to reach maturity and then can be harvested every 3 days after.",
+"AtelierGoods_Honey_Fungus_Seeds.description":"Plant in spring. Takes 21 days to reach maturity and then can be harvested every 3 days after.",
 
 "AtelierGoods_Jasmine.name": "Gem Isle Jasmine",
 "AtelierGoods_Jasmine.description": "A beautifully fragrant flower found only by foraging on Ginger Island.",
 "AtelierGoods_Jasmine_Seeds.name": "Gem Isle Jasmine Seeds",
-"AtelierGoods_Jasmine_Seeds.description": "Plant in summer. Takes 14 days to grow and can be harvested every 5 days after.",
+"AtelierGoods_Jasmine_Seeds.description": "Plant in summer. Takes 14 days to reach maturity and can be harvested every 5 days after.",
 
 "AtelierGoods_Lavender.name": "Forest Lavender",
 "AtelierGoods_Lavender.description": "A fragrant, bushy flower found deep in the forest.",
 "AtelierGoods_Lavender_Seeds.name": "Forest Lavender Seeds",
-"AtelierGoods_Lavender_Seeds.description": "Plant in spring, summer, or fall. Takes 14 days to grow and can be harvested every 4 days after.",
+"AtelierGoods_Lavender_Seeds.description": "Plant in spring, summer, or fall. Takes 14 days to reach maturity and can be harvested every 4 days after.",
 
 "AtelierGoods_Mallow.name": "Marsh Mallow",
-"AtelierGoods_Mallow.description": "Marsh Mallow flowers. Primarily used in sweet making.",
+"AtelierGoods_Mallow.description": "A flower primarily used in sweet making.",
 "AtelierGoods_Mallow_Seeds.name": "Marsh Mallow Seeds",
-"AtelierGoods_Mallow_Seeds.description": "Plant in Spring or Summer. Takes 8 days to mature and can be harvested every 4 days after.",
+"AtelierGoods_Mallow_Seeds.description": "Plant in spring or summer. Takes 8 days to reach maturity and can be harvested every 4 days after.",
 
 "AtelierGoods_Meringue_Mushroom.name": "Meringue Mushroom",
 "AtelierGoods_Meringue_Mushroom.description": "A strangely sweet mushroom found only by the best foragers in the valley, its color and shape seem almost candylike.",
 "AtelierGoods_Meringue_Mushroom_Seeds.name":"Meringue Mushroom Starter",
-"AtelierGoods_Meringue_Mushroom_Seeds.description":"Plant in Fall. Takes 16 days to reach maturity and then can be harvested every 3 days after.",
+"AtelierGoods_Meringue_Mushroom_Seeds.description":"Plant in fall. Takes 16 days to reach maturity and then can be harvested every 3 days after.",
 
 "AtelierGoods_Milk_Mushroom.name": "Milky White Mushrooms",
 "AtelierGoods_Milk_Mushroom.description": "These mushrooms are bright white and have a creamy texture.",
 "AtelierGoods_Milk_Mushroom_Seeds.name":"Milky White Mushroom Starter",
-"AtelierGoods_Milk_Mushroom_Seeds.description":"Plant in Summer or Fall. Takes 14 days to reach maturity and then can be harvested every 5 days after.",
+"AtelierGoods_Milk_Mushroom_Seeds.description":"Plant in summer or fall. Takes 14 days to reach maturity and then can be harvested every 5 days after.",
 
 "AtelierGoods_Mint.name": "Pelican Mint",
 "AtelierGoods_Mint.description": "A type of mint that grows all around Pelican Town, no matter how much the villagers try to get rid of it.",
 "AtelierGoods_Mint_Seeds.name": "Pelican Mint Seeds",
-"AtelierGoods_Mint_Seeds.description": "Plant in spring or summer. Takes 12 days to grow and can be harvested every 3 days after.",
+"AtelierGoods_Mint_Seeds.description": "Plant in spring or summer. Takes 12 days to reach maturity and can be harvested every 3 days after.",
 
 "AtelierGoods_Red_Onion.name": "Wild Red Onion",
 "AtelierGoods_Red_Onion.description": "Much like the wild carrot, be wary of this onion or it will make you cry!",
 "AtelierGoods_Red_Onion_Seeds.name": "Wild Red Onion Seeds",
-"AtelierGoods_Red_Onion_Seeds.description": "Plant in spring or fall. Takes 7 days to grow.",
+"AtelierGoods_Red_Onion_Seeds.description": "Plant in spring or fall. Takes 7 days to reach maturity.",
 
 "AtelierGoods_Rosemary.name": "Hardy Rosemary",
 "AtelierGoods_Rosemary.description": "A strong and sturdy herb that thrives almost anywhere; it almost resembles a small pine tree.",
 "AtelierGoods_Rosemary_Seeds.name": "Hardy Rosemary Starter",
-"AtelierGoods_Rosemary_Seeds.description": "Plant in spring or fall. Takes 14 days to grow and can be harvested every 4 days after.",
+"AtelierGoods_Rosemary_Seeds.description": "Plant in spring or fall. Takes 14 days to reach maturity and can be harvested every 4 days after.",
 
 "AtelierGoods_Sage.name": "Cindersap Sage",
 "AtelierGoods_Sage.description": "A delicate herb with floral notes, used to cut through the rich flavor of many autumn dishes.",
 "AtelierGoods_Sage_Seeds.name": "Cindersap Sage Starter",
-"AtelierGoods_Sage_Seeds.description": "Plant in fall. Takes 12 days to grow and can be harvested every 5 days after.",
+"AtelierGoods_Sage_Seeds.description": "Plant in fall. Takes 12 days to reach maturity and can be harvested every 5 days after.",
 
 "AtelierGoods_Thyme.name": "Lemon Thyme",
 "AtelierGoods_Thyme.description": "A popular herb that grows quickly in any garden; the lemon variety is prized for its herby, citrus flavor.",
 "AtelierGoods_Thyme_Seeds.name": "Lemon Thyme Starter",
-"AtelierGoods_Thyme_Seeds.description": "Plant in spring or summer. Takes 12 days to grow and can be harvested every 5 days after.",
+"AtelierGoods_Thyme_Seeds.description": "Plant in spring or summer. Takes 12 days to reach maturity and can be harvested every 5 days after.",
 
 "AtelierGoods_Vanilla.name": "Calico Vanilla",
 "AtelierGoods_Vanilla.description": "A unique vanilla found only by foraging in the Calico Desert.",
 "AtelierGoods_Vanilla_Seeds.name": "Calico Vanilla Starter",
-"AtelierGoods_Vanilla_Seeds.description": "Plant in summer. Takes 14 days to grow, then can be harvested every 5 days.",
+"AtelierGoods_Vanilla_Seeds.description": "Plant in summer. Takes 14 days to reach maturity, and can be harvested every 5 days after.",
 
 "AtelierGoods_Wheatberry_Mushroom.name": "Wheatberry Mushroom",
 "AtelierGoods_Wheatberry_Mushroom.description": "An ordinary looking mushroom to the amateur forager, masters know this fungus can be transformed into a key culinary ingredient.",
 "AtelierGoods_Wheatberry_Mushroom_Seeds.name":"Wheatberry Mushroom Starter",
-"AtelierGoods_Wheatberry_Mushroom_Seeds.description":"Plant in Spring. Takes 12 days to reach maturity and then can be harvested every 4 days after.",
+"AtelierGoods_Wheatberry_Mushroom_Seeds.description":"Plant in spring. Takes 12 days to reach maturity and can be harvested every 4 days after.",
 
 "AtelierGoods_Wild_Raspberry.name": "Wild Raspberry",
 "AtelierGoods_Wild_Raspberry.description": "A small, sweet berry that grows wild in forests all over Ferngill.",
 "AtelierGoods_Wild_Raspberry_Seeds.name": "Wild Raspberry Starter",
-"AtelierGoods_Wild_Raspberry_Seeds.description": "Plant in summer. Takes 8 days to grow and can be harvested every 4 days after.",
+"AtelierGoods_Wild_Raspberry_Seeds.description": "Plant in summer. Takes 8 days to reach maturity and can be harvested every 4 days after.",
 
 "AtelierGoods_Wild_Strawberry.name": "Wild Strawberry",
 "AtelierGoods_Wild_Strawberry.description": "A smaller variety of strawberry that grows wild in forests all over Ferngill.",
 "AtelierGoods_Wild_Strawberry_Seeds.name": "Wild Strawberry Starter",
-"AtelierGoods_Wild_Strawberry_Seeds.description": "Plant in spring. Takes 8 days to grow and can be harvested every 4 days after.",
+"AtelierGoods_Wild_Strawberry_Seeds.description": "Plant in spring. Takes 8 days to reach maturity and can be harvested every 4 days after.",
 
 "AtelierGoods_Wormwood.name": "Wormwood",
 "AtelierGoods_Wormwood.description": "Often known for being one of the main ingredients in absinthe, this herb has a wide variety of uses.",
 "AtelierGoods_Wormwood_Seeds.name": "Wormwood Seeds",
-"AtelierGoods_Wormwood_Seeds.description": "Plant in summer. Takes 10 days to grow and can be harvested every 3 days after.",
+"AtelierGoods_Wormwood_Seeds.description": "Plant in summer. Takes 10 days to reach maturity and can be harvested every 3 days after.",
 
 //TREES
 
 "AtelierGoods_Almond.name": "St Cannoli Almond",
 "AtelierGoods_Almond.description": "A forager's dream come true! The rarest of almonds, said to be grown by Old Master Cannoli himself.",
 "AtelierGoods_Almond_Sapling.name": "St Cannoli Almond Sapling",
-"AtelierGoods_Almond_Sapling.description": "Takes 28 days to produce a mature St Cannoli Almond tree. Bears fruit in the summer.",
+"AtelierGoods_Almond_Sapling.description": "Takes 28 days to produce a mature St Cannoli Almond tree. Bears fruit in the summer. Only grows if the 8 surrounding tiles are empty.",
 
 "AtelierGoods_Anise.name": "Star Anise",
 "AtelierGoods_Anise.description": "Though a common herb in many traditional kitchens, star anise also has many magical properties and can be used to bring about prophetic visions.",
 "AtelierGoods_Anise_Sapling.name": "Star Anise Sapling",
-"AtelierGoods_Anise_Sapling.description": "Takes 28 days to produce a mature Star Anise tree. Ready to harvest in the spring. Only grows if the 8 surrounding tiles are empty.",
+"AtelierGoods_Anise_Sapling.description": "Takes 28 days to produce a mature Star Anise tree. Bears fruit in the spring. Only grows if the 8 surrounding tiles are empty.",
 
 "AtelierGoods_Cacao_Pod.name": "Wild Cacao Pod",
 "AtelierGoods_Cacao_Pod.description": "Fruity, fleshy pod of the cacao tree. Used in making cocoa and exotic foods.",
 "AtelierGoods_Cacao_Sapling.name": "Wild Cacao Sapling",
-"AtelierGoods_Cacao_Sapling.description": "Takes 28 days to produce a mature Cacao tree. Bears fruit in the Fall.",
+"AtelierGoods_Cacao_Sapling.description": "Takes 28 days to produce a mature Cacao tree. Bears fruit in the fall. Only grows if the 8 surrounding tiles are empty.",
 
 "AtelierGoods_Cashew_Sapling.name": "Gem Sea Cashew Sapling",
-"AtelierGoods_Cashew_Sapling.description": "Takes 28 days to produce a mature Gem Sea Cashew Tree. Bears fruit in the fall.",
+"AtelierGoods_Cashew_Sapling.description": "Takes 28 days to produce a mature Gem Sea Cashew Tree. Bears fruit in the fall. Only grows if the 8 surrounding tiles are empty.",
 "AtelierGoods_Cashew.name": "Gem Sea Cashew",
 "AtelierGoods_Cashew.description": "The nut from the tropical cashew apple fruit, found only on islands in the Gem Sea.",
 
 "AtelierGoods_Elderberries.name": "Elderberry Blossoms",
 "AtelierGoods_Elderberries.description": "A cluster of elderberries and their flowers; these make for a great tea or cordial.",
 "AtelierGoods_Elder_Sapling.name": "Elder Sapling",
-"AtelierGoods_Elder_Sapling.description": "Takes 28 days to produce a mature Elder tree. Ready to harvest in the summer. Only grows if the 8 surrounding tiles are empty.",
+"AtelierGoods_Elder_Sapling.description": "Takes 28 days to produce a mature Elder tree. Bears fruit in the summer. Only grows if the 8 surrounding tiles are empty.",
 
 "AtelierGoods_Lemon.name": "Petite Lemon",
 "AtelierGoods_Lemon.description": "A tiny, but flavorful lemon found out in the wild by skilled foragers.",
 "AtelierGoods_Lemon_Sapling.name":"Petite Lemon Sapling",
-"AtelierGoods_Lemon_Sapling.description":"Takes 28 days to produce a mature Petite Lemon tree. Bears fruit in the Spring.",
+"AtelierGoods_Lemon_Sapling.description":"Takes 28 days to produce a mature Petite Lemon tree. Bears fruit in the spring. Only grows if the 8 surrounding tiles are empty.",
 
 "AtelierGoods_Lime.name": "Petite Lime",
 "AtelierGoods_Lime.description": "A tiny, but flavorful lime found out in the wild by skilled foragers.",
 "AtelierGoods_Lime_Sapling.name":"Petite Lime Sapling",
-"AtelierGoods_Lime_Sapling.description":"Takes 28 days to produce a mature Petite Lime tree. Bears fruit in the Spring.",
+"AtelierGoods_Lime_Sapling.description":"Takes 28 days to produce a mature Petite Lime tree. Bears fruit in the spring. Only grows if the 8 surrounding tiles are empty.",
 
 "AtelierGoods_Olive.name": "Fern Isle Olive",
 "AtelierGoods_Olive.description": "A rare type of olive found on tropical islands, found by skilled foragers on beaches in the Ferngill Republic.",
 "AtelierGoods_Olive_Sapling.name": "Fern Isle Olive Sapling",
-"AtelierGoods_Olive_Sapling.description": "Takes 28 days to produce a mature Fern Isle Olive Tree. Bears fruit in the summer.",
+"AtelierGoods_Olive_Sapling.description": "Takes 28 days to produce a mature Fern Isle Olive Tree. Bears fruit in the summer. Only grows if the 8 surrounding tiles are empty.",
 
 "AtelierGoods_Pistachio.name":"Calico Pistachio",
 "AtelierGoods_Pistachio.description":"A unique pistachio nut found only by foraging in the Calico Desert.",
 "AtelierGoods_Pistachio_Sapling.name": "Calico Pistachio Sapling",
-"AtelierGoods_Pistachio_Sapling.description": "Takes 28 days to produce a mature Calico Pistachio tree. Bears fruit in the summer.",
+"AtelierGoods_Pistachio_Sapling.description": "Takes 28 days to produce a mature Calico Pistachio tree. Bears fruit in the summer. Only grows if the 8 surrounding tiles are empty.",
 
 "AtelierGoods_Walnut.name": "Grampleton Walnut",
 "AtelierGoods_Walnut.description": "A cultivar of walnut found to grow locally in Grampleton, and apparently now in Pelican Town!",
 "AtelierGoods_Walnut_Sapling.name": "Grampleton Walnut Sapling",
-"AtelierGoods_Walnut_Sapling.description": "Takes 28 days to produce a mature Grampleton Walnut Tree. Bears fruit in the Fall.",
+"AtelierGoods_Walnut_Sapling.description": "Takes 28 days to produce a mature Grampleton Walnut Tree. Bears fruit in the fall. Only grows if the 8 surrounding tiles are empty.",
 
 //OBJECTS
 

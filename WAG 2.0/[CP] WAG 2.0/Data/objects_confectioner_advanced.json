@@ -2255,7 +2255,7 @@
             "LogName":"Add Ice Cream Sandwich Objects",
             "Action": "EditData",
             "Target": "Data/Objects",
-            "When": {"Atelier.Cauldron/ConfigValue:IceCreamSandwiches": true},
+            "When": {"Atelier.Cauldron/ConfigValue:IceCreamSandwich": true},
             "Entries": {
                 "Wildflour.AtelierGoods_Birdies_Banana_IceCream_Sandwich": {
                     "Name": "Wildflour.AtelierGoods_Birdies_Banana_IceCream_Sandwich",
@@ -3105,6 +3105,7 @@
                     "wildflour_confectioner_item",
                     "food_sweet",
                     "candy_item",
+                    "wildflour_marshmallow_item",
                     "marshmallow_item",
                     "color_cream"],
 
@@ -3127,6 +3128,7 @@
                     "food_sweet",
                     "candy_item",
                     "marshmallow_item",
+                    "wildflour_marshmallow_item",
                     "color_cream"],
 
                     "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -3148,6 +3150,7 @@
                     "food_sweet",
                     "candy_item",
                     "marshmallow_item",
+                    "wildflour_marshmallow_item",
                     "color_cream"],
 
                     "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -3169,6 +3172,7 @@
                     "food_sweet",
                     "candy_item",
                     "marshmallow_item",
+                    "wildflour_marshmallow_item",
                     "color_cream"],
 
                     "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -3190,6 +3194,7 @@
                     "food_sweet",
                     "candy_item",
                     "marshmallow_item",
+                    "wildflour_marshmallow_item",
                     "color_cream"],
 
                     "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -3211,6 +3216,7 @@
                     "food_sweet",
                     "candy_item",
                     "marshmallow_item",
+                    "wildflour_marshmallow_item",
                     "color_cream"],
 
                     "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -3232,6 +3238,7 @@
                     "food_sweet",
                     "candy_item",
                     "marshmallow_item",
+                    "wildflour_marshmallow_item",
                     "color_cream"],
 
                     "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -3253,6 +3260,7 @@
                     "food_sweet",
                     "candy_item",
                     "marshmallow_item",
+                    "wildflour_marshmallow_item",
                     "color_cream"],
 
                     "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -3275,6 +3283,7 @@
                     "food_sweet",
                     "candy_item",
                     "marshmallow_item",
+                    "wildflour_marshmallow_item",
                     "color_cream"],
         
                     "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -3717,7 +3726,7 @@
             "Target": "Strings/Objects",
             "When": {"Atelier.Cauldron/ConfigValue:Lollipops": true},
             "Entries": {
-              "Wildflour.AtelierGoods_Flavored_Gourmet_Lollipop": "{{i18n: AtelierGoods_Flavored_Gourmet_Lollipop}}"
+              "Wildflour.AtelierGoods_Flavored_Lollipop": "{{i18n: AtelierGoods_Flavored_Lollipop}}"
             }
         },
 
@@ -4621,7 +4630,8 @@
                     "Name": "Wildflour.AtelierGoods_Floral_Chocolate_Truffles",
                     "DisplayName": "{{i18n:AtelierGoods_Floral_Chocolate_Truffles.name}}",
                     "Description": "{{i18n:AtelierGoods_Floral_Chocolate_Truffles.description}}",
-                    "Type": "ArtisanGoods",          
+                    "Type": "ArtisanGoods",
+                    "ColorOverlayFromNextIndex":true,
                     "Category": -26,
                     "Edibility": 26,
                     "Price": 100,
@@ -4636,13 +4646,14 @@
                     "color_dark_pink"],
 
                     "Texture": "Mods/Wildflour.AtelierGoods/Objects",
-                    "SpriteIndex": 645
+                    "SpriteIndex": 874
             },
                 "Wildflour.AtelierGoods_Fruity_Chocolate_Truffles": {
                     "Name": "Wildflour.AtelierGoods_Fruity_Chocolate_Truffles",
                     "DisplayName": "{{i18n:AtelierGoods_Fruity_Chocolate_Truffles.name}}",
                     "Description": "{{i18n:AtelierGoods_Fruity_Chocolate_Truffles.description}}",
-                    "Type": "ArtisanGoods",          
+                    "Type": "ArtisanGoods",
+                    "ColorOverlayFromNextIndex":true,
                     "Category": -26,
                     "Edibility": 26,
                     "Price": 100,
@@ -4657,7 +4668,7 @@
                     "color_dark_pink"],
 
                     "Texture": "Mods/Wildflour.AtelierGoods/Objects",
-                    "SpriteIndex": 644
+                    "SpriteIndex": 876
             },
                 "Wildflour.AtelierGoods_Milk_Chocolate_Truffles": {
                     "Name": "Wildflour.AtelierGoods_Milk_Chocolate_Truffles",
@@ -4896,28 +4907,6 @@
         
                     "Texture": "Mods/Wildflour.AtelierGoods/Objects",
                     "SpriteIndex": 632
-            },
-                "Wildflour.AtelierGoods_Flavored_Chocolate_Truffles": {
-                    "Name": "Wildflour.AtelierGoods_Flavored_Chocolate_Truffles",
-                    "DisplayName": "{{i18n:AtelierGoods_Flavored_Chocolate_Truffles.name}}",
-                    "Description": "{{i18n:AtelierGoods_Flavored_Chocolate_Truffles.description}}",
-                    "Type": "ArtisanGoods",
-                    "ColorOverlayFromNextIndex":true,
-                    "Category": -26,
-                    "Edibility": 26,
-                    "Price": 100,
-                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
-        
-                    "ContextTags":
-                    ["wildflour_candy_item",
-                    "wildflour_confectioner_item",
-                    "food_sweet",
-                    "candy_item",
-                    "chocolate_item",
-                    "color_dark_pink"],
-        
-                    "Texture": "Mods/Wildflour.AtelierGoods/Objects",
-                    "SpriteIndex": 646
             },
                 "Wildflour.AtelierGoods_Flavored_Chocolate_Bar": {
                     "Name": "Wildflour.AtelierGoods_Flavored_Chocolate_Bar",

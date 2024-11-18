@@ -166,7 +166,7 @@
         "Action": "EditData",
         "Target": "Data/Machines",
         "TargetField": ["(BC)Wildflour.AtelierGoods_ChocolatierBarrel", "CustomFields"],
-        "When": {"Atelier.Cauldron/ConfigValue:Chocolates": true},
+        "When": {"Atelier.Cauldron/ConfigValue:Chocolates": true, "Atelier.Cauldron/ConfigValue:WildFood": true},
         "Entries": {
             "selph.ExtraMachineConfig.ExtraOutputIds": "JunimoGemBP"
         }
@@ -199,7 +199,7 @@
         "Action": "EditData",
         "Target": "Data/Machines",
         "TargetField": ["(BC)Wildflour.AtelierGoods_MarshmallowMixer", "CustomFields"],
-        "When": {"Atelier.Cauldron/ConfigValue:Marshmallows": true},
+        "When": {"Atelier.Cauldron/ConfigValue:Marshmallows": true, "Atelier.Cauldron/ConfigValue:WildFood": true},
         "Entries": {
             "selph.ExtraMachineConfig.ExtraOutputIds": "JunimoGemBP"
         }
@@ -207,80 +207,80 @@
 
 //GOURMAND
 
-{
-    "LogName": "Advanced Extra Outputs",
-    "Action": "EditData",
-    "Target": "selph.ExtraMachineConfig/ExtraOutputs",
-    "Entries": {
-      "AlmondMilkBP": {
-        "Id": "AlmondMilkBP",
-        "ItemId": "(O)Wildflour.AtelierGoods_Almond_Milk"
-      },
-      "ButtermilkBP": {
-        "Id": "ButtermilkBP",
-        "ItemId": "(O)Wildflour.AtelierGoods_Buttermilk"
-      },
-      "CreamBP": {
-        "Id": "CreamBP",
-        "ItemId": "(O)Wildflour.AtelierGoods_Cream"
-      },
-      "PastryFlourBP": {
-        "Id": "PastryFlourBP",
-        "ItemId": "(O)Wildflour.AtelierGoods_Pastry_Flour"
-      },
-      "CoconutMilkBP": {
-        "Id": "CoconutMilkBP",
-        "ItemId": "(O)Wildflour.AtelierGoods_Coconut_Milk"
-      },
-      "RiceMilkBP": {
-        "Id": "RiceMilkBP",
-        "ItemId": "(O)Wildflour.AtelierGoods_Rice_Milk"
-      },
-      "MilkChocolateBP": {
-        "Id": "MilkChocolateBP",
-        "ItemId": "(O)Wildflour.AtelierGoods_Milk_Chocolate"
-      },
-      "WhiteChocolateBP": {
-        "Id": "WhiteChocolateBP",
-        "ItemId": "(O)Wildflour.AtelierGoods_White_Chocolate"
-      },
-    }
+  {
+      "LogName": "Advanced Extra Outputs",
+      "Action": "EditData",
+      "Target": "selph.ExtraMachineConfig/ExtraOutputs",
+      "Entries": {
+        "AlmondMilkBP": {
+          "Id": "AlmondMilkBP",
+          "ItemId": "(O)Wildflour.AtelierGoods_Almond_Milk"
+        },
+        "ButtermilkBP": {
+          "Id": "ButtermilkBP",
+          "ItemId": "(O)Wildflour.AtelierGoods_Buttermilk"
+        },
+        "CreamBP": {
+          "Id": "CreamBP",
+          "ItemId": "(O)Wildflour.AtelierGoods_Cream"
+        },
+        "PastryFlourBP": {
+          "Id": "PastryFlourBP",
+          "ItemId": "(O)Wildflour.AtelierGoods_Pastry_Flour"
+        },
+        "CoconutMilkBP": {
+          "Id": "CoconutMilkBP",
+          "ItemId": "(O)Wildflour.AtelierGoods_Coconut_Milk"
+        },
+        "RiceMilkBP": {
+          "Id": "RiceMilkBP",
+          "ItemId": "(O)Wildflour.AtelierGoods_Rice_Milk"
+        },
+        "MilkChocolateBP": {
+          "Id": "MilkChocolateBP",
+          "ItemId": "(O)Wildflour.AtelierGoods_Milk_Chocolate"
+        },
+        "WhiteChocolateBP": {
+          "Id": "WhiteChocolateBP",
+          "ItemId": "(O)Wildflour.AtelierGoods_White_Chocolate"
+        },
+      }
+    },
+
+  {
+      "LogName": "Kitchen Mortar BP",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": ["(BC)Wildflour.AtelierGoods_KitchenMortar", "CustomFields"],
+      "Entries": {
+          "selph.ExtraMachineConfig.ExtraOutputIds": "JunimoGemBP"
+      }
   },
 
-{
-    "LogName": "Kitchen Mortar BP",
-    "Action": "EditData",
-    "Target": "Data/Machines",
-    "TargetField": ["(BC)Wildflour.AtelierGoods_KitchenMortar", "CustomFields"],
-    "Entries": {
-        "selph.ExtraMachineConfig.ExtraOutputIds": "JunimoGemBP"
-    }
-},
-
-{
-    "LogName": "Distiller BP",
-    "Action": "EditData",
-    "Target": "Data/Machines",
-    "TargetField": ["(BC)Wildflour.AtelierGoods_SyrupMaker", "CustomFields"],
-    "Entries": {
-        "selph.ExtraMachineConfig.ExtraOutputIds": "JunimoGemBP"
-    }
-},
+  {
+      "LogName": "Distiller BP",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": ["(BC)Wildflour.AtelierGoods_SyrupMaker", "CustomFields"],
+      "Entries": {
+          "selph.ExtraMachineConfig.ExtraOutputIds": "JunimoGemBP"
+      }
+  },
 
 
-{
-    "LogName": "CSA Machine BP",
-    "Action": "EditData",
-    "Target": "Data/Machines",
-    "TargetField": ["(BC)Wildflour.AtelierGoods_ProducePacker", "CustomFields"],
-    "When": {"Atelier.Cauldron/ConfigValue:CSA": true},
-    "Entries": {
-        "selph.ExtraMachineConfig.ExtraOutputIds": "JunimoGemBP"
-    }
-},
+  {
+      "LogName": "CSA Machine BP",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": ["(BC)Wildflour.AtelierGoods_ProducePacker", "CustomFields"],
+      "When": {"Atelier.Cauldron/ConfigValue:CSA": true},
+      "Entries": {
+          "selph.ExtraMachineConfig.ExtraOutputIds": "JunimoGemBP"
+      }
+  },
 
 
-{
+  {
     "LogName": "Add Milk & White Chocolate By Product to Chocolate Rule",
     "Action": "EditData",
     "Target": "Data/Machines",
@@ -326,7 +326,7 @@
     "Target": "Data/Machines",
     "TargetField": ["(BC)24", "OutputRules", "Wildflour.AtelierGoods_MayoMachine_Butter", "OutputItem", "Wildflour.AtelierGoods_Butter", "CustomData"],
     "Entries": {
-      "selph.ExtraMachineConfig.ExtraOutputIds": "ButtermilkBP, CreamBP"
+      "selph.ExtraMachineConfig.ExtraOutputIds": "ButtermilkBP, CreamBP, JunimoGemBP"
     }
   },
 
@@ -340,6 +340,226 @@
     }
   },
 
+  //Junimo Gems for Vanilla Machines
+
+  {
+    "LogName": "Junimo Gems BP Alchemist Blend Kombucha",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":  {"Atelier.Cauldron/ConfigValue:Tea": true, "Atelier.Cauldron/ConfigValue:DifficultyToggle": "Advanced" },
+    "TargetField": ["(BC)12", "OutputRules", "Wildflour.AtelierGoods_Keg_Alchemist_Blend_Kombucha", "OutputItem", "Wildflour.AtelierGoods_Alchemist_Blend_Kombucha", "CustomData"],
+    "Entries": {
+      "selph.ExtraMachineConfig.ExtraOutputIds": "JunimoGemBP"
+    }
+  },
+
+  {
+    "LogName": "Junimo Gems BP Blueberry Matcha Kombucha",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":  {"Atelier.Cauldron/ConfigValue:Tea": true, "Atelier.Cauldron/ConfigValue:DifficultyToggle": "Advanced"},
+    "TargetField": ["(BC)12", "OutputRules", "Wildflour.AtelierGoods_Keg_Blueberry_Matcha_Kombucha", "OutputItem", "Wildflour.AtelierGoods_Blueberry_Matcha_Kombucha", "CustomData"],
+    "Entries": {
+      "selph.ExtraMachineConfig.ExtraOutputIds": "JunimoGemBP"
+    }
+  },
+
+  {
+    "LogName": "Junimo Gems BP Cherry Blossom Matcha Kombucha",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":  {"Atelier.Cauldron/ConfigValue:Tea": true, "Atelier.Cauldron/ConfigValue:DifficultyToggle": "Advanced"},
+    "TargetField": ["(BC)12", "OutputRules", "Wildflour.AtelierGoods_Keg_Cherry_Blossom_Matcha_Kombucha", "OutputItem", "Wildflour.AtelierGoods_Cherry_Blossom_Matcha_Kombucha", "CustomData"],
+    "Entries": {
+      "selph.ExtraMachineConfig.ExtraOutputIds": "JunimoGemBP"
+    }
+  },
+
+  {
+    "LogName": "Junimo Gems BP Cookie Jar Kombucha",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":  {"Atelier.Cauldron/ConfigValue:Tea": true, "Atelier.Cauldron/ConfigValue:DifficultyToggle": "Advanced"},
+    "TargetField": ["(BC)12", "OutputRules", "Wildflour.AtelierGoods_Keg_Cookie_Jar_Kombucha", "OutputItem", "Wildflour.AtelierGoods_Cookie_Jar_Kombucha", "CustomData"],
+    "Entries": {
+      "selph.ExtraMachineConfig.ExtraOutputIds": "JunimoGemBP"
+    }
+  },
+
+  {
+    "LogName": "Junimo Gems BP Good Thyme Kombucha",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":  {"Atelier.Cauldron/ConfigValue:Tea": true, "Atelier.Cauldron/ConfigValue:DifficultyToggle": "Advanced"},
+    "TargetField": ["(BC)12", "OutputRules", "Wildflour.AtelierGoods_Keg_Good_Thyme_Kombucha", "OutputItem", "Wildflour.AtelierGoods_Good_Thyme_Kombucha", "CustomData"],
+    "Entries": {
+      "selph.ExtraMachineConfig.ExtraOutputIds": "JunimoGemBP"
+    }
+  },
+
+  {
+    "LogName": "Junimo Gems BP Happy Harvest Kombucha",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":  {"Atelier.Cauldron/ConfigValue:Tea": true, "Atelier.Cauldron/ConfigValue:DifficultyToggle": "Advanced"},
+    "TargetField": ["(BC)12", "OutputRules", "Wildflour.AtelierGoods_Keg_Happy_Harvest_Kombucha", "OutputItem", "Wildflour.AtelierGoods_Happy_Harvest_Kombucha", "CustomData"],
+    "Entries": {
+      "selph.ExtraMachineConfig.ExtraOutputIds": "JunimoGemBP"
+    }
+  },
+
+  {
+    "LogName": "Junimo Gems BP North Pole Kombucha",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":  {"Atelier.Cauldron/ConfigValue:Tea": true, "Atelier.Cauldron/ConfigValue:DifficultyToggle": "Advanced"},
+    "TargetField": ["(BC)12", "OutputRules", "Wildflour.AtelierGoods_Keg_North_Pole_Kombucha", "OutputItem", "Wildflour.AtelierGoods_North_Pole_Kombucha", "CustomData"],
+    "Entries": {
+      "selph.ExtraMachineConfig.ExtraOutputIds": "JunimoGemBP"
+    }
+  },
+
+  {
+    "LogName": "Junimo Gems BP Pelican Fog Kombucha",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":  {"Atelier.Cauldron/ConfigValue:Tea": true, "Atelier.Cauldron/ConfigValue:DifficultyToggle": "Advanced"},
+    "TargetField": ["(BC)12", "OutputRules", "Wildflour.AtelierGoods_Keg_Pelican_Fog_Kombucha", "OutputItem", "Wildflour.AtelierGoods_Pelican_Fog_Kombucha", "CustomData"],
+    "Entries": {
+      "selph.ExtraMachineConfig.ExtraOutputIds": "JunimoGemBP"
+    }
+  },
+
+  {
+    "LogName": "Junimo Gems BP Plum Chai Kombucha",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":  {"Atelier.Cauldron/ConfigValue:Tea": true, "Atelier.Cauldron/ConfigValue:DifficultyToggle": "Advanced"},
+    "TargetField": ["(BC)12", "OutputRules", "Wildflour.AtelierGoods_Keg_Plum_Chai_Kombucha", "OutputItem", "Wildflour.AtelierGoods_Plum_Chai_Kombucha", "CustomData"],
+    "Entries": {
+      "selph.ExtraMachineConfig.ExtraOutputIds": "JunimoGemBP"
+    }
+  },
+
+  {
+    "LogName": "Junimo Gems BP Positivitea Kombucha",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":  {"Atelier.Cauldron/ConfigValue:Tea": true, "Atelier.Cauldron/ConfigValue:DifficultyToggle": "Advanced"},
+    "TargetField": ["(BC)12", "OutputRules", "Wildflour.AtelierGoods_Keg_Positivitea_Kombucha", "OutputItem", "Wildflour.AtelierGoods_Positivitea_Kombucha", "CustomData"],
+    "Entries": {
+      "selph.ExtraMachineConfig.ExtraOutputIds": "JunimoGemBP"
+    }
+  },
+
+  {
+    "LogName": "Junimo Gems BP Sun Room Kombucha",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":  {"Atelier.Cauldron/ConfigValue:Tea": true, "Atelier.Cauldron/ConfigValue:DifficultyToggle": "Advanced"},
+    "TargetField": ["(BC)12", "OutputRules", "Wildflour.AtelierGoods_Keg_Sun_Room_Kombucha", "OutputItem", "Wildflour.AtelierGoods_Sun_Room_Kombucha", "CustomData"],
+    "Entries": {
+      "selph.ExtraMachineConfig.ExtraOutputIds": "JunimoGemBP"
+    }
+  },
+
+  {
+    "LogName": "Junimo Gems BP Sunny Delight Kombucha",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":  {"Atelier.Cauldron/ConfigValue:Tea": true, "Atelier.Cauldron/ConfigValue:DifficultyToggle": "Advanced"},
+    "TargetField": ["(BC)12", "OutputRules", "Wildflour.AtelierGoods_Keg_Sunny_Delight_Kombucha", "OutputItem", "Wildflour.AtelierGoods_Sunny_Delight_Kombucha", "CustomData"],
+    "Entries": {
+      "selph.ExtraMachineConfig.ExtraOutputIds": "JunimoGemBP"
+    }
+  },
+
+  {
+    "LogName": "Junimo Gems BP Flavored Kombucha",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":  {"Atelier.Cauldron/ConfigValue:Tea": true},
+    "TargetField": ["(BC)12", "OutputRules", "Wildflour.AtelierGoods_Keg_Flavored_Kombucha", "OutputItem", "Wildflour.AtelierGoods_Flavored_Kombucha", "CustomData"],
+    "Entries": {
+      "selph.ExtraMachineConfig.ExtraOutputIds": "JunimoGemBP"
+    }
+  },
+
+
+  {
+    "LogName": "Junimo Gems BP Mayo Machine Apple Butter",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "TargetField": ["(BC)24", "OutputRules", "Wildflour.AtelierGoods_MayoMachine_Apple_Butter", "OutputItem", "Wildflour.AtelierGoods_Apple_Butter", "CustomData"],
+    "Entries": {
+      "selph.ExtraMachineConfig.ExtraOutputIds": "JunimoGemBP"
+    }
+  },
+
+  {
+    "LogName": "Junimo Gems BP Mayo Machine Honey Butter",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "TargetField": ["(BC)24", "OutputRules", "Wildflour.AtelierGoods_MayoMachine_Honey_Butter", "OutputItem", "Wildflour.AtelierGoods_Honey_Butter", "CustomData"],
+    "Entries": {
+      "selph.ExtraMachineConfig.ExtraOutputIds": "JunimoGemBP"
+    }
+  },
+
+  {
+    "LogName": "Junimo Gems BP Mayo Machine Maple Butter",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "TargetField": ["(BC)24", "OutputRules", "Wildflour.AtelierGoods_MayoMachine_Maple_Butter", "OutputItem", "Wildflour.AtelierGoods_Maple_Butter", "CustomData"],
+    "Entries": {
+      "selph.ExtraMachineConfig.ExtraOutputIds": "JunimoGemBP"
+    }
+  },
+
+  {
+    "LogName": "Junimo Gems BP Mayo Machine Pumpkin Butter",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "TargetField": ["(BC)24", "OutputRules", "Wildflour.AtelierGoods_MayoMachine_Pumpkin_Butter", "OutputItem", "Wildflour.AtelierGoods_Pumpkin_Butter", "CustomData"],
+    "Entries": {
+      "selph.ExtraMachineConfig.ExtraOutputIds": "JunimoGemBP"
+    }
+  },
+
+
+
+  {
+    "LogName": "Junimo Gems BP Mayo Machine Lemon Curd",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":  {"Atelier.Cauldron/ConfigValue:WildFood": true},
+    "TargetField": ["(BC)24", "OutputRules", "Wildflour.AtelierGoods_MayoMachine_Lemon_Curd", "OutputItem", "Wildflour.AtelierGoods_Lemon_Curd", "CustomData"],
+    "Entries": {
+      "selph.ExtraMachineConfig.ExtraOutputIds": "JunimoGemBP"
+    }
+  },
+
+  
+  {
+    "LogName": "Junimo Gems BP Mayo Machine Lime Curd",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "When":  {"Atelier.Cauldron/ConfigValue:WildFood": true},
+    "TargetField": ["(BC)24", "OutputRules", "Wildflour.AtelierGoods_MayoMachine_Lime_Curd", "OutputItem", "Wildflour.AtelierGoods_Lime_Curd", "CustomData"],
+    "Entries": {
+      "selph.ExtraMachineConfig.ExtraOutputIds": "JunimoGemBP"
+    }
+  },
+
+  {
+    "LogName": "Junimo Gems BP Mayo Machine Cream Cheese",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "TargetField": ["(BC)16", "OutputRules", "Wildflour.AtelierGoods_CheesePress_Cream_Cheese", "OutputItem", "Wildflour.AtelierGoods_Cream_Cheese", "CustomData"],
+    "Entries": {
+      "selph.ExtraMachineConfig.ExtraOutputIds": "JunimoGemBP"
+    }
+  },
 
   ]
 }

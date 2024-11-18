@@ -36,7 +36,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 86,
             "Price": 100,
 
             "ContextTags":
@@ -54,7 +54,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 86,
             "Price": 100,
 
             "ContextTags":
@@ -72,7 +72,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 86,
             "Price": 100,
 
             "ContextTags":
@@ -90,7 +90,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 86,
             "Price": 100,
 
             "ContextTags":
@@ -108,7 +108,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 86,
             "Price": 100,
 
             "ContextTags":
@@ -126,7 +126,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 55,
             "Price": 100,
 
             "ContextTags":
@@ -144,7 +144,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 55,
             "Price": 100,
 
             "ContextTags":
@@ -162,7 +162,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 55,
             "Price": 100,
 
             "ContextTags":
@@ -180,7 +180,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 55,
             "Price": 100,
 
             "ContextTags":
@@ -198,7 +198,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 55,
             "Price": 100,
 
             "ContextTags":
@@ -217,7 +217,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 80,
             "Price": 100,
 
             "ContextTags":
@@ -284,7 +284,7 @@
                 "Type": "ArtisanGoods",          
                 "Category": -26,
                 "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-                "Edibility": 0,
+                "Edibility": 98,
                 "Price": 100,
 
                 "ContextTags":
@@ -302,7 +302,7 @@
                 "Type": "ArtisanGoods",          
                 "Category": -26,
                 "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-                "Edibility": 0,
+                "Edibility": 98,
                 "Price": 100,
 
                 "ContextTags":
@@ -320,7 +320,7 @@
                 "Type": "ArtisanGoods",          
                 "Category": -26,
                 "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-                "Edibility": 0,
+                "Edibility": 98,
                 "Price": 100,
 
                 "ContextTags":
@@ -338,7 +338,7 @@
                 "Type": "ArtisanGoods",          
                 "Category": -26,
                 "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-                "Edibility": 0,
+                "Edibility": 98,
                 "Price": 100,
 
                 "ContextTags":
@@ -356,7 +356,7 @@
                 "Type": "ArtisanGoods",          
                 "Category": -26,
                 "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-                "Edibility": 0,
+                "Edibility": 98,
                 "Price": 100,
 
                 "ContextTags":
@@ -374,7 +374,7 @@
                 "Type": "ArtisanGoods",          
                 "Category": -26,
                 "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-                "Edibility": 0,
+                "Edibility": 98,
                 "Price": 100,
 
                 "ContextTags":
@@ -392,7 +392,7 @@
                 "Type": "ArtisanGoods",          
                 "Category": -26,
                 "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-                "Edibility": 0,
+                "Edibility": 98,
                 "Price": 100,
 
                 "ContextTags":
@@ -410,7 +410,7 @@
                 "Type": "ArtisanGoods",          
                 "Category": -26,
                 "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-                "Edibility": 0,
+                "Edibility": 98,
                 "Price": 100,
 
                 "ContextTags":
@@ -428,7 +428,7 @@
                 "Type": "ArtisanGoods",          
                 "Category": -26,
                 "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-                "Edibility": 0,
+                "Edibility": 98,
                 "Price": 100,
 
                 "ContextTags":
@@ -446,7 +446,7 @@
                 "Type": "ArtisanGoods",          
                 "Category": -26,
                 "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-                "Edibility": 0,
+                "Edibility": 98,
                 "Price": 100,
 
                 "ContextTags":
@@ -464,7 +464,7 @@
                 "Type": "ArtisanGoods",          
                 "Category": -26,
                 "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-                "Edibility": 0,
+                "Edibility": 98,
                 "Price": 100,
 
                 "ContextTags":
@@ -483,7 +483,7 @@
                 "Type": "ArtisanGoods",          
                 "Category": -26,
                 "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-                "Edibility": 0,
+                "Edibility": 90,
                 "Price": 100,
 
                 "ContextTags":
@@ -523,7 +523,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 115,
             "Price": 100,
 
             "ContextTags":
@@ -541,7 +541,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 115,
             "Price": 100,
 
             "ContextTags":
@@ -559,7 +559,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 115,
             "Price": 100,
 
             "ContextTags":
@@ -577,7 +577,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 115,
             "Price": 100,
 
             "ContextTags":
@@ -595,7 +595,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 115,
             "Price": 100,
 
             "ContextTags":
@@ -613,7 +613,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 115,
             "Price": 100,
 
             "ContextTags":
@@ -631,7 +631,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 115,
             "Price": 100,
 
             "ContextTags":
@@ -649,7 +649,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 20,
             "Price": 100,
 
             "ContextTags":
@@ -667,7 +667,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 20,
             "Price": 100,
 
             "ContextTags":
@@ -685,7 +685,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 20,
             "Price": 100,
 
             "ContextTags":
@@ -703,7 +703,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 20,
             "Price": 100,
 
             "ContextTags":
@@ -721,7 +721,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 20,
             "Price": 100,
 
             "ContextTags":
@@ -739,7 +739,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 20,
             "Price": 100,
 
             "ContextTags":
@@ -757,7 +757,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 20,
             "Price": 100,
 
             "ContextTags":
@@ -775,7 +775,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 20,
             "Price": 100,
 
             "ContextTags":
@@ -793,7 +793,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 20,
             "Price": 100,
 
             "ContextTags":
@@ -811,7 +811,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 20,
             "Price": 100,
 
             "ContextTags":
@@ -830,7 +830,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 105,
             "Price": 100,
 
             "ContextTags":
@@ -888,7 +888,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 62,
             "Price": 100,
 
             "ContextTags":
@@ -906,7 +906,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 62,
             "Price": 100,
 
             "ContextTags":
@@ -924,7 +924,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 62,
             "Price": 100,
 
             "ContextTags":
@@ -942,7 +942,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 62,
             "Price": 100,
 
             "ContextTags":
@@ -960,7 +960,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 62,
             "Price": 100,
 
             "ContextTags":
@@ -978,7 +978,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 62,
             "Price": 100,
 
             "ContextTags":
@@ -996,7 +996,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 62,
             "Price": 100,
 
             "ContextTags":
@@ -1014,7 +1014,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 62,
             "Price": 100,
 
             "ContextTags":
@@ -1032,7 +1032,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 62,
             "Price": 100,
 
             "ContextTags":
@@ -1050,7 +1050,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 62,
             "Price": 100,
 
             "ContextTags":
@@ -1068,7 +1068,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 125,
             "Price": 100,
 
             "ContextTags":
@@ -1086,7 +1086,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 125,
             "Price": 100,
 
             "ContextTags":
@@ -1104,7 +1104,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 125,
             "Price": 100,
 
             "ContextTags":
@@ -1122,7 +1122,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 125,
             "Price": 100,
 
             "ContextTags":
@@ -1140,7 +1140,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 125,
             "Price": 100,
 
             "ContextTags":
@@ -1158,7 +1158,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 125,
             "Price": 100,
 
             "ContextTags":
@@ -1176,7 +1176,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 125,
             "Price": 100,
 
             "ContextTags":
@@ -1195,7 +1195,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 115,
             "Price": 100,
 
             "ContextTags":
@@ -1253,7 +1253,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 32,
             "Price": 100,
 
             "ContextTags":
@@ -1271,7 +1271,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 32,
             "Price": 100,
 
             "ContextTags":
@@ -1289,7 +1289,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 32,
             "Price": 100,
 
             "ContextTags":
@@ -1307,7 +1307,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 32,
             "Price": 100,
 
             "ContextTags":
@@ -1325,7 +1325,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 32,
             "Price": 100,
 
             "ContextTags":
@@ -1343,7 +1343,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 32,
             "Price": 100,
 
             "ContextTags":
@@ -1361,7 +1361,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 32,
             "Price": 100,
 
             "ContextTags":
@@ -1379,7 +1379,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 32,
             "Price": 100,
 
             "ContextTags":
@@ -1397,7 +1397,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 32,
             "Price": 100,
 
             "ContextTags":
@@ -1415,7 +1415,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 32,
             "Price": 100,
 
             "ContextTags":
@@ -1434,7 +1434,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 28,
             "Price": 100,
 
             "ContextTags":
@@ -1452,7 +1452,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 44,
             "Price": 100,
 
             "ContextTags":
@@ -1470,7 +1470,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 44,
             "Price": 100,
 
             "ContextTags":
@@ -1488,7 +1488,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 44,
             "Price": 100,
 
             "ContextTags":
@@ -1506,7 +1506,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 44,
             "Price": 100,
 
             "ContextTags":
@@ -1524,7 +1524,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 44,
             "Price": 100,
 
             "ContextTags":
@@ -1542,7 +1542,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 51,
             "Price": 100,
 
             "ContextTags":
@@ -1560,7 +1560,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 51,
             "Price": 100,
 
             "ContextTags":
@@ -1578,7 +1578,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 51,
             "Price": 100,
 
             "ContextTags":
@@ -1596,7 +1596,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 51,
             "Price": 100,
 
             "ContextTags":
@@ -1614,7 +1614,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 51,
             "Price": 100,
 
             "ContextTags":
@@ -1681,7 +1681,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 75,
             "Price": 100,
 
             "ContextTags":
@@ -1699,7 +1699,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 75,
             "Price": 100,
 
             "ContextTags":
@@ -1717,7 +1717,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 75,
             "Price": 100,
 
             "ContextTags":
@@ -1735,7 +1735,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 75,
             "Price": 100,
 
             "ContextTags":
@@ -1753,7 +1753,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 75,
             "Price": 100,
 
             "ContextTags":
@@ -1771,7 +1771,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 75,
             "Price": 100,
 
             "ContextTags":
@@ -1789,7 +1789,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 75,
             "Price": 100,
 
             "ContextTags":
@@ -1807,7 +1807,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 75,
             "Price": 100,
 
             "ContextTags":
@@ -1825,7 +1825,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 75,
             "Price": 100,
 
             "ContextTags":
@@ -1843,7 +1843,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 75,
             "Price": 100,
 
             "ContextTags":
@@ -1861,7 +1861,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 75,
             "Price": 100,
 
             "ContextTags":
@@ -1879,7 +1879,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 75,
             "Price": 100,
 
             "ContextTags":
@@ -1897,7 +1897,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 75,
             "Price": 100,
 
             "ContextTags":
@@ -1915,7 +1915,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 75,
             "Price": 100,
 
             "ContextTags":
@@ -1933,7 +1933,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 75,
             "Price": 100,
 
             "ContextTags":
@@ -1951,7 +1951,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 75,
             "Price": 100,
 
             "ContextTags":
@@ -1969,7 +1969,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 75,
             "Price": 100,
 
             "ContextTags":
@@ -1987,7 +1987,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 75,
             "Price": 100,
 
             "ContextTags":
@@ -2005,7 +2005,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 75,
             "Price": 100,
 
             "ContextTags":
@@ -2023,7 +2023,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 75,
             "Price": 100,
 
             "ContextTags":
@@ -2041,7 +2041,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 75,
             "Price": 100,
 
             "ContextTags":
@@ -2059,7 +2059,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 75,
             "Price": 100,
 
             "ContextTags":
@@ -2090,7 +2090,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 45,
             "Price": 100,
 
             "ContextTags":
@@ -2108,7 +2108,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 45,
             "Price": 100,
 
             "ContextTags":
@@ -2126,7 +2126,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 45,
             "Price": 100,
 
             "ContextTags":
@@ -2144,7 +2144,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 45,
             "Price": 100,
 
             "ContextTags":
@@ -2162,7 +2162,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 45,
             "Price": 100,
 
             "ContextTags":
@@ -2180,7 +2180,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 45,
             "Price": 100,
 
             "ContextTags":
@@ -2198,7 +2198,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 45,
             "Price": 100,
 
             "ContextTags":
@@ -2216,7 +2216,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 45,
             "Price": 100,
 
             "ContextTags":
@@ -2234,7 +2234,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 45,
             "Price": 100,
 
             "ContextTags":
@@ -2252,7 +2252,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 45,
             "Price": 100,
 
             "ContextTags":
@@ -2270,7 +2270,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 45,
             "Price": 100,
 
             "ContextTags":
@@ -2288,7 +2288,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 45,
             "Price": 100,
 
             "ContextTags":
@@ -2306,7 +2306,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 45,
             "Price": 100,
 
             "ContextTags":
@@ -2325,7 +2325,7 @@
             "ColorOverlayFromNextIndex":true, 
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 40,
             "Price": 100,
 
             "ContextTags":
@@ -2365,7 +2365,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 50,
             "Price": 100,
 
             "ContextTags":
@@ -2383,7 +2383,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 50,
             "Price": 100,
 
             "ContextTags":
@@ -2401,7 +2401,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 50,
             "Price": 100,
 
             "ContextTags":
@@ -2419,7 +2419,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 50,
             "Price": 100,
 
             "ContextTags":
@@ -2437,7 +2437,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 50,
             "Price": 100,
 
             "ContextTags":
@@ -2455,7 +2455,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 50,
             "Price": 100,
 
             "ContextTags":
@@ -2473,7 +2473,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 50,
             "Price": 100,
 
             "ContextTags":
@@ -2492,7 +2492,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 50,
             "Price": 100,
 
             "ContextTags":

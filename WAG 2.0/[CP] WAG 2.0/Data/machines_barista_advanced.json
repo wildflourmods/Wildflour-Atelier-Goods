@@ -1439,6 +1439,20 @@
             "ShowNextIndexWhileWorking":false,
             "ShowNextIndexWhenReady":false,
             "WobbleWhileWorking":false,
+            "ReadyTimeModifiers": [
+                {
+                    "Id": "TeaTimeSpeedy",
+                    "Condition": "LOCATION_CONTEXT Target HXW.Buildings_TeaShop_TeaShopInterior",
+                    "Modification": "Multiply",
+                    "Amount": 0.75
+                },
+                {
+                    "Id": "TeaTimeSuperSpeedy",
+                    "Condition": "LOCATION_CONTEXT Target HXW.Buildings_TeaShop_TeaShopInteriorLarge",
+                    "Modification": "Multiply",
+                    "Amount": 0.5
+                }
+            ],
             "WorkingEffects":[
                 {
                     "Frames":[1,2,3,4,5,6],
@@ -1854,6 +1868,20 @@
             "ShowNextIndexWhileWorking":false,
             "ShowNextIndexWhenReady":false,
             "WobbleWhileWorking":false,
+            "ReadyTimeModifiers": [
+                {
+                    "Id": "TeaTimeSpeedy",
+                    "Condition": "LOCATION_CONTEXT Target HXW.Buildings_TeaShop_TeaShopInterior",
+                    "Modification": "Multiply",
+                    "Amount": 0.75
+                },
+                {
+                    "Id": "TeaTimeSuperSpeedy",
+                    "Condition": "LOCATION_CONTEXT Target HXW.Buildings_TeaShop_TeaShopInteriorLarge",
+                    "Modification": "Multiply",
+                    "Amount": 0.5
+                }
+            ],
             "WorkingEffects":[
                 {
                     "Frames":[1,2,3,4,5],

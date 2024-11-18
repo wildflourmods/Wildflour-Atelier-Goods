@@ -1249,45 +1249,7 @@
                         ],
                         "MinutesUntilReady": 1100
                     },
-                    {
-                        "Id": "Wildflour.AtelierGoods_Flavored_Cupcakes",
-                        "Triggers": [
-                            {
-                                "Trigger": "ItemPlacedInMachine",
-                                "RequiredTags": ["category_fruits"],
-                                "RequiredCount": 1
-                            },
-                            {
-                                "Trigger": "ItemPlacedInMachine",
-                                "RequiredTags": ["edible_flower_item"],
-                                "RequiredCount": 1
-                            }
-                        ],
-                        "OutputItem": [
-                            {
-                                "Id": "Wildflour.AtelierGoods_Flavored_Cupcakes",
-                                "ItemId": "Wildflour.AtelierGoods_Flavored_Cupcakes",
-                                "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Cupcakes %PRESERVED_DISPLAY_NAME]",
-                                "ObjectInternalName": "{0} Cupcakes",
-                                "PreserveID":"DROP_IN",
-                                "CopyQuality":true,
-                                "CopyPrice": true,
-                                "CopyColor":true,
-                                "PriceModifiers": 
-                                [
-                                    {
-                                        "Modification": "Add",
-                                        "Amount": 150
-                                    },
-                                    {
-                                        "Modification": "Multiply",
-                                        "Amount": 2.25
-                                    }
-                                ]
-                            }
-                        ],
-                        "MinutesUntilReady": 1100
-                    },
+
                     {
                         "Id": "Wildflour.AtelierGoods_Floral_Petit_Fours",
                         "Triggers": [
@@ -1638,7 +1600,46 @@
                             }
                         ],
                         "MinutesUntilReady": 1100
-                    }
+                    },
+                    {
+                        "Id": "Wildflour.AtelierGoods_Flavored_Cupcakes",
+                        "Triggers": [
+                            {
+                                "Trigger": "ItemPlacedInMachine",
+                                "RequiredTags": ["category_fruits"],
+                                "RequiredCount": 1
+                            },
+                            {
+                                "Trigger": "ItemPlacedInMachine",
+                                "RequiredTags": ["edible_flower_item"],
+                                "RequiredCount": 1
+                            }
+                        ],
+                        "OutputItem": [
+                            {
+                                "Id": "Wildflour.AtelierGoods_Flavored_Cupcakes",
+                                "ItemId": "Wildflour.AtelierGoods_Flavored_Cupcakes",
+                                "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Cupcakes %PRESERVED_DISPLAY_NAME]",
+                                "ObjectInternalName": "{0} Cupcakes",
+                                "PreserveID":"DROP_IN",
+                                "CopyQuality":true,
+                                "CopyPrice": true,
+                                "CopyColor":true,
+                                "PriceModifiers": 
+                                [
+                                    {
+                                        "Modification": "Add",
+                                        "Amount": 150
+                                    },
+                                    {
+                                        "Modification": "Multiply",
+                                        "Amount": 2.25
+                                    }
+                                ]
+                            }
+                        ],
+                        "MinutesUntilReady": 1100
+                    },
                 ],
                 "AdditionalConsumedItems":[
                     {
@@ -3065,7 +3066,7 @@
                         "Triggers": [
                             {
                                 "Trigger": "ItemPlacedInMachine",
-                                "RequiredItemId": "(O)Wildflour.AtelierGoods_Lemon_Curd",
+                                "RequiredTags": ["lemon_item"],
                                 "RequiredCount": 1
                             }
                         ],
@@ -4006,7 +4007,7 @@
                         "Triggers": [
                             {
                                 "Trigger": "ItemPlacedInMachine",
-                                "RequiredTags": ["cinnamon_item"],
+                                "RequiredTags": ["anise_item"],
                                 "RequiredCount": 1
                             }
                         ],
@@ -4015,8 +4016,8 @@
                                 "Id": "Wildflour.AtelierGoods_Cinnamon_Spice_Doughnuts",
                                 "ItemId": "(O)Wildflour.AtelierGoods_Cinnamon_Spice_Doughnuts",
                                 "CustomData": {
-                                    "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Sugar_Needed_Message}}",
+                                    "selph.ExtraMachineConfig.RequirementTags.1": "cinnamon_item",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cinnamon_Needed_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -4141,7 +4142,7 @@
                         "Triggers": [
                             {
                                 "Trigger": "ItemPlacedInMachine",
-                                "RequiredItemId": "(O)Wildflour.AtelierGoods_Dark_Chocolate",
+                                "RequiredItemId": "(O)Wildflour.AtelierGoods_Milk_Chocolate",
                                 "RequiredCount": 1
                             }
                         ],
@@ -4171,45 +4172,7 @@
                         ],
                         "MinutesUntilReady": 1400
                     },
-                    {
-                        "Id": "Wildflour.AtelierGoods_Flavored_Doughnuts",
-                        "Triggers": [
-                            {
-                                "Trigger": "ItemPlacedInMachine",
-                                "RequiredTags": ["category_fruits"],
-                                "RequiredCount": 1
-                            },
-                            {
-                                "Trigger": "ItemPlacedInMachine",
-                                "RequiredTags": ["edible_flower_item"],
-                                "RequiredCount": 1
-                            }
-                        ],
-                        "OutputItem": [
-                            {
-                                "Id": "Wildflour.AtelierGoods_Flavored_Doughnuts",
-                                "ItemId": "Wildflour.AtelierGoods_Flavored_Doughnuts",
-                                "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Doughnuts %PRESERVED_DISPLAY_NAME]",
-                                "ObjectInternalName": "{0} Doughnuts",
-                                "PreserveID":"DROP_IN",
-                                "CopyColor": true,
-                                "CopyQuality":true,
-                                "CopyPrice": true,
-                                "PriceModifiers": 
-                                [
-                                    {
-                                    "Modification": "Add",
-                                    "Amount": 65
-                                    },
-                                    {
-                                    "Modification": "Multiply",
-                                    "Amount": 2.5
-                                    }
-                                ]
-                            }
-                        ],
-                        "MinutesUntilReady": 1400
-                    },
+               
                     {
                         "Id": "Wildflour.AtelierGoods_Vanilla_Eclairs",
                         "Triggers": [
@@ -4419,7 +4382,46 @@
                             }
                         ],
                         "MinutesUntilReady": 1400
-                    }
+                    },
+                    {
+                        "Id": "Wildflour.AtelierGoods_Flavored_Doughnuts",
+                        "Triggers": [
+                            {
+                                "Trigger": "ItemPlacedInMachine",
+                                "RequiredTags": ["category_fruits"],
+                                "RequiredCount": 1
+                            },
+                            {
+                                "Trigger": "ItemPlacedInMachine",
+                                "RequiredTags": ["edible_flower_item"],
+                                "RequiredCount": 1
+                            }
+                        ],
+                        "OutputItem": [
+                            {
+                                "Id": "Wildflour.AtelierGoods_Flavored_Doughnuts",
+                                "ItemId": "Wildflour.AtelierGoods_Flavored_Doughnuts",
+                                "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Doughnuts %PRESERVED_DISPLAY_NAME]",
+                                "ObjectInternalName": "{0} Doughnuts",
+                                "PreserveID":"DROP_IN",
+                                "CopyColor": true,
+                                "CopyQuality":true,
+                                "CopyPrice": true,
+                                "PriceModifiers": 
+                                [
+                                    {
+                                    "Modification": "Add",
+                                    "Amount": 65
+                                    },
+                                    {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.5
+                                    }
+                                ]
+                            }
+                        ],
+                        "MinutesUntilReady": 1400
+                    },
                 ],
                 "AdditionalConsumedItems":[
                     {
@@ -4540,7 +4542,7 @@
                         "Triggers": [
                             {
                                 "Trigger": "ItemPlacedInMachine",
-                                "RequiredTags": ["cinnamon_item"],
+                                "RequiredTags": ["anise_item"],
                                 "RequiredCount": 1
                             }
                         ],
@@ -4549,8 +4551,8 @@
                                 "Id": "Wildflour.AtelierGoods_Cinnamon_Spice_Doughnuts",
                                 "ItemId": "(O)Wildflour.AtelierGoods_Cinnamon_Spice_Doughnuts",
                                 "CustomData": {
-                                    "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
-                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Sugar_Needed_Message}}",
+                                    "selph.ExtraMachineConfig.RequirementTags.1": "cinnamon_item",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Cinnamon_Needed_Message}}",
                                     "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
                                     },
                                 "CopyQuality":true,
@@ -4675,7 +4677,7 @@
                         "Triggers": [
                             {
                                 "Trigger": "ItemPlacedInMachine",
-                                "RequiredItemId": "(O)Wildflour.AtelierGoods_Dark_Chocolate",
+                                "RequiredItemId": "(O)Wildflour.AtelierGoods_Milk_Chocolate",
                                 "RequiredCount": 1
                             }
                         ],
@@ -4699,45 +4701,6 @@
                                     {
                                     "Modification": "Multiply",
                                     "Amount": 5.5
-                                    }
-                                ]
-                            }
-                        ],
-                        "MinutesUntilReady": 1400
-                    },
-                    {
-                        "Id": "Wildflour.AtelierGoods_Flavored_Doughnuts",
-                        "Triggers": [
-                            {
-                                "Trigger": "ItemPlacedInMachine",
-                                "RequiredTags": ["category_fruits"],
-                                "RequiredCount": 1
-                            },
-                            {
-                                "Trigger": "ItemPlacedInMachine",
-                                "RequiredTags": ["edible_flower_item"],
-                                "RequiredCount": 1
-                            }
-                        ],
-                        "OutputItem": [
-                            {
-                                "Id": "Wildflour.AtelierGoods_Flavored_Doughnuts",
-                                "ItemId": "Wildflour.AtelierGoods_Flavored_Doughnuts",
-                                "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Doughnuts %PRESERVED_DISPLAY_NAME]",
-                                "ObjectInternalName": "{0} Doughnuts",
-                                "PreserveID":"DROP_IN",
-                                "CopyColor": true,
-                                "CopyQuality":true,
-                                "CopyPrice": true,
-                                "PriceModifiers": 
-                                [
-                                    {
-                                    "Modification": "Add",
-                                    "Amount": 65
-                                    },
-                                    {
-                                    "Modification": "Multiply",
-                                    "Amount": 2.5
                                     }
                                 ]
                             }
@@ -4948,6 +4911,45 @@
                                     {
                                     "Modification": "Multiply",
                                     "Amount": 5.5
+                                    }
+                                ]
+                            }
+                        ],
+                        "MinutesUntilReady": 1400
+                    },
+                    {
+                        "Id": "Wildflour.AtelierGoods_Flavored_Doughnuts",
+                        "Triggers": [
+                            {
+                                "Trigger": "ItemPlacedInMachine",
+                                "RequiredTags": ["category_fruits"],
+                                "RequiredCount": 1
+                            },
+                            {
+                                "Trigger": "ItemPlacedInMachine",
+                                "RequiredTags": ["edible_flower_item"],
+                                "RequiredCount": 1
+                            }
+                        ],
+                        "OutputItem": [
+                            {
+                                "Id": "Wildflour.AtelierGoods_Flavored_Doughnuts",
+                                "ItemId": "Wildflour.AtelierGoods_Flavored_Doughnuts",
+                                "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Doughnuts %PRESERVED_DISPLAY_NAME]",
+                                "ObjectInternalName": "{0} Doughnuts",
+                                "PreserveID":"DROP_IN",
+                                "CopyColor": true,
+                                "CopyQuality":true,
+                                "CopyPrice": true,
+                                "PriceModifiers": 
+                                [
+                                    {
+                                    "Modification": "Add",
+                                    "Amount": 65
+                                    },
+                                    {
+                                    "Modification": "Multiply",
+                                    "Amount": 2.5
                                     }
                                 ]
                             }
@@ -5868,7 +5870,7 @@
                         "Triggers": [
                             {
                                 "Trigger": "ItemPlacedInMachine",
-                                "RequiredItemId": "(O)Wildflour.AtelierGoods_Raspberry_Syrup",
+                                "RequiredTags": ["raspberry_item"],
                                 "RequiredCount": 1
                             }
                         ],

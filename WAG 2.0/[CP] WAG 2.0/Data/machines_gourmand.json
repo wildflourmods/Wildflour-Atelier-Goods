@@ -67,7 +67,7 @@
                     "Triggers": [
                         {
                             "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)246",
+                            "RequiredItemId": "(O)262",
                             "RequiredCount": 1
                         }
                     ],
@@ -1294,7 +1294,6 @@
                     "PriceModifiers": 
                     [
                         {
-                            "Id": "Wildflour.AtelierGoods_Artisan_Modifier",
                             "Modification": "Multiply",
                             "Amount": 2.75
                         }
@@ -1388,7 +1387,7 @@
             "MinutesUntilReady": 180
         },
         "Wildflour.AtelierGoods_MayoMachine_Maple_Butter": {
-            "Id": "Wildflour.AtelierGoods_MayoMachine_Maple_Honey_Pumpkin_Butter",
+            "Id": "Wildflour.AtelierGoods_MayoMachine_Maple_Butter",
             "Triggers": [
                 {
                     "Trigger": "ItemPlacedInMachine",
@@ -2393,7 +2392,7 @@
                         "CopyColor":true, 
                         "CopyQuality":true,
                         "CopyPrice": true,
-                       "PriceModifiers": 
+                        "PriceModifiers": 
                             [
                                 {
                                 "Modification": "Multiply",
@@ -2787,7 +2786,6 @@
                         "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Pickle_Crate %PRESERVED_DISPLAY_NAME]",
                         "ObjectInternalName": "{0} Crate",
                         "PreserveId": "DROP_IN", 
-                        "CopyColor":true, 
                         "CopyQuality":true,
                         "CopyPrice": true,
                         "PriceModifiers": 
@@ -2816,8 +2814,7 @@
                         "ItemId": "Wildflour.AtelierGoods_Juice_Crate",
                         "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Juice_Crate %PRESERVED_DISPLAY_NAME]",
                         "ObjectInternalName": "{0} Crate",
-                        "PreserveId": "DROP_IN", 
-                        "CopyColor":true, 
+                        "PreserveId": "DROP_IN_PRESERVE", 
                         "CopyQuality":true,
                         "CopyPrice": true,
                         "PriceModifiers": 
@@ -2846,7 +2843,7 @@
                         "ItemId": "Wildflour.AtelierGoods_Wine_Crate",
                         "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Wine_Crate %PRESERVED_DISPLAY_NAME]",
                         "ObjectInternalName": "{0} Crate",
-                        "PreserveId": "DROP_IN", 
+                        "PreserveId": "DROP_IN_PRESERVE", 
                         "CopyColor":true, 
                         "CopyQuality":true,
                         "CopyPrice": true,

@@ -11,25 +11,6 @@
     "Target": "Data/Objects",
     "When": {"Atelier.Cauldron/ConfigValue:Muffins": "True"},
     "Entries": {
-        "Wildflour.AtelierGoods_Flavored_Scones": {
-            "Name": "Wildflour.AtelierGoods_Flavored_Scones",
-            "DisplayName": "{{i18n:AtelierGoods_Flavored_Scones.name}}",
-            "Description": "{{i18n:AtelierGoods_Flavored_Scones.description}}",
-            "ColorOverlayFromNextIndex":true, 
-            "Type": "ArtisanGoods",          
-            "Category": -26,
-            "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
-            "Price": 100,
-
-            "ContextTags":
-            ["wildflour_bakery_item",
-            "scone_item",
-            "color_brown"],
-
-            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
-            "SpriteIndex": 759
-    },
         "Wildflour.AtelierGoods_Flavored_Muffins": {
             "Name": "Wildflour.AtelierGoods_Flavored_Muffins",
             "DisplayName": "{{i18n:AtelierGoods_Flavored_Muffins.name}}",
@@ -38,7 +19,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 80,
             "Price": 100,
 
             "ContextTags":
@@ -96,7 +77,7 @@
                 "Type": "ArtisanGoods",          
                 "Category": -26,
                 "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-                "Edibility": 0,
+                "Edibility": 90,
                 "Price": 100,
 
                 "ContextTags":
@@ -136,7 +117,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 105,
             "Price": 100,
 
             "ContextTags":
@@ -146,25 +127,6 @@
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 791
-    },
-        "Wildflour.AtelierGoods_Flavored_Petit_Fours": {
-            "Name": "Wildflour.AtelierGoods_Flavored_Petit_Fours",
-            "DisplayName": "{{i18n:AtelierGoods_Flavored_Petit_Fours.name}}",
-            "Description": "{{i18n:AtelierGoods_Flavored_Petit_Fours.description}}",
-            "ColorOverlayFromNextIndex":true, 
-            "Type": "ArtisanGoods",          
-            "Category": -26,
-            "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
-            "Price": 100,
-
-            "ContextTags":
-            ["wildflour_bakery_item",
-            "cake_item",
-            "color_brown"],
-
-            "Texture": "Mods/Wildflour.AtelierGoods/Objects",
-            "SpriteIndex": 872
     }
 }
 },
@@ -222,7 +184,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 115,
             "Price": 100,
 
             "ContextTags":
@@ -280,7 +242,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 28,
             "Price": 100,
 
             "ContextTags":
@@ -369,7 +331,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 40,
             "Price": 100,
 
             "ContextTags":
@@ -409,7 +371,7 @@
             "Type": "ArtisanGoods",          
             "Category": -26,
             "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
-            "Edibility": 0,
+            "Edibility": 40,
             "Price": 100,
 
             "ContextTags":

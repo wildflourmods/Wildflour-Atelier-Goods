@@ -285,7 +285,7 @@
         },
         "Wildflour.AtelierGoods_Baker_Mixer_Recipe_Trigger": {
             "Id": "Wildflour.AtelierGoods_Baker_Mixer_Recipe_Trigger",
-            "Condition": "PLAYER_FARMHOUSE_UPGRADE Current 1 99, CAULDRON_CONFIG_VALUE Cookies True, PLAYER_HAS_COOKING_RECIPE Current Cookie",
+            "Condition": "PLAYER_FARMHOUSE_UPGRADE Current 1 99, CAULDRON_CONFIG_VALUE Cookies True, PLAYER_HAS_COOKING_RECIPE Current Cookies",
             "Trigger": "DayStarted",
             "Action": "AddMail Current Wildflour.AtelierGoods_Baker_Mixer_Mail tomorrow"
         },

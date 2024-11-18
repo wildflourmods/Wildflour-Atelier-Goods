@@ -34,7 +34,7 @@
 				"BundleIconAsset": "Mods/Wildflour.AtelierGoods/StarterBundle",
 				"BundleSlots": 1,
 				"ShopEvent": "communityCenter/-100 -100/farmer 0 0 0/skippable/globalFade 0.007 false/viewport -1000 -1000/playSound junimoMeep1/spriteText 3 \"{{i18n: AtelierGoods_WarpBundleComplete}}\"/pause 100/end",  
-				"ShopPosition": "3, 5",
+				"ShopPosition": "45, 94",
 				"ShopType": "CCBundle",
 				"Price": {
 					"(O)Wildflour.AtelierGoods_Junimo_Gem": 5
@@ -61,7 +61,7 @@
 		"LogName":"Forest Warp Vanilla",
 		"Action": "EditMap",
 		"Target": "Maps/Forest",
-		"AddWarps": ["44 94 Wildflour.AtelierGoods_ShopkeeperGrove 24 18"],
+		"AddWarps": ["45 94 Wildflour.AtelierGoods_ShopkeeperGrove 24 18","45 95 Wildflour.AtelierGoods_ShopkeeperGrove 24 19"],
 		"When":{"DLX.Bundles/Purchased": "Wildflour.AtelierGoods_Starter_Bundle", "HasMod:|contains= skellady.SBVCP": false}
 	},
 
@@ -69,7 +69,7 @@
 		"LogName":"Shopkeeper Warp Vanilla",
 		"Action": "EditMap",
 		"Target": "Maps/Wildflour.AtelierGoods_ShopkeeperGrove",
-		"AddWarps": ["24 22 Forest 3 6"],
+		"AddWarps": ["24 22 Forest 42 95"],
 		"When": {"HasMod:|contains= skellady.SBVCP": false}
 	},
 
@@ -728,7 +728,7 @@
 		"Target": "Maps/Wildflour.AtelierGoods_ShopkeeperGrove",
 		"MapTiles": [
 			{
-				"Position": {"X": 36, "Y": 10},
+				"Position": {"X": 37, "Y": 10},
 				"Layer": "Buildings",
 				"SetProperties": {"Action": "OpenShop Wildflour.AtelierGoods_AlchemistShop"}
 			}

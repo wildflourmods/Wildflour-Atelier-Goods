@@ -34,7 +34,7 @@
                     "Type": "ArtisanGoods",          
                     "Category": -6,
                     "Edibility": 5,
-                    "Price": 100,
+                    "Price": 155,
                     "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
 
                     "ContextTags":
@@ -75,7 +75,7 @@
                     "Type": "ArtisanGoods",          
                     "Category": -26,
                     "Edibility": 10,
-                    "Price": 100,
+                    "Price": 185,
                     "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
 
                     "ContextTags":
@@ -132,7 +132,7 @@
                     "Type": "ArtisanGoods",          
                     "Category": -6,
                     "Edibility": 7,
-                    "Price": 100,
+                    "Price": 30,
                     "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
                     "ContextTags":
                     ["wildflour_pantry_item",
@@ -792,7 +792,7 @@
                     "Type": "ArtisanGoods",          
                     "Category": -26,
                     "Edibility": 10,
-                    "Price": 100,
+                    "Price": 200,
                     "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
                     "ContextTags":
                     ["wildflour_pantry_item",
@@ -811,7 +811,7 @@
                     "Type": "ArtisanGoods",          
                     "Category": -26,
                     "Edibility": 10,
-                    "Price": 100,
+                    "Price": 300,
                     "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
                     "ContextTags":
                     ["wildflour_pantry_item",
@@ -2404,7 +2404,6 @@
                     "Name": "Wildflour.AtelierGoods_Jelly_Crate",
                     "DisplayName": "{{i18n:AtelierGoods_Jelly_Crate.name}}",
                     "Description": "{{i18n:AtelierGoods_Jelly_Crate.description}}",
-                    "ColorOverlayFromNextIndex":true, 
                     "Type": "ArtisanGoods",          
                     "Category": -26,
                     "Edibility": -300,
@@ -2412,7 +2411,6 @@
                     "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
                     "ContextTags":
                     [
-
                     "color_gold"],
 
                     "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -2422,7 +2420,6 @@
                     "Name": "Wildflour.AtelierGoods_Pickle_Crate",
                     "DisplayName": "{{i18n:AtelierGoods_Pickle_Crate.name}}",
                     "Description": "{{i18n:AtelierGoods_Pickle_Crate.description}}",
-                    "ColorOverlayFromNextIndex":true, 
                     "Type": "ArtisanGoods",          
                     "Category": -26,
                     "Edibility": -300,
@@ -2430,7 +2427,6 @@
                     "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
                     "ContextTags":
                     [
-
                     "color_gold"],
 
                     "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -2730,7 +2726,27 @@
                     "SpriteIndex": 710
             }
         }
-        }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Strings/Objects",
+            "When": {"Atelier.Cauldron/ConfigValue:CSA": true},
+            "Entries": {
+                "Wildflour.AtelierGoods_Generic_Flower_Basket": "{{i18n: AtelierGoods_Generic_Flower_Basket}}",
+                "Wildflour.AtelierGoods_Generic_Fish_Basket": "{{i18n: AtelierGoods_Generic_Fish_Basket}}",
+                "Wildflour.AtelierGoods_Flavored_Mushroom_Basket": "{{i18n: AtelierGoods_Flavored_Mushroom_Basket}}",
+                "Wildflour.AtelierGoods_Fruit_Basket": "{{i18n: AtelierGoods_Fruit_Basket}}",
+                "Wildflour.AtelierGoods_Veggie_Box": "{{i18n: AtelierGoods_Veggie_Box}}",
+                "Wildflour.AtelierGoods_Forage_Box": "{{i18n: AtelierGoods_Forage_Box}}",
+                "Wildflour.AtelierGoods_Wine_Crate": "{{i18n: AtelierGoods_Wine_Crate}}",
+                "Wildflour.AtelierGoods_Juice_Crate": "{{i18n: AtelierGoods_Juice_Crate}}",
+                "Wildflour.AtelierGoods_Pickle_Crate": "{{i18n: AtelierGoods_Pickle_Crate}}",
+                "Wildflour.AtelierGoods_Jelly_Crate": "{{i18n: AtelierGoods_Jelly_Crate}}",
+                "Wildflour.AtelierGoods_Roe_Basket": "{{i18n: AtelierGoods_Roe_Basket}}",
+                "Wildflour.AtelierGoods_Aged_Roe_Jars": "{{i18n: AtelierGoods_Aged_Roe_Jars}}",
+            }
+        },
 
     ]
 }
