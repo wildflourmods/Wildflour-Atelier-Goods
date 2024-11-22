@@ -174,7 +174,7 @@
     "LogName": "Add Chocolatier Barrel to BigCraftables",
     "Action": "EditData",
     "Target": "Data/BigCraftables",
-    "When":  {"Atelier.Cauldron/ConfigValue:Chocolates": true},
+    "When":  {"Atelier.Cauldron/ConfigValue:Chocolates": true, "Atelier.Cauldron/ConfigValue:WildFood": true},
     "Entries": {
         "Wildflour.AtelierGoods_ChocolatierBarrel": {
             "Name": "Wildflour.AtelierGoods_ChocolatierBarrel",
@@ -196,7 +196,7 @@
     "LogName": "Add Chocolatier Barrel Crafting Recipe",
     "Action": "EditData",
     "Target": "Data/CraftingRecipes",
-    "When":  {"Atelier.Cauldron/ConfigValue:Chocolates": true},
+    "When":  {"Atelier.Cauldron/ConfigValue:Chocolates": true, "Atelier.Cauldron/ConfigValue:WildFood": true},
     "Entries": {
         "Wildflour.AtelierGoods_ChocolatierBarrel": "245 15 330 15 388 40/Home/Wildflour.AtelierGoods_ChocolatierBarrel/true/{{RecipeConfig}}/{{i18n: AtelierGoods_ChocolatierBarrel.name}}"
     }
@@ -954,7 +954,7 @@
     "LogName": "Basic Chocolate Rules",
     "Action": "EditData",
     "Target": "Data/Machines",
-    "When": {"Atelier.Cauldron/ConfigValue:Chocolates": true},
+    "When": {"Atelier.Cauldron/ConfigValue:Chocolates": true, "Atelier.Cauldron/ConfigValue:WildFood": true},
     "Entries": {
         "(BC)Wildflour.AtelierGoods_ChocolatierBarrel": {
             "OutputRules": [

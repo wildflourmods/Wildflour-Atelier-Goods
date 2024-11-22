@@ -1,8 +1,8 @@
 {
-	"Name": "[FTM] Wildflour's Atelier Crops and Forage",
+	"Name": "[FTM] Wildflour's Atelier Goods",
 	"Author": "wildflourmods",
-	"Description": "adds new foreagables to Stardew Valley via Farm Type Manager",
-	"Version": "0.4",
+	"Description": "adds WAG forageable items to Stardew Valley via Farm Type Manager",
+	"Version": "1.0",
 	"UniqueID": "Wildflour.AtelierGoodsFTM",
 	"ContentPackFor": {"UniqueID": "Esca.FarmTypeManager"},
 	"Dependencies": [{"UniqueID": "Wildflour.AtelierGoods", "IsRequired": true}]

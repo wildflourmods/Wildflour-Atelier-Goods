@@ -182,8 +182,8 @@
 
 "AtelierGoods_Deluxe_Dessert_Stand.name": "Deluxe Dessert Stand",
 "AtelierGoods_Deluxe_Dessert_Stand.description": "Craft puddings here using fruits and edible flowers. Requires pectin as fuel.",
-"AtelierGoods_Deluxe_DessertStand_InvalidCount.message":"Requires pectin as fuel.",
-"AtelierGoods_Deluxe_DessertStand_InvalidItem.message":"Cannot make this into a pudding.",
+"AtelierGoods_Deluxe_Dessert_Stand_InvalidCount.message":"Requires pectin as fuel.",
+"AtelierGoods_Deluxe_Dessert_Stand_InvalidItem.message":"Cannot make this into a pudding.",
 
 "AtelierGoods_Dessert_Stand.name": "Dessert Stand",
 "AtelierGoods_Dessert_Stand.description": "Craft cupcakes and petit fours with a variety of ingredients. Requires cake mix as fuel.",
@@ -193,7 +193,7 @@
 "AtelierGoods_FlowerStation.name": "Flower Arranging Table",
 "AtelierGoods_FlowerStation.description": "Turns 5 floral swag into a dried flower arrangement.",
 "AtelierGoods_FlowerStation_InvalidItem.message": "Needs 5 floral swag.",
-"AtelierGoods_FlowerStation_InvalidCount.message": "Requires 5 of the same dried flowers.",
+"AtelierGoods_FlowerStation_InvalidCount.message": "Requires 5 of the same flower.",
 
 "AtelierGoods_FragranceStation.name":"Fragrance Extractor",
 "AtelierGoods_FragranceStation.description":"Turns fresh flowers into perfume or dried flowers into incense.",
@@ -1896,10 +1896,10 @@
 "AtelierGoods_Butter.description": "Milk churned into glorious butter.",
 
 "AtelierGoods_Buttermilk.name": "Buttermilk",
-"AtelierGoods_Buttermilk.description": " A by-product from making butter in the kitchen mortar, buttermilk helps create tender cornbread and fluffy pancakes.",
+"AtelierGoods_Buttermilk.description": " A by-product from making butter, buttermilk helps create tender cornbread and fluffy pancakes.",
 
 "AtelierGoods_Cream.name": "Cream",
-"AtelierGoods_Cream.description": "A by-product from making butter in the kitchen mortar, cream is essential for whipping up soft, fluffy frostings!",
+"AtelierGoods_Cream.description": "A by-product from making butter, cream is essential for whipping up soft, fluffy frostings!",
 
 "AtelierGoods_Cream_Cheese.name": "Cream Cheese",
 "AtelierGoods_Cream_Cheese.description": "Cream cheese is perfect for cheesecake or just smearing on a bagel.",
@@ -2634,8 +2634,8 @@
 "AtelierGoods_Meringue_Mushroom_Seeds.name":"Meringue Mushroom Starter",
 "AtelierGoods_Meringue_Mushroom_Seeds.description":"Plant in fall. Takes 16 days to reach maturity and then can be harvested every 3 days after.",
 
-"AtelierGoods_Milk_Mushroom.name": "Milky White Mushrooms",
-"AtelierGoods_Milk_Mushroom.description": "These mushrooms are bright white and have a creamy texture.",
+"AtelierGoods_Milk_Mushroom.name": "Milky White Mushroom",
+"AtelierGoods_Milk_Mushroom.description": "This mushroom is bright white and has a creamy texture.",
 "AtelierGoods_Milk_Mushroom_Seeds.name":"Milky White Mushroom Starter",
 "AtelierGoods_Milk_Mushroom_Seeds.description":"Plant in summer or fall. Takes 14 days to reach maturity and then can be harvested every 5 days after.",
 

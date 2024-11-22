@@ -2576,7 +2576,7 @@
                     "Triggers": [
                         {
                         "Trigger": "ItemPlacedInMachine",
-                        "RequiredTags": ["category_fruits"],
+                        "RequiredTags": ["category_fruits","!lemon_item"],
                         "RequiredCount": 1
                         },
                         {
@@ -3529,7 +3529,18 @@
                 ],
                     "MinutesUntilReady": 280
                 }
-        ]
+        ],
+        "AdditionalConsumedItems":[],
+        "InvalidItemMessage":"{{i18n:AtelierGoods_KitchenBlender_InvalidItem.message}}",
+        "ShowNextIndexWhileWorking":false,
+        "ShowNextIndexWhenReady":false,
+        "WobbleWhileWorking":false,
+        "WorkingEffects":[
+            {
+                "Frames":[1,2,3,4,5,6,7],
+                "Interval":100
+            }
+       ] 
         }
     }
 },
@@ -4411,7 +4422,18 @@
                 ],
                     "MinutesUntilReady": 280
                 }
-        ]
+        ],
+        "AdditionalConsumedItems":[],
+        "InvalidItemMessage":"{{i18n:AtelierGoods_KitchenBlender_InvalidItem.message}}",
+        "ShowNextIndexWhileWorking":false,
+        "ShowNextIndexWhenReady":false,
+        "WobbleWhileWorking":false,
+        "WorkingEffects":[
+            {
+                "Frames":[1,2,3,4,5,6,7],
+                "Interval":100
+            }
+       ] 
         }
     }
 }

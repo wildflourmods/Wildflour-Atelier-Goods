@@ -208,14 +208,10 @@
 //GOURMAND
 
   {
-      "LogName": "Advanced Extra Outputs",
+      "LogName": "Advanced Extra Outputs Vanilla Items",
       "Action": "EditData",
       "Target": "selph.ExtraMachineConfig/ExtraOutputs",
       "Entries": {
-        "AlmondMilkBP": {
-          "Id": "AlmondMilkBP",
-          "ItemId": "(O)Wildflour.AtelierGoods_Almond_Milk"
-        },
         "ButtermilkBP": {
           "Id": "ButtermilkBP",
           "ItemId": "(O)Wildflour.AtelierGoods_Buttermilk"
@@ -235,6 +231,19 @@
         "RiceMilkBP": {
           "Id": "RiceMilkBP",
           "ItemId": "(O)Wildflour.AtelierGoods_Rice_Milk"
+        }
+      }
+    },
+
+    {
+      "LogName": "Wild Food Extra Outputs",
+      "Action": "EditData",
+      "Target": "selph.ExtraMachineConfig/ExtraOutputs",
+      "When":{"Atelier.Cauldron/ConfigValue:WildFood": true},
+      "Entries": {
+        "AlmondMilkBP": {
+          "Id": "AlmondMilkBP",
+          "ItemId": "(O)Wildflour.AtelierGoods_Almond_Milk"
         },
         "MilkChocolateBP": {
           "Id": "MilkChocolateBP",
@@ -246,6 +255,8 @@
         },
       }
     },
+
+
 
   {
       "LogName": "Kitchen Mortar BP",
@@ -284,6 +295,7 @@
     "LogName": "Add Milk & White Chocolate By Product to Chocolate Rule",
     "Action": "EditData",
     "Target": "Data/Machines",
+    "When":{"Atelier.Cauldron/ConfigValue:WildFood": true},
     "TargetField": ["(BC)Wildflour.AtelierGoods_KitchenMortar", "OutputRules", "Wildflour.AtelierGoods_Chocolate", "OutputItem", "Wildflour.AtelierGoods_Dark_Chocolate", "CustomData"],
     "Entries": {
       "selph.ExtraMachineConfig.ExtraOutputIds": "MilkChocolateBP, WhiteChocolateBP"
@@ -294,6 +306,7 @@
     "LogName": "Add Almond Milk By Product to Almond Flour",
     "Action": "EditData",
     "Target": "Data/Machines",
+    "When":{"Atelier.Cauldron/ConfigValue:WildFood": true},
     "TargetField": ["(BC)Wildflour.AtelierGoods_KitchenMortar", "OutputRules", "Wildflour.AtelierGoods_Almond_Flour", "OutputItem", "Wildflour.AtelierGoods_Almond_Flour", "CustomData"],
     "Entries": {
       "selph.ExtraMachineConfig.ExtraOutputIds": "AlmondMilkBP"

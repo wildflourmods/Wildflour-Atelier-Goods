@@ -514,9 +514,7 @@
                     "Triggers": [
                         {
                             "Trigger": "ItemPlacedInMachine",
-                            "RequiredTags": [
-                                "category_flowers"
-                            ],
+                            "RequiredItemId": "Wildflour.AtelierGoods_Floral_Swag",
                             "RequiredCount": 5
                         }
                 ],
@@ -549,7 +547,7 @@
             "WobbleWhileWorking":false,
             "WorkingEffects":[
                 {
-                    "Frames":[1,2,3,4,5],
+                    "Frames":[1,2,3,4],
                     "Interval":100
                 }
            ] 
@@ -1234,7 +1232,7 @@
             "WobbleWhileWorking":false,
             "WorkingEffects":[
                 {
-                    "Frames":[0,1,2,3,4,5,6,7],
+                    "Frames":[1,2,3,4,5,6,7],
                     "Interval":100
                 }
            ] 
@@ -1653,7 +1651,7 @@
             "WobbleWhileWorking":false,
             "WorkingEffects":[
                 {
-                    "Frames":[0,1,2,3,4,5,6,7],
+                    "Frames":[1,2,3,4,5,6,7],
                     "Interval":100
                 }
            ] 
@@ -2734,7 +2732,7 @@
             "WobbleWhileWorking":false,
             "WorkingEffects":[
                 {
-                    "Frames":[0,1,2,3,4,5,6,7],
+                    "Frames":[1,2,3,4,5,6,7],
                     "Interval":100
                 }
            ] 

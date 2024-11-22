@@ -193,7 +193,7 @@
         "Target": "Strings/Objects",
         "When":  {"Atelier.Cauldron/ConfigValue:Tea": true},
         "Entries": {
-            "Wildflour.AtelierGoods_Flavored_Boba": "{{i18n: AtelierGoods_FlavoredBoba}}",
+            "Wildflour.AtelierGoods_Flavored_Boba": "{{i18n: AtelierGoods_Flavored_Boba}}",
             "Wildflour.AtelierGoods_Flavored_Sachet": "{{i18n: AtelierGoods_Flavored_Sachet}}",
             "Wildflour.AtelierGoods_Flavored_Tea": "{{i18n: AtelierGoods_Flavored_Tea}}",
             "Wildflour.AtelierGoods_Flavored_Kombucha": "{{i18n: AtelierGoods_Flavored_Kombucha}}"

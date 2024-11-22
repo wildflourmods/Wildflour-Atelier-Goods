@@ -100,7 +100,7 @@
     "LogName": "Add Lemonade Stand to BigCraftables",
     "Action": "EditData",
     "Target": "Data/BigCraftables",
-    "When":  {"Atelier.Cauldron/ConfigValue:Lemonade": true},
+    "When":  {"Atelier.Cauldron/ConfigValue:Lemonade": true, "Atelier.Cauldron/ConfigValue:WildFood": true},
     "Entries": {
         "Wildflour.AtelierGoods_LemonadeStand": {
             "Name": "Wildflour.AtelierGoods_LemonadeStand",
@@ -122,7 +122,7 @@
     "LogName": "Add Barista Craftable Lemonade Stand Recipe",
     "Action": "EditData",
     "Target": "Data/CraftingRecipes",
-    "When":  {"Atelier.Cauldron/ConfigValue:Lemonade": true},
+    "When":  {"Atelier.Cauldron/ConfigValue:Lemonade": true, "Atelier.Cauldron/ConfigValue:WildFood": true},
     "Entries": {
         "Wildflour.AtelierGoods_LemonadeStand": "388 50 334 2 382 5/Home/Wildflour.AtelierGoods_LemonadeStand/true/{{RecipeConfig}}/{{i18n: AtelierGoods_LemonadeStand.name}}"
     } 
@@ -448,7 +448,7 @@
     "LogName": "Basic Lemonade Rules",
     "Action": "EditData",
     "Target": "Data/Machines",
-    "When":  {"Atelier.Cauldron/ConfigValue:Lemonade": true},
+    "When":  {"Atelier.Cauldron/ConfigValue:Lemonade": true, "Atelier.Cauldron/ConfigValue:WildFood": true},
     "Entries": {
         "(BC)Wildflour.AtelierGoods_LemonadeStand":{
             "OutputRules": [
@@ -457,7 +457,7 @@
                     "Triggers": [
                         {
                         "Trigger": "ItemPlacedInMachine",
-                        "RequiredTags": ["category_fruits"],
+                        "RequiredTags": ["category_fruits","!lemon_item"],
                         "RequiredCount": 1
                         },
                         {

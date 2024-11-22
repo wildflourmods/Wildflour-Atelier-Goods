@@ -42,7 +42,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "muffin_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_dark_blue"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 736
@@ -60,7 +62,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "muffin_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_gold"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 740
@@ -78,7 +82,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "muffin_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_dark_yellow"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 742
@@ -96,7 +102,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "muffin_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_jade"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 743
@@ -113,6 +121,8 @@
 
             "ContextTags":
             ["wildflour_bakery_item",
+            "food_bakery",
+            "food_sweet",
             "muffin_item",
             "color_brown"],
 
@@ -132,7 +142,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "scone_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_dark_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 752
@@ -149,8 +161,10 @@
 
             "ContextTags":
             ["wildflour_bakery_item",
+            "food_bakery",
+            "food_sweet",
             "scone_item",
-            "color_brown"],
+            "color_dark_red"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 753
@@ -167,8 +181,10 @@
 
             "ContextTags":
             ["wildflour_bakery_item",
+            "food_bakery",
+            "food_sweet",
             "scone_item",
-            "color_brown"],
+            "color_purple"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 755
@@ -185,8 +201,10 @@
 
             "ContextTags":
             ["wildflour_bakery_item",
+            "food_bakery",
+            "food_sweet",
             "scone_item",
-            "color_brown"],
+            "color_dark_red"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 756
@@ -204,7 +222,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "scone_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_purple"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 757
@@ -223,6 +243,8 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "muffin_item",
+            "food_bakery",
+            "food_sweet",
             "color_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -290,7 +312,9 @@
                 "ContextTags":
                 ["wildflour_bakery_item",
                 "cake_item",
-                "color_brown"],
+                "food_bakery",
+                "food_sweet",
+                "color_red"],
 
                 "Texture": "Mods/Wildflour.AtelierGoods/Objects",
                 "SpriteIndex": 816
@@ -308,7 +332,9 @@
                 "ContextTags":
                 ["wildflour_bakery_item",
                 "cake_item",
-                "color_brown"],
+                "food_bakery",
+                "food_sweet",
+                "color_gold"],
 
                 "Texture": "Mods/Wildflour.AtelierGoods/Objects",
                 "SpriteIndex": 817
@@ -326,7 +352,9 @@
                 "ContextTags":
                 ["wildflour_bakery_item",
                 "cake_item",
-                "color_brown"],
+                "food_bakery",
+                "food_sweet",
+                "color_dark_red"],
 
                 "Texture": "Mods/Wildflour.AtelierGoods/Objects",
                 "SpriteIndex": 818
@@ -344,7 +372,9 @@
                 "ContextTags":
                 ["wildflour_bakery_item",
                 "cake_item",
-                "color_brown"],
+                "food_bakery",
+                "food_sweet",
+                "color_pink"],
 
                 "Texture": "Mods/Wildflour.AtelierGoods/Objects",
                 "SpriteIndex": 819
@@ -362,7 +392,9 @@
                 "ContextTags":
                 ["wildflour_bakery_item",
                 "cake_item",
-                "color_brown"],
+                "food_bakery",
+                "food_sweet",
+                "color_salmon"],
 
                 "Texture": "Mods/Wildflour.AtelierGoods/Objects",
                 "SpriteIndex": 820
@@ -380,7 +412,9 @@
                 "ContextTags":
                 ["wildflour_bakery_item",
                 "cake_item",
-                "color_brown"],
+                "food_bakery",
+                "food_sweet",
+                "color_sand"],
 
                 "Texture": "Mods/Wildflour.AtelierGoods/Objects",
                 "SpriteIndex": 821
@@ -398,7 +432,9 @@
                 "ContextTags":
                 ["wildflour_bakery_item",
                 "cake_item",
-                "color_brown"],
+                "food_bakery",
+                "food_sweet",
+                "color_dark_blue"],
 
                 "Texture": "Mods/Wildflour.AtelierGoods/Objects",
                 "SpriteIndex": 822
@@ -416,7 +452,9 @@
                 "ContextTags":
                 ["wildflour_bakery_item",
                 "cake_item",
-                "color_brown"],
+                "food_bakery",
+                "food_sweet",
+                "color_red"],
 
                 "Texture": "Mods/Wildflour.AtelierGoods/Objects",
                 "SpriteIndex": 823
@@ -434,7 +472,9 @@
                 "ContextTags":
                 ["wildflour_bakery_item",
                 "cake_item",
-                "color_brown"],
+                "food_bakery",
+                "food_sweet",
+                "color_pink"],
 
                 "Texture": "Mods/Wildflour.AtelierGoods/Objects",
                 "SpriteIndex": 824
@@ -452,7 +492,9 @@
                 "ContextTags":
                 ["wildflour_bakery_item",
                 "cake_item",
-                "color_brown"],
+                "food_bakery",
+                "food_sweet",
+                "color_orange"],
 
                 "Texture": "Mods/Wildflour.AtelierGoods/Objects",
                 "SpriteIndex": 825
@@ -470,6 +512,8 @@
                 "ContextTags":
                 ["wildflour_bakery_item",
                 "cake_item",
+                "food_bakery",
+                "food_sweet",
                 "color_brown"],
 
                 "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -489,7 +533,9 @@
                 "ContextTags":
                 ["wildflour_bakery_item",
                 "cake_item",
-                "color_brown"],
+                "food_bakery",
+                "food_sweet",
+                "color_sand"],
 
                 "Texture": "Mods/Wildflour.AtelierGoods/Objects",
                 "SpriteIndex": 829
@@ -529,7 +575,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "cupcake_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_pink"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 787
@@ -547,7 +595,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "cupcake_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_white"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 786
@@ -565,6 +615,8 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "cupcake_item",
+            "food_bakery",
+            "food_sweet",
             "color_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -583,7 +635,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "cupcake_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_pink"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 784
@@ -601,7 +655,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "cupcake_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_jade"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 788
@@ -619,7 +675,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "cupcake_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_sea_green"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 789
@@ -637,6 +695,8 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "cupcake_item",
+            "food_bakery",
+            "food_orange",
             "color_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -654,8 +714,10 @@
 
             "ContextTags":
             ["wildflour_bakery_item",
-            "petit_Four_item",
-            "color_brown"],
+            "petit_four_item",
+            "food_bakery",
+            "food_sweet",
+            "color_salmon"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex":768
@@ -672,8 +734,10 @@
 
             "ContextTags":
             ["wildflour_bakery_item",
-            "petit_Four_item",
-            "color_brown"],
+            "petit_four_item",
+            "food_bakery",
+            "food_sweet",
+            "color_gold"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 769
@@ -690,8 +754,10 @@
 
             "ContextTags":
             ["wildflour_bakery_item",
-            "petit_Four_item",
-            "color_brown"],
+            "petit_four_item",
+            "food_bakery",
+            "food_sweet",
+            "color_purple"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 770
@@ -708,8 +774,10 @@
 
             "ContextTags":
             ["wildflour_bakery_item",
-            "petit_Four_item",
-            "color_brown"],
+            "petit_four_item",
+            "food_bakery",
+            "food_sweet",
+            "color_pink"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 771
@@ -726,8 +794,10 @@
 
             "ContextTags":
             ["wildflour_bakery_item",
-            "petit_Four_item",
-            "color_brown"],
+            "petit_four_item",
+            "food_bakery",
+            "food_sweet",
+            "color_blue"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 772
@@ -744,8 +814,10 @@
 
             "ContextTags":
             ["wildflour_bakery_item",
-            "petit_Four_item",
-            "color_brown"],
+            "petit_four_item",
+            "food_bakery",
+            "food_sweet",
+            "color_copper"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 773
@@ -762,8 +834,10 @@
 
             "ContextTags":
             ["wildflour_bakery_item",
-            "petit_Four_item",
-            "color_brown"],
+            "petit_four_item",
+            "food_bakery",
+            "food_sweet",
+            "color_pink"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 775
@@ -780,8 +854,10 @@
 
             "ContextTags":
             ["wildflour_bakery_item",
-            "petit_Four_item",
-            "color_brown"],
+            "petit_four_item",
+            "food_bakery",
+            "food_sweet",
+            "color_gold"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 776
@@ -798,8 +874,10 @@
 
             "ContextTags":
             ["wildflour_bakery_item",
-            "petit_Four_item",
-            "color_brown"],
+            "petit_four_item",
+            "food_bakery",
+            "food_sweet",
+            "color_red"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 777
@@ -817,7 +895,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "petit_Four_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_dark_red"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 778
@@ -836,7 +916,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "cake_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_sand"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 791
@@ -893,6 +975,8 @@
 
             "ContextTags":
             ["wildflour_bakery_item",
+            "food_bakery",
+            "food_sweet",
             "pie_item",
             "color_brown"],
 
@@ -911,8 +995,10 @@
 
             "ContextTags":
             ["wildflour_bakery_item",
+            "food_bakery",
+            "food_sweet",
             "pie_item",
-            "color_brown"],
+            "color_dark_red"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 746
@@ -930,7 +1016,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "pie_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_dark_blue"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 748
@@ -948,7 +1036,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "pie_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_red"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 766
@@ -966,7 +1056,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "pie_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_orange"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 749
@@ -984,7 +1076,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "pie_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_copper"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 750
@@ -1002,7 +1096,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "pie_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_gold"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 751
@@ -1020,7 +1116,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "pie_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_lime"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 733
@@ -1038,7 +1136,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "pie_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_white"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 734
@@ -1056,7 +1156,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "pie_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_salmon"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 735
@@ -1074,7 +1176,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "tart_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_dark_blue"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 726
@@ -1092,6 +1196,8 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "tart_item",
+            "food_bakery",
+            "food_sweet",
             "color_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -1110,7 +1216,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "tart_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_orange"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 728
@@ -1128,7 +1236,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "tart_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_salmon"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 729
@@ -1146,7 +1256,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "tart_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_gold"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 730
@@ -1164,7 +1276,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "tart_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_lime"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 731
@@ -1182,7 +1296,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "tart_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_orange"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 732
@@ -1201,7 +1317,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "tart_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_sand"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 717
@@ -1259,7 +1377,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "cookie_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_white"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 832
@@ -1277,7 +1397,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "cookie_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_red"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 833
@@ -1295,7 +1417,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "cookie_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_sand"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 834
@@ -1313,7 +1437,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "cookie_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_sand"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 835
@@ -1331,7 +1457,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "cookie_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_cyan"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 836
@@ -1349,6 +1477,8 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "cookie_item",
+            "food_bakery",
+            "food_sweet",
             "color_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -1367,7 +1497,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "cookie_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_gold"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 838
@@ -1385,7 +1517,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "cookie_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_pink"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 839
@@ -1403,7 +1537,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "cookie_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_pink"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 840
@@ -1421,7 +1557,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "cookie_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_purple"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 841
@@ -1439,8 +1577,10 @@
 
             "ContextTags":
             ["wildflour_bakery_item",
-            "cookie_item",
-            "color_brown"],
+            "cookie_item", 
+            "food_bakery",
+            "food_sweet",
+            "color_sand"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 842
@@ -1458,7 +1598,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "macaron_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_purple"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 761
@@ -1476,7 +1618,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "macaron_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_pink"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 762
@@ -1494,6 +1638,8 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "macaron_item",
+            "food_bakery",
+            "food_sweet",
             "color_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -1512,7 +1658,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "macaron_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_orange"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 765
@@ -1530,6 +1678,8 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "macaron_item",
+            "food_bakery",
+            "food_sweet",
             "color_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -1548,6 +1698,8 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "brownie_item",
+            "food_bakery",
+            "food_sweet",
             "color_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -1566,6 +1718,8 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "brownie_item",
+            "food_bakery",
+            "food_sweet",
             "color_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -1584,6 +1738,8 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "brownie_item",
+            "food_bakery",
+            "food_sweet",
             "color_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -1602,7 +1758,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "brownie_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_yellow"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 782
@@ -1620,7 +1778,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "brownie_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_dark_red"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 783
@@ -1687,6 +1847,7 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "bread_item",
+            "food_bakery",
             "color_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -1705,6 +1866,7 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "bread_item",
+            "food_bakery",
             "color_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -1723,6 +1885,7 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "bread_item",
+            "food_bakery",
             "color_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -1741,6 +1904,7 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "bread_item",
+            "food_bakery",
             "color_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -1759,6 +1923,7 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "bread_item",
+            "food_bakery",
             "color_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -1777,6 +1942,7 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "bread_item",
+            "food_bakery",
             "color_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -1795,6 +1961,7 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "bread_item",
+            "food_bakery",
             "color_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -1813,6 +1980,7 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "bread_item",
+            "food_bakery",
             "color_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -1831,6 +1999,7 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "bread_item",
+            "food_bakery",
             "color_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -1849,6 +2018,7 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "bread_item",
+            "food_bakery",
             "color_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -1867,6 +2037,7 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "bread_item",
+            "food_bakery",
             "color_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -1885,6 +2056,7 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "bread_item",
+            "food_bakery",
             "color_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -1903,6 +2075,7 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "bread_item",
+            "food_bakery",
             "color_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -1921,6 +2094,8 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "bread_item",
+            "food_bakery",
+            "food_sweet",
             "color_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -1939,6 +2114,7 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "bread_item",
+            "food_bakery",
             "color_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -1957,6 +2133,7 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "bread_item",
+            "food_bakery",
             "color_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -1975,6 +2152,7 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "bread_item",
+            "food_bakery",
             "color_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -1993,6 +2171,7 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "bread_item",
+            "food_bakery",
             "color_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -2011,6 +2190,7 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "bread_item",
+            "food_bakery",
             "color_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -2029,6 +2209,7 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "bread_item",
+            "food_bakery",
             "color_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -2047,6 +2228,8 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "bread_item",
+            "food_bakery",
+            "food_sweet",
             "color_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -2065,6 +2248,8 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "bread_item",
+            "food_bakery",
+            "food_sweet",
             "color_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -2095,8 +2280,10 @@
 
             "ContextTags":
             ["wildflour_bakery_item",
+            "food_bakery",
+            "food_sweet",
             "doughnut_item",
-            "color_brown"],
+            "color_pink"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 800
@@ -2114,7 +2301,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "doughnut_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_jade"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 802
@@ -2132,6 +2321,8 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "doughnut_item",
+            "food_bakery",
+            "food_sweet",
             "color_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -2150,7 +2341,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "doughnut_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_purple"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 801
@@ -2168,7 +2361,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "doughnut_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_red"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 806
@@ -2185,8 +2380,10 @@
 
             "ContextTags":
             ["wildflour_bakery_item",
+            "food_bakery",
+            "food_sweet",
             "doughnut_item",
-            "color_brown"],
+            "color_gold"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 803
@@ -2204,6 +2401,8 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "doughnut_item",
+            "food_bakery",
+            "food_sweet",
             "color_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -2222,7 +2421,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "eclair_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_white"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 793
@@ -2240,7 +2441,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "eclair_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_salmon"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 794
@@ -2258,7 +2461,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "eclair_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_jade"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 795
@@ -2276,7 +2481,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "eclair_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_blue"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 796
@@ -2294,6 +2501,8 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "eclair_item",
+            "food_bakery",
+            "food_sweet",
             "color_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -2312,7 +2521,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "eclair_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_orange"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 799
@@ -2331,6 +2542,8 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "eclair_item",
+            "food_bakery",
+            "food_sweet",
             "color_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -2371,7 +2584,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "pudding_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_salmon"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 809
@@ -2389,7 +2604,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "pudding_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_blue"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 810
@@ -2407,7 +2624,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "artisan_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_pink"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 811
@@ -2425,7 +2644,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "pudding_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_dark_red"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 812
@@ -2443,7 +2664,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "pudding_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_orange"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 813
@@ -2461,7 +2684,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "pudding_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_white"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 814
@@ -2479,7 +2704,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "pudding_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_yellow"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 815
@@ -2498,7 +2725,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "pudding_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_pink"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 844

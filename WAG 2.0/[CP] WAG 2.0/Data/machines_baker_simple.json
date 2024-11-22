@@ -187,6 +187,7 @@
                                 "PreserveID":"DROP_IN",
                                 "CopyQuality": true,
                                 "CopyPrice": true,
+                                "CopyColor":true,
                                 "PriceModifiers": 
                                 [
                                     {
@@ -538,7 +539,7 @@
                         "OutputItem": [
                             {
                                 "Id": "Wildflour.AtelierGoods_Flavored_Cookies",
-                                "ItemId": " Wildflour.AtelierGoods_Flavored_Cookies",
+                                "ItemId": "Wildflour.AtelierGoods_Flavored_Cookies",
                                 "ObjectDisplayName": "[LocalizedText Strings\\Objects:Wildflour.AtelierGoods_Flavored_Cookies %PRESERVED_DISPLAY_NAME]",
                                 "ObjectInternalName": "{0} Cookies",
                                 "PreserveID":"DROP_IN_PRESERVE",
@@ -604,7 +605,7 @@
         "LogName": "Add Rolling Pin to BigCraftables",
         "Action": "EditData",
         "Target": "Data/BigCraftables",
-        "When": {"Query: ({{Atelier.Cauldron/ConfigValue:Breads}} = 'true') OR ({{Atelier.Cauldron/ConfigValue:Doughnuts}} = 'true')": true},
+        "When": {"Atelier.Cauldron/ConfigValue:Doughnuts": true},
         "Entries": {
             "Wildflour.AtelierGoods_Rolling_Pin": {
                 "Name": "Wildflour.AtelierGoods_Rolling_Pin",
@@ -626,7 +627,7 @@
         "LogName": "Add Rolling Pin Machine Recipe",
         "Action": "EditData",
         "Target": "Data/CraftingRecipes",
-        "When": {"Query: ({{Atelier.Cauldron/ConfigValue:Breads}} = 'true') OR ({{Atelier.Cauldron/ConfigValue:Doughnuts}} = 'true')": true},
+        "When": {"Atelier.Cauldron/ConfigValue:Doughnuts": true},
         "Entries": {
             "Wildflour.AtelierGoods_Rolling_Pin": "Wildflour.AtelierGoods_Bread_Mix 1 388 50 709 5/Home/Wildflour.AtelierGoods_Rolling_Pin/true/{{RecipeConfig}}/{{i18n:AtelierGoods_Rolling_Pin.name}}"
     }
@@ -636,7 +637,7 @@
         "LogName": "Add Rolling Pin Machine Rules",
         "Action": "EditData",
         "Target": "Data/Machines",
-        "When": {"Query: ({{Atelier.Cauldron/ConfigValue:Breads}} = 'true') OR ({{Atelier.Cauldron/ConfigValue:Doughnuts}} = 'true')": true},
+        "When": {"Atelier.Cauldron/ConfigValue:Doughnuts": true},
         "Entries": {
             "(BC)Wildflour.AtelierGoods_Rolling_Pin": {
                 "OutputRules": [
@@ -803,10 +804,10 @@
                     {
                         "ItemId":"(O)Wildflour.AtelierGoods_Pectin",
                         "RequiredCount": 1,
-                        "InvalidCountMessage":"{{i18n:AtelierGoods_DeluxeDessertStand_InvalidCount.message}}"
+                        "InvalidCountMessage":"{{i18n:AtelierGoods_Deluxe_Dessert_Stand_InvalidCount.message}}"
                     }
                 ],
-                "InvalidItemMessage":"{{i18n:AtelierGoods_DeluxeDessertStand_InvalidItem.message}}",
+                "InvalidItemMessage":"{{i18n:AtelierGoods_Deluxe_Dessert_Stand_InvalidItem.message}}",
                 "ShowNextIndexWhileWorking":true,
                 "ShowNextIndexWhenReady":false,
                 "WobbleWhileWorking":false,

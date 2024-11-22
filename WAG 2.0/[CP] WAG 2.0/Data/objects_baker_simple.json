@@ -25,6 +25,8 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "muffin_item",
+            "food_bakery",
+            "food_sweet",
             "color_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -82,8 +84,10 @@
 
                 "ContextTags":
                 ["wildflour_bakery_item",
+                "food_bakery",
+                "food_sweet",
                 "cake_item",
-                "color_brown"],
+                "color_sand"],
 
                 "Texture": "Mods/Wildflour.AtelierGoods/Objects",
                 "SpriteIndex": 829
@@ -123,7 +127,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "cake_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_pink"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 791
@@ -190,6 +196,8 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "tart_item",
+            "food_bakery",
+            "food_sweet",
             "color_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -248,7 +256,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "cookie_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_sand"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 842
@@ -290,7 +300,7 @@
     "LogName":"Add Bread Mix",
     "Action": "EditData",
     "Target": "Data/Objects",
-    "When": {"Query: ({{Atelier.Cauldron/ConfigValue:Breads}} = 'true') OR ({{Atelier.Cauldron/ConfigValue:Doughnuts}} = 'true')": true},
+    "When": {"Atelier.Cauldron/ConfigValue:Doughnuts": true},
     "Entries": { 
         "Wildflour.AtelierGoods_Bread_Mix": {
             "Name": "Wildflour.AtelierGoods_Bread_Mix",
@@ -321,7 +331,7 @@
     "LogName":"Basic Doughnuts",
     "Action": "EditData",
     "Target": "Data/Objects",
-    "When": {"Atelier.Cauldron/ConfigValue:Doughnuts": "True"},
+    "When": {"Atelier.Cauldron/ConfigValue:Doughnuts": true},
     "Entries": {
         "Wildflour.AtelierGoods_Flavored_Doughnuts": {
             "Name": "Wildflour.AtelierGoods_Flavored_Doughnuts",
@@ -336,7 +346,9 @@
 
             "ContextTags":
             ["wildflour_bakery_item",
-            "eclair_item",
+            "doughnut_item",
+            "food_bakery",
+            "food_sweet",
             "color_brown"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
@@ -348,6 +360,7 @@
 {
     "Action": "EditData",
     "Target": "Strings/Objects",
+    "When": {"Atelier.Cauldron/ConfigValue:Doughnuts": true},
     "Entries": {
       "Wildflour.AtelierGoods_Flavored_Doughnuts": "{{i18n: AtelierGoods_Flavored_Doughnuts}}"
     }
@@ -377,7 +390,9 @@
             "ContextTags":
             ["wildflour_bakery_item",
             "pudding_item",
-            "color_brown"],
+            "food_bakery",
+            "food_sweet",
+            "color_pink"],
 
             "Texture": "Mods/Wildflour.AtelierGoods/Objects",
             "SpriteIndex": 844

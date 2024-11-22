@@ -2443,7 +2443,14 @@
             ],
             "InvalidItemMessage":"{{i18n:AtelierGoods_ProducePacker_InvalidItem.message}}",
             "ShowNextIndexWhileWorking":false,
-            "ShowNextIndexWhenReady":false
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "WorkingEffects":[
+                {
+                    "Frames":[1,2,3,4,5,6],
+                    "Interval":100
+                }
+           ] 
         }
     }
 },
@@ -2868,7 +2875,14 @@
             ],
             "InvalidItemMessage":"{{i18n:AtelierGoods_ProducePacker_InvalidItem.message}}",
             "ShowNextIndexWhileWorking":false,
-            "ShowNextIndexWhenReady":false
+            "ShowNextIndexWhenReady":false,
+            "WobbleWhileWorking":false,
+            "WorkingEffects":[
+                {
+                    "Frames":[1,2,3,4,5,6],
+                    "Interval":100
+                }
+           ] 
         }
     }
 }
