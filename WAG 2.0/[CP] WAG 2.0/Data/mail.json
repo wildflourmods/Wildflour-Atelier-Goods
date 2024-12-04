@@ -38,7 +38,7 @@
                 "Wildflour.AtelierGoods_Sandy_BrewerGift": "{{i18n: AtelierGoods_Sandy_BrewerGift.text}} %item id (O)802 3 %%[#]{{i18n: AtelierGoods_Sandy_BrewerGift.name}}",
 
                 "Wildflour.AtelierGoods_FlowerStationRecipe": "{{i18n: AtelierGoods_FlowerStationRecipe.text}} %item craftingRecipe Wildflour.AtelierGoods_FlowerStation %%[#]{{i18n: AtelierGoods_FlowerStationRecipe.name}}",
-                "Wildflour.AtelierGoods_CandleStationRecipe": "{{i18n: AtelierGoods_CandleStationRecipe.text}} %item craftingRecipe Wildflour.AtelierGoods_CandleStation %%[#]{{i18n: AtelierGoods_FlowerStationRecipe.name}}",
+                "Wildflour.AtelierGoods_CandleStationRecipe": "{{i18n: AtelierGoods_CandleStationRecipe.text}} %item craftingRecipe Wildflour.AtelierGoods_CandleStation %%[#]{{i18n: AtelierGoods_CandleStationRecipe.name}}",
                 "Wildflour.AtelierGoods_FragranceStationRecipe": "{{i18n: AtelierGoods_FragranceStationRecipe.text}} %item craftingRecipe Wildflour.AtelierGoods_FragranceStation %%[#]{{i18n: AtelierGoods_FragranceStationRecipe.name}}",
                 "Wildflour.AtelierGoods_Jas_Gift": "{{i18n: AtelierGoods_Jas_Gift.text}} %item id (O)Wildflour.AtelierGoods_Lavender 3 %%[#]{{i18n: AtelierGoods_Jas_Gift.name}}",
                 "Wildflour.AtelierGoods_Sandy_Gift": "{{i18n: AtelierGoods_Sandy_Gift.text}} %item id (O)Wildflour.AtelierGoods_Jasmine 3 %%[#]{{i18n: AtelierGoods_Sandy_Gift.name}}",
@@ -63,6 +63,7 @@
                 "Wildflour.AtelierGoods_BlenderRecipe": "{{i18n: AtelierGoods_BlenderRecipe.text}} %item craftingRecipe Wildflour.AtelierGoods_KitchenBlender %%[#]{{i18n: AtelierGoods_BlenderRecipe.name}}",
                 "Wildflour.AtelierGoods_Jodi_Gift": "{{i18n: AtelierGoods_Jodi_Gift.text}} %item id (O)Wildflour.AtelierGoods_Almond 3 %%[#]{{i18n: AtelierGoods_Jodi_Gift.name}}",
                 "Wildflour.AtelierGoods_Marnie_Gift": "{{i18n: AtelierGoods_Marnie_Gift.text}} %item id (O)Wildflour.AtelierGoods_Cream 3 %%[#]{{i18n: AtelierGoods_Marnie_Gift.name}}",
+                "Wildflour.AtelierGoods_ProducePacker_Recipe": "{{i18n: AtelierGoods_ProducePackerRecipe.text}} %item craftingRecipe Wildflour.AtelierGoods_ProducePacker%%[#]{{i18n: AtelierGoods_ProducePackerRecipe.name}}",
                 
                 "Wildflour.AtelierGoods_JunimoGem_Vanilla": "{{i18n: AtelierGoods_JunimoGem_Vanilla_Mail.text}}[#]{{i18n: AtelierGoods_JunimoGem_Vanilla_Mail.name}}",
                 "Wildflour.AtelierGoods_JunimoGem_SBV": "{{i18n: AtelierGoods_JunimoGem_SBV_Mail.text}}[#]{{i18n: AtelierGoods_JunimoGem_SBV_Mail.name}}",
@@ -211,6 +212,12 @@
             "Trigger": "DayStarted",
             "Action": "AddMail Current Wildflour.AtelierGoods_TeaProcessorRecipe tomorrow"
         },
+        "Wildflour.AtelierGoods_ProducePackerRecipe_Trigger": {
+            "Id": "Wildflour.AtelierGoods_ProducePackerRecipe_Trigger",
+            "Condition": "CAULDRON_CONFIG_VALUE CSA True",
+            "Trigger": "DayStarted",
+            "Action": "AddMail Current Wildflour.AtelierGoods_ProducePacker_Recipe tomorrow"
+        },
         "Wildflour.AtelierGoods_TeaKettleRecipe_Trigger": {
             "Id": "Wildflour.AtelierGoods_TeaKettleRecipe_Trigger",
             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Caroline 500, CAULDRON_CONFIG_VALUE Tea True",
@@ -249,13 +256,13 @@
         },
         "Wildflour.AtelierGoods_FlowerStation_Recipe_Trigger": {
             "Id": "Wildflour.AtelierGoods_FlowerStation_Recipe_Trigger",
-            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Sandy 750, CAULDRON_CONFIG_VALUE Bouquets True",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Marnie 750, CAULDRON_CONFIG_VALUE Bouquets True",
             "Trigger": "DayStarted",
             "Action": "AddMail Current Wildflour.AtelierGoods_FlowerStationRecipe tomorrow"
         },
         "Wildflour.AtelierGoods_CosmeticCrystal_Recipe_Trigger": {
             "Id": "Wildflour.AtelierGoods_CosmeticCrystal_Recipe_Trigger",
-            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Haley 1000, CAULDRON_CONFIG_VALUE Makeup True",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Haley 1000, CAULDRON_CONFIG_VALUE Makeup True, CAULDRON_CONFIG_VALUE DifficultyToggle Advanced",
             "Trigger": "DayStarted",
             "Action": "AddMail Current Wildflour.AtelierGoods_CosmeticCrystalRecipe tomorrow"
         },

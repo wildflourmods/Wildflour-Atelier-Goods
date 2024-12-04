@@ -2617,7 +2617,7 @@
 "AtelierGoods_Jasmine.name": "Gem Isle Jasmine",
 "AtelierGoods_Jasmine.description": "A beautifully fragrant flower found only by foraging on Ginger Island.",
 "AtelierGoods_Jasmine_Seeds.name": "Gem Isle Jasmine Seeds",
-"AtelierGoods_Jasmine_Seeds.description": "Plant in summer. Takes 14 days to reach maturity and can be harvested every 5 days after.",
+"AtelierGoods_Jasmine_Seeds.description": "Plant in summer. Takes 14 days to reach maturity and can be harvested every 5 days after. Grows on a trellis.",
 
 "AtelierGoods_Lavender.name": "Forest Lavender",
 "AtelierGoods_Lavender.description": "A fragrant, bushy flower found deep in the forest.",
@@ -2627,7 +2627,7 @@
 "AtelierGoods_Mallow.name": "Marsh Mallow",
 "AtelierGoods_Mallow.description": "A flower primarily used in sweet making.",
 "AtelierGoods_Mallow_Seeds.name": "Marsh Mallow Seeds",
-"AtelierGoods_Mallow_Seeds.description": "Plant in spring or summer. Takes 8 days to reach maturity and can be harvested every 4 days after.",
+"AtelierGoods_Mallow_Seeds.description": "Plant in spring or summer. Takes 8 days to reach maturity and can be harvested every 4 days after. Grows on a trellis.",
 
 "AtelierGoods_Meringue_Mushroom.name": "Meringue Mushroom",
 "AtelierGoods_Meringue_Mushroom.description": "A strangely sweet mushroom found only by the best foragers in the valley, its color and shape seem almost candylike.",
@@ -2677,7 +2677,7 @@
 "AtelierGoods_Wild_Raspberry.name": "Wild Raspberry",
 "AtelierGoods_Wild_Raspberry.description": "A small, sweet berry that grows wild in forests all over Ferngill.",
 "AtelierGoods_Wild_Raspberry_Seeds.name": "Wild Raspberry Starter",
-"AtelierGoods_Wild_Raspberry_Seeds.description": "Plant in summer. Takes 8 days to reach maturity and can be harvested every 4 days after.",
+"AtelierGoods_Wild_Raspberry_Seeds.description": "Plant in summer. Takes 8 days to reach maturity and can be harvested every 4 days after. Grows on a trellis.",
 
 "AtelierGoods_Wild_Strawberry.name": "Wild Strawberry",
 "AtelierGoods_Wild_Strawberry.description": "A smaller variety of strawberry that grows wild in forests all over Ferngill.",
@@ -2957,6 +2957,9 @@
 ////////////////////////////////
 //            MAIL           ///
 ////////////////////////////////
+
+"AtelierGoods_ProducePackerRecipe.name":"Pack Up Your Produce!",
+"AtelierGoods_ProducePackerRecipe.text":"@, ^^ I just signed up for a CSA! Apparently it stands for Community Supported Agriculture, and now I get fresh crates of fruits and veggies delivered straight to my door! Isn't that neat? Maybe you should start packaging up your extra produce too. ^^ - Mom",
 
 "AtelierGoods_Junimo_Gem.name":"Junimo Gem",
 "AtelierGoods_Junimo_Gem.description":"According to a strange alchemist, junimos leave these in your crafting machines as thanks for a small share of your artisan goods. Can be used as currency...you think.",

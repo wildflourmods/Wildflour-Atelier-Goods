@@ -266,7 +266,7 @@
     "Target": "Strings/Objects",
     "When": {"Atelier.Cauldron/ConfigValue:Lollipops": true},
     "Entries": {
-      "Wildflour.AtelierGoods_Flavored_Gourmet_Lollipop": "{{i18n: AtelierGoods_Flavored_Gourmet_Lollipop}}"
+      "Wildflour.AtelierGoods_Flavored_Lollipop": "{{i18n: AtelierGoods_Flavored_Lollipop}}"
     }
 },
 
@@ -414,7 +414,7 @@
     "LogName":"Add Chocolate Objects",
     "Action": "EditData",
     "Target": "Data/Objects",
-    "When": {"Atelier.Cauldron/ConfigValue:Chocolates": true},
+    "When": {"Atelier.Cauldron/ConfigValue:Chocolates": true, "Atelier.Cauldron/ConfigValue:WildFood": true},
     "Entries": {
         "Wildflour.AtelierGoods_Flavored_Chocolate_Truffles": {
             "Name": "Wildflour.AtelierGoods_Flavored_Chocolate_Truffles",

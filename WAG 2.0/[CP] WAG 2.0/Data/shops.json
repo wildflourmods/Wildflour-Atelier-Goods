@@ -132,6 +132,25 @@
                         "Condition": "CAULDRON_CONFIG_VALUE FloristOnly False"
                     },
                     {   
+                        "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                        "TradeItemAmount": 3,
+                        "AvailableStock": -1,
+                        "Id": "Wildflour.AtelierGoods_RoseShop_Advanced_Syrups",
+                        "RandomItemId": [
+                            "Wildflour.AtelierGoods_Cherry_Blossom_Syrup",
+                            "Wildflour.AtelierGoods_Chocolate_Syrup",
+                            "Wildflour.AtelierGoods_Elderberry_Syrup",
+                            "Wildflour.AtelierGoods_Lavender_Syrup",
+                            "Wildflour.AtelierGoods_Lemon_Syrup",
+                            "Wildflour.AtelierGoods_Lime_Syrup",
+                            "Wildflour.AtelierGoods_Raspberry_Syrup",
+                            "Wildflour.AtelierGoods_Vanilla_Syrup"
+                        ],
+                        "MinStack": 1,
+                        "MaxStack": 2,
+                        "Condition": "CAULDRON_CONFIG_VALUE WildFood True, CAULDRON_CONFIG_VALUE FloristOnly False"
+                    },
+                    {   
                         "Id": "Wildflour.AtelierGoods_RoseShop_Muffin_Mix",
                         "ItemId": "Wildflour.AtelierGoods_Muffin_Mix",
                         "MinStack": 3,
@@ -203,15 +222,6 @@
                         "Id": "Wildflour.AtelierGoods_RoseShop_RollingPin",
                         "ItemId": "(BC)Wildflour.AtelierGoods_Rolling_Pin",
                         "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current Wildflour.AtelierGoods_Rolling_Pin",
-                        "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
-                        "TradeItemAmount": 5,
-                        "AvailableStock": -1,
-                        "AvailableStockLimit": "Player"
-                    },
-                    {
-                        "Id": "Wildflour.AtelierGoods_RoseShop_Oven",
-                        "ItemId": "(BC)Wildflour.AtelierGoods_Oven",
-                        "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current Wildflour.AtelierGoods_Oven",
                         "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
                         "TradeItemAmount": 5,
                         "AvailableStock": -1,
@@ -472,7 +482,7 @@
                 "Items": [ 
                     {   
                         "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
-                        "TradeItemAmount": 1,
+                        "TradeItemAmount": 3,
                         "AvailableStock": -1,
                         "Id": "Wildflour.AtelierGoods_ToffeeShop_Fruit_Syrups",
                         "RandomItemId": [
@@ -488,7 +498,7 @@
                     },
                     {   
                         "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
-                        "TradeItemAmount": 1,
+                        "TradeItemAmount": 3,
                         "AvailableStock": -1,
                         "Id": "Wildflour.AtelierGoods_ToffeeShop_Flower_Syrups",
                         "RandomItemId": [
@@ -558,9 +568,9 @@
                         "AvailableStockLimit": "Player"
                     },
                     {
-                        "Id": "Wildflour.AtelierGoods_ToffeeShop_ChocolatierCauldron",
-                        "ItemId": "(BC)Wildflour.AtelierGoods_ChocolatierCauldron",
-                        "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current Wildflour.AtelierGoods_ChocolatierCauldron",
+                        "Id": "Wildflour.AtelierGoods_ToffeeShop_ChocolatierBarrel",
+                        "ItemId": "(BC)Wildflour.AtelierGoods_ChocolatierBarrel",
+                        "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current Wildflour.AtelierGoods_ChocolatierBarrel",
                         "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
                         "TradeItemAmount": 5,
                         "AvailableStock": -1,
@@ -605,59 +615,6 @@
                         "TradeItemAmount": 4,
                         "AvailableStock": -1,
                         "AvailableStockLimit": "Player"
-                    },
-                    {
-                        "Id": "Wildflour.AtelierGoods_ToffeeShop_Dark_Chocolate",
-                        "ItemId": "(O)Wildflour.AtelierGoods_Dark_Chocolate",
-                        "Condition": "CAULDRON_CONFIG_VALUE Chocolates True",
-                        "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
-                        "TradeItemAmount": 2,
-                        "MinStack":1,
-                        "MaxStack":2,
-                        "AvailableStock": -1,
-                        "AvailableStockLimit": "Player"
-                    },
-                    {
-                        "Id": "Wildflour.AtelierGoods_ToffeeShop_Milk_Chocolate",
-                        "ItemId": "(O)Wildflour.AtelierGoods_Milk_Chocolate",
-                        "Condition": "CAULDRON_CONFIG_VALUE Chocolates True",
-                        "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
-                        "TradeItemAmount": 2,
-                        "AvailableStock": -1,
-                        "MinStack":1,
-                        "MaxStack":2,
-                        "AvailableStockLimit": "Player"
-                    },
-                    {
-                        "Id": "Wildflour.AtelierGoods_ToffeeShop_White_Chocolate",
-                        "ItemId": "(O)Wildflour.AtelierGoods_White_Chocolate",
-                        "Condition": "CAULDRON_CONFIG_VALUE Chocolates True",
-                        "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
-                        "TradeItemAmount": 2,
-                        "AvailableStock": -1,
-                        "MinStack":1,
-                        "MaxStack":2,
-                        "AvailableStockLimit": "Player"
-                    },
-                    {   
-                        "Price": 0,
-                        "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
-                        "TradeItemAmount": 4,
-                        "AvailableStock": -1,
-                        "Id": "Wildflour.AtelierGoods_ToffeeShop_Advanced_Syrups",
-                        "RandomItemId": [
-                            "Wildflour.AtelierGoods_Cherry_Blossom_Syrup",
-                            "Wildflour.AtelierGoods_Chocolate_Syrup",
-                            "Wildflour.AtelierGoods_Elderberry_Syrup",
-                            "Wildflour.AtelierGoods_Lavender_Syrup",
-                            "Wildflour.AtelierGoods_Lemon_Syrup",
-                            "Wildflour.AtelierGoods_Lime_Syrup",
-                            "Wildflour.AtelierGoods_Raspberry_Syrup",
-                            "Wildflour.AtelierGoods_Vanilla_Syrup"
-                        ],
-                        "MinStack": 1,
-                        "MaxStack": 2,
-                        "Condition": "CAULDRON_CONFIG_VALUE WildFood True, CAULDRON_CONFIG_VALUE FloristOnly False"
                     }
                 ]
             }
@@ -911,6 +868,15 @@
                         "Condition": "CAULDRON_CONFIG_VALUE WildFood True, CAULDRON_CONFIG_VALUE FloristOnly False",
                         "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
                         "TradeItemAmount": 3,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "Wildflour.AtelierGoods_StoutShop_ProducePacker",
+                        "ItemId": "(BC)Wildflour.AtelierGoods_ProducePacker",
+                        "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current Wildflour.AtelierGoods_ProducePacker",
+                        "TradeItemID": "(O)Wildflour.AtelierGoods_Junimo_Gem",
+                        "TradeItemAmount": 5,
                         "AvailableStock": -1,
                         "AvailableStockLimit": "Player"
                     }
