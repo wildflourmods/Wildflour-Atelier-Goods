@@ -1,0 +1,71 @@
+{
+    "Changes": [
+
+{
+    "LogName":"Wild Food Crops",
+    "Action": "EditData",
+    "Target": "Data/Crops",
+    "Entries": {
+        "{{ModId}}_{{SEED_TYPE}}_Seeds": {
+            "Seasons": [],
+            "DaysInPhase": [],
+            "RegrowDays": "{{REGROW_DAYS}}",
+            "HarvestMinStack": 1,
+            "HarvestMaxStack": 1,
+            "HarvestMaxIncreasePerFarmingLevel":0.2,
+            "ExtraHarvestChance": 0.05,
+            "HarvestItemId": "{{ModId}}_{{SEED_TYPE}}",
+            "Texture": "Mods/{{ModId}}/Crops",
+            "SpriteIndex": "{{CROP_SPRITE_ROW}}"
+    }
+}
+},
+
+{
+    "LogName":"Add Wild Food Seeds and Objects",
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "{{ModId}}_{{SEED_TYPE}}_Seeds": {
+            "Name": "{{ModId}}_{{SEED_TYPE}}_Seeds",
+            "DisplayName": "{{i18n:AtelierGoods_{{SEED_TYPE}}_Seeds.name}}",
+            "Description": "{{i18n:AtelierGoods_{{SEED_TYPE}}_Seeds.description}}",
+            "Type": "Seeds",
+            "Category": -74,
+            "Price": 1,
+            "Texture": "Mods/{{ModId}}/Objects",
+            "SpriteIndex": "{{SEED_SPRITE}}"
+        },
+        "{{ModId}}_{{SEED_TYPE}}": {
+            "Name": "{{ModId}}_{{SEED_TYPE}}",
+            "DisplayName": "{{i18n:AtelierGoods_{{SEED_TYPE}}.name}}",
+            "Description": "{{i18n:AtelierGoods_{{SEED_TYPE}}.description}}",
+            "Type": "{{OBJECT_TYPE}}",
+            "Category": "{{OBJECT_CATEGORY}}",
+            "Edibility": "{{EDIBILITY}}",
+            "Price": "{{OBJECT_PRICE}}",
+            "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+            "ContextTags":[],
+            "Texture": "Mods/{{ModId}}/Objects",
+            "SpriteIndex": "{{ITEM_SPRITE}}"
+        }
+    }
+},
+
+
+/*{
+    "LogName": "Category Display Name Overrides Wild Food",
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Fields": {
+        "{{ModId}}_{{SEED_TYPE}}": {
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:AtelierGoods_{{CATEGORY_NAME}}.category}}"
+            }
+        }
+    }
+},*/
+
+
+]
+}

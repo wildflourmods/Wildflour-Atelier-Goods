@@ -1,0 +1,417 @@
+{
+  "Changes": [
+
+
+
+    {
+        "Action": "EditMap",
+        "Target": "Maps/SamHouse",
+        "MapTiles": [
+            {
+                "Position": { "X": 7, "Y": 4},
+                "Layer": "Buildings",
+                "SetProperties": { "Action": "DropBox IceCream_Jodi"}
+            }
+        ]
+    },
+
+    {
+        "Action": "EditMap",
+        "Target": "Maps/ScienceHouse",
+        "MapTiles": [
+            {
+                "Position": { "X": 21, "Y": 17},
+                "Layer": "Buildings",
+                "SetProperties": { "Action": "DropBox ICSandwich_Demetrius"}
+            }
+        ]
+    },
+
+//////////////
+// ADD MAIL //
+//////////////
+
+{
+  "Action": "EditData",
+  "Target": "Data/Mail",
+      "Entries": {
+        "{{ModId}}_SO_Popsicles_Krobus_reward": "{{i18n: AtelierGoods_SO_Popsicles_Krobus_reward.text}} %item id (O)PowdermelonSeeds 5 %%[#]{{i18n: AtelierGoods_SO_Popsicles_Krobus_reward.name}}",     
+        "{{ModId}}_SO_IceCream_Jodi_reward": "{{i18n: AtelierGoods_SO_IceCream_Jodi_reward.text}} %item id (BC){{ModId}}_TreatMaker 2 %%[#]{{i18n: AtelierGoods_SO_IceCream_Jodi_reward.name}}", 
+        "{{ModId}}_SO_IceCreamSandwich_Demetrius_reward": "{{i18n: AtelierGoods_SO_IceCreamSandwich_Demetrius_reward.text}} %item id (BC){{ModId}}_BlastChiller 2 %%[#]{{i18n: AtelierGoods_SO_IceCreamSandwich_Demetrius_reward.name}}", 
+        "{{ModId}}_SO_Frozen_Challenge_reward": "{{i18n: AtelierGoods_SO_Frozen_Challenge_reward.text}} %item id (O)StardropTea 3 %%[#]{{i18n: AtelierGoods_SO_Frozen_Challenge_reward.name}}" 
+      }
+  },
+
+// orders
+
+    {
+    "LogName": "Milkshake Orders",
+    "Action": "EditData",
+    "Target": "Data/SpecialOrders",
+    "When":  {"HasCraftingRecipe":"{{ModId}}_KitchenBlender"},
+    "Entries": {
+        "{{ModId}}_SO_Milkshakes_Dwarf": {
+            "Name": "{{i18n:AtelierGoods_SO_Milkshakes_Dwarf.name}}",
+            "Requester": "Dwarf",
+            "Duration": "Week",
+            "Repeatable": "False",
+            "RequiredTags": "{{PriorityConfig}}",
+            "OrderType": "",
+            "SpecialRule": "",
+            "ItemToRemoveOnEnd": null,
+            "MailToRemoveOnEnd": null,
+            "RandomizedElements": null,
+            "Text": "{{i18n:AtelierGoods_SO_Milkshakes_Dwarf.text}}",
+            "Objectives": [
+                {
+                  "Type": "Deliver",
+                  "Text": "{{i18n:AtelierGoods_SO_Milkshakes_Dwarf.deliver}}",
+                  "RequiredCount": "3",
+                  "Data": {
+                    "AcceptedContextTags": "milkshake_item",
+                    "TargetName": "Dwarf"
+                  }
+                }
+              ],
+              "Rewards": [
+                {
+                  "Type": "Money",
+                  "Data": {
+                    "Amount": "5000"
+                  }
+                },
+
+                {
+                  "Type": "Friendship",
+                  "Data": {
+                        "Amount": "250",
+                        "TargetName": "Dwarf"
+                    }
+                  }
+              ]
+          },
+        "{{ModId}}_SO_Milkshakes_Kent": {
+        "Name": "{{i18n:AtelierGoods_SO_Milkshakes_Kent.name}}",
+        "Requester": "Kent",
+        "Duration": "Week",
+        "Repeatable": "False",
+        "RequiredTags": "{{PriorityConfig}}",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:AtelierGoods_SO_Milkshakes_Kent.text}}",
+        "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:AtelierGoods_SO_Milkshakes_Kent.deliver}}",
+              "RequiredCount": "4",
+              "Data": {
+                "AcceptedContextTags": "milkshake_item",
+                "Message": "{{i18n:AtelierGoods_SO_Milkshakes_Kent.accept}}",
+                "TargetName": "Kent"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "4500"
+              }
+            },
+
+            {
+              "Type": "Friendship",
+              "Data": {}
+              }
+          ]
+          }
+    }
+    },
+
+    {
+      "LogName": "Ice Cream Orders",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "When":  {"HasCraftingRecipe":"{{ModId}}_TreatMaker"},
+      "Entries": {
+          "{{ModId}}_SO_IceCream_Jodi": {
+            "Name": "{{i18n:AtelierGoods_SO_IceCream_Jodi.name}}",
+            "Requester": "Jodi",
+            "Duration": "TwoWeeks",
+            "Repeatable": "False",
+            "RequiredTags": "{{PriorityConfig}}",
+            "OrderType": "",
+            "SpecialRule": "",
+            "ItemToRemoveOnEnd": null,
+            "MailToRemoveOnEnd": null,
+            "RandomizedElements": null,
+            "Text": "{{i18n:AtelierGoods_SO_IceCream_Jodi.text}}",
+            "Objectives": [
+                {
+                  "Type": "Donate",
+                  "Text": "{{i18n:AtelierGoods_SO_IceCream_Jodi.deliver}}",
+                  "RequiredCount": "12",
+                  "Data": {
+                    "DropBox": "IceCream_Jodi",
+                    "DropBoxGameLocation": "SamHouse",
+                    "DropBoxIndicatorLocation": "7 4",
+                    "AcceptedContextTags": "ice_cream_item"
+                  }
+                }
+              ],
+              "Rewards": [
+                {
+                  "Type": "Money",
+                  "Data": {
+                    "Amount": "15000"
+                  }
+                },
+
+                {
+                  "Type": "Friendship",
+                  "Data": {
+                        "Amount": "250",
+                        "TargetName": "Jodi"
+                    }
+                  },
+                {
+                  "Type": "Mail",
+                  "Data": {
+                        "MailReceived": "{{ModId}}_SO_IceCream_Jodi_reward",
+                        "NoLetter": "false"
+                  }
+                }
+              ]
+            },
+          "{{ModId}}_SO_IceCream_Gus": {
+            "Name": "{{i18n:AtelierGoods_SO_IceCream_Gus.name}}",
+            "Requester": "Gus",
+            "Duration": "TwoWeeks",
+            "Repeatable": "False",
+            "RequiredTags": "{{PriorityConfig}}",
+            "OrderType": "",
+            "SpecialRule": "",
+            "ItemToRemoveOnEnd": null,
+            "MailToRemoveOnEnd": null,
+            "RandomizedElements": null,
+            "Text": "{{i18n:AtelierGoods_SO_IceCream_Gus.text}}",
+            "Objectives": [
+                {
+                  "Type": "Deliver",
+                  "Text": "{{i18n:AtelierGoods_SO_IceCream_Gus.deliver}}",
+                  "RequiredCount": "12",
+                  "Data": {
+                    "AcceptedContextTags": "ice_cream_item",
+                    "Message": "{{i18n:AtelierGoods_SO_IceCream_Gus.accept}}",
+                    "TargetName": "Gus"
+                  }
+                }
+              ],
+              "Rewards": [
+                {
+                  "Type": "Money",
+                  "Data": {
+                    "Amount": "8500"
+                  }
+                },
+      
+                {
+                  "Type": "Friendship",
+                  "Data": {}
+                  }
+              ]
+            }
+      }
+    },
+
+    {
+      "LogName": "Blast Chiller Required Frozen Orders",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "When":  {"HasCraftingRecipe":"{{ModId}}_BlastChiller" },
+      "Entries": {
+            "{{ModId}}_SO_Popsicles_Krobus": {
+            "Name": "{{i18n:AtelierGoods_SO_Popsicles_Krobus.name}}",
+            "Requester": "Krobus",
+            "Duration": "Week",
+            "Repeatable": "False",
+            "RequiredTags": "{{PriorityConfig}}",
+            "OrderType": "",
+            "SpecialRule": "",
+            "ItemToRemoveOnEnd": null,
+            "MailToRemoveOnEnd": null,
+            "RandomizedElements": null,
+            "Text": "{{i18n:AtelierGoods_SO_Popsicles_Krobus.text}}",
+            "Objectives": [
+                {
+                  "Type": "Deliver",
+                  "Text": "{{i18n:AtelierGoods_SO_Popsicles_Krobus.deliver}}",
+                  "RequiredCount": "6",
+                  "Data": {
+                    "AcceptedContextTags": "popsicle_item",
+                    "Message": "{{i18n:AtelierGoods_SO_Popsicles_Krobus.accept}}",
+                    "TargetName": "Krobus"
+                  }
+                }
+              ],
+              "Rewards": [
+                {
+                  "Type": "Money",
+                  "Data": {
+                    "Amount": "6000"
+                  }
+                },
+    
+                {
+                  "Type": "Friendship",
+                  "Data": {
+                        "Amount": "250",
+                        "TargetName": "Krobus"
+                    }
+                  },
+
+                  {
+                    "Type": "Mail",
+                    "Data": {
+                          "MailReceived": "{{ModId}}_SO_Popsicles_Krobus_reward",
+                          "NoLetter": "false"
+                    }
+                  }
+              ]
+            },
+            "{{ModId}}_SO_Popsicles_Elliott": {
+            "Name": "{{i18n:AtelierGoods_SO_Popsicles_Elliott.name}}",
+            "Requester": "Elliott",
+            "Duration": "Week",
+            "Repeatable": "False",
+            "RequiredTags": "{{PriorityConfig}}",
+            "OrderType": "",
+            "SpecialRule": "",
+            "ItemToRemoveOnEnd": null,
+            "MailToRemoveOnEnd": null,
+            "RandomizedElements": null,
+            "Text": "{{i18n:AtelierGoods_SO_Popsicles_Elliott.text}}",
+            "Objectives": [
+                {
+                  "Type": "Deliver",
+                  "Text": "{{i18n:AtelierGoods_SO_Popsicles_Elliott.deliver}}",
+                  "RequiredCount": "4",
+                  "Data": {
+                    "AcceptedContextTags": "popsicle_item",
+                    "Message": "{{i18n:AtelierGoods_SO_Popsicles_Elliott.accept}}",
+                    "TargetName": "Elliott"
+                  }
+                }
+              ],
+              "Rewards": [
+                {
+                  "Type": "Money",
+                  "Data": {
+                    "Amount": "2500"
+                  }
+                },
+      
+              {
+                  "Type": "Friendship",
+                  "Data": {}
+                  }
+              ]
+            },
+            "{{ModId}}_SO_IceCreamSandwich_Demetrius": {
+              "Name": "{{i18n:AtelierGoods_SO_IceCreamSandwich_Demetrius.name}}",
+              "Requester": "Demetrius",
+              "Duration": "TwoWeeks",
+              "Repeatable": "False",
+              "RequiredTags": "{{PriorityConfig}}",
+              "OrderType": "",
+              "SpecialRule": "",
+              "ItemToRemoveOnEnd": null,
+              "MailToRemoveOnEnd": null,
+              "RandomizedElements": null,
+              "Text": "{{i18n:AtelierGoods_SO_IceCreamSandwich_Demetrius.text}}",
+              "Objectives": [
+                  {
+                    "Type": "Donate",
+                    "Text": "{{i18n:AtelierGoods_SO_IceCreamSandwich_Demetrius.deliver}}",
+                    "RequiredCount": "8",
+                    "Data": {
+                      "DropBox": "ICSandwich_Demetrius",
+                      "DropBoxGameLocation": "ScienceHouse",
+                      "DropBoxIndicatorLocation": "21 17",
+                      "AcceptedContextTags": "ice_cream_sandwich_item"
+                    }
+                  }
+                ],
+              "Rewards": [
+                {
+                  "Type": "Money",
+                  "Data": {
+                    "Amount": "12000"
+                  }
+                },
+      
+                {
+                  "Type": "Friendship",
+                  "Data": {
+                        "Amount": "250",
+                        "TargetName": "Demetrius"
+                    }
+                  },
+                {
+                  "Type": "Mail",
+                  "Data": {
+                        "MailReceived": "{{ModId}}_SO_IceCreamSandwich_Demetrius_reward",
+                        "NoLetter": "false"
+                  }
+                }
+              ]
+            }
+         /* "{{ModId}}_SO_Frozen_Challenge": {
+          "Name": "{{i18n:AtelierGoods_SO_Frozen_Challenge.name}}",
+          "Requester": "Lewis",
+          "Duration": "Month",
+          "Repeatable": "False",
+          "RequiredTags": "{{PriorityConfig}}",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:AtelierGoods_SO_Frozen_Challenge.text}}",
+          "Objectives": [
+              {
+                "Type": "Ship",
+                "Text": "{{i18n:AtelierGoods_SO_Frozen_Challenge.ship}}",
+                "RequiredCount": "100",
+                "Data": {
+                  "AcceptedContextTags": "wildflour_frozen_item"
+                }
+              },
+  
+              
+            ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "100000"
+              }
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                    "MailReceived": "{{ModId}}_SO_Frozen_Challenge_complete",
+                    "NoLetter": "true"
+              }
+            }
+          ]
+        },*/
+      }
+    }
+
+  ]
+}
+

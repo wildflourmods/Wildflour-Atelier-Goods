@@ -1,0 +1,25 @@
+{
+    "Changes":[
+
+        {
+            "LogName": "Add Hybrid Method Crafting Recipe for {{ITEM_FLAVOR}}_{{ITEM_TYPE}}",
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "When":{"Query:'{{EDIBILITY}}'='-300'":true},
+            "Entries": {
+                "{{ModId}}_{{ITEM_FLAVOR}}_{{ITEM_TYPE}}": "{{ING1}} {{ING1_COUNT}} {{ING2}} {{ING2_COUNT}} {{ING3}} {{ING3_COUNT}} {{ING4}} {{ING4_COUNT}} {{ING5}} {{ING5_COUNT}}/Home/{{ModId}}_{{ITEM_FLAVOR}}_{{ITEM_TYPE}} {{RECIPE_YIELD}}/false/{{RECIPE_ACQUISITION}}/{{i18n: AtelierGoods_{{ITEM_FLAVOR}}_{{ITEM_TYPE}}.name}}",
+            }
+        },
+
+        {
+            "LogName": "Add Hybrid Method Cooking Recipe for {{ITEM_FLAVOR}}_{{ITEM_TYPE}}",
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "When":{"Query:'{{EDIBILITY}}'='-300'":false},
+            "Entries": {
+                    "{{ModId}}_{{ITEM_FLAVOR}}_{{ITEM_TYPE}}": "{{ING1}} {{ING1_COUNT}} {{ING2}} {{ING2_COUNT}} {{ING3}} {{ING3_COUNT}} {{ING4}} {{ING4_COUNT}} {{ING5}} {{ING5_COUNT}}/25 5/{{ModId}}_{{ITEM_FLAVOR}}_{{ITEM_TYPE}} {{RECIPE_YIELD}}/{{RECIPE_ACQUISITION}}/{{i18n: AtelierGoods_{{ITEM_FLAVOR}}_{{ITEM_TYPE}}.name}}",
+            }
+        },
+
+    ]
+}

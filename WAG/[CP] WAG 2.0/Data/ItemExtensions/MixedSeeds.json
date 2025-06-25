@@ -1,0 +1,706 @@
+{
+
+    "Changes": [
+        {
+            "LogName":"Wildflour Garden Variety Seeds Objects",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModId}}_Fruit_Seeds": {
+                    "Name": "{{ModId}}_Fruit_Seeds",
+                    "DisplayName": "{{i18n:AtelierGoods_Fruit_Seeds.name}}",
+                    "Description": "{{i18n:AtelierGoods_Fruit_Seeds.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 10,
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "SpriteIndex": 391,
+                    "Edibility": -300,
+                    "CustomFields": {}
+                },
+                "{{ModId}}_Veggie_Seeds": {
+                    "Name": "{{ModId}}_Veggie_Seeds",
+                    "DisplayName": "{{i18n:AtelierGoods_Veggie_Seeds.name}}",
+                    "Description": "{{i18n:AtelierGoods_Veggie_Seeds.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 10,
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "SpriteIndex": 394,
+                    "Edibility": -300,
+                    "CustomFields": {}
+                },
+                "{{ModId}}_Herb_Seeds": {
+                    "Name": "{{ModId}}_Herb_Seeds",
+                    "DisplayName": "{{i18n:AtelierGoods_Herb_Seeds.name}}",
+                    "Description": "{{i18n:AtelierGoods_Herb_Seeds.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 10,
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "SpriteIndex": 393,
+                    "Edibility": -300,
+                    "CustomFields": {}
+                },
+                "{{ModId}}_Flower_Seeds": {
+                    "Name": "{{ModId}}_Flower_Seeds",
+                    "DisplayName": "{{i18n:AtelierGoods_Flower_Seeds.name}}",
+                    "Description": "{{i18n:AtelierGoods_Flower_Seeds.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 10,
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "SpriteIndex": 392,
+                    "Edibility": -300,
+                    "CustomFields": {}
+                }
+            }
+        },
+
+        {
+            "LogName":"Wildflour Garden Variety Seeds Mixed Seed Data",
+            "Action": "EditData",
+            "Target": "Mods/mistyspring.ItemExtensions/MixedSeeds",
+            "Entries": {
+              "{{ModId}}_Fruit_Seeds": [
+                {
+                    "ItemId": "478",
+                    "Condition":"SEASON spring"
+                },
+                {
+                    "ItemId": "433",
+                    "Weight": 2,
+                    "Condition":"SEASON spring summer"
+                },
+                {
+                    "ItemId": "745",
+                    "Weight": 2,
+                    "Condition":"SEASON spring"
+                },
+                {
+                    "ItemId": "481",
+                    "Weight": 2,
+                    "Condition":"SEASON summer"
+                },
+                {
+                    "ItemId": "479",
+                    "Condition":"SEASON summer"
+                },
+                {
+                    "ItemId": "486",
+                    "Condition":"SEASON summer"
+                },
+                {
+                    "ItemId": "493",
+                    "Weight": 2,
+                    "Condition":"SEASON fall"
+                },
+                {
+                    "ItemId": "{{ModId}}_Wild_Raspberry_Seeds",
+                    "Condition":"SEASON summer, CAULDRON_CONFIG_VALUE WildFood True"
+                },
+                {
+                    "ItemId": "{{ModId}}_Wild_Strawberry_Seeds",
+                    "Condition":"SEASON spring, CAULDRON_CONFIG_VALUE WildFood True"
+                },
+              ],
+              "{{ModId}}_Veggie_Seeds": [
+               
+                {
+                    "ItemId": "492",
+                    "Condition":"SEASON fall"
+                },
+                {
+                    "ItemId": "477",
+                    "Condition":"SEASON spring"
+                },
+                {
+                    "ItemId": "480",
+                    "Condition":"SEASON summer"
+                },
+                {
+                    "ItemId": "485",
+                    "Condition":"SEASON summer"
+                },
+                {
+                    "ItemId": "299",
+                    "Condition":"SEASON fall"
+                },
+                {
+                    "ItemId": "494",
+                    "Condition":"SEASON fall"
+                },
+                {
+                    "ItemId": "491",
+                    "Condition":"SEASON fall"
+                },
+                {
+                    "ItemId": "{{ModId}}_Red_Onion_Seeds",
+                    "Condition":"SEASON spring fall, CAULDRON_CONFIG_VALUE WildFood True"
+                },
+                {
+                    "ItemId": "{{ModId}}_Chicken_Woods_Seeds",
+                    "Condition":"SEASON summer, CAULDRON_CONFIG_VALUE WildFood True"
+                },
+                {
+                    "ItemId": "{{ModId}}_Honey_Fungus_Seeds",
+                    "Condition":"SEASON spring, CAULDRON_CONFIG_VALUE WildFood True"
+                },
+                {
+                    "ItemId": "{{ModId}}_Meringue_Mushroom_Seeds",
+                    "Condition":"SEASON fall, CAULDRON_CONFIG_VALUE WildFood True"
+                },
+                {
+                    "ItemId": "{{ModId}}_Milk_Mushroom_Seeds",
+                    "Condition":"SEASON summer fall, CAULDRON_CONFIG_VALUE WildFood True"
+                },
+                {
+                    "ItemId": "{{ModId}}_Wheatberry_Mushroom_Seeds",
+                    "Condition":"SEASON spring, CAULDRON_CONFIG_VALUE WildFood True"
+                }
+              ],
+              "{{ModId}}_Herb_Seeds": [
+                {
+                    "ItemId": "302",
+                    "Condition":"SEASON summer"
+                },
+                {
+                    "ItemId": "476",
+                    "Weight": 2,
+                    "Condition":"SEASON spring"
+                },
+                {
+                    "ItemId": "{{ModId}}_Basil_Seeds",
+                    "Condition":"SEASON summer, CAULDRON_CONFIG_VALUE WildFood True"
+                },
+                {
+                    "ItemId": "{{ModId}}_Cilantro_Seeds",
+                    "Condition":"SEASON spring, CAULDRON_CONFIG_VALUE WildFood True"
+                },
+                {
+                    "ItemId": "{{ModId}}_Sage_Seeds",
+                    "Condition":"SEASON fall, CAULDRON_CONFIG_VALUE WildFood True"
+                },
+                {
+                    "ItemId": "{{ModId}}_Rosemary_Seeds",
+                    "Weight": 2,
+                    "Condition":"SEASON fall, CAULDRON_CONFIG_VALUE WildFood True"
+                },
+                {
+                    "ItemId": "{{ModId}}_Thyme_Seeds",
+                    "Weight": 2,
+                    "Condition":"SEASON spring summer, CAULDRON_CONFIG_VALUE WildFood True"
+                },
+                {
+                    "ItemId": "{{ModId}}_Mint_Seeds",
+                    "Weight": 2,
+                    "Condition":"SEASON spring summer, CAULDRON_CONFIG_VALUE WildFood True"
+                },
+                {
+                    "ItemId": "{{ModId}}_Wormwood_Seeds",
+                    "Condition":"SEASON summer, CAULDRON_CONFIG_VALUE WildFood True"
+                },
+                {
+                    "ItemId": "Wildflour.SASS_Yarrow_Seeds",
+                    "Weight": 2,
+                    "Condition":"SEASON spring summer",
+                    "HasMod":"Wildflour.SASS"
+                }
+
+              ],
+              "{{ModId}}_Flower_Seeds": [
+                {
+                    "ItemId": "{{ModId}}_Vanilla_Seeds",
+                    "Condition":"SEASON summer"
+                },
+                {
+                    "ItemId": "{{ModId}}_Chamomile_Seeds",
+                    "Weight": 2,
+                    "Condition":"SEASON spring summer"
+                },
+                {
+                    "ItemId": "{{ModId}}_Lavender_Seeds",
+                    "Condition":"SEASON spring summer fall"
+                },
+                {
+                    "ItemId": "{{ModId}}_Jasmine_Seeds",
+                    "Condition":"SEASON summer, CAULDRON_CONFIG_VALUE WildFood True"
+                },
+                {
+                    "ItemId": "{{ModId}}_Mallow_Seeds",
+                    "Weight": 2,
+                    "Condition":"SEASON spring summer, CAULDRON_CONFIG_VALUE WildFood True"
+                },
+                {
+                    "ItemId": "Wildflour.SASS_Arctic_Fox_Seeds",
+                    "Condition":"SEASON spring summer",
+                    "HasMod":"Wildflour.SASS"
+                },
+                {
+                    "ItemId": "Wildflour.SASS_Avalune_Seeds",
+                    "Condition":"SEASON spring summer",
+                    "HasMod":"Wildflour.SASS"
+                },
+                {
+                    "ItemId": "Lumisteria.MtVapius_PrimroseSeeds",
+                    "HasMod": "Lumisteria.MtVapius",
+                    "Condition":"SEASON spring"
+                },
+                {
+                    "ItemId": "Lumisteria.MtVapius_CosmosSeeds",
+                    "HasMod": "Lumisteria.MtVapius",
+                    "Condition":"SEASON fall"
+                },
+                {
+                    "ItemId": "Lumisteria.SereneMeadow_HollyhockSeeds",
+                    "HasMod": "Lumisteria.SereneMeadow",
+                    "Condition":"SEASON spring summer fall"
+                },
+                {
+                    "ItemId": "Lumisteria.SereneMeadow_CornflowerSeeds",
+                    "HasMod": "Lumisteria.SereneMeadow",
+                    "Condition":"SEASON summer fall"
+                }
+               
+              ]
+            }
+        },
+
+        {
+            "LogName":"Wildflour Garden Variety Seeds Shop Additions Raccoon",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Raccoon", "Items" ],
+            "Entries": {
+                "{{ModId}}_Fruit_Seeds_spring": {
+                    "Id": "{{ModId}}_Fruit_Seeds_spring",
+                    "ItemId": "(O){{ModId}}_Fruit_Seeds",
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "Price": 0,
+                    "TradeItemID": "(O)400",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Condition": "SEASON spring"
+                },
+                "{{ModId}}_Fruit_Seeds_summer": {
+                    "Id": "{{ModId}}_Fruit_Seeds_summer",
+                    "ItemId": "(O){{ModId}}_Fruit_Seeds",
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "Price": 0,
+                    "TradeItemID": "(O)398",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Condition": "SEASON summer"
+                },
+                "{{ModId}}_Fruit_Seeds_fall": {
+                    "Id": "{{ModId}}_Fruit_Seeds_fall",
+                    "ItemId": "(O){{ModId}}_Fruit_Seeds",
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "Price": 0,
+                    "TradeItemID": "(O)406",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Condition": "SEASON fall"
+                },
+                "{{ModId}}_Fruit_Seeds_winter": {
+                    "Id": "{{ModId}}_Fruit_Seeds_winter",
+                    "ItemId": "(O){{ModId}}_Fruit_Seeds",
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "Price": 0,
+                    "TradeItemID": "(O)Powdermelon",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Condition": "SEASON winter"
+                },
+                "{{ModId}}_Veggie_Seeds_spring": {
+                    "Id": "{{ModId}}_Veggie_Seeds_spring",
+                    "ItemId": "(O){{ModId}}_Veggie_Seeds",
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "Price": 0,
+                    "TradeItemID": "(O)192",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Condition": "SEASON spring"
+                },
+                "{{ModId}}_Veggie_Seeds_summer": {
+                
+                    "Id": "{{ModId}}_Veggie_Seeds_summer",
+                    "ItemId": "(O){{ModId}}_Veggie_Seeds",
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "Price": 0,
+                    "TradeItemID": "(O)264",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Condition": "SEASON summer"
+                },
+                "{{ModId}}_Veggie_Seeds_fall": {
+                
+                    "Id": "{{ModId}}_Veggie_Seeds_fall",
+                    "ItemId": "(O){{ModId}}_Veggie_Seeds",
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "Price": 0,
+                    "TradeItemID": "(O)272",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Condition": "SEASON fall"
+                },
+                "{{ModId}}_Veggie_Seeds_winter": {
+                
+                    "Id": "{{ModId}}_Veggie_Seeds_winter",
+                    "ItemId": "(O){{ModId}}_Veggie_Seeds",
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "Price": 0,
+                    "TradeItemID": "(O)78",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Condition": "SEASON winter"
+                },
+                "{{ModId}}_Herb_Seeds_spring": {
+                    "Id": "{{ModId}}_Herb_Seeds_spring",
+                    "ItemId": "(O){{ModId}}_Herb_Seeds",
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "Price": 0,
+                    "TradeItemID": "(O)22",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Condition": "SEASON spring"
+                },
+                "{{ModId}}_Herb_Seeds_summer": {
+                    "Id": "{{ModId}}_Herb_Seeds_summer",
+                    "ItemId": "(O){{ModId}}_Herb_Seeds",
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "Price": 0,
+                    "TradeItemID": "(O)259",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Condition": "SEASON summer"
+                },
+                "{{ModId}}_Herb_Seeds_fall": {
+                    "Id": "{{ModId}}_Herb_Seeds_fall",
+                    "ItemId": "(O){{ModId}}_Herb_Seeds",
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "Price": 0,
+                    "TradeItemID": "(O)274",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Condition": "SEASON fall"
+                },
+                "{{ModId}}_Herb_Seeds_winter": {
+                    "Id": "{{ModId}}_Herb_Seeds_winter",
+                    "ItemId": "(O){{ModId}}_Herb_Seeds",
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "Price": 0,
+                    "TradeItemID": "(O)412",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Condition": "SEASON winter"
+                },
+                "{{ModId}}_Flower_Seeds_spring": {
+                    "Id": "{{ModId}}_Flower_Seeds_spring",
+                    "ItemId": "(O){{ModId}}_Flower_Seeds",
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "Price": 0,
+                    "TradeItemID": "(O)597",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Condition": "SEASON spring"
+                },
+                "{{ModId}}_Flower_Seeds_summer": {
+                    "Id": "{{ModId}}_Flower_Seeds_summer",
+                    "ItemId": "(O){{ModId}}_Flower_Seeds",
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "Price": 0,
+                    "TradeItemID": "(O)593",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Condition": "SEASON summer"
+                },
+                "{{ModId}}_Flower_Seeds_fall": {
+                    "Id": "{{ModId}}_Flower_Seeds_fall",
+                    "ItemId": "(O){{ModId}}_Flower_Seeds",
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "Price": 0,
+                    "TradeItemID": "(O)421",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Condition": "SEASON fall"
+                },
+                "{{ModId}}_Flower_Seeds_winter": {
+                    "Id": "{{ModId}}_Flower_Seeds_winter",
+                    "ItemId": "(O){{ModId}}_Flower_Seeds",
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "Price": 0,
+                    "TradeItemID": "(O)418",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Condition": "SEASON winter"
+                }
+            }
+        },
+
+        {
+            "LogName":"Wildflour Garden Variety Seeds Shop Additions Krobus",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "ShadowShop", "Items" ],
+            "Entries": {
+                "{{ModId}}_Flower_Seeds_spring": {
+                    "Id": "{{ModId}}_Flower_Seeds_spring",
+                    "ItemId": "(O){{ModId}}_Flower_Seeds",
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "Price": 0,
+                    "TradeItemID": "(O)597",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Condition": "SEASON spring"
+                },
+                "{{ModId}}_Flower_Seeds_summer": {
+                    "Id": "{{ModId}}_Flower_Seeds_summer",
+                    "ItemId": "(O){{ModId}}_Flower_Seeds",
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "Price": 0,
+                    "TradeItemID": "(O)593",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Condition": "SEASON summer"
+                },
+                "{{ModId}}_Flower_Seeds_fall": {
+                    "Id": "{{ModId}}_Flower_Seeds_fall",
+                    "ItemId": "(O){{ModId}}_Flower_Seeds",
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "Price": 0,
+                    "TradeItemID": "(O)421",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Condition": "SEASON fall"
+                },
+                "{{ModId}}_Flower_Seeds_winter": {
+                    "Id": "{{ModId}}_Flower_Seeds_winter",
+                    "ItemId": "(O){{ModId}}_Flower_Seeds",
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "Price": 0,
+                    "TradeItemID": "(O)418",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Condition": "SEASON winter"
+                }
+            }
+        },
+
+        {
+            "LogName":"Wildflour Garden Variety Seeds Shop Additions Desert Trader",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "DesertTrade", "Items" ],
+            "Entries": {
+                "{{ModId}}_Fruit_Seeds_spring": {
+                    "Id": "{{ModId}}_Fruit_Seeds_spring",
+                    "ItemId": "(O){{ModId}}_Fruit_Seeds",
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "Price": 0,
+                    "TradeItemID": "(O)400",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Condition": "SEASON spring"
+                },
+                "{{ModId}}_Fruit_Seeds_summer": {
+                    "Id": "{{ModId}}_Fruit_Seeds_summer",
+                    "ItemId": "(O){{ModId}}_Fruit_Seeds",
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "Price": 0,
+                    "TradeItemID": "(O)398",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Condition": "SEASON summer"
+                },
+                "{{ModId}}_Fruit_Seeds_fall": {
+                    "Id": "{{ModId}}_Fruit_Seeds_fall",
+                    "ItemId": "(O){{ModId}}_Fruit_Seeds",
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "Price": 0,
+                    "TradeItemID": "(O)406",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Condition": "SEASON fall"
+                },
+                "{{ModId}}_Fruit_Seeds_winter": {
+                    "Id": "{{ModId}}_Fruit_Seeds_winter",
+                    "ItemId": "(O){{ModId}}_Fruit_Seeds",
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "Price": 0,
+                    "TradeItemID": "(O)Powdermelon",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Condition": "SEASON winter"
+                },
+                "{{ModId}}_Herb_Seeds_spring": {
+                    "Id": "{{ModId}}_Herb_Seeds_spring",
+                    "ItemId": "(O){{ModId}}_Herb_Seeds",
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "Price": 0,
+                    "TradeItemID": "(O)22",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Condition": "SEASON spring"
+                },
+                "{{ModId}}_Herb_Seeds_summer": {
+                    "Id": "{{ModId}}_Herb_Seeds_summer",
+                    "ItemId": "(O){{ModId}}_Herb_Seeds",
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "Price": 0,
+                    "TradeItemID": "(O)259",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Condition": "SEASON summer"
+                },
+                "{{ModId}}_Herb_Seeds_fall": {
+                    "Id": "{{ModId}}_Herb_Seeds_fall",
+                    "ItemId": "(O){{ModId}}_Herb_Seeds",
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "Price": 0,
+                    "TradeItemID": "(O)274",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Condition": "SEASON fall"
+                },
+                "{{ModId}}_Herb_Seeds_winter": {
+                    "Id": "{{ModId}}_Herb_Seeds_winter",
+                    "ItemId": "(O){{ModId}}_Herb_Seeds",
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "Price": 0,
+                    "TradeItemID": "(O)412",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Condition": "SEASON winter"
+                },
+                "{{ModId}}_Flower_Seeds_spring": {
+                    "Id": "{{ModId}}_Flower_Seeds_spring",
+                    "ItemId": "(O){{ModId}}_Flower_Seeds",
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "Price": 0,
+                    "TradeItemID": "(O)597",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Condition": "SEASON spring"
+                },
+                "{{ModId}}_Flower_Seeds_summer": {
+                    "Id": "{{ModId}}_Flower_Seeds_summer",
+                    "ItemId": "(O){{ModId}}_Flower_Seeds",
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "Price": 0,
+                    "TradeItemID": "(O)593",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Condition": "SEASON summer"
+                },
+                "{{ModId}}_Flower_Seeds_fall": {
+                    "Id": "{{ModId}}_Flower_Seeds_fall",
+                    "ItemId": "(O){{ModId}}_Flower_Seeds",
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "Price": 0,
+                    "TradeItemID": "(O)421",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Condition": "SEASON fall"
+                },
+                "{{ModId}}_Flower_Seeds_winter": {
+                    "Id": "{{ModId}}_Flower_Seeds_winter",
+                    "ItemId": "(O){{ModId}}_Flower_Seeds",
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "Price": 0,
+                    "TradeItemID": "(O)418",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Condition": "SEASON winter"
+                }
+            }
+        },
+
+        {
+            "LogName":"Wildflour Garden Variety Seeds Shop Additions Dwarf",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Dwarf", "Items" ],
+            "Entries": {
+                "{{ModId}}_Veggie_Seeds_spring": {
+                    "Id": "{{ModId}}_Veggie_Seeds_spring",
+                    "ItemId": "(O){{ModId}}_Veggie_Seeds",
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "Price": 0,
+                    "TradeItemID": "(O)192",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Condition": "SEASON spring"
+                },
+                "{{ModId}}_Veggie_Seeds_summer": {
+                    "Id": "{{ModId}}_Veggie_Seeds_summer",
+                    "ItemId": "(O){{ModId}}_Veggie_Seeds",
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "Price": 0,
+                    "TradeItemID": "(O)264",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Condition": "SEASON summer"
+                },
+                "{{ModId}}_Veggie_Seeds_fall": {
+                    "Id": "{{ModId}}_Veggie_Seeds_fall",
+                    "ItemId": "(O){{ModId}}_Veggie_Seeds",
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "Price": 0,
+                    "TradeItemID": "(O)272",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Condition": "SEASON fall"
+                },
+                "{{ModId}}_Veggie_Seeds_winter": {
+                    "Id": "{{ModId}}_Veggie_Seeds_winter",
+                    "ItemId": "(O){{ModId}}_Veggie_Seeds",
+                    "MinStack": 3,
+                    "MaxStack": 5,
+                    "Price": 0,
+                    "TradeItemID": "(O)78",
+                    "TradeItemAmount": 1,
+                    "AvailableStock": -1,
+                    "Condition": "SEASON winter"
+                }
+            }
+        }
+
+
+    ]
+}

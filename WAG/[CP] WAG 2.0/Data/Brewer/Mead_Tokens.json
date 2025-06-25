@@ -1,0 +1,270 @@
+{
+   "Changes":[
+
+        {
+            "LogName": "Object Data Tokens - Beach_Party Mead",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_MeadKeg",
+                "ITEM_TYPE": "Mead",
+                "ITEM_FLAVOR":"Beach_Party",
+                "INPUT1":"id_(O)268",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"jasmine_item",
+                "PRICE_MULTIPLIER": 2.6,
+                "PRICE_ADDER": 100,
+                "MINUTES_UNTIL_READY": 800,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":20,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":300
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Falling_Petals Mead",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_MeadKeg",
+                "ITEM_TYPE": "Mead",
+                "ITEM_FLAVOR":"Falling_Petals",
+                "INPUT1":"id_(O)597",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O)400",
+                "PRICE_MULTIPLIER": 2.6,
+                "PRICE_ADDER": 100,
+                "MINUTES_UNTIL_READY": 800,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":20,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":301
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Farmhouse_Cider Mead",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_MeadKeg",
+                "ITEM_TYPE": "Mead",
+                "ITEM_FLAVOR":"Farmhouse_Cider",
+                "INPUT1":"id_(O)613",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O)829",
+                "PRICE_MULTIPLIER": 2.6,
+                "PRICE_ADDER": 100,
+                "MINUTES_UNTIL_READY": 800,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":20,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":302
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Fireworks Mead",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_MeadKeg",
+                "ITEM_TYPE": "Mead",
+                "ITEM_FLAVOR":"Fireworks",
+                "INPUT1":"id_(O)258",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"raspberry_item",
+                "PRICE_MULTIPLIER": 2.6,
+                "PRICE_ADDER": 100,
+                "MINUTES_UNTIL_READY": 800,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":20,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":303
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Gentle_Breeze Mead",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_MeadKeg",
+                "ITEM_TYPE": "Mead",
+                "ITEM_FLAVOR":"Gentle_Breeze",
+                "INPUT1":"id_(O)22",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"chamomile_item",
+                "PRICE_MULTIPLIER": 2.6,
+                "PRICE_ADDER": 100,
+                "MINUTES_UNTIL_READY": 800,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":20,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":304
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Leaf_Pile Mead",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_MeadKeg",
+                "ITEM_TYPE": "Mead",
+                "ITEM_FLAVOR":"Leaf_Pile",
+                "INPUT1":"id_(O)724",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O)410",
+                "PRICE_MULTIPLIER": 2.6,
+                "PRICE_ADDER": 100,
+                "MINUTES_UNTIL_READY": 800,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":20,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":305
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Picnic_Basket Mead",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_MeadKeg",
+                "ITEM_TYPE": "Mead",
+                "ITEM_FLAVOR":"Picnic_Basket",
+                "INPUT1":"elderberries_item",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"almond_item",
+                "PRICE_MULTIPLIER": 2.6,
+                "PRICE_ADDER": 100,
+                "MINUTES_UNTIL_READY": 800,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":20,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":306
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Spellbound Mead",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_MeadKeg",
+                "ITEM_TYPE": "Mead",
+                "ITEM_FLAVOR":"Spellbound",
+                "INPUT1":"id_(O)414",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"mint_item",
+                "PRICE_MULTIPLIER": 2.6,
+                "PRICE_ADDER": 100,
+                "MINUTES_UNTIL_READY": 800,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":20,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":307
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Sunny_Daze Mead",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_MeadKeg",
+                "ITEM_TYPE": "Mead",
+                "ITEM_FLAVOR":"Sunny_Daze",
+                "INPUT1":"basil_item",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"lemon_item",
+                "PRICE_MULTIPLIER": 2.6,
+                "PRICE_ADDER": 100,
+                "MINUTES_UNTIL_READY": 800,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":20,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":308
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Twinkle Mead",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_MeadKeg",
+                "ITEM_TYPE": "Mead",
+                "ITEM_FLAVOR":"Twinkle",
+                "INPUT1":"id_(O)418",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O)595",
+                "PRICE_MULTIPLIER": 2.6,
+                "PRICE_ADDER": 100,
+                "MINUTES_UNTIL_READY": 800,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":20,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":309
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Weird_Sisters Mead",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_MeadKeg",
+                "ITEM_TYPE": "Mead",
+                "ITEM_FLAVOR":"Weird_Sisters",
+                "INPUT1":"wormwood_item",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O)595",
+                "PRICE_MULTIPLIER": 2.6,
+                "PRICE_ADDER": 100,
+                "MINUTES_UNTIL_READY": 800,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":20,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":310
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Yule_Log Mead",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_MeadKeg",
+                "ITEM_TYPE": "Mead",
+                "ITEM_FLAVOR":"Yule_Log",
+                "INPUT1":"cinnamon_item",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"star_anise_item",
+                "PRICE_MULTIPLIER": 2.6,
+                "PRICE_ADDER": 100,
+                "MINUTES_UNTIL_READY": 800,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":20,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":311
+            }
+        }
+
+]
+}

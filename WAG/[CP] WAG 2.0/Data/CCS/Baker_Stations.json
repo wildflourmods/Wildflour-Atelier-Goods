@@ -1,0 +1,139 @@
+{
+
+
+  "Changes": [
+
+
+{
+    "Action": "EditData",
+    "Target": "Data/BigCraftables",
+    "TargetField": ["{{ModId}}_Mixer","CustomFields"],
+    "Entries": {
+      "leclair.bettercrafting_PerformAction": "leclair.bettercrafting_OpenMenu FALSE TRUE {{ModId}}_Mixer"
+    }
+  },
+
+{
+    "LogName": "Baker CCS Structure and Categories",
+    "Action":"EditData",
+    "Target": "Mods/leclair.bettercrafting/CraftingStations",
+    "Entries": {
+        "{{ModId}}_Mixer": {
+          "Id": "{{ModId}}_Mixer",
+              "IsCooking": true,
+              "AreRecipesExclusive": true,
+              "Recipes":[
+                  "{{ModId}}_Vanilla_Cake_Mix",
+                  "{{ModId}}_Chocolate_Cake_Mix",
+                  "{{ModId}}_Strawberry_Cake_Mix",
+                  "{{ModId}}_Red_Velvet_Cake_Mix",
+                  "{{ModId}}_Lemon_Cake_Mix",
+                  "{{ModId}}_Coconut_Cake_Mix",
+                  "{{ModId}}_Spice_Cake_Mix",
+                  "{{ModId}}_Macaron_Mix",
+                  "{{ModId}}_Brownie_Mix",
+                  "{{ModId}}_Cookie_Mix",
+                  "{{ModId}}_Bread_Mix",
+                  "{{ModId}}_Pie_Mix",
+                  "{{ModId}}_Muffin_Mix",
+                  "{{ModId}}_Vanilla_Frosting",
+                  "{{ModId}}_Chocolate_Frosting",
+                  "{{ModId}}_Strawberry_Frosting",
+                  "{{ModId}}_Lemon_Frosting",
+                  "{{ModId}}_Matcha_Frosting",
+                  "{{ModId}}_Cream_Cheese_Frosting",
+                  "{{ModId}}_Coconut_Frosting",
+                  "{{ModId}}_Mint_Frosting",
+                  "{{ModId}}_Vanilla_Glaze",
+                  "{{ModId}}_Chocolate_Glaze",
+                  "{{ModId}}_Strawberry_Glaze",
+                  "{{ModId}}_Lemon_Glaze",
+                  "{{ModId}}_Matcha_Glaze",
+                  "{{ModId}}_Pistachio_Glaze",
+                  "{{ModId}}_Orange_Glaze",
+                  "{{ModId}}_Mocha_Glaze",
+                  "{{ModId}}_Blueberry_Glaze",
+                  "{{ModId}}_Lavender_Glaze",
+                  "{{ModId}}_Wildberry_Glaze",
+                  "{{ModId}}_Scone_Mix",
+
+                  ],
+              "Categories":[
+                  {
+                  "Id": "WAG_Mixes",
+                  "Name": "{{i18n:Mixes_CCS.category}}",
+                  "Icon": 
+                    { 
+                      "Type": "Item",
+                      "ItemId": "Wildflour.AtelierGoods_Vanilla_Cake_Mix"
+                    },
+                  "Recipes":
+                    [
+                      "{{ModId}}_Vanilla_Cake_Mix",
+                      "{{ModId}}_Chocolate_Cake_Mix",
+                      "{{ModId}}_Strawberry_Cake_Mix",
+                      "{{ModId}}_Red_Velvet_Cake_Mix",
+                      "{{ModId}}_Lemon_Cake_Mix",
+                      "{{ModId}}_Coconut_Cake_Mix",
+                      "{{ModId}}_Spice_Cake_Mix",
+                      "{{ModId}}_Macaron_Mix",
+                      "{{ModId}}_Brownie_Mix",
+                      "{{ModId}}_Cookie_Mix",
+                      "{{ModId}}_Bread_Mix",
+                      "{{ModId}}_Pie_Mix",
+                      "{{ModId}}_Muffin_Mix",
+                      "{{ModId}}_Scone_Mix",
+                    ]
+                  },
+                  {
+                    "Id": "WAG_Frostings",
+                    "Name": "{{i18n:Frostings_CCS.category}}",
+                    "Icon": 
+                      { 
+                        "Type": "Item",
+                        "ItemId": "Wildflour.AtelierGoods_Strawberry_Frosting"
+                      },
+                    "Recipes":
+                      [
+                        "{{ModId}}_Vanilla_Frosting",
+                        "{{ModId}}_Chocolate_Frosting",
+                        "{{ModId}}_Strawberry_Frosting",
+                        "{{ModId}}_Lemon_Frosting",
+                        "{{ModId}}_Matcha_Frosting",
+                        "{{ModId}}_Cream_Cheese_Frosting",
+                        "{{ModId}}_Coconut_Frosting",
+                        "{{ModId}}_Mint_Frosting"
+                      ]
+                  },
+                  {
+                    "Id":"WAG_Glazes",
+                    "Name":"{{i18n:Glazes_CCS.category}}",
+                    "Icon":
+                      {
+                          "Type": "Item",
+                          "ItemId": "Wildflour.AtelierGoods_Lemon_Glaze"
+                      },
+                    "Recipes":[
+                        "{{ModId}}_Vanilla_Glaze",
+                        "{{ModId}}_Chocolate_Glaze",
+                        "{{ModId}}_Strawberry_Glaze",
+                        "{{ModId}}_Lemon_Glaze",
+                        "{{ModId}}_Matcha_Glaze",
+                        "{{ModId}}_Pistachio_Glaze",
+                        "{{ModId}}_Orange_Glaze",
+                        "{{ModId}}_Mocha_Glaze",
+                        "{{ModId}}_Blueberry_Glaze",
+                        "{{ModId}}_Lavender_Glaze",
+                        "{{ModId}}_Wildberry_Glaze"
+                    ]
+                  }
+                ]
+        },
+
+    },
+  },
+
+
+
+  ]
+}

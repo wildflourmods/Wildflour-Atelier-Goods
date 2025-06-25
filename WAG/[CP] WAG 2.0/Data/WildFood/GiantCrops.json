@@ -1,0 +1,33 @@
+{
+    "Changes":[
+
+{
+    "LogName":"Add Wild Food Giant Crops",
+    "Action": "EditData",
+    "Target": "Data/GiantCrops",
+    "Entries": {
+       "Giant_{{CROP_TYPE}}": {
+            "FromItemId":"{{CROP_TYPE}}",
+            "Chance":"{{Giant_Crop_Chance}}",
+            "HarvestItems":[
+            {
+                "ItemId":"(O){{CROP_TYPE}}",
+                "MinStack":"9",
+                "MaxStack":"21"
+            }
+        ],
+            "Texture": "Mods/{{ModId}}/GiantCrops",
+            "TexturePosition": {
+                "X": "{{POSITION_X}}",
+                "Y": "{{POSITION_Y}}"
+            },
+            "TileSize":{
+                "X": "{{TILE_X}}",
+                "Y": "{{TILE_Y}}"
+            }
+        }
+    }
+}
+
+    ]
+}

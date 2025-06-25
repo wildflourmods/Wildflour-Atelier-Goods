@@ -1,0 +1,270 @@
+{
+   "Changes":[
+
+        {
+            "LogName": "Object Data Tokens - Boba",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_BlastChiller",
+                "ITEM_TYPE": "Boba",
+                "ITEM_FLAVOR":"Alchemist_Blend",
+                "INPUT1":"id_(O){{ModId}}_Alchemist_Blend_Tea",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 3.75,
+                "PRICE_ADDER": 60,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY": 20,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":208
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Blueberry Matcha Boba",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_BlastChiller",
+                "ITEM_TYPE": "Boba",
+                "ITEM_FLAVOR":"Blueberry_Matcha",
+                "INPUT1":"id_(O){{ModId}}_Blueberry_Matcha_Tea",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 3.75,
+                "PRICE_ADDER": 60,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY": 20,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":212
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Cherry_Blossom_Matcha Boba",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_BlastChiller",
+                "ITEM_TYPE": "Boba",
+                "ITEM_FLAVOR":"Cherry_Blossom_Matcha",
+                "INPUT1":"id_(O){{ModId}}_Cherry_Blossom_Matcha_Tea",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 3.75,
+                "PRICE_ADDER": 60,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY": 20,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":216
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Cookie_Jar Boba",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_BlastChiller",
+                "ITEM_TYPE": "Boba",
+                "ITEM_FLAVOR":"Cookie_Jar",
+                "INPUT1":"id_(O){{ModId}}_Cookie_Jar_Tea",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 3.75,
+                "PRICE_ADDER": 60,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY": 20,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":220
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Good_Thyme Boba",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_BlastChiller",
+                "ITEM_TYPE": "Boba",
+                "ITEM_FLAVOR":"Good_Thyme",
+                "INPUT1":"id_(O){{ModId}}_Good_Thyme_Tea",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 3.75,
+                "PRICE_ADDER": 60,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY": 20,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":224
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Happy_Harvest Boba",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_BlastChiller",
+                "ITEM_TYPE": "Boba",
+                "ITEM_FLAVOR":"Happy_Harvest",
+                "INPUT1":"id_(O){{ModId}}_Happy_Harvest_Tea",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 3.75,
+                "PRICE_ADDER": 60,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY": 20,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":228
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - North_Pole Boba",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_BlastChiller",
+                "ITEM_TYPE": "Boba",
+                "ITEM_FLAVOR":"North_Pole",
+                "INPUT1":"id_(O){{ModId}}_North_Pole_Tea",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 3.75,
+                "PRICE_ADDER": 60,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY": 20,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":232
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Pelican_Fog Boba",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_BlastChiller",
+                "ITEM_TYPE": "Boba",
+                "ITEM_FLAVOR":"Pelican_Fog",
+                "INPUT1":"id_(O){{ModId}}_Pelican_Fog_Tea",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 3.75,
+                "PRICE_ADDER": 60,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY": 20,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":236
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Plum_Chai Boba",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_BlastChiller",
+                "ITEM_TYPE": "Boba",
+                "ITEM_FLAVOR":"Plum_Chai",
+                "INPUT1":"id_(O){{ModId}}_Plum_Chai_Tea",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 3.75,
+                "PRICE_ADDER": 60,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY": 20,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":240
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Positivitea Boba",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_BlastChiller",
+                "ITEM_TYPE": "Boba",
+                "ITEM_FLAVOR":"Positivitea",
+                "INPUT1":"id_(O){{ModId}}_Positivitea_Tea",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 3.75,
+                "PRICE_ADDER": 60,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY": 20,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":244
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Sun_Room Boba",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_BlastChiller",
+                "ITEM_TYPE": "Boba",
+                "ITEM_FLAVOR":"Sun_Room",
+                "INPUT1":"id_(O){{ModId}}_Sun_Room_Tea",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 3.75,
+                "PRICE_ADDER": 60,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY": 20,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":248
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Sunny_Delight Boba",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_BlastChiller",
+                "ITEM_TYPE": "Boba",
+                "ITEM_FLAVOR":"Sunny_Delight",
+                "INPUT1":"id_(O){{ModId}}_Sunny_Delight_Tea",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 3.75,
+                "PRICE_ADDER": 60,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY": 20,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":252
+            }
+        }
+
+]
+}

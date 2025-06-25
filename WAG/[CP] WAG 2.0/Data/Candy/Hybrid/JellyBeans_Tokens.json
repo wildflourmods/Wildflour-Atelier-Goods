@@ -1,0 +1,160 @@
+{
+   "Changes":[
+
+        {
+            "LogName": "Object Data Tokens - Autumn_Spice Jelly Beans",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandyJar",
+                "ITEM_TYPE": "Jelly_Beans",
+                "ITEM_FLAVOR":"Autumn_Spice",
+                "INPUT1":"id_(O){{ModId}}_Apple_Juice",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Corn_Syrup",
+                "PRICE_MULTIPLIER": 3.5,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 220,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":26,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":661
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Berry_Blast Jelly Beans",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandyJar",
+                "ITEM_TYPE": "Jelly_Beans",
+                "ITEM_FLAVOR":"Berry_Blast",
+                "INPUT1":"id_(O){{ModId}}_Berry_Juice",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Corn_Syrup",
+                "PRICE_MULTIPLIER": 3.5,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 220,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":26,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":662
+            }
+        },
+                {
+            "LogName": "Object Data Tokens - Citrus_Splash Jelly Beans",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandyJar",
+                "ITEM_TYPE": "Jelly_Beans",
+                "ITEM_FLAVOR":"Citrus_Splash",
+                "INPUT1":"id_(O){{ModId}}_Orange_Juice",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Corn_Syrup",
+                "PRICE_MULTIPLIER": 3.5,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 220,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":26,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":663
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Magical Jelly Beans",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandyJar",
+                "ITEM_TYPE": "Jelly_Beans",
+                "ITEM_FLAVOR":"Magical",
+                "INPUT1":"id_(O){{ModId}}_Pomegranate_Juice",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Corn_Syrup",
+                "PRICE_MULTIPLIER": 3.5,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 220,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":26,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":664
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Mocha Jelly Beans",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandyJar",
+                "ITEM_TYPE": "Jelly_Beans",
+                "ITEM_FLAVOR":"Mocha",
+                "INPUT1":"id_(O){{ModId}}_Chocolate_Syrup",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Corn_Syrup",
+                "PRICE_MULTIPLIER": 3.5,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 220,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":26,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":665
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Spring_Blooms Jelly Beans",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandyJar",
+                "ITEM_TYPE": "Jelly_Beans",
+                "ITEM_FLAVOR":"Spring_Blooms",
+                "INPUT1":"id_(O){{ModId}}_Rose_Water",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Corn_Syrup",
+                "PRICE_MULTIPLIER": 3.5,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 220,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":26,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":666
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Summertime Jelly Beans",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandyJar",
+                "ITEM_TYPE": "Jelly_Beans",
+                "ITEM_FLAVOR":"Summertime",
+                "INPUT1":"id_(O){{ModId}}_Mango_Juice",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Corn_Syrup",
+                "PRICE_MULTIPLIER": 3.5,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 220,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":26,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":667
+            }
+        }
+
+]
+}

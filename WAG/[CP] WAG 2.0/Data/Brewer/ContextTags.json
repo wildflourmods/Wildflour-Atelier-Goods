@@ -1,0 +1,74 @@
+{
+  "Changes": [
+    {
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "When":{"Atelier.Cauldron/ConfigValue:DifficultyToggle":"Advanced"},
+        "Fields": {
+        //ales
+            "{{ModId}}_Bobbin_For_Aleples":{
+                    "ContextTags":["drink_item", "alcohol_item", "wildflour_item", "wildflour_brewer_item", "ale_item", "color_gold"]},
+            "{{ModId}}_Bonfire_Ale":{
+                    "ContextTags":["drink_item", "alcohol_item", "wildflour_item", "wildflour_brewer_item", "ale_item", "color_dark_orange"]},
+            "{{ModId}}_Dust_Sprite_Stout":{
+                    "ContextTags":["drink_item", "alcohol_item", "wildflour_item", "wildflour_brewer_item", "ale_item", "color_copper"]},
+            "{{ModId}}_Jingle_Ale_The_Way":{
+                    "ContextTags":["drink_item", "alcohol_item", "wildflour_item", "wildflour_brewer_item", "ale_item", "color_copper"]},
+            "{{ModId}}_Lavender_Haze_IPA":{
+                    "ContextTags":["drink_item", "alcohol_item", "wildflour_item", "wildflour_brewer_item", "ale_item", "color_purple"]},
+            "{{ModId}}_Livin_Off_The_Land_Ale":{
+                    "ContextTags":["drink_item", "alcohol_item", "wildflour_item", "wildflour_brewer_item", "ale_item", "color_red"]},
+            "{{ModId}}_Pelican_Pilsner":{
+                    "ContextTags":["drink_item", "alcohol_item", "wildflour_item", "wildflour_brewer_item", "ale_item", "color_orange"]},
+            "{{ModId}}_Sandcastle_IPA":{
+                    "ContextTags":["drink_item", "alcohol_item", "wildflour_item", "wildflour_brewer_item", "ale_item", "color_gold"]},
+            "{{ModId}}_Scarecrow_Stout":{
+                    "ContextTags":["drink_item", "alcohol_item", "wildflour_item", "wildflour_brewer_item", "ale_item", "color_copper"]},
+            "{{ModId}}_Scrooge_Tripel":{
+                    "ContextTags":["drink_item", "alcohol_item", "wildflour_item", "wildflour_brewer_item", "ale_item", "color_gold"]},
+            "{{ModId}}_Snowman_Cream_Ale":{
+                    "ContextTags":["drink_item", "alcohol_item", "wildflour_item", "wildflour_brewer_item", "ale_item", "color_sand"]},
+            "{{ModId}}_Wednesdays_Void_Lager":{
+                    "ContextTags":["drink_item", "alcohol_item", "wildflour_item", "wildflour_brewer_item", "ale_item", "color_dark_purple"]},
+        //Meads
+            "{{ModId}}_Beach_Party_Mead":{
+                    "ContextTags":["drink_item", "alcohol_item", "wildflour_item", "wildflour_brewer_item", "mead_item", "color_gold"]},
+            "{{ModId}}_Falling_Petals_Mead":{
+                    "ContextTags":["drink_item", "alcohol_item", "wildflour_item", "wildflour_brewer_item", "mead_item", "color_pink"]},
+            "{{ModId}}_Farmhouse_Cider_Mead":{
+                    "ContextTags":["drink_item", "alcohol_item", "wildflour_item", "wildflour_brewer_item", "mead_item", "color_dark_orange"]},
+            "{{ModId}}_Fireworks_Mead":{
+                    "ContextTags":["drink_item", "alcohol_item", "wildflour_item", "wildflour_brewer_item", "mead_item", "color_gold"]},
+            "{{ModId}}_Gentle_Breeze_Mead":{
+                    "ContextTags":["drink_item", "alcohol_item", "wildflour_item", "wildflour_brewer_item", "mead_item", "color_dark_blue"]},
+            "{{ModId}}_Leaf_Pile_Mead":{
+                    "ContextTags":["drink_item", "alcohol_item", "wildflour_item", "wildflour_brewer_item", "mead_item", "color_dark_pink"]},
+            "{{ModId}}_Picnic_Basket_Mead":{
+                    "ContextTags":["drink_item", "alcohol_item", "wildflour_item", "wildflour_brewer_item", "mead_item", "color_poppyseed"]},
+            "{{ModId}}_Spellbound_Mead":{
+                    "ContextTags":["drink_item", "alcohol_item", "wildflour_item", "wildflour_brewer_item", "mead_item", "color_light_cyan"]},
+            "{{ModId}}_Sunny_Daze_Mead":{
+                    "ContextTags":["drink_item", "alcohol_item", "wildflour_item", "wildflour_brewer_item", "mead_item", "color_gold"]},
+            "{{ModId}}_Twinkle_Mead":{
+                    "ContextTags":["drink_item", "alcohol_item", "wildflour_item", "wildflour_brewer_item", "mead_item", "color_iridium"]},
+            "{{ModId}}_Weird_Sisters_Mead":{
+                    "ContextTags":["drink_item", "alcohol_item", "wildflour_item", "wildflour_brewer_item", "mead_item", "color_pale_violet_red"]},
+            "{{ModId}}_Yule_Log_Mead":{
+                    "ContextTags":["drink_item", "alcohol_item", "wildflour_item", "wildflour_brewer_item", "mead_item", "color_dark_red"]}
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "When": {"Query:('{{Atelier.Cauldron/ConfigValue:SimpleAddOn}}' ='true') OR ('{{Atelier.Cauldron/ConfigValue:DifficultyToggle}}'='Simple')":true },
+      "Fields": {
+            "{{ModId}}_Flavored_Ale":{
+                    "ContextTags":["drink_item", "alcohol_item", "wildflour_item", "wildflour_brewer_item", "ale_item", "color_gold"]},
+            "{{ModId}}_Flavored_Mead":{
+                    "ContextTags":["drink_item", "alcohol_item", "wildflour_item", "wildflour_brewer_item", "mead_item", "color_gold"]}
+      }
+    },
+
+  ]
+}

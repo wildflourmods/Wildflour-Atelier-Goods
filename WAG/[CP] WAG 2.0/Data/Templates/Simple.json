@@ -1,0 +1,98 @@
+{
+	"Changes": [
+
+            {
+            "LogName": "Simple Machine Rules T1",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": [ "(BC){{MACHINE_TYPE}}", "OutputRules"],
+            "When": {"Query: '{{INPUT_TYPE}}' = ''": true},
+            "Entries": {
+                "{{ModId}}_Flavored_{{ITEM_TYPE}}":{
+                    "Id": "{{ModId}}_Flavored_{{ITEM_TYPE}}",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredTags": ["category_fruits"],
+                            "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredTags": ["edible_flower_item"],
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_Flavored_{{ITEM_TYPE}}",
+                            "ItemId": "{{ModId}}_Flavored_{{ITEM_TYPE}}",
+                            "ObjectDisplayName": "[LocalizedText Strings\\Objects:{{ModId}}_Flavored_{{ITEM_TYPE}} %PRESERVED_DISPLAY_NAME]",
+                            "ObjectInternalName": "{0} {{ITEM_TYPE}}",
+                            "PreserveID":"DROP_IN",
+                            "CopyQuality":"{{Quality_Toggle}}",
+                            "CopyPrice": true,
+                            "CopyColor":true,
+                            "PriceModifiers": 
+                                [
+                                    {
+                                    "Modification": "Multiply",
+                                    "Amount": "{{PRICE_MULTIPLIER}}"
+                                    },
+                                    {
+                                    "Modification": "Add",
+                                    "Amount": "{{PRICE_ADDER}}"
+                                    }
+                                ]
+                                }
+                    ],
+                    "MinutesUntilReady": "{{MINUTES_UNTIL_READY}}"
+                    }
+                }
+        },
+
+        {
+            "LogName": "Simple Machine Rules Tier 2 Template",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": [ "(BC){{MACHINE_TYPE}}", "OutputRules"],
+            "When": {"Query: '{{INPUT_TYPE}}' = ''": false},
+            "Entries": {
+                "{{ModId}}_Flavored_{{ITEM_TYPE}}":{
+                    "Id": "{{ModId}}_Flavored_{{ITEM_TYPE}}",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredIemId": "{{ModId}}_Flavored_{{INPUT_TYPE}}",
+                            "RequiredCount": 1
+                        },
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_Flavored_{{ITEM_TYPE}}",
+                            "ItemId": "{{ModId}}_Flavored_{{ITEM_TYPE}}",
+                            "ObjectDisplayName": "[LocalizedText Strings\\Objects:{{ModId}}_Flavored_{{ITEM_TYPE}} %PRESERVED_DISPLAY_NAME]",
+                            "ObjectInternalName": "{0} {{ITEM_TYPE}}",
+                            "PreserveID":"DROP_IN_PRESERVE",
+                            "CopyQuality":"{{Quality_Toggle}}",
+                            "CopyPrice": true,
+                            "CopyColor":true,
+                            "PriceModifiers": 
+                                [
+                                    {
+                                    "Modification": "Multiply",
+                                    "Amount": "{{PRICE_MULTIPLIER}}"
+                                    },
+                                    {
+                                    "Modification": "Add",
+                                    "Amount": "{{PRICE_ADDER}}"
+                                    }
+                                ]
+                                }
+                    ],
+                    "MinutesUntilReady": "{{MINUTES_UNTIL_READY}}"
+                    }
+                }
+        }
+
+	]
+}

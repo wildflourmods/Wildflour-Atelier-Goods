@@ -1,0 +1,52 @@
+{
+    "Changes":[
+
+
+    {
+            "LogName":"Add Gourmand {{BYPRODUCT_TYPE}} Byproduct Objects",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModId}}_{{BYPRODUCT_TYPE}}": {
+                    "Name": "{{BYPRODUCT_ITEM_ID}}",
+                    "DisplayName": "{{i18n:AtelierGoods_{{BYPRODUCT_TYPE}}.name}}",
+                    "Description": "{{i18n:AtelierGoods_{{BYPRODUCT_TYPE}}.description}}",
+                    "Type": "ArtisanGoods",          
+                    "Category": -26,
+                    "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
+                    "Edibility": "{{EDIBILITY}}",
+                    "IsDrink":"{{DRINKABILITY}}",
+                    "Price": 100,
+                    "ContextTags":[],
+                    "Texture": "Mods/{{ModId}}/Objects",
+                    "SpriteIndex": "{{ITEM_SPRITE}}"
+                }
+            }
+        },
+
+
+
+        {
+            "LogName": "Advanced Extra Outputs {{BYPRODUCT_ITEM_ID}}",
+            "Action": "EditData",
+            "Target": "selph.ExtraMachineConfig/ExtraOutputs",
+            "Entries": {
+                "{{BYPRODUCT_ID}}": {
+                "Id": "{{BYPRODUCT_ID}}",
+                "ItemId": "(O){{BYPRODUCT_ITEM_ID}}"
+                }
+            }
+        },
+
+
+        {
+            "LogName": "Add {{BYPRODUCT_ID}} to {{PRIMARY_PRODUCT}} Rule",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": ["(BC){{MACHINE_TYPE}}", "OutputRules", "{{PRIMARY_PRODUCT}}", "OutputItem", "{{PRIMARY_PRODUCT}}", "CustomData"],
+            "Entries": {
+            "selph.ExtraMachineConfig.ExtraOutputIds": "{{BYPRODUCT_ID}}"
+            }
+        }
+    ]
+}

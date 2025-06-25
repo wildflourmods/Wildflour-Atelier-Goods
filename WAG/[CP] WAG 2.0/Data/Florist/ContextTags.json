@@ -1,0 +1,215 @@
+{
+  "Changes": [
+
+      {
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "When":{"Atelier.Cauldron/ConfigValue:DifficultyToggle":"Advanced"},
+        "Fields": {
+            "{{ModId}}_Butterfly_Garden_Floral_Swag":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "floral_swag_item", "color_sand"]},
+            "{{ModId}}_Butterfly_Garden_Candles":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "candle_item", "color_sand"]}, 
+            "{{ModId}}_Butterfly_Garden_Soap":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "soap_item", "color_sand"]}, 
+            "{{ModId}}_Butterfly_Garden_Perfume":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "perfume_item", "color_sand"]}, 
+            "{{ModId}}_Butterfly_Garden_Incense":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "incense_item", "color_sand"]}, 
+            "{{ModId}}_Butterfly_Garden_Bouquet":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "bouquet_item", "color_sand"]}, 
+
+            "{{ModId}}_Cottage_Garden_Floral_Swag":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "floral_swag_item", "color_dark_blue"]},
+            "{{ModId}}_Cottage_Garden_Candles":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "candle_item", "color_dark_blue"]}, 
+            "{{ModId}}_Cottage_Garden_Soap":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "soap_item", "color_dark_blue"]}, 
+            "{{ModId}}_Cottage_Garden_Perfume":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "perfume_item", "color_dark_blue"]}, 
+            "{{ModId}}_Cottage_Garden_Incense":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "incense_item", "color_dark_blue"]}, 
+            "{{ModId}}_Cottage_Garden_Bouquet":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "bouquet_item", "color_dark_blue"]}, 
+
+            "{{ModId}}_Herb_Garden_Floral_Swag":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "floral_swag_item", "color_jade"]},
+            "{{ModId}}_Herb_Garden_Candles":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "candle_item", "color_jade"]}, 
+            "{{ModId}}_Herb_Garden_Soap":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "soap_item", "color_jade"]}, 
+            "{{ModId}}_Herb_Garden_Perfume":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "perfume_item", "color_jade"]}, 
+            "{{ModId}}_Herb_Garden_Incense":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "incense_item", "color_jade"]}, 
+            "{{ModId}}_Herb_Garden_Bouquet":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "bouquet_item", "color_jade"]}, 
+
+            "{{ModId}}_Mystic_Garden_Floral_Swag":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "floral_swag_item", "color_iridium"]},
+            "{{ModId}}_Mystic_Garden_Candles":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "candle_item", "color_iridium"]}, 
+            "{{ModId}}_Mystic_Garden_Soap":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "soap_item", "color_iridium"]}, 
+            "{{ModId}}_Mystic_Garden_Perfume":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "perfume_item", "color_iridium"]}, 
+            "{{ModId}}_Mystic_Garden_Incense":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "incense_item", "color_iridium"]}, 
+            "{{ModId}}_Mystic_Garden_Bouquet":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "bouquet_item", "color_iridium"]}, 
+
+            "{{ModId}}_Spring_Morning_Floral_Swag":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "floral_swag_item", "color_pink"]},
+            "{{ModId}}_Spring_Morning_Candles":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "candle_item", "color_pink"]}, 
+            "{{ModId}}_Spring_Morning_Soap":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "soap_item", "color_pink"]}, 
+            "{{ModId}}_Spring_Morning_Perfume":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "perfume_item", "color_pink"]}, 
+            "{{ModId}}_Spring_Morning_Incense":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "incense_item", "color_pink"]}, 
+            "{{ModId}}_Spring_Morning_Bouquet":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "bouquet_item", "color_pink"]}, 
+
+            "{{ModId}}_Summer_Afternoon_Floral_Swag":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "floral_swag_item", "color_gold"]},
+            "{{ModId}}_Summer_Afternoon_Candles":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "candle_item", "color_gold"]}, 
+            "{{ModId}}_Summer_Afternoon_Soap":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "soap_item", "color_gold"]}, 
+            "{{ModId}}_Summer_Afternoon_Perfume":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "perfume_item", "color_gold"]}, 
+            "{{ModId}}_Summer_Afternoon_Incense":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "incense_item", "color_gold"]}, 
+            "{{ModId}}_Summer_Afternoon_Bouquet":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "bouquet_item", "color_gold"]}, 
+
+            "{{ModId}}_Autumn_Evening_Floral_Swag":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "floral_swag_item", "color_pale_violet_red"]},
+            "{{ModId}}_Autumn_Evening_Candles":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "candle_item", "color_pale_violet_red"]}, 
+            "{{ModId}}_Autumn_Evening_Soap":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "soap_item", "color_pale_violet_red"]}, 
+            "{{ModId}}_Autumn_Evening_Perfume":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "perfume_item", "color_pale_violet_red"]}, 
+            "{{ModId}}_Autumn_Evening_Incense":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "incense_item", "color_pale_violet_red"]}, 
+            "{{ModId}}_Autumn_Evening_Bouquet":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "bouquet_item", "color_pale_violet_red"]}, 
+
+            "{{ModId}}_Winter_Twilight_Floral_Swag":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "floral_swag_item", "color_light_cyan"]},
+            "{{ModId}}_Winter_Twilight_Candles":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "candle_item", "color_light_cyan"]}, 
+            "{{ModId}}_Winter_Twilight_Soap":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "soap_item", "color_light_cyan"]}, 
+            "{{ModId}}_Winter_Twilight_Perfume":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "perfume_item", "color_light_cyan"]}, 
+            "{{ModId}}_Winter_Twilight_Incense":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "incense_item", "color_light_cyan"]}, 
+            "{{ModId}}_Winter_Twilight_Bouquet":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "bouquet_item", "color_light_cyan"]}, 
+
+            "{{ModId}}_Bold_Red_Floral_Swag":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "floral_swag_item", "color_red"]},
+            "{{ModId}}_Bold_Red_Candles":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "candle_item", "color_red"]}, 
+            "{{ModId}}_Bold_Red_Soap":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "soap_item", "color_red"]}, 
+            "{{ModId}}_Bold_Red_Perfume":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "perfume_item", "color_red"]}, 
+            "{{ModId}}_Bold_Red_Incense":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "incense_item", "color_red"]}, 
+            "{{ModId}}_Bold_Red_Bouquet":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "bouquet_item", "color_red"]}, 
+
+            "{{ModId}}_Cheerful_Yellow_Floral_Swag":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "floral_swag_item", "color_yellow"]},
+            "{{ModId}}_Cheerful_Yellow_Candles":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "candle_item", "color_yellow"]}, 
+            "{{ModId}}_Cheerful_Yellow_Soap":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "soap_item", "color_yellow"]}, 
+            "{{ModId}}_Cheerful_Yellow_Perfume":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "perfume_item", "color_yellow"]}, 
+            "{{ModId}}_Cheerful_Yellow_Incense":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "incense_item", "color_yellow"]}, 
+            "{{ModId}}_Cheerful_Yellow_Bouquet":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "bouquet_item", "color_yellow"]}, 
+
+            "{{ModId}}_Charming_Pink_Floral_Swag":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "floral_swag_item", "color_pink"]},
+            "{{ModId}}_Charming_Pink_Candles":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "candle_item", "color_pink"]}, 
+            "{{ModId}}_Charming_Pink_Soap":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "soap_item", "color_pink"]}, 
+            "{{ModId}}_Charming_Pink_Perfume":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "perfume_item", "color_pink"]}, 
+            "{{ModId}}_Charming_Pink_Incense":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "incense_item", "color_pink"]}, 
+            "{{ModId}}_Charming_Pink_Bouquet":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "bouquet_item", "color_pink"]}, 
+
+            "{{ModId}}_Passion_Purple_Floral_Swag":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "floral_swag_item", "color_purple"]},
+            "{{ModId}}_Passion_Purple_Candles":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "candle_item", "color_purple"]}, 
+            "{{ModId}}_Passion_Purple_Soap":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "soap_item", "color_purple"]}, 
+            "{{ModId}}_Passion_Purple_Perfume":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "perfume_item", "color_purple"]}, 
+            "{{ModId}}_Passion_Purple_Incense":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "incense_item", "color_purple"]}, 
+            "{{ModId}}_Passion_Purple_Bouquet":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "bouquet_item", "color_purple"]}, 
+
+            "{{ModId}}_Peaceful_Blue_Floral_Swag":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "floral_swag_item", "color_blue"]},
+            "{{ModId}}_Peaceful_Blue_Candles":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "candle_item", "color_blue"]}, 
+            "{{ModId}}_Peaceful_Blue_Soap":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "soap_item", "color_blue"]}, 
+            "{{ModId}}_Peaceful_Blue_Perfume":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "perfume_item", "color_blue"]}, 
+            "{{ModId}}_Peaceful_Blue_Incense":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "incense_item", "color_blue"]}, 
+            "{{ModId}}_Peaceful_Blue_Bouquet":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "bouquet_item", "color_blue"]}, 
+
+            "{{ModId}}_Serene_White_Floral_Swag":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "floral_swag_item", "color_white"]},
+            "{{ModId}}_Serene_White_Candles":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "candle_item", "color_white"]}, 
+            "{{ModId}}_Serene_White_Soap":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "soap_item", "color_white"]}, 
+            "{{ModId}}_Serene_White_Perfume":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "perfume_item", "color_white"]}, 
+            "{{ModId}}_Serene_White_Incense":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "incense_item", "color_white"]}, 
+            "{{ModId}}_Serene_White_Bouquet":{
+                  "ContextTags":["wildflour_item", "wildflour_floral_item", "bouquet_item", "color_white"]}, 
+
+        }
+      },
+
+      {
+          "Action": "EditData",
+          "Target": "Data/Objects",
+          "When": {"Query:('{{Atelier.Cauldron/ConfigValue:SimpleAddOn}}' ='true') OR ('{{Atelier.Cauldron/ConfigValue:DifficultyToggle}}'='Simple')":true },
+          "Fields": {
+              "{{ModId}}_Flower_Floral_Swag":{
+                        "ContextTags":["wildflour_item", "wildflour_floral_item", "floral_swag_item", "color_green"]},
+              "{{ModId}}_Flower_Bouquet":{
+                        "ContextTags":["wildflour_item", "wildflour_floral_item", "bouquet_item", "color_green"]},
+              "{{ModId}}_Flower_Perfume":{
+                        "ContextTags":["wildflour_item", "wildflour_floral_item", "perfume_item", "color_green"]},
+              "{{ModId}}_Flower_Incense":{
+                        "ContextTags":["wildflour_item", "wildflour_floral_item", "incense_item", "color_green"]}, 
+              "{{ModId}}_Flower_Candles":{
+                        "ContextTags":["wildflour_item", "wildflour_floral_item", "candle_item", "color_green"]}, 
+              "{{ModId}}_Flower_Soap":{
+                        "ContextTags":["wildflour_item", "wildflour_floral_item", "soap_item", "color_green"]}
+          }
+      },
+
+  ]
+}

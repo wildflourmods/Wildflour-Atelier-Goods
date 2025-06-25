@@ -1,0 +1,914 @@
+{
+
+  "Changes": [
+
+  {
+    "LogName": "Adjust Hybrid Recipes with SpaceCore",
+    "Action": "EditData",
+    "Target": "spacechase0.SpaceCore/CookingRecipeOverrides",
+    "Entries": {
+      "{{ModId}}_Chocolate_Syrup": {
+        "ProductQualifiedId": "(O){{ModId}}_Chocolate_Syrup",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "cocoa_item",
+            "OverrideText": "{{i18n:cocoa_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+             "OverrideTextureRect": {
+              "X": 64,
+              "Y": 0,
+              "Width": 16,
+              "Height": 16
+            },
+            "Amount": 3
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1
+          },
+        ]
+      },
+       "{{ModId}}_Elderberry_Water": {
+        "ProductQualifiedId": "(O){{ModId}}_Elderberry_Water",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "elderberry_item",
+            "OverrideText": "{{i18n:elderberry_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+             "OverrideTextureRect": {
+              "X": 128,
+              "Y": 0,
+              "Width": 16,
+              "Height": 16
+            },
+            "Amount": 3
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1
+          },
+        ]
+      },
+      "{{ModId}}_Hibiscus_Water": {
+        "ProductQualifiedId": "(O){{ModId}}_Hibiscus_Water",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "hibiscus_item",
+            "Amount": 3,
+            "OverrideText": "{{i18n:hibiscus_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 16,
+              "Y": 896,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1
+          },
+        ]
+      },
+      "{{ModId}}_Jasmine_Water": {
+        "ProductQualifiedId": "(O){{ModId}}_Jasmine_Water",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "jasmine_item",
+            "Amount": 3,
+            "OverrideText": "{{i18n:jasmine_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 48,
+              "Y": 16,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1
+          },
+        ]
+      },
+       "{{ModId}}_Lavender_Water": {
+        "ProductQualifiedId": "(O){{ModId}}_Lavender_Water",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "lavender_item",
+            "OverrideText": "{{i18n:lavender_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+             "OverrideTextureRect": {
+              "X": 48,
+              "Y": 32,
+              "Width": 16,
+              "Height": 16
+            },
+            "Amount": 3
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1
+          },
+        ]
+      },
+       "{{ModId}}_Lemon_Syrup": {
+        "ProductQualifiedId": "(O){{ModId}}_Lemon_Syrup",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "lemon_item",
+            "OverrideText": "{{i18n:lemon_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+             "OverrideTextureRect": {
+              "X": 192,
+              "Y": 0,
+              "Width": 16,
+              "Height": 16
+            },
+            "Amount": 3
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1
+          },
+        ]
+      },
+       "{{ModId}}_Lime_Syrup": {
+        "ProductQualifiedId": "(O){{ModId}}_Lime_Syrup",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "lime_item",
+            "OverrideText": "{{i18n:lime_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+             "OverrideTextureRect": {
+              "X": 224,
+              "Y": 0,
+              "Width": 16,
+              "Height": 16
+            },
+            "Amount": 3
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1
+          },
+        ]
+      },
+       "{{ModId}}_Raspberry_Syrup": {
+        "ProductQualifiedId": "(O){{ModId}}_Raspberry_Syrup",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "raspberry_item",
+            "OverrideText": "{{i18n:raspberry_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+             "OverrideTextureRect": {
+              "X": 144,
+              "Y": 48,
+              "Width": 16,
+              "Height": 16
+            },
+            "Amount": 3
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1
+          },
+        ]
+      },
+       "{{ModId}}_Vanilla_Syrup": {
+        "ProductQualifiedId": "(O){{ModId}}_Vanilla_Syrup",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "vanilla_item",
+            "OverrideText": "{{i18n:vanilla_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+             "OverrideTextureRect": {
+              "X": 80,
+              "Y": 48,
+              "Width": 16,
+              "Height": 16
+            },
+            "Amount": 3
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1
+          },
+        ]
+      },
+      "{{ModId}}_Lemon_Juice": {
+        "ProductQualifiedId": "(O){{ModId}}_Lemon_Juice",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "lemon_item",
+            "OverrideText": "{{i18n:lemon_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+             "OverrideTextureRect": {
+              "X": 192,
+              "Y": 0,
+              "Width": 16,
+              "Height": 16
+            },
+            "Amount": 2
+          },
+        ]
+      },
+      "{{ModId}}_Lime_Juice": {
+        "ProductQualifiedId": "(O){{ModId}}_Lime_Juice",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "lime_item",
+            "OverrideText": "{{i18n:lime_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+             "OverrideTextureRect": {
+              "X": 224,
+              "Y": 0,
+              "Width": 16,
+              "Height": 16
+            },
+            "Amount": 2
+          },
+        ]
+      },
+      "{{ModId}}_Graham_Crackers": {
+        "ProductQualifiedId": "(O){{ModId}}_Graham_Crackers",
+        "ProductAmount": 3,
+        "Ingredients": [
+          {
+            "Type": "Item",
+            "Value": "(O)246",
+            "Amount": 1,
+          },
+          {
+            "Type": "Item",
+            "Value": "(O){{ModId}}_Brown_Sugar",
+            "Amount": 1,
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "butter_item",
+            "OverrideText": "{{i18n:butter_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+             "OverrideTextureRect": {
+              "X": 0,
+              "Y": 64,
+              "Width": 16,
+              "Height": 16
+            },
+            "Amount": 1
+          },
+        ]
+      },
+
+      "{{ModId}}_Apple_Spice_Candy_Powder": {
+        "ProductQualifiedId": "(O){{ModId}}_Apple_Spice_Candy_Powder",
+        "ProductAmount": 3,
+        "Ingredients": [
+          {
+            "Type": "Item",
+            "Value": "(O)613",
+            "Amount": 1,
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "cinnamon_item",
+            "OverrideText": "{{i18n:cinnamon_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+             "OverrideTextureRect": {
+              "X": 144,
+              "Y": 16,
+              "Width": 16,
+              "Height": 16
+            },
+            "Amount": 1
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1,
+          },
+        ]
+      },
+
+      "{{ModId}}_Blue_Raspberry_Candy_Powder": {
+        "ProductQualifiedId": "(O){{ModId}}_Blue_Raspberry_Candy_Powder",
+        "ProductAmount": 3,
+        "Ingredients": [
+          {
+            "Type": "Item",
+            "Value": "(O)454",
+            "Amount": 1,
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "raspberry_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:raspberry_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 144,
+              "Y": 48,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1,
+          },
+        ]
+      },
+      "{{ModId}}_Chocolate_Candy_Powder": {
+        "ProductQualifiedId": "(O){{ModId}}_Chocolate_Candy_Powder",
+        "ProductAmount": 3,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "cocoa_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:cocoa_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 64,
+              "Y": 0,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "vanilla_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:vanilla_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 80,
+              "Y": 48,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1,
+          },
+        ]
+      },
+      "{{ModId}}_Cinnamon_Candy_Powder": {
+        "ProductQualifiedId": "(O){{ModId}}_Cinnamon_Candy_Powder",
+        "ProductAmount": 3,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "cinnamon_item",
+            "OverrideText": "{{i18n:cinnamon_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+             "OverrideTextureRect": {
+              "X": 144,
+              "Y": 16,
+              "Width": 16,
+              "Height": 16
+            },
+            "Amount": 2
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)260",
+            "Amount": 1,
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1,
+          },
+        ]
+      },
+      "{{ModId}}_Citrus_Candy_Powder": {
+        "ProductQualifiedId": "(O){{ModId}}_Citrus_Candy_Powder",
+        "ProductAmount": 3,
+        "Ingredients": [
+          {
+            "Type": "Item",
+            "Value": "(O)635",
+            "Amount": 1,
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "lemon_item",
+            "OverrideText": "{{i18n:lemon_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+             "OverrideTextureRect": {
+              "X": 192,
+              "Y": 0,
+              "Width": 16,
+              "Height": 16
+            },
+            "Amount": 1
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "lime_item",
+            "OverrideText": "{{i18n:lime_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+             "OverrideTextureRect": {
+              "X": 224,
+              "Y": 0,
+              "Width": 16,
+              "Height": 16
+            },
+            "Amount": 1
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1,
+          },
+        ]
+      },
+      "{{ModId}}_Coffee_Candy_Powder": {
+        "ProductQualifiedId": "(O){{ModId}}_Coffee_Candy_Powder",
+        "ProductAmount": 3,
+        "Ingredients": [
+          {
+            "Type": "Item",
+            "Value": "(O)433",
+            "Amount": 5,
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "vanilla_item",
+            "OverrideText": "{{i18n:vanilla_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+             "OverrideTextureRect": {
+              "X": 80,
+              "Y": 48,
+              "Width": 16,
+              "Height": 16
+            },
+            "Amount": 1
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1,
+          },
+        ]
+      },
+      "{{ModId}}_Lavender_Candy_Powder": {
+        "ProductQualifiedId": "(O){{ModId}}_Lavender_Candy_Powder",
+        "ProductAmount": 3,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "lavender_item",
+            "OverrideText": "{{i18n:lavender_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+             "OverrideTextureRect": {
+              "X": 48,
+              "Y": 32,
+              "Width": 16,
+              "Height": 16
+            },
+            "Amount": 1
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "vanilla_item",
+            "OverrideText": "{{i18n:vanilla_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+             "OverrideTextureRect": {
+              "X": 80,
+              "Y": 48,
+              "Width": 16,
+              "Height": 16
+            },
+            "Amount": 1
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1,
+          },
+        ]
+      },
+      "{{ModId}}_Mint_Candy_Powder": {
+        "ProductQualifiedId": "(O){{ModId}}_Mint_Candy_Powder",
+        "ProductAmount": 3,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "mint_item",
+            "OverrideText": "{{i18n:mint_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+             "OverrideTextureRect": {
+              "X": 176,
+              "Y": 32,
+              "Width": 16,
+              "Height": 16
+            },
+            "Amount": 1
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "vanilla_item",
+            "OverrideText": "{{i18n:vanilla_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+             "OverrideTextureRect": {
+              "X": 80,
+              "Y": 48,
+              "Width": 16,
+              "Height": 16
+            },
+            "Amount": 1
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1,
+          },
+        ]
+      },
+      "{{ModId}}_Sour_Apple_Candy_Powder": {
+        "ProductQualifiedId": "(O){{ModId}}_Sour_Apple_Candy_Powder",
+        "ProductAmount": 3,
+        "Ingredients": [
+          {
+            "Type": "Item",
+            "Value": "(O)613",
+            "Amount": 1,
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "lemon_item",
+            "OverrideText": "{{i18n:lemon_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+             "OverrideTextureRect": {
+              "X": 192,
+              "Y": 0,
+              "Width": 16,
+              "Height": 16
+            },
+            "Amount": 1
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1,
+          },
+        ]
+      },
+      "{{ModId}}_Sour_Cherry_Candy_Powder": {
+        "ProductQualifiedId": "(O){{ModId}}_Sour_Cherry_Candy_Powder",
+        "ProductAmount": 3,
+        "Ingredients": [
+          {
+            "Type": "Item",
+            "Value": "(O)638",
+            "Amount": 1,
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "lemon_item",
+            "OverrideText": "{{i18n:lemon_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+             "OverrideTextureRect": {
+              "X": 192,
+              "Y": 0,
+              "Width": 16,
+              "Height": 16
+            },
+            "Amount": 1
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1,
+          },
+        ]
+      },
+      "{{ModId}}_Vanilla_Candy_Powder": {
+        "ProductQualifiedId": "(O){{ModId}}_Vanilla_Candy_Powder",
+        "ProductAmount": 3,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "vanilla_item",
+            "OverrideText": "{{i18n:vanilla_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+             "OverrideTextureRect": {
+              "X": 80,
+              "Y": 48,
+              "Width": 16,
+              "Height": 16
+            },
+            "Amount": 2
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1,
+          },
+        ]
+      },
+
+      "{{ModId}}_Aromatic_Bitters": {
+        "ProductQualifiedId": "(O){{ModId}}_Aromatic_Bitters",
+        "ProductAmount": 5,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "wormwood_item",
+            "OverrideText": "{{i18n:wormwood_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+             "OverrideTextureRect": {
+              "X": 208,
+              "Y": 48,
+              "Width": 16,
+              "Height": 16
+            },
+            "Amount": 1
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "cinnamon_item",
+            "OverrideText": "{{i18n:cinnamon_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+             "OverrideTextureRect": {
+              "X": 144,
+              "Y": 16,
+              "Width": 16,
+              "Height": 16
+            },
+            "Amount": 1
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "thyme_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:thyme_item}}",
+            "OverrideTexturePath":"Mods/{{ModId}}/Objects",
+            "OverrideTextureRect":{
+              "X":48,
+              "Y":48,
+              "Width":16,
+              "Height":16
+            }
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "rosemary_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:rosemary_item}}",
+            "OverrideTexturePath":"Mods/{{ModId}}/Objects",
+            "OverrideTextureRect":{
+              "X":240,
+              "Y":32,
+              "Width":16,
+              "Height":16
+            }
+          },
+
+        ]
+      },
+      "{{ModId}}_Citrus_Bitters": {
+        "ProductQualifiedId": "(O){{ModId}}_Citrus_Bitters",
+        "ProductAmount": 5,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "lemon_item",
+            "OverrideText": "{{i18n:lemon_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+             "OverrideTextureRect": {
+              "X": 192,
+              "Y": 0,
+              "Width": 16,
+              "Height": 16
+            },
+            "Amount": 1
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "lime_item",
+            "OverrideText": "{{i18n:lime_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+             "OverrideTextureRect": {
+              "X": 224,
+              "Y": 0,
+              "Width": 16,
+              "Height": 16
+            },
+            "Amount": 3
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "gentian_root_item",
+            "OverrideText": "{{i18n:gentian_root_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+             "OverrideTextureRect": {
+              "X": 224,
+              "Y": 16,
+              "Width": 16,
+              "Height": 16
+            },
+            "Amount": 1
+          },
+          {
+          "Type": "ContextTag",
+          "Value": "basil_item",
+          "Amount": 1,
+          "OverrideText": "{{i18n:basil_item}}",
+          "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+          "OverrideTextureRect": {
+            "X": 64,
+            "Y": 16,
+            "Width": 16,
+            "Height": 16
+          }
+        },
+        ]
+      },
+      "{{ModId}}_Floral_Bitters": {
+        "ProductQualifiedId": "(O){{ModId}}_Floral_Bitters",
+        "ProductAmount": 5,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "gentian_root_item",
+            "OverrideText": "{{i18n:gentian_root_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+             "OverrideTextureRect": {
+              "X": 224,
+              "Y": 16,
+              "Width": 16,
+              "Height": 16
+            },
+            "Amount": 1
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "lavender_item",
+            "OverrideText": "{{i18n:lavender_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+             "OverrideTextureRect": {
+              "X": 48,
+              "Y": 32,
+              "Width": 16,
+              "Height": 16
+            },
+            "Amount": 1
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "chamomile_item",
+            "Amount": 2,
+            "OverrideText": "{{i18n:chamomile_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 96,
+              "Y": 16,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "mint_item",
+            "OverrideText": "{{i18n:mint_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+             "OverrideTextureRect": {
+              "X": 176,
+              "Y": 32,
+              "Width": 16,
+              "Height": 16
+            },
+            "Amount": 1
+          },
+
+        ]
+      },
+      "{{ModId}}_Pixie_Bitters": {
+        "ProductQualifiedId": "(O){{ModId}}_Pixie_Bitters",
+        "ProductAmount": 5,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "gentian_root_item",
+            "OverrideText": "{{i18n:gentian_root_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+             "OverrideTextureRect": {
+              "X": 224,
+              "Y": 16,
+              "Width": 16,
+              "Height": 16
+            },
+            "Amount": 1
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)22",
+            "Amount": 1,
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)595",
+            "Amount": 1,
+          },
+          {
+          "Type": "ContextTag",
+          "Value": "basil_item",
+          "Amount": 1,
+          "OverrideText": "{{i18n:basil_item}}",
+          "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+          "OverrideTextureRect": {
+            "X": 64,
+            "Y": 16,
+            "Width": 16,
+            "Height": 16
+          }
+          },
+        ]
+      },
+      "{{ModId}}_Star_Bitters": {
+        "ProductQualifiedId": "(O){{ModId}}_Star_Bitters",
+        "ProductAmount": 5,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "wormwood_item",
+            "OverrideText": "{{i18n:wormwood_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+             "OverrideTextureRect": {
+              "X": 208,
+              "Y": 48,
+              "Width": 16,
+              "Height": 16
+            },
+            "Amount": 1
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "sage_item",
+            "OverrideText": "{{i18n:sage_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+             "OverrideTextureRect": {
+              "X": 16,
+              "Y": 48,
+              "Width": 16,
+              "Height": 16
+            },
+            "Amount": 1
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)268",
+            "Amount": 1,
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)396",
+            "Amount": 1,
+          },
+        ]
+      },
+
+
+    }
+  },
+
+
+  ]
+}

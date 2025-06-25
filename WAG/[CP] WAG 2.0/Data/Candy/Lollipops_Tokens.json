@@ -1,0 +1,226 @@
+{
+   "Changes":[
+
+        {
+            "LogName": "Object Data Tokens - Candy_Apple",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_SugarBoiler",
+                "ITEM_TYPE": "Apple",
+                "ITEM_FLAVOR":"Candy",
+                "INPUT1":"id_(O)245",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O)613",
+                "PRICE_MULTIPLIER": 1.5,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 180,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":26,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":575
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Caramel_Apple",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_SugarBoiler",
+                "ITEM_TYPE": "Apple",
+                "ITEM_FLAVOR":"Caramel",
+                "INPUT1":"id_(O){{ModId}}_Caramel",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O)613",
+                "PRICE_MULTIPLIER": 1.5,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 180,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":26,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":602
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Flower_Power Lollipop",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_SugarBoiler",
+                "ITEM_TYPE": "Lollipop",
+                "ITEM_FLAVOR":"Flower_Power",
+                "INPUT1":"edible_flower_item",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O)340",
+                "PRICE_MULTIPLIER": 1.5,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 180,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":26,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":600
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - JackOLantern Lollipop",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_SugarBoiler",
+                "ITEM_TYPE": "Lollipop",
+                "ITEM_FLAVOR":"JackOLantern",
+                "INPUT1":"id_(O)276",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Brown_Sugar",
+                "PRICE_MULTIPLIER": 1.5,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 180,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":26,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":596
+            }
+        },
+                {
+            "LogName": "Object Data Tokens - Kooky_Cookie Lollipop",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_SugarBoiler",
+                "ITEM_TYPE": "Lollipop",
+                "ITEM_FLAVOR":"Kooky_Cookie",
+                "INPUT1":"id_(O)223",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Brown_Sugar",
+                "PRICE_MULTIPLIER": 1.5,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 180,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":26,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":596
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Mush Lollipop",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_SugarBoiler",
+                "ITEM_TYPE": "Lollipop",
+                "ITEM_FLAVOR":"Mush",
+                "INPUT1":"edible_mushroom",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O)340",
+                "PRICE_MULTIPLIER": 1.5,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 180,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":26,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":598
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Prismatic_Swirl Lollipop",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_SugarBoiler",
+                "ITEM_TYPE": "Lollipop",
+                "ITEM_FLAVOR":"Prismatic_Swirl",
+                "INPUT1":"id_(O)74",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O)245",
+                "PRICE_MULTIPLIER": 1.5,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 180,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":26,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":593
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Skelly Lollipop",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_SugarBoiler",
+                "ITEM_TYPE": "Lollipop",
+                "ITEM_FLAVOR":"Skelly",
+                "INPUT1":"id_(O)881",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O)245",
+                "PRICE_MULTIPLIER": 1.5,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 180,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":26,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":599
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Spooky_Candy Apple",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_SugarBoiler",
+                "ITEM_TYPE": "Apple",
+                "ITEM_FLAVOR":"Spooky_Candy",
+                "INPUT1":"id_(O)909",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O)613",
+                "PRICE_MULTIPLIER": 1.5,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 180,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":26,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":603
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Unconcerned_Chimp Lollipop",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_SugarBoiler",
+                "ITEM_TYPE": "Lollipop",
+                "ITEM_FLAVOR":"Unconcerned_Chimp",
+                "INPUT1":"id_(O)91",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Brown_Sugar",
+                "PRICE_MULTIPLIER": 1.5,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 180,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":26,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":597
+            }
+        }
+
+]
+}

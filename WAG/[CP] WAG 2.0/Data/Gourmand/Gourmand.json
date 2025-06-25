@@ -1,0 +1,30 @@
+{
+    "Changes":[
+        
+        {
+            "LogName": "WAG Gourmand Machine Data",
+            "Action": "Include",
+            "FromFile": "Data/Gourmand/MachineData_Tokens.json, Data/Gourmand/Pantry_Tokens.json, Data/Gourmand/Syrup_Tokens.json, Data/Gourmand/Byproduct_Tokens.json",
+        },
+        {
+            "LogName": "WAG Gourmand Field Edits",
+            "Action": "Include",
+            "FromFile": "Data/Gourmand/ContextTags.json, Data/Gourmand/WorkingEffects.json",
+        },
+
+        {
+            "LogName": "WAG Gourmand Hybrid Only",
+            "Action": "Include",
+            "FromFile": "Data/Gourmand/Hybrid_Pantry_Tokens.json, Data/CCS/Gourmand_Stations.json",
+            "When":{"Atelier.Cauldron/ConfigValue:DifficultyToggle": "Hybrid"}
+        },
+
+        {
+            "LogName": "Canner Items",
+            "Action": "Include",
+            "FromFile": "Data/Gourmand/Canner_Tokens.json",
+            "When":  {"Query:('{{Atelier.Cauldron/ConfigValue:Canner}}'= 'true') OR ('{{Atelier.Cauldron/ConfigValue:DifficultyToggle}}'= 'Hybrid')": true}
+        },
+
+    ]
+}

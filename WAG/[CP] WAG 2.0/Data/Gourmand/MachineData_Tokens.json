@@ -1,0 +1,73 @@
+
+{
+    "Changes": [
+        {
+            "LogName": "Machine Data: KitchenMortar",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Machine_Data.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_KitchenMortar",
+                "MACHINE_SPRITE":8,
+                "INGREDIENT1":709,
+                "INGREDIENT1_AMOUNT":10,
+                "INGREDIENT2":390,
+                "INGREDIENT2_AMOUNT":50,
+                "INGREDIENT3":80,
+                "INGREDIENT3_AMOUNT":1,
+                "CCS":false
+            }
+        },
+        {
+            "LogName": "Machine Data: SyrupMaker",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Machine_Data.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_SyrupMaker",
+                "MACHINE_SPRITE":88,
+                "INGREDIENT1":388,
+                "INGREDIENT1_AMOUNT":40,
+                "INGREDIENT2":334,
+                "INGREDIENT2_AMOUNT":2,
+                "INGREDIENT3":245,
+                "INGREDIENT3_AMOUNT":5,
+                "CCS":true
+            }
+        },
+        {
+            "LogName": "Machine Data: KitchenBlender",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Machine_Data.json",
+            "When":{"Atelier.Cauldron/ConfigValue:Barista":false},
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_KitchenBlender",
+                "MACHINE_SPRITE":0,
+                "INGREDIENT1":335,
+                "INGREDIENT1_AMOUNT":2,
+                "INGREDIENT2":388,
+                "INGREDIENT2_AMOUNT":50,
+                "INGREDIENT3":330,
+                "INGREDIENT3_AMOUNT":10,
+                "CCS":true
+            }
+        },
+
+         {
+            "LogName": "Machine Data: Pantry Station",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Machine_Data.json",
+            "When":{"Atelier.Cauldron/ConfigValue:DifficultyToggle":"Hybrid"},
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_PantryStation",
+                "MACHINE_SPRITE":224,
+                "INGREDIENT1":709,
+                "INGREDIENT1_AMOUNT":10,
+                "INGREDIENT2":390,
+                "INGREDIENT2_AMOUNT":50,
+                "INGREDIENT3":80,
+                "INGREDIENT3_AMOUNT":1,
+                "CCS":true
+            }
+        },
+
+    ]
+}

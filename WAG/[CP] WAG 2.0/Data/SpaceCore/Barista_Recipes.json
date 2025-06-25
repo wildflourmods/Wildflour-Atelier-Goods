@@ -1,0 +1,1085 @@
+{
+
+  "Changes": [
+
+  {
+    "LogName": "Adjust Hybrid Recipes with SpaceCore",
+    "Action": "EditData",
+    "Target": "spacechase0.SpaceCore/CookingRecipeOverrides",
+    "Entries": {
+      "{{ModId}}_Amoretto_Ground_Coffee": {
+        "ProductQualifiedId": "(O){{ModId}}_Amoretto_Ground_Coffee",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "almond_item",
+            "OverrideText": "{{i18n:almond_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+             "OverrideTextureRect": {
+              "X": 0,
+              "Y": 0,
+              "Width": 16,
+              "Height": 16
+            },
+            "Amount": 1
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "cream_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:cream_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 32,
+              "Y": 64,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)433",
+            "Amount": 5
+          },
+        ]
+      },
+      "{{ModId}}_Cinnamon_Bunny_Ground_Coffee": {
+        "ProductQualifiedId": "(O){{ModId}}_Cinnamon_Bunny_Ground_Coffee",
+        "ProductAmount": 1,
+        "Ingredients": [
+           {
+            "Type": "ContextTag",
+            "Value": "cinnamon_item",
+            "OverrideText": "{{i18n:cinnamon_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+             "OverrideTextureRect": {
+              "X": 144,
+              "Y": 16,
+              "Width": 16,
+              "Height": 16
+            },
+            "Amount": 1
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "vanilla_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:vanilla_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 80,
+              "Y": 48,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)433",
+            "Amount": 5
+          },
+        ]
+      },
+      "{{ModId}}_Coco_Cabana_Ground_Coffee": {
+        "ProductQualifiedId": "(O){{ModId}}_Coco_Cabana_Ground_Coffee",
+        "ProductAmount": 1,
+        "Ingredients": [
+           {
+            "Type": "Item",
+            "Value": "(O)88",
+            "Amount": 1
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "cocoa_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:cocoa_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 64,
+              "Y": 0,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)433",
+            "Amount": 5
+          },
+        ]
+      },
+      "{{ModId}}_Mucha_Mocha_Ground_Coffee": {
+        "ProductQualifiedId": "(O){{ModId}}_Mucha_Mocha_Ground_Coffee",
+        "ProductAmount": 1,
+        "Ingredients": [
+           {
+            "Type": "ContextTag",
+            "Value": "cocoa_item",
+            "OverrideText": "{{i18n:cocoa_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+             "OverrideTextureRect": {
+              "X": 64,
+              "Y": 0,
+              "Width": 16,
+              "Height": 16
+            },
+            "Amount": 1
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)408",
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)433",
+            "Amount": 5
+          },
+        ]
+      },
+      "{{ModId}}_Pistachio_Buzz_Ground_Coffee": {
+        "ProductQualifiedId": "(O){{ModId}}_Pistachio_Buzz_Ground_Coffee",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "pistachio_item",
+            "OverrideText": "{{i18n:pistachio_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+             "OverrideTextureRect": {
+              "X": 0,
+              "Y": 16,
+              "Width": 16,
+              "Height": 16
+            },
+            "Amount": 1
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)340",
+            "Amount": 1,
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)433",
+            "Amount": 5
+          },
+        ]
+      },
+      "{{ModId}}_Pumpkin_King_Ground_Coffee": {
+        "ProductQualifiedId": "(O){{ModId}}_Pumpkin_King_Ground_Coffee",
+        "ProductAmount": 1,
+        "Ingredients": [
+           {
+            "Type": "Item",
+            "Value": "(O)276",
+            "Amount": 1
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "cinnamon_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:cinnamon_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 144,
+              "Y": 16,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)433",
+            "Amount": 5
+          },
+        ]
+      },
+      "{{ModId}}_Sweetheart_Ground_Coffee": {
+        "ProductQualifiedId": "(O){{ModId}}_Sweetheart_Ground_Coffee",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "Item",
+            "Value": "(O)400",
+            "Amount": 1
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "vanilla_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:vanilla_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 80,
+              "Y": 48,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)433",
+            "Amount": 5
+          },
+        ]
+      },
+      "{{ModId}}_Warm_Vanilla_Sugar_Ground_Coffee": {
+        "ProductQualifiedId": "(O){{ModId}}_Warm_Vanilla_Sugar_Ground_Coffee",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "vanilla_item",
+            "OverrideText": "{{i18n:vanilla_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+             "OverrideTextureRect": {
+              "X": 80,
+              "Y": 48,
+              "Width": 16,
+              "Height": 16
+            },
+            "Amount": 1
+          },
+          {
+            "Type": "Item",
+            "Value": "(O){{ModId}}_Brown_Sugar",
+            "Amount": 1,
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)433",
+            "Amount": 5
+          },
+        ]
+      },
+//sachets
+      "{{ModId}}_Cookie_Jar_Sachet": {
+        "ProductQualifiedId": "(O){{ModId}}_Cookie_Jar_Sachet",
+        "ProductAmount": 1,
+        "Ingredients": [
+           {
+            "Type": "Item",
+            "Value": "(O){{ModId}}_Rainbow_Sprinkles",
+            "Amount": 1
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "vanilla_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:vanilla_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 80,
+              "Y": 48,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)815",
+            "Amount": 1
+          },
+        ]
+      },
+      "{{ModId}}_Good_Thyme_Sachet": {
+        "ProductQualifiedId": "(O){{ModId}}_Good_Thyme_Sachet",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "Item",
+            "Value": "(O)829",
+            "Amount": 1
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "thyme_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:thyme_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 48,
+              "Y": 48,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)815",
+            "Amount": 1
+          },
+        ]
+      },
+      "{{ModId}}_Happy_Harvest_Sachet": {
+        "ProductQualifiedId": "(O){{ModId}}_Happy_Harvest_Sachet",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "Item",
+            "Value": "(O)613",
+            "Amount": 1
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "chamomile_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:chamomile_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 96,
+              "Y": 16,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)815",
+            "Amount": 1
+          },
+        ]
+      },
+      "{{ModId}}_North_Pole_Sachet": {
+        "ProductQualifiedId": "(O){{ModId}}_North_Pole_Sachet",
+        "ProductAmount": 1,
+        "Ingredients": [
+         {
+            "Type": "ContextTag",
+            "Value": "mint_item",
+            "OverrideText": "{{i18n:mint_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+             "OverrideTextureRect": {
+              "X": 176,
+              "Y": 32,
+              "Width": 16,
+              "Height": 16
+            },
+            "Amount": 1
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "cocoa_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:cocoa_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 64,
+              "Y": 0,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)815",
+            "Amount": 1
+          },
+        ]
+      },
+      "{{ModId}}_Pelican_Fog_Sachet": {
+        "ProductQualifiedId": "(O){{ModId}}_Pelican_Fog_Sachet",
+        "ProductAmount": 1,
+        "Ingredients": [
+         {
+            "Type": "ContextTag",
+            "Value": "lavender_item",
+            "OverrideText": "{{i18n:lavender_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+             "OverrideTextureRect": {
+              "X": 48,
+              "Y": 32,
+              "Width": 16,
+              "Height": 16
+            },
+            "Amount": 1
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "vanilla_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:vanilla_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 80,
+              "Y": 48,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)815",
+            "Amount": 1
+          },
+        ]
+      },
+      "{{ModId}}_Plum_Chai_Sachet": {
+        "ProductQualifiedId": "(O){{ModId}}_Plum_Chai_Sachet",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "Item",
+            "Value": "(O)406",
+            "Amount": 1
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "cinnamon_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:cinnamon_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 144,
+              "Y": 16,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)815",
+            "Amount": 1
+          },
+        ]
+      },
+      "{{ModId}}_Sun_Room_Sachet": {
+        "ProductQualifiedId": "(O){{ModId}}_Sun_Room_Sachet",
+        "ProductAmount": 1,
+        "Ingredients": [
+           {
+            "Type": "Item",
+            "Value": "(O)593",
+            "Amount": 1
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "jasmine_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:jasmine_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 48,
+              "Y": 16,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)815",
+            "Amount": 1
+          },
+        ]
+      },
+       "{{ModId}}_Sunny_Delight_Sachet": {
+        "ProductQualifiedId": "(O){{ModId}}_Sunny_Delight_Sachet",
+        "ProductAmount": 1,
+        "Ingredients": [
+           {
+            "Type": "Item",
+            "Value": "(O)635",
+            "Amount": 1
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "lemon_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:lemon_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 192,
+              "Y": 0,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)815",
+            "Amount": 1
+          },
+        ]
+      },
+      "{{ModId}}_Berry_Good_Thyme_Lemonade": {
+        "ProductQualifiedId": "(O){{ModId}}_Berry_Good_Thyme_Lemonade",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "berry_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:berry_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 144,
+              "Y": 48,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "thyme_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:thyme_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 48,
+              "Y": 48,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O){{ModId}}_Lemon_Juice",
+            "Amount": 1
+          },
+           {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1
+          },
+        ]
+      },
+      "{{ModId}}_Chamomile_Mint_Lemonade": {
+        "ProductQualifiedId": "(O){{ModId}}_Chamomile_Mint_Lemonade",
+        "ProductAmount": 1,
+        "Ingredients": [
+           {
+            "Type": "ContextTag",
+            "Value": "chamomile_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:chamomile_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 96,
+              "Y": 16,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "mint_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:mint_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 176,
+              "Y": 32,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O){{ModId}}_Lemon_Juice",
+            "Amount": 1
+          },
+           {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1
+          },
+        ]
+      },
+      "{{ModId}}_Classic_Lemonade": {
+        "ProductQualifiedId": "(O){{ModId}}_Classic_Lemonade",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "lemon_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:lemon_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 192,
+              "Y": 0,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O){{ModId}}_Lemon_Juice",
+            "Amount": 1
+          },
+           {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1
+          },
+        ]
+      },
+      "{{ModId}}_Lavender_Lemonade": {
+        "ProductQualifiedId": "(O){{ModId}}_Lavender_Lemonade",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "lavender_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:lavender_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 48,
+              "Y": 32,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O){{ModId}}_Lemon_Juice",
+            "Amount": 1
+          },
+           {
+            "Type": "Item",
+            "Value": "(O)340",
+            "Amount": 1
+          },
+        ]
+      },
+      "{{ModId}}_Minty_Hibiscus_Lemonade": {
+        "ProductQualifiedId": "(O){{ModId}}_Minty_Hibiscus_Lemonade",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "mint_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:mint_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 176,
+              "Y": 32,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "hibiscus_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:hibiscus_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 0,
+              "Y": 0,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O){{ModId}}_Lemon_Juice",
+            "Amount": 1
+          },
+           {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1
+          },
+        ]
+      },
+      "{{ModId}}_Peachy_Keen_Lemonade": {
+        "ProductQualifiedId": "(O){{ModId}}_Peachy_Keen_Lemonade",
+        "ProductAmount": 1,
+        "Ingredients": [
+           {
+            "Type": "Item",
+            "Value": "(O)636",
+            "Amount": 1
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "vanilla_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:vanilla_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 80,
+              "Y": 48,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O){{ModId}}_Lemon_Juice",
+            "Amount": 1
+          },
+           {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1
+          },
+        ]
+      },
+      "{{ModId}}_Cinnamon_Toast_Crunch_Smoothie": {
+        "ProductQualifiedId": "(O){{ModId}}_Cinnamon_Toast_Crunch_Smoothie",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "cinnamon_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:cinnamon_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 144,
+              "Y": 16,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "nut_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:nut_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 0,
+              "Y": 0,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)91",
+            "Amount": 1
+          },
+          {
+              "Type": "ContextTag",
+              "Value": "category_milk",
+              "Amount": 1,
+              "OverrideText": "Any Milk",
+              "OverrideTexturePath": "Maps/springobjects",
+              "OverrideTextureRect": {
+                "X": 256,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+              },
+            },
+        ]
+      },
+      "{{ModId}}_Energizer_Bunny_Smoothie": {
+        "ProductQualifiedId": "(O){{ModId}}_Energizer_Bunny_Smoothie",
+        "ProductAmount": 1,
+        "Ingredients": [
+           {
+            "Type": "Item",
+            "Value": "(O)395",
+            "Amount": 1
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "cocoa_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:cocoa_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 64,
+              "Y": 0,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)91",
+            "Amount": 1
+          },
+           {
+              "Type": "ContextTag",
+              "Value": "category_milk",
+              "Amount": 1,
+              "OverrideText": "Any Milk",
+              "OverrideTexturePath": "Maps/springobjects",
+              "OverrideTextureRect": {
+                "X": 256,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+              },
+            },
+        ]
+      },
+      "{{ModId}}_Honey_Nut_Junimo_Smoothie": {
+        "ProductQualifiedId": "(O){{ModId}}_Honey_Nut_Junimo_Smoothie",
+        "ProductAmount": 1,
+        "Ingredients": [
+           {
+            "Type": "Item",
+            "Value": "(O)340",
+            "Amount": 1
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "walnut_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:walnut_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 32,
+              "Y": 16,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)91",
+            "Amount": 1
+          },
+          {
+              "Type": "ContextTag",
+              "Value": "category_milk",
+              "Amount": 1,
+              "OverrideText": "Any Milk",
+              "OverrideTexturePath": "Maps/springobjects",
+              "OverrideTextureRect": {
+                "X": 256,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+              },
+            },
+        ]
+      },
+      "{{ModId}}_Lady_Godiva_Smoothie": {
+        "ProductQualifiedId": "(O){{ModId}}_Lady_Godiva_Smoothie",
+        "ProductAmount": 1,
+        "Ingredients": [
+           {
+            "Type": "Item",
+            "Value": "(O)400",
+            "Amount": 1
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "cocoa_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:cocoa_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 64,
+              "Y": 0,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)91",
+            "Amount": 1
+          },
+          {
+              "Type": "ContextTag",
+              "Value": "category_milk",
+              "Amount": 1,
+              "OverrideText": "Any Milk",
+              "OverrideTexturePath": "Maps/springobjects",
+              "OverrideTextureRect": {
+                "X": 256,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+              },
+            },
+        ]
+      },
+      "{{ModId}}_Lucky_Charms_Smoothie": {
+        "ProductQualifiedId": "(O){{ModId}}_Lucky_Charms_Smoothie",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "vanilla_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:vanilla_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 80,
+              "Y": 48,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "mint_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:mint_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 176,
+              "Y": 32,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)91",
+            "Amount": 1
+          },
+          {
+              "Type": "ContextTag",
+              "Value": "category_milk",
+              "Amount": 1,
+              "OverrideText": "Any Milk",
+              "OverrideTexturePath": "Maps/springobjects",
+              "OverrideTextureRect": {
+                "X": 256,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+              },
+            },
+        ]
+      },
+      "{{ModId}}_Monkey_Business_Smoothie": {
+        "ProductQualifiedId": "(O){{ModId}}_Monkey_Business_Smoothie",
+        "ProductAmount": 1,
+        "Ingredients": [
+           {
+            "Type": "Item",
+            "Value": "(O)91",
+            "Amount": 2
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "walnut_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:walnut_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 32,
+              "Y": 16,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+              "Type": "ContextTag",
+              "Value": "category_milk",
+              "Amount": 1,
+              "OverrideText": "Any Milk",
+              "OverrideTexturePath": "Maps/springobjects",
+              "OverrideTextureRect": {
+                "X": 256,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+              },
+            },
+        ]
+      },
+      "{{ModId}}_Oops_All_Berries_Smoothie": {
+        "ProductQualifiedId": "(O){{ModId}}_Oops_All_Berries_Smoothie",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "Item",
+            "Value": "(O)410",
+            "Amount": 1
+          },
+           {
+            "Type": "Item",
+            "Value": "(O)400",
+            "Amount": 1
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "raspberry_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:raspberry_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 144,
+              "Y": 48,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)91",
+            "Amount": 1
+          },
+          {
+              "Type": "ContextTag",
+              "Value": "category_milk",
+              "Amount": 1,
+              "OverrideText": "Any Milk",
+              "OverrideTexturePath": "Maps/springobjects",
+              "OverrideTextureRect": {
+                "X": 256,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+              },
+            },
+        ]
+      },
+      "{{ModId}}_Sleepy_Hollow_Smoothie": {
+        "ProductQualifiedId": "(O){{ModId}}_Sleepy_Hollow_Smoothie",
+        "ProductAmount": 1,
+        "Ingredients": [
+           {
+            "Type": "Item",
+            "Value": "(O)276",
+            "Amount": 1
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "cocoa_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:cocoa_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 64,
+              "Y": 0,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)91",
+            "Amount": 1
+          },
+          {
+              "Type": "ContextTag",
+              "Value": "category_milk",
+              "Amount": 1,
+              "OverrideText": "Any Milk",
+              "OverrideTexturePath": "Maps/springobjects",
+              "OverrideTextureRect": {
+                "X": 256,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+              },
+            },
+        ]
+      },
+    }
+  },
+  
+
+
+
+ 
+
+  ]
+}

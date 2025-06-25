@@ -1,0 +1,122 @@
+
+{
+    "Changes": [
+
+        {
+            "LogName": "Machine Data: Oven",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Machine_Data.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Oven",
+                "INGREDIENT1": 388,
+                "MACHINE_SPRITE":64,
+                "INGREDIENT1_AMOUNT":35,
+                "INGREDIENT2":787,
+                "INGREDIENT2_AMOUNT":1,
+                "INGREDIENT3":80,
+                "INGREDIENT3_AMOUNT":1,
+                "CCS":false
+            }
+        },
+        {
+            "LogName": "Machine Data: Cake Station",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Machine_Data.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Cake_Station",
+                "INGREDIENT1": 709,
+                "MACHINE_SPRITE":"160",
+                "INGREDIENT1_AMOUNT":25,
+                "INGREDIENT2":336,
+                "INGREDIENT2_AMOUNT":1,
+                "INGREDIENT3":246,
+                "INGREDIENT3_AMOUNT":5,
+                "CCS":false
+            }
+        },
+        {
+            "LogName": "Machine Data: Dessert Stand",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Machine_Data.json",
+            "When":{"Query:'{{Atelier.Cauldron/ConfigValue:DifficultyToggle}}'<>'Hybrid'":true},
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Dessert_Stand",
+                "INGREDIENT1": 390,
+                "MACHINE_SPRITE": "192",
+                "INGREDIENT1_AMOUNT":40,
+                "INGREDIENT2":384,
+                "INGREDIENT2_AMOUNT":10,
+                "INGREDIENT3":245,
+                "INGREDIENT3_AMOUNT":5,
+                "CCS":false
+            }
+        },
+        {
+            "LogName": "Machine Data: Pie Station",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Machine_Data.json",
+            "When":{"Query:'{{Atelier.Cauldron/ConfigValue:DifficultyToggle}}'<>'Hybrid'":true},
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Pie_Station",
+                "INGREDIENT1": 335,
+                "MACHINE_SPRITE":"168",
+                "INGREDIENT1_AMOUNT":30,
+                "INGREDIENT2":334,
+                "INGREDIENT2_AMOUNT":2,
+                "INGREDIENT3":82,
+                "INGREDIENT3_AMOUNT":1,
+                "CCS":false
+            }
+        },
+        {
+            "LogName": "Machine Data: Mixer",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Machine_Data.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Mixer",
+                "INGREDIENT1": 390,
+                "MACHINE_SPRITE":"176",
+                "INGREDIENT1_AMOUNT":35,
+                "INGREDIENT2":338,
+                "INGREDIENT2_AMOUNT":3,
+                "INGREDIENT3":245,
+                "INGREDIENT3_AMOUNT":3,
+                "CCS":true
+            }
+        },
+        {
+            "LogName": "Machine Data: Rolling Pin",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Machine_Data.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Rolling_Pin",
+                "INGREDIENT1": 709,
+                "MACHINE_SPRITE":"184",
+                "INGREDIENT1_AMOUNT":25,
+                "INGREDIENT2":246,
+                "INGREDIENT2_AMOUNT":5,
+                "INGREDIENT3":86,
+                "INGREDIENT3_AMOUNT":1,
+                "CCS":false
+            }
+        },
+        {
+            "LogName": "Machine Data: Deluxe Dessert Stand",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Machine_Data.json",
+            "When":{"Query:'{{Atelier.Cauldron/ConfigValue:DifficultyToggle}}'<>'Hybrid'":true},
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Deluxe_Dessert_Stand",
+                "INGREDIENT1": 390,
+                "MACHINE_SPRITE":"200",
+                "INGREDIENT1_AMOUNT":40,
+                "INGREDIENT2":82,
+                "INGREDIENT2_AMOUNT":1,
+                "INGREDIENT3":"CaveJelly",
+                "INGREDIENT3_AMOUNT":1,
+                "CCS":false
+            }
+        }
+
+    ]
+}

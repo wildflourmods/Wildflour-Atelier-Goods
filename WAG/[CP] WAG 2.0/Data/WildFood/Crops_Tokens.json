@@ -1,0 +1,444 @@
+{
+    "Changes": [
+
+        {
+            "LogName": "Seed Tokens: WildFood Basil",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/Crops.json",
+            "LocalTokens": {
+                "SEED_TYPE": "Basil",
+                "OBJECT_TYPE": "Vegetable",
+                "OBJECT_CATEGORY": -75,
+                "SEED_SPRITE":"21",
+                "CROP_SPRITE_ROW":"0",
+                "EDIBILITY":"12",
+                "ITEM_SPRITE":"20",
+                "OBJECT_PRICE":"65",
+                "REGROW_DAYS":"3",
+                "CATEGORY_NAME":"Herb"
+            }
+        },
+       
+        {
+            "LogName": "Seed Tokens: WildFood Chamomile",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/Crops.json",
+            "LocalTokens": {
+                "SEED_TYPE": "Chamomile",
+                "OBJECT_TYPE":"Flower",
+                "OBJECT_CATEGORY":"-80",
+                "SEED_SPRITE":"23",
+                "CROP_SPRITE_ROW":"1",
+                "EDIBILITY":"8",
+                "ITEM_SPRITE":"22",
+                "OBJECT_PRICE":"45",
+                "REGROW_DAYS":"-1"
+            }
+        },
+        {
+            "LogName": "Seed Tokens: WildFood Chicken_Woods",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/Crops.json",
+            "LocalTokens": {
+                "SEED_TYPE": "Chicken_Woods",
+                "OBJECT_TYPE": "Basic",          
+                "OBJECT_CATEGORY": -81,
+                "SEED_SPRITE":"27",
+                "CROP_SPRITE_ROW":"2",
+                "EDIBILITY":"14",
+                "ITEM_SPRITE":"26",
+                "OBJECT_PRICE":"95",
+                "REGROW_DAYS":"5",
+                "CATEGORY_NAME":"Mushroom"
+            }
+        },
+        {
+            "LogName": "Seed Tokens: WildFood Cilantro",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/Crops.json",
+            "LocalTokens": {
+                "SEED_TYPE": "Cilantro",
+                "OBJECT_TYPE": "Vegetable",
+                "OBJECT_CATEGORY": -75,
+                "SEED_SPRITE":"29",
+                "CROP_SPRITE_ROW":"3",
+                "EDIBILITY":"10",
+                "ITEM_SPRITE":"28",
+                "OBJECT_PRICE":"45",
+                "REGROW_DAYS":"5",
+                "CATEGORY_NAME":"Herb"
+            }
+        },
+        {
+            "LogName": "Seed Tokens: WildFood Honey_Fungus",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/Crops.json",
+            "LocalTokens": {
+                "SEED_TYPE": "Honey_Fungus",
+                "OBJECT_TYPE": "Basic",          
+                "OBJECT_CATEGORY": -81,
+                "SEED_SPRITE":"32",
+                "CROP_SPRITE_ROW":"4",
+                "EDIBILITY":"18",
+                "ITEM_SPRITE":"31",
+                "OBJECT_PRICE":"100",
+                "REGROW_DAYS":"3",
+                "CATEGORY_NAME":"Mushroom"
+            }
+        },
+        {
+            "LogName": "Seed Tokens: WildFood Jasmine",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/Crops.json",
+            "LocalTokens": {
+                "SEED_TYPE": "Jasmine",
+                "OBJECT_TYPE":"Flower",
+                "OBJECT_CATEGORY":"-80",
+                "SEED_SPRITE":"34",
+                "CROP_SPRITE_ROW":"5",
+                "EDIBILITY":"12",
+                "ITEM_SPRITE":"33",
+                "OBJECT_PRICE":"70",
+                "REGROW_DAYS":"5"
+            }
+        },
+        {
+            "LogName": "Seed Tokens: WildFood Lavender",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/Crops.json",
+            "LocalTokens": {
+                "SEED_TYPE": "Lavender",
+                "OBJECT_TYPE":"Flower",
+                "OBJECT_CATEGORY":"-80",
+                "SEED_SPRITE":"36",
+                "CROP_SPRITE_ROW":"6",
+                "EDIBILITY":"3",
+                "ITEM_SPRITE":"35",
+                "OBJECT_PRICE":"85",
+                "REGROW_DAYS":"4"
+            }
+        },
+        {
+            "LogName": "Seed Tokens: WildFood Mallow",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/Crops.json",
+            "LocalTokens": {
+                "SEED_TYPE": "Mallow",
+                "OBJECT_TYPE":"Flower",
+                "OBJECT_CATEGORY":"-80",
+                "SEED_SPRITE":"38",
+                "CROP_SPRITE_ROW":"7",
+                "EDIBILITY":"10",
+                "ITEM_SPRITE":"37",
+                "OBJECT_PRICE":"25",
+                "REGROW_DAYS":"4"
+            }
+        },
+        {
+            "LogName": "Seed Tokens: WildFood Meringue_Mushroom",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/Crops.json",
+            "LocalTokens": {
+                "SEED_TYPE": "Meringue_Mushroom",
+                "OBJECT_TYPE": "Basic",          
+                "OBJECT_CATEGORY": -81,
+                "SEED_SPRITE":"40",
+                "CROP_SPRITE_ROW":"8",
+                "EDIBILITY":"12",
+                "ITEM_SPRITE":"39",
+                "OBJECT_PRICE":"70",
+                "REGROW_DAYS":"3",
+                "CATEGORY_NAME":"Mushroom"
+            }
+        },
+        {
+            "LogName": "Seed Tokens: WildFood Milk_Mushroom",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/Crops.json",
+            "LocalTokens": {
+                "SEED_TYPE": "Milk_Mushroom",
+                "OBJECT_TYPE": "Basic",          
+                "OBJECT_CATEGORY": -81,
+                "SEED_SPRITE":"42",
+                "CROP_SPRITE_ROW":"9",
+                "EDIBILITY":"16",
+                "ITEM_SPRITE":"41",
+                "OBJECT_PRICE":"125",
+                "REGROW_DAYS":"5",
+                "CATEGORY_NAME":"Mushroom"
+            }
+        },
+        {
+            "LogName": "Seed Tokens: WildFood Mint",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/Crops.json",
+            "LocalTokens": {
+                "SEED_TYPE": "Mint",
+                "OBJECT_TYPE": "Vegetable",
+                "OBJECT_CATEGORY": -75,
+                "SEED_SPRITE":"44",
+                "CROP_SPRITE_ROW":"10",
+                "EDIBILITY":"10",
+                "ITEM_SPRITE":"43",
+                "OBJECT_PRICE":"16",
+                "REGROW_DAYS":"3",
+                "CATEGORY_NAME":"Herb"
+            }
+        },
+        {
+            "LogName": "Seed Tokens: WildFood Red_Onion",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/Crops.json",
+            "LocalTokens": {
+                "SEED_TYPE": "Red_Onion",
+                "OBJECT_TYPE": "Vegetable",
+                "OBJECT_CATEGORY": -75,
+                "SEED_SPRITE":"46",
+                "CROP_SPRITE_ROW":"11",
+                "EDIBILITY":"11",
+                "ITEM_SPRITE":"45",
+                "OBJECT_PRICE":"20",
+                "REGROW_DAYS":"-1"
+            }
+        },
+        {
+            "LogName": "Seed Tokens: WildFood Rosemary",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/Crops.json",
+            "LocalTokens": {
+                "SEED_TYPE": "Rosemary",
+                "OBJECT_TYPE": "Vegetable",
+                "OBJECT_CATEGORY": -75,
+                "SEED_SPRITE":"48",
+                "CROP_SPRITE_ROW":"12",
+                "EDIBILITY":"5",
+                "ITEM_SPRITE":"47",
+                "OBJECT_PRICE":"48",
+                "REGROW_DAYS":"4",
+                "CATEGORY_NAME":"Herb"
+            }
+        },
+        {
+            "LogName": "Seed Tokens: WildFood Sage",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/Crops.json",
+            "LocalTokens": {
+                "SEED_TYPE": "Sage",
+                "OBJECT_TYPE": "Vegetable",
+                "OBJECT_CATEGORY": -75,
+                "SEED_SPRITE":"50",
+                "CROP_SPRITE_ROW":"13",
+                "EDIBILITY":"7",
+                "ITEM_SPRITE":"49",
+                "OBJECT_PRICE":"50",
+                "REGROW_DAYS":"5",
+                "CATEGORY_NAME":"Herb"
+            }
+        },
+        {
+            "LogName": "Seed Tokens: WildFood Thyme",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/Crops.json",
+            "LocalTokens": {
+                "SEED_TYPE": "Thyme",
+                "OBJECT_TYPE": "Vegetable",
+                "OBJECT_CATEGORY": -75,
+                "SEED_SPRITE":"52",
+                "CROP_SPRITE_ROW":"14",
+                "EDIBILITY":"4",
+                "ITEM_SPRITE":"51",
+                "OBJECT_PRICE":"50",
+                "REGROW_DAYS":"5",
+                "CATEGORY_NAME":"Herb"
+            }
+        },
+        {
+            "LogName": "Seed Tokens: WildFood Vanilla",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/Crops.json",
+            "LocalTokens": {
+                "SEED_TYPE": "Vanilla",
+                "OBJECT_TYPE":"Flower",
+                "OBJECT_CATEGORY":"-79",
+                "SEED_SPRITE":"54",
+                "CROP_SPRITE_ROW":"15",
+                "EDIBILITY":"5",
+                "ITEM_SPRITE":"53",
+                "OBJECT_PRICE":"135",
+                "REGROW_DAYS":"5"
+            }
+        },
+        {
+            "LogName": "Seed Tokens: WildFood Wheatberry_Mushroom",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/Crops.json",
+            "LocalTokens": {
+                "SEED_TYPE": "Wheatberry_Mushroom",
+                "OBJECT_TYPE": "Basic",          
+                "OBJECT_CATEGORY": -81,
+                "SEED_SPRITE":"56",
+                "CROP_SPRITE_ROW":"16",
+                "EDIBILITY":"18",
+                "ITEM_SPRITE":"55",
+                "OBJECT_PRICE":"70",
+                "REGROW_DAYS":"4",
+                "CATEGORY_NAME":"Mushroom"
+            }
+        },
+        {
+            "LogName": "Seed Tokens: WildFood Wild_Raspberry",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/Crops.json",
+            "LocalTokens": {
+                "SEED_TYPE": "Wild_Raspberry",
+                "OBJECT_TYPE": "Fruit",
+                "OBJECT_CATEGORY": -79,
+                "SEED_SPRITE":"58",
+                "CROP_SPRITE_ROW":"17",
+                "EDIBILITY":"8",
+                "ITEM_SPRITE":"57",
+                "OBJECT_PRICE":"20",
+                "REGROW_DAYS":"4"
+            }
+        },
+        {
+            "LogName": "Seed Tokens: WildFood Wild_Strawberry",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/Crops.json",
+            "LocalTokens": {
+                "SEED_TYPE": "Wild_Strawberry",
+                "OBJECT_TYPE": "Fruit",
+                "OBJECT_CATEGORY": -79,
+                "SEED_SPRITE":"60",
+                "CROP_SPRITE_ROW":"18",
+                "EDIBILITY":"6",
+                "ITEM_SPRITE":"59",
+                "OBJECT_PRICE":"25",
+                "REGROW_DAYS":"4"
+            }
+        },
+        {
+            "LogName": "Seed Tokens: WildFood Wormwood",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/Crops.json",
+            "LocalTokens": {
+                "SEED_TYPE": "Wormwood",
+                "OBJECT_TYPE": "Vegetable",
+                "OBJECT_CATEGORY": -75,
+                "SEED_SPRITE":"62",
+                "CROP_SPRITE_ROW":"19",
+                "EDIBILITY":"-300",
+                "ITEM_SPRITE":"61",
+                "OBJECT_PRICE":"15",
+                "REGROW_DAYS":"3",
+                "CATEGORY_NAME":"Herb"
+            }
+        },
+
+
+//new flowers
+
+        {
+            "LogName": "Seed Tokens: WildFood Daisy",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/Crops.json",
+            "LocalTokens": {
+                "SEED_TYPE": "Daisy",
+                "OBJECT_TYPE": "Flower",
+                "OBJECT_CATEGORY": -79,
+                "SEED_SPRITE":"928",
+                "CROP_SPRITE_ROW":"20",
+                "EDIBILITY":"5",
+                "ITEM_SPRITE":"896",
+                "OBJECT_PRICE":"35",
+                "REGROW_DAYS":"-1",
+                "CATEGORY_NAME":"Flower"
+            }
+        },
+        {
+            "LogName": "Seed Tokens: WildFood Hibiscus",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/Crops.json",
+            "LocalTokens": {
+                "SEED_TYPE": "Hibiscus",
+                "OBJECT_TYPE": "Flower",
+                "OBJECT_CATEGORY": -79,
+                "SEED_SPRITE":"929",
+                "CROP_SPRITE_ROW":"21",
+                "EDIBILITY":"5",
+                "ITEM_SPRITE":"897",
+                "OBJECT_PRICE":"120",
+                "REGROW_DAYS":"4",
+                "CATEGORY_NAME":"Flower"
+            }
+        },
+        {
+            "LogName": "Seed Tokens: WildFood Lily",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/Crops.json",
+            "LocalTokens": {
+                "SEED_TYPE": "Lily",
+                "OBJECT_TYPE": "Flower",
+                "OBJECT_CATEGORY": -79,
+                "SEED_SPRITE":"930",
+                "CROP_SPRITE_ROW":"22",
+                "EDIBILITY":"5",
+                "ITEM_SPRITE":"898",
+                "OBJECT_PRICE":"180",
+                "REGROW_DAYS":"-1",
+                "CATEGORY_NAME":"Flower"
+            }
+        },
+        {
+            "LogName": "Seed Tokens: WildFood Nasturtium",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/Crops.json",
+            "LocalTokens": {
+                "SEED_TYPE": "Nasturtium",
+                "OBJECT_TYPE": "Flower",
+                "OBJECT_CATEGORY": -79,
+                "SEED_SPRITE":"931",
+                "CROP_SPRITE_ROW":"23",
+                "EDIBILITY":"3",
+                "ITEM_SPRITE":"899",
+                "OBJECT_PRICE":"50",
+                "REGROW_DAYS":"3",
+                "CATEGORY_NAME":"Flower"
+            }
+        },
+        {
+            "LogName": "Seed Tokens: WildFood Peony",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/Crops.json",
+            "LocalTokens": {
+                "SEED_TYPE": "Peony",
+                "OBJECT_TYPE": "Flower",
+                "OBJECT_CATEGORY": -79,
+                "SEED_SPRITE":"932",
+                "CROP_SPRITE_ROW":"24",
+                "EDIBILITY":"5",
+                "ITEM_SPRITE":"900",
+                "OBJECT_PRICE":"155",
+                "REGROW_DAYS":"6",
+                "CATEGORY_NAME":"Flower"
+            }
+        },
+        {
+            "LogName": "Seed Tokens: WildFood Snapdragon",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/Crops.json",
+            "LocalTokens": {
+                "SEED_TYPE": "Snapdragon",
+                "OBJECT_TYPE": "Flower",
+                "OBJECT_CATEGORY": -79,
+                "SEED_SPRITE":"933",
+                "CROP_SPRITE_ROW":"25",
+                "EDIBILITY":"5",
+                "ITEM_SPRITE":"901",
+                "OBJECT_PRICE":"95",
+                "REGROW_DAYS":"4",
+                "CATEGORY_NAME":"Flower"
+            }
+        },
+]
+}

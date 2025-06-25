@@ -1,0 +1,19 @@
+{
+    
+    "Changes":[
+
+        {
+            "LogName": "WAG Mixed Seeds",
+            "Action": "Include",
+            "FromFile": "Data/ItemExtensions/MixedSeeds.json",
+            "When":{"Atelier.Cauldron/ConfigValue:MixedSeeds":true},
+        },
+
+        {
+            "LogName": "WAG IE Resources",
+            "Action": "Include",
+            "FromFile": "Data/ItemExtensions/Resources.json"
+        },
+
+    ]
+}

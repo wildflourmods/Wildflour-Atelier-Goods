@@ -1,0 +1,255 @@
+{
+   "Changes":[
+
+        {
+            "LogName": "Object Data Tokens - Banana_Split Gumballs",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandyJar",
+                "ITEM_TYPE": "Gumballs",
+                "ITEM_FLAVOR":"Banana_Split",
+                "INPUT1":"id_(O){{ModId}}_Banana_Split_Powder",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Gum_Base",
+                "PRICE_MULTIPLIER": 1.5,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 180,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":26,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":650
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Blue_Razzberry Gumballs",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandyJar",
+                "ITEM_TYPE": "Gumballs",
+                "ITEM_FLAVOR":"Blue_Razzberry",
+                "INPUT1":"id_(O){{ModId}}_Blue_Raspberry_Powder",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Gum_Base",
+                "PRICE_MULTIPLIER": 1.5,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 180,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":26,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":651
+            }
+        },
+
+        {
+            "LogName": "Object Data Tokens - Cotton_Candy Gumballs",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandyJar",
+                "ITEM_TYPE": "Gumballs",
+                "ITEM_FLAVOR":"Cotton_Candy",
+                "INPUT1":"id_(O){{ModId}}_Cotton_Candy_Powder",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Gum_Base",
+                "PRICE_MULTIPLIER": 1.5,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 180,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":26,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":652
+            }
+        },
+
+        {
+            "LogName": "Object Data Tokens - Melonade Gumballs",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandyJar",
+                "ITEM_TYPE": "Gumballs",
+                "ITEM_FLAVOR":"Melonade",
+                "INPUT1":"id_(O){{ModId}}_Melon_Powder",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Gum_Base",
+                "PRICE_MULTIPLIER": 1.5,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 180,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":26,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":653
+            }
+        },
+
+        {
+            "LogName": "Object Data Tokens - Minty_Fresh Gumballs",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandyJar",
+                "ITEM_TYPE": "Gumballs",
+                "ITEM_FLAVOR":"Minty_Fresh",
+                "INPUT1":"id_(O){{ModId}}_Mint_Powder",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Gum_Base",
+                "PRICE_MULTIPLIER": 1.5,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 180,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":26,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":654
+            }
+        },
+
+        {
+            "LogName": "Object Data Tokens - Pina_Colada Gumballs",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandyJar",
+                "ITEM_TYPE": "Gumballs",
+                "ITEM_FLAVOR":"Pina_Colada",
+                "INPUT1":"id_(O){{ModId}}_Pina_Colada_Powder",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Gum_Base",
+                "PRICE_MULTIPLIER": 1.5,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 180,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":26,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":655
+            }
+        },
+
+        {
+            "LogName": "Object Data Tokens - Rainbow Gumballs",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandyJar",
+                "ITEM_TYPE": "Gumballs",
+                "ITEM_FLAVOR":"Rainbow",
+                "INPUT1":"id_(O){{ModId}}_Rainbow_Sprinkles",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Gum_Base",
+                "PRICE_MULTIPLIER": 1.5,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 180,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":26,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":656
+            }
+        },
+
+        {
+            "LogName": "Object Data Tokens - Sour_Blast Gumballs",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandyJar",
+                "ITEM_TYPE": "Gumballs",
+                "ITEM_FLAVOR":"Sour_Blast",
+                "INPUT1":"id_(O){{ModId}}_Sour_Apple_Powder",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Gum_Base",
+                "PRICE_MULTIPLIER": 1.5,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 180,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":26,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":657
+            }
+        },
+
+        {
+            "LogName": "Object Data Tokens - Spicy_Cinnamon Gumballs",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandyJar",
+                "ITEM_TYPE": "Gumballs",
+                "ITEM_FLAVOR":"Spicy_Cinnamon",
+                "INPUT1":"id_(O){{ModId}}_Cinnamon_Powder",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Gum_Base",
+                "PRICE_MULTIPLIER": 1.5,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 180,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":26,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":658
+            }
+        },
+           {
+            "LogName": "Object Data Tokens - Black Licorice",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandyJar",
+                "ITEM_TYPE": "Licorice",
+                "ITEM_FLAVOR":"Black",
+                "INPUT1":"id_(O)769",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Corn_Syrup",
+                "PRICE_MULTIPLIER": 1.5,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 180,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":26,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":605
+            }
+        },
+           {
+            "LogName": "Object Data Tokens - Licorice",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandyJar",
+                "ITEM_TYPE": "Licorice",
+                "ITEM_FLAVOR":"Classic",
+                "INPUT1":"id_(O)396",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Corn_Syrup",
+                "PRICE_MULTIPLIER": 1.5,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 180,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":26,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":604
+            }
+        }
+
+]
+}

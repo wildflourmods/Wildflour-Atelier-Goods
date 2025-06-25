@@ -1,0 +1,259 @@
+{
+    "Format": "2.5.0",
+
+    "DynamicTokens": [
+        {
+			"Name": "PerfectionToggle",
+			"Value": "False",
+			"When":{"Atelier.Cauldron/ConfigValue:PerfectionShipment": true}
+		},
+		{
+			"Name": "PerfectionToggle",
+			"Value": "True",
+			"When":{"Atelier.Cauldron/ConfigValue:PerfectionShipment": false}
+		},
+        {
+            "Name": "DifficultyToggle",
+            "Value": "Simple",
+            "When":{"Atelier.Cauldron/ConfigValue:DifficultyToggle": "Simple"}
+        },
+        {
+            "Name": "DifficultyToggle",
+            "Value": "Advanced",
+            "When":{"Atelier.Cauldron/ConfigValue:DifficultyToggle": "Advanced"}
+        },
+        {
+            "Name": "DifficultyToggle",
+            "Value": "Hybrid",
+            "When":{"Atelier.Cauldron/ConfigValue:DifficultyToggle": "Hybrid"}
+        },
+        {
+            "Name": "Method",
+            "Value": "Advanced",
+            "When":{"Atelier.Cauldron/ConfigValue:DifficultyToggle": "Advanced"}
+        },
+        {
+            "Name": "Method",
+            "Value": "Hybrid_Recipes",
+            "When":{"Atelier.Cauldron/ConfigValue:DifficultyToggle": "Hybrid"}
+        },
+
+
+        {
+            "Name": "SpriteConfig",
+            "Value": "New",
+            "When":{"Atelier.Cauldron/ConfigValue:SpriteConfig": "New"}
+        },
+        {
+            "Name": "SpriteConfig",
+            "Value": "Legacy",
+            "When":{"Atelier.Cauldron/ConfigValue:SpriteConfig": "Legacy"}
+        },
+        {
+            "Name": "RecipeConfig",
+            "Value": "default",
+            "When":{"Atelier.Cauldron/ConfigValue:EasyRecipes": true}
+        },
+        {
+            "Name": "RecipeConfig",
+            "Value": "null",
+            "When":{"Atelier.Cauldron/ConfigValue:EasyRecipes": false}
+        },
+        {
+            "Name": "MachineStyle",
+            "Value": "Kitchen",
+            "When":{"Atelier.Cauldron/ConfigValue:MachineStyle": "Kitchen"}
+        },
+        {
+            "Name": "MachineStyle",
+            "Value": "Boutique",
+            "When":{"Atelier.Cauldron/ConfigValue:MachineStyle": "Boutique"}
+        },
+        {
+            "Name": "MachineStyle",
+            "Value": "Market",
+            "When":{"Atelier.Cauldron/ConfigValue:MachineStyle": "Market"}
+        },
+        {
+            "Name": "MachineColor",
+            "Value": "Classic",
+            "When":{"Atelier.Cauldron/ConfigValue:MachineColor": "Classic"}
+        },
+        {
+            "Name": "MachineColor",
+            "Value": "Chocolate",
+            "When":{"Atelier.Cauldron/ConfigValue:MachineColor": "Chocolate"}
+        },
+        {
+            "Name": "MachineColor",
+            "Value": "Cream",
+            "When":{"Atelier.Cauldron/ConfigValue:MachineColor": "Cream"}
+        },
+        {
+            "Name": "MachineColor",
+            "Value": "Strawberry",
+            "When":{"Atelier.Cauldron/ConfigValue:MachineColor": "Strawberry"}
+        },
+        {
+            "Name": "MachineColor",
+            "Value": "Blueberry",
+            "When":{"Atelier.Cauldron/ConfigValue:MachineColor": "Blueberry"}
+        },
+        {
+            "Name": "PriorityConfig",
+            "Value": "",
+            "When":{"Atelier.Cauldron/ConfigValue:SOPriority": "Immediate"}
+        },
+        {
+            "Name": "PriorityConfig",
+            "Value": "willyBugWadCutscene, pamPotatoJuice, pierreQualityCrops, robinDeluxeBed, emilyStones, DemetriusReward, gusGiantOmelet, MSB_Lewis, ClintReward, linusTrashCleanup, georgeGifts, WizardReward, robinResource, guntherBones",
+            "When":{"Atelier.Cauldron/ConfigValue:SOPriority": "Later"}
+        },
+        {
+            "Name": "PriorityConfig",
+            "Value": "willyBugWadCutscene, pamPotatoJuice, pierreQualityCrops, robinDeluxeBed, emilyStones, DemetriusReward, gusGiantOmelet, MSB_Lewis, ClintReward, linusTrashCleanup, georgeGifts, WizardReward, robinResource, guntherBones, carolineSO, WillyTropicalFish",
+            "When":{"Atelier.Cauldron/ConfigValue:SOPriority": "PostGI"}
+        },
+        { 
+            "Name": "Title",
+            "Value": "[center][font=dialogue][color=DarkGreen]"
+        },
+        { 
+            "Name": "EndTitle",
+            "Value": "[/color][/font][/center]"
+        },
+        { 
+            "Name": "Quality_Toggle",
+            "Value": "false"
+        },
+        { 
+            "Name": "Giant_Crop_Chance",
+            "Value": "1",
+            "When":{"Atelier.Cauldron/ConfigValue:GiantCropChance": "High"}
+        },
+        { 
+            "Name": "Giant_Crop_Chance",
+            "Value": "0.5",
+            "When":{"Atelier.Cauldron/ConfigValue:GiantCropChance": "Medium"}
+        },
+        { 
+            "Name": "Giant_Crop_Chance",
+            "Value": "0.1",
+            "When":{"Atelier.Cauldron/ConfigValue:GiantCropChance": "Low"}
+        }
+    ],
+
+    "Changes": [
+
+        {
+            "LogName": "Main WAG Components Always Include",
+            "Action": "Include",
+            "FromFile": "Data/Bundles/Bundles.json, Data/NPC/Gift_Tastes.json, Data/NPC/Mail.json, Data/Bundles/Shops.json, Data/Other/Textures.json"
+        },
+
+// ----------BAKERY DATA---------- //
+
+        {
+            "LogName": "WAG Baker Data",
+            "Action": "Include",
+            "FromFile": "Data/Baker/Baker.json",
+            "When":{"Atelier.Cauldron/ConfigValue:Baker":true}
+        },
+
+// ----------BARISTA DATA--------- //
+
+        {
+            "LogName": "WAG Barista Machine Data",
+            "Action": "Include",
+            "FromFile": "Data/Barista/Barista.json",
+            "When":{"Atelier.Cauldron/ConfigValue:Barista":true}
+        },
+
+// ----------BREWER DATA---------- //
+        
+        {
+            "LogName": "WAG Brewer Data",
+            "Action": "Include",
+            "FromFile": "Data/Brewer/Brewer.json",
+            "When":{"Atelier.Cauldron/ConfigValue:Brewer":true}
+        },
+
+// ----------CANDY DATA---------- //
+
+        {
+            "LogName": "WAG Candy Data",
+            "Action": "Include",
+            "FromFile": "Data/Candy/Candy.json",
+            "When":{"Atelier.Cauldron/ConfigValue:Candy":true}
+        },
+
+// ----------FLORIST DATA--------- //
+
+        {
+            "LogName": "WAG Florist Data",
+            "Action": "Include",
+            "FromFile": "Data/Florist/Florist.json",
+            "When":{"Atelier.Cauldron/ConfigValue:Florist":true}
+        },
+
+// ----------FROZEN DATA---------- //
+
+        {
+            "LogName": "WAG Frozen Data",
+            "Action": "Include",
+            "FromFile": "Data/Frozen/Frozen.json",
+            "When":{"Atelier.Cauldron/ConfigValue:Frozen":true}
+        },
+
+// ---------GOURMAND DATA--------- //
+
+        {
+            "LogName": "WAG Gourmand Data",
+            "Action": "Include",
+            "FromFile": "Data/Gourmand/Gourmand.json",
+            "When":{"Atelier.Cauldron/ConfigValue:FloristOnly":false}
+        },
+
+// ---------WILDFOOD DATA--------- //
+
+		{
+            "LogName": "Include - WildFood Data",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/WildFood.json",
+			"When":  {"Atelier.Cauldron/ConfigValue:WildFood": true}
+        },
+
+// ---------SPECIAL ORDER DATA--------- //
+
+		{
+            "LogName": "Include - SO Data",
+            "Action": "Include",
+            "FromFile": "Data/SpecialOrders/SpecialOrders.json",
+			"When":  {"Atelier.Cauldron/ConfigValue:SpecialOrders": true}
+        },
+
+// --------ADD ON DATA-------- //
+
+        {
+            "LogName": "WAG Bush Bloom Addon",
+            "Action": "Include",
+            "FromFile": "Data/Other/BushBloom.json",
+            "When":{"HasMod |contains=NCarigon.BushBloomMod": true}
+        },
+
+        {
+            "LogName": "WAG Item Extensions Addon",
+            "Action": "Include",
+            "FromFile": "Data/ItemExtensions/ItemExtensions.json",
+            "When":{"HasMod:|contains= mistyspring.ItemExtensions":true}
+        },
+    
+        {
+            "LogName":"WAG SpaceCore Addon",
+            "Action":"Include",
+            "FromFile":"Data/SpaceCore/SpaceCore.json",
+            "When":{"Atelier.Cauldron/ConfigValue:SpaceCore":true}
+        },
+
+    ]
+}

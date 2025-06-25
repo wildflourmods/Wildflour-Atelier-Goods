@@ -1,0 +1,29 @@
+{
+    "Changes":[
+        
+        {
+            "LogName": "Include - WildFood Data",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/Trees_Tokens.json, Data/WildFood/Crops_Tokens.json, Data/WildFood/Misc.json",
+        },
+
+        {
+            "LogName": "Include - WildFood Giant Crop Data",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/GiantCrops_Tokens.json",
+            "When":{"Atelier.Cauldron/ConfigValue:GiantCropChance |contains= Disabled": false}
+        },
+
+        {
+            "LogName": "Include - WildFood Edit Fields Data",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/FieldEdits.json",
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/Crops, Mods/{{ModId}}/FruitTrees, Mods/{{ModId}}/GiantCrops",
+            "FromFile": "Assets/Items/{{TargetWithoutPath}}.png",
+        },
+    ]
+}

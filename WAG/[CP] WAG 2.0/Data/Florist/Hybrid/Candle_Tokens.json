@@ -1,0 +1,315 @@
+{
+   "Changes":[
+
+        {
+            "LogName": "Object Data Tokens - Butterfly_Garden Candles",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandleStation",
+                "ITEM_TYPE": "Candles",
+                "ITEM_FLAVOR":"Butterfly_Garden",
+                "INPUT1":"id_(O){{ModId}}_Butterfly_Garden_Floral_Swag",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Candle_Wax_Base",
+                "PRICE_MULTIPLIER": 3.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":432
+            }
+        },
+         {
+            "LogName": "Object Data Tokens - Cottage_Garden Candles",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandleStation",
+                "ITEM_TYPE": "Candles",
+                "ITEM_FLAVOR":"Cottage_Garden",
+                "INPUT1":"id_(O){{ModId}}_Cottage_Garden_Floral_Swag",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Candle_Wax_Base",
+                "PRICE_MULTIPLIER": 3.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":433
+            }
+        },
+         {
+            "LogName": "Object Data Tokens - Herb_Garden Candles",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandleStation",
+                "ITEM_TYPE": "Candles",
+                "ITEM_FLAVOR":"Herb_Garden",
+                "INPUT1":"id_(O){{ModId}}_Herb_Garden_Floral_Swag",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Candle_Wax_Base",
+                "PRICE_MULTIPLIER": 3.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":434
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Mystic_Garden Candles",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandleStation",
+                "ITEM_TYPE": "Candles",
+                "ITEM_FLAVOR":"Mystic_Garden",
+                "INPUT1":"id_(O){{ModId}}_Mystic_Garden_Floral_Swag",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Candle_Wax_Base",
+                "PRICE_MULTIPLIER": 3.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":435
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Spring_Morning Candles",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandleStation",
+                "ITEM_TYPE": "Candles",
+                "ITEM_FLAVOR":"Spring_Morning",
+                "INPUT1":"id_(O){{ModId}}_Spring_Morning_Floral_Swag",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Candle_Wax_Base",
+                "PRICE_MULTIPLIER": 3.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":436
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Summer_Afternoon Candles",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandleStation",
+                "ITEM_TYPE": "Candles",
+                "ITEM_FLAVOR":"Summer_Afternoon",
+                "INPUT1":"id_(O){{ModId}}_Summer_Afternoon_Floral_Swag",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Candle_Wax_Base",
+                "PRICE_MULTIPLIER": 3.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":437
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Autumn_Evening Candles",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandleStation",
+                "ITEM_TYPE": "Candles",
+                "ITEM_FLAVOR":"Autumn_Evening",
+                "INPUT1":"id_(O){{ModId}}_Autumn_Evening_Floral_Swag",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Candle_Wax_Base",
+                "PRICE_MULTIPLIER": 3.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":438
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Winter_Twilight Candles",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandleStation",
+                "ITEM_TYPE": "Candles",
+                "ITEM_FLAVOR":"Winter_Twilight",
+                "INPUT1":"id_(O){{ModId}}_Winter_Twilight_Floral_Swag",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Candle_Wax_Base",
+                "PRICE_MULTIPLIER": 3.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":439
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Bold_Red Candles",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandleStation",
+                "ITEM_TYPE": "Candles",
+                "ITEM_FLAVOR":"Bold_Red",
+                "INPUT1":"id_(O){{ModId}}_Bold_Red_Floral_Swag",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Candle_Wax_Base",
+                "PRICE_MULTIPLIER": 3.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":440
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Charming_Pink Candles",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandleStation",
+                "ITEM_TYPE": "Candles",
+                "ITEM_FLAVOR":"Charming_Pink",
+                "INPUT1":"id_(O){{ModId}}_Charming_Pink_Floral_Swag",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Candle_Wax_Base",
+                "PRICE_MULTIPLIER": 3.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":441
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Cheerful_Yellow Candles",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandleStation",
+                "ITEM_TYPE": "Candles",
+                "ITEM_FLAVOR":"Cheerful_Yellow",
+                "INPUT1":"id_(O){{ModId}}_Cheerful_Yellow_Floral_Swag",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Candle_Wax_Base",
+                "PRICE_MULTIPLIER": 3.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":442
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Passion_Purple Candles",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandleStation",
+                "ITEM_TYPE": "Candles",
+                "ITEM_FLAVOR":"Passion_Purple",
+                "INPUT1":"id_(O){{ModId}}_Passion_Purple_Floral_Swag",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Candle_Wax_Base",
+                "PRICE_MULTIPLIER": 3.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":443
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Peaceful_Blue Candles",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandleStation",
+                "ITEM_TYPE": "Candles",
+                "ITEM_FLAVOR":"Peaceful_Blue",
+                "INPUT1":"id_(O){{ModId}}_Peaceful_Blue_Floral_Swag",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Candle_Wax_Base",
+                "PRICE_MULTIPLIER": 3.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":444
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Serene_White Candles",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandleStation",
+                "ITEM_TYPE": "Candles",
+                "ITEM_FLAVOR":"Serene_White",
+                "INPUT1":"id_(O){{ModId}}_Serene_White_Floral_Swag",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Candle_Wax_Base",
+                "PRICE_MULTIPLIER": 3.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":445
+            }
+        },
+
+
+]
+}

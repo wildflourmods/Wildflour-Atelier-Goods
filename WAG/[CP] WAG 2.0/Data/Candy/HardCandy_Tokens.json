@@ -1,0 +1,187 @@
+{
+   "Changes":[
+
+        {
+            "LogName": "Object Data Tokens - Blue Hard_Candy",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_SugarBoiler",
+                "ITEM_TYPE": "Hard_Candy",
+                "ITEM_FLAVOR":"Blue",
+                "INPUT1":"id_(O){{ModId}}_Ancient_Fruit_Syrup",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Elderberry_Water",
+                "PRICE_MULTIPLIER": 5.0,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 360,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":26,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":619
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Green Hard_Candy",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_SugarBoiler",
+                "ITEM_TYPE": "Hard_Candy",
+                "ITEM_FLAVOR":"Green",
+                "INPUT1":"id_(O){{ModId}}_Lime_Syrup",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O)245",
+                "PRICE_MULTIPLIER": 5.0,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 360,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":26,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":620
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Orange Hard_Candy",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_SugarBoiler",
+                "ITEM_TYPE": "Hard_Candy",
+                "ITEM_FLAVOR":"Orange",
+                "INPUT1":"id_(O){{ModId}}_Apricot_Syrup",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Orange_Syrup",
+                "INPUT3":"id_(O){{ModId}}_Pumpkin_Syrup",
+                "PRICE_MULTIPLIER": 5.0,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 360,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":26,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":621
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Pink Hard_Candy",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_SugarBoiler",
+                "ITEM_TYPE": "Hard_Candy",
+                "ITEM_FLAVOR":"Pink",
+                "INPUT1":"id_(O){{ModId}}_Cherry_Blossom_Syrup",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Peach_Syrup",
+                "INPUT3":"id_(O){{ModId}}_Raspberry_Syrup",
+                "INPUT4":"id_(O){{ModId}}_Rose_Water",
+                "PRICE_MULTIPLIER": 5.0,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 360,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":26,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":622
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Purple Hard_Candy",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_SugarBoiler",
+                "ITEM_TYPE": "Hard_Candy",
+                "ITEM_FLAVOR":"Purple",
+                "INPUT1":"id_(O){{ModId}}_Grenadine_Syrup",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Lavender_Water",
+                "PRICE_MULTIPLIER": 5.0,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 360,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":26,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":623
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Red_Hard_Candy",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_SugarBoiler",
+                "ITEM_TYPE": "Hard_Candy",
+                "ITEM_FLAVOR":"Red",
+                "INPUT1":"id_(O){{ModId}}_Apple_Syrup",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Cherry_Syrup",
+                "INPUT3":"id_(O){{ModId}}_Strawberry_Syrup",
+                "PRICE_MULTIPLIER": 5.0,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 360,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":26,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":624
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Sweet Hard_Candy",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_SugarBoiler",
+                "ITEM_TYPE": "Hard_Candy",
+                "ITEM_FLAVOR":"Sweet",
+                "INPUT1":"id_(O){{ModId}}_Chocolate_Syrup",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Vanilla_Syrup",
+                "PRICE_MULTIPLIER": 5.0,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 360,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":26,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":625
+            }
+        },
+                {
+            "LogName": "Object Data Tokens - Yellow Hard_Candy",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_SugarBoiler",
+                "ITEM_TYPE": "Hard_Candy",
+                "ITEM_FLAVOR":"Yellow",
+                "INPUT1":"id_(O){{ModId}}_Banana_Syrup",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Mango_Syrup",
+                "INPUT3":"id_(O){{ModId}}_Lemon_Syrup",
+                "PRICE_MULTIPLIER": 5.0,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 360,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":26,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":626
+            }
+        }
+
+]
+}

@@ -1,0 +1,122 @@
+{
+    "Changes": [
+
+{
+    "LogName":"Add Wild Food Saplings",
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "{{ModId}}_{{TREE_FRUIT_TYPE}}_Sapling": {
+            "Name": "{{ModId}}_{{TREE_FRUIT_TYPE}}_Sapling",
+            "DisplayName": "{{i18n:AtelierGoods_{{TREE_FRUIT_TYPE}}_Sapling.name}}",
+            "Description": "{{i18n:AtelierGoods_{{TREE_FRUIT_TYPE}}_Sapling.description}}",
+            "Type": "Basic",
+            "Category": -74,
+            "Price": 1,
+            "Texture": "Mods/{{ModId}}/Objects",
+            "SpriteIndex": "{{SAPLING_SPRITE}}"
+    }
+    }
+},
+
+{
+    "LogName": "Add Wild Food Sapling Seed Maker Rules",
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "TargetField": ["(BC)25", "OutputRules"],
+    "Entries": {
+        "{{ModId}}_Seedmaker_{{TREE_FRUIT_TYPE}}": {
+            "Id": "{{ModId}}_Seedmaker_{{TREE_FRUIT_TYPE}}",
+            "Triggers": [
+                {
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "{{ModId}}_{{TREE_FRUIT_TYPE}}",
+                    "RequiredCount": 3
+                }
+            ],
+            "OutputItem": [
+                {
+                    "Id": "{{ModId}}_{{TREE_FRUIT_TYPE}}_Sapling",
+                    "ItemId": "(O){{ModId}}_{{TREE_FRUIT_TYPE}}_Sapling",
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "StackModifiers": [
+                        {
+                            "Id": "GreatestForager",
+                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                            "Modification": "Add",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            ],
+            "MinutesUntilReady": 20
+        }
+
+    },
+    "MoveEntries": [
+        {
+            "ID": "{{ModId}}_Seedmaker_{{TREE_FRUIT_TYPE}}",
+            "BeforeId": "Default"
+        }
+    ]
+},
+
+{
+    "LogName":"Wild Food Fruit Trees Data",
+    "Action": "EditData",
+    "Target": "Data/FruitTrees",
+    "Entries": {
+        "{{ModId}}_{{TREE_FRUIT_TYPE}}_Sapling": {
+            "DisplayName": "{{i18n:AtelierGoods_{{TREE_FRUIT_TYPE}}_Sapling.name}}",
+            "Seasons": [],
+            "Fruit": [
+                {
+                    "Id": "{{ModId}}_{{TREE_FRUIT_TYPE}}",
+                    "ItemId": "{{ModId}}_{{TREE_FRUIT_TYPE}}"
+                }
+            ],
+            "Texture": "Mods/{{ModId}}/FruitTrees",
+            "TextureSpriteRow": "{{TREE_SPRITE_ROW}}"
+        }
+    }
+},
+
+
+/*{
+    "LogName": "Category Display Name Override Fruit Trees",
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Fields": {
+        "{{ModId}}_{{TREE_FRUIT_TYPE}}": {
+            "CustomFields": {
+                "sophie.Calcifer/Category": "{{i18n:AtelierGoods_Nut.category}}"
+            }
+        }
+    }
+},*/
+
+
+{
+    "LogName":"Add Wild Food Fruit Tree Objects",
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Entries": {
+        "{{ModId}}_{{TREE_FRUIT_TYPE}}": {
+            "Name": "{{ModId}}_{{TREE_FRUIT_TYPE}}",
+            "DisplayName": "{{i18n:AtelierGoods_{{TREE_FRUIT_TYPE}}.name}}",
+            "Description": "{{i18n:AtelierGoods_{{TREE_FRUIT_TYPE}}.description}}",
+            "Type": "Fruit",
+            "Category": -79,
+            "Edibility": "{{EDIBILITY}}",
+            "Price": "{{OBJECT_PRICE}}",
+            "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+            "ContextTags":[],
+            "Texture": "Mods/{{ModId}}/Objects",
+            "SpriteIndex": "{{ITEM_SPRITE}}"
+        }
+    }
+}
+
+]
+}

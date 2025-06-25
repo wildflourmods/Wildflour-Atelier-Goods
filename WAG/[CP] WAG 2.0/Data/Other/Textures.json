@@ -1,0 +1,47 @@
+{
+    "Changes": [
+    
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/Objects",
+        "FromFile": "assets/Items/Objects_{{SpriteConfig}}.png"
+    },
+
+    {
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/Machines",
+        "FromFile": "assets/Machines/Machines_{{MachineStyle}}_{{MachineColor}}.png"
+    },
+
+    {
+        "LogName": "VT Seed Bags Patch",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/Objects",
+        "FromFile": "assets/Items/Objects_VT_{{SpriteConfig}}.png",
+        "ToArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 256,
+            "Height": 64
+        },
+        "PatchMode":"Replace",
+        "When": {"Atelier.Cauldron/ConfigValue:VanillaTweaks": true}
+    },
+
+    {
+        "LogName": "BakeryLids Patch",
+        "Action": "EditImage",
+        "Target": "Mods/{{ModId}}/Objects",
+        "FromFile": "assets/Items/BakeryLids.png",
+        "ToArea": {
+            "X": 0,
+            "Y": 704,
+            "Width": 256,
+            "Height": 96
+        },
+        "PatchMode":"Overlay",
+        "When": {"Atelier.Cauldron/ConfigValue:BakeryLids": true}
+    },
+
+    ]
+}

@@ -1,0 +1,75 @@
+{
+
+  "Changes": [
+
+{
+    "Action": "EditData",
+    "Target": "Data/BigCraftables",
+    "TargetField": ["{{ModId}}_ChocolatierBarrel","CustomFields"],
+    "Entries": {
+      "leclair.bettercrafting_PerformAction": "leclair.bettercrafting_OpenMenu FALSE TRUE {{ModId}}_ChocolatierBarrel"
+    }
+  },
+
+  {
+    "Action": "EditData",
+    "Target": "Data/BigCraftables",
+    "TargetField": ["{{ModId}}_MarshmallowMixer","CustomFields"],
+    "Entries": {
+      "leclair.bettercrafting_PerformAction": "leclair.bettercrafting_OpenMenu FALSE TRUE {{ModId}}_MarshmallowMixer"
+    }
+  },
+
+  {
+    "LogName": "CCS Structure and Categories",
+    "Action":"EditData",
+    "Target": "Mods/leclair.bettercrafting/CraftingStations",
+    "Entries": {
+        "{{ModId}}_ChocolatierBarrel": {
+          "Id": "{{ModId}}_ChocolatierBarrel",
+              "IsCooking": true,
+              "AreRecipesExclusive": true,
+              "Recipes":[
+                    "{{ModId}}_Chocolate_Covered_Marshmallows",
+                    "{{ModId}}_Chocolate_Covered_Strawberries",
+                    "{{ModId}}_Chocolate_Dipped_Apple",
+                    "{{ModId}}_Dark_Chocolate_Truffles",
+                    "{{ModId}}_Floral_Chocolate_Truffles",
+                    "{{ModId}}_Fruity_Chocolate_Truffles",
+                    "{{ModId}}_Milk_Chocolate_Truffles",
+                    "{{ModId}}_Nutty_Chocolate_Truffles",
+                    "{{ModId}}_White_Chocolate_Truffles",
+                    "{{ModId}}_Classic_Smores",
+                    "{{ModId}}_Black_Forest_Chocolate_Bar",
+                    "{{ModId}}_Creme_Brulee_Chocolate_Bar",
+                    "{{ModId}}_Cupid_Chocolate_Bar",
+                    "{{ModId}}_Galaxy_Chocolate_Bar",
+                    "{{ModId}}_Jazzy_Chocolate_Bar",
+                    "{{ModId}}_Razzle_Dazzle_Chocolate_Bar",
+                    "{{ModId}}_Zesty_Chocolate_Bar",
+
+                  ],
+              "Categories":[]
+        },
+        "{{ModId}}_MarshmallowMixer": {
+                "Id": "{{ModId}}_MarshmallowMixer",
+                "IsCooking": true,
+                "AreRecipesExclusive": true,
+                "Recipes":[
+                    "{{ModId}}_Apple_Pickin_Marshmallows",
+                    "{{ModId}}_Berry_Mania_Marshmallows",
+                    "{{ModId}}_Chocoberry_Marshmallows",
+                    "{{ModId}}_Choco_Lovers_Marshmallows",
+                    "{{ModId}}_Mint_Mocha_Marshmallows",
+                    "{{ModId}}_Rainbow_Marshmallows",
+                    "{{ModId}}_Sun_Kissed_Marshmallows",
+                    "{{ModId}}_Tea_Time_Marshmallows",
+                    "{{ModId}}_Plain_Marshmallows",
+                  ],
+                "Categories":[]
+        },
+    },
+  },
+
+  ]
+}

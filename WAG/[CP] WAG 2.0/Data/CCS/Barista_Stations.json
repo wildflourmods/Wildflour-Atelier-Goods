@@ -1,0 +1,167 @@
+{
+
+  "Changes": [
+
+  {
+    "Action": "EditData",
+    "Target": "Data/BigCraftables",
+    "TargetField": ["{{ModId}}_KitchenBlender","CustomFields"],
+    "Entries": {
+      "leclair.bettercrafting_PerformAction": "leclair.bettercrafting_OpenMenu FALSE TRUE {{ModId}}_KitchenBlender"
+    }
+  },
+
+  {
+    "LogName": "CCS Structure and Categories",
+    "Action":"EditData",
+    "Target": "Mods/leclair.bettercrafting/CraftingStations",
+    "Entries": {
+       
+        "{{ModId}}_KitchenBlender": {
+                "Id": "{{ModId}}_KitchenBlender",
+                "IsCooking": true,
+                "AreRecipesExclusive": true,
+                "Recipes":[
+                    "{{ModId}}_Amoretto_Ground_Coffee",
+                    "{{ModId}}_Cinnamon_Bunny_Ground_Coffee",
+                    "{{ModId}}_Coco_Cabana_Ground_Coffee",
+                    "{{ModId}}_Early_Riser_Ground_Coffee",
+                    "{{ModId}}_Mucha_Mocha_Ground_Coffee",
+                    "{{ModId}}_Pistachio_Buzz_Ground_Coffee",
+                    "{{ModId}}_Pumpkin_King_Ground_Coffee",
+                    "{{ModId}}_Sleigh_Ride_Ground_Coffee",
+                    "{{ModId}}_Sweetheart_Ground_Coffee",
+                    "{{ModId}}_Warm_Vanilla_Sugar_Ground_Coffee",
+                    "{{ModId}}_Alchemist_Blend_Sachet",
+                    "{{ModId}}_Blueberry_Matcha_Sachet",
+                    "{{ModId}}_Cherry_Blossom_Matcha_Sachet",
+                    "{{ModId}}_Cookie_Jar_Sachet",
+                    "{{ModId}}_Good_Thyme_Sachet",
+                    "{{ModId}}_Happy_Harvest_Sachet",
+                    "{{ModId}}_North_Pole_Sachet",
+                    "{{ModId}}_Pelican_Fog_Sachet",
+                    "{{ModId}}_Plum_Chai_Sachet",
+                    "{{ModId}}_Positivitea_Sachet",
+                    "{{ModId}}_Sun_Room_Sachet",
+                    "{{ModId}}_Sunny_Delight_Sachet",
+                    "{{ModId}}_Cinnamon_Toast_Crunch_Smoothie",
+                    "{{ModId}}_Energizer_Bunny_Smoothie",
+                    "{{ModId}}_Honey_Nut_Junimo_Smoothie",
+                    "{{ModId}}_Lady_Godiva_Smoothie",
+                    "{{ModId}}_Lucky_Charms_Smoothie",
+                    "{{ModId}}_Mean_Green_Smoothie",
+                    "{{ModId}}_Monkey_Business_Smoothie",
+                    "{{ModId}}_Oops_All_Berries_Smoothie",
+                    "{{ModId}}_Sleepy_Hollow_Smoothie",
+                    "{{ModId}}_Walkin_On_Sunshine_Smoothie",
+                    "{{ModId}}_Berry_Good_Thyme_Lemonade",
+                    "{{ModId}}_Chamomile_Mint_Lemonade",
+                    "{{ModId}}_Classic_Lemonade",
+                    "{{ModId}}_Green_Tea_Lemonade",
+                    "{{ModId}}_Lavender_Lemonade",
+                    "{{ModId}}_Minty_Hibiscus_Lemonade",
+                    "{{ModId}}_Orange_Blossom_Lemonade",
+                    "{{ModId}}_Peachy_Keen_Lemonade",
+                    "{{ModId}}_Strawberry_Rhubarb_Lemonade",
+                    "{{ModId}}_Rosey_Posey_Lemonade"
+                  ],
+                "Categories":[
+                   {
+                      "Id": "WAG_Sachets",
+                      "Name": "{{i18n:Sachets_CCS.category}}",
+                      "Icon": 
+                        { 
+                          "Type": "Item",
+                          "ItemId": "Wildflour.AtelierGoods_Alchemist_Blend_Sachet"
+                        },
+                      "Recipes":
+                        [
+                          "{{ModId}}_Alchemist_Blend_Sachet",
+                          "{{ModId}}_Blueberry_Matcha_Sachet",
+                          "{{ModId}}_Cherry_Blossom_Matcha_Sachet",
+                          "{{ModId}}_Cookie_Jar_Sachet",
+                          "{{ModId}}_Good_Thyme_Sachet",
+                          "{{ModId}}_Happy_Harvest_Sachet",
+                          "{{ModId}}_North_Pole_Sachet",
+                          "{{ModId}}_Pelican_Fog_Sachet",
+                          "{{ModId}}_Plum_Chai_Sachet",
+                          "{{ModId}}_Positivitea_Sachet",
+                          "{{ModId}}_Sun_Room_Sachet",
+                          "{{ModId}}_Sunny_Delight_Sachet",
+                        ]
+                    },
+                    {
+                      "Id": "WAG_Ground_Coffee",
+                      "Name": "{{i18n:Ground_Coffee_CCS.category}}",
+                      "Icon": 
+                        { 
+                          "Type": "Item",
+                          "ItemId": "Wildflour.AtelierGoods_Amoretto_Ground_Coffee"
+                        },
+                      "Recipes":
+                        [
+                          "{{ModId}}_Amoretto_Ground_Coffee",
+                          "{{ModId}}_Cinnamon_Bunny_Ground_Coffee",
+                          "{{ModId}}_Coco_Cabana_Ground_Coffee",
+                          "{{ModId}}_Early_Riser_Ground_Coffee",
+                          "{{ModId}}_Mucha_Mocha_Ground_Coffee",
+                          "{{ModId}}_Pistachio_Buzz_Ground_Coffee",
+                          "{{ModId}}_Pumpkin_King_Ground_Coffee",
+                          "{{ModId}}_Sleigh_Ride_Ground_Coffee",
+                          "{{ModId}}_Sweetheart_Ground_Coffee",
+                          "{{ModId}}_Warm_Vanilla_Sugar_Ground_Coffee",
+                        ]
+                    },
+                    {
+                      "Id": "WAG_Smoothies",
+                      "Name": "{{i18n:Smoothies_CCS.category}}",
+                      "Icon": 
+                        { 
+                          "Type": "Item",
+                          "ItemId": "Wildflour.AtelierGoods_Cinnamon_Toast_Crunch_Smoothie"
+                        },
+                      "Recipes":
+                        [
+                          "{{ModId}}_Cinnamon_Toast_Crunch_Smoothie",
+                          "{{ModId}}_Energizer_Bunny_Smoothie",
+                          "{{ModId}}_Honey_Nut_Junimo_Smoothie",
+                          "{{ModId}}_Lady_Godiva_Smoothie",
+                          "{{ModId}}_Lucky_Charms_Smoothie",
+                          "{{ModId}}_Mean_Green_Smoothie",
+                          "{{ModId}}_Monkey_Business_Smoothie",
+                          "{{ModId}}_Oops_All_Berries_Smoothie",
+                          "{{ModId}}_Sleepy_Hollow_Smoothie",
+                          "{{ModId}}_Walkin_On_Sunshine_Smoothie",
+                        ]
+                    },
+                    {
+                      "Id": "WAG_Lemonade",
+                      "Name": "{{i18n:Lemonade_CCS.category}}",
+                      "Icon": 
+                        { 
+                          "Type": "Item",
+                          "ItemId": "Wildflour.AtelierGoods_Classic_Lemonade"
+                        },
+                      "Recipes":
+                        [
+                          "{{ModId}}_Berry_Good_Thyme_Lemonade",
+                          "{{ModId}}_Chamomile_Mint_Lemonade",
+                          "{{ModId}}_Classic_Lemonade",
+                          "{{ModId}}_Green_Tea_Lemonade",
+                          "{{ModId}}_Lavender_Lemonade",
+                          "{{ModId}}_Minty_Hibiscus_Lemonade",
+                          "{{ModId}}_Orange_Blossom_Lemonade",
+                          "{{ModId}}_Peachy_Keen_Lemonade",
+                          "{{ModId}}_Strawberry_Rhubarb_Lemonade",
+                          "{{ModId}}_Rosey_Posey_Lemonade"
+                        ]
+                    }
+                ]
+        },
+    },
+  },
+
+
+
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "Changes": [
+
+    {
+        "LogName": "Set Frozen Treat Maker Working Effects",
+        "Action": "EditData",
+        "Target": "Data/Machines",
+        "When":{"Query:'{{Atelier.Cauldron/ConfigValue:DifficultyToggle}}'<>'Hybrid'":true},
+        "Fields": {
+            "(BC){{ModId}}_TreatMaker": {
+                "WorkingEffects":[
+                    {
+                        "Frames":[1,2,3,4,5,6],
+                        "Interval":150
+                    }
+                ] ,
+                "AdditionalConsumedItems":[
+                    {
+                        "ItemId":"(O)84",
+                        "RequiredCount": 1,
+                        "InvalidCountMessage":"{{i18n:AtelierGoods_TreatMaker_InvalidCount.message}}"
+                    }
+                ],
+            },
+        }
+    },
+
+     {
+        "LogName": "Set Blast Chiller Working Effects",
+        "Action": "EditData",
+        "Target": "Data/Machines",
+        "When":{"Atelier.Cauldron/ConfigValue:Barista":false},
+        "Fields": {
+            "(BC){{ModId}}_BlastChiller": {
+                "WorkingEffects": [
+                    {
+                        "Frames":[1,2,3,4,5,6],
+                        "Interval":100
+                    }
+                ],
+                "AdditionalConsumedItems":[
+                    {
+                        "ItemId":"(O)84",
+                        "RequiredCount": 1,
+                        "InvalidCountMessage":"{{i18n:AtelierGoods_BlastChiller_InvalidCount.message}}"
+                    }
+                ],
+            },
+          
+        }
+    },
+
+  ]
+}

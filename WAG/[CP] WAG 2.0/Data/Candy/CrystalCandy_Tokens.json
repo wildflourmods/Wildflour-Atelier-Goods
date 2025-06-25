@@ -1,0 +1,138 @@
+{
+   "Changes":[
+
+        {
+            "LogName": "Object Data Tokens - Amethyst_Peaks Crystal_Candy",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_SugarBoiler",
+                "ITEM_TYPE": "Crystal_Candy",
+                "ITEM_FLAVOR":"Amethyst_Peaks",
+                "INPUT1":"id_(O)66",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O)245",
+                "PRICE_MULTIPLIER": 2.5,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 220,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":26,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":612
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Aquamarine_Seas Crystal_Candy",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_SugarBoiler",
+                "ITEM_TYPE": "Crystal_Candy",
+                "ITEM_FLAVOR":"Aquamarine_Seas",
+                "INPUT1":"id_(O)62",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O)245",
+                "PRICE_MULTIPLIER": 2.5,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 220,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":26,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":611
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Emerald_Valleys Crystal_Candy",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_SugarBoiler",
+                "ITEM_TYPE": "Crystal_Candy",
+                "ITEM_FLAVOR":"Emerald_Valleys",
+                "INPUT1":"id_(O)60",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O)245",
+                "PRICE_MULTIPLIER": 2.5,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 220,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":26,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":610
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Ruby_Sands Crystal_Candy",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_SugarBoiler",
+                "ITEM_TYPE": "Crystal_Candy",
+                "ITEM_FLAVOR":"Ruby_Sands",
+                "INPUT1":"id_(O)64",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O)245",
+                "PRICE_MULTIPLIER": 2.5,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 220,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":26,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":608
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Starry_Skies Crystal_Candy",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_SugarBoiler",
+                "ITEM_TYPE": "Crystal_Candy",
+                "ITEM_FLAVOR":"Starry_Skies",
+                "INPUT1":"id_(O)578",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O)245",
+                "PRICE_MULTIPLIER": 2.5,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 220,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":26,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":613
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Topaz_Shores Crystal_Candy",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_SugarBoiler",
+                "ITEM_TYPE": "Crystal_Candy",
+                "ITEM_FLAVOR":"Topaz_Shores",
+                "INPUT1":"id_(O)68",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O)245",
+                "PRICE_MULTIPLIER": 2.5,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 220,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":26,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":609
+            }
+        }
+
+]
+}

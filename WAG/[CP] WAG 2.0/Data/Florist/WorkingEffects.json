@@ -1,0 +1,54 @@
+{
+  "Changes": [
+
+      {
+          "LogName": "Set WAG Floral Machines Working Effects",
+          "Action": "EditData",
+          "Target": "Data/Machines",
+          "Fields": {
+                "(BC){{ModId}}_FragranceStation": {
+                  "WorkingEffects":[
+                      {
+                          "Frames":[1,2,3,4,5,6,7],
+                          "Interval":100
+                      }
+                  ]
+              },
+                "(BC){{ModId}}_CandleStation": {
+                  "WorkingEffects":[
+                      {
+                          "Frames":[1,2,3,4,5,6],
+                          "Interval":100
+                      }
+                  ],
+                  "AdditionalConsumedItems":[
+                      {
+                          "ItemId":"(O)Wildflour.AtelierGoods_Honeycomb",
+                          "RequiredCount": 1,
+                          "InvalidCountMessage":"{{i18n:AtelierGoods_CandleStation_InvalidCount.message}}"
+                      }
+                  ],
+              }
+          }
+      },
+
+      {
+          "LogName": "Set WAG Floral Machines Working Effects",
+          "Action": "EditData",
+          "Target": "Data/Machines",
+          "When":{"Query: '{{Atelier.Cauldron/ConfigValue:DifficultyToggle}}'<>'Hybrid'":true},
+          "Fields": {
+              "(BC){{ModId}}_FlowerStation": {
+                  "WorkingEffects":[
+                      {
+                          "Frames":[1,2,3,4],
+                          "Interval":100
+                      }
+                  ]
+              },
+          }
+      },
+
+
+  ]
+}

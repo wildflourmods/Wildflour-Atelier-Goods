@@ -1,0 +1,244 @@
+{
+  "Changes": [
+
+      {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "When":{"Atelier.Cauldron/ConfigValue:DifficultyToggle":"Advanced"},
+            "Fields": {
+            //sachet
+                  "{{ModId}}_Alchemist_Blend_Sachet":{
+                        "ContextTags":["wildflour_item, wildflour_barista_item, sachet_item, color_salmon"]},
+                  "{{ModId}}_Blueberry_Matcha_Sachet":{
+                        "ContextTags":["wildflour_item, wildflour_barista_item, sachet_item, color_dark_cyan"]},
+                  "{{ModId}}_Cherry_Blossom_Matcha_Sachet":{
+                        "ContextTags":["wildflour_item, wildflour_barista_item, sachet_item, color_pink"]},
+                  "{{ModId}}_Cookie_Jar_Sachet":{
+                        "ContextTags":["wildflour_item, wildflour_barista_item, sachet_item, color_copper"]},
+                  "{{ModId}}_Good_Thyme_Sachet":{
+                        "ContextTags":["wildflour_item, wildflour_barista_item, sachet_item, color_copper"]},
+                  "{{ModId}}_Happy_Harvest_Sachet":{
+                        "ContextTags":["wildflour_item, wildflour_barista_item, sachet_item, color_red"]},
+                  "{{ModId}}_North_Pole_Sachet":{
+                        "ContextTags":["wildflour_item, wildflour_barista_item, sachet_item, color_dark_brown"]},
+                  "{{ModId}}_Pelican_Fog_Sachet":{
+                        "ContextTags":["wildflour_item, wildflour_barista_item, sachet_item, color_purple"]},
+                  "{{ModId}}_Plum_Chai_Sachet":{
+                        "ContextTags":["wildflour_item, wildflour_barista_item, sachet_item, color_poppyseed"]},
+                  "{{ModId}}_Positivitea_Sachet":{
+                        "ContextTags":["wildflour_item, wildflour_barista_item, sachet_item, color_pale_violet_red"]},
+                  "{{ModId}}_Sun_Room_Sachet":{
+                        "ContextTags":["wildflour_item, wildflour_barista_item, sachet_item, color_gold"]},
+                  "{{ModId}}_Sunny_Delight_Sachet":{
+                        "ContextTags":["wildflour_item, wildflour_barista_item, sachet_item, color_orange"]},
+            //tea
+                  "{{ModId}}_Alchemist_Blend_Tea":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, tea_item, color_salmon"]},
+                  "{{ModId}}_Blueberry_Matcha_Tea":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, tea_item, colordark_cyan_"]},
+                  "{{ModId}}_Cherry_Blossom_Matcha_Tea":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, tea_item, color_pink"]},
+                  "{{ModId}}_Cookie_Jar_Tea":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, tea_item, color_copper"]},
+                  "{{ModId}}_Good_Thyme_Tea":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, tea_item, color_copper"]},
+                  "{{ModId}}_Happy_Harvest_Tea":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, tea_item, color_red"]},
+                  "{{ModId}}_North_Pole_Tea":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, tea_item, color_dark_brown"]},
+                  "{{ModId}}_Pelican_Fog_Tea":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, tea_item, color_purple"]},
+                  "{{ModId}}_Plum_Chai_Tea":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, tea_item, color_poppyseed"]},
+                  "{{ModId}}_Positivitea_Tea":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, tea_item, color_pale_violet_red"]},
+                  "{{ModId}}_Sun_Room_Tea":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, tea_item, color_gold"]},
+                  "{{ModId}}_Sunny_Delight_Tea":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, tea_item, color_orange"]},
+            //boba
+                  "{{ModId}}_Alchemist_Blend_Boba":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, boba_item, color_salmon"]},
+                  "{{ModId}}_Blueberry_Matcha_Boba":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, boba_item, color_dark_cyan"]},
+                  "{{ModId}}_Cherry_Blossom_Matcha_Boba":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, boba_item, color_pink"]},
+                  "{{ModId}}_Cookie_Jar_Boba":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, boba_item, color_copper"]},
+                  "{{ModId}}_Good_Thyme_Boba":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, boba_item, color_copper"]},
+                  "{{ModId}}_Happy_Harvest_Boba":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, boba_item, color_red"]},
+                  "{{ModId}}_North_Pole_Boba":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, boba_item, color_dark_brown"]},
+                  "{{ModId}}_Pelican_Fog_Boba":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, boba_item, color_purple"]},
+                  "{{ModId}}_Plum_Chai_Boba":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, boba_item, color_poppyseed"]},
+                  "{{ModId}}_Positivitea_Boba":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, boba_item, color_pale_violet_red"]},
+                  "{{ModId}}_Sun_Room_Boba":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, boba_item, color_gold"]},
+                  "{{ModId}}_Sunny_Delight_Boba":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, boba_item, color_orange"]},
+            //kombucha
+                  "{{ModId}}_Alchemist_Blend_Kombucha":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, kombucha_item, color_salmon"]}, 
+                  "{{ModId}}_Blueberry_Matcha_Kombucha":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, kombucha_item, color_dark_cyan"]}, 
+                  "{{ModId}}_Cherry_Blossom_Matcha_Kombucha":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, kombucha_item, color_pink"]}, 
+                  "{{ModId}}_Cookie_Jar_Kombucha":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, kombucha_item, color_copper"]}, 
+                  "{{ModId}}_Good_Thyme_Kombucha":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, kombucha_item, color_copper"]}, 
+                  "{{ModId}}_Happy_Harvest_Kombucha":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, kombucha_item, color_red"]}, 
+                  "{{ModId}}_North_Pole_Kombucha":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, kombucha_item, color_dark_brown"]}, 
+                  "{{ModId}}_Pelican_Fog_Kombucha":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, kombucha_item, color_purple"]}, 
+                  "{{ModId}}_Plum_Chai_Kombucha":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, kombucha_item, color_poppyseed"]}, 
+                  "{{ModId}}_Positivitea_Kombucha":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, kombucha_item, color_pale_violet_red"]}, 
+                  "{{ModId}}_Sun_Room_Kombucha":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, kombucha_item, color_gold"]}, 
+                  "{{ModId}}_Sunny_Delight_Kombucha":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, kombucha_item, color_orange"]}, 
+            //groundcoffee
+                  "{{ModId}}_Amoretto_Ground_Coffee":{
+                        "ContextTags":["wildflour_item, wildflour_barista_item, ground_coffee_item, color_dark_brown"]}, 
+                  "{{ModId}}_Cinnamon_Bunny_Ground_Coffee":{
+                        "ContextTags":["wildflour_item, wildflour_barista_item, ground_coffee_item, color_dark_brown"]}, 
+                  "{{ModId}}_Coco_Cabana_Ground_Coffee":{
+                        "ContextTags":["wildflour_item, wildflour_barista_item, ground_coffee_item, color_dark_brown"]}, 
+                  "{{ModId}}_Early_Riser_Ground_Coffee":{
+                        "ContextTags":["wildflour_item, wildflour_barista_item, ground_coffee_item, color_dark_brown"]}, 
+                  "{{ModId}}_Mucha_Mocha_Ground_Coffee":{
+                        "ContextTags":["wildflour_item, wildflour_barista_item, ground_coffee_item, color_dark_brown"]}, 
+                  "{{ModId}}_Pistachio_Buzz_Ground_Coffee":{
+                        "ContextTags":["wildflour_item, wildflour_barista_item, ground_coffee_item, color_dark_brown"]}, 
+                  "{{ModId}}_Pumpkin_King_Ground_Coffee":{
+                        "ContextTags":["wildflour_item, wildflour_barista_item, ground_coffee_item, color_dark_brown"]}, 
+                  "{{ModId}}_Sleigh_Ride_Ground_Coffee":{
+                        "ContextTags":["wildflour_item, wildflour_barista_item, ground_coffee_item, color_dark_brown"]}, 
+                  "{{ModId}}_Sweetheart_Ground_Coffee":{
+                        "ContextTags":["wildflour_item, wildflour_barista_item, ground_coffee_item, color_dark_brown"]}, 
+                  "{{ModId}}_Warm_Vanilla_Sugar_Ground_Coffee":{
+                        "ContextTags":["wildflour_item, wildflour_barista_item, ground_coffee_item, color_dark_brown"]}, 
+            //latte
+                  "{{ModId}}_Amoretto_Latte":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, latte_item, color_dark_brown"]}, 
+                  "{{ModId}}_Cinnamon_Bunny_Latte":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, latte_item, color_dark_brown"]}, 
+                  "{{ModId}}_Coco_Cabana_Latte":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, latte_item, color_dark_brown"]}, 
+                  "{{ModId}}_Early_Riser_Latte":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, latte_item, color_dark_brown"]}, 
+                  "{{ModId}}_Mucha_Mocha_Latte":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, latte_item, color_dark_brown"]}, 
+                  "{{ModId}}_Pistachio_Buzz_Latte":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, latte_item, color_dark_brown"]}, 
+                  "{{ModId}}_Pumpkin_King_Latte":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, latte_item, color_dark_brown"]}, 
+                  "{{ModId}}_Sleigh_Ride_Latte":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, latte_item, color_dark_brown"]}, 
+                  "{{ModId}}_Sweetheart_Latte":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, latte_item, color_dark_brown"]}, 
+                  "{{ModId}}_Warm_Vanilla_Sugar_Latte":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, latte_item, color_dark_brown"]}, 
+            //iced lattes
+                  "{{ModId}}_Amoretto_Iced_Latte":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, iced_latte_item, color_dark_brown"]}, 
+                  "{{ModId}}_Cinnamon_Bunny_Iced_Latte":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, iced_latte_item, color_dark_brown"]}, 
+                  "{{ModId}}_Coco_Cabana_Iced_Latte":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, iced_latte_item, color_dark_brown"]}, 
+                  "{{ModId}}_Early_Riser_Iced_Latte":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, iced_latte_item, color_dark_brown"]}, 
+                  "{{ModId}}_Mucha_Mocha_Iced_Latte":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, iced_latte_item, color_dark_brown"]}, 
+                  "{{ModId}}_Pistachio_Buzz_Iced_Latte":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, iced_latte_item, color_dark_brown"]}, 
+                  "{{ModId}}_Pumpkin_King_Iced_Latte":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, iced_latte_item, color_dark_brown"]}, 
+                  "{{ModId}}_Sleigh_Ride_Iced_Latte":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, iced_latte_item, color_dark_brown"]}, 
+                  "{{ModId}}_Sweetheart_Iced_Latte":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, iced_latte_item, color_dark_brown"]}, 
+                  "{{ModId}}_Warm_Vanilla_Sugar_Iced_Latte":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, iced_latte_item, color_dark_brown"]}, 
+            //lemonade
+                  "{{ModId}}_Berry_Good_Thyme_Lemonade":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, lemonade_item, color_"]}, 
+                  "{{ModId}}_Chamomile_Mint_Lemonade":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, lemonade_item, color_"]}, 
+                  "{{ModId}}_Classic_Lemonade":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, lemonade_item, color_"]}, 
+                  "{{ModId}}_Green_Tea_Lemonade":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, lemonade_item, color_"]}, 
+                  "{{ModId}}_Lavender_Lemonade":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, lemonade_item, color_"]}, 
+                  "{{ModId}}_Minty_Hibiscus_Lemonade":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, lemonade_item, color_"]}, 
+                  "{{ModId}}_Orange_Blossom_Lemonade":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, lemonade_item, color_"]}, 
+                  "{{ModId}}_Peachy_Keen_Lemonade":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, lemonade_item, color_"]}, 
+                  "{{ModId}}_Strawberry_Rhubarb_Lemonade":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, lemonade_item, color_"]}, 
+                  "{{ModId}}_Rosey_Posey_Lemonade":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, lemonade_item, color_"]}, 
+            //smoothie
+                  "{{ModId}}_Cinnamon_Toast_Crunch_Smoothie":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, smoothie_item, color_sand"]}, 
+                  "{{ModId}}_Energizer_Bunny_Smoothie":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, smoothie_item, color_dark_brown"]}, 
+                  "{{ModId}}_Honey_Nut_Junimo_Smoothie":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, smoothie_item, color_sand"]}, 
+                  "{{ModId}}_Lady_Godiva_Smoothie":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, smoothie_item, color_dark_brown"]}, 
+                  "{{ModId}}_Lucky_Charms_Smoothie":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, smoothie_item, color_sea_green"]}, 
+                  "{{ModId}}_Mean_Green_Smoothie":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, smoothie_item, color_dark_green"]}, 
+                  "{{ModId}}_Monkey_Business_Smoothie":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, smoothie_item, color_sand"]}, 
+                  "{{ModId}}_Oops_All_Berries_Smoothie":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, smoothie_item, color_pink"]}, 
+                  "{{ModId}}_Sleepy_Hollow_Smoothie":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, smoothie_item, color_dark_orange"]}, 
+                  "{{ModId}}_Walkin_On_Sunshine_Smoothie":{
+                        "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, smoothie_item, color_gold"]}
+            }
+      },
+
+      {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "When": {"Query:('{{Atelier.Cauldron/ConfigValue:SimpleAddOn}}' ='true') OR ('{{Atelier.Cauldron/ConfigValue:DifficultyToggle}}'='Simple')":true },
+      "Fields": {
+            "{{ModId}}_Flavored_Sachet":{
+                  "ContextTags":["wildflour_item, wildflour_barista_item, sachet_item, color_sand"]},
+            "{{ModId}}_Flavored_Tea":{
+                  "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, tea_item, color_sand"]},
+            "{{ModId}}_Flavored_Boba":{
+                  "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, boba_item, color_sand"]},
+            "{{ModId}}_Flavored_Kombucha":{
+                  "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, kombucha_item, color_sand"]}, 
+            "{{ModId}}_Flavored_Ground_Coffee":{
+                  "ContextTags":["wildflour_item, wildflour_barista_item, ground_coffee_item, color_dark_brown"]}, 
+            "{{ModId}}_Flavored_Latte":{
+                  "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, latte_item, color_dark_brown"]}, 
+            "{{ModId}}_Flavored_Iced_Latte":{
+                  "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, iced_latte_item, color_dark_brown"]}, 
+            "{{ModId}}_Flavored_Lemonade":{
+                  "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, lemonade_item, color_yellow"]}, 
+            "{{ModId}}_Flavored_Smoothie":{
+                  "ContextTags":["drink_item, wildflour_item, wildflour_barista_item, smoothie_item, color_pink"]}, 
+      }
+      },
+
+]
+}

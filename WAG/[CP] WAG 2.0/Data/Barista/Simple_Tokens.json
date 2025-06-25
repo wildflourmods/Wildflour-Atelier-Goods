@@ -1,0 +1,192 @@
+
+{
+    "Changes": [
+
+        {
+            "LogName": "Barista Simple Data: CoffeeGrinder - Flavored Ground_Coffee",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Simple.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CoffeeGrinder",
+                "ITEM_TYPE": "Ground_Coffee",
+                "INPUT_TYPE":"",
+                "ITEM_FLAVOR":"Flavored",
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "PRICE_MULTIPLIER": 2.2,
+                "PRICE_ADDER": 75,
+                "MINUTES_UNTIL_READY": 800,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":169
+            }
+        },
+
+        {
+            "LogName": "Barista Simple Data: TeaProcessor - Flavored Sachet",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Simple.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_TeaProcessor",
+                "ITEM_TYPE": "Sachet",
+                "INPUT_TYPE":"",
+                "ITEM_FLAVOR":"Flavored",
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "PRICE_MULTIPLIER": 2.4,
+                "PRICE_ADDER": 50,
+                "MINUTES_UNTIL_READY": 1000,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":206
+            }
+        },
+
+        {
+            "LogName": "Barista Simple Data: KitchenBlender - Flavored Smoothie",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Simple.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_KitchenBlender",
+                "ITEM_TYPE": "Smoothie",
+                "INPUT_TYPE":"",
+                "ITEM_FLAVOR":"Flavored",
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "PRICE_MULTIPLIER": 3.0,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 600,
+                "EDIBILITY":0,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":262
+            }
+        },
+
+        {
+            "LogName": "Barista Simple Data: TeaKettle - Flavored Tea",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Simple.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_TeaKettle",
+                "ITEM_TYPE": "Tea",
+                "INPUT_TYPE":"Sachet",
+                "ITEM_FLAVOR":"Flavored",
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "PRICE_MULTIPLIER": 6.0,
+                "PRICE_ADDER": 100,
+                "MINUTES_UNTIL_READY": 300,
+                "EDIBILITY":0,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":256
+            }
+        },
+        {
+            "LogName": "Barista Simple Data: CoffeeBrewer - Flavored Latte",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Simple.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CoffeeBrewer",
+                "ITEM_TYPE": "Latte",
+                "INPUT_TYPE":"Ground_Coffee",
+                "ITEM_FLAVOR":"Flavored",
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "PRICE_MULTIPLIER": 5.5,
+                "PRICE_ADDER": 150,
+                "MINUTES_UNTIL_READY": 400,
+                "EDIBILITY":25,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":171
+            }
+        },
+        {
+            "LogName": "Barista Simple Data: BlastChiller - Flavored Iced Latte",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Simple.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_BlastChiller",
+                "ITEM_TYPE": "Iced_Latte",
+                "INPUT_TYPE":"Ground_Coffee",
+                "ITEM_FLAVOR":"Flavored",
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "PRICE_MULTIPLIER": 3.75,
+                "PRICE_ADDER": 60,
+                "MINUTES_UNTIL_READY": 300,
+                "EDIBILITY":25,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":173
+            }
+        },
+        {
+            "LogName": "Barista Simple Data: BlastChiller - Flavored Boba",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Simple.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_BlastChiller",
+                "ITEM_TYPE": "Boba",
+                "INPUT_TYPE":"Tea",
+                "ITEM_FLAVOR":"Flavored",
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "PRICE_MULTIPLIER": 3.75,
+                "PRICE_ADDER": 60,
+                "MINUTES_UNTIL_READY": 300,
+                "EDIBILITY":0,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":264
+            }
+        },
+        {
+            "LogName": "Barista Simple Data: Keg - Flavored Kombucha",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Simple.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": 12,
+                "ITEM_TYPE": "Kombucha",
+                "INPUT_TYPE":"Tea",
+                "ITEM_FLAVOR":"Flavored",
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "PRICE_MULTIPLIER": 5.0,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 900,
+                "EDIBILITY":0,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":258
+            }
+        },
+
+        {
+            "LogName": "Barista Simple Data: - Flavored Lemonade",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Simple.json",
+             "When":{"Atelier.Cauldron/ConfigValue:WildFood":true},
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_LemonadeStand",
+                "ITEM_TYPE": "Lemonade",
+                "INPUT_TYPE":"",
+                "ITEM_FLAVOR":"Flavored",
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "PRICE_MULTIPLIER": 2.2,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 600,
+                "EDIBILITY":20,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":260
+            }
+        }
+
+    ]
+}

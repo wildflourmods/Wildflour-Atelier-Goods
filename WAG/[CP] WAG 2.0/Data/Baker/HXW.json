@@ -1,0 +1,290 @@
+{
+    "Changes":[
+
+        {
+            "LogName": "Add Optional Indoor Items for WAG",
+            "Action": "EditData",
+            "Target": "Data/Buildings",
+            "TargetField":["{{ModId}}_BakeryBuilding", "IndoorItems"],
+            "When": { "HasMod: |contains=HXW.Buildings_BakeryShed, HXW.Buildings_Complete": true},
+            "Entries": {
+                "{{ModId}}_BakeryBuilding_Oven":  {
+                    "Id": "Bakery_Oven",
+                    "ItemId": "(BC)Wildflour.AtelierGoods_Oven",
+                    "Tile": {
+                      "X": 6,
+                      "Y": 28
+                    },
+                    "Indestructible": false
+                  },
+                "{{ModId}}_BakeryBuilding_CakeStation":  {
+                    "Id": "Bakery_CakeStation",
+                    "ItemId": "(BC)Wildflour.AtelierGoods_Cake_Station",
+                    "Tile": {
+                      "X": 7,
+                      "Y": 28
+                    },
+                    "Indestructible": false
+                  },
+                "{{ModId}}_BakeryBuilding_Dessert_Stand":  {
+                    "Id": "Bakery_DessertStand",
+                    "ItemId": "(BC)Wildflour.AtelierGoods_Dessert_Stand",
+                    "Tile": {
+                      "X": 8,
+                      "Y": 28
+                    },
+                    "Indestructible": false
+                  },
+                "{{ModId}}_BakeryBuilding_Pie_Station":  {
+                    "Id": "Bakery_PieStation",
+                    "ItemId": "(BC)Wildflour.AtelierGoods_Pie_Station",
+                    "Tile": {
+                      "X": 9,
+                      "Y": 28
+                    },
+                    "Indestructible": false
+                  },
+                "{{ModId}}_BakeryBuilding_Mixer":  {
+                    "Id": "Bakery_PieStation",
+                    "ItemId": "(BC)Wildflour.AtelierGoods_Mixer",
+                    "Tile": {
+                      "X": 10,
+                      "Y": 28
+                    },
+                    "Indestructible": false
+                  },
+                "{{ModId}}_BakeryBuilding_Deluxe_Dessert_Stand":  {
+                    "Id": "Bakery_PieStation",
+                    "ItemId": "(BC)Wildflour.AtelierGoods_Deluxe_Dessert_Stand",
+                    "Tile": {
+                      "X": 11,
+                      "Y": 28
+                    },
+                    "Indestructible": false
+                  }
+            }
+        },
+
+
+        //small bakery buffs
+         {
+          "LogName": "Add Bakery Buffs WAG Oven",
+          "Action": "EditData",
+          "Target": "Data/Machines",
+          "TargetField": ["(BC)Wildflour.AtelierGoods_Oven","ReadyTimeModifiers"],
+          "When": { "HasMod: |contains=Atelier.Cauldron": true, "Atelier.Cauldron/ConfigValue:Baker":true },
+          "Priority":"Late",
+			    "Entries": {
+              "HXW.Buildings_Bakery_WAG_Oven_SpeedyBuff": {
+                "Id": "HXW.Buildings_Bakery_WAG_Oven_SpeedyBuff",
+                "Condition": "LOCATION_NAME Target {{ModId}}_BakeryBuilding",
+                "Modification": "Multiply",
+                "Amount": "0.85"
+              }
+          }
+        },
+        {
+          "LogName": "Add Bakery Buffs WAG Rolling_Pin",
+          "Action": "EditData",
+          "Target": "Data/Machines",
+          "TargetField": ["(BC)Wildflour.AtelierGoods_Rolling_Pin","ReadyTimeModifiers"],
+             "When": { "HasMod: |contains=Atelier.Cauldron": true, "Atelier.Cauldron/ConfigValue:Baker":true },
+          "Priority":"Late",
+			    "Entries": {
+              "HXW.Buildings_Bakery_WAG_Rolling_Pin_SpeedyBuff": {
+                "Id": "HXW.Buildings_Bakery_WAG_Rolling_Pin_SpeedyBuff",
+                "Condition": "LOCATION_NAME Target {{ModId}}_BakeryBuilding",
+                "Modification": "Multiply",
+                "Amount": "0.85"
+              }
+          }
+        },
+
+        {
+          "LogName": "Add Bakery Buffs WAG Mixer",
+          "Action": "EditData",
+          "Target": "Data/Machines",
+          "TargetField": ["(BC)Wildflour.AtelierGoods_Mixer","ReadyTimeModifiers"],
+          "When": { "HasMod: |contains=Atelier.Cauldron": true, "Atelier.Cauldron/ConfigValue:Baker":true,"Query: '{{Atelier.Cauldron/ConfigValue:DifficultyToggle}}'<>'Hybrid'":true },
+          "Priority":"Late",
+			    "Entries": {
+              "HXW.Buildings_Bakery_WAG_Mixer_SpeedyBuff": {
+                "Id": "HXW.Buildings_Bakery_WAG_Mixer_SpeedyBuff",
+                "Condition": "LOCATION_NAME Target {{ModId}}_BakeryBuilding",
+                "Modification": "Multiply",
+                "Amount": "0.85"
+              }
+          }
+        },
+        {
+          "LogName": "Add Bakery Buffs WAG Pie_Station",
+          "Action": "EditData",
+          "Target": "Data/Machines",
+          "TargetField": ["(BC)Wildflour.AtelierGoods_Pie_Station","ReadyTimeModifiers"],
+             "When": { "HasMod: |contains=Atelier.Cauldron": true, "Atelier.Cauldron/ConfigValue:Baker":true, "Query: '{{Atelier.Cauldron/ConfigValue:DifficultyToggle}}'<>'Hybrid'":true },
+          "Priority":"Late",
+			    "Entries": {
+              "HXW.Buildings_Bakery_WAG_Pie_Station_SpeedyBuff": {
+                "Id": "HXW.Buildings_Bakery_WAG_Pie_Station_SpeedyBuff",
+                "Condition": "LOCATION_NAME Target {{ModId}}_BakeryBuilding",
+                "Modification": "Multiply",
+                "Amount": "0.85"
+              }
+          }
+        },
+
+        {
+          "LogName": "Add Bakery Buffs WAG Cake_Station",
+          "Action": "EditData",
+          "Target": "Data/Machines",
+          "TargetField": ["(BC)Wildflour.AtelierGoods_Cake_Station","ReadyTimeModifiers"],
+          "When": { "HasMod: |contains=Atelier.Cauldron": true, "Atelier.Cauldron/ConfigValue:Baker":true },
+          "Priority":"Late",
+			    "Entries": {
+              "HXW.Buildings_Bakery_WAG_Cake_Station_SpeedyBuff": {
+                "Id": "HXW.Buildings_Bakery_WAG_Cake_Station_SpeedyBuff",
+                "Condition": "LOCATION_NAME Target {{ModId}}_BakeryBuilding",
+                "Modification": "Multiply",
+                "Amount": "0.85"
+              }
+          }
+        },
+        {
+          "LogName": "Add Bakery Buffs WAG Dessert_Stand",
+          "Action": "EditData",
+          "Target": "Data/Machines",
+          "TargetField": ["(BC)Wildflour.AtelierGoods_Dessert_Stand","ReadyTimeModifiers"],
+             "When": { "HasMod: |contains=Atelier.Cauldron": true, "Atelier.Cauldron/ConfigValue:Baker":true, "Query: '{{Atelier.Cauldron/ConfigValue:DifficultyToggle}}'<>'Hybrid'":true },
+          "Priority":"Late",
+			    "Entries": {
+              "HXW.Buildings_Bakery_WAG_Dessert_Stand_SpeedyBuff": {
+                "Id": "HXW.Buildings_Bakery_WAG_Dessert_Stand_SpeedyBuff",
+                "Condition": "LOCATION_NAME Target {{ModId}}_BakeryBuilding",
+                "Modification": "Multiply",
+                "Amount": "0.85"
+              }
+          }
+        },
+
+        //large bakery buffs
+
+         {
+          "LogName": "Add Large Bakery Buffs WAG Oven",
+          "Action": "EditData",
+          "Target": "Data/Machines",
+          "TargetField": ["(BC)Wildflour.AtelierGoods_Oven","ReadyTimeModifiers"],
+          "When": { "HasMod: |contains=Atelier.Cauldron": true, "Atelier.Cauldron/ConfigValue:Baker":true },
+          "Priority":"Late",
+			    "Entries": {
+              "HXW.Buildings_Bakery_WAG_Oven_SpeedyBuff": {
+                "Id": "HXW.Buildings_Bakery_WAG_Oven_SpeedyBuff",
+                "Condition": "LOCATION_NAME Target {{ModId}}_BakeryBuildingLarge",
+                "Modification": "Multiply",
+                "Amount": ".75"
+              }
+          }
+        },
+        
+        {
+          "LogName": "Add Large Bakery Buffs WAG Rolling Pin",
+          "Action": "EditData",
+          "Target": "Data/Machines",
+          "TargetField": ["(BC)Wildflour.AtelierGoods_Rolling_Pin","ReadyTimeModifiers"],
+          "When": { "HasMod: |contains=Atelier.Cauldron": true, "Atelier.Cauldron/ConfigValue:Baker":true },
+          "Priority":"Late",
+			    "Entries": {
+              "HXW.Buildings_Bakery_WAG_Rolling_Pin_SpeedyBuff": {
+                "Id": "HXW.Buildings_Bakery_WAG_Rolling_Pin_SpeedyBuff",
+                "Condition": "LOCATION_NAME Target {{ModId}}_BakeryBuildingLarge",
+                "Modification": "Multiply",
+                "Amount": ".75"
+              }
+          }
+        },
+
+        {
+          "LogName": "Add Large Bakery Buffs WAG Dessert_Stand",
+          "Action": "EditData",
+          "Target": "Data/Machines",
+          "TargetField": ["(BC)Wildflour.AtelierGoods_Dessert_Stand","ReadyTimeModifiers"],
+          "When": { "HasMod: |contains=Atelier.Cauldron": true, "Atelier.Cauldron/ConfigValue:Baker":true, "Query: '{{Atelier.Cauldron/ConfigValue:DifficultyToggle}}'<>'Hybrid'":true },
+          "Priority":"Late",
+			    "Entries": {
+              "HXW.Buildings_Bakery_WAG_Dessert_Stand_SpeedyBuff": {
+                "Id": "HXW.Buildings_Bakery_WAG_Dessert_Stand_SpeedyBuff",
+                "Condition": "LOCATION_NAME Target {{ModId}}_BakeryBuildingLarge",
+                "Modification": "Multiply",
+                "Amount": "0.85"
+              }
+          }
+        },
+
+         {
+          "LogName": "Add Large Bakery Buffs WAG Mixer",
+          "Action": "EditData",
+          "Target": "Data/Machines",
+          "TargetField": ["(BC)Wildflour.AtelierGoods_Mixer","ReadyTimeModifiers"],
+          "When": { "HasMod: |contains=Atelier.Cauldron": true, "Atelier.Cauldron/ConfigValue:Baker":true,"Query: '{{Atelier.Cauldron/ConfigValue:DifficultyToggle}}'<>'Hybrid'":true },
+          "Priority":"Late",
+			    "Entries": {
+              "HXW.Buildings_Bakery_WAG_Mixer_SpeedyBuff": {
+                "Id": "HXW.Buildings_Bakery_WAG_Mixer_SpeedyBuff",
+                "Condition": "LOCATION_NAME Target {{ModId}}_BakeryBuildingLarge",
+                "Modification": "Multiply",
+                "Amount": "0.85"
+              }
+          }
+        },
+        {
+          "LogName": "Add Large Bakery Buffs WAG Pie_Station",
+          "Action": "EditData",
+          "Target": "Data/Machines",
+          "TargetField": ["(BC)Wildflour.AtelierGoods_Pie_Station","ReadyTimeModifiers"],
+             "When": { "HasMod: |contains=Atelier.Cauldron": true, "Atelier.Cauldron/ConfigValue:Baker":true, "Query: '{{Atelier.Cauldron/ConfigValue:DifficultyToggle}}'<>'Hybrid'":true },
+          "Priority":"Late",
+			    "Entries": {
+              "HXW.Buildings_Bakery_WAG_Pie_Station_SpeedyBuff": {
+                "Id": "HXW.Buildings_Bakery_WAG_Pie_Station_SpeedyBuff",
+                "Condition": "LOCATION_NAME Target {{ModId}}_BakeryBuildingLarge",
+                "Modification": "Multiply",
+                "Amount": "0.85"
+              }
+          }
+        },
+
+        {
+          "LogName": "Add Large Bakery Buffs WAG Cake_Station",
+          "Action": "EditData",
+          "Target": "Data/Machines",
+          "TargetField": ["(BC)Wildflour.AtelierGoods_Cake_Station","ReadyTimeModifiers"],
+          "When": { "HasMod: |contains=Atelier.Cauldron": true, "Atelier.Cauldron/ConfigValue:Baker":true },
+          "Priority":"Late",
+			    "Entries": {
+              "HXW.Buildings_Bakery_WAG_Cake_Station_SpeedyBuff": {
+                "Id": "HXW.Buildings_Bakery_WAG_Cake_Station_SpeedyBuff",
+                "Condition": "LOCATION_NAME Target {{ModId}}_BakeryBuildingLarge",
+                "Modification": "Multiply",
+                "Amount": "0.85"
+              }
+          }
+        },
+        {
+          "LogName": "Add Large Bakery Buffs WAG Dessert_Stand",
+          "Action": "EditData",
+          "Target": "Data/Machines",
+          "TargetField": ["(BC)Wildflour.AtelierGoods_Deluxe_Dessert_Stand","ReadyTimeModifiers"],
+          "When": { "HasMod: |contains=Atelier.Cauldron": true, "Atelier.Cauldron/ConfigValue:Baker":true, "Query: '{{Atelier.Cauldron/ConfigValue:DifficultyToggle}}'<>'Hybrid'":true },
+          "Priority":"Late",
+			    "Entries": {
+              "HXW.Buildings_Bakery_WAG_Deluxe_Dessert_Stand_SpeedyBuff": {
+                "Id": "HXW.Buildings_Bakery_WAG_Deluxe_Dessert_Stand_SpeedyBuff",
+                "Condition": "LOCATION_NAME Target {{ModId}}_BakeryBuildingLarge",
+                "Modification": "Multiply",
+                "Amount": "0.85"
+              }
+          }
+        },
+
+        
+    ]
+}

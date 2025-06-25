@@ -1,0 +1,1547 @@
+{
+
+  "Changes": [
+
+  {
+      "LogName": "Adjust Basic Mixes with SpaceCore",
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/CookingRecipeOverrides",
+      "When":{"Query: '{{Atelier.Cauldron/ConfigValue:DifficultyToggle}}'<>'Hybrid'":true},
+      "Entries": {
+        "{{ModId}}_Cake_Mix": {
+          "ProductQualifiedId": "(O){{ModId}}_Cake_Mix",
+          "ProductAmount": 5,
+          "Ingredients": [
+                       {
+              "Type": "Item",
+              "Value": "(O){{ModId}}_Cake_Flour",
+              "Amount": 1
+            },
+            {
+              "Type": "Item",
+              "Value": "(O)245",
+              "Amount": 1
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "butter_item",
+              "Amount": 1,
+              "OverrideText": "Any Butter",
+              "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+              "OverrideTextureRect": {
+                "X": 0,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+              }
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "category_egg",
+              "Amount": 1,
+              "OverrideText": "Any Egg",
+              "OverrideTexturePath": "maps/springobjects",
+              "OverrideTextureRect": {
+                "X": 128,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+              },
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "category_milk",
+              "Amount": 1,
+              "OverrideText": "Any Milk",
+              "OverrideTexturePath": "Maps/springobjects",
+              "OverrideTextureRect": {
+                "X": 256,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+              },
+            },
+          ]
+        },
+        "{{ModId}}_Muffin_Mix": {
+          "ProductQualifiedId": "(O){{ModId}}_Muffin_Mix",
+          "ProductAmount": 5,
+          "Ingredients": [
+            {
+              "Type": "Item",
+              "Value": "(O)246",
+              "Amount": 1
+            },
+            {
+              "Type": "Item",
+              "Value": "(O)247",
+              "Amount": 1
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "brown_sugar_item",
+              "Amount": 1,
+              "OverrideText": "Brown Sugar",
+              "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+              "OverrideTextureRect": {
+                "X": 192,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+              }
+            },
+        
+            {
+              "Type": "ContextTag",
+              "Value": "category_egg",
+              "Amount": 1,
+              "OverrideText": "Any Egg",
+              "OverrideTexturePath": "Maps/springobjects",
+              "OverrideTextureRect": {
+                "X": 128,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+              },
+            },
+          
+          
+          ]
+        },
+        "{{ModId}}_Bread_Mix": {
+          "ProductQualifiedId": "(O){{ModId}}_Bread_Mix",
+          "ProductAmount": 5,
+          "Ingredients": [
+            {
+              "Type": "Item",
+              "Value": "(O)245",
+              "Amount": 1
+            },
+            {
+              "Type": "Item",
+              "Value": "(O)247",
+              "Amount": 1
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "bread_flour_item",
+              "Amount": 1,
+              "OverrideText": "Bread Flour",
+              "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+              "OverrideTextureRect": {
+                "X": 96,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+              }
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "category_egg",
+              "Amount": 1,
+              "OverrideText": "Any Egg",
+              "OverrideTexturePath": "Maps/springobjects",
+              "OverrideTextureRect": {
+                "X": 128,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+              },
+            },
+          
+          
+          ]
+        },
+        "{{ModId}}_Cookie_Mix": {
+          "ProductQualifiedId": "(O){{ModId}}_Cookie_Mix",
+          "ProductAmount": 5,
+          "Ingredients": [
+            {
+              "Type": "Item",
+              "Value": "(O)245",
+              "Amount": 1
+            },
+            {
+              "Type": "Item",
+              "Value": "(O)246",
+              "Amount": 1
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "brown_sugar_item",
+              "Amount": 1,
+              "OverrideText": "Brown Sugar",
+              "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+              "OverrideTextureRect": {
+                "X": 192,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+              }
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "butter_item",
+              "Amount": 1,
+              "OverrideText": "Butter",
+              "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+              "OverrideTextureRect": {
+                "X": 0,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+              }
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "category_egg",
+              "Amount": 1,
+              "OverrideText": "Any Egg",
+              "OverrideTexturePath": "Maps/springobjects",
+              "OverrideTextureRect": {
+                "X": 128,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+              },
+            },
+          
+          
+          ]
+        },
+        "{{ModId}}_Pie_Mix": {
+          "ProductQualifiedId": "(O){{ModId}}_Pie_Mix",
+          "ProductAmount": 5,
+          "Ingredients": [
+            {
+              "Type": "Item",
+              "Value": "(O)245",
+              "Amount": 1
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "pastry_flour_item",
+              "Amount": 1,
+              "OverrideText": "Pastry Flour",
+              "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+              "OverrideTextureRect": {
+                "X": 160,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+              }
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "butter_item",
+              "Amount": 1,
+              "OverrideText": "Butter",
+              "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+              "OverrideTextureRect": {
+                "X": 0,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+              }
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "category_egg",
+              "Amount": 1,
+              "OverrideText": "Any Egg",
+              "OverrideTexturePath": "Maps/springobjects",
+              "OverrideTextureRect": {
+                "X": 128,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+              },
+            },
+          
+          
+          ]
+        },
+        }
+  },
+
+    {
+      "LogName": "Adjust Hybrid Bakery Recipes with SpaceCore",
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/CookingRecipeOverrides",
+      "When":{"Atelier.Cauldron/ConfigValue:DifficultyToggle":"Hybrid"},
+      "Entries": {
+        "{{ModId}}_Muffin_Mix": {
+          "ProductQualifiedId": "(O){{ModId}}_Muffin_Mix",
+          "ProductAmount": 5,
+          "Ingredients": [
+            {
+              "Type": "Item",
+              "Value": "(O)246",
+              "Amount": 1
+            },
+            {
+              "Type": "Item",
+              "Value": "(O)247",
+              "Amount": 1
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "brown_sugar_item",
+              "Amount": 1,
+              "OverrideText": "Brown Sugar",
+              "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+              "OverrideTextureRect": {
+                "X": 192,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+              }
+            },
+        
+            {
+              "Type": "ContextTag",
+              "Value": "category_egg",
+              "Amount": 1,
+              "OverrideText": "Any Egg",
+              "OverrideTexturePath": "Maps/springobjects",
+              "OverrideTextureRect": {
+                "X": 128,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+              },
+            },
+          
+          
+          ]
+        },
+        "{{ModId}}_Bread_Mix": {
+          "ProductQualifiedId": "(O){{ModId}}_Bread_Mix",
+          "ProductAmount": 5,
+          "Ingredients": [
+            {
+              "Type": "Item",
+              "Value": "(O)245",
+              "Amount": 1
+            },
+            {
+              "Type": "Item",
+              "Value": "(O)247",
+              "Amount": 1
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "bread_flour_item",
+              "Amount": 1,
+              "OverrideText": "Bread Flour",
+              "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+              "OverrideTextureRect": {
+                "X": 96,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+              }
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "category_egg",
+              "Amount": 1,
+              "OverrideText": "Any Egg",
+              "OverrideTexturePath": "Maps/springobjects",
+              "OverrideTextureRect": {
+                "X": 128,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+              },
+            },
+          
+          
+          ]
+        },
+        "{{ModId}}_Cookie_Mix": {
+          "ProductQualifiedId": "(O){{ModId}}_Cookie_Mix",
+          "ProductAmount": 5,
+          "Ingredients": [
+            {
+              "Type": "Item",
+              "Value": "(O)245",
+              "Amount": 1
+            },
+            {
+              "Type": "Item",
+              "Value": "(O)246",
+              "Amount": 1
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "brown_sugar_item",
+              "Amount": 1,
+              "OverrideText": "Brown Sugar",
+              "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+              "OverrideTextureRect": {
+                "X": 192,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+              }
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "butter_item",
+              "Amount": 1,
+              "OverrideText": "Butter",
+              "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+              "OverrideTextureRect": {
+                "X": 0,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+              }
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "category_egg",
+              "Amount": 1,
+              "OverrideText": "Any Egg",
+              "OverrideTexturePath": "Maps/springobjects",
+              "OverrideTextureRect": {
+                "X": 128,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+              },
+            },
+          
+          
+          ]
+        },
+        "{{ModId}}_Pie_Mix": {
+          "ProductQualifiedId": "(O){{ModId}}_Pie_Mix",
+          "ProductAmount": 5,
+          "Ingredients": [
+            {
+              "Type": "Item",
+              "Value": "(O)245",
+              "Amount": 1
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "pastry_flour_item",
+              "Amount": 1,
+              "OverrideText": "Pastry Flour",
+              "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+              "OverrideTextureRect": {
+                "X": 160,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+              }
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "butter_item",
+              "Amount": 1,
+              "OverrideText": "Butter",
+              "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+              "OverrideTextureRect": {
+                "X": 0,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+              }
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "category_egg",
+              "Amount": 1,
+              "OverrideText": "Any Egg",
+              "OverrideTexturePath": "Maps/springobjects",
+              "OverrideTextureRect": {
+                "X": 128,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+              },
+            },
+          
+          
+          ]
+        },
+         "{{ModId}}_Vanilla_Cake_Mix": {
+          "ProductQualifiedId": "(O){{ModId}}_Vanilla_Cake_Mix",
+          "ProductAmount": 5,
+          "Ingredients": [
+                      {
+              "Type": "Item",
+              "Value": "(O){{ModId}}_Cake_Flour",
+              "Amount": 1
+            },
+            {
+              "Type": "Item",
+              "Value": "(O)245",
+              "Amount": 1
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "butter_item",
+              "Amount": 1,
+              "OverrideText": "Any Butter",
+              "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+              "OverrideTextureRect": {
+                "X": 0,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+              }
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "category_egg",
+              "Amount": 1,
+              "OverrideText": "Any Egg",
+              "OverrideTexturePath": "maps/springobjects",
+              "OverrideTextureRect": {
+                "X": 128,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+              },
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "category_milk",
+              "Amount": 1,
+              "OverrideText": "Any Milk",
+              "OverrideTexturePath": "Maps/springobjects",
+              "OverrideTextureRect": {
+                "X": 256,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+              },
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "vanilla_item",
+              "Amount": 1,
+              "OverrideText": "{{i18n:vanilla_item}}",
+              "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+              "OverrideTextureRect": {
+                "X": 80,
+                "Y": 48,
+                "Width": 16,
+                "Height": 16
+              }
+            },
+          
+          
+          ]
+        },
+        "{{ModId}}_Chocolate_Cake_Mix": {
+          "ProductQualifiedId": "(O){{ModId}}_Chocolate_Cake_Mix",
+          "ProductAmount": 5,
+          "Ingredients": [
+                      {
+              "Type": "Item",
+              "Value": "(O){{ModId}}_Cake_Flour",
+              "Amount": 1
+            },
+            {
+              "Type": "Item",
+              "Value": "(O)245",
+              "Amount": 1
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "butter_item",
+              "Amount": 1,
+              "OverrideText": "Any Butter",
+              "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+              "OverrideTextureRect": {
+                "X": 0,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+              }
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "category_egg",
+              "Amount": 1,
+              "OverrideText": "Any Egg",
+              "OverrideTexturePath": "maps/springobjects",
+              "OverrideTextureRect": {
+                "X": 128,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+              },
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "category_milk",
+              "Amount": 1,
+              "OverrideText": "Any Milk",
+              "OverrideTexturePath": "Maps/springobjects",
+              "OverrideTextureRect": {
+                "X": 256,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+              },
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "cocoa_item",
+              "Amount": 1,
+              "OverrideText": "{{i18n:cocoa_item}}",
+              "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+              "OverrideTextureRect": {
+                "X": 64,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+              }
+            },
+
+          
+          
+          ]
+        },
+        "{{ModId}}_Strawberry_Cake_Mix": {
+          "ProductQualifiedId": "(O){{ModId}}_Strawberry_Cake_Mix",
+          "ProductAmount": 5,
+          "Ingredients": [
+            {
+              "Type": "Item",
+              "Value": "(O){{ModId}}_Cake_Flour",
+              "Amount": 1
+            },
+            {
+              "Type": "Item",
+              "Value": "(O)245",
+              "Amount": 1
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "butter_item",
+              "Amount": 1,
+              "OverrideText": "Any Butter",
+              "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+              "OverrideTextureRect": {
+                "X": 0,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+              }
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "category_egg",
+              "Amount": 1,
+              "OverrideText": "Any Egg",
+              "OverrideTexturePath": "maps/springobjects",
+              "OverrideTextureRect": {
+                "X": 128,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+              },
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "category_milk",
+              "Amount": 1,
+              "OverrideText": "Any Milk",
+              "OverrideTexturePath": "Maps/springobjects",
+              "OverrideTextureRect": {
+                "X": 256,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+              },
+            },
+            {
+              "Type": "Item",
+              "Value": "(O)400",
+              "Amount": 1,
+            },
+        ]
+        },
+        "{{ModId}}_Red_Velvet_Cake_Mix": {
+          "ProductQualifiedId": "(O){{ModId}}_Red_Velvet_Cake_Mix",
+          "ProductAmount": 5,
+          "Ingredients": [
+           {
+              "Type": "Item",
+              "Value": "(O){{ModId}}_Cake_Flour",
+              "Amount": 1
+            },
+            {
+              "Type": "Item",
+              "Value": "(O)245",
+              "Amount": 1
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "butter_item",
+              "Amount": 1,
+              "OverrideText": "Any Butter",
+              "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+              "OverrideTextureRect": {
+                "X": 0,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+              }
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "category_egg",
+              "Amount": 1,
+              "OverrideText": "Any Egg",
+              "OverrideTexturePath": "maps/springobjects",
+              "OverrideTextureRect": {
+                "X": 128,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+              },
+            },
+            {
+              "Type": "Item",
+              "Value": "(O){{ModId}}_Buttermilk",
+              "Amount": 1,
+            },
+            {
+              "Type": "Item",
+              "Value": "(O)284",
+              "Amount": 1,
+            },
+        ]
+        },
+        "{{ModId}}_Lemon_Cake_Mix": {
+          "ProductQualifiedId": "(O){{ModId}}_Lemon_Cake_Mix",
+          "ProductAmount": 5,
+          "Ingredients": [
+                      {
+              "Type": "Item",
+              "Value": "(O){{ModId}}_Cake_Flour",
+              "Amount": 1
+            },
+            {
+              "Type": "Item",
+              "Value": "(O)245",
+              "Amount": 1
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "butter_item",
+              "Amount": 1,
+              "OverrideText": "Any Butter",
+              "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+              "OverrideTextureRect": {
+                "X": 0,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+              }
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "category_egg",
+              "Amount": 1,
+              "OverrideText": "Any Egg",
+              "OverrideTexturePath": "maps/springobjects",
+              "OverrideTextureRect": {
+                "X": 128,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+              },
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "category_milk",
+              "Amount": 1,
+              "OverrideText": "Any Milk",
+              "OverrideTexturePath": "Maps/springobjects",
+              "OverrideTextureRect": {
+                "X": 256,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+              },
+            },
+            {
+              "Type": "Item",
+              "Value": "(O){{ModId}}_Lemon_Juice",
+              "Amount": 1,
+            },
+        ]
+        },
+        "{{ModId}}_Coconut_Cake_Mix": {
+          "ProductQualifiedId": "(O){{ModId}}_Coconut_Cake_Mix",
+          "ProductAmount": 5,
+          "Ingredients": [
+                      {
+              "Type": "Item",
+              "Value": "(O){{ModId}}_Cake_Flour",
+              "Amount": 1
+            },
+            {
+              "Type": "Item",
+              "Value": "(O)245",
+              "Amount": 1
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "butter_item",
+              "Amount": 1,
+              "OverrideText": "Any Butter",
+              "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+              "OverrideTextureRect": {
+                "X": 0,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+              }
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "category_egg",
+              "Amount": 1,
+              "OverrideText": "Any Egg",
+              "OverrideTexturePath": "maps/springobjects",
+              "OverrideTextureRect": {
+                "X": 128,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+              },
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "category_milk",
+              "Amount": 1,
+              "OverrideText": "Any Milk",
+              "OverrideTexturePath": "Maps/springobjects",
+              "OverrideTextureRect": {
+                "X": 256,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+              },
+            },
+            {
+              "Type": "Item",
+              "Value": "(O)88",
+              "Amount": 1,
+            },
+        ]
+        },
+        "{{ModId}}_Spice_Cake_Mix": {
+          "ProductQualifiedId": "(O){{ModId}}_Spice_Cake_Mix",
+          "ProductAmount": 5,
+          "Ingredients": [
+                      {
+              "Type": "Item",
+              "Value": "(O){{ModId}}_Cake_Flour",
+              "Amount": 1
+            },
+            {
+              "Type": "Item",
+              "Value": "(O){{ModId}}_Brown_Sugar",
+              "Amount": 1
+            },
+            {
+              "Type": "Item",
+              "Value": "(O)247",
+              "Amount": 1,
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "category_egg",
+              "Amount": 1,
+              "OverrideText": "Any Egg",
+              "OverrideTexturePath": "maps/springobjects",
+              "OverrideTextureRect": {
+                "X": 128,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+              },
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "category_milk",
+              "Amount": 1,
+              "OverrideText": "Any Milk",
+              "OverrideTexturePath": "Maps/springobjects",
+              "OverrideTextureRect": {
+                "X": 256,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+              },
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "cinnamon_item",
+              "OverrideText": "{{i18n:cinnamon_item}}",
+              "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+              "OverrideTextureRect": {
+                "X": 144,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+              },
+              "Amount": 1
+          },
+        ]
+        },
+         "{{ModId}}_Macaron_Mix": {
+          "ProductQualifiedId": "(O){{ModId}}_Macaron_Mix",
+          "ProductAmount": 5,
+          "Ingredients": [
+            {
+              "Type": "Item",
+              "Value": "(O){{ModId}}_Almond_Flour",
+              "Amount": 1
+            },
+            {
+              "Type": "Item",
+              "Value": "(O){{ModId}}_Confectioners_Sugar",
+              "Amount": 1
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "category_egg",
+              "Amount": 2,
+              "OverrideText": "Any Egg",
+              "OverrideTexturePath": "Maps/springobjects",
+              "OverrideTextureRect": {
+                "X": 128,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+              },
+            },
+          ]
+        },
+         "{{ModId}}_Brownie_Mix": {
+          "ProductQualifiedId": "(O){{ModId}}_Brownie_Mix",
+          "ProductAmount": 5,
+          "Ingredients": [
+            {
+              "Type": "Item",
+              "Value": "(O)246",
+              "Amount": 1
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "brown_sugar_item",
+              "Amount": 1,
+              "OverrideText": "Brown Sugar",
+              "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+              "OverrideTextureRect": {
+                "X": 192,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+              }
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "category_egg",
+              "Amount": 1,
+              "OverrideText": "Any Egg",
+              "OverrideTexturePath": "Maps/springobjects",
+              "OverrideTextureRect": {
+                "X": 128,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+              },
+            },
+            {
+              "Type": "Item",
+              "Value": "(O)247",
+              "Amount": 1
+            },
+            {
+              "Type": "Item",
+              "Value": "(O){{ModId}}_Dark_Chocolate",
+              "Amount": 1
+            },
+          
+          ]
+        },
+          "{{ModId}}_Scone_Mix": {
+          "ProductQualifiedId": "(O){{ModId}}_Scone_Mix",
+          "ProductAmount": 5,
+          "Ingredients": [
+            {
+              "Type": "Item",
+              "Value": "(O)246",
+              "Amount": 1
+            },
+            {
+              "Type": "Item",
+              "Value": "(O)245",
+              "Amount": 1
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "butter_item",
+              "Amount": 1,
+              "OverrideText": "Any Butter",
+              "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+              "OverrideTextureRect": {
+                "X": 0,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+              }
+            },
+           {
+            "Type": "ContextTag",
+            "Value": "cream_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:cream_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 32,
+              "Y": 64,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          
+          
+          ]
+        },
+
+        "{{ModId}}_Vanilla_Frosting": {
+          "ProductQualifiedId": "(O){{ModId}}_Vanilla_Frosting",
+          "ProductAmount": 5,
+          "Ingredients": [
+            {
+              "Type": "ContextTag",
+              "Value": "butter_item",
+              "Amount": 1,
+              "OverrideText": "Any Butter",
+              "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+              "OverrideTextureRect": {
+                "X": 0,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+              }
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "cream_item",
+              "Amount": 1,
+              "OverrideText": "{{i18n:cream_item}}",
+              "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+              "OverrideTextureRect": {
+                "X": 32,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+              }
+            },
+            {
+              "Type": "Item",
+              "Value": "(O)245",
+              "Amount": 1
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "vanilla_item",
+              "Amount": 1,
+              "OverrideText": "{{i18n:vanilla_item}}",
+              "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+              "OverrideTextureRect": {
+                "X": 80,
+                "Y": 48,
+                "Width": 16,
+                "Height": 16
+              }
+            },
+          
+          
+          ]
+        },
+        "{{ModId}}_Chocolate_Frosting": {
+          "ProductQualifiedId": "(O){{ModId}}_Chocolate_Frosting",
+          "ProductAmount": 5,
+          "Ingredients": [
+            {
+              "Type": "ContextTag",
+              "Value": "butter_item",
+              "Amount": 1,
+              "OverrideText": "Any Butter",
+              "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+              "OverrideTextureRect": {
+                "X": 0,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+              }
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "cream_item",
+              "Amount": 1,
+              "OverrideText": "{{i18n:cream_item}}",
+              "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+              "OverrideTextureRect": {
+                "X": 32,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+              }
+            },
+            {
+              "Type": "Item",
+              "Value": "(O)245",
+              "Amount": 1
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "cocoa_item",
+              "Amount": 1,
+              "OverrideText": "{{i18n:cocoa_item}}",
+              "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+              "OverrideTextureRect": {
+                "X": 64,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+              }
+          },
+          
+          ]
+        },
+        "{{ModId}}_Strawberry_Frosting": {
+          "ProductQualifiedId": "(O){{ModId}}_Strawberry_Frosting",
+          "ProductAmount": 5,
+          "Ingredients": [
+            {
+              "Type": "ContextTag",
+              "Value": "butter_item",
+              "Amount": 1,
+              "OverrideText": "Any Butter",
+              "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+              "OverrideTextureRect": {
+                "X": 0,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+              }
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "cream_item",
+              "Amount": 1,
+              "OverrideText": "{{i18n:cream_item}}",
+              "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+              "OverrideTextureRect": {
+                "X": 32,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+              }
+            },
+            {
+              "Type": "Item",
+              "Value": "(O)245",
+              "Amount": 1
+            },
+            {
+              "Type": "Item",
+              "Value": "(O)400",
+              "Amount": 1
+            },
+            
+          
+          ]
+        },
+        "{{ModId}}_Lemon_Frosting": {
+          "ProductQualifiedId": "(O){{ModId}}_Lemon_Frosting",
+          "ProductAmount": 5,
+          "Ingredients": [
+            {
+              "Type": "ContextTag",
+              "Value": "butter_item",
+              "Amount": 1,
+              "OverrideText": "Any Butter",
+              "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+              "OverrideTextureRect": {
+                "X": 0,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+              }
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "cream_item",
+              "Amount": 1,
+              "OverrideText": "{{i18n:cream_item}}",
+              "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+              "OverrideTextureRect": {
+                "X": 32,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+              }
+            },
+            {
+              "Type": "Item",
+              "Value": "(O)245",
+              "Amount": 1
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "lemon_item",
+              "Amount": 1,
+              "OverrideText": "{{i18n:lemon_item}}",
+              "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+              "OverrideTextureRect": {
+                "X": 192,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+              }
+            },
+            
+        
+          ]
+        },
+        "{{ModId}}_Cream_Cheese_Frosting": {
+          "ProductQualifiedId": "(O){{ModId}}_Cream_Cheese_Frosting",
+          "ProductAmount": 5,
+          "Ingredients": [
+            {
+              "Type": "ContextTag",
+              "Value": "butter_item",
+              "Amount": 1,
+              "OverrideText": "Any Butter",
+              "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+              "OverrideTextureRect": {
+                "X": 0,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+              }
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "cream_item",
+              "Amount": 1,
+              "OverrideText": "{{i18n:cream_item}}",
+              "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+              "OverrideTextureRect": {
+                "X": 32,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+              }
+            },
+            {
+              "Type": "Item",
+              "Value": "(O)245",
+              "Amount": 1
+            },
+                        {
+              "Type": "Item",
+              "Value": "(O){{ModId}}_Cream_Cheese",
+              "Amount": 1
+            },
+
+          
+          ]
+        },
+        "{{ModId}}_Matcha_Frosting": {
+          "ProductQualifiedId": "(O){{ModId}}_Matcha_Frosting",
+          "ProductAmount": 5,
+          "Ingredients": [
+            {
+              "Type": "ContextTag",
+              "Value": "butter_item",
+              "Amount": 1,
+              "OverrideText": "Any Butter",
+              "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+              "OverrideTextureRect": {
+                "X": 0,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+              }
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "cream_item",
+              "Amount": 1,
+              "OverrideText": "{{i18n:cream_item}}",
+              "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+              "OverrideTextureRect": {
+                "X": 32,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+              }
+            },
+            {
+              "Type": "Item",
+              "Value": "(O)245",
+              "Amount": 1
+            },
+                        {
+              "Type": "Item",
+              "Value": "(O){{ModId}}_Matcha_Powder",
+              "Amount": 1
+            },
+
+          
+          ]
+        },
+        "{{ModId}}_Coconut_Frosting": {
+          "ProductQualifiedId": "(O){{ModId}}_Coconut_Frosting",
+          "ProductAmount": 5,
+          "Ingredients": [
+            {
+              "Type": "ContextTag",
+              "Value": "butter_item",
+              "Amount": 1,
+              "OverrideText": "Any Butter",
+              "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+              "OverrideTextureRect": {
+                "X": 0,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+              }
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "cream_item",
+              "Amount": 1,
+              "OverrideText": "{{i18n:cream_item}}",
+              "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+              "OverrideTextureRect": {
+                "X": 32,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+              }
+            },
+            {
+              "Type": "Item",
+              "Value": "(O)245",
+              "Amount": 1
+            },
+                        {
+              "Type": "Item",
+              "Value": "(O)88",
+              "Amount": 1
+            },
+
+          
+          ]
+        },
+        "{{ModId}}_Mint_Frosting": {
+          "ProductQualifiedId": "(O){{ModId}}_Mint_Frosting",
+          "ProductAmount": 5,
+          "Ingredients": [
+            {
+              "Type": "ContextTag",
+              "Value": "butter_item",
+              "Amount": 1,
+              "OverrideText": "Any Butter",
+              "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+              "OverrideTextureRect": {
+                "X": 0,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+              }
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "cream_item",
+              "Amount": 1,
+              "OverrideText": "{{i18n:cream_item}}",
+              "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+              "OverrideTextureRect": {
+                "X": 32,
+                "Y": 64,
+                "Width": 16,
+                "Height": 16
+              }
+            },
+            {
+              "Type": "Item",
+              "Value": "(O)245",
+              "Amount": 1
+            },
+            {
+            "Type": "ContextTag",
+            "Value": "mint_item",
+            "OverrideText": "{{i18n:mint_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+             "OverrideTextureRect": {
+              "X": 176,
+              "Y": 32,
+              "Width": 16,
+              "Height": 16
+            },
+            "Amount": 1
+          },
+
+          
+          ]
+        },
+        "{{ModId}}_Vanilla_Glaze": {
+          "ProductQualifiedId": "(O){{ModId}}_Vanilla_Glaze",
+          "ProductAmount": 5,
+          "Ingredients": [
+            {
+              "Type": "ContextTag",
+              "Value": "category_milk",
+              "Amount": 1,
+              "OverrideText": "Any Milk",
+              "OverrideTexturePath": "Maps/springobjects",
+              "OverrideTextureRect": {
+                "X": 256,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+              },
+            },
+            {
+              "Type": "Item",
+              "Value": "(O){{ModId}}_Confectioners_Sugar",
+              "Amount": 1
+            },
+            {
+              "Type": "Item",
+              "Value": "(O){{ModId}}_Corn_Syrup",
+              "Amount": 1
+            },
+            {
+            "Type": "ContextTag",
+            "Value": "vanilla_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:vanilla_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 80,
+              "Y": 48,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+
+          
+          ]
+        },
+        "{{ModId}}_Wildberry_Glaze": {
+          "ProductQualifiedId": "(O){{ModId}}_Wildberry_Glaze",
+          "ProductAmount": 5,
+          "Ingredients": [
+            {
+              "Type": "ContextTag",
+              "Value": "category_milk",
+              "Amount": 1,
+              "OverrideText": "Any Milk",
+              "OverrideTexturePath": "Maps/springobjects",
+              "OverrideTextureRect": {
+                "X": 256,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+              },
+            },
+            {
+              "Type": "Item",
+              "Value": "(O){{ModId}}_Confectioners_Sugar",
+              "Amount": 1
+            },
+            {
+              "Type": "Item",
+              "Value": "(O){{ModId}}_Corn_Syrup",
+              "Amount": 1
+            },
+            {
+            "Type": "ContextTag",
+            "Value": "raspberry_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:raspberry_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 144,
+              "Y": 48,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+
+          
+          ]
+        },
+        "{{ModId}}_Pistachio_Glaze": {
+          "ProductQualifiedId": "(O){{ModId}}_Pistachio_Glaze",
+          "ProductAmount": 5,
+          "Ingredients": [
+            {
+              "Type": "ContextTag",
+              "Value": "category_milk",
+              "Amount": 1,
+              "OverrideText": "Any Milk",
+              "OverrideTexturePath": "Maps/springobjects",
+              "OverrideTextureRect": {
+                "X": 256,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+              },
+            },
+            {
+              "Type": "Item",
+              "Value": "(O){{ModId}}_Confectioners_Sugar",
+              "Amount": 1
+            },
+            {
+              "Type": "Item",
+              "Value": "(O){{ModId}}_Corn_Syrup",
+              "Amount": 1
+            },
+            {
+            "Type": "ContextTag",
+            "Value": "pistachio_item",
+            "OverrideText": "{{i18n:pistachio_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+             "OverrideTextureRect": {
+              "X": 0,
+              "Y": 16,
+              "Width": 16,
+              "Height": 16
+            },
+            "Amount": 1
+          },
+
+          
+          ]
+        },
+
+
+      }
+    }
+
+  ]
+}

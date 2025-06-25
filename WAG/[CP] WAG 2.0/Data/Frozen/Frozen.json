@@ -1,0 +1,37 @@
+{
+    "Changes":[
+    
+        {
+            "LogName": "WAG Frozen Machine Data",
+            "Action": "Include",
+            "FromFile": "Data/Frozen/MachineData_Tokens.json",
+        },
+
+        {
+            "LogName": "WAG Frozen Simple Data",
+            "Action": "Include",
+            "FromFile": "Data/Frozen/Simple_Tokens.json",
+            "When":{"Query:('{{Atelier.Cauldron/ConfigValue:SimpleAddOn}}' ='true') OR ('{{Atelier.Cauldron/ConfigValue:DifficultyToggle}}'='Simple')":true}
+        },
+
+        {
+            "LogName": "WAG Frozen Advanced/Hybrid Tokens",
+            "Action": "Include",
+            "FromFile": "Data/Frozen/IceCream_Tokens.json, Data/Frozen/IceCream_Sandwich_Tokens.json, Data/Frozen/Milkshake_Tokens.json, Data/Frozen/Popsicle_Tokens.json",
+            "When":{"Query:'{{Atelier.Cauldron/ConfigValue:DifficultyToggle}}'<>'Simple'":true}
+        },
+
+        {
+            "LogName": "WAG Frozen Hybrid Data",
+            "Action": "Include",
+            "FromFile": "Data/CCS/Frozen_Stations.json",
+            "When":{"Atelier.Cauldron/ConfigValue:DifficultyToggle":"Hybrid"}
+        },
+
+        {
+            "LogName": "WAG Frozen Field Edit Data",
+            "Action": "Include",
+            "FromFile": "Data/Frozen/ContextTags.json, Data/Frozen/WorkingEffects.json",
+        },
+]
+}

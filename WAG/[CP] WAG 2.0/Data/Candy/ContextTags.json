@@ -1,0 +1,225 @@
+{
+  "Changes": [
+  
+    {
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "When":{"Atelier.Cauldron/ConfigValue:DifficultyToggle":"Advanced"},
+        "Fields": {
+            //Jelly Beans
+            "{{ModId}}_Autumn_Spice_Jelly_Beans":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "jelly_bean_item", "color_red"]},
+            "{{ModId}}_Berry_Blast_Jelly_Beans":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "jelly_bean_item", "color_dark_pink"]},        
+            "{{ModId}}_Citrus_Splash_Jelly_Beans":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "jelly_bean_item", "color_orange"]},
+            "{{ModId}}_Magical_Jelly_Beans":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "jelly_bean_item", "color_purple"]},
+            "{{ModId}}_Mocha_Jelly_Beans":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "jelly_bean_item", "color_brown"]},
+            "{{ModId}}_Spring_Blooms_Jelly_Beans":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "jelly_bean_item", "color_pink"]},
+            "{{ModId}}_Summertime_Jelly_Beans":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "jelly_bean_item", "color_orange"]},
+
+            //Gumballs
+            "{{ModId}}_Banana_Split_Gumballs":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "gumball_item", "color_yellow"]}, 
+            "{{ModId}}_Blue_Razzberry_Gumballs":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "gumball_item", "color_cyan"]}, 
+            "{{ModId}}_Cotton_Candy_Gumballs":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "gumball_item", "color_pink"]}, 
+            "{{ModId}}_Melonade_Gumballs":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "gumball_item", "color_salmon"]}, 
+            "{{ModId}}_Minty_Fresh_Gumballs":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "gumball_item", "color_jade"]}, 
+            "{{ModId}}_Pina_Colada_Gumballs":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "gumball_item", "color_gold"]}, 
+            "{{ModId}}_Rainbow_Gumballs":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "gumball_item", "color_iridium"]}, 
+            "{{ModId}}_Sour_Blast_Gumballs":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "gumball_item", "color_lime"]}, 
+            "{{ModId}}_Spicy_Cinnamon_Gumballs":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "gumball_item", "color_red"]},
+
+            "{{ModId}}_Black_Licorice":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "licorice_item", "color_black"]},
+            "{{ModId}}_Classic_Licorice":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "licorice_item", "color_red"]},
+
+            //Hard Candy
+            "{{ModId}}_Blue_Hard_Candy":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "hard_candy_item", "color_cyan"]}, 
+            "{{ModId}}_Green_Hard_Candy":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "hard_candy_item", "color_lime"]}, 
+            "{{ModId}}_Orange_Hard_Candy":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "hard_candy_item", "color_orange"]}, 
+            "{{ModId}}_Pink_Hard_Candy":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "hard_candy_item", "color_pink"]}, 
+            "{{ModId}}_Purple_Hard_Candy":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "hard_candy_item", "color_purple"]}, 
+            "{{ModId}}_Red_Hard_Candy":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "hard_candy_item", "color_red"]}, 
+            "{{ModId}}_Sweet_Hard_Candy":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "hard_candy_item", "color_sand"]}, 
+            "{{ModId}}_Yellow_Hard_Candy":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "hard_candy_item", "color_yellow"]}, 
+
+            //Crystal Candy
+            "{{ModId}}_Amethyst_Peaks_Crystal_Candy":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "crystal_candy_item", "color_purple"]}, 
+            "{{ModId}}_Aquamarine_Seas_Crystal_Candy":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "crystal_candy_item", "color_cyan"]},
+            "{{ModId}}_Emerald_Valleys_Crystal_Candy":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "crystal_candy_item", "color_green"]},
+            "{{ModId}}_Ruby_Sands_Crystal_Candy":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "crystal_candy_item", "color_red"]},
+            "{{ModId}}_Starry_Skies_Crystal_Candy":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "crystal_candy_item", "color_pink"]},
+            "{{ModId}}_Topaz_Shores_Crystal_Candy":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "crystal_candy_item", "color_yellow"]},
+
+            //Lollipops
+            "{{ModId}}_Candy_Apple":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "lollipop_item", "color_red"]}, 
+            "{{ModId}}_Caramel_Apple":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "lollipop_item", "color_copper"]}, 
+            "{{ModId}}_Flower_Power_Lollipop":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "lollipop_item", "color_pink"]}, 
+            "{{ModId}}_JackOLantern_Lollipop":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "lollipop_item", "color_orange"]}, 
+            "{{ModId}}_Kooky_Cookie_Lollipop":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "lollipop_item", "color_sand"]}, 
+            "{{ModId}}_Mush_Lollipop":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "lollipop_item", "color_red"]}, 
+            "{{ModId}}_Prismatic_Swirl_Lollipop":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "lollipop_item", "color_iridium"]}, 
+            "{{ModId}}_Skelly_Lollipop":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "lollipop_item", "color_sand"]}, 
+            "{{ModId}}_Spooky_Candy_Apple":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "lollipop_item", "color_lime"]}, 
+            "{{ModId}}_Unconcerned_Chimp_Lollipop":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "lollipop_item", "color_purple"]}, 
+
+            //Fairy Floss
+            "{{ModId}}_Blooming_Garden_Fairy_Floss":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "fairy_floss_item", "color_pink"]},
+            "{{ModId}}_Classic_Fairy_Floss":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "fairy_floss_item", "color_cyan"]},
+            "{{ModId}}_Earl_Grey_Fairy_Floss":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "fairy_floss_item", "color_purple"]},
+            "{{ModId}}_Lemon_Bar_Fairy_Floss":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "fairy_floss_item", "color_yellow"]},
+            "{{ModId}}_Peppermint_Cloud_Fairy_Floss":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "fairy_floss_item", "color_jade"]},
+            "{{ModId}}_Summer_Orchard_Fairy_Floss":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "fairy_floss_item", "color_orange"]},
+            "{{ModId}}_Vanilla_Latte_Fairy_Floss":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "fairy_floss_item", "color_white"]}
+
+        }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "When":{"Atelier.Cauldron/ConfigValue:DifficultyToggle":"Advanced", "Atelier.Cauldron/ConfigValue:WildFood":true},
+        "Fields": {
+            //Marshmallows
+            "{{ModId}}_Apple_Pickin_Marshmallows":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "marshmallow_item", "color_sand"]},
+            "{{ModId}}_Berry_Mania_Marshmallows":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "marshmallow_item", "color_sand"]},
+            "{{ModId}}_Chocoberry_Marshmallows":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "marshmallow_item", "color_sand"]},
+            "{{ModId}}_Choco_Lovers_Marshmallows":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "marshmallow_item", "color_sand"]},
+            "{{ModId}}_Mint_Mocha_Marshmallows":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "marshmallow_item", "color_sand"]},
+            "{{ModId}}_Rainbow_Marshmallows":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "marshmallow_item", "color_sand"]},
+            "{{ModId}}_Sun_Kissed_Marshmallows":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "marshmallow_item", "color_sand"]},
+            "{{ModId}}_Tea_Time_Marshmallows":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "marshmallow_item", "color_sand"]},
+
+            //Chocolate
+            "{{ModId}}_Chocolate_Covered_Marshmallows":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "chocolate_item", "color_dark_brown"]}, 
+            "{{ModId}}_Chocolate_Covered_Strawberries":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "chocolate_item", "color_dark_brown"]}, 
+            "{{ModId}}_Chocolate_Dipped_Apple":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "chocolate_item", "color_dark_brown"]}, 
+            "{{ModId}}_Dark_Chocolate_Truffles":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "chocolate_item", "color_dark_brown"]}, 
+            "{{ModId}}_Floral_Chocolate_Truffles":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "chocolate_item", "color_sand"]}, 
+            "{{ModId}}_Fruity_Chocolate_Truffles":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "chocolate_item", "color_dark_brown"]}, 
+            "{{ModId}}_Milk_Chocolate_Truffles":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "chocolate_item", "color_brown"]}, 
+            "{{ModId}}_Nutty_Chocolate_Truffles":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "chocolate_item", "color_dark_brown"]}, 
+            "{{ModId}}_White_Chocolate_Truffles":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "chocolate_item", "color_sand"]}, 
+            "{{ModId}}_Classic_Smores":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "chocolate_item", "color_brown"]}, 
+            "{{ModId}}_Black_Forest_Chocolate_Bar":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "chocolate_item", "color_dark_brown"]}, 
+            "{{ModId}}_Creme_Brulee_Chocolate_Bar":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "chocolate_item", "color_sand"]}, 
+            "{{ModId}}_Cupid_Chocolate_Bar":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "chocolate_item", "color_pink"]}, 
+
+            "{{ModId}}_Galaxy_Chocolate_Bar":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "chocolate_item", "color_iridium"]}, 
+            "{{ModId}}_Jazzy_Chocolate_Bar":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "chocolate_item", "color_blue"]}, 
+            "{{ModId}}_Razzle_Dazzle_Chocolate_Bar":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "chocolate_item", "color_dark_pink"]}, 
+            "{{ModId}}_Zesty_Chocolate_Bar":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "chocolate_item", "color_gold"]}, 
+
+
+
+
+
+        }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "When": {"Query:('{{Atelier.Cauldron/ConfigValue:SimpleAddOn}}' ='true') OR ('{{Atelier.Cauldron/ConfigValue:DifficultyToggle}}'='Simple')":true },
+        "Fields": {
+            "{{ModId}}_Flavored_Gumballs":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "gumball_item", "color_pink"]},
+            "{{ModId}}_Flavored_Jelly_Beans":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "jelly_bean_item", "color_orange"]},
+            "{{ModId}}_Flavored_Lollipop":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "lollipop_item", "color_purple"]},
+            "{{ModId}}_Flavored_Fairy_Floss":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "fairy_floss_item", "color_pink"]}, 
+            "{{ModId}}_Flavored_Hard_Candy":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "hard_candy_item", "color_cyan"]}, 
+            "{{ModId}}_Flavored_Crystal_Candy":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "crystal_candy_item", "color_yellow"]}
+        
+
+        }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "When": {"Query:('{{Atelier.Cauldron/ConfigValue:SimpleAddOn}}' ='true') OR ('{{Atelier.Cauldron/ConfigValue:DifficultyToggle}}'='Simple')":true, "Atelier.Cauldron/ConfigValue:WildFood":true },
+        "Fields": {
+            "{{ModId}}_Flavored_Marshmallows":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "marshmallow_item", "color_sand"]}, 
+            "{{ModId}}_Flavored_Chocolate_Bar":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_candy_item", "chocolate_item", "color_brown"]}
+        }
+    },
+
+  ]
+}

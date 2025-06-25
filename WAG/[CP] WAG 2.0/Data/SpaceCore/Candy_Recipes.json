@@ -1,0 +1,494 @@
+{
+
+  "Changes": [
+{
+    "LogName": "Adjust Candy Hybrid Recipes with SpaceCore",
+    "Action": "EditData",
+    "Target": "spacechase0.SpaceCore/CookingRecipeOverrides",
+    "Entries": {
+       "{{ModId}}_Dark_Chocolate_Truffles": {
+        "ProductQualifiedId": "(O){{ModId}}_Dark_Chocolate_Truffles",
+        "ProductAmount": 1,
+        "Ingredients": [
+           {
+            "Type": "Item",
+            "Value": "(O){{ModId}}_Dark_Chocolate",
+            "Amount": 1
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "cream_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:cream_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 32,
+              "Y": 64,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "vanilla_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:vanilla_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 80,
+              "Y": 48,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1
+          },
+        ]
+      },
+      "{{ModId}}_Floral_Chocolate_Truffles": {
+        "ProductQualifiedId": "(O){{ModId}}_Floral_Chocolate_Truffles",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "Item",
+            "Value": "(O){{ModId}}_White_Chocolate",
+            "Amount": 1
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "cream_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:cream_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 32,
+              "Y": 64,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "vanilla_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:vanilla_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 80,
+              "Y": 48,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1
+          },
+          {
+            "Type": "Item",
+            "Value": "(O){{ModId}}_Rose_Water",
+            "Amount": 1
+          },
+        ],
+      },
+      "{{ModId}}_Fruity_Chocolate_Truffles": {
+        "ProductQualifiedId": "(O){{ModId}}_Fruity_Chocolate_Truffles",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "Item",
+            "Value": "(O){{ModId}}_Dark_Chocolate",
+            "Amount": 1
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "cream_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:cream_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 32,
+              "Y": 64,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "vanilla_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:vanilla_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 80,
+              "Y": 48,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)400",
+            "Amount": 1
+          },
+        ],
+      },
+      "{{ModId}}_Milk_Chocolate_Truffles": {
+        "ProductQualifiedId": "(O){{ModId}}_Milk_Chocolate_Truffles",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "Item",
+            "Value": "(O){{ModId}}_Milk_Chocolate",
+            "Amount": 1
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "cream_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:cream_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 32,
+              "Y": 64,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "vanilla_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:vanilla_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 80,
+              "Y": 48,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1
+          },
+        ],
+      },
+      "{{ModId}}_Nutty_Chocolate_Truffles": {
+        "ProductQualifiedId": "(O){{ModId}}_Nutty_Chocolate_Truffles",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "Item",
+            "Value": "(O){{ModId}}_Milk_Chocolate",
+            "Amount": 1
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "cream_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:cream_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 32,
+              "Y": 64,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "vanilla_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:vanilla_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 80,
+              "Y": 48,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "nut_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:nut_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 0,
+              "Y": 0,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1
+          },
+        ],
+      },
+      "{{ModId}}_White_Chocolate_Truffles": {
+        "ProductQualifiedId": "(O){{ModId}}_White_Chocolate_Truffles",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "Item",
+            "Value": "(O){{ModId}}_White_Chocolate",
+            "Amount": 1
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "cream_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:cream_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 32,
+              "Y": 64,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "vanilla_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:vanilla_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 80,
+              "Y": 48,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1
+          },
+        ],
+      },
+      "{{ModId}}_Black_Forest_Chocolate_Bar": {
+        "ProductQualifiedId": "(O){{ModId}}_Black_Forest_Chocolate_Bar",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "Item",
+            "Value": "(O){{ModId}}_Dark_Chocolate",
+            "Amount": 1
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "cream_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:cream_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 32,
+              "Y": 64,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O){{ModId}}_Cherry_Syrup",
+            "Amount": 1
+          },
+        ],
+      },
+      "{{ModId}}_Creme_Brulee_Chocolate_Bar": {
+        "ProductQualifiedId": "(O){{ModId}}_Creme_Brulee_Chocolate_Bar",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "Item",
+            "Value": "(O){{ModId}}_White_Chocolate",
+            "Amount": 1
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "cream_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:cream_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 32,
+              "Y": 64,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O){{ModId}}_Caramel_Syrup",
+            "Amount": 1
+          },
+        ],
+      },
+      "{{ModId}}_Cupid_Chocolate_Bar": {
+        "ProductQualifiedId": "(O){{ModId}}_Cupid_Chocolate_Bar",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "Item",
+            "Value": "(O){{ModId}}_White_Chocolate",
+            "Amount": 1
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "cream_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:cream_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 32,
+              "Y": 64,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O){{ModId}}_Strawberry_Syrup",
+            "Amount": 1
+          },
+        ],
+      },
+      "{{ModId}}_Galaxy_Chocolate_Bar": {
+        "ProductQualifiedId": "(O){{ModId}}_Galaxy_Chocolate_Bar",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "Item",
+            "Value": "(O){{ModId}}_Dark_Chocolate",
+            "Amount": 1
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "cream_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:cream_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 32,
+              "Y": 64,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)StardropTea",
+            "Amount": 1
+          },
+        ],
+      },
+      "{{ModId}}_Jazzy_Chocolate_Bar": {
+        "ProductQualifiedId": "(O){{ModId}}_Jazzy_Chocolate_Bar",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "Item",
+            "Value": "(O){{ModId}}_White_Chocolate",
+            "Amount": 1
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "cream_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:cream_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 32,
+              "Y": 64,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O){{ModId}}_Blue_Jazz_Water",
+            "Amount": 1
+          },
+        ],
+      },
+      "{{ModId}}_Razzle_Dazzle_Chocolate_Bar": {
+        "ProductQualifiedId": "(O){{ModId}}_Razzle_Dazzle_Chocolate_Bar",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "Item",
+            "Value": "(O){{ModId}}_Milk_Chocolate",
+            "Amount": 1
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "cream_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:cream_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 32,
+              "Y": 64,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O){{ModId}}_Raspberry_Syrup",
+            "Amount": 1
+          },
+        ],
+      },
+      "{{ModId}}_Zesty_Chocolate_Bar": {
+        "ProductQualifiedId": "(O){{ModId}}_Zesty_Chocolate_Bar",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "Item",
+            "Value": "(O){{ModId}}_White_Chocolate",
+            "Amount": 1
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "cream_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:cream_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 32,
+              "Y": 64,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O){{ModId}}_Lemon_Syrup",
+            "Amount": 1
+          },
+        ],
+      },
+
+    }
+  }
+
+
+
+  ]
+}

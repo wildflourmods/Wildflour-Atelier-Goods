@@ -1,0 +1,159 @@
+
+{
+    "Changes": [
+
+        {
+            "LogName": "Simple Bakery Tokens: Oven - Flavored Muffins",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Simple.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Oven",
+                "ITEM_TYPE": "Muffins",
+                "INPUT_TYPE":"",
+                "INPUT1_COUNT": 1,
+                "ITEM_FLAVOR":"Flavored",
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":"-26",
+                "OBJECT_PRICE":"100",
+                "PRICE_MULTIPLIER": 1.85,
+                "PRICE_ADDER": 85,
+                "MINUTES_UNTIL_READY": 920,
+                "DRINKABILITY":false,
+                "EDIBILITY":"80",
+                "ITEM_SPRITE":688
+            }
+        },
+        {
+            "LogName": "Simple Bakery Tokens: Cake Station - Flavored Cake",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Simple.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Cake_Station",
+                "ITEM_TYPE": "Cake",
+                "INPUT_TYPE":"",
+                "INPUT1_COUNT": 1,
+                "ITEM_FLAVOR":"Flavored",
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":"-26",
+                "OBJECT_PRICE":"100",
+                "PRICE_MULTIPLIER": 2.0,
+                "PRICE_ADDER": 200,
+                "MINUTES_UNTIL_READY": 1200,
+                "DRINKABILITY":false,
+                "EDIBILITY":"90",
+                "ITEM_SPRITE":780
+            }
+        },
+
+        {
+            "LogName": "Simple Bakery Tokens: Dessert Stand- Flavored Cupcakes",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Simple.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Dessert_Stand",
+                "ITEM_TYPE": "Cupcakes",
+                "INPUT_TYPE":"",
+                "INPUT1_COUNT": 1,
+                "ITEM_FLAVOR":"Flavored",
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":"-26",
+                "OBJECT_PRICE":"100",
+                "PRICE_MULTIPLIER": 2.25,
+                "PRICE_ADDER": 150,
+                "MINUTES_UNTIL_READY": 1100,
+                "DRINKABILITY":false,
+                "EDIBILITY":"105",
+                "ITEM_SPRITE":743
+            }
+        },
+
+        {
+            "LogName": "Simple Bakery Tokens: Deluxe Dessert Stand - Flavored Puddings",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Simple.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Deluxe_Dessert_Stand",
+                "ITEM_TYPE": "Pudding",
+                "INPUT_TYPE":"",
+                "INPUT1_COUNT": 1,
+                "ITEM_FLAVOR":"Flavored",
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":"-26",
+                "OBJECT_PRICE":"100",
+                "PRICE_MULTIPLIER": 1.5,
+                "PRICE_ADDER": 150,
+                "MINUTES_UNTIL_READY": 800,
+                "DRINKABILITY":false,
+                "EDIBILITY":"50",
+                "ITEM_SPRITE":766
+            }
+        },
+
+        {
+            "LogName": "Simple Bakery Tokens: Mixer - Flavored Cookies",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Simple.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Mixer",
+                "ITEM_TYPE": "Cookies",
+                "INPUT_TYPE":"",
+                "INPUT1_COUNT": 1,
+                "ITEM_FLAVOR":"Flavored",
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":"-26",
+                "OBJECT_PRICE":"100",
+                "PRICE_MULTIPLIER": 2.0,
+                "PRICE_ADDER": 150,
+                "MINUTES_UNTIL_READY": 800,
+                "DRINKABILITY":false,
+                "EDIBILITY":"28",
+                "ITEM_SPRITE":794
+            }
+        },
+
+        {
+            "LogName": "Simple Bakery Tokens: Pie Station - Flavored Tarts",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Simple.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Pie_Station",
+                "ITEM_TYPE": "Tart",
+                "INPUT_TYPE":"",
+                "INPUT1_COUNT": 1,
+                "ITEM_FLAVOR":"Flavored",
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":"-26",
+                "OBJECT_PRICE":"100",
+                "PRICE_MULTIPLIER": 1.75,
+                "PRICE_ADDER": 175,
+                "MINUTES_UNTIL_READY": 800,
+                "DRINKABILITY":false,
+                "EDIBILITY":"115",
+                "ITEM_SPRITE":718
+            }
+        },
+
+        {
+            "LogName": "Simple Bakery Tokens: Rolling Pin- Flavored Doughnuts",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Simple.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Rolling_Pin",
+                "ITEM_TYPE": "Doughnuts",
+                "INPUT_TYPE":"",
+                "INPUT1_COUNT": 1,
+                "ITEM_FLAVOR":"Flavored",
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":"-26",
+                "OBJECT_PRICE":"100",
+                "PRICE_MULTIPLIER": 2.0,
+                "PRICE_ADDER": 65,
+                "MINUTES_UNTIL_READY": 1400,
+                "DRINKABILITY":false,
+                "EDIBILITY":"40",
+                "ITEM_SPRITE":759
+            }
+        }
+
+    ]
+}

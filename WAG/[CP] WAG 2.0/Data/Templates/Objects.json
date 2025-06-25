@@ -1,0 +1,37 @@
+{
+	"Changes": [
+
+    {
+        "LogName":"{{ITEM_TYPE}} Objects",
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "Entries": {
+            "{{ModId}}_{{ITEM_FLAVOR}}_{{ITEM_TYPE}}": {
+                "Name": "{{ModId}}_{{ITEM_FLAVOR}}_{{ITEM_TYPE}}",
+                "DisplayName": "{{i18n:AtelierGoods_{{ITEM_FLAVOR}}_{{ITEM_TYPE}}.name}}",
+                "Description": "{{i18n:AtelierGoods_{{ITEM_FLAVOR}}_{{ITEM_TYPE}}.description}}",
+                "Type": "{{OBJECT_TYPE}}",          
+                "Category": "{{OBJECT_CATEGORY}}",
+                "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
+                "Edibility": "{{EDIBILITY}}",
+                "IsDrink":"{{DRINKABILITY}}",
+                "Price": "{{OBJECT_PRICE}}",
+                "ContextTags":[],
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": "{{ITEM_SPRITE}}"
+            }
+        }
+    },
+
+    {
+        "LogName": "Add Simple Objects Strings",
+        "Action": "EditData",
+        "Target": "Strings/Objects",
+        "When":{"Query:('{{Atelier.Cauldron/ConfigValue:SimpleAddOn}}' ='true') OR ('{{Atelier.Cauldron/ConfigValue:DifficultyToggle}}'='Simple')":true},
+        "Entries": {
+            "{{ModId}}_Flavored_{{ITEM_TYPE}}": "{{i18n: AtelierGoods_Flavored_{{ITEM_TYPE}}}}"
+        }
+    },
+
+	]
+}

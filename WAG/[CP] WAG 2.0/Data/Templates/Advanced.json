@@ -1,0 +1,85 @@
+{
+    "Changes": [
+
+    {
+        "LogName": "Advanced {{MACHINE_TYPE}} Rules",
+        "Action": "EditData",
+        "Target": "Data/Machines",
+        "TargetField": [ "(BC){{MACHINE_TYPE}}", "OutputRules"],
+        "When": {"Query: '{{INPUT2}}' = ''": false},
+        "Entries": {
+                "{{ModId}}_{{ITEM_FLAVOR}}_{{ITEM_TYPE}}": {
+                        "Id": "{{ModId}}_{{ITEM_FLAVOR}}_{{ITEM_TYPE}}",
+                        "Triggers": [
+                            {
+                                "Trigger": "ItemPlacedInMachine",
+                                "RequiredTags": ["{{INPUT1}}"],
+                                "RequiredCount": 1
+                            }
+                        ],
+                        "OutputItem": [
+                            {
+                                "Id": "{{ModId}}_{{ITEM_FLAVOR}}_{{ITEM_TYPE}}",
+                                "ItemId": "(O){{ModId}}_{{ITEM_FLAVOR}}_{{ITEM_TYPE}}",
+                                "ObjectInternalName": "{0} {{ModId}}_{{ITEM_FLAVOR}}_{{ITEM_TYPE}}",
+                                "CustomData": {
+                                    "selph.ExtraMachineConfig.RequirementTags.1": "{{INPUT2}}",
+                                    "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:{{INPUT2}}_Needed_Message}}",
+                                    "selph.ExtraMachineConfig.RequirementAddPriceMultiplier.1":"1.0"
+                                    },
+                                "CopyQuality":"{{Quality_Toggle}}",
+                                "CopyPrice": true,
+                                "PriceModifiers": 
+                                    [
+                                        {
+                                            "Modification": "Multiply",
+                                            "Amount": "{{PRICE_MULTIPLIER}}"
+                                        }
+                                    ]
+                            }
+                                    ],
+                        "MinutesUntilReady": "{{MINUTES_UNTIL_READY}}"
+                    }
+            }
+    },
+
+    {
+        "LogName": "Advanced {{MACHINE_TYPE}} Rules- no second input",
+        "Action": "EditData",
+        "Target": "Data/Machines",
+        "TargetField": [ "(BC){{MACHINE_TYPE}}", "OutputRules"],
+        "When": {"Query: '{{INPUT2}}' = ''": true},
+        "Entries": {
+                "{{ModId}}_{{ITEM_FLAVOR}}_{{ITEM_TYPE}}": {
+                        "Id": "{{ModId}}_{{ITEM_FLAVOR}}_{{ITEM_TYPE}}",
+                        "Triggers": [
+                            {
+                                "Trigger": "ItemPlacedInMachine",
+                                "RequiredTags": ["{{INPUT1}}"],
+                                "RequiredCount": 1
+                            }
+                        ],
+                        "OutputItem": [
+                            {
+                                "Id": "{{ModId}}_{{ITEM_FLAVOR}}_{{ITEM_TYPE}}",
+                                "ItemId": "(O){{ModId}}_{{ITEM_FLAVOR}}_{{ITEM_TYPE}}",
+                                "CustomData": {},
+                                "CopyQuality":"{{Quality_Toggle}}",
+                                "CopyPrice": true,
+                                "PriceModifiers": 
+                                    [
+                                        {
+                                            "Modification": "Multiply",
+                                            "Amount": "{{PRICE_MULTIPLIER}}"
+                                        }
+                                    ]
+                            }
+                                    ],
+                        "MinutesUntilReady": "{{MINUTES_UNTIL_READY}}"
+                    }
+            }
+    },
+
+
+    ]
+}

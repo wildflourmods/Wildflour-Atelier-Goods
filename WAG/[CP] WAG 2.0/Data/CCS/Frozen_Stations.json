@@ -1,0 +1,137 @@
+{
+  
+    "Changes": [
+
+      {
+        "Action": "EditData",
+        "Target": "Data/BigCraftables",
+        "TargetField": ["{{ModId}}_TreatMaker","CustomFields"],
+        "Entries": {
+          "leclair.bettercrafting_PerformAction": "leclair.bettercrafting_OpenMenu FALSE TRUE {{ModId}}_TreatMaker"
+        }
+      },
+
+      {
+        "LogName": "WAG Frozen CCS Structure and Categories",
+        "Action":"EditData",
+        "Target": "Mods/leclair.bettercrafting/CraftingStations",
+        "Entries": {
+          "{{ModId}}_TreatMaker":{
+              "Id": "{{ModId}}_TreatMaker",
+              "IsCooking": true,
+              "AreRecipesExclusive": true,
+              "Recipes":[
+                  "{{ModId}}_Birdies_Banana_IceCream",
+                  "{{ModId}}_Birthday_Blast_IceCream",
+                  "{{ModId}}_Blackberry_Cobbler_IceCream",
+                  "{{ModId}}_Chocolate_Lovers_IceCream",
+                  "{{ModId}}_Cookie_Monster_IceCream",
+                  "{{ModId}}_Eggnog_Spice_IceCream",
+                  "{{ModId}}_Gingerbread_Latte_IceCream",
+                  "{{ModId}}_Grannys_Apple_Pie_IceCream",
+                  "{{ModId}}_Hopeless_Romantic_IceCream",
+                  "{{ModId}}_Horchata_IceCream",
+                  "{{ModId}}_Key_Lime_Pie_IceCream",
+                  "{{ModId}}_Lavender_Fields_IceCream",
+                  "{{ModId}}_Lemon_Dream_IceCream",
+                  "{{ModId}}_Nuts4Cherries_IceCream",
+                  "{{ModId}}_Peppermint_Bark_IceCream",
+                  "{{ModId}}_Pumpkin_Pie_IceCream",
+                  "{{ModId}}_Red_Velvet_IceCream",
+                  "{{ModId}}_Strawberry_Sunset_IceCream",
+                  "{{ModId}}_Unicorn_IceCream",
+                  "{{ModId}}_Very_Vanilla_IceCream",
+
+                  "{{ModId}}_Birdies_Banana_Milkshake",
+                  "{{ModId}}_Birthday_Blast_Milkshake",
+                  "{{ModId}}_Blackberry_Cobbler_Milkshake",
+                  "{{ModId}}_Chocolate_Lovers_Milkshake",
+                  "{{ModId}}_Cookie_Monster_Milkshake",
+                  "{{ModId}}_Eggnog_Spice_Milkshake",
+                  "{{ModId}}_Gingerbread_Latte_Milkshake",
+                  "{{ModId}}_Grannys_Apple_Pie_Milkshake",
+                  "{{ModId}}_Hopeless_Romantic_Milkshake",
+                  "{{ModId}}_Horchata_Milkshake",
+                  "{{ModId}}_Key_Lime_Pie_Milkshake",
+                  "{{ModId}}_Lavender_Fields_Milkshake",
+                  "{{ModId}}_Lemon_Dream_Milkshake",
+                  "{{ModId}}_Nuts4Cherries_Milkshake",
+                  "{{ModId}}_Peppermint_Bark_Milkshake",
+                  "{{ModId}}_Pumpkin_Pie_Milkshake",
+                  "{{ModId}}_Red_Velvet_Milkshake",
+                  "{{ModId}}_Strawberry_Sunset_Milkshake",
+                  "{{ModId}}_Unicorn_Milkshake",
+                  "{{ModId}}_Very_Vanilla_Milkshake"
+                ],
+              "Categories":[
+                  {
+                    "Id": "{{ModId}}_IceCream",
+                    "Name": "{{i18n:IceCream_CCS.category}}",
+                    "Icon": 
+                      { 
+                        "Type": "Item",
+                        "ItemId": "{{ModId}}_Birthday_Blast_IceCream"
+                      },
+                    "Recipes":
+                      [
+                        "{{ModId}}_Birdies_Banana_IceCream",
+                        "{{ModId}}_Birthday_Blast_IceCream",
+                        "{{ModId}}_Blackberry_Cobbler_IceCream",
+                        "{{ModId}}_Chocolate_Lovers_IceCream",
+                        "{{ModId}}_Cookie_Monster_IceCream",
+                        "{{ModId}}_Eggnog_Spice_IceCream",
+                        "{{ModId}}_Gingerbread_Latte_IceCream",
+                        "{{ModId}}_Grannys_Apple_Pie_IceCream",
+                        "{{ModId}}_Hopeless_Romantic_IceCream",
+                        "{{ModId}}_Horchata_IceCream",
+                        "{{ModId}}_Key_Lime_Pie_IceCream",
+                        "{{ModId}}_Lavender_Fields_IceCream",
+                        "{{ModId}}_Lemon_Dream_IceCream",
+                        "{{ModId}}_Nuts4Cherries_IceCream",
+                        "{{ModId}}_Peppermint_Bark_IceCream",
+                        "{{ModId}}_Pumpkin_Pie_IceCream",
+                        "{{ModId}}_Red_Velvet_IceCream",
+                        "{{ModId}}_Strawberry_Sunset_IceCream",
+                        "{{ModId}}_Unicorn_IceCream",
+                        "{{ModId}}_Very_Vanilla_IceCream",
+                      ]
+                  },
+                  {
+                    "Id": "{{ModId}}_Milkshakes",
+                    "Name": "{{i18n:Milkshakes_CCS.category}}",
+                    "Icon": 
+                      { 
+                        "Type": "Item",
+                        "ItemId": "{{ModId}}_Birthday_Blast_Milkshake"
+                      },
+                    "Recipes":
+                      [
+                        "{{ModId}}_Birdies_Banana_Milkshake",
+                        "{{ModId}}_Birthday_Blast_Milkshake",
+                        "{{ModId}}_Blackberry_Cobbler_Milkshake",
+                        "{{ModId}}_Chocolate_Lovers_Milkshake",
+                        "{{ModId}}_Cookie_Monster_Milkshake",
+                        "{{ModId}}_Eggnog_Spice_Milkshake",
+                        "{{ModId}}_Gingerbread_Latte_Milkshake",
+                        "{{ModId}}_Grannys_Apple_Pie_Milkshake",
+                        "{{ModId}}_Hopeless_Romantic_Milkshake",
+                        "{{ModId}}_Horchata_Milkshake",
+                        "{{ModId}}_Key_Lime_Pie_Milkshake",
+                        "{{ModId}}_Lavender_Fields_Milkshake",
+                        "{{ModId}}_Lemon_Dream_Milkshake",
+                        "{{ModId}}_Nuts4Cherries_Milkshake",
+                        "{{ModId}}_Peppermint_Bark_Milkshake",
+                        "{{ModId}}_Pumpkin_Pie_Milkshake",
+                        "{{ModId}}_Red_Velvet_Milkshake",
+                        "{{ModId}}_Strawberry_Sunset_Milkshake",
+                        "{{ModId}}_Unicorn_Milkshake",
+                        "{{ModId}}_Very_Vanilla_Milkshake"
+                      ]
+                  },
+                ]
+          },
+        },
+      },
+
+  ]
+}

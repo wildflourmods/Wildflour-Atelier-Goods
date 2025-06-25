@@ -1,0 +1,81 @@
+{
+	"Changes": [
+
+//simple objects
+
+        { 
+            "LogName": "Add Simple Florist Objects",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries":{
+                "{{ModId}}_Flower_{{ITEM_TYPE}}": {
+                    "Name": "{{ModId}}_Flower_{{ITEM_TYPE}}",
+                    "DisplayName": "{{i18n:AtelierGoods_Flower_{{ITEM_TYPE}}.name}}",
+                    "Description": "{{i18n:AtelierGoods_Flower_{{ITEM_TYPE}}.description}}",
+                    "ColorOverlayFromNextIndex":true, 
+                    "Type": "ArtisanGoods",
+                    "Category": -26,
+                    "ExcludeFromShippingCollection":"{{PerfectionToggle}}",
+                    "Edibility": -300,
+                    "Price": 100,
+                    "ContextTags":[],
+                    "Texture": "Mods/{{ModId}}/Objects",
+                    "SpriteIndex": "{{ITEM_SPRITE}}"
+                }
+            }
+        },
+        
+        {
+            "LogName": "Add Simple Florist Objects Strings",
+            "Action": "EditData",
+            "Target": "Strings/Objects",
+            "Entries": {
+                "{{ModId}}_Flower_{{ITEM_TYPE}}": "{{i18n: AtelierGoods_Flower_{{ITEM_TYPE}}}}"
+            }
+        },
+
+        {
+            "LogName": "Simple Machine Rules Template Florist",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": [ "(BC){{MACHINE_TYPE}}", "OutputRules"],
+            "Entries": {
+                "{{ModId}}_Flower_{{ITEM_TYPE}}":{
+                    "Id": "{{ModId}}_Flower_{{ITEM_TYPE}}",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredTags": ["{{INPUT_TYPE}}"],
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_Flower_{{ITEM_TYPE}}",
+                            "ItemId": "{{ModId}}_Flower_{{ITEM_TYPE}}",
+                            "ObjectDisplayName": "[LocalizedText Strings\\Objects:{{ModId}}_Flower_{{ITEM_TYPE}} %PRESERVED_DISPLAY_NAME]",
+                            "ObjectInternalName": "{0} {{ITEM_TYPE}}",
+                            "PreserveID":"{{PRESERVE_METHOD}}",
+                            "CopyQuality":"{{Quality_Toggle}}",
+                            "CopyPrice": true,
+                            "CopyColor":true,
+                            "PriceModifiers": 
+                                [
+                                    {
+                                    "Modification": "Multiply",
+                                    "Amount": "{{PRICE_MULTIPLIER}}"
+                                    },
+                                    {
+                                    "Modification": "Add",
+                                    "Amount": "{{PRICE_ADDER}}"
+                                    }
+                                ]
+                                }
+                    ],
+                    "MinutesUntilReady": "{{MINUTES_UNTIL_READY}}"
+                    },
+                }
+        },
+
+	]
+}

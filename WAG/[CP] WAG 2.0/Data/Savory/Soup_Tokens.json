@@ -1,0 +1,40 @@
+{
+   "Changes":[
+
+    {
+        "LogName": "Object Data Tokens - aaa Soup",
+        "Action": "Include",
+        "FromFile": "Data/Templates/Objects.json, Data/Templates/Hybrid_Recipes.json",
+        "LocalTokens": {
+            "MACHINE_TYPE": "{{ModId}}_",
+            "ITEM_TYPE": "Soup",
+            "ITEM_FLAVOR":"aaa",
+            "OBJECT_TYPE":"ArtisanGoods",
+            "INPUT1":"id_(O)",
+            "INPUT1_COUNT": 1,
+            "INPUT2":"",
+            "PRICE_MULTIPLIER": 0,
+            "PRICE_ADDER": 0,
+            "MINUTES_UNTIL_READY": 0,
+            "OBJECT_CATEGORY":-7,
+            "OBJECT_PRICE":0,
+            "EDIBILITY":0,
+            "DRINKABILITY":false,
+            "ITEM_SPRITE":0,
+
+            "RECIPE_ACQUISITION":"default",
+            "ING1":"",
+            "ING1_COUNT":"",
+            "ING2":"",
+            "ING2_COUNT":"",
+            "ING3":"",
+            "ING3_COUNT":"",
+            "ING4":"",
+            "ING4_COUNT":"",
+            "ING5":"",
+            "ING5_COUNT":""
+        }
+    },
+
+   ]
+}

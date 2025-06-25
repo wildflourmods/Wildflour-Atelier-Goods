@@ -1,0 +1,2162 @@
+{
+    "Changes": [
+
+// textures
+
+        {
+            "LogName": "Load WAG Guide Textures",
+            "Action": "Load",
+            "Target": "Mods/Wildflour's Atelier Goods/Tabs, Mods/Wildflour's Atelier Goods/CookbookStand",
+            "FromFile": "Assets/Guidebook/{{TargetWithoutPath}}.png",
+        },
+
+//guidebook data
+
+        {
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/Guidebooks",
+            "Entries":{
+                "{{ModID}}": {
+                    "Title": "{{i18n: guidebook.title}}",
+                    "DefaultChapter": "Title",
+                    "Chapters": {
+                        "Title": {
+                            "Name": "{{i18n: guidebook.chapter.Title.name}}",
+                            "TabIconTexture": "Mods/Wildflour's Atelier Goods/Tabs",
+                            "TabIconRect": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+                            "Condition": "TRUE", 
+
+                            "Pages": [
+                                { 
+                                    "Id": "TitlePage",
+                                    "Contents": "[image=SMAPI/wildflour.ateliergoods/assets/guidebook/logo.png:null:1]{{Title}}Table of Contents{{EndTitle}}
+   
+1. [if=CAULDRON_CONFIG_VALUE Baker True][link=Baker/BakerOverview]{{i18n:guidebook.chapter.TableOfContents.Baker}}[/link][/if][else]{{i18n:guidebook.chapter.TableOfContents.BakerDisabled}}[/else]
+2. [if=CAULDRON_CONFIG_VALUE Barista True][link=Barista/BaristaOverview]{{i18n:guidebook.chapter.TableOfContents.Barista}}[/link][/if][else]{{i18n:guidebook.chapter.TableOfContents.BaristaDisabled}}[/else]
+3. [if=CAULDRON_CONFIG_VALUE Brewer True][link=Brewer/BrewerOverview]{{i18n:guidebook.chapter.TableOfContents.Brewer}}[/link][/if][else]{{i18n:guidebook.chapter.TableOfContents.BrewerDisabled}}[/else]
+4. [if=CAULDRON_CONFIG_VALUE Candy True][link=Candy/CandyOverview]{{i18n:guidebook.chapter.TableOfContents.Candy}}[/link][/if][else]Candymaking(disabled)[/else]
+5. [if=CAULDRON_CONFIG_VALUE Florist True][link=Florist/FloristOverview]{{i18n:guidebook.chapter.TableOfContents.Florist}}[/link][/if][else]{{i18n:guidebook.chapter.TableOfContents.FloristDisabled}}[/else]
+6. [if=CAULDRON_CONFIG_VALUE Frozen True][link=Frozen/FrozenOverview]{{i18n:guidebook.chapter.TableOfContents.Frozen}}[/link][/if][else]{{i18n:guidebook.chapter.TableOfContents.FrozenDisabled}}[/else]
+7. [if=CAULDRON_CONFIG_VALUE FloristOnly False][link=Gourmand/GourmandOverview]{{i18n:guidebook.chapter.TableOfContents.Gourmand}}[/link][/if][else]{{i18n:guidebook.chapter.TableOfContents.GourmandDisabled}}[/else]" 
+                                },
+                                { 
+                                    "Id": "Overview",
+                                    "Contents": "[image=SMAPI/wildflour.ateliergoods/assets/guidebook/overview_title.png:null:1]{{i18n: guidebook.chapter.Title.Overview}}" 
+                                },
+                                { 
+                                    "Id": "Cauldron",
+                                    "Contents": "[image=SMAPI/wildflour.ateliergoods/assets/guidebook/cauldron_title.png:null:1]
+
+{{i18n:guidebook.Cauldron.Note}}
+   
+{{Title}}{{i18n:guidebook.Cauldron.Global.Title}}{{EndTitle}}
+   
+{{i18n:guidebook.Cauldron.Global.Description}}
+   
+{{Title}}{{i18n:guidebook.Cauldron.WildFood.Title}}{{EndTitle}}
+{{i18n:guidebook.Cauldron.WildFood.Description}}
+   
+{{Title}}{{i18n:guidebook.Cauldron.SpaceCore.Title}}{{EndTitle}}
+{{i18n:guidebook.Cauldron.SpaceCore.Description}}
+   
+{{Title}}{{i18n:guidebook.Cauldron.Orders.Title}} {{EndTitle}}
+{{i18n:guidebook.Cauldron.Orders.Description}}
+   
+{{Title}}{{i18n:guidebook.Cauldron.OrderPriority.Title}}{{EndTitle}}
+{{i18n:guidebook.Cauldron.OrderPriority.Description}}
+   
+{{Title}}{{i18n:guidebook.Cauldron.MixedSeeds.Title}}{{EndTitle}}
+{{i18n:guidebook.Cauldron.MixedSeeds.Description}}
+   
+{{Title}}{{i18n:guidebook.Cauldron.Perfection.Title}}{{EndTitle}}
+{{i18n:guidebook.Cauldron.Perfection.Description}}
+   
+{{Title}}{{i18n:guidebook.Cauldron.EasyRecipes.Title}}{{EndTitle}}
+{{i18n:guidebook.Cauldron.EasyRecipes.Description}}
+   
+{{Title}}{{i18n:guidebook.Cauldron.Difficulty.Title}}{{EndTitle}}
+{{i18n:guidebook.Cauldron.Difficulty.Description}}
+   
+{{i18n:guidebook.Cauldron.Simple.Description}}
+   
+{{i18n:guidebook.Cauldron.Simple.Description}}
+   
+{{i18n:guidebook.Cauldron.Swapping.Description}}
+   
+{{Title}}{{i18n:guidebook.Cauldron.SimpleAddOn.Title}}{{EndTitle}}
+{{i18n:guidebook.Cauldron.SimpleAddOn.Description}}
+   
+{{Title}}{{i18n:guidebook.Cauldron.FloristOnly.Title}}{{EndTitle}}
+{{i18n:guidebook.Cauldron.FloristOnly.Description}}
+   
+{{Title}}{{i18n:guidebook.Cauldron.StyleConfig.Title}}{{EndTitle}}
+   
+{{i18n:guidebook.Cauldron.StyleConfig.Description}}
+   
+{{Title}}{{i18n:guidebook.Cauldron.CategoryChange.Title}}{{EndTitle}}
+{{i18n:guidebook.Cauldron.CategoryChange.Description}}
+   
+{{Title}}{{i18n:guidebook.Cauldron.VT.Title}}{{EndTitle}}
+{{i18n:guidebook.Cauldron.VT.Description}}
+   
+{{Title}}{{i18n:guidebook.Cauldron.Sprites.Title}}{{EndTitle}}
+{{i18n:guidebook.Cauldron.Sprites.Description}}
+   
+{{Title}}{{i18n:guidebook.Cauldron.MachineDesign.Title}}{{EndTitle}}
+{{i18n:guidebook.Cauldron.MachineDesign.Description}}
+   
+{{Title}}{{i18n:guidebook.Cauldron.MachineColor.Title}}{{EndTitle}}
+{{i18n:guidebook.Cauldron.MachineColor.Description}}
+   
+{{Title}}{{i18n:guidebook.Cauldron.Crannies.Title}}{{EndTitle}}
+    
+{{i18n:guidebook.Cauldron.Crannies.Description}}" 
+                                },
+                            ]
+                        },
+                        "Baker": {
+                            "Name": "{{i18n: guidebook.chapter.TableOfContents.Baker}}",
+                            "TabIconTexture": "Mods/Wildflour's Atelier Goods/Tabs",
+                            "TabIconRect": { "X": 16, "Y": 0, "Width": 16, "Height": 16 },
+                            "Condition": "CAULDRON_CONFIG_VALUE Baker True",
+                            "Pages": [
+                                { 
+                                    "Id": "BakerOverview", 
+                                    "Contents": "[image=SMAPI/wildflour.ateliergoods/assets/guidebook/machines_title.png:null:1]   
+   
+[itemtooltip=(BC){{ModId}}_Cake_Station][icon=Mods/{{ModId}}/Machines:0,640,16,32:4][/itemtooltip] = [icon=LooseSprites/emojis:36,99,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4]
+   
+   
+   
+   
+[itemtooltip=(BC){{ModId}}_Dessert_Stand][icon=Mods/{{ModId}}/Machines:0,768,16,32:4][/itemtooltip] = [icon=LooseSprites/emojis:108,108,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4]
+   
+   
+   
+   
+[itemtooltip=(BC){{ModId}}_Deluxe_Dessert_Stand][icon=Mods/{{ModId}}/Machines:0,800,16,32:4][/itemtooltip] = [icon=LooseSprites/emojis:0,99,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4]
+   
+   
+   
+   
+[itemtooltip=(BC){{ModId}}_Oven][icon=Mods/{{ModId}}/Machines:0,256,16,32:4][/itemtooltip] = [icon=LooseSprites/emojis:9,99,9,9:4] [icon=LooseSprites/emojis:9,27,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4]
+   
+   
+   
+   
+[itemtooltip=(BC){{ModId}}_Pie_Station][icon=Mods/{{ModId}}/Machines:0,672,16,32:4][/itemtooltip] = [icon=LooseSprites/emojis:27,108,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4]
+   
+   
+   
+   
+[itemtooltip=(BC){{ModId}}_Rolling_Pin][icon=Mods/{{ModId}}/Machines:0,736,16,32:4][/itemtooltip] = [icon=LooseSprites/emojis:90,99,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4]
+   
+   
+   
+   
+[itemtooltip=(BC){{ModId}}_Mixer][icon=Mods/{{ModId}}/Machines:0,704,16,32:4][/itemtooltip] = [icon=LooseSprites/emojis:117,99,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4]
+   
+   
+   
+   
+{{Title}}Baking Mixes:{{EndTitle}}
+[center]{{i18n:guidebook.Baker.Overview.MixesTip}}[/center]
+   
+   
+[itemtooltip=(O){{ModId}}_Cake_Mix][icon=Mods/{{ModId}}/Objects:48,672,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Cake_Flour][icon=Mods/{{ModId}}/Objects:112,64,16,16:4][/itemtooltip] + [itemtooltip=(O)245][icon=Maps/springobjects:80,160,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Fresh_Butter][icon=Mods/{{ModId}}/Objects:0,64,16,16:4][/itemtooltip] + [itemtooltip=(O)174][icon=Maps/springobjects:96,112,16,16:4][/itemtooltip] + [itemtooltip=(O)184][icon=Maps/springobjects: 256,112,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Cookie_Mix][icon=Mods/{{ModId}}/Objects:16,672,16,16:4][/itemtooltip] = [itemtooltip=(O)246][icon=Maps/springobjects:96,160,16,16:4][/itemtooltip] + [itemtooltip=(O)245][icon=Maps/springobjects:80,160,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Brown_Sugar][icon=Mods/{{ModId}}/Objects:192,64,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Fresh_Butter][icon=Mods/{{ModId}}/Objects:0,64,16,16:4][/itemtooltip] + [itemtooltip=(O)174][icon=Maps/springobjects:96,112,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Muffin_Mix][icon=Mods/{{ModId}}/Objects:0,672,16,16:4][/itemtooltip] = [itemtooltip=(O)246][icon=Maps/springobjects:96,160,16,16:4][/itemtooltip] + [itemtooltip=(O)247][icon=Maps/springobjects:112,160,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Brown_Sugar][icon=Mods/{{ModId}}/Objects:192,64,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Fresh_Butter][icon=Mods/{{ModId}}/Objects:0,64,16,16:4][/itemtooltip] + [itemtooltip=(O)174][icon=Maps/springobjects:96,112,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Pie_Mix][icon=Mods/{{ModId}}/Objects:80,672,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Pastry_Flour][icon=Mods/{{ModId}}/Objects:160,64,16,16:4][/itemtooltip] + [itemtooltip=(O)245][icon=Maps/springobjects:80,160,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Fresh_Butter][icon=Mods/{{ModId}}/Objects:0,64,16,16:4][/itemtooltip] + [itemtooltip=(O)174][icon=Maps/springobjects:96,112,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Bread_Mix][icon=Mods/{{ModId}}/Objects:64,672,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Bread_Flour][icon=Mods/{{ModId}}/Objects:96,64,16,16:4][/itemtooltip] + [itemtooltip=(O)245][icon=Maps/springobjects:80,160,16,16:4][/itemtooltip] + [itemtooltip=(O)247][icon=Maps/springobjects:112,160,16,16:4][/itemtooltip]  + [itemtooltip=(O)174][icon=Maps/springobjects:96,112,16,16:4][/itemtooltip]" 
+                                }, 
+                                { 
+                                    "Id": "Bread", 
+                                    "Condition":"CAULDRON_CONFIG_VALUE DifficultyToggle Advanced",
+                                    "Contents": "[image=SMAPI/wildflour.ateliergoods/assets/guidebook/bread_title.png:null:1]
+[link=Baker/BakerOverview]{{i18n:guidebook.Tips.Breads.Require}}[itemtooltip=(O){{ModId}}_Bread_Mix][icon=Mods/{{ModId}}/Objects:64,672,16,16:4][/itemtooltip] {{i18n:guidebook.Tips.Fuel}}[/link]
+   
+   
+[itemtooltip=(O){{ModId}}_Baguettes_Bread][icon=Mods/{{ModId}}/Objects:16,800,16,16:4][/itemtooltip] = [itemtooltip=(O)262][icon=Maps/springobjects: 352,160,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Bread_Loaves][icon=Mods/{{ModId}}/Objects:0,800,16,16:4][/itemtooltip] = [itemtooltip=(O)300][icon=Maps/springobjects: 192,192,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Brioche_Bread][icon=Mods/{{ModId}}/Objects:16,816,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Cream][icon=Mods/{{ModId}}/Objects:32,64,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Fresh_Butter][icon=Mods/{{ModId}}/Objects:0,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Ciabatta_Bread][icon=Mods/{{ModId}}/Objects:96,800,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Olive_Oil][icon=Mods/{{ModId}}/Objects:112,80,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Cinnamon_Rolls][icon=Mods/{{ModId}}/Objects:224,784,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Cinnamon][icon=Mods/{{ModId}}/Objects:144,16,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Vanilla][icon=Mods/{{ModId}}/Objects:80,48,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Country_Bread][icon=Mods/{{ModId}}/Objects:144,800,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Bread_Flour][icon=Mods/{{ModId}}/Objects:96,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Croissants_Bread][icon=Mods/{{ModId}}/Objects:240,768,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Fresh_Butter][icon=Mods/{{ModId}}/Objects:0,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Demi_Baguette][icon=Mods/{{ModId}}/Objects:240,784,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Baguettes_Bread][icon=Mods/{{ModId}}/Objects:16,800,16,16:4][/itemtooltip] x2
+   
+   
+[itemtooltip=(O){{ModId}}_Herb_Focaccia][icon=Mods/{{ModId}}/Objects:176,800,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Rosemary][icon=Mods/{{ModId}}/Objects:240,32,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Thyme][icon=Mods/{{ModId}}/Objects:48,48,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Iced_Buns][icon=Mods/{{ModId}}/Objects:112,800,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Confectioners_Sugar][icon=Mods/{{ModId}}/Objects:208,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Pretzel_Bread][icon=Mods/{{ModId}}/Objects:224,768,16,16:4][/itemtooltip] = [itemtooltip=(O)340][icon=Maps/springobjects:64,224,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Classic_Doughnuts][icon=Mods/{{ModId}}/Objects:128,800,16,16:4][/itemtooltip] = [itemtooltip=(O)247][icon=Maps/springobjects:112,160,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Olive_Loaves][icon=Mods/{{ModId}}/Objects:160,800,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Olive][icon=Mods/{{ModId}}/Objects:160,0,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Pain_Au_Chocolat][icon=Mods/{{ModId}}/Objects:32,816,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Dark_Chocolate][icon=Mods/{{ModId}}/Objects:128,96,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Poppyseed_Bread][icon=Mods/{{ModId}}/Objects:80,800,16,16:4][/itemtooltip] = [itemtooltip=(O)453][icon=Maps/springobjects: 336,288,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Pretzel_Buns][icon=Mods/{{ModId}}/Objects:32,800,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Pretzel_Bread][icon=Mods/{{ModId}}/Objects:224,768,16,16:4][/itemtooltip] x2
+   
+   
+[itemtooltip=(O){{ModId}}_Pumpernickel_Bread][icon=Mods/{{ModId}}/Objects:208,784,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Cacao_Pod][icon=Mods/{{ModId}}/Objects:64,0,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Rye_Loaves][icon=Mods/{{ModId}}/Objects:48,800,16,16:4][/itemtooltip] = [itemtooltip=(O)724][icon=Maps/springobjects: 64,480,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Sandwich_Buns][icon=Mods/{{ModId}}/Objects:64,800,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Bread_Loaves][icon=Mods/{{ModId}}/Objects:0,800,16,16:4][/itemtooltip] x2
+   
+   
+[itemtooltip=(O){{ModId}}_Sourdough_Bread][icon=Mods/{{ModId}}/Objects:192,784,16,16:4][/itemtooltip] = [itemtooltip=(O)419][icon=Maps/springobjects: 176,272,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Sweet_Buns][icon=Mods/{{ModId}}/Objects:0,816,16,16:4][/itemtooltip] = [itemtooltip=(O)245][icon=Maps/springobjects:80,160,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Tomato_Basil_Focaccia][icon=Mods/{{ModId}}/Objects:192,800,16,16:4][/itemtooltip] = [itemtooltip=(O)256][icon=Maps/springobjects: 256,160,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Basil][icon=Mods/{{ModId}}/Objects:64,16,16,16:4][/itemtooltip] " 
+                                }, 
+                                { 
+                                    "Id": "Cakes", 
+                                    "Condition":"CAULDRON_CONFIG_VALUE DifficultyToggle Advanced",
+                                    "Contents": "[image=SMAPI/wildflour.ateliergoods/assets/guidebook/cake_title.png:null:1]
+[link=Baker/BakerOverview]{{i18n:guidebook.Tips.Cakes.Require}}[itemtooltip=(O){{ModId}}_Cake_Mix][icon=Mods/{{ModId}}/Objects:48,672,16,16:4][/itemtooltip] {{i18n:guidebook.Tips.Fuel}}[/link]
+   
+   
+[itemtooltip=(O){{ModId}}_Almond_Elderflower_Cake][icon=Mods/{{ModId}}/Objects:96,768,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Almond][icon=Mods/{{ModId}}/Objects:0,0,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Elderberries][icon=Mods/{{ModId}}/Objects:128,0,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Apple_Cake][icon=Mods/{{ModId}}/Objects:0,768,16,16:4][/itemtooltip] = [itemtooltip=(O)613][icon=Maps/springobjects:208,400,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Cream][icon=Mods/{{ModId}}/Objects:32,64,16,16:4][/itemtooltip] 
+   
+   
+[itemtooltip=(O){{ModId}}_Chocolate_Mudslide_Cake][icon=Mods/{{ModId}}/Objects:160,768,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Dark_Chocolate][icon=Mods/{{ModId}}/Objects:128,96,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Milk_Chocolate][icon=Mods/{{ModId}}/Objects:144,96,16,16:4][/itemtooltip] 
+   
+   
+[itemtooltip=(O){{ModId}}_Citrus_Thyme_Cake][icon=Mods/{{ModId}}/Objects:16,768,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Lemon][icon=Mods/{{ModId}}/Objects:192,0,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Thyme][icon=Mods/{{ModId}}/Objects:48,48,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Peach_Cake][icon=Mods/{{ModId}}/Objects:48,768,16,16:4][/itemtooltip] = [itemtooltip=(O)636][icon=Maps/springobjects:192,416,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Cream][icon=Mods/{{ModId}}/Objects:32,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Pink_Velvet_Cake][icon=Mods/{{ModId}}/Objects:128,768,16,16:4][/itemtooltip] = [itemtooltip=(O)252][icon=Maps/springobjects:192,160,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Buttermilk][icon=Mods/{{ModId}}/Objects:16,48,16,16:4][/itemtooltip] 
+   
+   
+[itemtooltip=(O){{ModId}}_Raspberry_Chamomile_Cake][icon=Mods/{{ModId}}/Objects:32,768,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Wild_Raspberry][icon=Mods/{{ModId}}/Objects:144,48,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Chamomile][icon=Mods/{{ModId}}/Objects:96,16,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Spiced_Cake][icon=Mods/{{ModId}}/Objects:64,768,16,16:4][/itemtooltip] = [itemtooltip=(O)396][icon=Maps/springobjects: 192,256,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Cinnamon][icon=Mods/{{ModId}}/Objects:144,16,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Summer_Flower_Cake][icon=Mods/{{ModId}}/Objects:144,768,16,16:4][/itemtooltip] = [itemtooltip=(O)593][icon=Maps/springobjects: 272,384,16,16:4][/itemtooltip] + [itemtooltip=(O)453][icon=Maps/springobjects: 256,240,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Tropical_Floral_Cake][icon=Mods/{{ModId}}/Objects:80,768,16,16:4][/itemtooltip] = [itemtooltip=(O)829][icon=Maps/springobjects: 208,544,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Jasmine][icon=Mods/{{ModId}}/Objects:16,32,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Victoria_Sponge_Cake][icon=Mods/{{ModId}}/Objects:112,768,16,16:4][/itemtooltip] = [itemtooltip=(O)344][icon=Tilesheets/Objects_2: 32,256,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Confectioners_Sugar][icon=Mods/{{ModId}}/Objects:208,64,16,16:4][/itemtooltip]" 
+                                }, 
+                                { 
+                                    "Id": "Cookies", 
+                                    "Condition":"CAULDRON_CONFIG_VALUE DifficultyToggle Advanced",
+                                    "Contents": "[image=SMAPI/wildflour.ateliergoods/assets/guidebook/cookies_title.png:null:1]
+[link=Baker/BakerOverview]{{i18n:guidebook.Tips.Cookies.Require}}[itemtooltip=(O){{ModId}}_Cookie_Mix][icon=Mods/{{ModId}}/Objects:16,672,16,16:4][/itemtooltip] {{i18n:guidebook.Tips.Fuel}}
+   
+   
+[itemtooltip=(O){{ModId}}_Assorted_Cookies][icon=Mods/{{ModId}}/Objects:48,784,16,16:4][/itemtooltip] = [itemtooltip=(O)223][icon=Maps/springobjects: 112,144,16,16:4][/itemtooltip]x3
+   
+   
+[itemtooltip=(O){{ModId}}_Cheesecake_Thumbprint_Cookies][icon=Mods/{{ModId}}/Objects:32,784,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Cream_Cheese][icon=Mods/{{ModId}}/Objects:48,64,16,16:4][/itemtooltip] 
+   
+   
+[itemtooltip=(O){{ModId}}_Cherry_Thumbprint_Cookies][icon=Mods/{{ModId}}/Objects:16,784,16,16:4][/itemtooltip] = [itemtooltip=(O)638][icon=Maps/springobjects:224,416,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Almond][icon=Mods/{{ModId}}/Objects:0,0,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Chocolate_Thumbprint_Cookies][icon=Mods/{{ModId}}/Objects:80,784,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Cacao_Pod][icon=Mods/{{ModId}}/Objects:64,0,16,16:4][/itemtooltip] + [itemtooltip=(O)433][icon=Maps/springobjects: 16,288,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Honey_Lavender_Cookies][icon=Mods/{{ModId}}/Objects:144,784,16,16:4][/itemtooltip] = [itemtooltip=(O)340][icon=Maps/springobjects:64,224,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Lavender][icon=Mods/{{ModId}}/Objects:48,32,16,16:4][/itemtooltip] 
+   
+   
+[itemtooltip=(O){{ModId}}_Lemon_Cookies][icon=Mods/{{ModId}}/Objects:96,784,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Lemon_Curd][icon=Mods/{{ModId}}/Objects:32,112,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Thyme][icon=Mods/{{ModId}}/Objects:48,48,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Magic_Thumbprint_Cookies][icon=Mods/{{ModId}}/Objects:64,784,16,16:4][/itemtooltip] = [itemtooltip=(O)454][icon=Maps/springobjects:352,288,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Rose_Cookies][icon=Mods/{{ModId}}/Objects:128,784,16,16:4][/itemtooltip] = [itemtooltip=(O)595][icon=Maps/springobjects:304,384,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Pistachio][icon=Mods/{{ModId}}/Objects:0,16,16,16:4][/itemtooltip] 
+   
+   
+[itemtooltip=(O){{ModId}}_Strawberry_Heart_Cookies][icon=Mods/{{ModId}}/Objects:112,784,16,16:4][/itemtooltip] = [itemtooltip=(O)400][icon=Maps/springobjects:256,256,16,16:4][/itemtooltip] +  [itemtooltip=(O){{ModId}}_White_Chocolate][icon=Mods/{{ModId}}/Objects:160,96,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Vanilla_Heart_Cookies][icon=Mods/{{ModId}}/Objects:0,784,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Vanilla][icon=Mods/{{ModId}}/Objects:80,48,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Honey_Butter][icon=Mods/{{ModId}}/Objects:0,96,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Berry_Macarons][icon=Mods/{{ModId}}/Objects:144,704,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Wild_Raspberry][icon=Mods/{{ModId}}/Objects:144,48,16,16:4][/itemtooltip] + [itemtooltip=(O)410][icon=Maps/springobjects:32,272,16,16:4][/itemtooltip] + [itemtooltip=(O)258][icon=Maps/springobjects:288,160,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Cafe_Macarons][icon=Mods/{{ModId}}/Objects:160,704,16,16:4][/itemtooltip] = [itemtooltip=(O)614][icon=Maps/springobjects: 224,400,16,16:4][/itemtooltip] + [itemtooltip=(O)395][icon=Maps/springobjects: 176,256,16,16:4][/itemtooltip] + [itemtooltip=(O)253][icon=Maps/springobjects: 208,160,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Chocolate_Macarons][icon=Mods/{{ModId}}/Objects:176,704,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Dark_Chocolate][icon=Mods/{{ModId}}/Objects:128,96,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Milk_Chocolate][icon=Mods/{{ModId}}/Objects:144,96,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_White_Chocolate][icon=Mods/{{ModId}}/Objects:160,96,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Citrus_Macarons][icon=Mods/{{ModId}}/Objects:192,704,16,16:4][/itemtooltip] = [itemtooltip=(O)635][icon=Maps/springobjects:176,416,16,16:4][/itemtooltip] +  [itemtooltip=(O){{ModId}}_Lemon][icon=Mods/{{ModId}}/Objects:192,0,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Lime][icon=Mods/{{ModId}}/Objects:224,0,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Floral_Macarons][icon=Mods/{{ModId}}/Objects:128,704,16,16:4][/itemtooltip] = [itemtooltip=(O)591][icon=Maps/springobjects: 240,384,16,16:4][/itemtooltip] + [itemtooltip=(O)593][icon=Maps/springobjects: 272,384,16,16:4][/itemtooltip] + [itemtooltip=(O)453][icon=Maps/springobjects: 256,240,16,16:4][/itemtooltip]
+   
+   
+[image=SMAPI/wildflour.ateliergoods/assets/guidebook/brownies_title.png:null:1]
+   
+   
+[itemtooltip=(O){{ModId}}_Coconut_Brownies][icon=Mods/{{ModId}}/Objects:208,720,16,16:4][/itemtooltip] = [itemtooltip=(O)88][icon=Maps/springobjects:256,48,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Dark_Chocolate][icon=Mods/{{ModId}}/Objects:128,96,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Fudge_Brownies][icon=Mods/{{ModId}}/Objects:176,720,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Milk_Chocolate][icon=Mods/{{ModId}}/Objects:144,96,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Lemon_Bars][icon=Mods/{{ModId}}/Objects:224,720,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Lemon][icon=Mods/{{ModId}}/Objects:192,0,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_White_Chocolate][icon=Mods/{{ModId}}/Objects:160,96,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Mint_Brownies][icon=Mods/{{ModId}}/Objects:192,720,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Mint][icon=Mods/{{ModId}}/Objects:176,32,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Dark_Chocolate][icon=Mods/{{ModId}}/Objects:128,96,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Red_Velvet_Brownies][icon=Mods/{{ModId}}/Objects:240,720,16,16:4][/itemtooltip] = [itemtooltip=(O)284][icon=Maps/springobjects: 320,176,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Dark_Chocolate][icon=Mods/{{ModId}}/Objects:128,96,16,16:4][/itemtooltip]" 
+                                }, 
+                                { 
+                                    "Id": "Cupcakes", 
+                                    "Condition":"CAULDRON_CONFIG_VALUE DifficultyToggle Advanced",
+                                    "Contents": "[image=SMAPI/wildflour.ateliergoods/assets/guidebook/cupcake_title.png:null:1]
+[link=Baker/BakerOverview]{{i18n:guidebook.Tips.Cupcakes.Require}}[itemtooltip=(O){{ModId}}_Cake_Mix][icon=Mods/{{ModId}}/Objects:48,672,16,16:4][/itemtooltip] {{i18n:guidebook.Tips.Fuel}}[/link]
+   
+   
+[itemtooltip=(O){{ModId}}_Chocolate_Cupcakes][icon=Mods/{{ModId}}/Objects:16,736,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Milk_Chocolate][icon=Mods/{{ModId}}/Objects:144,96,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Chocolate_Mint_Cupcakes][icon=Mods/{{ModId}}/Objects:80,736,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Mint][icon=Mods/{{ModId}}/Objects:176,32,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Cacao_Pod][icon=Mods/{{ModId}}/Objects:64,0,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Matcha_Cupcakes][icon=Mods/{{ModId}}/Objects:64,736,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Matcha_Powder][icon=Mods/{{ModId}}/Objects:224,64,16,16:4][/itemtooltip] +  [itemtooltip=(O)340][icon=Maps/springobjects:64,224,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Neapolitan_Cupcakes][icon=Mods/{{ModId}}/Objects:0,736,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Chocolate_Cupcakes][icon=Mods/{{ModId}}/Objects:16,736,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Strawberry_Cupcakes][icon=Mods/{{ModId}}/Objects:48,736,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Vanilla_Cupcakes][icon=Mods/{{ModId}}/Objects:32,736,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Strawberry_Cupcakes][icon=Mods/{{ModId}}/Objects:48,736,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Wild_Strawberry][icon=Mods/{{ModId}}/Objects:176,48,16,16:4][/itemtooltip] or [itemtooltip=(O)400][icon=Maps/springobjects:256,256,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Tropical_Cupcakes][icon=Mods/{{ModId}}/Objects:96,736,16,16:4][/itemtooltip] = [itemtooltip=(O)834][icon=Maps/springobjects:288,544,16,16:4][/itemtooltip] + [itemtooltip=(O)268][icon=Maps/springobjects: 64,176,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Vanilla_Cupcakes][icon=Mods/{{ModId}}/Objects:32,736,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Vanilla][icon=Mods/{{ModId}}/Objects:80,48,16,16:4][/itemtooltip] 
+   
+[image=SMAPI/wildflour.ateliergoods/assets/guidebook/petitfour_title.png:null:1]
+   
+[itemtooltip=(O){{ModId}}_Apple_Petit_Fours][icon=Mods/{{ModId}}/Objects:128,720,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Apple_Butter][icon=Mods/{{ModId}}/Objects:240,80,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Cinnamon][icon=Mods/{{ModId}}/Objects:144,16,16,16:4][/itemtooltip] 
+   
+   
+[itemtooltip=(O){{ModId}}_Berry_Petit_Fours][icon=Mods/{{ModId}}/Objects:0,720,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Wild_Raspberry][icon=Mods/{{ModId}}/Objects:144,48,16,16:4][/itemtooltip] + [itemtooltip=(O)410][icon=Maps/springobjects:32,272,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Blueberry_Petit_Fours][icon=Mods/{{ModId}}/Objects:64,720,16,16:4][/itemtooltip] = [itemtooltip=(O)258][icon=Maps/springobjects:288,160,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Lemon_Curd][icon=Mods/{{ModId}}/Objects:32,112,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Carrot_Petit_Fours][icon=Mods/{{ModId}}/Objects:80,720,16,16:4][/itemtooltip] = [itemtooltip=(O)Carrot][icon=Tilesheets/Objects_2: 0,160,16,16:4][/itemtooltip] x3 + [itemtooltip=(O){{ModId}}_Cream_Cheese][icon=Mods/{{ModId}}/Objects:48,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Chocolate_Strawberry_Petit_Fours][icon=Mods/{{ModId}}/Objects:112,720,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Dark_Chocolate][icon=Mods/{{ModId}}/Objects:128,96,16,16:4][/itemtooltip] + [itemtooltip=(O)400][icon=Maps/springobjects:256,256,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Citrus_Petit_Fours][icon=Mods/{{ModId}}/Objects:128,720,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Lemon_Curd][icon=Mods/{{ModId}}/Objects:32,112,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Lime_Curd][icon=Mods/{{ModId}}/Objects:48,112,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Floral_Petit_Fours][icon=Mods/{{ModId}}/Objects:32,720,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Lavender][icon=Mods/{{ModId}}/Objects:48,32,16,16:4][/itemtooltip] + [itemtooltip=(O)344][icon=Tilesheets/Objects_2: 32,256,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Pineapple_Petit_Fours][icon=Mods/{{ModId}}/Objects:16,720,16,16:4][/itemtooltip] = [itemtooltip=(O)832][icon=Maps/springobjects:256,544,16,16:4][/itemtooltip] + [itemtooltip=(O)638][icon=Maps/springobjects:224,416,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Red_Velvet_Petit_Fours][icon=Mods/{{ModId}}/Objects:144,720,16,16:4][/itemtooltip] = [itemtooltip=(O)284][icon=Maps/springobjects: 320,176,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Buttermilk][icon=Mods/{{ModId}}/Objects:16,48,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Rose_Petit_Fours][icon=Mods/{{ModId}}/Objects:48,720,16,16:4][/itemtooltip] = [itemtooltip=(O)595][icon=Maps/springobjects:304,384,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Cream][icon=Mods/{{ModId}}/Objects:32,64,16,16:4][/itemtooltip]" 
+                                }, 
+                                { 
+                                    "Id": "Doughnuts", 
+                                    "Condition":"CAULDRON_CONFIG_VALUE DifficultyToggle Advanced",
+                                    "Contents": "[image=SMAPI/wildflour.ateliergoods/assets/guidebook/doughnuts_title.png:null:1]
+[link=Baker/BakerOverview]{{i18n:guidebook.Tips.Doughnuts.Require}}[itemtooltip=(O){{ModId}}_Bread_Mix][icon=Mods/{{ModId}}/Objects:64,672,16,16:4][/itemtooltip] {{i18n:guidebook.Tips.Fuel}}[/link]
+   
+   
+[itemtooltip=(O){{ModId}}_Apple_Doughnuts][icon=Mods/{{ModId}}/Objects:96,752,16,16:4][/itemtooltip] = [itemtooltip=(O)613][icon=Maps/springobjects:208,400,16,16:4][/itemtooltip] + [itemtooltip=(O)459][icon=Maps/springobjects: 48,304,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Chocolate_Doughnuts][icon=Mods/{{ModId}}/Objects:80,752,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Milk_Chocolate][icon=Mods/{{ModId}}/Objects:144,96,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Cream][icon=Mods/{{ModId}}/Objects:32,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Cinnamon_Spice_Doughnuts][icon=Mods/{{ModId}}/Objects:64,752,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Anise][icon=Mods/{{ModId}}/Objects:32,0,16,16:4][/itemtooltip]  + [itemtooltip=(O){{ModId}}_Cinnamon][icon=Mods/{{ModId}}/Objects:144,16,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Lavender_Doughnuts][icon=Mods/{{ModId}}/Objects:16,752,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Lavender][icon=Mods/{{ModId}}/Objects:48,32,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Jasmine][icon=Mods/{{ModId}}/Objects:16,32,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Lemon_Doughnuts][icon=Mods/{{ModId}}/Objects:48,752,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Lemon_Curd][icon=Mods/{{ModId}}/Objects:32,112,16,16:4][/itemtooltip] 
+   
+   
+[itemtooltip=(O){{ModId}}_Matcha_Doughnuts][icon=Mods/{{ModId}}/Objects:32,752,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Matcha_Powder][icon=Mods/{{ModId}}/Objects:224,64,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Dark_Chocolate][icon=Mods/{{ModId}}/Objects:128,96,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Strawberry_Doughnuts][icon=Mods/{{ModId}}/Objects:0,752,16,16:4][/itemtooltip] = [itemtooltip=(O)400][icon=Maps/springobjects:256,256,16,16:4][/itemtooltip] +  [itemtooltip=(O){{ModId}}_Chamomile][icon=Mods/{{ModId}}/Objects:96,16,16,16:4][/itemtooltip]
+   
+[image=SMAPI/wildflour.ateliergoods/assets/guidebook/eclairs_title.png:null:1]
+   
+[itemtooltip=(O){{ModId}}_Blueberry_Eclairs][icon=Mods/{{ModId}}/Objects:192,736,16,16:4][/itemtooltip] = [itemtooltip=(O)258][icon=Maps/springobjects:288,160,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Cream][icon=Mods/{{ModId}}/Objects:32,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Citrus_Eclairs][icon=Mods/{{ModId}}/Objects:224,736,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Lime][icon=Mods/{{ModId}}/Objects:224,0,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Lemon][icon=Mods/{{ModId}}/Objects:192,0,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Mocha_Eclairs][icon=Mods/{{ModId}}/Objects:208,736,16,16:4][/itemtooltip] = [itemtooltip=(O)253][icon=Maps/springobjects: 208,160,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Dark_Chocolate][icon=Mods/{{ModId}}/Objects:128,96,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Pistachio_Eclairs][icon=Mods/{{ModId}}/Objects:176,736,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Pistachio][icon=Mods/{{ModId}}/Objects:0,16,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Dark_Chocolate][icon=Mods/{{ModId}}/Objects:128,96,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Raspberry_Eclairs][icon=Mods/{{ModId}}/Objects:160,736,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Wild_Raspberry][icon=Mods/{{ModId}}/Objects:144,48,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Cream][icon=Mods/{{ModId}}/Objects:32,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Vanilla_Eclairs][icon=Mods/{{ModId}}/Objects:144,736,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Vanilla][icon=Mods/{{ModId}}/Objects:80,48,16,16:4][/itemtooltip]
+" 
+                                }, 
+                                { 
+                                    "Id": "Muffins", 
+                                    "Condition":"CAULDRON_CONFIG_VALUE DifficultyToggle Advanced",
+                                    "Contents": "[image=SMAPI/wildflour.ateliergoods/assets/guidebook/muffins_title.png:null:1]
+[link=Baker/BakerOverview]{{i18n:guidebook.Tips.Muffins.Require}}[itemtooltip=(O){{ModId}}_Muffin_Mix][icon=Mods/{{ModId}}/Objects:0,672,16,16:4][/itemtooltip] {{i18n:guidebook.Tips.Fuel}}[/link]
+   
+   
+[itemtooltip=(O){{ModId}}_Blueberry_Muffins][icon=Mods/{{ModId}}/Objects:0,688,16,16:4][/itemtooltip] = [itemtooltip=(O)258][icon=Maps/springobjects:288,160,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Lemon][icon=Mods/{{ModId}}/Objects:192,0,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Coffee_Cake_Muffins][icon=Mods/{{ModId}}/Objects:128,688,16,16:4][/itemtooltip] = [itemtooltip=(O)433][icon=Maps/springobjects: 16,288,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Confectioners_Sugar][icon=Mods/{{ModId}}/Objects:208,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Poppyseed_Muffins][icon=Mods/{{ModId}}/Objects:64,688,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Lemon][icon=Mods/{{ModId}}/Objects:192,0,16,16:4][/itemtooltip] + [itemtooltip=(O)453][icon=Maps/springobjects: 336,288,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Pistachio_Muffins][icon=Mods/{{ModId}}/Objects:112,688,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Pistachio][icon=Mods/{{ModId}}/Objects:0,16,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Dark_Chocolate][icon=Mods/{{ModId}}/Objects:128,96,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Walnut_Muffins][icon=Mods/{{ModId}}/Objects:96,688,16,16:4][/itemtooltip] = [itemtooltip=(O)91][icon=Maps/springobjects:304,48,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Walnut][icon=Mods/{{ModId}}/Objects:32,16,16,16:4][/itemtooltip]
+   
+   
+[image=SMAPI/wildflour.ateliergoods/assets/guidebook/scones_title.png:null:1]
+   
+[itemtooltip=(O){{ModId}}_Blackberry_Scones][icon=Mods/{{ModId}}/Objects:48,704,16,16:4][/itemtooltip] : [itemtooltip=(O)410][icon=Maps/springobjects:32,272,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Lime][icon=Mods/{{ModId}}/Objects:224,0,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Chocolate_Scones][icon=Mods/{{ModId}}/Objects:0,704,16,16:4][/itemtooltip] : [itemtooltip=(O){{ModId}}_Milk_Chocolate][icon=Mods/{{ModId}}/Objects:144,96,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Cranberry_Scones][icon=Mods/{{ModId}}/Objects:64,704,16,16:4][/itemtooltip] : [itemtooltip=(O)282][icon=Maps/springobjects: 288,176,16,16:4][/itemtooltip] + [itemtooltip=(O)635][icon=Maps/springobjects:176,416,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Lavender_Scones][icon=Mods/{{ModId}}/Objects:80,704,16,16:4][/itemtooltip] : [itemtooltip=(O){{ModId}}_Lavender][icon=Mods/{{ModId}}/Objects:48,32,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Vanilla][icon=Mods/{{ModId}}/Objects:80,48,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Raspberry_Scones][icon=Mods/{{ModId}}/Objects:16,704,16,16:4][/itemtooltip] :  [itemtooltip=(O){{ModId}}_Wild_Raspberry][icon=Mods/{{ModId}}/Objects:144,48,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Cream][icon=Mods/{{ModId}}/Objects:32,64,16,16:4][/itemtooltip] "
+
+                                }, 
+                                { 
+                                    "Id": "Pies", 
+                                    "Condition":"CAULDRON_CONFIG_VALUE DifficultyToggle Advanced",
+                                    "Contents": "[image=SMAPI/wildflour.ateliergoods/assets/guidebook/pies_title.png:null:1]
+
+[link=Baker/BakerOverview]{{i18n:guidebook.Tips.Pies.Require}}[itemtooltip=(O){{ModId}}_Pie_Mix][icon=Mods/{{ModId}}/Objects:80,672,16,16:4][/itemtooltip] {{i18n:guidebook.Tips.Fuel}}[/link]
+   
+   
+[itemtooltip=(O){{ModId}}_Brown_Sugar_Pie][icon=Mods/{{ModId}}/Objects:176,688,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Brown_Sugar][icon=Mods/{{ModId}}/Objects:192,64,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Maple_Butter][icon=Mods/{{ModId}}/Objects:16,96,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Apple_Pie][icon=Mods/{{ModId}}/Objects:160,688,16,16:4][/itemtooltip] =  [itemtooltip=(O)613][icon=Maps/springobjects:208,400,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Caramel_Syrup][icon=Mods/{{ModId}}/Objects:240,592,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Cherry_Pie][icon=Mods/{{ModId}}/Objects:160,688,16,16:4][/itemtooltip] =  [itemtooltip=(O)638][icon=Maps/springobjects:224,416,16,16:4][/itemtooltip] + [itemtooltip=(O)348][icon=Tilesheets/Objects_2: 48,240,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Coconut_Cream_Pie][icon=Mods/{{ModId}}/Objects:224,672,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Coconut_Milk][icon=Mods/{{ModId}}/Objects:64,64,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Cream][icon=Mods/{{ModId}}/Objects:32,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Elderberry_Pie][icon=Mods/{{ModId}}/Objects:192,688,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Elderberries][icon=Mods/{{ModId}}/Objects:128,0,16,16:4][/itemtooltip] + [itemtooltip=(O)410][icon=Maps/springobjects:32,272,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Key_Lime_Pie][icon=Mods/{{ModId}}/Objects:208,672,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Lime_Curd][icon=Mods/{{ModId}}/Objects:48,112,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Cream][icon=Mods/{{ModId}}/Objects:32,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Lemon_Meringue_Pie][icon=Mods/{{ModId}}/Objects:240,688,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Lemon_Curd][icon=Mods/{{ModId}}/Objects:32,112,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Cream][icon=Mods/{{ModId}}/Objects:32,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Peach_Pie][icon=Mods/{{ModId}}/Objects:240,672,16,16:4][/itemtooltip] = [itemtooltip=(O)636][icon=Maps/springobjects:192,416,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Thyme][icon=Mods/{{ModId}}/Objects:48,48,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Pumpkin_Spice_Pie][icon=Mods/{{ModId}}/Objects:208,688,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Pumpkin_Butter][icon=Mods/{{ModId}}/Objects:32,96,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Cream][icon=Mods/{{ModId}}/Objects:32,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Sweet_Potato_Pie][icon=Mods/{{ModId}}/Objects:224,688,16,16:4][/itemtooltip] = [itemtooltip=(O)280][icon=Maps/springobjects: 256,176,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Cinnamon][icon=Mods/{{ModId}}/Objects:144,16,16,16:4][/itemtooltip]
+   
+   
+[image=SMAPI/wildflour.ateliergoods/assets/guidebook/tarts_title.png:null:1]
+   
+
+[itemtooltip=(O){{ModId}}_Blueberry_Tart][icon=Mods/{{ModId}}/Objects:96,672,16,16:4][/itemtooltip] = [itemtooltip=(O)258][icon=Maps/springobjects:288,160,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Basil][icon=Mods/{{ModId}}/Objects:64,16,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Chocolate_Hazelnut_Tart][icon=Mods/{{ModId}}/Objects:112,672,16,16:4][/itemtooltip] = [itemtooltip=(O)408][icon=Maps/springobjects: 0,272,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Cacao_Pod][icon=Mods/{{ModId}}/Objects:64,0,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Mango_Pineapple_Tart][icon=Mods/{{ModId}}/Objects:192,672,16,16:4][/itemtooltip] = [itemtooltip=(O)834][icon=Maps/springobjects:288,544,16,16:4][/itemtooltip] + [itemtooltip=(O)832][icon=Maps/springobjects:256,544,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Mojito_Tart][icon=Mods/{{ModId}}/Objects:176,672,16,16:4][/itemtooltip] =  [itemtooltip=(O){{ModId}}_Mint][icon=Mods/{{ModId}}/Objects:176,32,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Lime][icon=Mods/{{ModId}}/Objects:224,0,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Orange_Dandelion_Tart][icon=Mods/{{ModId}}/Objects:128,672,16,16:4][/itemtooltip] =  [itemtooltip=(O)635][icon=Maps/springobjects:176,416,16,16:4][/itemtooltip] + [itemtooltip=(O)22][icon=Maps/springobjects: 352,0,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Raspberry_Pistachio_Tart][icon=Mods/{{ModId}}/Objects:144,672,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Wild_Raspberry][icon=Mods/{{ModId}}/Objects:144,48,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Pistachio][icon=Mods/{{ModId}}/Objects:0,16,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Starfruit_Tart][icon=Mods/{{ModId}}/Objects:192,672,16,16:4][/itemtooltip] =  [itemtooltip=(O)268][icon=Maps/springobjects: 64,176,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Orange_Curd][icon=Mods/{{ModId}}/Objects:48,96,16,16:4]" 
+                                }, 
+                                { 
+                                    "Id": "Puddings", 
+                                    "Condition":"CAULDRON_CONFIG_VALUE DifficultyToggle Advanced",
+                                    "Contents": "[image=SMAPI/wildflour.ateliergoods/assets/guidebook/puddings_title.png:null:1]
+                                       
+{{i18n:guidebook.Tips.Puddings.Require}}[itemtooltip=(O){{ModId}}_Fruit_Pectin][icon=Mods/{{ModId}}/Objects:240,64,16,16:4][/itemtooltip] {{i18n:guidebook.Tips.Fuel}}
+   
+   
+[itemtooltip=(O){{ModId}}_Gem_Pudding][icon=Mods/{{ModId}}/Objects:144,752,16,16:4][/itemtooltip] = [itemtooltip=(O)417][icon=Maps/springobjects:144,272,16,16:4][/itemtooltip] + [itemtooltip=(O)398][icon=Maps/springobjects:224,256,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Lemon_Pudding][icon=Mods/{{ModId}}/Objects:240,736,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Lemon][icon=Mods/{{ModId}}/Objects:192,0,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Lime][icon=Mods/{{ModId}}/Objects:224,0,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Mystical_Pudding][icon=Mods/{{ModId}}/Objects:160,752,16,16:4][/itemtooltip] = [itemtooltip=(O)454][icon=Maps/springobjects:352,288,16,16:4][/itemtooltip] + [itemtooltip=(O)417][icon=Maps/springobjects:96,272,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Raspberry_Pudding][icon=Mods/{{ModId}}/Objects:192,752,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Wild_Raspberry][icon=Mods/{{ModId}}/Objects:144,48,16,16:4][/itemtooltip] + [itemtooltip=(O)400][icon=Maps/springobjects:256,256,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Cherry_Blossom_Pudding][icon=Mods/{{ModId}}/Objects:176,752,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Cherry_Blossoms][icon=Mods/{{ModId}}/Objects:128,16,16,16:4][/itemtooltip] or [itemtooltip=(O)638][icon=Maps/springobjects:224,416,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Tropical_Pudding][icon=Mods/{{ModId}}/Objects:208,752,16,16:4][/itemtooltip] -  [itemtooltip=(O)832][icon=Maps/springobjects:256,544,16,16:4][/itemtooltip] + [itemtooltip=(O)834][icon=Maps/springobjects:288,544,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Vanilla_Pudding][icon=Mods/{{ModId}}/Objects:224,752,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Vanilla][icon=Mods/{{ModId}}/Objects:80,48,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Cream][icon=Mods/{{ModId}}/Objects:32,64,16,16:4][/itemtooltip]" 
+                                },
+                                {
+                                    "Id": "Baker_Simple", 
+                                    "Contents":"[image=SMAPI/wildflour.ateliergoods/assets/guidebook/simple_title.png:null:1]
+   
+[itemtooltip=(O){{ModId}}_Flavored_Cake][icon=Mods/{{ModId}}/Objects:192,768,16,16:4][/itemtooltip] = [texttooltip=:{{i18n:Any_Fruit}}][icon=Maps/springobjects:208,400,16,16:4][/texttooltip] or [texttooltip=:{{i18n:Edible_Flower}}][icon=Mods/{{ModId}}/Objects:96,16,16,16:4][/texttooltip] + [itemtooltip=(O){{ModId}}_Cake_Mix][icon=Mods/{{ModId}}/Objects:48,672,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Flavored_Cookies][icon=Mods/{{ModId}}/Objects:160,784,16,16:4][/itemtooltip] = [texttooltip=:{{i18n:Any_Fruit}}][icon=Maps/springobjects:208,400,16,16:4][/texttooltip] or [texttooltip=:{{i18n:Edible_Flower}}][icon=Mods/{{ModId}}/Objects:96,16,16,16:4][/texttooltip] + [itemtooltip=(O){{ModId}}_Cookie_Mix][icon=Mods/{{ModId}}/Objects:16,672,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Flavored_Cupcakes][icon=Mods/{{ModId}}/Objects:112,736,16,16:4][/itemtooltip] = [texttooltip=:{{i18n:Any_Fruit}}][icon=Maps/springobjects:208,400,16,16:4][/texttooltip] or [texttooltip=:{{i18n:Edible_Flower}}][icon=Mods/{{ModId}}/Objects:96,16,16,16:4][/texttooltip] + [itemtooltip=(O){{ModId}}_Cake_Mix][icon=Mods/{{ModId}}/Objects:48,672,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Flavored_Doughnuts][icon=Mods/{{ModId}}/Objects:112,752,16,16:4][/itemtooltip] = [texttooltip=:{{i18n:Any_Fruit}}][icon=Maps/springobjects:208,400,16,16:4][/texttooltip] or [texttooltip=:{{i18n:Edible_Flower}}][icon=Mods/{{ModId}}/Objects:96,16,16,16:4][/texttooltip] + [itemtooltip=(O){{ModId}}_Bread_Mix][icon=Mods/{{ModId}}/Objects:64,672,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Flavored_Muffins][icon=Mods/{{ModId}}/Objects:0,688,16,16:4][/itemtooltip] = [texttooltip=:{{i18n:Any_Fruit}}][icon=Maps/springobjects:208,400,16,16:4][/texttooltip] or [texttooltip=:{{i18n:Edible_Flower}}][icon=Mods/{{ModId}}/Objects:96,16,16,16:4][/texttooltip] + [itemtooltip=(O){{ModId}}_Muffin_Mix][icon=Mods/{{ModId}}/Objects:0,672,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Flavored_Pudding][icon=Mods/{{ModId}}/Objects:224,752,16,16:4][/itemtooltip] -  [texttooltip=:{{i18n:Any_Fruit}}][icon=Maps/springobjects:208,400,16,16:4][/texttooltip] or [texttooltip=:{{i18n:Edible_Flower}}][icon=Mods/{{ModId}}/Objects:96,16,16,16:4][/texttooltip] + [itemtooltip=(O){{ModId}}_Fruit_Pectin][icon=Mods/{{ModId}}/Objects:240,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Flavored_Tart][icon=Mods/{{ModId}}/Objects:208,704,16,16:4][/itemtooltip] = [texttooltip=:{{i18n:Any_Fruit}}][icon=Maps/springobjects:208,400,16,16:4][/texttooltip] or [texttooltip=:{{i18n:Edible_Flower}}][icon=Mods/{{ModId}}/Objects:96,16,16,16:4][/texttooltip] + [itemtooltip=(O){{ModId}}_Pie_Mix][icon=Mods/{{ModId}}/Objects:80,672,16,16:4][/itemtooltip]
+                                    "
+                                }
+                            ]
+                        },
+                        "Barista": {
+                            "Name": "{{i18n: guidebook.chapter.TableOfContents.Barista}}",
+                            "TabIconTexture": "Mods/Wildflour's Atelier Goods/Tabs",
+                            "TabIconRect": { "X": 0, "Y": 16, "Width": 16, "Height": 16 },
+                            "Condition": "CAULDRON_CONFIG_VALUE Barista True",
+                            "Pages": [
+                                { 
+                                    "Id": "BaristaOverview", 
+                                    "Contents": "[image=SMAPI/wildflour.ateliergoods/assets/guidebook/machines_title.png:null:1]
+
+[itemtooltip=(BC){{ModId}}_CoffeeGrinder][icon=Mods/{{ModId}}/Machines:0,160,16,32:4][/itemtooltip] = [icon=LooseSprites/emojis:90,99,9,9:4]  [icon=LooseSprites/emojis:9,27,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4]
+   
+   
+   
+   
+[itemtooltip=(BC){{ModId}}_CoffeeBrewer][icon=Mods/{{ModId}}/Machines:0,128,16,32:4][/itemtooltip] = [icon=LooseSprites/emojis:72,99,9,9:4]  [icon=LooseSprites/emojis:9,27,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4]
+   
+   
+   
+   
+[itemtooltip=(BC){{ModId}}_TeaProcessor][icon=Mods/{{ModId}}/Machines:0,64,16,32:4][/itemtooltip] = [icon=LooseSprites/emojis:99,99,9,9:4]  [icon=LooseSprites/emojis:9,27,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4]
+   
+   
+   
+   
+[itemtooltip=(BC){{ModId}}_TeaKettle][icon=Mods/{{ModId}}/Machines:0,224,16,32:4][/itemtooltip] = [icon=LooseSprites/emojis:9,108,9,9:4]  [icon=LooseSprites/emojis:9,27,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4]
+   
+   
+   
+   
+[itemtooltip=(BC){{ModId}}_LemonadeStand][icon=Mods/{{ModId}}/Machines:0,96,16,32:4][/itemtooltip] = [icon=LooseSprites/emojis:108,108,9,9:4]  [icon=LooseSprites/emojis:9,27,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4]
+   
+   
+   
+   
+[itemtooltip=(BC){{ModId}}_KitchenBlender][icon=Mods/{{ModId}}/Machines:0,0,16,32:4][/itemtooltip] = [icon=LooseSprites/emojis:18,117,9,9:4]  [icon=LooseSprites/emojis:9,27,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4]
+   
+   
+   
+   
+[itemtooltip=(BC){{ModId}}_BlastChiller][icon=Mods/{{ModId}}/Machines:0,544,16,32:4][/itemtooltip] = [icon=LooseSprites/emojis:18,108,9,9:4]  [icon=LooseSprites/emojis:9,27,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4]
+                                    " 
+                                }, 
+                                { 
+                                    "Id": "Coffee", 
+                                    "Condition":"CAULDRON_CONFIG_VALUE DifficultyToggle Advanced",
+                                    "Contents": "[image=SMAPI/wildflour.ateliergoods/assets/guidebook/coffee_title.png:null:1]
+
+{{i18n:guidebook.Tips.Coffee.Require}}[itemtooltip=(O)433][icon=Maps/springobjects: 16,288,16,16:4][/itemtooltip] {{i18n:guidebook.Tips.Fuel}}
+   
+   
+[itemtooltip=(O){{ModId}}_Amoretto_Ground_Coffee][icon=Mods/{{ModId}}/Objects:0,176,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Almond][icon=Mods/{{ModId}}/Objects:0,0,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Cream][icon=Mods/{{ModId}}/Objects:32,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Cinnamon_Bunny_Ground_Coffee][icon=Mods/{{ModId}}/Objects:48,176,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Cinnamon][icon=Mods/{{ModId}}/Objects:144,16,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Vanilla][icon=Mods/{{ModId}}/Objects:80,48,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Coco_Cabana_Ground_Coffee][icon=Mods/{{ModId}}/Objects:96,176,16,16:4][/itemtooltip] =  [itemtooltip=(O)88][icon=Maps/springobjects:256,48,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Cacao_Pod][icon=Mods/{{ModId}}/Objects:64,0,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Early_Riser_Ground_Coffee][icon=Mods/{{ModId}}/Objects:144,176,16,16:4][/itemtooltip] = [itemtooltip=(O)768][icon=Maps/springobjects: 0,512,16,16:4][/itemtooltip] + [itemtooltip=(O)724][icon=Maps/springobjects: 64,480,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Mucha_Mocha_Ground_Coffee][icon=Mods/{{ModId}}/Objects:192,176,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Cacao_Pod][icon=Mods/{{ModId}}/Objects:64,0,16,16:4][/itemtooltip] + [itemtooltip=(O)408][icon=Maps/springobjects: 0,272,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Pistachio_Buzz_Ground_Coffee][icon=Mods/{{ModId}}/Objects:240,176,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Pistachio][icon=Mods/{{ModId}}/Objects:0,16,16,16:4][/itemtooltip] + [itemtooltip=(O)340][icon=Maps/springobjects:64,224,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Pumpkin_King_Ground_Coffee][icon=Mods/{{ModId}}/Objects:32,192,16,16:4][/itemtooltip] = [itemtooltip=(O)276][icon=Maps/springobjects:192,176,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Cinnamon][icon=Mods/{{ModId}}/Objects:144,16,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Sleigh_Ride_Ground_Coffee][icon=Mods/{{ModId}}/Objects:80,192,16,16:4][/itemtooltip] = [itemtooltip=(O)829][icon=Maps/springobjects: 208,544,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Brown_Sugar][icon=Mods/{{ModId}}/Objects:192,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Sweetheart_Ground_Coffee][icon=Mods/{{ModId}}/Objects:128,192,16,16:4][/itemtooltip] = [itemtooltip=(O)400][icon=Maps/springobjects:256,256,16,16:4][/itemtooltip] +  [itemtooltip=(O){{ModId}}_Vanilla][icon=Mods/{{ModId}}/Objects:80,48,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Warm_Vanilla_Sugar_Ground_Coffee][icon=Mods/{{ModId}}/Objects:176,192,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Vanilla][icon=Mods/{{ModId}}/Objects:80,48,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Brown_Sugar][icon=Mods/{{ModId}}/Objects:192,64,16,16:4][/itemtooltip]
+   
+   
+{{Title}}{{i18n:guidebook.Tips.Lattes}}   [itemtooltip=(O){{ModId}}_Cream][icon=Mods/{{ModId}}/Objects:32,64,16,16:4][/itemtooltip] {{EndTitle}}
+   
+   
+{{Title}}{{i18n:guidebook.Tips.IcedLattes}}    [itemtooltip=(O)84][icon=Maps/springobjects: 192,48,16,16:4][/itemtooltip].{{EndTitle}}" 
+                                }, 
+                                { 
+                                    "Id": "Lemonade", 
+                                    "Condition":"CAULDRON_CONFIG_VALUE DifficultyToggle Advanced",
+                                    "Contents": "[image=SMAPI/wildflour.ateliergoods/assets/guidebook/lemonade_title.png:null:1]
+{{i18n:guidebook.Tips.Lemonade.Require}}[itemtooltip=(O){{ModId}}_Lemon][icon=Mods/{{ModId}}/Objects:192,0,16,16:4][/itemtooltip] {{i18n:guidebook.Tips.Fuel}}
+   
+   
+[itemtooltip=(O){{ModId}}_Berry_Good_Thyme_Lemonade][icon=Mods/{{ModId}}/Objects:160,256,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Thyme][icon=Mods/{{ModId}}/Objects:48,48,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Wild_Strawberry][icon=Mods/{{ModId}}/Objects:176,48,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Chamomile_Mint_Lemonade][icon=Mods/{{ModId}}/Objects:176,256,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Chamomile][icon=Mods/{{ModId}}/Objects:96,16,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Mint][icon=Mods/{{ModId}}/Objects:176,32,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Classic_Lemonade][icon=Mods/{{ModId}}/Objects:192,256,16,16:4][/itemtooltip] = [itemtooltip=(O)245][icon=Maps/springobjects:80,160,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Green_Tea_Lemonade][icon=Mods/{{ModId}}/Objects:208,256,16,16:4][/itemtooltip] = [itemtooltip=(O)614][icon=Maps/springobjects: 224,400,16,16:4][/itemtooltip] + [itemtooltip=(O)340][icon=Maps/springobjects:64,224,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Lavender_Lemonade][icon=Mods/{{ModId}}/Objects:224,256,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Lavender][icon=Mods/{{ModId}}/Objects:48,32,16,16:4][/itemtooltip] + [itemtooltip=(O)340][icon=Maps/springobjects:64,224,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Minty_Hibiscus_Lemonade][icon=Mods/{{ModId}}/Objects:240,256,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Mint][icon=Mods/{{ModId}}/Objects:176,32,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Mallow][icon=Mods/{{ModId}}/Objects:80,32,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Orange_Blossom_Lemonade][icon=Mods/{{ModId}}/Objects:0,272,16,16:4][/itemtooltip] = [itemtooltip=(O)635][icon=Maps/springobjects:176,416,16,16:4][/itemtooltip] + [itemtooltip=(O)22][icon=Maps/springobjects: 352,0,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Peachy_Keen_Lemonade][icon=Mods/{{ModId}}/Objects:16,272,16,16:4][/itemtooltip] = [itemtooltip=(O)636][icon=Maps/springobjects:192,416,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Vanilla][icon=Mods/{{ModId}}/Objects:80,48,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Rosey_Posey_Lemonade][icon=Mods/{{ModId}}/Objects:48,272,16,16:4][/itemtooltip] = [itemtooltip=(O)595][icon=Maps/springobjects:304,384,16,16:4][/itemtooltip] + [itemtooltip=(O)340][icon=Maps/springobjects:64,224,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Strawberry_Rhubarb_Lemonade][icon=Mods/{{ModId}}/Objects:48,272,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Wild_Strawberry][icon=Mods/{{ModId}}/Objects:176,48,16,16:4][/itemtooltip] + [itemtooltip=(O)252][icon=Maps/springobjects:192,160,16,16:4][/itemtooltip]" 
+                                }, 
+                                { 
+                                    "Id": "Smoothies", 
+                                    "Condition":"CAULDRON_CONFIG_VALUE DifficultyToggle Advanced",
+                                    "Contents": "[image=SMAPI/wildflour.ateliergoods/assets/guidebook/smoothies_title.png:null:1]
+
+[itemtooltip=(O){{ModId}}_Cinnamon_Toast_Crunch_Smoothie][icon=Mods/{{ModId}}/Objects:64,272,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Walnut][icon=Mods/{{ModId}}/Objects:32,16,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Cinnamon][icon=Mods/{{ModId}}/Objects:144,16,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Energizer_Bunny_Smoothie][icon=Mods/{{ModId}}/Objects:80,272,16,16:4][/itemtooltip] = [itemtooltip=(O)395][icon=Maps/springobjects: 176,256,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Cacao_Pod][icon=Mods/{{ModId}}/Objects:64,0,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Honey_Nut_Junimo_Smoothie][icon=Mods/{{ModId}}/Objects:96,272,16,16:4][/itemtooltip] = [itemtooltip=(O)340][icon=Maps/springobjects:64,224,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Walnut][icon=Mods/{{ModId}}/Objects:32,16,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Lady_Godiva_Smoothie][icon=Mods/{{ModId}}/Objects:112,272,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Wild_Strawberry][icon=Mods/{{ModId}}/Objects:176,48,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Cacao_Pod][icon=Mods/{{ModId}}/Objects:64,0,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Lucky_Charms_Smoothie][icon=Mods/{{ModId}}/Objects:128,272,16,16:4][/itemtooltip] =  [itemtooltip=(O){{ModId}}_Vanilla][icon=Mods/{{ModId}}/Objects:80,48,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Mint][icon=Mods/{{ModId}}/Objects:176,32,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Mean_Green_Smoothie][icon=Mods/{{ModId}}/Objects:144,272,16,16:4][/itemtooltip] = [itemtooltip=(O)250][icon=Maps/springobjects: 160,160,16,16:4][/itemtooltip] + [itemtooltip=(O)258][icon=Maps/springobjects:288,160,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Monkey_Business_Smoothie][icon=Mods/{{ModId}}/Objects:160,272,16,16:4][/itemtooltip] = [itemtooltip=(O)91][icon=Maps/springobjects:304,48,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Walnut][icon=Mods/{{ModId}}/Objects:32,16,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Oops_All_Berries_Smoothie][icon=Mods/{{ModId}}/Objects:176,272,16,16:4][/itemtooltip] = [itemtooltip=(O)410][icon=Maps/springobjects:32,272,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Wild_Raspberry][icon=Mods/{{ModId}}/Objects:144,48,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Sleepy_Hollow_Smoothie][icon=Mods/{{ModId}}/Objects:192,272,16,16:4][/itemtooltip] = [itemtooltip=(O)276][icon=Maps/springobjects:192,176,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Cacao_Pod][icon=Mods/{{ModId}}/Objects:64,0,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Walkin_On_Sunshine_Smoothie][icon=Mods/{{ModId}}/Objects:208,272,16,16:4][/itemtooltip] = [itemtooltip=(O)268][icon=Maps/springobjects: 64,176,16,16:4][/itemtooltip] + [itemtooltip=(O)834][icon=Maps/springobjects:288,544,16,16:4][/itemtooltip]" 
+                                }, 
+                                { 
+                                    "Id": "Tea", 
+                                    "Condition":"CAULDRON_CONFIG_VALUE DifficultyToggle Advanced",
+                                    "Contents": "[image=SMAPI/wildflour.ateliergoods/assets/guidebook/tea_title.png:null:1]
+{{i18n:guidebook.Tips.LooseLeaf.Require}}[itemtooltip=(O)815][icon=Maps/springobjects: 368,528,16,16:4][/itemtooltip] {{i18n:guidebook.Tips.Fuel}}
+   
+   
+[itemtooltip=(O){{ModId}}_Alchemist_Blend_Sachet][icon=Mods/{{ModId}}/Objects:32,208,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Wild_Strawberry][icon=Mods/{{ModId}}/Objects:176,48,16,16:4][/itemtooltip] or [itemtooltip=(O)400][icon=Maps/springobjects:256,256,16,16:4][/itemtooltip] +  [itemtooltip=(O){{ModId}}_Wild_Raspberry][icon=Mods/{{ModId}}/Objects:144,48,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Blueberry_Matcha_Sachet][icon=Mods/{{ModId}}/Objects:96,208,16,16:4][/itemtooltip] = [itemtooltip=(O)258][icon=Maps/springobjects:288,160,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Matcha_Powder][icon=Mods/{{ModId}}/Objects:224,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Cherry_Blossom_Matcha_Sachet][icon=Mods/{{ModId}}/Objects:160,208,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Cherry_Blossoms][icon=Mods/{{ModId}}/Objects:128,16,16,16:4][/itemtooltip] or [itemtooltip=(O)638][icon=Maps/springobjects:224,416,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Matcha_Powder][icon=Mods/{{ModId}}/Objects:224,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Cookie_Jar_Sachet][icon=Mods/{{ModId}}/Objects:224,208,16,16:4][/itemtooltip] =  [itemtooltip=(O){{ModId}}_Rainbow_Sprinkles][icon=Mods/{{ModId}}/Objects:0,80,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Vanilla][icon=Mods/{{ModId}}/Objects:80,48,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Good_Thyme_Sachet][icon=Mods/{{ModId}}/Objects:32,224,16,16:4][/itemtooltip] = [itemtooltip=(O)829][icon=Maps/springobjects: 208,544,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Thyme][icon=Mods/{{ModId}}/Objects:48,48,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Happy_Harvest_Sachet][icon=Mods/{{ModId}}/Objects:96,224,16,16:4][/itemtooltip] = [itemtooltip=(O)613][icon=Maps/springobjects:208,400,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Chamomile][icon=Mods/{{ModId}}/Objects:96,16,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_North_Pole_Sachet][icon=Mods/{{ModId}}/Objects:160,224,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Mint][icon=Mods/{{ModId}}/Objects:176,32,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Cacao_Pod][icon=Mods/{{ModId}}/Objects:64,0,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Pelican_Fog_Sachet][icon=Mods/{{ModId}}/Objects:224,224,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Lavender][icon=Mods/{{ModId}}/Objects:48,32,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Vanilla][icon=Mods/{{ModId}}/Objects:80,48,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Plum_Chai_Sachet][icon=Mods/{{ModId}}/Objects:32,240,16,16:4][/itemtooltip] = [itemtooltip=(O)406][icon=Maps/springobjects: 352,256,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Cinnamon][icon=Mods/{{ModId}}/Objects:144,16,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Positivitea_Sachet][icon=Mods/{{ModId}}/Objects:96,240,16,16:4][/itemtooltip] = [itemtooltip=(O)636][icon=Maps/springobjects:192,416,16,16:4][/itemtooltip] + [itemtooltip=(O)595][icon=Maps/springobjects:304,384,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Sun_Room_Sachet][icon=Mods/{{ModId}}/Objects:160,240,16,16:4][/itemtooltip] = [itemtooltip=(O)593][icon=Maps/springobjects: 272,384,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Jasmine][icon=Mods/{{ModId}}/Objects:16,32,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Sunny_Delight_Sachet][icon=Mods/{{ModId}}/Objects:224,240,16,16:4][/itemtooltip] = [itemtooltip=(O)635][icon=Maps/springobjects:176,416,16,16:4][/itemtooltip] +  [itemtooltip=(O){{ModId}}_Lemon][icon=Mods/{{ModId}}/Objects:192,0,16,16:4][/itemtooltip]
+   
+   
+{{Title}}{{i18n:guidebook.Tips.Tea}}         [itemtooltip=(O)340][icon=Maps/springobjects:64,224,16,16:4][/itemtooltip].{{EndTitle}}
+   
+   
+{{Title}}{{i18n:guidebook.Tips.Kombucha}}{{EndTitle}}
+   
+   
+{{Title}}{{i18n:guidebook.Tips.Boba}}     [itemtooltip=(O)84][icon=Maps/springobjects: 192,48,16,16:4][/itemtooltip].{{EndTitle}}" 
+                                },
+                                {
+                                    "Id": "Barista_Simple", 
+                                    "Contents":"[image=SMAPI/wildflour.ateliergoods/assets/guidebook/simple_title.png:null:1]
+   
+[itemtooltip=(O){{ModId}}_Flavored_Ground_Coffee][icon=Mods/{{ModId}}/Objects:144,160,16,16:4][/itemtooltip] = [texttooltip=:{{i18n:Any_Fruit}}][icon=Maps/springobjects:208,400,16,16:4][/texttooltip] or [texttooltip=:{{i18n:Edible_Flower}}][icon=Mods/{{ModId}}/Objects:96,16,16,16:4][/texttooltip] + [itemtooltip=(O)433][icon=Maps/springobjects: 16,288,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Flavored_Latte][icon=Mods/{{ModId}}/Objects:176,160,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Flavored_Ground_Coffee][icon=Mods/{{ModId}}/Objects:144,160,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Cream][icon=Mods/{{ModId}}/Objects:32,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Flavored_Sachet][icon=Mods/{{ModId}}/Objects:224,192,16,16:4][/itemtooltip] = [texttooltip=:{{i18n:Any_Fruit}}][icon=Maps/springobjects:208,400,16,16:4][/texttooltip] or [texttooltip=:{{i18n:Edible_Flower}}][icon=Mods/{{ModId}}/Objects:96,16,16,16:4][/texttooltip] + [itemtooltip=(O)815][icon=Maps/springobjects: 368,528,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Flavored_Tea][icon=Mods/{{ModId}}/Objects:0,256,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Flavored_Sachet][icon=Mods/{{ModId}}/Objects:224,192,16,16:4][/itemtooltip] + [itemtooltip=(O)340][icon=Maps/springobjects:64,224,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Flavored_Boba][icon=Mods/{{ModId}}/Objects:128,256,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Flavored_Sachet][icon=Mods/{{ModId}}/Objects:224,192,16,16:4][/itemtooltip] + [itemtooltip=(O)84][icon=Maps/springobjects: 192,48,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Flavored_Lemonade][icon=Mods/{{ModId}}/Objects:64,256,16,16:4][/itemtooltip] = [texttooltip=:{{i18n:Any_Fruit}}][icon=Maps/springobjects:208,400,16,16:4][/texttooltip] or [texttooltip=:{{i18n:Edible_Flower}}][icon=Mods/{{ModId}}/Objects:96,16,16,16:4][/texttooltip] + [itemtooltip=(O){{ModId}}_Lemon][icon=Mods/{{ModId}}/Objects:192,0,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Flavored_Smoothie][icon=Mods/{{ModId}}/Objects:96,256,16,16:4][/itemtooltip] = [texttooltip=:{{i18n:Any_Fruit}}][icon=Maps/springobjects:208,400,16,16:4][/texttooltip] or [texttooltip=:{{i18n:Edible_Flower}}][icon=Mods/{{ModId}}/Objects:96,16,16,16:4][/texttooltip]
+                                    
+                                    "
+                                }
+                            ]
+                        },
+                        "Brewer": {
+                            "Name": "{{i18n: guidebook.chapter.TableOfContents.Brewer}}",
+                            "TabIconTexture": "Mods/Wildflour's Atelier Goods/Tabs",
+                            "TabIconRect": { "X": 16, "Y": 16, "Width": 16, "Height": 16 },
+                            "Condition": "CAULDRON_CONFIG_VALUE Brewer True",
+                            "Pages": [
+                                { 
+                                    "Id": "BrewerOverview", 
+                                    "Contents": "[image=SMAPI/wildflour.ateliergoods/assets/guidebook/machines_title.png:null:1]
+                                    
+[itemtooltip=(BC){{ModId}}_AleKeg][icon=Mods/{{ModId}}/Machines:0,576,16,32:4][/itemtooltip] = [icon=LooseSprites/emojis:36,108,9,9:4]  [icon=LooseSprites/emojis:9,27,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4]
+   
+   
+   
+[itemtooltip=(BC){{ModId}}_MeadKeg][icon=Mods/{{ModId}}/Machines:16,576,16,32:4][/itemtooltip] = [icon=LooseSprites/emojis:18,117,9,9:4]  [icon=LooseSprites/emojis:9,27,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4]
+
+                                    
+                                    " 
+                                }, 
+                                { 
+                                    "Id": "Ales", 
+                                    "Condition":"CAULDRON_CONFIG_VALUE DifficultyToggle Advanced",
+                                    "Contents": "[image=SMAPI/wildflour.ateliergoods/assets/guidebook/ales_title.png:null:1]
+{{i18n:guidebook.Tips.Ales.Require}}[itemtooltip=(O)304][icon=Maps/springobjects:256,192,16,16:4][/itemtooltip] {{i18n:guidebook.Tips.Fuel}}
+   
+   
+[itemtooltip=(O){{ModId}}_Bobbin_For_Aleples][icon=Mods/{{ModId}}/Objects:224,272,16,16:4][/itemtooltip] = [itemtooltip=(O)613][icon=Maps/springobjects:208,400,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Thyme][icon=Mods/{{ModId}}/Objects:48,48,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Bonfire_Ale][icon=Mods/{{ModId}}/Objects:240,272,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Mallow][icon=Mods/{{ModId}}/Objects:80,32,16,16:4][/itemtooltip] or  [itemtooltip=(O){{ModId}}_Vanilla][icon=Mods/{{ModId}}/Objects:80,48,16,16:4][/itemtooltip] + [itemtooltip=(O)709][icon=Maps/springobjects: 208,464,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Dust_Sprite_Stout][icon=Mods/{{ModId}}/Objects:0,288,16,16:4][/itemtooltip] = [itemtooltip=(O)382][icon=Maps/springobjects: 352,240,16,16:4][/itemtooltip] + [itemtooltip=(O)433][icon=Maps/springobjects: 16,288,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Jingle_Ale_The_Way][icon=Mods/{{ModId}}/Objects:16,288,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Brown_Sugar][icon=Mods/{{ModId}}/Objects:192,64,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Vanilla][icon=Mods/{{ModId}}/Objects:80,48,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Lavender_Haze_IPA][icon=Mods/{{ModId}}/Objects:32,288,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Lavender][icon=Mods/{{ModId}}/Objects:48,32,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Lemon][icon=Mods/{{ModId}}/Objects:192,0,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Livin_Off_The_Land_Ale][icon=Mods/{{ModId}}/Objects:48,288,16,16:4][/itemtooltip] = [itemtooltip=(O)638][icon=Maps/springobjects:224,416,16,16:4][/itemtooltip] + [itemtooltip=(O)634][icon=Maps/springobjects: 160,416,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Pelican_Pilsner][icon=Mods/{{ModId}}/Objects:64,288,16,16:4][/itemtooltip] = [itemtooltip=(O)834][icon=Maps/springobjects:288,544,16,16:4][/itemtooltip] + [itemtooltip=(O)396][icon=Maps/springobjects: 192,256,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Sandcastle_IPA][icon=Mods/{{ModId}}/Objects:80,288,16,16:4][/itemtooltip] = [itemtooltip=(O)88][icon=Maps/springobjects:256,48,16,16:4][/itemtooltip] + [itemtooltip=(O)829][icon=Maps/springobjects: 208,544,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Scarecrow_Stout][icon=Mods/{{ModId}}/Objects:96,288,16,16:4][/itemtooltip] = [itemtooltip=(O)280][icon=Maps/springobjects: 256,176,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Cream][icon=Mods/{{ModId}}/Objects:32,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Scrooge_Tripel][icon=Mods/{{ModId}}/Objects:112,288,16,16:4][/itemtooltip] : [itemtooltip=(O)406][icon=Maps/springobjects: 352,256,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Cinnamon][icon=Mods/{{ModId}}/Objects:144,16,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Snowman_Cream_Ale][icon=Mods/{{ModId}}/Objects:128,288,16,16:4][/itemtooltip] = [itemtooltip=(O)635][icon=Maps/springobjects:176,416,16,16:4][/itemtooltip] +  [itemtooltip=(O){{ModId}}_Cinnamon][icon=Mods/{{ModId}}/Objects:144,16,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Wednesdays Void Lager][icon=Mods/{{ModId}}/Objects:144,288,16,16:4][/itemtooltip] = [itemtooltip=(O)276][icon=Maps/springobjects:192,176,16,16:4][/itemtooltip] + [itemtooltip=(O)769][icon=Maps/springobjects: 16,512,16,16:4][/itemtooltip]" 
+                                }, 
+                                { 
+                                    "Id": "Meads", 
+                                    "Condition":"CAULDRON_CONFIG_VALUE DifficultyToggle Advanced",
+                                    "Contents": "[image=SMAPI/wildflour.ateliergoods/assets/guidebook/meads_title.png:null:1]
+{{i18n:guidebook.Tips.Meads.Require}}[itemtooltip=(O)340][icon=Maps/springobjects:64,224,16,16:4][/itemtooltip] {{i18n:guidebook.Tips.Fuel}}
+   
+   
+[itemtooltip=(O){{ModId}}_Beach_Party_Mead][icon=Mods/{{ModId}}/Objects:192,288,16,16:4][/itemtooltip] = [itemtooltip=(O)268][icon=Maps/springobjects: 64,176,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Jasmine][icon=Mods/{{ModId}}/Objects:16,32,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Falling_Petals_Mead][icon=Mods/{{ModId}}/Objects:208,288,16,16:4][/itemtooltip] =  [itemtooltip=(O)597][icon=Maps/springobjects: 336,384,16,16:4][/itemtooltip] + [itemtooltip=(O)400][icon=Maps/springobjects:256,256,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Farmhouse_Cider_Mead][icon=Mods/{{ModId}}/Objects:224,288,16,16:4][/itemtooltip] = [itemtooltip=(O)613][icon=Maps/springobjects:208,400,16,16:4][/itemtooltip] + [itemtooltip=(O)829][icon=Maps/springobjects: 208,544,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Fireworks_Mead][icon=Mods/{{ModId}}/Objects:240,288,16,16:4][/itemtooltip] =  [itemtooltip=(O)258][icon=Maps/springobjects:288,160,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Wild_Raspberry][icon=Mods/{{ModId}}/Objects:144,48,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Gentle_Breeze_Mead][icon=Mods/{{ModId}}/Objects:0,304,16,16:4][/itemtooltip] = [itemtooltip=(O)22][icon=Maps/springobjects: 352,0,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Chamomile][icon=Mods/{{ModId}}/Objects:96,16,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Leaf_Pile_Mead][icon=Mods/{{ModId}}/Objects:16,304,16,16:4][/itemtooltip] = [itemtooltip=(O)724][icon=Maps/springobjects: 64,480,16,16:4][/itemtooltip] + [itemtooltip=(O)410][icon=Maps/springobjects:32,272,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Picnic_Basket_Mead][icon=Mods/{{ModId}}/Objects:32,304,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Elderberries][icon=Mods/{{ModId}}/Objects:128,0,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Almond][icon=Mods/{{ModId}}/Objects:0,0,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Spellbound_Mead][icon=Mods/{{ModId}}/Objects:48,304,16,16:4][/itemtooltip] = [itemtooltip=(O)414][icon=Maps/springobjects: 96,272,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Mint][icon=Mods/{{ModId}}/Objects:176,32,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Sunny_Daze_Mead][icon=Mods/{{ModId}}/Objects:64,304,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Basil][icon=Mods/{{ModId}}/Objects:64,16,16,16:4][/itemtooltip] [itemtooltip=(O){{ModId}}_Lemon][icon=Mods/{{ModId}}/Objects:192,0,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Twinkle_Mead][icon=Mods/{{ModId}}/Objects:80,304,16,16:4][/itemtooltip] = [itemtooltip=(O)418][icon=Maps/springobjects: 160,272,16,16:4][/itemtooltip] + [itemtooltip=(O)595][icon=Maps/springobjects:304,384,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Weird_Sisters_Mead][icon=Mods/{{ModId}}/Objects:96,304,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Wormwood][icon=Mods/{{ModId}}/Objects:208,48,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Yule_Log_Mead][icon=Mods/{{ModId}}/Objects:112,304,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Cinnamon][icon=Mods/{{ModId}}/Objects:144,16,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Anise][icon=Mods/{{ModId}}/Objects:32,0,16,16:4][/itemtooltip]" 
+                                }, 
+                                {
+                                    "Id": "Brewer_Simple", 
+                                    "Contents":"[image=SMAPI/wildflour.ateliergoods/assets/guidebook/simple_title.png:null:1]
+   
+[itemtooltip=(O){{ModId}}_Flavored_Ale][icon=Mods/{{ModId}}/Objects:208,816,16,16:4][/itemtooltip] = [texttooltip=:{{i18n:Any_Fruit}}][icon=Maps/springobjects:208,400,16,16:4][/texttooltip] or [texttooltip=:{{i18n:Edible_Flower}}][icon=Mods/{{ModId}}/Objects:96,16,16,16:4][/texttooltip] + [itemtooltip=(O)304][icon=Maps/springobjects:256,192,16,16:4]
+   
+   
+[itemtooltip=(O){{ModId}}_Flavored_Mead][icon=Mods/{{ModId}}/Objects:160,832,16,16:4][/itemtooltip] = [texttooltip=:{{i18n:Any_Fruit}}][icon=Maps/springobjects:208,400,16,16:4][/texttooltip] or [texttooltip=:{{i18n:Edible_Flower}}][icon=Mods/{{ModId}}/Objects:96,16,16,16:4][/texttooltip] + [itemtooltip=(O)340][icon=Maps/springobjects:64,224,16,16:4][/itemtooltip]
+                                    
+                                    "
+                                }
+                            ]
+                        },
+                        "Candy": {
+                            "Name": "{{i18n: guidebook.chapter.TableOfContents.Candy}}",
+                            "TabIconTexture": "Mods/Wildflour's Atelier Goods/Tabs",
+                            "TabIconRect": { "X": 0, "Y": 32, "Width": 16, "Height": 16 },
+                            "Condition": "CAULDRON_CONFIG_VALUE Candy True",
+                            "Pages": [
+                                { 
+                                    "Id": "CandyOverview", 
+                                    "Contents": "[image=SMAPI/wildflour.ateliergoods/assets/guidebook/machines_title.png:null:1]
+                                    
+[itemtooltip=(BC){{ModId}}_ChocolatierBarrel][icon=Mods/{{ModId}}/Machines:0,320,16,32:4][/itemtooltip] = [icon=LooseSprites/emojis:36,108,9,9:4]  [icon=LooseSprites/emojis:9,27,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4]
+   
+   
+   
+   
+[itemtooltip=(BC){{ModId}}_CandyJar][icon=Mods/{{ModId}}/Machines:0,288,16,32:4][/itemtooltip] = [icon=LooseSprites/emojis:90,108,9,9:4]  [icon=LooseSprites/emojis:9,27,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4]
+   
+   
+   
+   
+[itemtooltip=(BC){{ModId}}_SugarBoiler][icon=Mods/{{ModId}}/Machines:0,512,16,32:4][/itemtooltip] = [icon=LooseSprites/emojis:45,108,9,9:4]  [icon=LooseSprites/emojis:9,27,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4]
+   
+   
+   
+   
+[itemtooltip=(BC){{ModId}}_MarshmallowMixer][icon=Mods/{{ModId}}/Machines:0,384,16,32:4][/itemtooltip] = [icon=LooseSprites/emojis:63,99,9,9:4]  [icon=LooseSprites/emojis:9,27,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4]
+                                    " 
+                                }, 
+                                { 
+                                    "Id": "Chocolates", 
+                                    "Condition":"CAULDRON_CONFIG_VALUE DifficultyToggle Advanced",
+                                    "Contents": "[image=SMAPI/wildflour.ateliergoods/assets/guidebook/chocolate_title.png:null:1]
+
+[itemtooltip=(O){{ModId}}_Black_Forest_Chocolate_Bar][icon=Mods/{{ModId}}/Objects:160,624,16,16:4][/itemtooltip] = [itemtooltip=(O)638][icon=Maps/springobjects:224,416,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Dark_Chocolate][icon=Mods/{{ModId}}/Objects:128,96,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Creme_Brulee_Chocolate_Bar][icon=Mods/{{ModId}}/Objects:96,624,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Caramel_Syrup][icon=Mods/{{ModId}}/Objects:240,592,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_White_Chocolate][icon=Mods/{{ModId}}/Objects:160,96,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Cupid_Chocolate_Bar][icon=Mods/{{ModId}}/Objects: 80,624,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Wild_Strawberry][icon=Mods/{{ModId}}/Objects:176,48,16,16:4][/itemtooltip] or [itemtooltip=(O)296][icon=Maps/springobjects: 128,192,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_White_Chocolate][icon=Mods/{{ModId}}/Objects:160,96,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Galaxy_Chocolate_Bar][icon=Mods/{{ModId}}/Objects:176,624,16,16:4][/itemtooltip] = [itemtooltip=(O)StardropTea][icon=Tilesheets/Objects_2: 64,128,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Dark_Chocolate][icon=Mods/{{ModId}}/Objects:128,96,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Jazzy_Chocolate_Bar][icon=Mods/{{ModId}}/Objects:112,624,16,16:4][/itemtooltip] = [itemtooltip=(O)597][icon=Maps/springobjects: 336,384,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_White_Chocolate][icon=Mods/{{ModId}}/Objects:160,96,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Razzle_Dazzle_Chocolate_Bar][icon=Mods/{{ModId}}/Objects:144,624,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Wild_Raspberry][icon=Mods/{{ModId}}/Objects:144,48,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Milk_Chocolate][icon=Mods/{{ModId}}/Objects:144,96,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Zesty_Chocolate_Bar][icon=Mods/{{ModId}}/Objects:128,624,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Lemon][icon=Mods/{{ModId}}/Objects:192,0,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_White_Chocolate][icon=Mods/{{ModId}}/Objects:160,96,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Chocolate_Apple][icon=Mods/{{ModId}}/Objects:160,608,16,16:4][/itemtooltip] = [itemtooltip=(O)613][icon=Maps/springobjects:208,400,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Milk_Chocolate][icon=Mods/{{ModId}}/Objects:144,96,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Chocolate_Covered_Marshmallows][icon=Mods/{{ModId}}/Objects:240,624,16,16:4][/itemtooltip] = Any [itemtooltip=(O){{ModId}}_Tea_Time_Marshmallows][icon=Mods/{{ModId}}/Objects:112,576,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Milk_Chocolate][icon=Mods/{{ModId}}/Objects:144,96,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Chocolate_Covered_Strawberries][icon=Mods/{{ModId}}/Objects:224,624,16,16:4][/itemtooltip] = [itemtooltip=(O)400][icon=Maps/springobjects:256,256,16,16:4][/itemtooltip] +  [itemtooltip=(O){{ModId}}_Dark_Chocolate][icon=Mods/{{ModId}}/Objects:128,96,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Classic_Smores][icon=Mods/{{ModId}}/Objects:224,592,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Mallow][icon=Mods/{{ModId}}/Objects:80,32,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Brown_Sugar][icon=Mods/{{ModId}}/Objects:192,64,16,16:4][/itemtooltip] 
+   
+   
+[itemtooltip=(O){{ModId}}_Dark_Chocolate_Truffles][icon=Mods/{{ModId}}/Objects:0,640,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Dark_Chocolate][icon=Mods/{{ModId}}/Objects:128,96,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Cream][icon=Mods/{{ModId}}/Objects:32,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Floral_Chocolate_Truffles][icon=Mods/{{ModId}}/Objects:80,640,16,16:4][/itemtooltip] = [texttooltip=:{{i18n:Edible_Flower}}][icon=Mods/{{ModId}}/Objects:96,16,16,16:4][/texttooltip] + [itemtooltip=(O){{ModId}}_White_Chocolate][icon=Mods/{{ModId}}/Objects:160,96,16,16:4][/itemtooltip] 
+   
+   
+[itemtooltip=(O){{ModId}}_Fruity_Chocolate_Truffles][icon=Mods/{{ModId}}/Objects:96,640,16,16:4][/itemtooltip] = [texttooltip=:{{i18n:Any_Fruit}}][icon=Maps/springobjects:208,400,16,16:4][/texttooltip] + [itemtooltip=(O){{ModId}}_Dark_Chocolate][icon=Mods/{{ModId}}/Objects:128,96,16,16:4][/itemtooltip] 
+   
+   
+[itemtooltip=(O){{ModId}}_Milk_Chocolate_Truffles][icon=Mods/{{ModId}}/Objects:32,640,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Milk_Chocolate][icon=Mods/{{ModId}}/Objects:144,96,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Cream][icon=Mods/{{ModId}}/Objects:32,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Nutty_Chocolate_Truffles][icon=Mods/{{ModId}}/Objects:48,640,16,16:4][/itemtooltip] = Any Nut item + [itemtooltip=(O){{ModId}}_Milk_Chocolate][icon=Mods/{{ModId}}/Objects:144,96,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_White_Chocolate_Truffles][icon=Mods/{{ModId}}/Objects:16,640,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_White_Chocolate][icon=Mods/{{ModId}}/Objects:160,96,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Cream][icon=Mods/{{ModId}}/Objects:32,64,16,16:4][/itemtooltip]
+
+"
+                                }, 
+                                { 
+                                    "Id": "CrystalCandy",
+                                    "Condition":"CAULDRON_CONFIG_VALUE DifficultyToggle Advanced", 
+                                    "Contents": "[image=SMAPI/wildflour.ateliergoods/assets/guidebook/crystalcandy_title.png:null:1]
+[itemtooltip=(O){{ModId}}_Amethyst_Peaks_Crystal_Candy][icon=Mods/{{ModId}}/Objects:64,608,16,16:4][/itemtooltip] = [itemtooltip=(O)66][icon=Maps/springobjects: 288,32,16,16:4][/itemtooltip] + [itemtooltip=(O)245][icon=Maps/springobjects:80,160,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Aquamarine_Seas_Crystal_Candy][icon=Mods/{{ModId}}/Objects:48,608,16,16:4][/itemtooltip] = [itemtooltip=(O)62][icon=Maps/springobjects: 224,32,16,16:4][/itemtooltip] + [itemtooltip=(O)245][icon=Maps/springobjects:80,160,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Emerald_Valley_Crystal_Candy][icon=Mods/{{ModId}}/Objects:32,608,16,16:4][/itemtooltip] = [itemtooltip=(O)60][icon=Maps/springobjects: 192,32,16,16:4][/itemtooltip] + [itemtooltip=(O)245][icon=Maps/springobjects:80,160,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Ruby_Sands_Crystal_Candy][icon=Mods/{{ModId}}/Objects:0,608,16,16:4][/itemtooltip] = [itemtooltip=(O)64][icon=Maps/springobjects: 256,32,16,16:4][/itemtooltip] + [itemtooltip=(O)245][icon=Maps/springobjects:80,160,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Starry_Skies_Crystal_Candy][icon=Mods/{{ModId}}/Objects:80,608,16,16:4][/itemtooltip] = [itemtooltip=(O)578][icon=Maps/springobjects: 32,384,16,16:4][/itemtooltip] + [itemtooltip=(O)245][icon=Maps/springobjects:80,160,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Topaz_Shores_Crystal_Candy][icon=Mods/{{ModId}}/Objects:16,608,16,16:4][/itemtooltip] = [itemtooltip=(O)68][icon=Maps/springobjects: 320,32,16,16:4][/itemtooltip] + [itemtooltip=(O)245][icon=Maps/springobjects:80,160,16,16:4][/itemtooltip]
+                                    " 
+                                }, 
+                                { 
+                                    "Id": "FairyFloss", 
+                                    "Condition":"CAULDRON_CONFIG_VALUE DifficultyToggle Advanced",
+                                    "Contents": "[image=SMAPI/wildflour.ateliergoods/assets/guidebook/fairyfloss_title.png:null:1]
+
+[itemtooltip=(O){{ModId}}_Blooming_Garden_Fairy_Floss][icon=Mods/{{ModId}}/Objects:128,576,16,16:4][/itemtooltip] = [itemtooltip=(O)344][icon=Tilesheets/Objects_2: 32,256,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Rose_Water][icon=Mods/{{ModId}}/Objects:176,80,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Classic_Fairy_Floss][icon=Mods/{{ModId}}/Objects:144,576,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Rainbow_Sprinkles][icon=Mods/{{ModId}}/Objects:0,80,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Vanilla_Syrup][icon=Mods/{{ModId}}/Objects:16,112,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Earl_Grey_Fairy_Floss][icon=Mods/{{ModId}}/Objects:160,576,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Matcha_Powder][icon=Mods/{{ModId}}/Objects:224,64,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Lavender_Water][icon=Mods/{{ModId}}/Objects:208,96,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Lemon_Bar_Fairy_Floss][icon=Mods/{{ModId}}/Objects:176,576,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Brown_Sugar][icon=Mods/{{ModId}}/Objects:192,64,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Lemon_Syrup][icon=Mods/{{ModId}}/Objects:224,96,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Peppermint_Cloud_Fairy_Floss][icon=Mods/{{ModId}}/Objects:192,576,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Confectioners_Sugar][icon=Mods/{{ModId}}/Objects:208,64,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Mint][icon=Mods/{{ModId}}/Objects:176,32,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Summer_Orchard_Fairy_Floss][icon=Mods/{{ModId}}/Objects:208,576,16,16:4][/itemtooltip] = [itemtooltip=(O)635][icon=Maps/springobjects:176,416,16,16:4][/itemtooltip] +  [itemtooltip=(O){{ModId}}_Peach_Syrup][icon=Mods/{{ModId}}/Objects:144,80,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Vanilla_Latte_Fairy_Floss][icon=Mods/{{ModId}}/Objects:224,576,16,16:4][/itemtooltip] = [itemtooltip=(O)433][icon=Maps/springobjects: 16,288,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Vanilla_Syrup][icon=Mods/{{ModId}}/Objects:16,112,16,16:4][/itemtooltip]" 
+                                }, 
+                                { 
+                                    "Id": "Gumballs", 
+                                    "Condition":"CAULDRON_CONFIG_VALUE DifficultyToggle Advanced",
+                                    "Contents": "[image=SMAPI/wildflour.ateliergoods/assets/guidebook/gumballs_title.png:null:1]
+
+[itemtooltip=(O){{ModId}}_Banana_Split_Gumballs][icon=Mods/{{ModId}}/Objects:160,640,16,16:4][/itemtooltip] = [itemtooltip=(O)400][icon=Maps/springobjects:256,256,16,16:4][/itemtooltip] +  [itemtooltip=(O)91][icon=Maps/springobjects:304,48,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Blue_Razzberry_Gumballs][icon=Mods/{{ModId}}/Objects:176,640,16,16:4][/itemtooltip] = [itemtooltip=(O)258][icon=Maps/springobjects:288,160,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Wild_Raspberry][icon=Mods/{{ModId}}/Objects:144,48,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Cotton_Candy_Gumballs][icon=Mods/{{ModId}}/Objects:192,640,16,16:4][/itemtooltip] = [itemtooltip=(O)398][icon=Maps/springobjects: 224,256,16,16:4][/itemtooltip] + [itemtooltip=(O)245][icon=Maps/springobjects:80,160,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Melonade_Gumballs][icon=Mods/{{ModId}}/Objects:208,640,16,16:4][/itemtooltip] = [itemtooltip=(O)254][icon=Maps/springobjects: 224,160,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Lemon][icon=Mods/{{ModId}}/Objects:192,0,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Minty_Fresh_Gumballs][icon=Mods/{{ModId}}/Objects:224,640,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Mint][icon=Mods/{{ModId}}/Objects:176,32,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Vanilla][icon=Mods/{{ModId}}/Objects:80,48,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Pina_Colada_Gumballs][icon=Mods/{{ModId}}/Objects:240,640,16,16:4][/itemtooltip] = [itemtooltip=(O)832][icon=Maps/springobjects:256,544,16,16:4][/itemtooltip] + [itemtooltip=(O)88][icon=Maps/springobjects:256,48,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Rainbow_Gumballs][icon=Mods/{{ModId}}/Objects:0,656,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Rainbow_Sprinkles][icon=Mods/{{ModId}}/Objects:0,80,16,16:4][/itemtooltip] + [itemtooltip=(O)245][icon=Maps/springobjects:80,160,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Sour_Blast_Gumballs][icon=Mods/{{ModId}}/Objects:0,656,16,16:4][/itemtooltip] =  [itemtooltip=(O)638][icon=Maps/springobjects:224,416,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Lime][icon=Mods/{{ModId}}/Objects:224,0,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Spicy_Cinnamon_Gumballs][icon=Mods/{{ModId}}/Objects:0,656,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Cinnamon][icon=Mods/{{ModId}}/Objects:144,16,16,16:4][/itemtooltip] + [itemtooltip=(O)396][icon=Maps/springobjects: 192,256,16,16:4][/itemtooltip]" 
+                                }, 
+                                { 
+                                    "Id": "HardCandy", 
+                                    "Condition":"CAULDRON_CONFIG_VALUE DifficultyToggle Advanced",
+                                    "Contents": "[image=SMAPI/wildflour.ateliergoods/assets/guidebook/hardcandy_title.png:null:1]
+
+[itemtooltip=(O){{ModId}}_Red_Hard_Candy][icon=Mods/{{ModId}}/Objects:0,624,16,16:4][/itemtooltip] = Any [itemtooltip=(O){{ModId}}_Apple_Syrup][icon=Mods/{{ModId}}/Objects:32,80,16,16:4][/itemtooltip] [itemtooltip=(O){{ModId}}_Cherry_Syrup][icon=Mods/{{ModId}}/Objects:80,80,16,16:4][/itemtooltip] [itemtooltip=(O){{ModId}}_Strawberry_Syrup][icon=Mods/{{ModId}}/Objects:0,112,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Yellow_Hard_Candy][icon=Mods/{{ModId}}/Objects:32,624,16,16:4][/itemtooltip] = Any [itemtooltip=(O){{ModId}}_Banana_Syrup][icon=Mods/{{ModId}}/Objects:64,80,16,16:4][/itemtooltip] [itemtooltip=(O){{ModId}}_Lemon_Syrup][icon=Mods/{{ModId}}/Objects:224,96,16,16:4][/itemtooltip] [itemtooltip=(O){{ModId}}_Mango_Syrup][icon=Mods/{{ModId}}/Objects:112,80,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Green_Hard_Candy][icon=Mods/{{ModId}}/Objects:192,608,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Lime_Syrup][icon=Mods/{{ModId}}/Objects:240,96,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Pink_Hard_Candy][icon=Mods/{{ModId}}/Objects:224,608,16,16:4][/itemtooltip] = Any [itemtooltip=(O){{ModId}}_Cherry_Blossom_Syrup][icon=Mods/{{ModId}}/Objects:176,96,16,16:4][/itemtooltip] [itemtooltip=(O){{ModId}}_Peach_Syrup][icon=Mods/{{ModId}}/Objects:144,80,16,16:4][/itemtooltip] [itemtooltip=(O){{ModId}}_Raspberry_Syrup][icon=Mods/{{ModId}}/Objects:192,80,16,16:4][/itemtooltip] [itemtooltip=(O){{ModId}}_Rose_Water][icon=Mods/{{ModId}}/Objects:176,80,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Blue_Hard_Candy][icon=Mods/{{ModId}}/Objects:176,608,16,16:4][/itemtooltip] = Any [itemtooltip=(O){{ModId}}_Ancient_Fruit_Syrup][icon=Mods/{{ModId}}/Objects:16,80,16,16:4][/itemtooltip] [itemtooltip=(O){{ModId}}_Elderberry_Water][icon=Mods/{{ModId}}/Objects:192,96,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Sweet_Hard_Candy][icon=Mods/{{ModId}}/Objects:16,624,16,16:4][/itemtooltip] = Any [itemtooltip=(O){{ModId}}_Chocolate_Syrup][icon=Mods/{{ModId}}/Objects:192,96,16,16:4][/itemtooltip] [itemtooltip=(O){{ModId}}_Vanilla_Syrup][icon=Mods/{{ModId}}/Objects:16,112,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Orange_Hard_Candy][icon=Mods/{{ModId}}/Objects:208,608,16,16:4][/itemtooltip] = Any [itemtooltip=(O){{ModId}}_Apricot_Syrup][icon=Mods/{{ModId}}/Objects:48,80,16,16:4][/itemtooltip] [itemtooltip=(O){{ModId}}_Orange_Syrup][icon=Mods/{{ModId}}/Objects:128,80,16,16:4][/itemtooltip] [itemtooltip=(O){{ModId}}_Pumpkin_Syrup][icon=Mods/{{ModId}}/Objects:160,80,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Purple_Hard_Candy][icon=Mods/{{ModId}}/Objects:48,624,16,16:4][/itemtooltip] = Any [itemtooltip=(O){{ModId}}_Grenadine_Syrup][icon=Mods/{{ModId}}/Objects:96,80,16,16:4][/itemtooltip] [itemtooltip=(O){{ModId}}_Lavender_Water][icon=Mods/{{ModId}}/Objects:208,96,16,16:4][/itemtooltip]" 
+                                }, 
+                                { 
+                                    "Id": "JellyBeans", 
+                                    "Condition":"CAULDRON_CONFIG_VALUE DifficultyToggle Advanced",
+                                    "Contents": "[image=SMAPI/wildflour.ateliergoods/assets/guidebook/jellybeans_title.png:null:1]
+
+[itemtooltip=(O){{ModId}}_Autumn_Spice_Jelly_Beans][icon=Mods/{{ModId}}/Objects:80,656,16,16:4][/itemtooltip] = Any [itemtooltip=(O){{ModId}}_Apple_Syrup][icon=Mods/{{ModId}}/Objects:32,80,16,16:4][/itemtooltip] [itemtooltip=(O){{ModId}}_Grenadine_Syrup][icon=Mods/{{ModId}}/Objects:96,80,16,16:4][/itemtooltip] [itemtooltip=(O){{ModId}}_Pumpkin_Syrup][icon=Mods/{{ModId}}/Objects:160,80,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Berry_Blast_Jelly_Beans][icon=Mods/{{ModId}}/Objects:96,656,16,16:4][/itemtooltip] = Any [itemtooltip=(O){{ModId}}_Elderberry_Water][icon=Mods/{{ModId}}/Objects:192,96,16,16:4][/itemtooltip] [itemtooltip=(O){{ModId}}_Raspberry_Syrup][icon=Mods/{{ModId}}/Objects:192,80,16,16:4][/itemtooltip] [itemtooltip=(O){{ModId}}_Strawberry_Syrup][icon=Mods/{{ModId}}/Objects:0,112,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Citrus_Splash_Jelly_Beans][icon=Mods/{{ModId}}/Objects:112,656,16,16:4][/itemtooltip] = Any [itemtooltip=(O){{ModId}}_Lemon_Syrup][icon=Mods/{{ModId}}/Objects:224,96,16,16:4][/itemtooltip] [itemtooltip=(O){{ModId}}_Lime_Syrup][icon=Mods/{{ModId}}/Objects:240,96,16,16:4][/itemtooltip] [itemtooltip=(O){{ModId}}_Orange_Syrup][icon=Mods/{{ModId}}/Objects:128,80,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Magical_Jelly_Beans][icon=Mods/{{ModId}}/Objects:128,656,16,16:4][/itemtooltip] = Any [itemtooltip=(O){{ModId}}_Ancient_Fruit_Syrup][icon=Mods/{{ModId}}/Objects:16,80,16,16:4][/itemtooltip] [itemtooltip=(O){{ModId}}_Lavender_Water][icon=Mods/{{ModId}}/Objects:208,96,16,16:4][/itemtooltip] [itemtooltip=(O){{ModId}}_Rose_Water][icon=Mods/{{ModId}}/Objects:176,80,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Mocha_Jelly_Beans][icon=Mods/{{ModId}}/Objects:144,656,16,16:4][/itemtooltip] = Any [itemtooltip=(O){{ModId}}_Chocolate_Syrup][icon=Mods/{{ModId}}/Objects:192,96,16,16:4][/itemtooltip] [itemtooltip=(O){{ModId}}_Vanilla_Syrup][icon=Mods/{{ModId}}/Objects:16,112,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Spring_Blooms_Jelly_Beans][icon=Mods/{{ModId}}/Objects:160,656,16,16:4][/itemtooltip] = Any [itemtooltip=(O){{ModId}}_Apricot_Syrup][icon=Mods/{{ModId}}/Objects:48,80,16,16:4][/itemtooltip] [itemtooltip=(O){{ModId}}_Cherry_Blossom_Syrup][icon=Mods/{{ModId}}/Objects:176,96,16,16:4][/itemtooltip] [itemtooltip=(O){{ModId}}_Cherry_Syrup][icon=Mods/{{ModId}}/Objects:80,80,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Summertime_Jelly_Beans][icon=Mods/{{ModId}}/Objects:176,656,16,16:4][/itemtooltip] = Any [itemtooltip=(O){{ModId}}_Banana_Syrup][icon=Mods/{{ModId}}/Objects:64,80,16,16:4][/itemtooltip] [itemtooltip=(O){{ModId}}_Mango_Syrup][icon=Mods/{{ModId}}/Objects:112,80,16,16:4][/itemtooltip] [itemtooltip=(O){{ModId}}_Peach_Syrup][icon=Mods/{{ModId}}/Objects:144,80,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Black_Licorice][icon=Mods/{{ModId}}/Objects:208,592,16,16:4][/itemtooltip] = [itemtooltip=(O)769][icon=Maps/springobjects: 16,512,16,16:4][/itemtooltip]  + [itemtooltip=(O)245][icon=Maps/springobjects:80,160,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Classic_Licorice][icon=Mods/{{ModId}}/Objects:192,592,16,16:4][/itemtooltip] = [itemtooltip=(O)396][icon=Maps/springobjects: 192,256,16,16:4][/itemtooltip]  + [itemtooltip=(O)245][icon=Maps/springobjects:80,160,16,16:4][/itemtooltip]" 
+                                }, 
+                                { 
+                                    "Id": "Lollipops", 
+                                    "Condition":"CAULDRON_CONFIG_VALUE DifficultyToggle Advanced",
+                                    "Contents": "[image=SMAPI/wildflour.ateliergoods/assets/guidebook/lollipops_title.png:null:1]
+
+[itemtooltip=(O){{ModId}}_Candy_Apple][icon=Mods/{{ModId}}/Objects:240,560,16,16:4][/itemtooltip] = [itemtooltip=(O)245][icon=Maps/springobjects:80,160,16,16:4][/itemtooltip] + [itemtooltip=(O)613][icon=Maps/springobjects:208,400,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Caramel_Apple][icon=Mods/{{ModId}}/Objects:160,592,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Caramel_Syrup][icon=Mods/{{ModId}}/Objects:240,592,16,16:4][/itemtooltip] + [itemtooltip=(O)613][icon=Maps/springobjects:208,400,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Flower_Power_Lollipop][icon=Mods/{{ModId}}/Objects:128,592,16,16:4][/itemtooltip] = [texttooltip=:{{i18n:Edible_Flower}}][icon=Mods/{{ModId}}/Objects:96,16,16,16:4][/texttooltip] + [itemtooltip=(O)340][icon=Maps/springobjects:64,224,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_JackOLantern_Lollipop][icon=Mods/{{ModId}}/Objects:64,592,16,16:4][/itemtooltip] = [itemtooltip=(O)276][icon=Maps/springobjects:192,176,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Brown_Sugar][icon=Mods/{{ModId}}/Objects:192,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Kooky_Cookie_Lollipop][icon=Mods/{{ModId}}/Objects:48,592,16,16:4][/itemtooltip] = [itemtooltip=(O)223][icon=Maps/springobjects: 112,144,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Brown_Sugar][icon=Mods/{{ModId}}/Objects:192,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Mush_Lollipop][icon=Mods/{{ModId}}/Objects:96,592,16,16:4][/itemtooltip] = Any Edible Mushroom + [itemtooltip=(O)340][icon=Maps/springobjects:64,224,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Prismatic_Swirl_Lollipop][icon=Mods/{{ModId}}/Objects:16,592,16,16:4][/itemtooltip] = [itemtooltip=(O)74][icon=Maps/springobjects: 32,48,16,16:4][/itemtooltip] + [itemtooltip=(O)245][icon=Maps/springobjects:80,160,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Skelly_Lollipop][icon=Mods/{{ModId}}/Objects:112,592,16,16:4][/itemtooltip] = [itemtooltip=(O)881][icon=Maps/springobjects: 272,576,16,16:4][/itemtooltip] + [itemtooltip=(O)245][icon=Maps/springobjects:80,160,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Spooky_Candy_Apple][icon=Mods/{{ModId}}/Objects:176,592,16,16:4][/itemtooltip] = [itemtooltip=(O)909][icon=Maps/springobjects: 336,592,16,16:4][/itemtooltip] + [itemtooltip=(O)613][icon=Maps/springobjects:208,400,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Unconcerned_Chimp_Lollipop][icon=Mods/{{ModId}}/Objects:80,592,16,16:4][/itemtooltip] = [itemtooltip=(O)91][icon=Maps/springobjects:304,48,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Brown_Sugar][icon=Mods/{{ModId}}/Objects:192,64,16,16:4][/itemtooltip]" 
+                                },
+                                { 
+                                    "Id": "Marshmallows", 
+                                    "Condition":"CAULDRON_CONFIG_VALUE DifficultyToggle Advanced",
+                                    "Contents": "[image=SMAPI/wildflour.ateliergoods/assets/guidebook/marshmallows_title.png:null:1]
+
+[itemtooltip=(O){{ModId}}_Apple_Pickin_Marshmallows][icon=Mods/{{ModId}}/Objects:0,576,16,16:4][/itemtooltip] = [itemtooltip=(O)613][icon=Maps/springobjects:208,400,16,16:4][/itemtooltip] + [itemtooltip=(O)724][icon=Maps/springobjects: 64,480,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Berry_Mania_Marshmallows][icon=Mods/{{ModId}}/Objects:16,576,16,16:4][/itemtooltip] = [itemtooltip=(O)258][icon=Maps/springobjects:288,160,16,16:4][/itemtooltip] + Any Berry item
+   
+   
+[itemtooltip=(O){{ModId}}_Chocoberry_Marshmallows][icon=Mods/{{ModId}}/Objects:32,576,16,16:4][/itemtooltip] = [itemtooltip=(O)400][icon=Maps/springobjects:256,256,16,16:4][/itemtooltip] +  [itemtooltip=(O){{ModId}}_Cacao_Pod][icon=Mods/{{ModId}}/Objects:64,0,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Choco_Lovers_Marshmallows][icon=Mods/{{ModId}}/Objects:48,576,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Dark_Chocolate][icon=Mods/{{ModId}}/Objects:128,96,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_White_Chocolate][icon=Mods/{{ModId}}/Objects:160,96,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Mint_Mocha_Marshmallows][icon=Mods/{{ModId}}/Objects:64,576,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Mint][icon=Mods/{{ModId}}/Objects:176,32,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Cacao_Pod][icon=Mods/{{ModId}}/Objects:64,0,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Rainbow_Marshmallows][icon=Mods/{{ModId}}/Objects:80,576,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Rainbow_Sprinkles][icon=Mods/{{ModId}}/Objects:0,80,16,16:4][/itemtooltip] + [itemtooltip=(O)245][icon=Maps/springobjects:80,160,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Sun_Kissed_Marshmallows][icon=Mods/{{ModId}}/Objects:96,576,16,16:4][/itemtooltip] =  [itemtooltip=(O){{ModId}}_Lemon][icon=Mods/{{ModId}}/Objects:192,0,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Vanilla][icon=Mods/{{ModId}}/Objects:80,48,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Tea_Time_Marshmallows][icon=Mods/{{ModId}}/Objects:112,576,16,16:4][/itemtooltip] = [itemtooltip=(O)595][icon=Maps/springobjects:304,384,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Matcha_Powder][icon=Mods/{{ModId}}/Objects:224,64,16,16:4][/itemtooltip]
+" 
+                                },
+                                {
+                                    "Id": "Candy_Simple", 
+                                    "Contents":"
+                                    [image=SMAPI/wildflour.ateliergoods/assets/guidebook/simple_title.png:null:1]
+   
+[itemtooltip=(O){{ModId}}_Flavored_Hard_Candy][icon=Mods/{{ModId}}/Objects:48,624,16,16:4][/itemtooltip] = [texttooltip=:{{i18n:Any_Fruit}}][icon=Maps/springobjects:208,400,16,16:4][/texttooltip] or [texttooltip=:{{i18n:Edible_Flower}}][icon=Mods/{{ModId}}/Objects:96,16,16,16:4][/texttooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Flavored_Lollipop][icon=Mods/{{ModId}}/Objects:128,608,16,16:4][/itemtooltip] = [texttooltip=:{{i18n:Any_Fruit}}][icon=Maps/springobjects:208,400,16,16:4][/texttooltip] or [texttooltip=:{{i18n:Edible_Flower}}][icon=Mods/{{ModId}}/Objects:96,16,16,16:4][/texttooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Flavored_Jelly_Beans][icon=Mods/{{ModId}}/Objects:192,656,16,16:4][/itemtooltip] = [texttooltip=:{{i18n:Any_Fruit}}][icon=Maps/springobjects:208,400,16,16:4][/texttooltip] or [texttooltip=:{{i18n:Edible_Flower}}][icon=Mods/{{ModId}}/Objects:96,16,16,16:4][/texttooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Flavored_Gumballs][icon=Mods/{{ModId}}/Objects:48,656,16,16:4][/itemtooltip] = [texttooltip=:{{i18n:Any_Fruit}}][icon=Maps/springobjects:208,400,16,16:4][/texttooltip] or [texttooltip=:{{i18n:Edible_Flower}}][icon=Mods/{{ModId}}/Objects:96,16,16,16:4][/texttooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Flavored_Marshmallows][icon=Mods/{{ModId}}/Objects:208,560,16,16:4][/itemtooltip] = [texttooltip=:{{i18n:Any_Fruit}}][icon=Maps/springobjects:208,400,16,16:4][/texttooltip] or [texttooltip=:{{i18n:Edible_Flower}}][icon=Mods/{{ModId}}/Objects:96,16,16,16:4][/texttooltip]
+                                    
+                                    
+                                    "
+                                }
+                            ]
+                        },
+                        "Florist": {
+                            "Name": "{{i18n: guidebook.chapter.TableOfContents.Florist}}",
+                            "TabIconTexture": "Mods/Wildflour's Atelier Goods/Tabs",
+                            "TabIconRect": { "X": 16, "Y": 32, "Width": 16, "Height": 16 },
+                            "Condition": "CAULDRON_CONFIG_VALUE Florist True",
+                            "Pages": [
+                                { 
+                                    "Id": "FloristOverview", 
+                                    "Contents": "[image=SMAPI/wildflour.ateliergoods/assets/guidebook/machines_title.png:null:1]
+
+[itemtooltip=(BC){{ModId}}_CandleStation][icon=Mods/{{ModId}}/Machines:0,480,16,32:4][/itemtooltip] = [icon=LooseSprites/emojis:117,99,9,9:4]  [icon=LooseSprites/emojis:9,27,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4]
+   
+   
+   
+   
+[itemtooltip=(BC){{ModId}}_FlowerStation][icon=Mods/{{ModId}}/Machines:0,448,16,32:4][/itemtooltip] = [icon=LooseSprites/emojis:0,108,9,9:4]  [icon=LooseSprites/emojis:9,27,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4]
+   
+   
+   
+   
+[itemtooltip=(BC){{ModId}}_FragranceStation][icon=Mods/{{ModId}}/Machines:0,416,16,32:4][/itemtooltip] = [icon=LooseSprites/emojis:36,99,9,9:4]  [icon=LooseSprites/emojis:9,27,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4]
+   
+   
+   
+   
+[itemtooltip=(BC){{ModId}}_Drying_Station][icon=Mods/{{ModId}}/Machines:0,832,16,32:4][/itemtooltip] = [icon=LooseSprites/emojis:27,99,9,9:4]  [icon=LooseSprites/emojis:9,27,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4]
+                                    " 
+                                }, 
+                                { 
+                                    "Id": "Candles", 
+                                    "Condition":"CAULDRON_CONFIG_VALUE DifficultyToggle Advanced",
+                                    "Contents": "[image=SMAPI/wildflour.ateliergoods/assets/guidebook/candles_title.png:null:1]
+   
+   
+[itemtooltip=(O){{ModId}}_Autumn_Evening_Candles][icon=Mods/{{ModId}}/Objects:96,432,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Autumn_Evening_Floral_Swag][icon=Mods/{{ModId}}/Objects:96,400,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Bold_Red_Candles][icon=Mods/{{ModId}}/Objects:128,432,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Bold_Red_Floral_Swag][icon=Mods/{{ModId}}/Objects:128,400,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Butterfly_Garden_Candles][icon=Mods/{{ModId}}/Objects:0,432,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Butterfly_Garden_Floral_Swag][icon=Mods/{{ModId}}/Objects:0,400,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Charming_Pink_Candles][icon=Mods/{{ModId}}/Objects:144,432,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Charming_Pink_Floral_Swag][icon=Mods/{{ModId}}/Objects:144,400,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Cheerful_Yellow_Candles][icon=Mods/{{ModId}}/Objects:160,432,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Cheerful_Yellow_Floral_Swag][icon=Mods/{{ModId}}/Objects:160,400,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Cottage_Garden_Candles][icon=Mods/{{ModId}}/Objects:16,432,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Cottage_Garden_Floral_Swag][icon=Mods/{{ModId}}/Objects:16,400,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Herb_Garden_Candles][icon=Mods/{{ModId}}/Objects:32,432,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Herb_Garden_Floral_Swag][icon=Mods/{{ModId}}/Objects:32,400,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Mystic_Garden_Candles][icon=Mods/{{ModId}}/Objects:48,432,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Mystic_Garden_Floral_Swag][icon=Mods/{{ModId}}/Objects:48,400,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Passion_Purple_Candles][icon=Mods/{{ModId}}/Objects:176,432,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Passion_Purple_Floral_Swag][icon=Mods/{{ModId}}/Objects:176,400,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Peaceful_Blue_Candles][icon=Mods/{{ModId}}/Objects:192,432,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Peaceful_Blue_Floral_Swag][icon=Mods/{{ModId}}/Objects:192,400,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Serene_White_Candles][icon=Mods/{{ModId}}/Objects:208,432,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Serene_White_Floral_Swag][icon=Mods/{{ModId}}/Objects:208,400,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Spring_Morning_Candles][icon=Mods/{{ModId}}/Objects:64,432,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Spring_Morning_Floral_Swag][icon=Mods/{{ModId}}/Objects:64,400,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Summer_Afternoon_Candles][icon=Mods/{{ModId}}/Objects:80,432,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Summer_Afternoon_Floral_Swag][icon=Mods/{{ModId}}/Objects:80,400,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Winter_Twilight_Candles][icon=Mods/{{ModId}}/Objects:112,432,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Winter_Twilight_Floral_Swag][icon=Mods/{{ModId}}/Objects:112,400,16,16:4][/itemtooltip]" 
+                                }, 
+                                { 
+                                    "Id": "FloralSwag", 
+                                    "Condition":"CAULDRON_CONFIG_VALUE DifficultyToggle Advanced",
+                                    "Contents": "[image=SMAPI/wildflour.ateliergoods/assets/guidebook/swag_title.png:null:1]
+   
+[itemtooltip=(O){{ModId}}_Autumn_Evening_Floral_Swag][icon=Mods/{{ModId}}/Objects:96,400,16,16:4][/itemtooltip] = [itemtooltip=(O)595][icon=Maps/springobjects:304,384,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Bold_Red_Floral_Swag][icon=Mods/{{ModId}}/Objects:128,400,16,16:4][/itemtooltip] = Pick 1 [itemtooltip=(O)453][icon=Maps/springobjects: 256,240,16,16:4][/itemtooltip] [itemtooltip=(O){{ModId}}_Mallow][icon=Mods/{{ModId}}/Objects:80,32,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Butterfly_Garden_Floral_Swag][icon=Mods/{{ModId}}/Objects:0,400,16,16:4][/itemtooltip] = Pick 1 [itemtooltip=(O){{ModId}}_Chamomile][icon=Mods/{{ModId}}/Objects:96,16,16,16:4][/itemtooltip] [itemtooltip=(O){{ModId}}_Mallow][icon=Mods/{{ModId}}/Objects:80,32,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Charming_Pink_Floral_Swag][icon=Mods/{{ModId}}/Objects:144,400,16,16:4][/itemtooltip] = [itemtooltip=(O)402][icon=Maps/springobjects: 288,256,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Cheerful_Yellow_Floral_Swag][icon=Mods/{{ModId}}/Objects:160,400,16,16:4][/itemtooltip] = [itemtooltip=(O)421][icon=Maps/springobjects: 208,272,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Cottage_Garden_Floral_Swag][icon=Mods/{{ModId}}/Objects:16,400,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Lavender][icon=Mods/{{ModId}}/Objects:48,32,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Herb_Garden_Floral_Swag][icon=Mods/{{ModId}}/Objects:32,400,16,16:4][/itemtooltip] = Pick 1 [itemtooltip=(O){{ModId}}_Sage][icon=Mods/{{ModId}}/Objects:16,48,16,16:4][/itemtooltip] [itemtooltip=(O){{ModId}}_Rosemary][icon=Mods/{{ModId}}/Objects:240,32,16,16:4][/itemtooltip] [itemtooltip=(O){{ModId}}_Thyme][icon=Mods/{{ModId}}/Objects:48,48,16,16:4][/itemtooltip] [itemtooltip=(O){{ModId}}_Mint][icon=Mods/{{ModId}}/Objects:176,32,16,16:4][/itemtooltip] [itemtooltip=(O){{ModId}}_Basil][icon=Mods/{{ModId}}/Objects:64,16,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Mystic_Garden_Floral_Swag][icon=Mods/{{ModId}}/Objects:48,400,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Wormwood][icon=Mods/{{ModId}}/Objects:208,48,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Passion_Purple_Floral_Swag][icon=Mods/{{ModId}}/Objects:176,400,16,16:4][/itemtooltip] = [itemtooltip=(O)418][icon=Maps/springobjects: 160,272,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Peaceful_Blue_Floral_Swag][icon=Mods/{{ModId}}/Objects:192,400,16,16:4][/itemtooltip] = [itemtooltip=(O)597][icon=Maps/springobjects: 336,384,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Serene_White_Floral_Swag][icon=Mods/{{ModId}}/Objects:208,400,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Jasmine][icon=Mods/{{ModId}}/Objects:16,32,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Spring_Morning_Floral_Swag][icon=Mods/{{ModId}}/Objects:64,400,16,16:4][/itemtooltip] = [itemtooltip=(O)591][icon=Maps/springobjects: 240,384,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Summer_Afternoon_Floral_Swag][icon=Mods/{{ModId}}/Objects:80,400,16,16:4][/itemtooltip] = [itemtooltip=(O)593][icon=Maps/springobjects: 272,384,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Winter_Twilight_Floral_Swag][icon=Mods/{{ModId}}/Objects:112,400,16,16:4][/itemtooltip] = [itemtooltip=(O)283][icon=Maps/springobjects: 304,176,16,16:4][/itemtooltip]" 
+                                }, 
+                                { 
+                                    "Id": "Perfume", 
+                                    "Condition":"CAULDRON_CONFIG_VALUE DifficultyToggle Advanced",
+                                    "Contents": "[image=SMAPI/wildflour.ateliergoods/assets/guidebook/perfume_title.png:null:1]
+   
+[itemtooltip=(O){{ModId}}_Autumn_Evening_Perfume][icon=Mods/{{ModId}}/Objects:96,464,16,16:4][/itemtooltip] = [itemtooltip=(O)595][icon=Maps/springobjects:304,384,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Bold_Red_Perfume][icon=Mods/{{ModId}}/Objects:128,464,16,16:4][/itemtooltip] = Pick 1 [itemtooltip=(O)453][icon=Maps/springobjects: 256,240,16,16:4][/itemtooltip] or [itemtooltip=(O){{ModId}}_Mallow][icon=Mods/{{ModId}}/Objects:80,32,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Butterfly_Garden_Perfume][icon=Mods/{{ModId}}/Objects:0,464,16,16:4][/itemtooltip] = Pick 1 [itemtooltip=(O){{ModId}}_Chamomile][icon=Mods/{{ModId}}/Objects:96,16,16,16:4][/itemtooltip] or [itemtooltip=(O){{ModId}}_Mallow][icon=Mods/{{ModId}}/Objects:80,32,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Charming_Pink_Perfume][icon=Mods/{{ModId}}/Objects:144,464,16,16:4][/itemtooltip] = [itemtooltip=(O)402][icon=Maps/springobjects: 288,256,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Cheerful_Yellow_Perfume][icon=Mods/{{ModId}}/Objects:160,464,16,16:4][/itemtooltip] = [itemtooltip=(O)421][icon=Maps/springobjects: 208,272,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Cottage_Garden_Perfume][icon=Mods/{{ModId}}/Objects:16,464,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Lavender][icon=Mods/{{ModId}}/Objects:48,32,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Herb_Garden_Perfume][icon=Mods/{{ModId}}/Objects:32,464,16,16:4][/itemtooltip] = Pick 1 [itemtooltip=(O){{ModId}}_Sage][icon=Mods/{{ModId}}/Objects:16,48,16,16:4][/itemtooltip] [itemtooltip=(O){{ModId}}_Rosemary][icon=Mods/{{ModId}}/Objects:240,32,16,16:4][/itemtooltip] [itemtooltip=(O){{ModId}}_Thyme][icon=Mods/{{ModId}}/Objects:48,48,16,16:4][/itemtooltip] [itemtooltip=(O){{ModId}}_Mint][icon=Mods/{{ModId}}/Objects:176,32,16,16:4][/itemtooltip] [itemtooltip=(O){{ModId}}_Basil][icon=Mods/{{ModId}}/Objects:64,16,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Mystic_Garden_Perfume][icon=Mods/{{ModId}}/Objects:48,464,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Wormwood][icon=Mods/{{ModId}}/Objects:208,48,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Passion_Purple_Perfume][icon=Mods/{{ModId}}/Objects:176,464,16,16:4][/itemtooltip] = [itemtooltip=(O)418][icon=Maps/springobjects: 160,272,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Peaceful_Blue_Perfume][icon=Mods/{{ModId}}/Objects:192,464,16,16:4][/itemtooltip] = [itemtooltip=(O)597][icon=Maps/springobjects: 336,384,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Serene_White_Perfume][icon=Mods/{{ModId}}/Objects:208,464,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Jasmine][icon=Mods/{{ModId}}/Objects:16,32,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Spring_Morning_Perfume][icon=Mods/{{ModId}}/Objects:64,464,16,16:4][/itemtooltip] = [itemtooltip=(O)591][icon=Maps/springobjects: 240,384,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Summer_Afternoon_Perfume][icon=Mods/{{ModId}}/Objects:80,464,16,16:4][/itemtooltip] = [itemtooltip=(O)593][icon=Maps/springobjects: 272,384,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Winter_Twilight_Perfume][icon=Mods/{{ModId}}/Objects:112,464,16,16:4][/itemtooltip] = [itemtooltip=(O)283][icon=Maps/springobjects: 304,176,16,16:4][/itemtooltip]" 
+                                }, 
+                                { 
+                                    "Id": "Soap", 
+                                    "Condition":"CAULDRON_CONFIG_VALUE DifficultyToggle Advanced",
+                                    "Contents": "[image=SMAPI/wildflour.ateliergoods/assets/guidebook/soap_title.png:null:1]
+   
+   
+[itemtooltip=(O){{ModId}}_Autumn_Evening_Soap][icon=Mods/{{ModId}}/Objects:96,480,16,16:4][/itemtooltip] = [itemtooltip=(O)595][icon=Maps/springobjects:304,384,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Bold_Red_Soap][icon=Mods/{{ModId}}/Objects:128,480,16,16:4][/itemtooltip] = Pick 1 [itemtooltip=(O)453][icon=Maps/springobjects: 256,240,16,16:4][/itemtooltip] or [itemtooltip=(O){{ModId}}_Mallow][icon=Mods/{{ModId}}/Objects:80,32,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Butterfly_Garden_Soap][icon=Mods/{{ModId}}/Objects:0,480,16,16:4][/itemtooltip] = Pick 1 [itemtooltip=(O){{ModId}}_Chamomile][icon=Mods/{{ModId}}/Objects:96,16,16,16:4][/itemtooltip] or [itemtooltip=(O){{ModId}}_Mallow][icon=Mods/{{ModId}}/Objects:80,32,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Charming_Pink_Soap][icon=Mods/{{ModId}}/Objects:144,480,16,16:4][/itemtooltip] = [itemtooltip=(O)402][icon=Maps/springobjects: 288,256,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Cheerful_Yellow_Soap][icon=Mods/{{ModId}}/Objects:160,480,16,16:4][/itemtooltip] = [itemtooltip=(O)421][icon=Maps/springobjects: 208,272,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Cottage_Garden_Soap][icon=Mods/{{ModId}}/Objects:16,480,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Lavender][icon=Mods/{{ModId}}/Objects:48,32,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Herb_Garden_Soap][icon=Mods/{{ModId}}/Objects:32,480,16,16:4][/itemtooltip] = Pick 1 [itemtooltip=(O){{ModId}}_Sage][icon=Mods/{{ModId}}/Objects:16,48,16,16:4][/itemtooltip] [itemtooltip=(O){{ModId}}_Rosemary][icon=Mods/{{ModId}}/Objects:240,32,16,16:4][/itemtooltip] [itemtooltip=(O){{ModId}}_Thyme][icon=Mods/{{ModId}}/Objects:48,48,16,16:4][/itemtooltip] [itemtooltip=(O){{ModId}}_Mint][icon=Mods/{{ModId}}/Objects:176,32,16,16:4][/itemtooltip] [itemtooltip=(O){{ModId}}_Basil][icon=Mods/{{ModId}}/Objects:64,16,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Mystic_Garden_Soap][icon=Mods/{{ModId}}/Objects:48,480,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Wormwood][icon=Mods/{{ModId}}/Objects:208,48,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Passion_Purple_Soap][icon=Mods/{{ModId}}/Objects:176,480,16,16:4][/itemtooltip] = [itemtooltip=(O)418][icon=Maps/springobjects: 160,272,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Peaceful_Blue_Soap][icon=Mods/{{ModId}}/Objects:192,480,16,16:4][/itemtooltip] = [itemtooltip=(O)597][icon=Maps/springobjects: 336,384,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Serene_White_Soap][icon=Mods/{{ModId}}/Objects:208,480,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Jasmine][icon=Mods/{{ModId}}/Objects:16,32,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Spring_Morning_Soap][icon=Mods/{{ModId}}/Objects:64,480,16,16:4][/itemtooltip] = [itemtooltip=(O)591][icon=Maps/springobjects: 240,384,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Summer_Afternoon_Soap][icon=Mods/{{ModId}}/Objects:80,480,16,16:4][/itemtooltip] = [itemtooltip=(O)593][icon=Maps/springobjects: 272,384,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Winter_Twilight_Soap][icon=Mods/{{ModId}}/Objects:112,480,16,16:4][/itemtooltip] = [itemtooltip=(O)283][icon=Maps/springobjects: 304,176,16,16:4][/itemtooltip]" 
+                                }, 
+                                { 
+                "Id": "Incense", 
+                "Condition":"CAULDRON_CONFIG_VALUE DifficultyToggle Advanced",
+                "Contents": "[image=SMAPI/wildflour.ateliergoods/assets/guidebook/incense_title.png:null:1]
+
+   
+   
+[itemtooltip=(O){{ModId}}_Autumn_Evening_Incense][icon=Mods/{{ModId}}/Objects:96,448,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Autumn_Evening_Floral_Swag][icon=Mods/{{ModId}}/Objects:96,400,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Bold_Red_Incense][icon=Mods/{{ModId}}/Objects:128,448,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Bold_Red_Floral_Swag][icon=Mods/{{ModId}}/Objects:128,400,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Butterfly_Garden_Incense][icon=Mods/{{ModId}}/Objects:0,448,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Butterfly_Garden_Floral_Swag][icon=Mods/{{ModId}}/Objects:0,400,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Charming_Pink_Incense][icon=Mods/{{ModId}}/Objects:144,448,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Charming_Pink_Floral_Swag][icon=Mods/{{ModId}}/Objects:144,400,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Cheerful_Yellow_Incense][icon=Mods/{{ModId}}/Objects:160,448,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Cheerful_Yellow_Floral_Swag][icon=Mods/{{ModId}}/Objects:160,400,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Cottage_Garden_Incense][icon=Mods/{{ModId}}/Objects:16,448,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Cottage_Garden_Floral_Swag][icon=Mods/{{ModId}}/Objects:16,400,16,16:4]
+   
+   
+[itemtooltip=(O){{ModId}}_Herb_Garden_Incense][icon=Mods/{{ModId}}/Objects:32,448,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Herb_Garden_Floral_Swag][icon=Mods/{{ModId}}/Objects:32,400,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Mystic_Garden_Incense][icon=Mods/{{ModId}}/Objects:48,448,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Mystic_Garden_Floral_Swag][icon=Mods/{{ModId}}/Objects:48,400,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Passion_Purple_Incense][icon=Mods/{{ModId}}/Objects:176,448,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Passion_Purple_Floral_Swag][icon=Mods/{{ModId}}/Objects:176,400,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Peaceful_Blue_Incense][icon=Mods/{{ModId}}/Objects:192,448,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Peaceful_Blue_Floral_Swag][icon=Mods/{{ModId}}/Objects:192,400,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Serene_White_Incense][icon=Mods/{{ModId}}/Objects:208,448,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Serene_White_Floral_Swag][icon=Mods/{{ModId}}/Objects:208,400,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Spring_Morning_Incense][icon=Mods/{{ModId}}/Objects:64,448,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Spring_Morning_Floral_Swag][icon=Mods/{{ModId}}/Objects:64,400,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Summer_Afternoon_Incense][icon=Mods/{{ModId}}/Objects:80,448,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Summer_Afternoon_Floral_Swag][icon=Mods/{{ModId}}/Objects:80,400,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Winter_Twilight_Incense][icon=Mods/{{ModId}}/Objects:112,448,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Winter_Twilight_Floral_Swag][icon=Mods/{{ModId}}/Objects:112,400,16,16:4][/itemtooltip]" 
+                                }, 
+                                {
+                                    "Id": "Florist_Simple", 
+                                    "Contents":"[image=SMAPI/wildflour.ateliergoods/assets/guidebook/simple_title.png:null:1]
+   
+[itemtooltip=(O){{ModId}}_Flower_Bouquet][icon=Mods/{{ModId}}/Objects:224,416,16,16:4][/itemtooltip] = [texttooltip=:{{i18n:Any_Flower}}][icon=Mods/{{ModId}}/Objects:96,16,16,16:4][/texttooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Flower_Floral_Swag][icon=Mods/{{ModId}}/Objects:224,400,16,16:4][/itemtooltip] = [texttooltip=:{{i18n:Any_Flower}}][icon=Mods/{{ModId}}/Objects:96,16,16,16:4][/texttooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Flower_Perfume][icon=Mods/{{ModId}}/Objects:224,464,16,16:4][/itemtooltip] = [texttooltip=:{{i18n:Any_Flower}}][icon=Mods/{{ModId}}/Objects:96,16,16,16:4][/texttooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Flower_Soap][icon=Mods/{{ModId}}/Objects:224,480,16,16:4][/itemtooltip] = [texttooltip=:{{i18n:Any_Flower}}][icon=Mods/{{ModId}}/Objects:96,16,16,16:4][/texttooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Flower_Candles][icon=Mods/{{ModId}}/Objects:224,432,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Flower_Floral_Swag][icon=Mods/{{ModId}}/Objects:224,400,16,16:4][/itemtooltip]
+   
+[itemtooltip=(O){{ModId}}_Flower_Incense][icon=Mods/{{ModId}}/Objects:224,448,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Flower_Floral_Swag][icon=Mods/{{ModId}}/Objects:224,400,16,16:4][/itemtooltip]
+                                    
+
+                                    "
+                                }
+
+                            ]
+                        },
+                        "Frozen": {
+                            "Name": "{{i18n: guidebook.chapter.TableOfContents.Frozen}}",
+                            "TabIconTexture": "Mods/Wildflour's Atelier Goods/Tabs",
+                            "TabIconRect": { "X": 0, "Y": 48, "Width": 16, "Height": 16 },
+                            "Condition": "CAULDRON_CONFIG_VALUE Frozen True",
+                            "Pages": [
+                                { 
+                                    "Id": "FrozenOverview", 
+                                    "Contents": "[image=SMAPI/wildflour.ateliergoods/assets/guidebook/overview_title.png:null:1]
+                                    
+[itemtooltip=(BC){{ModId}}_KitchenBlender][icon=Mods/{{ModId}}/Machines:0,0,16,32:4][/itemtooltip] = [icon=LooseSprites/emojis:18,117,9,9:4]  [icon=LooseSprites/emojis:9,27,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4]
+   
+   
+   
+   
+[itemtooltip=(BC){{ModId}}_BlastChiller][icon=Mods/{{ModId}}/Machines:0,544,16,32:4][/itemtooltip] = [icon=LooseSprites/emojis:18,108,9,9:4]  [icon=LooseSprites/emojis:9,27,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4]
+   
+   
+   
+   
+[itemtooltip=(BC){{ModId}}_TreatMaker][icon=Mods/{{ModId}}/Machines:0,192,16,32:4][/itemtooltip] = [icon=LooseSprites/emojis:45,117,9,9:4]  [icon=LooseSprites/emojis:9,27,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4]
+                                    " 
+                                }, 
+                                { 
+                                    "Id": "IceCream", 
+                                    "Condition":"CAULDRON_CONFIG_VALUE DifficultyToggle Advanced",
+                                    "Contents": "[image=SMAPI/wildflour.ateliergoods/assets/guidebook/icecream_title.png:null:1]
+
+{{i18n:guidebook.Tips.IceCream.Require}}[itemtooltip=(O)84][icon=Maps/springobjects: 192,48,16,16:4][/itemtooltip] {{i18n:guidebook.Tips.Fuel}}
+   
+   
+[itemtooltip=(O){{ModId}}_Birdies_Banana_IceCream][icon=Mods/{{ModId}}/Objects:0,496,16,16:4][/itemtooltip] = [itemtooltip=(O)91][icon=Maps/springobjects:304,48,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Cream][icon=Mods/{{ModId}}/Objects:32,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Birthday_Blast_IceCream][icon=Mods/{{ModId}}/Objects:16,496,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Rainbow_Sprinkles][icon=Mods/{{ModId}}/Objects:0,80,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Fresh_Butter][icon=Mods/{{ModId}}/Objects:0,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Blackberry_Cobbler_IceCream][icon=Mods/{{ModId}}/Objects:32,496,16,16:4][/itemtooltip] = [itemtooltip=(O)410][icon=Maps/springobjects:32,272,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Cinnamon][icon=Mods/{{ModId}}/Objects:144,16,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Chocolate_Lovers_IceCream][icon=Mods/{{ModId}}/Objects:48,496,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Cacao_Pod][icon=Mods/{{ModId}}/Objects:64,0,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Cookie_Monster_IceCream][icon=Mods/{{ModId}}/Objects:64,496,16,16:4][/itemtooltip] = [itemtooltip=(O)223][icon=Maps/springobjects: 112,144,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Cacao_Pod][icon=Mods/{{ModId}}/Objects:64,0,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Eggnog_Spice_IceCream][icon=Mods/{{ModId}}/Objects:80,496,16,16:4][/itemtooltip] = [itemtooltip=(O)174][icon=Maps/springobjects:96,112,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Cinnamon][icon=Mods/{{ModId}}/Objects:144,16,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Gingerbread_Latte_IceCream][icon=Mods/{{ModId}}/Objects:96,496,16,16:4][/itemtooltip] = [itemtooltip=(O)829][icon=Maps/springobjects: 208,544,16,16:4][/itemtooltip] + [itemtooltip=(O)433][icon=Maps/springobjects: 16,288,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Grannys_Apple_Pie_IceCream][icon=Mods/{{ModId}}/Objects:112,496,16,16:4][/itemtooltip] = [itemtooltip=(O)613][icon=Maps/springobjects:208,400,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Cinnamon][icon=Mods/{{ModId}}/Objects:144,16,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Hopeless_Romantic_IceCream][icon=Mods/{{ModId}}/Objects:128,496,16,16:4][/itemtooltip] = [itemtooltip=(O)595][icon=Maps/springobjects:304,384,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Pistachio][icon=Mods/{{ModId}}/Objects:0,16,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Horchata_IceCream][icon=Mods/{{ModId}}/Objects:144,496,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Rice_Milk][icon=Mods/{{ModId}}/Objects:80,64,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Cinnamon][icon=Mods/{{ModId}}/Objects:144,16,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Key_Lime_Pie_IceCream][icon=Mods/{{ModId}}/Objects:160,496,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Lime][icon=Mods/{{ModId}}/Objects:224,0,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Brown_Sugar][icon=Mods/{{ModId}}/Objects:192,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Lavender_Fields_IceCream][icon=Mods/{{ModId}}/Objects:176,496,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Lavender][icon=Mods/{{ModId}}/Objects:48,32,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Lemon][icon=Mods/{{ModId}}/Objects:192,0,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Lemon_Dream_IceCream][icon=Mods/{{ModId}}/Objects:192,496,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Lemon][icon=Mods/{{ModId}}/Objects:192,0,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Cream][icon=Mods/{{ModId}}/Objects:32,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Nuts4Cherries_IceCream][icon=Mods/{{ModId}}/Objects:208,496,16,16:4][/itemtooltip] = [itemtooltip=(O)638][icon=Maps/springobjects:224,416,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Almond][icon=Mods/{{ModId}}/Objects:0,0,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Peppermint_Bark_IceCream][icon=Mods/{{ModId}}/Objects:224,496,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Mint][icon=Mods/{{ModId}}/Objects:176,32,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Cacao_Pod][icon=Mods/{{ModId}}/Objects:64,0,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Pumpkin_Pie_IceCream][icon=Mods/{{ModId}}/Objects:240,496,16,16:4][/itemtooltip] = [itemtooltip=(O)276][icon=Maps/springobjects:192,176,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Cinnamon][icon=Mods/{{ModId}}/Objects:144,16,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Red_Velvet_IceCream][icon=Mods/{{ModId}}/Objects:0,512,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Buttermilk][icon=Mods/{{ModId}}/Objects:16,48,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Cacao_Pod][icon=Mods/{{ModId}}/Objects:64,0,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Strawberry_Sunset_IceCream][icon=Mods/{{ModId}}/Objects:16,512,16,16:4][/itemtooltip] = [itemtooltip=(O)400][icon=Maps/springobjects:256,256,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Unicorn_IceCream][icon=Mods/{{ModId}}/Objects:192,560,16,16:4][/itemtooltip] = [itemtooltip=(O)454][icon=Maps/springobjects: 352,288,16,16:4][/itemtooltip] + [itemtooltip=(O)245][icon=Maps/springobjects:80,160,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Very_Vanilla_IceCream][icon=Mods/{{ModId}}/Objects:32,512,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Vanilla][icon=Mods/{{ModId}}/Objects:80,48,16,16:4][/itemtooltip]
+   
+   
+{{Title}}{{i18n:guidebook.Tips.IceCreamSandwich}}    [itemtooltip=(O)84][icon=Maps/springobjects: 192,48,16,16:4][/itemtooltip].{{EndTitle}}
+   
+   
+{{Title}}{{i18n:guidebook.Tips.Milkshake}}{{EndTitle}}" 
+                                }, 
+                                { 
+                                    "Id": "Popsicles", 
+                                    "Condition":"CAULDRON_CONFIG_VALUE DifficultyToggle Advanced",
+                                    "Contents": "[image=SMAPI/wildflour.ateliergoods/assets/guidebook/popsicles_title.png:null:1]
+
+{{i18n:guidebook.Tips.Popsicles.Require}}[itemtooltip=(O)84][icon=Maps/springobjects: 192,48,16,16:4][/itemtooltip]{{i18n:guidebook.Tips.Fuel}}
+   
+   
+[itemtooltip=(O){{ModId}}_Beekeeper_Popsicle][icon=Mods/{{ModId}}/Objects:80,512,16,16:4][/itemtooltip] = [itemtooltip=(O)340][icon=Maps/springobjects:64,224,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Vanilla][icon=Mods/{{ModId}}/Objects:80,48,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_CaPOW_Popsicle][icon=Mods/{{ModId}}/Objects:96,512,16,16:4][/itemtooltip] = [itemtooltip=(O)433][icon=Maps/springobjects: 16,288,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Cacao_Pod][icon=Mods/{{ModId}}/Objects:64,0,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Cotton_Candy_Popsicle][icon=Mods/{{ModId}}/Objects:112,512,16,16:4][/itemtooltip] = [itemtooltip=(O)398][icon=Maps/springobjects: 224,256,16,16:4][/itemtooltip] + [itemtooltip=(O)245][icon=Maps/springobjects:80,160,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Creamsicle_Popsicle][icon=Mods/{{ModId}}/Objects:128,512,16,16:4][/itemtooltip] = [itemtooltip=(O)635][icon=Maps/springobjects:176,416,16,16:4][/itemtooltip] +  [itemtooltip=(O){{ModId}}_Vanilla][icon=Mods/{{ModId}}/Objects:80,48,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Dirty_Chai_Popsicle][icon=Mods/{{ModId}}/Objects:144,512,16,16:4][/itemtooltip] = [itemtooltip=(O)253][icon=Maps/springobjects: 208,160,16,16:4][/itemtooltip] + [itemtooltip=(O)815][icon=Maps/springobjects: 368,528,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Firecracker_Popsicle][icon=Mods/{{ModId}}/Objects:160,512,16,16:4][/itemtooltip] = [itemtooltip=(O)638][icon=Maps/springobjects:224,416,16,16:4][/itemtooltip] + [itemtooltip=(O)258][icon=Maps/springobjects:288,160,16,16:4][/itemtooltip] + [itemtooltip=(O)88][icon=Maps/springobjects:256,48,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Neapolitan_Popsicle][icon=Mods/{{ModId}}/Objects:176,512,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Cacao_Pod][icon=Mods/{{ModId}}/Objects:64,0,16,16:4][/itemtooltip] + [itemtooltip=(O)400][icon=Maps/springobjects:256,256,16,16:4][/itemtooltip] +  [itemtooltip=(O){{ModId}}_Vanilla][icon=Mods/{{ModId}}/Objects:80,48,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Strawberry_Margarita_Popsicle][icon=Mods/{{ModId}}/Objects:192,512,16,16:4][/itemtooltip] = [itemtooltip=(O)400][icon=Maps/springobjects:256,256,16,16:4][/itemtooltip] +  [itemtooltip=(O){{ModId}}_Lime][icon=Mods/{{ModId}}/Objects:224,0,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Sweet_Heat_Popsicle][icon=Mods/{{ModId}}/Objects:208,512,16,16:4][/itemtooltip] = [itemtooltip=(O)834][icon=Maps/springobjects:288,544,16,16:4][/itemtooltip] + [itemtooltip=(O)260][icon=Maps/springobjects: 320,160,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Very_Berry_Popsicle][icon=Mods/{{ModId}}/Objects:0,528,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Wild_Raspberry][icon=Mods/{{ModId}}/Objects:144,48,16,16:4][/itemtooltip] + [itemtooltip=(O)410][icon=Maps/springobjects:32,272,16,16:4][/itemtooltip] " 
+                                },
+                                {
+                                    "Id": "Frozen_Simple", 
+                                    "Contents":"[image=SMAPI/wildflour.ateliergoods/assets/guidebook/simple_title.png:null:1]
+                                    
+[itemtooltip=(O){{ModId}}_Flavored_IceCream][icon=Mods/{{ModId}}/Objects:48,512,16,16:4][/itemtooltip] = [texttooltip=:{{i18n:Any_Fruit}}][icon=Maps/springobjects:208,400,16,16:4][/texttooltip] or [texttooltip=:{{i18n:Edible_Flower}}][icon=Mods/{{ModId}}/Objects:96,16,16,16:4][/texttooltip] + [itemtooltip=(O)84][icon=Maps/springobjects: 192,48,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Flavored_Popsicle][icon=Mods/{{ModId}}/Objects:224,512,16,16:4][/itemtooltip] = [texttooltip=:{{i18n:Any_Fruit}}][icon=Maps/springobjects:208,400,16,16:4][/texttooltip] or [texttooltip=:{{i18n:Edible_Flower}}][icon=Mods/{{ModId}}/Objects:96,16,16,16:4][/texttooltip] + [itemtooltip=(O)84][icon=Maps/springobjects: 192,48,16,16:4][/itemtooltip]
+                                    
+                                    
+                                    "
+                                }
+                            ]
+                        },
+                        "Gourmand": {
+                            "Name": "{{i18n: guidebook.chapter.TableOfContents.Gourmand}}",
+                            "TabIconTexture": "Mods/Wildflour's Atelier Goods/Tabs",
+                            "TabIconRect": { "X": 16, "Y": 48, "Width": 16, "Height": 16 },
+                            "Condition": "CAULDRON_CONFIG_VALUE FloristOnly False",
+                            "Pages": [
+                                { 
+                                    "Id": "GourmandOverview", 
+                                    "Contents": "[image=SMAPI/wildflour.ateliergoods/assets/guidebook/overview_title.png:null:1]
+                                    
+[itemtooltip=(BC){{ModId}}_KitchenMortar][icon=Mods/{{ModId}}/Machines:0,32,16,32:4][/itemtooltip] = [icon=LooseSprites/emojis:27,108,9,9:4]  [icon=LooseSprites/emojis:9,27,9,9:4][icon=LooseSprites/emojis:9,27,9,9:4]
+   
+   
+   
+   
+[itemtooltip=(BC){{ModId}}_SyrupMaker][icon=Mods/{{ModId}}/Machines:0,352,16,32:4][/itemtooltip] - immediate
+                                    
+                                    
+                                    " 
+                                }, 
+                                { 
+                                    "Id": "Dairy", 
+                                    "Contents": "[image=SMAPI/wildflour.ateliergoods/assets/guidebook/dairy_title.png:null:1]
+
+[itemtooltip=(O){{ModId}}_Fresh_Butter][icon=Mods/{{ModId}}/Objects:0,64,16,16:4][/itemtooltip] =  [itemtooltip=(O)184][icon=Maps/springobjects: 256,112,16,16:4][/itemtooltip]x2
+   
+   
+[itemtooltip=(O){{ModId}}_Cream_Cheese][icon=Mods/{{ModId}}/Objects:48,64,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Cream][icon=Mods/{{ModId}}/Objects:32,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Buttermilk][icon=Mods/{{ModId}}/Objects:16,64,16,16:4][/itemtooltip] = {{i18n:guidebook.Tips.Byproduct}} [itemtooltip=(O){{ModId}}_Fresh_Butter][icon=Mods/{{ModId}}/Objects:0,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Cream][icon=Mods/{{ModId}}/Objects:32,64,16,16:4][/itemtooltip] = {{i18n:guidebook.Tips.Byproduct}} [itemtooltip=(O){{ModId}}_Fresh_Butter][icon=Mods/{{ModId}}/Objects:0,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Almond_Milk][icon=Mods/{{ModId}}/Objects:64,96,16,16:4][/itemtooltip] = {{i18n:guidebook.Tips.Byproduct}} [itemtooltip=(O){{ModId}}_Almond_Flour][icon=Mods/{{ModId}}/Objects:80,96,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Coconut_Milk][icon=Mods/{{ModId}}/Objects:64,64,16,16:4][/itemtooltip] = {{i18n:guidebook.Tips.Byproduct}} [itemtooltip=(O){{ModId}}_Coconut_Flour][icon=Mods/{{ModId}}/Objects:128,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Rice_Milk][icon=Mods/{{ModId}}/Objects:80,64,16,16:4][/itemtooltip] = {{i18n:guidebook.Tips.Byproduct}} [itemtooltip=(O){{ModId}}_Rice_Flour][icon=Mods/{{ModId}}/Objects:176,64,16,16:4][/itemtooltip]" 
+                                }, 
+                                { 
+                                    "Id": "Ingredients", 
+                                    "Contents": "[image=SMAPI/wildflour.ateliergoods/assets/guidebook/ingredients_title.png:null:1]
+
+[itemtooltip=(O){{ModId}}_Dark_Chocolate][icon=Mods/{{ModId}}/Objects:128,96,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Cacao_Pod][icon=Mods/{{ModId}}/Objects:64,0,16,16:4][/itemtooltip]  + [itemtooltip=(O)184][icon=Maps/springobjects: 256,112,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Matcha_Powder][icon=Mods/{{ModId}}/Objects:224,64,16,16:4][/itemtooltip] = [itemtooltip=(O)815][icon=Maps/springobjects: 368,528,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Milk_Chocolate][icon=Mods/{{ModId}}/Objects:144,96,16,16:4][/itemtooltip] = {{i18n:guidebook.Tips.Byproduct}} [itemtooltip=(O){{ModId}}_Dark_Chocolate][icon=Mods/{{ModId}}/Objects:128,96,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Fruit_Pectin][icon=Mods/{{ModId}}/Objects:240,64,16,16:4][/itemtooltip] = Any [itemtooltip=(O)410][icon=Maps/springobjects:32,272,16,16:4][/itemtooltip] [itemtooltip=(O)296][icon=Maps/springobjects: 128,192,16,16:4][/itemtooltip] [itemtooltip=(O){{ModId}}_Wild_Raspberry][icon=Mods/{{ModId}}/Objects:144,48,16,16:4][/itemtooltip] [itemtooltip=(O){{ModId}}_Wild_Strawberry][icon=Mods/{{ModId}}/Objects:176,48,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Rainbow_Sprinkles][icon=Mods/{{ModId}}/Objects:0,80,16,16:4][/itemtooltip] = [itemtooltip=(O)394][icon=Maps/springobjects: 160,256,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_White_Chocolate][icon=Mods/{{ModId}}/Objects:160,96,16,16:4][/itemtooltip] = {{i18n:guidebook.Tips.Byproduct}} [itemtooltip=(O){{ModId}}_Dark_Chocolate][icon=Mods/{{ModId}}/Objects:128,96,16,16:4][/itemtooltip]
+   
+   
+[image=SMAPI/wildflour.ateliergoods/assets/guidebook/flour_title.png:null:1]
+   
+   
+[itemtooltip=(O){{ModId}}_Almond_Flour][icon=Mods/{{ModId}}/Objects:80,96,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Almond][icon=Mods/{{ModId}}/Objects:0,0,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Bread_Flour][icon=Mods/{{ModId}}/Objects:96,64,16,16:4][/itemtooltip] = [itemtooltip=(O)262][icon=Maps/springobjects: 352,160,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Cake_Flour][icon=Mods/{{ModId}}/Objects:112,64,16,16:4][/itemtooltip] = [itemtooltip=(O)300][icon=Maps/springobjects: 192,192,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Coconut_Flour][icon=Mods/{{ModId}}/Objects:128,64,16,16:4][/itemtooltip] = [itemtooltip=(O)88][icon=Maps/springobjects:256,48,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Corn_Flour][icon=Mods/{{ModId}}/Objects:144,64,16,16:4][/itemtooltip] = [itemtooltip=(O)270][icon=Maps/springobjects: 96,176,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Pastry_Flour][icon=Mods/{{ModId}}/Objects:160,64,16,16:4][/itemtooltip] = {{i18n:guidebook.Tips.Byproduct}} [itemtooltip=(O){{ModId}}_Cake_Flour][icon=Mods/{{ModId}}/Objects:112,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Rice_Flour][icon=Mods/{{ModId}}/Objects:176,64,16,16:4][/itemtooltip] = [itemtooltip=(O)271][icon=Maps/springobjects: 112,176,16,16:4][/itemtooltip]
+   
+   
+[image=SMAPI/wildflour.ateliergoods/assets/guidebook/sugar_title.png:null:1]
+   
+   
+[itemtooltip=(O){{ModId}}_Brown_Sugar][icon=Mods/{{ModId}}/Objects:192,64,16,16:4][/itemtooltip] = [itemtooltip=(O)724][icon=Maps/springobjects: 64,480,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Confectioners_Sugar][icon=Mods/{{ModId}}/Objects:208,64,16,16:4] = [itemtooltip=(O)245][icon=Maps/springobjects:80,160,16,16:4][/itemtooltip]
+   
+   
+[image=SMAPI/wildflour.ateliergoods/assets/guidebook/misc_title.png:null:1]
+   
+   
+[itemtooltip=(O){{ModId}}_Olive_Oil][icon=Mods/{{ModId}}/Objects:112,96,16,16:4] = [itemtooltip=(O){{ModId}}_Olive][icon=Mods/{{ModId}}/Objects:160,0,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Apple_Butter][icon=Mods/{{ModId}}/Objects:240,80,16,16:4] = [itemtooltip=(O)613][icon=Maps/springobjects:208,400,16,16:4][/itemtooltip]x2
+   
+   
+[itemtooltip=(O){{ModId}}_Honey_Butter][icon=Mods/{{ModId}}/Objects:0,96,16,16:4] = [itemtooltip=(O)340][icon=Maps/springobjects:64,224,16,16:4][/itemtooltip]x2
+   
+   
+[itemtooltip=(O){{ModId}}_Lemon_Curd][icon=Mods/{{ModId}}/Objects:32,112,16,16:4] = [itemtooltip=(O){{ModId}}_Lemon][icon=Mods/{{ModId}}/Objects:192,0,16,16:4][/itemtooltip]x2
+   
+   
+[itemtooltip=(O){{ModId}}_Lime_Curd][icon=Mods/{{ModId}}/Objects:48,112,16,16:4] = [itemtooltip=(O){{ModId}}_Lime][icon=Mods/{{ModId}}/Objects:224,0,16,16:4][/itemtooltip]x2
+   
+   
+[itemtooltip=(O){{ModId}}_Maple_Butter][icon=Mods/{{ModId}}/Objects:16,96,16,16:4] = [itemtooltip=(O)724][icon=Maps/springobjects: 64,480,16,16:4][/itemtooltip]x2
+   
+   
+[itemtooltip=(O){{ModId}}_Orange_Curd][icon=Mods/{{ModId}}/Objects:48,96,16,16:4] = [itemtooltip=(O)635][icon=Maps/springobjects:176,416,16,16:4][/itemtooltip]x2
+   
+   
+[itemtooltip=(O){{ModId}}_Pumpkin_Butter][icon=Mods/{{ModId}}/Objects:32,96,16,16:4] = [itemtooltip=(O)276][icon=Maps/springobjects:192,176,16,16:4][/itemtooltip]x2" 
+                                }, 
+                                { 
+                                    "Id": "Jams", 
+                                    "Condition": "CAULDRON_CONFIG_VALUE Canner True",
+                                    "Contents": "[image=SMAPI/wildflour.ateliergoods/assets/guidebook/jams_title.png:null:1]
+   
+[itemtooltip=(O){{ModId}}_Banana_Maple_Jam][icon=Mods/{{ModId}}/Objects:64,112,16,16:4] = [itemtooltip=(O)91][icon=Maps/springobjects:304,48,16,16:4][/itemtooltip]x3 + [itemtooltip=(O)724][icon=Maps/springobjects: 64,480,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Fruit_Pectin][icon=Mods/{{ModId}}/Objects:240,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Banana_Split_Jam][icon=Mods/{{ModId}}/Objects:80,112,16,16:4] = [itemtooltip=(O)91][icon=Maps/springobjects:304,48,16,16:4][/itemtooltip] + [itemtooltip=(O)400][icon=Maps/springobjects:256,256,16,16:4][/itemtooltip] + [itemtooltip=(O)638][icon=Maps/springobjects:224,416,16,16:4][/itemtooltip] + [itemtooltip=(O)245][icon=Maps/springobjects:80,160,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Fruit_Pectin][icon=Mods/{{ModId}}/Objects:240,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Blue_Jazz_Jelly][icon=Mods/{{ModId}}/Objects:96,112,16,16:4] = [itemtooltip=(O)597][icon=Maps/springobjects: 336,384,16,16:4][/itemtooltip]x2 + [itemtooltip=(O)245][icon=Maps/springobjects:80,160,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Fruit_Pectin][icon=Mods/{{ModId}}/Objects:240,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Cranberry_Chutney][icon=Mods/{{ModId}}/Objects:112,112,16,16:4] = [itemtooltip=(O)282][icon=Maps/springobjects: 288,176,16,16:4][/itemtooltip]x3 + [itemtooltip=(O)635][icon=Maps/springobjects:176,416,16,16:4][/itemtooltip] [itemtooltip=(O)245][icon=Maps/springobjects:80,160,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Fruit_Pectin][icon=Mods/{{ModId}}/Objects:240,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Crocus_Jelly][icon=Mods/{{ModId}}/Objects:128,112,16,16:4] = [itemtooltip=(O)418][icon=Maps/springobjects: 160,272,16,16:4][/itemtooltip]x2 + [itemtooltip=(O)245][icon=Maps/springobjects:80,160,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Fruit_Pectin][icon=Mods/{{ModId}}/Objects:240,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Dandelion_Jelly][icon=Mods/{{ModId}}/Objects:144,112,16,16:4] = [itemtooltip=(O)22][icon=Maps/springobjects: 352,0,16,16:4][/itemtooltip]x2 + [itemtooltip=(O)245][icon=Maps/springobjects:80,160,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Fruit_Pectin][icon=Mods/{{ModId}}/Objects:240,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Honey_Apricot_Preserves][icon=Mods/{{ModId}}/Objects:160,112,16,16:4] = [itemtooltip=(O)634][icon=Maps/springobjects: 160,416,16,16:4][/itemtooltip]x3 + [itemtooltip=(O)340][icon=Maps/springobjects:64,224,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Fruit_Pectin][icon=Mods/{{ModId}}/Objects:240,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Honey_Peach_Preserves][icon=Mods/{{ModId}}/Objects:176,112,16,16:4] = [itemtooltip=(O)636][icon=Maps/springobjects: 192,416,16,16:4][/itemtooltip]x3 + [itemtooltip=(O)340][icon=Maps/springobjects:64,224,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Fruit_Pectin][icon=Mods/{{ModId}}/Objects:240,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Mango_Chutney][icon=Mods/{{ModId}}/Objects:192,112,16,16:4] = [itemtooltip=(O)834][icon=Maps/springobjects: 288,544,16,16:4][/itemtooltip]x3 + [itemtooltip=(O)245][icon=Maps/springobjects:80,160,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Fruit_Pectin][icon=Mods/{{ModId}}/Objects:240,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Mixed_Berry_Preserves][icon=Mods/{{ModId}}/Objects:208,112,16,16:4] = [itemtooltip=(O)258][icon=Maps/springobjects:288,160,16,16:4][/itemtooltip] + [itemtooltip=(O)410][icon=Maps/springobjects:32,272,16,16:4][/itemtooltip] + [itemtooltip=(O)638][icon=Maps/springobjects:224,416,16,16:4][/itemtooltip] + [itemtooltip=(O)245][icon=Maps/springobjects:80,160,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Fruit_Pectin][icon=Mods/{{ModId}}/Objects:240,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Rose_Petal_Jelly][icon=Mods/{{ModId}}/Objects:224,112,16,16:4] = [itemtooltip=(O)595][icon=Maps/springobjects:304,384,16,16:4][/itemtooltip]x3 + [itemtooltip=(O)245][icon=Maps/springobjects:80,160,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Fruit_Pectin][icon=Mods/{{ModId}}/Objects:240,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Special_Edition_Flower_Dance_Jelly][icon=Mods/{{ModId}}/Objects:240,112,16,16:4] = [itemtooltip=(O)22][icon=Maps/springobjects: 352,0,16,16:4][/itemtooltip]x2 + [itemtooltip=(O)591][icon=Maps/springobjects: 240,384,16,16:4][/itemtooltip]x2 + [itemtooltip=(O)597][icon=Maps/springobjects: 336,384,16,16:4][/itemtooltip]x2 + [itemtooltip=(O)340][icon=Maps/springobjects:64,224,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Fruit_Pectin][icon=Mods/{{ModId}}/Objects:240,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Special_Edition_Luau_Jam][icon=Mods/{{ModId}}/Objects:0,128,16,16:4] = [itemtooltip=(O)258][icon=Maps/springobjects:288,160,16,16:4][/itemtooltip]x3 + [itemtooltip=(O)254][icon=Maps/springobjects: 224,160,16,16:4][/itemtooltip]x2 + [itemtooltip=(O)268][icon=Maps/springobjects: 64,176,16,16:4][/itemtooltip] + [itemtooltip=(O)245][icon=Maps/springobjects:80,160,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Fruit_Pectin][icon=Mods/{{ModId}}/Objects:240,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Special_Edition_Spirits_Eve_Jam][icon=Mods/{{ModId}}/Objects:16,128,16,16:4] = [itemtooltip=(O)276][icon=Maps/springobjects:192,176,16,16:4][/itemtooltip] + [itemtooltip=(O)280][icon=Maps/springobjects: 256,176,16,16:4][/itemtooltip]x2 + [itemtooltip=(O)282][icon=Maps/springobjects: 288,176,16,16:4][/itemtooltip]x2 + [itemtooltip=(O)245][icon=Maps/springobjects:80,160,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Fruit_Pectin][icon=Mods/{{ModId}}/Objects:240,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Special_Edition_Winter_Star_Jelly][icon=Mods/{{ModId}}/Objects:32,128,16,16:4] = [itemtooltip=(O)414][icon=Maps/springobjects: 96,272,16,16:4][/itemtooltip]x3 + [itemtooltip=(O)418][icon=Maps/springobjects: 160,272,16,16:4][/itemtooltip]x3 + [itemtooltip=(O)245][icon=Maps/springobjects:80,160,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Fruit_Pectin][icon=Mods/{{ModId}}/Objects:240,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Strawberry_Rhubarb_Jam][icon=Mods/{{ModId}}/Objects:128,128,16,16:4] = [itemtooltip=(O)400][icon=Maps/springobjects:256,256,16,16:4][/itemtooltip]x2 + [itemtooltip=(O)252][icon=Maps/springobjects:192,160,16,16:4][/itemtooltip]x2 [itemtooltip=(O)245][icon=Maps/springobjects:80,160,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Fruit_Pectin][icon=Mods/{{ModId}}/Objects:240,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Summer_Spangle_Jelly][icon=Mods/{{ModId}}/Objects:64,128,16,16:4] = [itemtooltip=(O)593][icon=Maps/springobjects: 272,384,16,16:4][/itemtooltip]x2 + [itemtooltip=(O){{ModId}}_Fruit_Pectin][icon=Mods/{{ModId}}/Objects:240,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Summery_Orange_Marmalade][icon=Mods/{{ModId}}/Objects:48,128,16,16:4]:[itemtooltip=(O)635][icon=Maps/springobjects:176,416,16,16:4][/itemtooltip]x5 + [itemtooltip=(O)245][icon=Maps/springobjects:80,160,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Fruit_Pectin][icon=Mods/{{ModId}}/Objects:240,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Tulip_Jelly][icon=Mods/{{ModId}}/Objects:80,128,16,16:4] = [itemtooltip=(O)591][icon=Maps/springobjects: 240,384,16,16:4][/itemtooltip]x2 + [itemtooltip=(O)245][icon=Maps/springobjects:80,160,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Fruit_Pectin][icon=Mods/{{ModId}}/Objects:240,64,16,16:4][/itemtooltip]
+   
+   
+{{i18n:guidebook.Tips.WildFood}}
+   
+   
+[itemtooltip=(O){{ModId}}_Blackberry_Mint_Jelly][icon=Mods/{{ModId}}/Objects:96,128,16,16:4] = [itemtooltip=(O)410][icon=Maps/springobjects:32,272,16,16:4][/itemtooltip]x3 + [itemtooltip=(O){{ModId}}_Mint][icon=Mods/{{ModId}}/Objects:176,32,16,16:4][/itemtooltip] [itemtooltip=(O)245][icon=Maps/springobjects:80,160,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Fruit_Pectin][icon=Mods/{{ModId}}/Objects:240,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Blueberry_Lavender_Jelly][icon=Mods/{{ModId}}/Objects:112,128,16,16:4] = [itemtooltip=(O)258][icon=Maps/springobjects:288,160,16,16:4][/itemtooltip]x2 [itemtooltip=(O){{ModId}}_Lavender][icon=Mods/{{ModId}}/Objects:48,32,16,16:4][/itemtooltip]x2 [itemtooltip=(O)245][icon=Maps/springobjects:80,160,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Fruit_Pectin][icon=Mods/{{ModId}}/Objects:240,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Chamomile_Jelly][icon=Mods/{{ModId}}/Objects:128,128,16,16:4] = [itemtooltip=(O){{ModId}}_Chamomile][icon=Mods/{{ModId}}/Objects:96,16,16,16:4][/itemtooltip]x2 + [itemtooltip=(O){{ModId}}_Fruit_Pectin][icon=Mods/{{ModId}}/Objects:240,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Cherry_Vanilla_Jam][icon=Mods/{{ModId}}/Objects:144,128,16,16:4] = [itemtooltip=(O)638][icon=Maps/springobjects:224,416,16,16:4][/itemtooltip]x2 [itemtooltip=(O){{ModId}}_Vanilla][icon=Mods/{{ModId}}/Objects:80,48,16,16:4][/itemtooltip]x2 [itemtooltip=(O)245][icon=Maps/springobjects:80,160,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Fruit_Pectin][icon=Mods/{{ModId}}/Objects:240,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Cinnamon_Apple_Preserves][icon=Mods/{{ModId}}/Objects:160,128,16,16:4] = [itemtooltip=(O){{ModId}}_Cinnamon][icon=Mods/{{ModId}}/Objects:144,16,16,16:4][/itemtooltip]x2 + [itemtooltip=(O)613][icon=Maps/springobjects:208,400,16,16:4][/itemtooltip] x2 + [itemtooltip=(O)245][icon=Maps/springobjects:80,160,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Fruit_Pectin][icon=Mods/{{ModId}}/Objects:240,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Sakura_Peach_Jelly][icon=Mods/{{ModId}}/Objects:192,128,16,16:4] = [itemtooltip=(O){{ModId}}_Cherry_Blossoms][icon=Mods/{{ModId}}/Objects:128,16,16,16:4][/itemtooltip] + [itemtooltip=(O)636][icon=Maps/springobjects: 192,416,16,16:4][/itemtooltip]x3 +[itemtooltip=(O)245][icon=Maps/springobjects:80,160,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Fruit_Pectin][icon=Mods/{{ModId}}/Objects:240,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Spring_Lemon_Marmalade][icon=Mods/{{ModId}}/Objects:208,128,16,16:4] = [itemtooltip=(O){{ModId}}_Lemon][icon=Mods/{{ModId}}/Objects:192,0,16,16:4][/itemtooltip]x5 [itemtooltip=(O)245][icon=Maps/springobjects:80,160,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Fruit_Pectin][icon=Mods/{{ModId}}/Objects:240,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Sweet_Jasmine_Jelly][icon=Mods/{{ModId}}/Objects:0,144,16,16:4] = [itemtooltip=(O){{ModId}}_Jasmine][icon=Mods/{{ModId}}/Objects:16,32,16,16:4][/itemtooltip]x2 + [itemtooltip=(O)245][icon=Maps/springobjects:80,160,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Fruit_Pectin][icon=Mods/{{ModId}}/Objects:240,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Sweet_Lime_Marmalade][icon=Mods/{{ModId}}/Objects:224,128,16,16:4] = [itemtooltip=(O){{ModId}}_Lime][icon=Mods/{{ModId}}/Objects:224,0,16,16:4][/itemtooltip]x5 [itemtooltip=(O)245][icon=Maps/springobjects:80,160,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Fruit_Pectin][icon=Mods/{{ModId}}/Objects:240,64,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Vanilla_Raspberry_Preserves][icon=Mods/{{ModId}}/Objects:240,128,16,16:4] = [itemtooltip=(O){{ModId}}_Vanilla][icon=Mods/{{ModId}}/Objects:80,48,16,16:4][/itemtooltip] [itemtooltip=(O){{ModId}}_Wild_Raspberry][icon=Mods/{{ModId}}/Objects:144,48,16,16:4][/itemtooltip]x3 + [itemtooltip=(O)245][icon=Maps/springobjects:80,160,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Fruit_Pectin][icon=Mods/{{ModId}}/Objects:240,64,16,16:4][/itemtooltip]" 
+                                }, 
+                                { 
+                                    "Id": "Pickles", 
+                                    "Condition": "CAULDRON_CONFIG_VALUE Canner True",
+                                    "Contents": "[image=SMAPI/wildflour.ateliergoods/assets/guidebook/pickles_title.png:null:1]
+[itemtooltip=(O){{ModId}}_Onion_Chutney][icon=Mods/{{ModId}}/Objects:48,144,16,16:4] = [itemtooltip=(O){{ModId}}_Red_Onion][icon=Mods/{{ModId}}/Objects:208,32,16,16:4][/itemtooltip] x3 [itemtooltip=(O)245][icon=Maps/springobjects:80,160,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Olive_Oil][icon=Mods/{{ModId}}/Objects:112,80,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Pineapple_Salsa][icon=Mods/{{ModId}}/Objects:64,144,16,16:4] = [itemtooltip=(O)832][icon=Maps/springobjects:256,544,16,16:4][/itemtooltip]x2 + [itemtooltip=(O)260][icon=Maps/springobjects: 320,160,16,16:4][/itemtooltip] x2 + [itemtooltip=(O){{ModId}}_Cilantro][icon=Mods/{{ModId}}/Objects:192,16,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Vegetable_Giardiniera][icon=Mods/{{ModId}}/Objects:80,144,16,16:4] = [itemtooltip=(O)260][icon=Maps/springobjects: 320,160,16,16:4][/itemtooltip] x3 + [itemtooltip=(O)190][icon=Maps/springobjects: 352,190,16,16:4][/itemtooltip] x2 + [itemtooltip=(O)Carrot][icon=Tilesheets/Objects_2: 0,160,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Horseradish_Chips][icon=Mods/{{ModId}}/Objects:96,144,16,16:4] = [itemtooltip=(O)16][icon=Maps/springobjects: 256,0,16,16:4][/itemtooltip] x2 + [itemtooltip=(O)188][icon=Maps/springobjects: 320,112,16,16:4][/itemtooltip] + [itemtooltip=(O)419][icon=Maps/springobjects: 176,272,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Kale_Pesto][icon=Mods/{{ModId}}/Objects:112,144,16,16:4] = [itemtooltip=(O)250][icon=Maps/springobjects: 160,160,16,16:4][/itemtooltip]x2 + [itemtooltip=(O)248][icon=Maps/springobjects: 128,160,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Olive_Oil][icon=Mods/{{ModId}}/Objects:112,80,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Marinated_Mushrooms][icon=Mods/{{ModId}}/Objects:128,144,16,16:4] = [itemtooltip=(O)404][icon=Maps/springobjects: 320,256,16,16:4][/itemtooltip]x2 + [itemtooltip=(O)281][icon=Maps/springobjects: 272,176,16,16:4][/itemtooltip]x2 + [itemtooltip=(O){{ModId}}_Olive_Oil][icon=Mods/{{ModId}}/Objects:112,80,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Thyme][icon=Mods/{{ModId}}/Objects:48,48,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Tomato_Salsa][icon=Mods/{{ModId}}/Objects:144,144,16,16:4] = [itemtooltip=(O)256][icon=Maps/springobjects: 256,160,16,16:4][/itemtooltip]x2 + [itemtooltip=(O){{ModId}}_Red_Onion][icon=Mods/{{ModId}}/Objects:208,32,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Cilantro][icon=Mods/{{ModId}}/Objects:192,16,16,16:4][/itemtooltip] + [itemtooltip=(O)248][icon=Maps/springobjects: 128,160,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Olive_Tapenade][icon=Mods/{{ModId}}/Objects:128,144,16,16:4] = [itemtooltip=(O){{ModId}}_Olive][icon=Mods/{{ModId}}/Objects:160,0,16,16:4][/itemtooltip]x3 + [itemtooltip=(O){{ModId}}_Olive_Oil][icon=Mods/{{ModId}}/Objects:112,80,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Lemon][icon=Mods/{{ModId}}/Objects:192,0,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Peach_Salsa][icon=Mods/{{ModId}}/Objects:176,144,16,16:4] = [itemtooltip=(O)636][icon=Maps/springobjects: 192,416,16,16:4][/itemtooltip] x3 + [itemtooltip=(O)260][icon=Maps/springobjects: 320,160,16,16:4][/itemtooltip]x2 + [itemtooltip=(O){{ModId}}_Cilantro][icon=Mods/{{ModId}}/Objects:192,16,16,16:4][/itemtooltip] + [itemtooltip=(O)248][icon=Maps/springobjects: 128,160,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Pepper_Relish][icon=Mods/{{ModId}}/Objects:192,144,16,16:4] = [itemtooltip=(O)260][icon=Maps/springobjects: 320,160,16,16:4][/itemtooltip]x2 + [itemtooltip=(O){{ModId}}_Red_Onion][icon=Mods/{{ModId}}/Objects:208,32,16,16:4][/itemtooltip] x2 + [itemtooltip=(O){{ModId}}_Olive_Oil][icon=Mods/{{ModId}}/Objects:112,80,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Pickled_Artichoke_Hearts][icon=Mods/{{ModId}}/Objects:208,144,16,16:4] = [itemtooltip=(O)274][icon=Maps/springobjects: 160,176,16,16:4][/itemtooltip] x2 [itemtooltip=(O){{ModId}}_Olive_Oil][icon=Mods/{{ModId}}/Objects:112,80,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Rosemary][icon=Mods/{{ModId}}/Objects:240,32,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Pickled_Carrots][icon=Mods/{{ModId}}/Objects:16,160,16,16:4] = [itemtooltip=(O)Carrot][icon=Tilesheets/Objects_2: 0,160,16,16:4][/itemtooltip] x3 + [itemtooltip=(O)419][icon=Maps/springobjects: 176,272,16,16:4][/itemtooltip] [itemtooltip=(O)245][icon=Maps/springobjects:80,160,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Thyme][icon=Mods/{{ModId}}/Objects:48,48,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Pickled_Fish][icon=Mods/{{ModId}}/Objects:224,144,16,16:4]: Any Fish x2 [itemtooltip=(O){{ModId}}_Red_Onion][icon=Mods/{{ModId}}/Objects:208,32,16,16:4][/itemtooltip] + [itemtooltip=(O)419][icon=Maps/springobjects: 176,272,16,16:4][/itemtooltip] + [itemtooltip=(O)248][icon=Maps/springobjects: 128,160,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Pickled_Olives][icon=Mods/{{ModId}}/Objects:240,144,16,16:4] = [itemtooltip=(O){{ModId}}_Olive][icon=Mods/{{ModId}}/Objects:160,0,16,16:4][/itemtooltip]x2 + [itemtooltip=(O)419][icon=Maps/springobjects: 176,272,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Pickled_Red_Onions][icon=Mods/{{ModId}}/Objects:0,160,16,16:4] = [itemtooltip=(O){{ModId}}_Red_Onion][icon=Mods/{{ModId}}/Objects:208,32,16,16:4][/itemtooltip] x2 + [itemtooltip=(O)419][icon=Maps/springobjects: 176,272,16,16:4][/itemtooltip] + [itemtooltip=(O)245][icon=Maps/springobjects:80,160,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Roasted_Peppers][icon=Mods/{{ModId}}/Objects:32,160,16,16:4] = [itemtooltip=(O)260][icon=Maps/springobjects: 320,160,16,16:4][/itemtooltip]x2 + [itemtooltip=(O)382][icon=Maps/springobjects: 352,240,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Olive_Oil][icon=Mods/{{ModId}}/Objects:112,80,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Homemade_Sauerkraut][icon=Mods/{{ModId}}/Objects:48,160,16,16:4] = [itemtooltip=(O)266][icon=Maps/springobjects: 32,176,16,16:4][/itemtooltip] x2 + [itemtooltip=(O)419][icon=Maps/springobjects: 176,272,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Rosemary][icon=Mods/{{ModId}}/Objects:240,32,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Mango_Salsa][icon=Mods/{{ModId}}/Objects:64,160,16,16:4] = [itemtooltip=(O)834][icon=Maps/springobjects: 288,544,16,16:4][/itemtooltip]x2 + [itemtooltip=(O)260][icon=Maps/springobjects: 320,160,16,16:4][/itemtooltip]x2 + [itemtooltip=(O){{ModId}}_Cilantro][icon=Mods/{{ModId}}/Objects:192,16,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Red_Onion][icon=Mods/{{ModId}}/Objects:208,32,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Spicy_Tomato_Salsa][icon=Mods/{{ModId}}/Objects:80,160,16,16:4] = [itemtooltip=(O)256][icon=Maps/springobjects: 256,160,16,16:4][/itemtooltip]x3 [itemtooltip=(O)260][icon=Maps/springobjects: 320,160,16,16:4][/itemtooltip]x2 + [itemtooltip=(O){{ModId}}_Cilantro][icon=Mods/{{ModId}}/Objects:192,16,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Red_Onion][icon=Mods/{{ModId}}/Objects:208,32,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Sundried_Tomatoes][icon=Mods/{{ModId}}/Objects:96,160,16,16:4] = [itemtooltip=(O)256][icon=Maps/springobjects: 256,160,16,16:4][/itemtooltip]x5 + [itemtooltip=(O){{ModId}}_Olive_Oil][icon=Mods/{{ModId}}/Objects:112,80,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Basil][icon=Mods/{{ModId}}/Objects:64,16,16,16:4][/itemtooltip] + [itemtooltip=(O)768][icon=Maps/springobjects: 0,512,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Basil_Pesto][icon=Mods/{{ModId}}/Objects:112,160,16,16:4] = [itemtooltip=(O){{ModId}}_Basil][icon=Mods/{{ModId}}/Objects:64,16,16,16:4][/itemtooltip]x3 + [itemtooltip=(O){{ModId}}_Lemon][icon=Mods/{{ModId}}/Objects:192,0,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Olive_Oil][icon=Mods/{{ModId}}/Objects:112,80,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Almond][icon=Mods/{{ModId}}/Objects:0,0,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Tomato_Bruschetta][icon=Mods/{{ModId}}/Objects:32,144,16,16:4] = [itemtooltip=(O)256][icon=Maps/springobjects: 256,160,16,16:4][/itemtooltip]x2 + [itemtooltip=(O)248][icon=Maps/springobjects: 128,160,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Basil][icon=Mods/{{ModId}}/Objects:64,16,16,16:4][/itemtooltip]
+   
+   
+[itemtooltip=(O){{ModId}}_Tomato_Corn_Salsa][icon=Mods/{{ModId}}/Objects:128,160,16,16:4] = [itemtooltip=(O)256][icon=Maps/springobjects: 256,160,16,16:4][/itemtooltip] x3 + [itemtooltip=(O)270][icon=Maps/springobjects: 96,176,16,16:4][/itemtooltip] x2 + [itemtooltip=(O)248][icon=Maps/springobjects: 128,160,16,16:4][/itemtooltip] + [itemtooltip=(O){{ModId}}_Cilantro][icon=Mods/{{ModId}}/Objects:192,16,16,16:4][/itemtooltip]" 
+                                }, 
+                                { 
+                                    "Id": "Syrups", 
+                                    "Contents": "[image=SMAPI/wildflour.ateliergoods/assets/guidebook/syrup_title.png:null:1]
+
+[itemtooltip=(O){{ModId}}_Ancient_Fruit_Syrup][icon=Mods/{{ModId}}/Objects:16,80,16,16:4][/itemtooltip] = [itemtooltip=(O)454][icon=Maps/springobjects: 352,288,16,16:4][/itemtooltip]x3
+   
+   
+[itemtooltip=(O){{ModId}}_Apple_Syrup][icon=Mods/{{ModId}}/Objects:32,80,16,16:4][/itemtooltip] = [itemtooltip=(O)613][icon=Maps/springobjects:208,400,16,16:4][/itemtooltip]x3
+   
+   
+[itemtooltip=(O){{ModId}}_Apricot_Syrup][icon=Mods/{{ModId}}/Objects:48,80,16,16:4][/itemtooltip] = [itemtooltip=(O)634][icon=Maps/springobjects:160,416,16,16:4][/itemtooltip]x3
+   
+   
+[itemtooltip=(O){{ModId}}_Banana_Syrup][icon=Mods/{{ModId}}/Objects:64,80,16,16:4][/itemtooltip] = [itemtooltip=(O)91][icon=Maps/springobjects:304,48,16,16:4][/itemtooltip]x3
+   
+   
+[itemtooltip=(O){{ModId}}_Caramel_Syrup][icon=Mods/{{ModId}}/Objects:240,592,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Brown_Sugar][icon=Mods/{{ModId}}/Objects:192,64,16,16:4][/itemtooltip]x3 + [itemtooltip=(O){{ModId}}_Cream][icon=Mods/{{ModId}}/Objects:32,64,16,16:4][/itemtooltip] 
+   
+   
+[itemtooltip=(O){{ModId}}_Cherry_Blossom_Syrup][icon=Mods/{{ModId}}/Objects:176,96,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Cherry_Blossoms][icon=Mods/{{ModId}}/Objects:128,16,16,16:4][/itemtooltip]x3
+   
+   
+[itemtooltip=(O){{ModId}}_Cherry_Syrup][icon=Mods/{{ModId}}/Objects:80,80,16,16:4][/itemtooltip] = [itemtooltip=(O)638][icon=Maps/springobjects:224,416,16,16:4][/itemtooltip]x3
+   
+   
+[itemtooltip=(O){{ModId}}_Chocolate_Syrup][icon=Mods/{{ModId}}/Objects:192,96,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Cacao_Pod][icon=Mods/{{ModId}}/Objects:64,0,16,16:4][/itemtooltip]x3
+   
+   
+[itemtooltip=(O){{ModId}}_Grenadine_Syrup][icon=Mods/{{ModId}}/Objects:96,80,16,16:4][/itemtooltip] = [itemtooltip=(O)637][icon=Maps/springobjects: 208,416,16,16:4][/itemtooltip] x3
+   
+   
+   
+[itemtooltip=(O){{ModId}}_Lemon_Syrup][icon=Mods/{{ModId}}/Objects:224,96,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Lemon][icon=Mods/{{ModId}}/Objects:192,0,16,16:4][/itemtooltip]x3
+   
+   
+[itemtooltip=(O){{ModId}}_Lime_Syrup][icon=Mods/{{ModId}}/Objects:240,96,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Lime][icon=Mods/{{ModId}}/Objects:224,0,16,16:4][/itemtooltip] x3
+   
+   
+[itemtooltip=(O){{ModId}}_Mango_Syrup][icon=Mods/{{ModId}}/Objects:112,80,16,16:4][/itemtooltip] = [itemtooltip=(O)834][icon=Maps/springobjects:288,544,16,16:4][/itemtooltip] x3
+   
+   
+[itemtooltip=(O){{ModId}}_Orange_Syrup][icon=Mods/{{ModId}}/Objects:128,80,16,16:4][/itemtooltip] = [itemtooltip=(O)635][icon=Maps/springobjects:176,416,16,16:4][/itemtooltip]x3
+   
+   
+[itemtooltip=(O){{ModId}}_Peach_Syrup][icon=Mods/{{ModId}}/Objects:144,80,16,16:4][/itemtooltip] = [itemtooltip=(O)636][icon=Maps/springobjects:192,416,16,16:4][/itemtooltip] x3
+   
+   
+[itemtooltip=(O){{ModId}}_Pumpkin_Syrup][icon=Mods/{{ModId}}/Objects:160,80,16,16:4][/itemtooltip] = [itemtooltip=(O)276][icon=Maps/springobjects:192,176,16,16:4][/itemtooltip]x3
+   
+   
+[itemtooltip=(O){{ModId}}_Raspberry_Syrup][icon=Mods/{{ModId}}/Objects:192,80,16,16:4][/itemtooltip] =  [itemtooltip=(O){{ModId}}_Wild_Raspberry][icon=Mods/{{ModId}}/Objects:144,48,16,16:4][/itemtooltip]x3
+   
+   
+[itemtooltip=(O){{ModId}}_Strawberry_Syrup][icon=Mods/{{ModId}}/Objects:0,112,16,16:4][/itemtooltip] = [itemtooltip=(O)400][icon=Maps/springobjects:256,256,16,16:4][/itemtooltip]x3
+   
+   
+[itemtooltip=(O){{ModId}}_Vanilla_Syrup][icon=Mods/{{ModId}}/Objects:16,112,16,16:4][/itemtooltip] = [itemtooltip=(O){{ModId}}_Vanilla][icon=Mods/{{ModId}}/Objects:80,48,16,16:4][/itemtooltip]x3" 
+                                }
+                            ]
+                        },
+                    }
+                },
+            }
+        },
+
+//create cookbook stand 
+        {
+            "LogName": "WAG Cookbook Stand Furniture Item",
+            "Action": "EditData",
+            "Target": "Data/Furniture",
+            "Entries": {
+                "{{ModID}}_CookbookStand": "{{ModID}}_CookbookStand/decor/1 2/1 1/1/500/2/{{i18n:Furniture_CookbookStand}}/0/Mods\\Wildflour's Atelier Goods\\CookbookStand/true"
+            }
+        },
+
+//cookbook inventory item
+
+        {
+            "LogName":"WAG Cookbook Object",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModId}}_CookbookGuide": {
+                    "Name": "{{ModId}}_CookbookGuide",
+                    "DisplayName": "{{i18n:AtelierGoods_CookbookGuide.name}}",
+                    "Description": "{{i18n:AtelierGoods_CookbookGuide.description}}",
+                    "Type": "Basic",
+                    "Category": -27,
+                    "Edibility": -300,
+                    "Price": 400,
+                    "ExcludeFromShippingCollection":true,
+                    "ContextTags":
+                    [
+                    "wildflour_item",
+                    "guidebook_item"],
+
+                    "Texture": "Mods/{{ModId}}/Objects",
+                    "SpriteIndex": 395
+            },
+            }
+        },
+
+//add functionality
+
+        {
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+            "Entries": {
+                "{{ModId}}_CookbookGuide": {
+                    "CanBeTrashed":false,
+                    "UseForTriggerAction":true,
+                },
+            }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/FurnitureExtensionData",
+            "Entries": {
+                "{{ModID}}_CookbookStand": {
+                "TileProperties": {
+                    "0, 0": {
+                    "Buildings": {
+                        "Action": "spacechase0.SpaceCore_TriggerAction {{ModID}}_OpenGuidebook"
+                    }
+                    }
+                }
+                }
+            }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModID}}_OpenGuidebook": {
+                "Id": "{{ModID}}_OpenGuidebook",
+                "MarkActionApplied": false,
+                "Trigger": "Manual",
+                "Actions": [
+                    "spacechase0.SpaceCore_OpenGuidebook {{ModId}}"
+                ]
+                },
+                "{{ModId}}_CookbookAccess":{
+                "Id": "{{ModID}}_CookbookAccess",
+                "Trigger": "spacechase0.SpaceCore_OnItemUsed",
+                "Condition": "ITEM_ID Input {{ModId}}_CookbookGuide",
+                "Actions":["spacechase0.SpaceCore_OpenGuidebook {{ModId}}"],
+                "MarkActionApplied": false
+            },
+            }
+        },
+
+
+
+    ]
+}

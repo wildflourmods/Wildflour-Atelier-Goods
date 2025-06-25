@@ -1,0 +1,248 @@
+{
+   "Changes":[
+
+        {
+            "LogName": "Bakery Object Data Tokens - Apple Cake",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Oven",
+                "ITEM_TYPE": "Cake",
+                "ITEM_FLAVOR":"Apple",
+                "INPUT1":"id_(O){{ModID}}_Apple_Juice",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModID}}_Spice_Cake_Mix",
+                "PRICE_MULTIPLIER": 4.0,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "DRINKABILITY":false,
+                "EDIBILITY":98,
+                "ITEM_SPRITE":768
+            }
+        },
+        {
+            "LogName": "Bakery Object Data Tokens - Citrus Thyme Cake",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Oven",
+                "ITEM_TYPE": "Cake",
+                "ITEM_FLAVOR":"Citrus_Thyme",
+                "INPUT1":"id_(O){{ModID}}_Lemon_Marmalade",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModID}}_Lemon_Cake_Mix",
+                "PRICE_MULTIPLIER": 4.0,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "DRINKABILITY":false,
+                "EDIBILITY":98,
+                "ITEM_SPRITE":769
+            }
+        },
+        {
+            "LogName": "Bakery Object Data Tokens - Raspberry Chamomile Cake",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Oven",
+                "ITEM_TYPE": "Cake",
+                "ITEM_FLAVOR":"Raspberry_Chamomile",
+                "INPUT1":"id_(O){{ModID}}_Chamomile_Jelly",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModID}}_Strawberry_Cake_Mix",
+                "PRICE_MULTIPLIER": 4.0,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "DRINKABILITY":false,
+                "EDIBILITY":98,
+                "ITEM_SPRITE": 770
+            }
+        },
+        {
+            "LogName": "Bakery Object Data Tokens - Peach Cake",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Oven",
+                "ITEM_TYPE": "Cake",
+                "ITEM_FLAVOR":"Peach",
+                "INPUT1":"id_(O){{ModID}}_Peach_Blossom_Jelly",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModID}}_Vanilla_Cake_Mix",
+                "PRICE_MULTIPLIER": 4.0,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "DRINKABILITY":false,
+                "EDIBILITY":98,
+                "ITEM_SPRITE":771
+            }
+        },
+        {
+            "LogName": "Bakery Object Data Tokens - Spiced Cake",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Oven",
+                "ITEM_TYPE": "Cake",
+                "ITEM_FLAVOR":"Spiced",
+                "INPUT1":"id_(O){{ModId}}_Carrot_Jam",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModID}}_Spice_Cake_Mix",
+                "PRICE_MULTIPLIER": 4.0,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "DRINKABILITY":false,
+                "EDIBILITY":98,
+                "ITEM_SPRITE":772
+            }
+        },
+        {
+            "LogName": "Bakery Object Data Tokens - Tropical Floral Cake",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Oven",
+                "ITEM_TYPE": "Cake",
+                "ITEM_FLAVOR":"Tropical_Floral",
+                "INPUT1":"id_(O){{ModId}}_Jasmine_Jelly",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModID}}_Coconut_Cake_Mix",
+                "PRICE_MULTIPLIER": 4.0,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "DRINKABILITY":false,
+                "EDIBILITY":98,
+                "ITEM_SPRITE":773
+            }
+        },
+        {
+            "LogName": "Bakery Object Data Tokens - Almond Elderflower Cake",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Oven",
+                "ITEM_TYPE": "Cake",
+                "ITEM_FLAVOR":"Almond_Elderflower",
+                "INPUT1":"id_(O){{ModID}}_Elderflower_Water",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModID}}_Vanilla_Cake_Mix",
+                "PRICE_MULTIPLIER": 4.0,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "DRINKABILITY":false,
+                "EDIBILITY":98,
+                "ITEM_SPRITE":774
+            }
+        },
+        {
+            "LogName": "Bakery Object Data Tokens - Victoria Sponge Cake",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Oven",
+                "ITEM_TYPE": "Cake",
+                "ITEM_FLAVOR":"Victoria_Sponge",
+                "INPUT1":"id_(O)344",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModID}}_Vanilla_Cake_Mix",
+                "PRICE_MULTIPLIER": 4.0,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "DRINKABILITY":false,
+                "EDIBILITY":98,
+                "ITEM_SPRITE":775
+            }
+        },
+        {
+            "LogName": "Bakery Object Data Tokens - Pink Velvet Cake",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Oven",
+                "ITEM_TYPE": "Cake",
+                "ITEM_FLAVOR":"Pink_Velvet",
+                "INPUT1":"id_(O){{ModId}}_Wild_Strawberry_Rhubarb Jam",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModID}}_Red_Velvet_Cake_Mix",
+                "PRICE_MULTIPLIER": 4.0,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "DRINKABILITY":false,
+                "EDIBILITY":98,
+                "ITEM_SPRITE":776
+            }
+        },
+            {
+            "LogName": "Bakery Object Data Tokens - Summer Flower Cake",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Oven",
+                "ITEM_TYPE": "Cake",
+                "ITEM_FLAVOR":"Summer_Flower",
+                "INPUT1":"id_(O){{ModId}}_Spangle_Jelly",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModID}}_Strawberry_Cake_Mix",
+                "PRICE_MULTIPLIER": 4.0,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "DRINKABILITY":false,
+                "EDIBILITY":98,
+                "ITEM_SPRITE":777
+            }
+        },
+        {
+            "LogName": "Bakery Object Data Tokens - Chocolate Mudslide Cake",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Oven",
+                "ITEM_TYPE": "Cake",
+                "ITEM_FLAVOR":"Chocolate_Mudslide",
+                "INPUT1":"id_(O){{ModId}}_Chocolate_Spread",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModID}}_Chocolate_Cake_Mix",
+                "PRICE_MULTIPLIER": 4.0,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "DRINKABILITY":false,
+                "EDIBILITY":98,
+                "ITEM_SPRITE":778
+            }
+        }
+
+]
+}

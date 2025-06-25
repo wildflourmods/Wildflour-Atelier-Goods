@@ -1,0 +1,24 @@
+{
+
+  "Changes": [
+
+      {
+          "LogName": "Set WAG Working Effects",
+          "Action": "EditData",
+          "Target": "Data/Machines",
+          "Fields": {
+                "(BC){{ModId}}_": {
+                  "WorkingEffects":[
+                      {
+                          "Frames":[],
+                          "Interval":0
+                      }
+                  ]
+              },
+          }
+        },
+
+
+
+  ]
+}

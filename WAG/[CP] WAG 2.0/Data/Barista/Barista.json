@@ -1,0 +1,35 @@
+{
+    "Changes":[
+        
+        {
+            "LogName": "WAG Barista Machine Data",
+            "Action": "Include",
+            "FromFile": "Data/Barista/MachineData_Tokens.json",
+        },
+        {
+            "LogName": "WAG Barista Simple Data",
+            "Action": "Include",
+            "FromFile": "Data/Barista/Simple_Tokens.json",
+            "When":{"Query:('{{Atelier.Cauldron/ConfigValue:SimpleAddOn}}' ='true') OR ('{{Atelier.Cauldron/ConfigValue:DifficultyToggle}}'='Simple')":true  }
+        },
+        {
+            "LogName": "WAG Barista Advanced/Hybrid Tokens",
+            "Action": "Include",
+            "FromFile": "Data/Barista/GroundCoffee_Tokens.json, Data/Barista/Sachet_Tokens.json, Data/Barista/Boba_Tokens.json, Data/Barista/IcedLatte_Tokens.json, Data/Barista/Kombucha_Tokens.json, Data/Barista/Latte_Tokens.json, Data/Barista/Lemonade_Tokens.json, Data/Barista/Smoothie_Tokens.json, Data/Barista/Tea_Tokens.json",
+            "When":{"Query:'{{Atelier.Cauldron/ConfigValue:DifficultyToggle}}'<>'Simple'":true}
+        },
+
+        {
+            "LogName": "WAG Barista CCS Data",
+            "Action": "Include",
+            "FromFile": "Data/CCS/Barista_Stations.json",
+            "When":{"Atelier.Cauldron/ConfigValue:DifficultyToggle":"Hybrid"}
+        },
+
+        {
+            "LogName": "WAG Barista Field Edit Data",
+            "Action": "Include",
+            "FromFile": "Data/Barista/ContextTags.json, Data/Barista/WorkingEffects.json",
+        },
+    ]
+}

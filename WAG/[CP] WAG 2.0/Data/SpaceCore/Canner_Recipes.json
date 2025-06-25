@@ -1,0 +1,1869 @@
+{
+  "Changes": [
+
+  {
+    "LogName": "Adjust Canner Recipes with SpaceCore",
+    "Action": "EditData",
+    "Target": "spacechase0.SpaceCore/CookingRecipeOverrides",
+    "Entries": {
+      "{{ModId}}_Banana_Maple_Jam": {
+        "ProductQualifiedId": "(O){{ModId}}_Banana_Maple_Jam",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "Item",
+            "Value": "(O)91",
+            "Amount": 3
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)724",
+            "Amount": 1,
+        
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "pectin_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:pectin_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 240,
+              "Y": 64,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+
+        ]
+      },
+      "{{ModId}}_Banana_Split_Jam": {
+        "ProductQualifiedId": "(O){{ModId}}_Banana_Split_Jam",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "Item",
+            "Value": "(O)91",
+            "Amount": 3
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)400",
+            "Amount": 1,
+        
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "pectin_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:pectin_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 240,
+              "Y": 64,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+
+        ]
+      },
+      "{{ModId}}_Blue_Jazz_Jelly": {
+        "ProductQualifiedId": "(O){{ModId}}_Blue_Jazz_Jelly",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "Item",
+            "Value": "(O)597",
+            "Amount": 2
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1,
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "pectin_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:pectin_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 240,
+              "Y": 64,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+
+        ]
+      },
+      "{{ModId}}_Cranberry_Chutney": {
+        "ProductQualifiedId": "(O){{ModId}}_Cranberry_Chutney",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "Item",
+            "Value": "(O)282",
+            "Amount": 3
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)635",
+            "Amount": 1,
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1,
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "pectin_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:pectin_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 240,
+              "Y": 64,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+
+        ]
+      },
+      "{{ModId}}_Crocus_Jelly": {
+        "ProductQualifiedId": "(O){{ModId}}_Crocus_Jelly",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "Item",
+            "Value": "(O)418",
+            "Amount": 2
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1,
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "pectin_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:pectin_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 240,
+              "Y": 64,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+
+        ]
+      },
+      "{{ModId}}_Dandelion_Jelly": {
+        "ProductQualifiedId": "(O){{ModId}}_Dandelion_Jelly",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "Item",
+            "Value": "(O)22",
+            "Amount": 2
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1,
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "pectin_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:pectin_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 240,
+              "Y": 64,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+
+        ]
+      },
+      "{{ModId}}_Honey_Apricot_Preserves": {
+        "ProductQualifiedId": "(O){{ModId}}_Honey_Apricot_Preserves",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "Item",
+            "Value": "(O)634",
+            "Amount": 3
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)340",
+            "Amount": 1,
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "pectin_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:pectin_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 240,
+              "Y": 64,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+
+        ]
+      },
+      "{{ModId}}_Honey_Peach_Preserves": {
+        "ProductQualifiedId": "(O){{ModId}}_Honey_Peach_Preserves",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "Item",
+            "Value": "(O)636",
+            "Amount": 3
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)340",
+            "Amount": 1,
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "pectin_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:pectin_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 240,
+              "Y": 64,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+
+        ]
+      },
+      "{{ModId}}_Mango_Chutney": {
+        "ProductQualifiedId": "(O){{ModId}}_Mango_Chutney",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "Item",
+            "Value": "(O)834",
+            "Amount": 3
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1,
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "pectin_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:pectin_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 240,
+              "Y": 64,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+
+        ]
+      },
+      "{{ModId}}_Mixed_Berry_Preserves": {
+        "ProductQualifiedId": "(O){{ModId}}_Mixed_Berry_Preserves",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "Item",
+            "Value": "(O)258",
+            "Amount": 3
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)410",
+            "Amount": 1,
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)638",
+            "Amount": 1,
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "pectin_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:pectin_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 240,
+              "Y": 64,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+
+        ]
+      },
+      "{{ModId}}_Rose_Petal_Jelly": {
+        "ProductQualifiedId": "(O){{ModId}}_Rose_Petal_Jelly",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "Item",
+            "Value": "(O)595",
+            "Amount": 3
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1,
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "pectin_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:pectin_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 240,
+              "Y": 64,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+
+        ]
+      },
+      "{{ModId}}_Flower_Dance_Jelly": {
+        "ProductQualifiedId": "(O){{ModId}}_Flower_Dance_Jelly",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "Item",
+            "Value": "(O)22",
+            "Amount": 2
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)591",
+            "Amount": 2,
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)597",
+            "Amount": 2,
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)340",
+            "Amount": 1,
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "pectin_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:pectin_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 240,
+              "Y": 64,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+
+        ]
+      },
+      "{{ModId}}_Luau_Jam": {
+        "ProductQualifiedId": "(O){{ModId}}_Luau_Jam",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "Item",
+            "Value": "(O)258",
+            "Amount": 3
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)254",
+            "Amount": 2,
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)268",
+            "Amount": 1,
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1,
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "pectin_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:pectin_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 240,
+              "Y": 64,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+
+        ]
+      },
+      "{{ModId}}_Spirits_Eve_Jam": {
+        "ProductQualifiedId": "(O){{ModId}}_Spirits_Eve_Jam",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "Item",
+            "Value": "(O)276",
+            "Amount": 3
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)280",
+            "Amount": 2,
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)282",
+            "Amount": 2,
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1,
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "pectin_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:pectin_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 240,
+              "Y": 64,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+
+        ]
+      },
+      "{{ModId}}_Winter_Star_Jelly": {
+        "ProductQualifiedId": "(O){{ModId}}_Winter_Star_Jelly",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "Item",
+            "Value": "(O)414",
+            "Amount": 3
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)418",
+            "Amount": 3,
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1,
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "pectin_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:pectin_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 240,
+              "Y": 64,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+
+        ]
+      },
+      "{{ModId}}_Wild_Strawberry_Rhubarb_Jam": {
+        "ProductQualifiedId": "(O){{ModId}}_Wild_Strawberry_Rhubarb_Jam",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "strawberry_item",
+            "Amount": 2,
+            "OverrideText": "Any Strawberry",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 176,
+              "Y": 48,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)252",
+            "Amount": 2
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1,
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "pectin_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:pectin_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 240,
+              "Y": 64,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+
+        ]
+      },
+      "{{ModId}}_Spangle_Jelly": {
+        "ProductQualifiedId": "(O){{ModId}}_Spangle_Jelly",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "Item",
+            "Value": "(O)593",
+            "Amount": 2
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1,
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "pectin_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:pectin_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 240,
+              "Y": 64,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+
+        ]
+      },
+      "{{ModId}}_Orange_Marmalade": {
+        "ProductQualifiedId": "(O){{ModId}}_Orange_Marmalade",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "Item",
+            "Value": "(O)635",
+            "Amount": 5
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1,
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "pectin_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:pectin_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 240,
+              "Y": 64,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+
+        ]
+      },
+      "{{ModId}}_Tulip_Jelly": {
+        "ProductQualifiedId": "(O){{ModId}}_Tulip_Jelly",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "Item",
+            "Value": "(O)591",
+            "Amount": 2
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1,
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "pectin_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:pectin_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 240,
+              "Y": 64,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+
+        ]
+      }
+    }
+  },
+
+  {
+    "LogName": "Adjust Modded Canner Mixes with SpaceCore",
+    "Action": "EditData",
+    "Target": "spacechase0.SpaceCore/CookingRecipeOverrides",
+    "When":{"Atelier.Cauldron/ConfigValue:WildFood": true},
+    "Entries": {
+      "{{ModId}}_Blackberry_Mint_Jelly": {
+        "ProductQualifiedId": "(O){{ModId}}_Blackberry_Mint_Jelly",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "Item",
+            "Value": "(O)410",
+            "Amount": 3
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "mint_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:mint_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 176,
+              "Y": 32,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1,
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "pectin_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:pectin_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 240,
+              "Y": 64,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+
+        ]
+      },
+      "{{ModId}}_Blueberry_Lavender_Jelly": {
+        "ProductQualifiedId": "(O){{ModId}}_Blueberry_Lavender_Jelly",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "Item",
+            "Value": "(O)258",
+            "Amount": 2
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "lavender_item",
+            "Amount": 2,
+            "OverrideText": "{{i18n:lavender_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 48,
+              "Y": 32,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1,
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "pectin_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:pectin_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 240,
+              "Y": 64,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+
+        ]
+      },
+    "{{ModId}}_Chamomile_Jelly": {
+        "ProductQualifiedId": "(O){{ModId}}_Chamomile_Jelly",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "chamomile_item",
+            "Amount": 2,
+            "OverrideText": "{{i18n:chamomile_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 96,
+              "Y": 16,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1,
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "pectin_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:pectin_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 240,
+              "Y": 64,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+
+        ]
+      },
+    "{{ModId}}_Cherry_Vanilla_Jam": {
+        "ProductQualifiedId": "(O){{ModId}}_Cherry_Vanilla_Jam",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "Item",
+            "Value": "(O)638",
+            "Amount": 2,
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "vanilla_item",
+            "Amount": 2,
+            "OverrideText": "{{i18n:vanilla_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 80,
+              "Y": 48,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1,
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "pectin_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:pectin_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 240,
+              "Y": 64,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+
+        ]
+      },
+    "{{ModId}}_Cinnamon_Apple_Preserves": {
+        "ProductQualifiedId": "(O){{ModId}}_Cinnamon_Apple_Preserves",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "Item",
+            "Value": "(O)613",
+            "Amount": 2,
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "cinnamon_item",
+            "Amount": 2,
+            "OverrideText": "{{i18n:cinnamon_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 144,
+              "Y": 16,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1,
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "pectin_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:pectin_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 240,
+              "Y": 64,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+
+        ]
+      }, 
+    "{{ModId}}_Jasmine_Jelly": {
+        "ProductQualifiedId": "(O){{ModId}}_Jasmine_Jelly",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "jasmine_item",
+            "Amount": 2,
+            "OverrideText": "{{i18n:jasmine_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 16,
+              "Y": 32,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1,
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "pectin_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:pectin_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 240,
+              "Y": 64,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+
+        ]
+      },
+    "{{ModId}}_Lemon_Marmalade": {
+        "ProductQualifiedId": "(O){{ModId}}_Lemon_Marmalade",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "lemon_item",
+            "Amount": 5,
+            "OverrideText": "{{i18n:lemon_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 192,
+              "Y": 0,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1,
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "pectin_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:pectin_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 240,
+              "Y": 64,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+
+        ]
+      },
+    "{{ModId}}_Lime_Marmalade": {
+        "ProductQualifiedId": "(O){{ModId}}_Lime_Marmalade",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "lime_item",
+            "Amount": 5,
+            "OverrideText": "{{i18n:lime_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 128,
+              "Y": 112,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1,
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "pectin_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:pectin_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 240,
+              "Y": 64,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+
+        ]
+      },
+    "{{ModId}}_Peach_Blossom_Jelly": {
+        "ProductQualifiedId": "(O){{ModId}}_Peach_Blossom_Jelly",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "Item",
+            "Value": "(O)636",
+            "Amount": 3,
+          },
+          {
+            "Type": "Item",
+            "Value": "(O){{ModId}}_CherryBlossoms",
+            "Amount": 2,
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1,
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "pectin_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:pectin_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 240,
+              "Y": 64,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+
+        ]
+      },
+    "{{ModId}}_Vanilla_Wild_Raspberry_Preserves": {
+        "ProductQualifiedId": "(O){{ModId}}_Vanilla_Wild_Raspberry_Preserves",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "vanilla_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:vanilla_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 80,
+              "Y": 48,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "raspberry_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:raspberry_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 144,
+              "Y": 48,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)245",
+            "Amount": 1,
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "pectin_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:pectin_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 240,
+              "Y": 64,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+
+        ]
+      },
+    "{{ModId}}_Tomato_Bruschetta": {
+      "ProductQualifiedId": "(O){{ModId}}_Tomato_Bruschetta",
+      "ProductAmount": 1,
+      "Ingredients": [
+        {
+          "Type": "Item",
+          "Value": "(O)256",
+          "Amount": 2
+        },  
+        {
+          "Type": "Item",
+          "Value": "(O)248",
+          "Amount": 1,
+        },
+        {
+          "Type": "ContextTag",
+          "Value": "basil_item",
+          "Amount": 2,
+          "OverrideText": "{{i18n:basil_item}}",
+          "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+          "OverrideTextureRect": {
+            "X": 64,
+            "Y": 16,
+            "Width": 16,
+            "Height": 16
+          }
+        },
+      ]
+      },
+    "{{ModId}}_Onion_Chutney": {
+      "ProductQualifiedId": "(O){{ModId}}_Onion_Chutney",
+      "ProductAmount": 1,
+      "Ingredients": [
+        {
+          "Type": "ContextTag",
+          "Value": "red_onion_item",
+          "Amount": 3,
+          "OverrideText": "{{i18n:red_onion_item}}",
+          "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+          "OverrideTextureRect": {
+            "X": 208,
+            "Y": 32,
+            "Width": 16,
+            "Height": 16
+          }
+        },
+        {
+          "Type": "Item",
+          "Value": "(O)245",
+          "Amount": 1,
+        },
+        {
+          "Type": "ContextTag",
+          "Value": "olive_oil_item",
+          "Amount": 1,
+          "OverrideText": "{{i18n:olive_oil_item}}",
+          "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+          "OverrideTextureRect": {
+            "X": 112,
+            "Y": 96,
+            "Width": 16,
+            "Height": 16
+          }
+        },
+
+      ]
+      },
+    "{{ModId}}_Pineapple_Salsa": {
+      "ProductQualifiedId": "(O){{ModId}}_Pineapple_Salsa",
+      "ProductAmount": 1,
+      "Ingredients": [
+        {
+          "Type": "Item",
+          "Value": "(O)832",
+          "Amount": 2
+        },
+        {
+          "Type": "ContextTag",
+          "Value": "cilantro_item",
+          "Amount": 2,
+          "OverrideText": "{{i18n:cilantro_item}}",
+          "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+          "OverrideTextureRect": {
+            "X": 192,
+            "Y": 16,
+            "Width": 16,
+            "Height": 16
+          }
+        },
+        {
+          "Type": "Item",
+          "Value": "(O)260",
+          "Amount": 2,
+        },
+      ]
+      },
+    "{{ModId}}_Vegetable_Giardiniera": {
+      "ProductQualifiedId": "(O){{ModId}}_Vegetable_Giardiniera",
+      "ProductAmount": 1,
+      "Ingredients": [
+        {
+          "Type": "Item",
+          "Value": "(O)260",
+          "Amount": 3
+        },
+        {
+          "Type": "Item",
+          "Value": "(O)Carrot",
+          "Amount": 2,
+        },
+        {
+          "Type": "Item",
+          "Value": "(O)190",
+          "Amount": 2,
+        },
+      
+      ]
+      },
+    "{{ModId}}_Horseradish_Chips": {
+      "ProductQualifiedId": "(O){{ModId}}_Horseradish_Chips",
+      "ProductAmount": 1,
+      "Ingredients": [
+        {
+          "Type": "Item",
+          "Value": "(O)16",
+          "Amount": 2
+        },
+        {
+          "Type": "Item",
+          "Value": "(O)188",
+          "Amount": 1,
+
+        },
+        {
+          "Type": "Item",
+          "Value": "(O)419",
+          "Amount": 1,
+        },
+        ]
+      },
+    "{{ModId}}_Kale_Pesto": {
+      "ProductQualifiedId": "(O){{ModId}}_Kale_Pesto",
+      "ProductAmount": 1,
+      "Ingredients": [
+        {
+          "Type": "Item",
+          "Value": "(O)250",
+          "Amount": 2
+        },
+        {
+          "Type": "Item",
+          "Value": "(O)248",
+          "Amount": 1,
+        },
+        {
+          "Type": "ContextTag",
+          "Value": "olive_oil_item",
+          "Amount": 1,
+          "OverrideText": "{{i18n:olive_oil_item}}",
+          "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+          "OverrideTextureRect": {
+            "X": 112,
+            "Y": 96,
+            "Width": 16,
+            "Height": 16
+          }
+        },]
+      },
+    "{{ModId}}_Marinated_Mushrooms": {
+      "ProductQualifiedId": "(O){{ModId}}_Marinated_Mushrooms",
+      "ProductAmount": 1,
+      "Ingredients": [
+        {
+          "Type": "Item",
+          "Value": "(O)404",
+          "Amount": 2
+        },
+        {
+          "Type": "ContextTag",
+          "Value": "edible_mushroom",
+          "Amount": 2,
+          "OverrideText": "{{i18n:edible_mushroom_item}}",
+          "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+          "OverrideTextureRect": {
+            "X": 240,
+            "Y": 16,
+            "Width": 16,
+            "Height": 16
+          }
+        },
+        {
+          "Type": "ContextTag",
+          "Value": "olive_oil_item",
+          "Amount": 1,
+          "OverrideText": "{{i18n:olive_oil_item}}",
+          "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+          "OverrideTextureRect": {
+            "X": 112,
+            "Y": 96,
+            "Width": 16,
+            "Height": 16
+          }
+        },]
+      },
+    "{{ModId}}_Tomato_Salsa": {
+      "ProductQualifiedId": "(O){{ModId}}_Tomato_Salsa",
+      "ProductAmount": 1,
+      "Ingredients": [
+        {
+          "Type": "Item",
+          "Value": "(O)256",
+          "Amount": 2
+        },
+        {
+          "Type": "ContextTag",
+          "Value": "red_onion_item",
+          "Amount": 1,
+          "OverrideText": "{{i18n:red_onion_item}}",
+          "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+          "OverrideTextureRect": {
+            "X": 208,
+            "Y": 32,
+            "Width": 16,
+            "Height": 16
+          }
+        },
+        {
+          "Type": "ContextTag",
+          "Value": "cilantro_item",
+          "Amount": 1,
+          "OverrideText": "{{i18n:cilantro_item}}",
+          "OverrideTexturePath":"Mods/{{ModId}}/Objects",
+          "OverrideTextureRect":{
+            "X": 192,
+            "Y": 16,
+            "Width":16,
+            "Height":16
+          }
+        },
+        {
+          "Type": "ContextTag",
+          "Value": "olive_oil_item",
+          "Amount": 1,
+          "OverrideText": "{{i18n:olive_oil_item}}",
+          "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+          "OverrideTextureRect": {
+            "X": 112,
+            "Y": 96,
+            "Width": 16,
+            "Height": 16
+          }
+        },]
+      },
+    "{{ModId}}_Olive_Tapenade": {
+      "ProductQualifiedId": "(O){{ModId}}_Olive_Tapenade",
+      "ProductAmount": 1,
+      "Ingredients": [
+        {
+          "Type": "ContextTag",
+          "Value": "olive_item",
+          "Amount": 2,
+          "OverrideText": "{{i18n:olive_item}}",
+          "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+          "OverrideTextureRect": {
+            "X": 128,
+            "Y": 112,
+            "Width": 16,
+            "Height": 16
+          }
+        },
+        {
+          "Type": "ContextTag",
+          "Value": "lemon_item",
+          "Amount": 1,
+          "OverrideText": "{{i18n:lemon_item}}",
+          "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+          "OverrideTextureRect": {
+            "X": 192,
+            "Y": 0,
+            "Width": 16,
+            "Height": 16
+          }
+        },
+        {
+          "Type": "ContextTag",
+          "Value": "olive_oil_item",
+          "Amount": 1,
+          "OverrideText": "{{i18n:olive_oil_item}}",
+          "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+          "OverrideTextureRect": {
+            "X": 112,
+            "Y": 96,
+            "Width": 16,
+            "Height": 16
+          }
+        },] 
+      },
+    "{{ModId}}_Peach_Salsa": {
+      "ProductQualifiedId": "(O){{ModId}}_Peach_Salsa",
+      "ProductAmount": 1,
+      "Ingredients": [
+        {
+          "Type": "Item",
+          "Value": "(O)636",
+          "Amount": 3
+        },
+        {
+          "Type": "ContextTag",
+          "Value": "cilantro_item",
+          "Amount": 1,
+          "OverrideText": "{{i18n:cilantro_item}}",
+          "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+          "OverrideTextureRect": {
+            "X": 192,
+            "Y": 16,
+            "Width": 16,
+            "Height": 16
+          }
+        },
+        {
+          "Type": "Item",
+          "Value": "(O)260",
+          "Amount": 2,
+        },
+        {
+          "Type": "Item",
+          "Value": "(O)248",
+          "Amount": 1,
+        }]
+      },
+    "{{ModId}}_Pepper_Relish": {
+        "ProductQualifiedId": "(O){{ModId}}_Pepper_Relish",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "Item",
+            "Value": "(O)260",
+            "Amount": 2
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "red_onion_item",
+            "Amount": 2,
+            "OverrideText": "{{i18n:red_onion_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 208,
+              "Y": 32,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "olive_oil_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:olive_oil_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 112,
+              "Y": 96,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+        ]
+      },
+    "{{ModId}}_Artichoke_Hearts": {
+        "ProductQualifiedId": "(O){{ModId}}_Artichoke_Hearts",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "Item",
+            "Value": "(O)274",
+            "Amount": 2
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "rosemary_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:rosemary_item}}",
+            "OverrideTexturePath":"Mods/{{ModId}}/Objects",
+            "OverrideTextureRect":{
+              "X":240,
+              "Y":32,
+              "Width":16,
+              "Height":16
+            }
+          },
+          {
+            "Type": "ContextTag",
+            "Value": "olive_oil_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n:olive_oil_item}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 112,
+              "Y": 96,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+        ]
+      },
+    "{{ModId}}_Pickled_Fish": {
+      "ProductQualifiedId": "(O){{ModId}}_Pickled_Fish",
+      "ProductAmount": 1,
+      "Ingredients": [
+        {
+          "Type": "Item",
+          "Value": "(O)419",
+          "Amount": 1
+        },
+        {
+          "Type": "Item",
+          "Value": "(O)248",
+          "Amount": 1
+        },
+        {
+          "Type": "ContextTag",
+          "Value": "category_fish",
+          "Amount": 2,
+          "OverrideText": "{{i18n:fish_item}}",
+          "OverrideTexturePath":"maps/springobjects",
+          "OverrideTextureRect":{
+            "X":272,
+            "Y":80,
+            "Width":16,
+            "Height":16
+          }
+        },
+        {
+          "Type": "ContextTag",
+          "Value": "red_onion_item",
+          "Amount": 1,
+          "OverrideText": "{{i18n:red_onion_item}}",
+          "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+          "OverrideTextureRect": {
+            "X": 208,
+            "Y": 32,
+            "Width": 16,
+            "Height": 16
+          }
+        },
+      ]
+      },
+    "{{ModId}}_Pickled_Olives": {
+      "ProductQualifiedId": "(O){{ModId}}_Pickled_Olives",
+      "ProductAmount": 1,
+      "Ingredients": [
+        {
+          "Type": "Item",
+          "Value": "(O)419",
+          "Amount": 1
+        },
+        {
+          "Type": "ContextTag",
+          "Value": "olive_item",
+          "Amount": 2,
+          "OverrideText": "{{i18n:olive_item}}",
+          "OverrideTexturePath":"Mods/{{ModId}}/Objects",
+          "OverrideTextureRect":{
+            "X":160,
+            "Y":0,
+            "Width":16,
+            "Height":16
+          }
+        },
+      ]
+      },
+    "{{ModId}}_Pickled_Onions": {
+      "ProductQualifiedId": "(O){{ModId}}_Pickled_Onions",
+      "ProductAmount": 1,
+      "Ingredients": [
+        {
+          "Type": "Item",
+          "Value": "(O)419",
+          "Amount": 1
+        },
+        {
+          "Type": "Item",
+          "Value": "(O)245",
+          "Amount": 1,
+        },
+        {
+          "Type": "ContextTag",
+          "Value": "red_onion_item",
+          "Amount": 2,
+          "OverrideText": "{{i18n:red_onion_item}}",
+          "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+          "OverrideTextureRect": {
+            "X": 208,
+            "Y": 32,
+            "Width": 16,
+            "Height": 16
+          }
+        },
+      ]
+      },
+    "{{ModId}}_Pickled_Carrots": {
+      "ProductQualifiedId": "(O){{ModId}}_Pickled_Carrots",
+      "ProductAmount": 1,
+      "Ingredients": [
+        {
+          "Type": "Item",
+          "Value": "(O)Carrot",
+          "Amount": 3
+        },
+        {
+          "Type": "Item",
+          "Value": "(O)419",
+          "Amount": 1,
+        },
+        {
+          "Type": "Item",
+          "Value": "(O)245",
+          "Amount": 1,
+        },
+        {
+          "Type": "ContextTag",
+          "Value": "rosemary_item",
+          "Amount": 2,
+          "OverrideText": "{{i18n:rosemary_item}}",
+          "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+          "OverrideTextureRect": {
+            "X":240,
+            "Y":32,
+            "Width": 16,
+            "Height": 16
+          }
+        },
+      ]
+      },
+    "{{ModId}}_Roasted_Peppers": {
+      "ProductQualifiedId": "(O){{ModId}}_Roasted_Peppers",
+      "ProductAmount": 1,
+      "Ingredients": [
+        {
+          "Type": "Item",
+          "Value": "(O)260",
+          "Amount": 2
+        },
+        {
+          "Type": "Item",
+          "Value": "(O)382",
+          "Amount": 1,
+        },
+        {
+          "Type": "Item",
+          "Value": "(O)245",
+          "Amount": 1,
+        },
+        {
+          "Type": "ContextTag",
+          "Value": "olive_oil_item",
+          "Amount": 2,
+          "OverrideText": "{{i18n:olive_oil_item}}",
+          "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+          "OverrideTextureRect": {
+            "X": 112,
+            "Y": 96,
+            "Width": 16,
+            "Height": 16
+          }
+        },
+      ]
+    },
+    "{{ModId}}_Homemade_Sauerkraut": {
+      "ProductQualifiedId": "(O){{ModId}}_Homemade_Sauerkraut",
+      "ProductAmount": 1,
+      "Ingredients": [
+        {
+          "Type": "Item",
+          "Value": "(O)266",
+          "Amount": 2
+        },
+        {
+          "Type": "Item",
+          "Value": "(O)419",
+          "Amount": 1,
+        },
+        {
+          "Type": "ContextTag",
+          "Value": "rosemary_item",
+          "Amount": 2,
+          "OverrideText": "{{i18n:rosemary_item}}",
+          "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+          "OverrideTextureRect": {
+            "X":240,
+            "Y":32,
+            "Width": 16,
+            "Height": 16
+          }
+        },
+      ]
+    },
+    "{{ModId}}_Mango_Salsa": {
+      "ProductQualifiedId": "(O){{ModId}}_Mango_Salsa",
+      "ProductAmount": 1,
+      "Ingredients": [
+        {
+          "Type": "Item",
+          "Value": "(O)834",
+          "Amount": 2
+        },
+        {
+          "Type": "Item",
+          "Value": "(O)260",
+          "Amount": 1,
+        },
+        {
+          "Type": "ContextTag",
+          "Value": "cilantro_item",
+          "Amount": 2,
+          "OverrideText": "{{i18n:cilantro_item}}",
+          "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+          "OverrideTextureRect": {
+            "X": 192,
+            "Y": 16,
+            "Width": 16,
+            "Height": 16
+          }
+        },
+        {
+          "Type": "ContextTag",
+          "Value": "red_onion_item",
+          "Amount": 2,
+          "OverrideText": "{{i18n:red_onion_item}}",
+          "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+          "OverrideTextureRect": {
+            "X": 208,
+            "Y": 32,
+            "Width": 16,
+            "Height": 16
+          }
+        },
+      ]
+    },
+    "{{ModId}}_Spicy_Tomato_Salsa": {
+      "ProductQualifiedId": "(O){{ModId}}_Spicy_Tomato_Salsa",
+      "ProductAmount": 1,
+      "Ingredients": [
+        {
+          "Type": "Item",
+          "Value": "(O)256",
+          "Amount": 3
+        },
+        {
+          "Type": "Item",
+          "Value": "(O)260",
+          "Amount": 2,
+        },
+        {
+          "Type": "ContextTag",
+          "Value": "cilantro_item",
+          "Amount": 1,
+          "OverrideText": "{{i18n:cilantro_item}}",
+          "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+          "OverrideTextureRect": {
+            "X": 192,
+            "Y": 16,
+            "Width": 16,
+            "Height": 16
+          }
+        },
+        {
+          "Type": "Item",
+          "Value": "(O)248",
+          "Amount": 1,
+        },
+      ]
+    },
+    "{{ModId}}_Sundried_Tomatoes": {
+      "ProductQualifiedId": "(O){{ModId}}_Sundried_Tomatoes",
+      "ProductAmount": 1,
+      "Ingredients": [
+        {
+          "Type": "Item",
+          "Value": "(O)256",
+          "Amount": 5
+        },
+        {
+          "Type": "ContextTag",
+          "Value": "basil_item",
+          "Amount": 1,
+          "OverrideText": "{{i18n:basil_item}}",
+          "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+          "OverrideTextureRect": {
+            "X": 64,
+            "Y": 16,
+            "Width": 16,
+            "Height": 16
+          }
+        },
+        {
+          "Type": "ContextTag",
+          "Value": "olive_oil_item",
+          "Amount": 1,
+          "OverrideText": "{{i18n:olive_oil_item}}",
+          "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+          "OverrideTextureRect": {
+            "X": 112,
+            "Y": 96,
+            "Width": 16,
+            "Height": 16
+          }
+        },
+        {
+          "Type": "Item",
+          "Value": "(O)768",
+          "Amount": 1,
+        },
+      ]
+    },
+    "{{ModId}}_Basil_Pesto": {
+      "ProductQualifiedId": "(O){{ModId}}_Basil_Pesto",
+      "ProductAmount": 1,
+      "Ingredients": [
+        {
+          "Type": "ContextTag",
+          "Value": "basil_item",
+          "Amount": 3,
+          "OverrideText": "{{i18n:basil_item}}",
+          "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+          "OverrideTextureRect": {
+            "X": 64,
+            "Y": 16,
+            "Width": 16,
+            "Height": 16
+          }
+        },
+        {
+          "Type": "ContextTag",
+          "Value": "lemon_item",
+          "Amount": 3,
+          "OverrideText": "{{i18n:lemon_item}}",
+          "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+          "OverrideTextureRect": {
+            "X": 192,
+            "Y": 0,
+            "Width": 16,
+            "Height": 16
+          }
+        },
+        {
+          "Type": "ContextTag",
+          "Value": "olive_oil_item",
+          "Amount": 1,
+          "OverrideText": "{{i18n:olive_oil_item}}",
+          "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+          "OverrideTextureRect": {
+            "X": 112,
+            "Y": 96,
+            "Width": 16,
+            "Height": 16
+          }
+        },
+        {
+          "Type": "ContextTag",
+          "Value": "nut_item",
+          "Amount": 1,
+          "OverrideText": "{{i18n:nut_item}}",
+          "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+          "OverrideTextureRect": {
+            "X": 0,
+            "Y": 0,
+            "Width": 16,
+            "Height": 16
+          }
+        },
+      ]
+    },
+    "{{ModId}}_Tomato_Corn_Salsa": {
+      "ProductQualifiedId": "(O){{ModId}}_Tomato_Corn_Salsa",
+      "ProductAmount": 1,
+      "Ingredients": [
+        {
+          "Type": "ContextTag",
+          "Value": "(O)256",
+          "Amount": 3,
+        },
+        {
+          "Type": "ContextTag",
+          "Value": "(O)270",
+          "Amount": 2,
+        },
+        {
+          "Type": "ContextTag",
+          "Value": "(O)248",
+          "Amount": 1,
+        },
+        {
+          "Type": "ContextTag",
+          "Value": "cilantro_item",
+          "Amount": 3,
+          "OverrideText": "{{i18n:cilantro_item}}",
+          "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+          "OverrideTextureRect": {
+            "X": 192,
+            "Y": 16,
+            "Width": 16,
+            "Height": 16
+          }
+        },
+
+      ]
+    },
+    }
+  }
+
+  ]
+}

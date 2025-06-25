@@ -1,0 +1,141 @@
+{
+    "Changes": [
+        {
+            "LogName": "Sapling Rules: WildFood Almond",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/Trees.json",
+            "LocalTokens": {
+                "TREE_FRUIT_TYPE": "Almond",
+                "SAPLING_SPRITE":"1",
+                "TREE_SPRITE_ROW":"6",
+                "ITEM_SPRITE":"0",
+                "EDIBILITY":"19",
+                "OBJECT_PRICE":"115"
+            }
+        },
+        {
+            "LogName": "Sapling Rules: WildFood Anise",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/Trees.json",
+            "LocalTokens": {
+                "TREE_FRUIT_TYPE": "Anise",
+                "SAPLING_SPRITE":"3",
+                "TREE_SPRITE_ROW":"8",
+                "ITEM_SPRITE":"2",
+                "EDIBILITY":"0",
+                "OBJECT_PRICE":"110"
+            }
+        },
+        {
+            "LogName": "Sapling Rules: WildFood Cacao",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/Trees.json",
+            "LocalTokens": {
+                "TREE_FRUIT_TYPE": "Cacao_Pod",
+                "SAPLING_SPRITE":"5",
+                "TREE_SPRITE_ROW":"7",
+                "ITEM_SPRITE":"4",
+                "EDIBILITY":"0",
+                "OBJECT_PRICE":"115"
+            }
+        },
+
+        {
+            "LogName": "Sapling Rules: WildFood Cashew",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/Trees.json",
+            "LocalTokens": {
+                "TREE_FRUIT_TYPE": "Cashew",
+                "SAPLING_SPRITE":"7",
+                "TREE_SPRITE_ROW":"3",
+                "ITEM_SPRITE":"6",
+                "EDIBILITY":"20",
+                "OBJECT_PRICE":"135"
+            }
+        },
+
+        {
+            "LogName": "Sapling Rules: WildFood Elderberries",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/Trees.json",
+            "LocalTokens": {
+                "TREE_FRUIT_TYPE": "Elderberries",
+                "SAPLING_SPRITE":"9",
+                "TREE_SPRITE_ROW":"9",
+                "ITEM_SPRITE":"8",
+                "EDIBILITY":"4",
+                "OBJECT_PRICE":"170"
+            }
+        },
+        {
+            "LogName": "Sapling Rules: WildFood Olive",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/Trees.json",
+            "LocalTokens": {
+                "TREE_FRUIT_TYPE": "Olive",
+                "SAPLING_SPRITE":"11",
+                "TREE_SPRITE_ROW":"1",
+                "ITEM_SPRITE":"10",
+                "EDIBILITY":"11",
+                "OBJECT_PRICE":"120"
+            }
+        },
+        {
+            "LogName": "Sapling Rules: WildFood Lemon",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/Trees.json",
+            "LocalTokens": {
+                "TREE_FRUIT_TYPE": "Lemon",
+                "SAPLING_SPRITE":"13",
+                "TREE_SPRITE_ROW":"4",
+                "ITEM_SPRITE":"12",
+                "EDIBILITY":"8",
+                "OBJECT_PRICE":"125"
+            }
+        },
+        {
+            "LogName": "Sapling Rules: WildFood Lime",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/Trees.json",
+            "LocalTokens": {
+                "TREE_FRUIT_TYPE": "Lime",
+                "SAPLING_SPRITE":"15",
+                "TREE_SPRITE_ROW":"5",
+                "ITEM_SPRITE":"14",
+                "EDIBILITY":"8",
+                "OBJECT_PRICE":"115"
+            }
+        },
+    
+        {
+            "LogName": "Sapling Rules: WildFood Pistachio",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/Trees.json",
+            "LocalTokens": {
+                "TREE_FRUIT_TYPE": "Pistachio",
+                "SAPLING_SPRITE":"17",
+                "TREE_SPRITE_ROW":"8",
+                "ITEM_SPRITE":"16",
+                "EDIBILITY":"16",
+                "OBJECT_PRICE":"105"
+            }
+        },
+        
+        {
+            "LogName": "Sapling Rules: WildFood Walnut",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/Trees.json",
+            "LocalTokens": {
+                "TREE_FRUIT_TYPE": "Walnut",
+                "SAPLING_SPRITE":"19",
+                "TREE_SPRITE_ROW":"3",
+                "ITEM_SPRITE":"18",
+                "EDIBILITY":"14",
+                "OBJECT_PRICE":"125"
+            }
+        }
+
+
+
+]
+}

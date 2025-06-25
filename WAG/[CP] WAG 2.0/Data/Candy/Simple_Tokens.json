@@ -1,0 +1,170 @@
+
+{
+    "Changes": [
+
+        {
+            "LogName": "Candy Simple Data: CandyJar - Flavored Jelly_Beans",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Simple.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandyJar",
+                "INPUT_TYPE":"",
+                "ITEM_FLAVOR":"Flavored",
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "ITEM_TYPE": "Jelly_Beans",
+                "PRICE_MULTIPLIER": 4.0,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 480,
+                "EDIBILITY":0,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":668
+            }
+        },
+        {
+            "LogName": "Candy Simple Data: CandyJar - Flavored Gumballs",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Simple.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandyJar",
+                "INPUT_TYPE":"",
+                "ITEM_FLAVOR":"Flavored",
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "ITEM_TYPE": "Gumballs",
+                "PRICE_MULTIPLIER": 2.25,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 620,
+                "EDIBILITY":0,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":659
+            }
+        },
+
+        {
+            "LogName": "Candy Simple Data: SugarBoiler - Flavored Hard_Candy",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Simple.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_SugarBoiler",
+                "INPUT_TYPE":"",
+                "ITEM_FLAVOR":"Flavored",
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "ITEM_TYPE": "Hard_Candy",
+                "PRICE_MULTIPLIER": 3.0,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 240,
+                "EDIBILITY":0,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":627
+            }
+        },
+        {
+            "LogName": "Candy Simple Data: SugarBoiler - Flavored Crystal_Candy",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Simple.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_SugarBoiler",
+                "INPUT_TYPE":"",
+                "ITEM_FLAVOR":"Flavored",
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "ITEM_TYPE": "Crystal_Candy",
+                "PRICE_MULTIPLIER": 1.75,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 480,
+                "EDIBILITY":0,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":614
+            }
+        },
+        {
+            "LogName": "Candy Simple Data: SugarBoiler - Flavored Lollipop",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Simple.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_SugarBoiler",
+                "INPUT_TYPE":"",
+                "ITEM_FLAVOR":"Flavored",
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "ITEM_TYPE": "Lollipop",
+                "PRICE_MULTIPLIER": 2.0,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 480,
+                "EDIBILITY":0,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":616
+            }
+        },
+        {
+            "LogName": "Candy Simple Data: MarshmallowMixer - Flavored Marshmallows",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Simple.json",
+            "When": {"Atelier.Cauldron/ConfigValue:WildFood": true},
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_MarshmallowMixer",
+                "INPUT_TYPE":"",
+                "ITEM_FLAVOR":"Flavored",
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "ITEM_TYPE": "Marshmallows",
+                "PRICE_MULTIPLIER": 2.75,
+                "PRICE_ADDER": 25,
+                "MINUTES_UNTIL_READY": 1000,
+                "EDIBILITY":0,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":573
+            }
+        },
+        {
+            "LogName": "Candy Simple Data: ChocolatierBarrel - Flavored Chocolate",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Simple.json",
+            "When": {"Atelier.Cauldron/ConfigValue:WildFood": true},
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_ChocolatierBarrel",
+                "INPUT_TYPE":"Chocolate_Bar",
+                "ITEM_FLAVOR":"Flavored",
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "ITEM_TYPE": "Chocolate_Bar",
+                "PRICE_MULTIPLIER": 4.5,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 1200,
+                "EDIBILITY":0,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":636
+            }
+        },
+          {
+            "LogName": "Candy Simple Data: Loom - Flavored FairyFloss",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Simple.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": 17,
+                "INPUT_TYPE":"",
+                "ITEM_FLAVOR":"Flavored",
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "ITEM_TYPE": "Fairy_Floss",
+                "PRICE_MULTIPLIER": 2.0,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 240,
+                "EDIBILITY":0,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":590
+            }
+        }
+
+    ]
+}

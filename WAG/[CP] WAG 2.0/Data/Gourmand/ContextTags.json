@@ -1,0 +1,141 @@
+{
+  "Changes": [
+
+      {
+          "Action": "EditData",
+          "Target": "Data/Objects",
+          "Fields": {
+            //flour
+            "{{ModId}}_Bread_Flour":{
+              "ContextTags":["wildflour_item", "wildflour_pantry_item", "bread_flour_item","flour_item", "color_sand"]},
+            "{{ModId}}_Cake_Flour":{
+              "ContextTags":["wildflour_item", "wildflour_pantry_item", "cake_flour_item","flour_item", "color_sand"]},
+            "{{ModId}}_Corn_Flour":{
+              "ContextTags":["wildflour_item", "wildflour_pantry_item", "corn_flour_item","flour_item", "color_sand"]},
+            "{{ModId}}_Pastry_Flour":{
+              "ContextTags":["wildflour_item", "wildflour_pantry_item", "pastry_flour_item","flour_item", "color_sand"]},
+            "{{ModId}}_Coconut_Flour":{
+              "ContextTags":["wildflour_item", "wildflour_pantry_item", "coconut_flour_item","flour_item", "color_sand"]},
+            "{{ModId}}_Rice_Flour":{
+              "ContextTags":["wildflour_item", "wildflour_pantry_item", "rice_flour_item","flour_item", "color_sand"]},
+
+            //misc
+            "{{ModId}}_Matcha_Powder":{
+              "ContextTags":["wildflour_item", "wildflour_pantry_item", "matcha_powder_item", "color_grene"]},
+            "{{ModId}}_Fruit_Pectin":{
+              "ContextTags":["wildflour_item", "wildflour_pantry_item", "pectin_item", "color_sand"]},
+            "{{ModId}}_Rainbow_Sprinkles":{
+              "ContextTags":["wildflour_item", "wildflour_pantry_item", "rainbow_sprinkles_item", "color_iridium"]},
+            
+            //sugar
+            "{{ModId}}_Brown_Sugar":{
+              "ContextTags":["wildflour_item", "wildflour_pantry_item", "sugar_item", "brown_sugar_item", "color_brown"]}, 
+            "{{ModId}}_Confectioners_Sugar":{
+              "ContextTags":["wildflour_item", "wildflour_pantry_item", "sugar_item", "confectioners_sugar_item", "color_white"]}, 
+
+            //curds fruit butters
+
+            "{{ModId}}_Orange_Curd":{
+              "ContextTags":["wildflour_item", "wildflour_pantry_item", "curd_item", "color_orange"]}, 
+            "{{ModId}}_Apple_Butter":{
+              "ContextTags":["wildflour_item", "wildflour_pantry_item", "fruit_butter_item", "color_red"]}, 
+            "{{ModId}}_Honey_Butter":{
+              "ContextTags":["wildflour_item", "wildflour_pantry_item", "fruit_butter_item", "color_gold"]}, 
+            "{{ModId}}_Maple_Butter":{
+              "ContextTags":["wildflour_item", "wildflour_pantry_item", "fruit_butter_item", "color_copper"]}, 
+            "{{ModId}}_Pumpkin_Butter":{
+              "ContextTags":["wildflour_item", "wildflour_pantry_item", "fruit_butter_item", "color_dark_orange"]}, 
+
+            //dairy and alt dairy
+
+            "{{ModId}}_Coconut_Milk":{
+              "ContextTags":["wildflour_item", "wildflour_pantry_item", "coconut_milk_item","milk_item", "color_sand"]}, 
+            "{{ModId}}_Rice_Milk":{
+              "ContextTags":["wildflour_item", "wildflour_pantry_item", "rice_milk_item","milk_item", "color_sand"]}, 
+
+            "{{ModId}}_Fresh_Butter":{
+              "ContextTags":["wildflour_item", "wildflour_pantry_item", "butter_item", "color_sand"]}, 
+            "{{ModId}}_Buttermilk":{
+              "ContextTags":["wildflour_item", "wildflour_pantry_item", "buttermilk_item", "color_sand"]}, 
+
+            "{{ModId}}_Cream":{
+              "ContextTags":["wildflour_item", "wildflour_pantry_item", "cream_item", "color_sand"]}, 
+            "{{ModId}}_Cream_Cheese":{
+              "ContextTags":["wildflour_item", "wildflour_pantry_item", "cream_cheese_item", "color_sand"]}, 
+
+
+            "{{ModId}}_Ancient_Fruit_Syrup":{
+                "ContextTags":["wildflour_item", "wildflour_pantry_item", "syrup_item", "color_blue"]}, 
+            "{{ModId}}_Apple_Syrup":{
+                "ContextTags":["wildflour_item", "wildflour_pantry_item", "syrup_item", "color_gold"]}, 
+            "{{ModId}}_Apricot_Syrup":{
+                "ContextTags":["wildflour_item", "wildflour_pantry_item", "syrup_item", "color_salmon"]}, 
+            "{{ModId}}_Banana_Syrup":{
+                "ContextTags":["wildflour_item", "wildflour_pantry_item", "syrup_item", "color_gold"]}, 
+            "{{ModId}}_Cherry_Syrup":{
+                "ContextTags":["wildflour_item", "wildflour_pantry_item", "syrup_item", "color_red"]}, 
+            "{{ModId}}_Grenadine_Syrup":{
+                "ContextTags":["wildflour_item", "wildflour_pantry_item", "syrup_item", "color_pale_red_violet"]}, 
+            "{{ModId}}_Mango_Syrup":{
+                "ContextTags":["wildflour_item", "wildflour_pantry_item", "syrup_item", "color_orange"]}, 
+            "{{ModId}}_Orange_Syrup":{
+                "ContextTags":["wildflour_item", "wildflour_pantry_item", "syrup_item", "color_orange"]}, 
+            "{{ModId}}_Peach_Syrup":{
+                "ContextTags":["wildflour_item", "wildflour_pantry_item", "syrup_item", "color_salmon"]}, 
+            "{{ModId}}_Pumpkin_Syrup":{
+                "ContextTags":["wildflour_item", "wildflour_pantry_item", "syrup_item", "color_dark_brown"]}, 
+            "{{ModId}}_Strawberry_Syrup":{
+                "ContextTags":["wildflour_item", "wildflour_pantry_item", "syrup_item", "color_pink"]}
+          }
+      },
+
+      {
+          "Action": "EditData",
+          "Target": "Data/Objects",
+          "Fields": {
+               "258":{ "ContextTags":["berry_item"]},
+               "410":{ "ContextTags":["berry_item"]},
+               "296":{ "ContextTags":["berry_item"]},
+               "396":{ "ContextTags":["berry_item"]},
+               "400":{ "ContextTags":["berry_item"]},
+          }
+        },
+
+
+      {
+          "Action": "EditData",
+          "Target": "Data/Objects",
+          "When":{"Atelier.Cauldron/ConfigValue:WildFood":true},
+          "Fields": {
+          "{{ModId}}_Olive_Oil":{
+            "ContextTags":["wildflour_item", "wildflour_pantry_item", "olive_oil_item", "color_gold"]}, 
+          "{{ModId}}_Dark_Chocolate":{
+            "ContextTags":["wildflour_item", "wildflour_pantry_item", "chocolate_item", "color_dark_brown"]}, 
+          "{{ModId}}_Milk_Chocolate":{
+            "ContextTags":["wildflour_item", "wildflour_pantry_item", "chocolate_item", "color_brown"]}, 
+          "{{ModId}}_White_Chocolate":{
+            "ContextTags":["wildflour_item", "wildflour_pantry_item", "chocolate_item", "color_sand"]}, 
+          "{{ModId}}_Almond_Milk":{
+            "ContextTags":["wildflour_item", "wildflour_pantry_item", "almond_milk_item","milk_item", "color_sand"]}, 
+          "{{ModId}}_Lemon_Curd":{
+            "ContextTags":["wildflour_item", "wildflour_pantry_item", "curd_item", "color_yellow"]}, 
+          "{{ModId}}_Lime_Curd":{
+            "ContextTags":["wildflour_item", "wildflour_pantry_item", "curd_item", "color_lime"]}, 
+
+          "{{ModId}}_Cherry_Blossom_Syrup":{
+              "ContextTags":["wildflour_item", "wildflour_pantry_item", "syrup_item", "color_pink"]}, 
+          "{{ModId}}_Chocolate_Syrup":{
+              "ContextTags":["wildflour_item", "wildflour_pantry_item", "syrup_item", "color_brown"]}, 
+          "{{ModId}}_Lemon_Syrup":{
+              "ContextTags":["wildflour_item", "wildflour_pantry_item", "syrup_item", "color_gold"]}, 
+          "{{ModId}}_Lime_Syrup":{
+              "ContextTags":["wildflour_item", "wildflour_pantry_item", "syrup_item", "color_lime"]}, 
+          "{{ModId}}_Raspberry_Syrup":{
+              "ContextTags":["wildflour_item", "wildflour_pantry_item", "syrup_item", "color_dark_pink"]}, 
+          "{{ModId}}_Vanilla_Syrup":{
+              "ContextTags":["wildflour_item", "wildflour_pantry_item", "syrup_item", "color_sand"]}
+        }
+      },
+
+  ]
+}

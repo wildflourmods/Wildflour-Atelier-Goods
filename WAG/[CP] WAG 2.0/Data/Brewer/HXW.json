@@ -1,0 +1,63 @@
+{
+    "Changes":[
+
+       {
+          "LogName": "Add Winery Buffs WAG Ale Keg",
+          "Action": "EditData",
+          "Target": "Data/Machines",
+          "TargetField": ["(BC)Wildflour.AtelierGoods_AleKeg","ReadyTimeModifiers"],
+           "When": { "HasMod: |contains=Atelier.Cauldron": true, "Query:'{{Atelier.Cauldron/ConfigValue:Ales}}'='true' OR '{{Atelier.Cauldron/ConfigValue:Meads}}'='true'":true },
+          "Priority":"Late",
+			    "Entries": {
+              "HXW.Buildings_Winery_WAG_Ale_SpeedyBuff": {
+                "Id": "HXW.Buildings_Winery_WAG_Ale_SpeedyBuff",
+                "Condition": "LOCATION_NAME Target HXW.Buildings_Complete_WineryBuilding",
+                "Modification": "Multiply",
+                "Amount": 0.85
+              },
+              "HXW.Buildings_Winery_WAG_Ale_SpeedyBuff2": {
+                "Id": "HXW.Buildings_Winery_WAG_Ale_SpeedyBuff2",
+                "Condition": "LOCATION_NAME Target HXW.Buildings_Complete_WineryBuilding_Large",
+                "Modification": "Multiply",
+                "Amount": 0.8
+              },
+              "HXW.Buildings_Winery_WAG_Ale_SpeedyBuff3": {
+                "Id": "HXW.Buildings_Winery_WAG_Ale_SpeedyBuff3",
+                "Condition": "LOCATION_NAME Target HXW.Buildings_Complete_WineryBuilding_XLarge",
+                "Modification": "Multiply",
+                "Amount": 0.75
+              }
+          }
+        },
+        {
+          "LogName": "Add Winery Buffs WAG Mead Keg",
+          "Action": "EditData",
+          "Target": "Data/Machines",
+          "TargetField": ["(BC)Wildflour.AtelierGoods_MeadKeg","ReadyTimeModifiers"],
+              "When": { "HasMod: |contains=Atelier.Cauldron": true, "Query:'{{Atelier.Cauldron/ConfigValue:Ales}}'='true' OR '{{Atelier.Cauldron/ConfigValue:Meads}}'='true'":true },
+          "Priority":"Late",
+			    "Entries": {
+              "HXW.Buildings_Winery_WAG_Mead_SpeedyBuff": {
+                "Id": "HXW.Buildings_Winery_WAG_Mead_SpeedyBuff",
+                "Condition": "LOCATION_NAME Target HXW.Buildings_Complete_WineryBuilding",
+                "Modification": "Multiply",
+                "Amount": 0.85
+              },
+              "HXW.Buildings_Winery_WAG_Mead_SpeedyBuff2": {
+                "Id": "HXW.Buildings_Winery_WAG_Mead_SpeedyBuff2",
+                "Condition": "LOCATION_NAME Target HXW.Buildings_Complete_WineryBuilding_Large",
+                "Modification": "Multiply",
+                "Amount": 0.8
+              },
+              "HXW.Buildings_Winery_WAG_Mead_SpeedyBuff3": {
+                "Id": "HXW.Buildings_Winery_WAG_Mead_SpeedyBuff3",
+                "Condition": "LOCATION_NAME Target HXW.Buildings_Complete_WineryBuilding_XLarge",
+                "Modification": "Multiply",
+                "Amount": 0.75
+              }
+          }
+        }
+
+        
+    ]
+}

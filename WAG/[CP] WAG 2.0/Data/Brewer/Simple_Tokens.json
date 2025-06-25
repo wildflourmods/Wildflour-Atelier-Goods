@@ -1,0 +1,48 @@
+
+{
+    "Changes": [
+
+        {
+            "LogName": "Brewer Simple Data: AleKeg - Flavored Ale",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Simple.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_AleKeg",
+                "ITEM_TYPE": "Ale",
+                "INPUT_TYPE":"",
+                "ITEM_FLAVOR":"Flavored",
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "PRICE_MULTIPLIER": 5.0,
+                "PRICE_ADDER": 25,
+                "MINUTES_UNTIL_READY": 1600,
+                "EDIBILITY":20,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":298
+            }
+        },
+
+        {
+            "LogName": "Brewer Simple Data: Mead Keg - Flavored Mead",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Simple.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_MeadKeg",
+                "ITEM_TYPE": "Mead",
+                "INPUT_TYPE":"",
+                "ITEM_FLAVOR":"Flavored",
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "PRICE_MULTIPLIER": 4.0,
+                "PRICE_ADDER": 100,
+                "MINUTES_UNTIL_READY": 800,
+                "EDIBILITY":20,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":312
+            }
+        }
+
+    ]
+}

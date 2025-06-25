@@ -1,0 +1,42 @@
+{
+    "Changes":[
+
+
+        {
+            "LogName": "WAG Baker Mixes and Machine Data",
+            "Action": "Include",
+            "FromFile": "Data/Baker/Mixes_Tokens.json, Data/Baker/MachineData_Tokens.json",
+        },
+        {
+            "LogName": "WAG Baker Simple Data",
+            "Action": "Include",
+            "FromFile": "Data/Baker/Simple_Tokens.json",
+            "When":{"Query:('{{Atelier.Cauldron/ConfigValue:SimpleAddOn}}' ='true') OR ('{{Atelier.Cauldron/ConfigValue:DifficultyToggle}}'='Simple')":true }
+        },
+        {
+            "LogName": "WAG Baker Advanced Tokens",
+            "Action": "Include",
+            "FromFile": "Data/Baker/Bread_Tokens.json, Data/Baker/Cake_Tokens.json, Data/Baker/Cookie_Tokens.json, Data/Baker/Muffin_Tokens.json, Data/Baker/Pie_Tokens.json, Data/Baker/Pudding_Tokens.json, Data/Baker/TinyCake_Tokens.json",
+            "When":{"Atelier.Cauldron/ConfigValue:DifficultyToggle":"Advanced"}
+        },
+
+        {
+            "LogName": "WAG Baker Hybrid Tokens",
+            "Action": "Include",
+            "FromFile": "Data/CCS/Baker_Stations.json, Data/Baker/Hybrid/Bread_Tokens.json, Data/Baker/Hybrid/Cake_Tokens.json, Data/Baker/Hybrid/Cookie_Tokens.json, Data/Baker/Hybrid/Hybrid_Exclusive_Tokens.json, Data/Baker/Hybrid/Muffin_Tokens.json, Data/Baker/Hybrid/Pie_Tokens.json, Data/Baker/Hybrid/Pudding_Tokens.json, Data/Baker/Hybrid/TinyCake_Tokens.json, Data/Baker/Hybrid/WorkingEffects.json",
+            "When":{"Atelier.Cauldron/ConfigValue:DifficultyToggle":"Hybrid"}
+        },
+        {
+            "LogName": "WAG Baker Field Edit Data",
+            "Action": "Include",
+            "FromFile": "Data/Baker/ContextTags.json"
+        },
+        {
+            "LogName": "WAG Baker Field Edit Data non Hybrid",
+            "Action": "Include",
+            "FromFile": "Data/Baker/WorkingEffects.json",
+            "When":{"Query:'{{Atelier.Cauldron/ConfigValue:DifficultyToggle}}'<>'Hybrid'":true}
+        },
+
+    ]
+}

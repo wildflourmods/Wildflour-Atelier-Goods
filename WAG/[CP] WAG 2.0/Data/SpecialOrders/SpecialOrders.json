@@ -1,0 +1,47 @@
+{
+    "Changes":[
+        
+        {
+            "LogName": "Baker Special Orders",
+            "Action": "Include",
+            "FromFile": "Data/SpecialOrders/Barista_SO.json",
+            "When":{"Atelier.Cauldron/ConfigValue:Barista":true},
+        },
+
+        {
+            "LogName": "Candy Special Orders",
+            "Action": "Include",
+            "FromFile": "Data/SpecialOrders/Candy_SO.json",
+            "When":{"Atelier.Cauldron/ConfigValue:Candy":true},
+        },
+
+        {
+            "LogName": "Florist Special Orders",
+            "Action": "Include",
+            "FromFile": "Data/SpecialOrders/Florist_SO.json",
+            "When":{"Atelier.Cauldron/ConfigValue:Florist":true},
+        },
+
+        {
+            "LogName": "Frozen Special Orders",
+            "Action": "Include",
+            "FromFile": "Data/SpecialOrders/Frozen_SO.json",
+            "When":{"Atelier.Cauldron/ConfigValue:Frozen":true},
+        },
+
+        {
+            "LogName": "Pantry Special Orders",
+            "Action": "Include",
+            "FromFile": "Data/SpecialOrders/Gourmand_SO.json",
+            "When":{"Atelier.Cauldron/ConfigValue:FloristOnly":false},
+        },
+
+        {
+            "LogName": "WF Orders",
+            "Action": "Include",
+            "FromFile": "Data/SpecialOrders/WildFood_SO.json",
+            "When":{"Atelier.Cauldron/ConfigValue:WildFood":true},
+        },
+
+    ]
+}

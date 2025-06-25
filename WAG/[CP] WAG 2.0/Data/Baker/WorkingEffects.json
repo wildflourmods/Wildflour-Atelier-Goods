@@ -1,0 +1,118 @@
+{
+  "Changes": [
+
+    {
+      "LogName": "Set WAG Bakery Machine Working Effects",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "Fields": {
+            "(BC){{ModId}}_Oven": {
+                "WorkingEffects":[
+                    {
+                            "Frames":[1,2,3,4,5],
+                            "Interval":100
+                    }
+                ],
+                "AdditionalConsumedItems":[
+                    {
+                            "ItemId":"(O)Wildflour.AtelierGoods_Muffin_Mix",
+                            "RequiredCount": 1,
+                            "InvalidCountMessage":"{{i18n:AtelierGoods_Oven_InvalidCount.message}}"
+                    }
+                ],
+            },
+            "(BC){{ModId}}_Cake_Station": {
+                "WorkingEffects":[
+                    {
+                            "Frames":[1,2,3,4,5,6,7],
+                            "Interval":150
+                    }
+                ],
+                "AdditionalConsumedItems":[
+                    {
+                            "ItemId":"(O)Wildflour.AtelierGoods_Cake_Mix",
+                            "RequiredCount": 1,
+                            "InvalidCountMessage":"{{i18n:AtelierGoods_Cake_Station_InvalidCount.message}}"
+                    }
+                ],
+            },
+            "(BC){{ModId}}_Dessert_Stand": {
+                "WorkingEffects":[
+                    {
+                            "Frames":[1,2,3,4,5],
+                            "Interval":150
+                    }
+                ],
+                "AdditionalConsumedItems":[
+                    {
+                            "ItemId":"(O)Wildflour.AtelierGoods_Cake_Mix",
+                            "RequiredCount": 1,
+                            "InvalidCountMessage":"{{i18n:AtelierGoods_Cake_Station_InvalidCount.message}}"
+                    }
+                ],
+            },
+            "(BC){{ModId}}_Pie_Station": {
+                "WorkingEffects":[
+                    {
+                            "Frames":[0,1,2,3,4,5],
+                            "Interval":150
+                    }
+                ],
+                "AdditionalConsumedItems":[
+                    {
+                            "ItemId":"(O)Wildflour.AtelierGoods_Pie_Mix",
+                            "RequiredCount": 1,
+                            "InvalidCountMessage":"{{i18n:AtelierGoods_PieStation_InvalidCount.message}}"
+                    }
+                ],
+            },
+            "(BC){{ModId}}_Mixer": {
+                "WorkingEffects":[
+                    {
+                            "Frames":[0,1,2,3],
+                            "Interval":200
+                    }
+                ],
+                "AdditionalConsumedItems":[
+                    {
+                            "ItemId":"(O)Wildflour.AtelierGoods_Cookie_Mix",
+                            "RequiredCount": 1,
+                            "InvalidCountMessage":"{{i18n:AtelierGoods_Mixer_InvalidCount.message}}"
+                    }
+                ],
+            },
+            "(BC){{ModId}}_Rolling_Pin": {
+                "WorkingEffects":[
+                    {
+                            "Frames":[0,1,2,3],
+                            "Interval":150
+                    }
+                ],
+                "AdditionalConsumedItems":[
+                    {
+                            "ItemId":"(O)Wildflour.AtelierGoods_Bread_Mix",
+                            "RequiredCount": 1,
+                            "InvalidCountMessage":"{{i18n:AtelierGoods_RollingPin_InvalidCount.message}}"
+                    }
+                ],
+            },
+            "(BC){{ModId}}_Deluxe_Dessert_Stand": {
+                "WorkingEffects":[
+                    {
+                            "Frames":[1,2,3,4,5,6],
+                            "Interval":150
+                    }
+                ],
+                "AdditionalConsumedItems":[
+                    {
+                            "ItemId":"(O)Wildflour.AtelierGoods_Pectin",
+                            "RequiredCount": 1,
+                            "InvalidCountMessage":"{{i18n:AtelierGoods_Deluxe_Dessert_Stand_InvalidCount.message}}"
+                    }
+                ],
+            },
+      }
+    },
+
+  ]
+}

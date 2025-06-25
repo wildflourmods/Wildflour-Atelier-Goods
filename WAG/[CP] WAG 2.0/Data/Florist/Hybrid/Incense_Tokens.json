@@ -1,0 +1,315 @@
+{
+   "Changes":[
+
+        {
+            "LogName": "Object Data Tokens - Butterfly_Garden Incense",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_FragranceStation",
+                "ITEM_TYPE": "Incense",
+                "ITEM_FLAVOR":"Butterfly_Garden",
+                "INPUT1":"id_(O){{ModId}}_Butterfly_Garden_Floral_Swag",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O)725",
+                "PRICE_MULTIPLIER": 3.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":448
+            }
+        },
+         {
+            "LogName": "Object Data Tokens - Cottage_Garden Incense",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_FragranceStation",
+                "ITEM_TYPE": "Incense",
+                "ITEM_FLAVOR":"Cottage_Garden",
+                "INPUT1":"id_(O){{ModId}}_Cottage_Garden_Floral_Swag",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O)725",
+                "PRICE_MULTIPLIER": 3.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":449
+            }
+        },
+         {
+            "LogName": "Object Data Tokens - Herb_Garden Incense",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_FragranceStation",
+                "ITEM_TYPE": "Incense",
+                "ITEM_FLAVOR":"Herb_Garden",
+                "INPUT1":"id_(O){{ModId}}_Herb_Garden_Floral_Swag",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O)725",
+                "PRICE_MULTIPLIER": 3.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":450
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Mystic_Garden Incense",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_FragranceStation",
+                "ITEM_TYPE": "Incense",
+                "ITEM_FLAVOR":"Mystic_Garden",
+                "INPUT1":"id_(O){{ModId}}_Mystic_Garden_Floral_Swag",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O)725",
+                "PRICE_MULTIPLIER": 3.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":451
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Spring_Morning Incense",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_FragranceStation",
+                "ITEM_TYPE": "Incense",
+                "ITEM_FLAVOR":"Spring_Morning",
+                "INPUT1":"id_(O){{ModId}}_Spring_Morning_Floral_Swag",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O)725",
+                "PRICE_MULTIPLIER": 3.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":452
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Summer_Afternoon Incense",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_FragranceStation",
+                "ITEM_TYPE": "Incense",
+                "ITEM_FLAVOR":"Summer_Afternoon",
+                "INPUT1":"id_(O){{ModId}}_Summer_Afternoon_Floral_Swag",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O)725",
+                "PRICE_MULTIPLIER": 3.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":453
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Autumn_Evening Incense",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_FragranceStation",
+                "ITEM_TYPE": "Incense",
+                "ITEM_FLAVOR":"Autumn_Evening",
+                "INPUT1":"id_(O){{ModId}}_Autumn_Evening_Floral_Swag",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O)725",
+                "PRICE_MULTIPLIER": 3.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":454
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Winter_Twilight Incense",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_FragranceStation",
+                "ITEM_TYPE": "Incense",
+                "ITEM_FLAVOR":"Winter_Twilight",
+                "INPUT1":"id_(O){{ModId}}_Winter_Twilight_Floral_Swag",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O)725",
+                "PRICE_MULTIPLIER": 3.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":455
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Bold_Red Incense",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_FragranceStation",
+                "ITEM_TYPE": "Incense",
+                "ITEM_FLAVOR":"Bold_Red",
+                "INPUT1":"id_(O){{ModId}}_Bold_Red_Floral_Swag",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O)725",
+                "PRICE_MULTIPLIER": 3.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":456
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Charming_Pink Incense",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_FragranceStation",
+                "ITEM_TYPE": "Incense",
+                "ITEM_FLAVOR":"Charming_Pink",
+                "INPUT1":"id_(O){{ModId}}_Charming_Pink_Floral_Swag",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O)725",
+                "PRICE_MULTIPLIER": 3.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":457
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Cheerful_Yellow Incense",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_FragranceStation",
+                "ITEM_TYPE": "Incense",
+                "ITEM_FLAVOR":"Cheerful_Yellow",
+                "INPUT1":"id_(O){{ModId}}_Cheerful_Yellow_Floral_Swag",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O)725",
+                "PRICE_MULTIPLIER": 3.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":458
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Passion_Purple Incense",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_FragranceStation",
+                "ITEM_TYPE": "Incense",
+                "ITEM_FLAVOR":"Passion_Purple",
+                "INPUT1":"id_(O){{ModId}}_Passion_Purple_Floral_Swag",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O)725",
+                "PRICE_MULTIPLIER": 3.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":459
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Peaceful_Blue Incense",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_FragranceStation",
+                "ITEM_TYPE": "Incense",
+                "ITEM_FLAVOR":"Peaceful_Blue",
+                "INPUT1":"id_(O){{ModId}}_Peaceful_Blue_Floral_Swag",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O)725",
+                "PRICE_MULTIPLIER": 3.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":460
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Serene_White Incense",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_FragranceStation",
+                "ITEM_TYPE": "Incense",
+                "ITEM_FLAVOR":"Serene_White",
+                "INPUT1":"id_(O){{ModId}}_Serene_White_Floral_Swag",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O)725",
+                "PRICE_MULTIPLIER": 3.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":461
+            }
+        },
+
+
+]
+}

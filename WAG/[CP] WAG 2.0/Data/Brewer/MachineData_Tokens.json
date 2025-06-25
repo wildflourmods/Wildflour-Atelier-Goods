@@ -1,0 +1,38 @@
+
+{
+    "Changes": [
+        {
+            "LogName": "Machine Data: Ale Keg",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Machine_Data.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_AleKeg",
+                "MACHINE_SPRITE":144,
+                "INGREDIENT1":335,
+                "INGREDIENT1_AMOUNT":1,
+                "INGREDIENT2":709,
+                "INGREDIENT2_AMOUNT":30,
+                "INGREDIENT3":725,
+                "INGREDIENT3_AMOUNT":2,
+                "CCS":false
+            }
+        },
+        {
+            "LogName": "Machine Data: Mead Keg",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Machine_Data.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_MeadKeg",
+                "MACHINE_SPRITE":145,
+                "INGREDIENT1":335,
+                "INGREDIENT1_AMOUNT":1,
+                "INGREDIENT2":709,
+                "INGREDIENT2_AMOUNT":30,
+                "INGREDIENT3":340,
+                "INGREDIENT3_AMOUNT": 2,
+                "CCS":false
+            }
+        }
+      
+    ]
+}

@@ -1,0 +1,160 @@
+{
+   "Changes":[
+
+        {
+            "LogName": "Object Data Tokens - Blooming_Garden Fairy Floss",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": 17,
+                "ITEM_TYPE": "Fairy_Floss",
+                "ITEM_FLAVOR":"Blooming_Garden",
+                "INPUT1":"id_(O)344",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Rose_Water",
+                "PRICE_MULTIPLIER": 1.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 180,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":26,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":584
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Classic Fairy Floss",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": 17,
+                "ITEM_TYPE": "Fairy_Floss",
+                "ITEM_FLAVOR":"Classic",
+                "INPUT1":"id_(O){{ModId}}_Rainbow_Sprinkles",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Vanilla_Syrup",
+                "PRICE_MULTIPLIER": 1.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 180,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":26,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":585
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Earl_Grey Fairy Floss",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": 17,
+                "ITEM_TYPE": "Fairy_Floss",
+                "ITEM_FLAVOR":"Earl_Grey",
+                "INPUT1":"id_(O){{ModId}}_Matcha_Powder",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Lavender_Water",
+                "PRICE_MULTIPLIER": 1.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 180,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":26,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":586
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Lemon_Bar Fairy Floss",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": 17,
+                "ITEM_TYPE": "Fairy_Floss",
+                "ITEM_FLAVOR":"Lemon_Bar",
+                "INPUT1":"id_(O){{ModId}}_Brown_Sugar",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Lemon_Syrup",
+                "PRICE_MULTIPLIER": 1.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 180,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":26,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":587
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Peppermint_Cloud Fairy Floss",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": 17,
+                "ITEM_TYPE": "Fairy_Floss",
+                "ITEM_FLAVOR":"Peppermint_Cloud",
+                "INPUT1":"id_(O){{ModId}}_Confectioners_Sugar",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"mint_item",
+                "PRICE_MULTIPLIER": 1.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 180,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":26,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":588
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Summer_Orchard Fairy Floss",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": 17,
+                "ITEM_TYPE": "Fairy_Floss",
+                "ITEM_FLAVOR":"Summer_Orchard",
+                "INPUT1":"id_(O)635",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Peach_Syrup",
+                "PRICE_MULTIPLIER": 1.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 180,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":26,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":589
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Vanilla_Latte Fairy Floss",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": 17,
+                "ITEM_TYPE": "Fairy_Floss",
+                "ITEM_FLAVOR":"Vanilla_Latte",
+                "INPUT1":"id_(O)433",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Vanilla_Syrup",
+                "PRICE_MULTIPLIER": 1.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 180,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":26,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":590
+            }
+        }
+
+]
+}

@@ -1,0 +1,29 @@
+{
+    "Changes":[
+
+         {
+            "LogName": "WAG Brewer Machine Data",
+            "Action": "Include",
+            "FromFile": "Data/Brewer/MachineData_Tokens.json",
+        },
+        {
+            "LogName": "WAG Brewer Simple Data",
+            "Action": "Include",
+            "FromFile": "Data/Brewer/Simple_Tokens.json",
+            "When":{"Query:('{{Atelier.Cauldron/ConfigValue:SimpleAddOn}}' ='true') OR ('{{Atelier.Cauldron/ConfigValue:DifficultyToggle}}'='Simple')":true }
+        },
+        {
+            "LogName": "WAG Brewer Advanced Data",
+            "Action": "Include",
+            "FromFile": "Data/Brewer/Ale_Tokens.json, Data/Brewer/Mead_Tokens.json",
+            "When":{"Query:'{{Atelier.Cauldron/ConfigValue:DifficultyToggle}}'<>'Simple'":true}
+        },
+
+        {
+            "LogName": "WAG Brewer Field Edit Data",
+            "Action": "Include",
+            "FromFile": "Data/Brewer/ContextTags.json, Data/Brewer/FieldEdits.json",
+        },
+
+    ]
+}

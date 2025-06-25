@@ -1,0 +1,115 @@
+{
+    "Changes": [
+
+		{
+			"Action": "EditData",
+			"Target": "NCarigon.BushBloomMod/Schedules",
+			"When": {"Atelier.Cauldron/ConfigValue:WildFood": true},
+			"Entries": {
+				"{{ModId}}/spring_Strawberry": {
+					"Enabled": true,
+					"ShakeOff": "{{ModId}}_Wild_Strawberry",
+					"StartSeason": "spring",
+					"StartDay": 1,
+					"EndSeason": "spring",
+					"EndDay": 7,
+					"Chance": 0.4,
+					"Locations":["Town","Mountain"],
+					"Weather": [ "Sun"  ]		
+				},
+				"{{ModId}}/spring_Cherry_Blossoms": {
+					"Enabled": true,
+					"ShakeOff": "{{ModId}}_Cherry_Blossoms",
+					"StartSeason": "spring",
+					"StartDay": 20,
+					"EndSeason": "spring",
+					"EndDay": 28,
+					"Chance": 0.4,
+					"Locations":["Town","Mountain"]	
+				},
+				"{{ModId}}/summer_Wild_Raspberry": {
+					"Enabled": true,
+					"ShakeOff": "{{ModId}}_Wild_Raspberry",
+					"StartSeason": "summer",
+					"StartDay": 1,
+					"EndSeason": "summer",
+					"EndDay": 7,
+					"Chance": 0.4,
+					"Locations":["Town","Mountain"]
+				},
+                "{{ModId}}/spring_grove_Strawberry": {
+					"Enabled": true,
+					"ShakeOff": "{{ModId}}_Wild_Strawberry",
+					"StartSeason": "spring",
+					"StartDay": 1,
+					"EndSeason": "spring",
+					"EndDay": 14,
+					"Chance": 0.4,
+					"Locations":["Wildflour.NooksCrannies_BerryGrove","Wildflour.NooksCrannies_AbandonedFarmhouse", "Wildflour.NooksCrannies_FrogHollow", "Wildflour.NooksCrannies_OldForest", "Wildflour.NooksCrannies_Ruins"],
+					"Weather": [ "Sun"  ]
+				},
+                "{{ModId}}/spring_grove_TeaLeaves": {
+					"Enabled": true,
+					"ShakeOff": 815,
+					"StartSeason": "spring",
+					"StartDay": 1,
+					"EndSeason": "spring",
+					"EndDay": 14,
+					"Chance": 0.4,
+					"Locations":["Wildflour.NooksCrannies_BerryGrove","Wildflour.NooksCrannies_AbandonedFarmhouse", "Wildflour.NooksCrannies_FrogHollow", "Wildflour.NooksCrannies_OldForest", "Wildflour.NooksCrannies_Ruins"],
+					"Weather": [ "Sun"  ]
+				},
+				"{{ModId}}/summer_grove_Wild_Raspberry": {
+					"Enabled": true,
+					"ShakeOff": "{{ModId}}_Wild_Raspberry",
+					"StartSeason": "summer",
+					"StartDay": 1,
+					"EndSeason": "summer",
+					"EndDay": 28,
+					"Chance": 0.4,
+					"Locations":["Wildflour.NooksCrannies_BerryGrove","Wildflour.NooksCrannies_AbandonedFarmhouse", "Wildflour.NooksCrannies_FrogHollow", "Wildflour.NooksCrannies_OldForest", "Wildflour.NooksCrannies_Ruins"],
+					"Weather": [ "Sun" ]
+				}
+			}
+		},
+        {
+			"Action": "EditData",
+			"Target": "NCarigon.BushBloomMod/Schedules",
+			"When": {"Atelier.Cauldron/ConfigValue:Barista": true},
+			"Entries": {
+				"{{ModId}}/spring_TeaLeaves": {
+					"Enabled": true,
+					"ShakeOff": 815,
+					"StartSeason": "spring",
+					"StartDay": 8,
+					"EndSeason": "spring",
+					"EndDay": 19,
+					"Chance": 0.3,
+					"Locations":["Town","Mountain","Backwoods","Wildflour.NooksCrannies_BerryGrove"],
+					"Weather": [ "Sun"  ]
+				},
+			}
+		},
+        {
+			"Action": "EditImage",
+			"Target": "NCarigon.BushBloomMod/Textures/{{ModId}}/spring_TeaLeaves, NCarigon.BushBloomMod/Textures/{{ModId}}/spring_grove_TeaLeaves",
+			"FromFile": "Assets/BushBloom/teablooms.png"
+		},
+		{
+			"Action": "EditImage",
+			"Target": "NCarigon.BushBloomMod/Textures/{{ModId}}/spring_Strawberry, NCarigon.BushBloomMod/Textures/{{ModId}}/spring_grove_Strawberry",
+			"FromFile": "Assets/BushBloom/strawberry.png"
+		},
+		{
+			"Action": "EditImage",
+			"Target": "NCarigon.BushBloomMod/Textures/{{ModId}}/spring_Cherry_Blossoms",
+			"FromFile": "Assets/BushBloom/sakurapetals.png"
+		},
+		{
+			"Action": "EditImage",
+			"Target": "NCarigon.BushBloomMod/Textures/{{ModId}}/summer_Wild_Raspberry, NCarigon.BushBloomMod/Textures/{{ModId}}/summer_grove_Wild_Raspberry",
+			"FromFile": "Assets/BushBloom/raspberry.png"
+		}
+
+    ]
+}

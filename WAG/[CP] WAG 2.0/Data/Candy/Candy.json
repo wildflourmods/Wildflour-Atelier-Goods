@@ -1,0 +1,56 @@
+{
+    "Changes":[
+        
+        {
+            "LogName": "WAG Candy Machine Data",
+            "Action": "Include",
+            "FromFile": "Data/Candy/MachineData_Tokens.json",
+        },
+        {
+            "LogName": "WAG Candy Simple Data",
+            "Action": "Include",
+            "FromFile": "Data/Candy/Simple_Tokens.json",
+            "When":{"Query:('{{Atelier.Cauldron/ConfigValue:SimpleAddOn}}' ='true') OR ('{{Atelier.Cauldron/ConfigValue:DifficultyToggle}}'='Simple')":true}
+        },
+        {
+            "LogName": "WAG Candy Advanced/Hybrid Tokens",
+            "Action": "Include",
+            "FromFile": "Data/Candy/CrystalCandy_Tokens.json, Data/Candy/HardCandy_Tokens.json, Data/Candy/Lollipops_Tokens.json",
+            "When":{"Query:'{{Atelier.Cauldron/ConfigValue:DifficultyToggle}}'<>'Simple'":true}
+        },
+
+        {
+            "LogName": "WAG Candy Advanced Tokens",
+            "Action": "Include",
+            "FromFile": "Data/Candy/FairyFloss_Tokens.json, Data/Candy/Gumballs_Tokens.json,  Data/Candy/JellyBeans_Tokens.json",
+            "When":{"Atelier.Cauldron/ConfigValue:DifficultyToggle":"Advanced"}
+        },
+
+        {
+            "LogName": "WAG Candy Advanced Tokens - Wild Food Required",
+            "Action": "Include",
+            "FromFile": "Data/Candy/Chocolate_Tokens.json, Data/Candy/Marshmallows_Tokens.json",
+            "When":{"Atelier.Cauldron/ConfigValue:DifficultyToggle":"Advanced", "Atelier.Cauldron/ConfigValue:WildFood":true}
+        },
+
+        {
+            "LogName": "WAG Candy Hybrid Tokens",
+            "Action": "Include",
+            "FromFile": "Data/CCS/Candy_Stations.json, Data/Candy/Hybrid/FairyFloss_Tokens.json, Data/Candy/Hybrid/Gumballs_Tokens.json, Data/Candy/Hybrid/JellyBeans_Tokens.json",
+            "When":{"Atelier.Cauldron/ConfigValue:DifficultyToggle":"Hybrid"}
+        },
+
+        {
+            "LogName": "WAG Candy Hybrid Tokens - Wild Food Required",
+            "Action": "Include",
+            "FromFile": "Data/Candy/Hybrid/Chocolate_Tokens.json, Data/Candy/Hybrid/Marshmallows_Tokens.json",
+            "When":{"Atelier.Cauldron/ConfigValue:DifficultyToggle":"Hybrid", "Atelier.Cauldron/ConfigValue:WildFood":true}
+        },
+
+        {
+            "LogName": "WAG Candy Field Edit Data",
+            "Action": "Include",
+            "FromFile": "Data/Candy/ContextTags.json, Data/Candy/WorkingEffects.json",
+        },
+    ]
+}

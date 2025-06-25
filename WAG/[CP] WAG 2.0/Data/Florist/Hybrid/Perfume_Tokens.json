@@ -1,0 +1,315 @@
+{
+   "Changes":[
+
+        {
+            "LogName": "Object Data Tokens - Butterfly_Garden Perfume",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_FragranceStation",
+                "ITEM_TYPE": "Perfume",
+                "ITEM_FLAVOR":"Butterfly_Garden",
+                "INPUT1":"id_(O){{ModId}}_Butterfly_Garden_Essential_Oil",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Vodka_Alcohol",
+                "PRICE_MULTIPLIER": 4.0,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 40,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":464
+            }
+        },
+         {
+            "LogName": "Object Data Tokens - Cottage_Garden Perfume",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_FragranceStation",
+                "ITEM_TYPE": "Perfume",
+                "ITEM_FLAVOR":"Cottage_Garden",
+                "INPUT1":"id_(O){{ModId}}_Cottage_Garden_Essential_Oil",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Vodka_Alcohol",
+                "PRICE_MULTIPLIER": 4.0,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 40,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":465
+            }
+        },
+         {
+            "LogName": "Object Data Tokens - Herb_Garden Perfume",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_FragranceStation",
+                "ITEM_TYPE": "Perfume",
+                "ITEM_FLAVOR":"Herb_Garden",
+                "INPUT1":"id_(O){{ModId}}_Herb_Garden_Essential_Oil",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Vodka_Alcohol",
+                "PRICE_MULTIPLIER": 4.0,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 40,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":466
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Mystic_Garden Perfume",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_FragranceStation",
+                "ITEM_TYPE": "Perfume",
+                "ITEM_FLAVOR":"Mystic_Garden",
+                "INPUT1":"id_(O){{ModId}}_Mystic_Garden_Essential_Oil",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Vodka_Alcohol",
+                "PRICE_MULTIPLIER": 4.0,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 40,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":467
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Spring_Morning Perfume",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_FragranceStation",
+                "ITEM_TYPE": "Perfume",
+                "ITEM_FLAVOR":"Spring_Morning",
+                "INPUT1":"id_(O){{ModId}}_Spring_Morning_Essential_Oil",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Vodka_Alcohol",
+                "PRICE_MULTIPLIER": 4.0,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 40,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":468
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Summer_Afternoon Perfume",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_FragranceStation",
+                "ITEM_TYPE": "Perfume",
+                "ITEM_FLAVOR":"Summer_Afternoon",
+                "INPUT1":"id_(O){{ModId}}_Summer_Afternoon_Essential_Oil",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Vodka_Alcohol",
+                "PRICE_MULTIPLIER": 4.0,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 40,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":469
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Autumn_Evening Perfume",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_FragranceStation",
+                "ITEM_TYPE": "Perfume",
+                "ITEM_FLAVOR":"Autumn_Evening",
+                "INPUT1":"id_(O){{ModId}}_Autumn_Evening_Essential_Oil",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Vodka_Alcohol",
+                "PRICE_MULTIPLIER": 4.0,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 40,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":470
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Winter_Twilight Perfume",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_FragranceStation",
+                "ITEM_TYPE": "Perfume",
+                "ITEM_FLAVOR":"Winter_Twilight",
+                "INPUT1":"id_(O){{ModId}}_Winter_Twilight_Essential_Oil",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Vodka_Alcohol",
+                "PRICE_MULTIPLIER": 4.0,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 40,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":471
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Bold_Red Perfume",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_FragranceStation",
+                "ITEM_TYPE": "Perfume",
+                "ITEM_FLAVOR":"Bold_Red",
+                "INPUT1":"id_(O){{ModId}}_Bold_Red_Essential_Oil",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Vodka_Alcohol",
+                "PRICE_MULTIPLIER": 4.0,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 40,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":472
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Charming_Pink Perfume",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_FragranceStation",
+                "ITEM_TYPE": "Perfume",
+                "ITEM_FLAVOR":"Charming_Pink",
+                "INPUT1":"id_(O){{ModId}}_Charming_Pink_Essential_Oil",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Vodka_Alcohol",
+                "PRICE_MULTIPLIER": 4.0,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 40,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":473
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Cheerful_Yellow Perfume",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_FragranceStation",
+                "ITEM_TYPE": "Perfume",
+                "ITEM_FLAVOR":"Cheerful_Yellow",
+                "INPUT1":"id_(O){{ModId}}_Cheerful_Yellow_Essential_Oil",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Vodka_Alcohol",
+                "PRICE_MULTIPLIER": 4.0,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 40,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":474
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Passion_Purple Perfume",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_FragranceStation",
+                "ITEM_TYPE": "Perfume",
+                "ITEM_FLAVOR":"Passion_Purple",
+                "INPUT1":"id_(O){{ModId}}_Passion_Purple_Essential_Oil",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Vodka_Alcohol",
+                "PRICE_MULTIPLIER": 4.0,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 40,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":475
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Peaceful_Blue Perfume",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_FragranceStation",
+                "ITEM_TYPE": "Perfume",
+                "ITEM_FLAVOR":"Peaceful_Blue",
+                "INPUT1":"id_(O){{ModId}}_Peaceful_Blue_Essential_Oil",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Vodka_Alcohol",
+                "PRICE_MULTIPLIER": 2.4,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 40,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":476
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Serene_White Perfume",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_FragranceStation",
+                "ITEM_TYPE": "Perfume",
+                "ITEM_FLAVOR":"Serene_White",
+                "INPUT1":"id_(O){{ModId}}_Serene_White_Essential_Oil",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Vodka_Alcohol",
+                "PRICE_MULTIPLIER": 4.0,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 40,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":477
+            }
+        },
+
+
+]
+}

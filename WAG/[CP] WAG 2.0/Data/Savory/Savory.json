@@ -1,0 +1,18 @@
+{
+    
+    "Changes":[
+        
+        {
+            "LogName": "WAG Savory Machine Data",
+            "Action": "Include",
+            "FromFile": "Data/Savory/MachineData_Tokens.json, Data/Savory/Salad_Tokens.json, Data/Savory/Soup_Tokens.json",
+        },
+        {
+            "LogName": "WAG Savory Field Edits",
+            "Action": "Include",
+            "FromFile": "Data/Savory/ContextTags.json, Data/Savory/WorkingEffects.json",
+        },
+
+
+    ]
+}

@@ -1,0 +1,76 @@
+{
+	"Changes": [
+
+		{
+            "LogName": "Add {{MACHINE_TYPE}} to BigCraftables",
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "{{MACHINE_TYPE}}": {
+                    "Name": "{{MACHINE_TYPE}}",
+                    "DisplayName": "{{i18n:{{MACHINE_TYPE}}.name}}",
+                    "Description": "{{i18n:{{MACHINE_TYPE}}.description}}",
+                    "Price": 50,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "Mods\\{{ModId}}\\Machines",
+                    "SpriteIndex": "{{MACHINE_SPRITE}}",
+                    "CustomFields": {}
+                }
+            }
+        },
+
+		{
+			"LogName": "Add {{MACHINE_TYPE}} To CraftingRecipes",
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"Entries": {
+				"{{MACHINE_TYPE}}": "{{INGREDIENT1}} {{INGREDIENT1_AMOUNT}} {{INGREDIENT2}} {{INGREDIENT2_AMOUNT}} {{INGREDIENT3}} {{INGREDIENT3_AMOUNT}}/Home/{{MACHINE_TYPE}}/true/{{RecipeConfig}}/{{i18n:{{MACHINE_TYPE}}.name}}"
+				}
+		},
+
+        {
+            "LogName": "Add {{MACHINE_TYPE}} Base Rule Data Simple and Advanced",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "When": {"Query: '{{Atelier.Cauldron/ConfigValue:DifficultyToggle}}'<>'Hybrid'":true},
+            "Entries": {
+                "(BC){{MACHINE_TYPE}}": {
+                    "OutputRules": [],
+                    "AdditionalConsumedItems":[],
+                    "InvalidItemMessage":"{{i18n:{{MACHINE_TYPE}}_InvalidItem.message}}",
+                    "ShowNextIndexWhileWorking":false,
+                    "ShowNextIndexWhenReady":false,
+                    "WobbleWhileWorking":false,
+                    "ReadyTimeModifiers": [],
+                    "WorkingEffects":[] ,
+                    "CustomFields": {"selph.ExtraMachineConfig.ExtraOutputIds": "JunimoGemBP"}
+                }
+            }
+        },
+
+        {
+            "LogName": "Add {{MACHINE_TYPE}} Base Rule Data for Hybrid method non CCS Machines",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "When": {"Atelier.Cauldron/ConfigValue:DifficultyToggle":"Hybrid", "Query: '{{CCS}}' = 'false'": true},
+            "Entries": {
+                "(BC){{MACHINE_TYPE}}": {
+                    "OutputRules": [],
+                    "AdditionalConsumedItems":[],
+                    "InvalidItemMessage":"{{i18n:{{MACHINE_TYPE}}_InvalidItem.message}}",
+                    "ShowNextIndexWhileWorking":false,
+                    "ShowNextIndexWhenReady":false,
+                    "WobbleWhileWorking":false,
+                    "ReadyTimeModifiers": [],
+                    "WorkingEffects":[] ,
+                    "CustomFields": {"selph.ExtraMachineConfig.ExtraOutputIds": "JunimoGemBP"}
+                }
+            }
+        },
+
+
+	]
+}

@@ -1,0 +1,115 @@
+{
+  "WeatherForYesterday": "Snow",
+  "LNOSCounter": {},
+  "ExistingObjectLocations": {
+    "Wildflour.NooksCrannies_AbandonedFarmhouse large object area 1": [],
+    "FrogHollow Clumps": [],
+    "OldForest Clumps": []
+  },
+  "SavedObjects": [
+    {
+      "MapName": "Railroad",
+      "Name": "Wildflour.AtelierGoods_Rosemary",
+      "Tile": "8, 57",
+      "Type": "Forage",
+      "ID": "Wildflour.AtelierGoods_Rosemary",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "object"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Railroad",
+      "Name": "Wildflour.AtelierGoods_Cinnamon",
+      "Tile": "55, 46",
+      "Type": "Forage",
+      "ID": "Wildflour.AtelierGoods_Cinnamon",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "object"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "BusStop",
+      "Name": "Wildflour.AtelierGoods_Rosemary",
+      "Tile": "13, 22",
+      "Type": "Forage",
+      "ID": "Wildflour.AtelierGoods_Rosemary",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "object"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "IslandWest",
+      "Name": "Wildflour.AtelierGoods_Jasmine",
+      "Tile": "94, 10",
+      "Type": "Forage",
+      "ID": "Wildflour.AtelierGoods_Jasmine",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "object"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "IslandWest",
+      "Name": "Wildflour.AtelierGoods_Cashew",
+      "Tile": "98, 79",
+      "Type": "Forage",
+      "ID": "Wildflour.AtelierGoods_Cashew",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "object"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Woods",
+      "Name": "Wildflour.AtelierGoods_Almond",
+      "Tile": "6, 28",
+      "Type": "Forage",
+      "ID": "Wildflour.AtelierGoods_Almond",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "object"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Woods",
+      "Name": "Wildflour.AtelierGoods_Almond",
+      "Tile": "45, 21",
+      "Type": "Forage",
+      "ID": "Wildflour.AtelierGoods_Almond",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "object"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Woods",
+      "Name": "Wildflour.AtelierGoods_Walnut",
+      "Tile": "15, 17",
+      "Type": "Forage",
+      "ID": "Wildflour.AtelierGoods_Walnut",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "object"
+      },
+      "MonType": null
+    }
+  ]
+}

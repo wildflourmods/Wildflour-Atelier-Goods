@@ -1,0 +1,226 @@
+{
+   "Changes":[
+        
+        {
+            "LogName": "Object Data Tokens - Amoretto Latte",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CoffeeBrewer",
+                "ITEM_TYPE": "Latte",
+                "INPUT1":"Ground_Coffee",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "ITEM_FLAVOR":"Amoretto",
+                "PRICE_MULTIPLIER": 2.5,
+                "PRICE_ADDER": 150,
+                "MINUTES_UNTIL_READY": 240,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":25,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":177
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Cinnamon_Bunny Latte",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CoffeeBrewer",
+                "ITEM_TYPE": "Latte",
+                "INPUT1":"Ground_Coffee",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "ITEM_FLAVOR":"Cinnamon_Bunny",
+                "PRICE_MULTIPLIER": 2.5,
+                "PRICE_ADDER": 150,
+                "MINUTES_UNTIL_READY": 240,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":25,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":180
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Coco_Cabana Latte",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CoffeeBrewer",
+                "ITEM_TYPE": "Latte",
+                "INPUT1":"Ground_Coffee",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "ITEM_FLAVOR":"Coco_Cabana",
+                "PRICE_MULTIPLIER": 2.5,
+                "PRICE_ADDER": 150,
+                "MINUTES_UNTIL_READY": 240,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":25,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":183
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Early_Riser Latte",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CoffeeBrewer",
+                "ITEM_TYPE": "Latte",
+                "INPUT1":"Ground_Coffee",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "ITEM_FLAVOR":"Early_Riser",
+                "PRICE_MULTIPLIER": 2.5,
+                "PRICE_ADDER": 150,
+                "MINUTES_UNTIL_READY": 240,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":25,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":186
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Mucha_Mocha Latte",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CoffeeBrewer",
+                "ITEM_TYPE": "Latte",
+                "INPUT1":"Ground_Coffee",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "ITEM_FLAVOR":"Mucha_Mocha",
+                "PRICE_MULTIPLIER": 2.5,
+                "PRICE_ADDER": 150,
+                "MINUTES_UNTIL_READY": 240,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":25,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":189
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Pistachio_Buzz Latte",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CoffeeBrewer",
+                "ITEM_TYPE": "Latte",
+                "INPUT1":"Ground_Coffee",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "ITEM_FLAVOR":"Pistachio_Buzz",
+                "PRICE_MULTIPLIER": 2.5,
+                "PRICE_ADDER": 150,
+                "MINUTES_UNTIL_READY": 240,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":25,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":192
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Pumpkin_King Latte",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CoffeeBrewer",
+                "ITEM_TYPE": "Latte",
+                "INPUT1":"Ground_Coffee",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "ITEM_FLAVOR":"Pumpkin_King",
+                "PRICE_MULTIPLIER": 2.5,
+                "PRICE_ADDER": 150,
+                "MINUTES_UNTIL_READY": 240,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":25,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":195
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Sleigh_Ride Latte",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CoffeeBrewer",
+                "ITEM_TYPE": "Latte",
+                "INPUT1":"Ground_Coffee",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "ITEM_FLAVOR":"Sleigh_Ride",
+                "PRICE_MULTIPLIER": 2.5,
+                "PRICE_ADDER": 150,
+                "MINUTES_UNTIL_READY": 240,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":25,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":198
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Sweetheart Latte",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CoffeeBrewer",
+                "ITEM_TYPE": "Latte",
+                "INPUT1":"Ground_Coffee",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "ITEM_FLAVOR":"Sweetheart",
+                "PRICE_MULTIPLIER": 2.5,
+                "PRICE_ADDER": 150,
+                "MINUTES_UNTIL_READY": 240,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":25,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":201
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Warm_Vanilla_Sugar Latte",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CoffeeBrewer",
+                "ITEM_TYPE": "Latte",
+                "INPUT1":"Ground_Coffee",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "ITEM_FLAVOR":"Warm_Vanilla_Sugar",
+                "PRICE_MULTIPLIER": 2.5,
+                "PRICE_ADDER": 150,
+                "MINUTES_UNTIL_READY": 240,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":25,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":204
+            }
+        }
+
+]
+}

@@ -1,0 +1,270 @@
+{
+   "Changes":[
+
+        {
+            "LogName": "Object Data Tokens - Tea",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_TeaKettle",
+                "ITEM_TYPE": "Tea",
+                "ITEM_FLAVOR":"Alchemist_Blend",
+                "INPUT1":"id_(O){{ModId}}_Alchemist_Blend_Sachet",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 2.5,
+                "PRICE_ADDER": 100,
+                "MINUTES_UNTIL_READY": 240,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":8,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":211
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Blueberry MatchaTea",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_TeaKettle",
+                "ITEM_TYPE": "Tea",
+                "ITEM_FLAVOR":"Blueberry_Matcha",
+                "INPUT1":"id_(O){{ModId}}_Blueberry_Matcha_Sachet",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 2.5,
+                "PRICE_ADDER": 100,
+                "MINUTES_UNTIL_READY": 240,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":8,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":215
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Cherry_Blossom_Matcha Tea",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_TeaKettle",
+                "ITEM_TYPE": "Tea",
+                "ITEM_FLAVOR":"Cherry_Blossom_Matcha",
+                "INPUT1":"id_(O){{ModId}}_Cherry_Blossom_Matcha_Sachet",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 2.5,
+                "PRICE_ADDER": 100,
+                "MINUTES_UNTIL_READY": 240,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":8,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":219
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Cookie_Jar Tea",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_TeaKettle",
+                "ITEM_TYPE": "Tea",
+                "ITEM_FLAVOR":"Cookie_Jar",
+                "INPUT1":"id_(O){{ModId}}_Cookie_Jar_Sachet",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 2.5,
+                "PRICE_ADDER": 100,
+                "MINUTES_UNTIL_READY": 240,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":8,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":223
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Good_Thyme Tea",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_TeaKettle",
+                "ITEM_TYPE": "Tea",
+                "ITEM_FLAVOR":"Good_Thyme",
+                "INPUT1":"id_(O){{ModId}}_Good_Thyme_Sachet",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 2.5,
+                "PRICE_ADDER": 100,
+                "MINUTES_UNTIL_READY": 240,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":8,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":227
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Happy_Harvest Tea",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_TeaKettle",
+                "ITEM_TYPE": "Tea",
+                "ITEM_FLAVOR":"Happy_Harvest",
+                "INPUT1":"id_(O){{ModId}}_Happy_Harvest_Sachet",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 2.5,
+                "PRICE_ADDER": 100,
+                "MINUTES_UNTIL_READY": 240,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":8,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":231
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - North_Pole Tea",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_TeaKettle",
+                "ITEM_TYPE": "Tea",
+                "ITEM_FLAVOR":"North_Pole",
+                "INPUT1":"id_(O){{ModId}}_North_Pole_Sachet",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 2.5,
+                "PRICE_ADDER": 100,
+                "MINUTES_UNTIL_READY": 240,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":8,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":235
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Pelican_Fog Tea",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_TeaKettle",
+                "ITEM_TYPE": "Tea",
+                "ITEM_FLAVOR":"Pelican_Fog",
+                "INPUT1":"id_(O){{ModId}}_Pelican_Fog_Sachet",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 2.5,
+                "PRICE_ADDER": 100,
+                "MINUTES_UNTIL_READY": 240,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":8,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":239
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Plum_Chai Tea",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_TeaKettle",
+                "ITEM_TYPE": "Tea",
+                "ITEM_FLAVOR":"Plum_Chai",
+                "INPUT1":"id_(O){{ModId}}_Plum_Chai_Sachet",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 2.5,
+                "PRICE_ADDER": 100,
+                "MINUTES_UNTIL_READY": 240,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":8,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":243
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Positivitea Tea",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_TeaKettle",
+                "ITEM_TYPE": "Tea",
+                "ITEM_FLAVOR":"Positivitea",
+                "INPUT1":"id_(O){{ModId}}_Positivitea_Sachet",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 2.5,
+                "PRICE_ADDER": 100,
+                "MINUTES_UNTIL_READY": 240,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":8,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":247
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Sun_Room Tea",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_TeaKettle",
+                "ITEM_TYPE": "Tea",
+                "ITEM_FLAVOR":"Sun_Room",
+                "INPUT1":"id_(O){{ModId}}_Sun_Room_Sachet",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 2.5,
+                "PRICE_ADDER": 100,
+                "MINUTES_UNTIL_READY": 240,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":8,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":251
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Sunny_Delight Tea",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_TeaKettle",
+                "ITEM_TYPE": "Tea",
+                "ITEM_FLAVOR":"Sunny_Delight",
+                "INPUT1":"id_(O){{ModId}}_Sunny_Delight_Sachet",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 2.5,
+                "PRICE_ADDER": 100,
+                "MINUTES_UNTIL_READY": 240,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":8,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":255
+            }
+        }
+
+]
+}

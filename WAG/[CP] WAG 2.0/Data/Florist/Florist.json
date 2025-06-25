@@ -1,0 +1,73 @@
+{
+   "Changes":[
+
+        {
+            "LogName": "WAG Florist Machine Data",
+            "Action": "Include",
+            "FromFile": "Data/Florist/MachineData_Tokens.json",
+        },
+
+        {
+            "LogName": "WAG Florist Simple Data",
+            "Action": "Include",
+            "FromFile": "Data/Florist/Simple_Tokens.json",
+            "When":{"Query:('{{Atelier.Cauldron/ConfigValue:SimpleAddOn}}' ='true') OR ('{{Atelier.Cauldron/ConfigValue:DifficultyToggle}}'='Simple')":true}
+        },
+
+        {
+            "LogName": "WAG Florist Advanced/Hybrid Tokens",
+            "Action": "Include",
+            "FromFile": "Data/Florist/Bouquet_Tokens.json, Data/Florist/Swag_Tokens.json",
+            "When":{"Query:'{{Atelier.Cauldron/ConfigValue:DifficultyToggle}}'<>'Simple'":true}
+        },
+
+        {
+            "LogName": "WAG Florist Advanced Tokens",
+            "Action": "Include",
+            "FromFile": "Data/Florist/Candle_Tokens.json, Data/Florist/Incense_Tokens.json, Data/Florist/Perfume_Tokens.json, Data/Florist/Soap_Tokens.json",
+            "When":{"Atelier.Cauldron/ConfigValue:DifficultyToggle":"Advanced"}
+        },
+
+        {
+            "LogName": "WAG Florist Hybrid Data and Tokens",
+            "Action": "Include",
+            "FromFile": "Data/CCS/Florist_Stations.json, Data/Florist/Hybrid/Hybrid_Exclusive_Tokens.json, Data/Florist/Hybrid/Candle_Tokens.json, Data/Florist/Hybrid/Incense_Tokens.json, Data/Florist/Hybrid/Perfume_Tokens.json, Data/Florist/Hybrid/Soap_Tokens.json",
+            "When":{"Atelier.Cauldron/ConfigValue:DifficultyToggle":"Hybrid"}
+        },
+
+        {
+            "LogName": "WAG Florist Field Edit Data",
+            "Action": "Include",
+            "FromFile": "Data/Florist/ContextTags.json, Data/Florist/WorkingEffects.json, Data/Florist/ContextTags_Vanilla.json",
+        },
+        {
+            "LogName": "WAG Florist QL Context Tags",
+            "Action": "Include",
+            "FromFile": "Data/Florist/ContextTags_QL.json",
+			"When": {"HasMod:|contains= PC.CP.QL.FlowerGarden2": true}
+        },
+
+        {
+            "LogName": "WAG Florist SM Context Tags",
+            "Action": "Include",
+            "FromFile": "Data/Florist/ContextTags_SM.json",
+			"When": {"HasMod:|contains= Lumisteria.SereneMeadow": true}
+        },
+
+        {
+            "LogName": "WAG Florist VMV Context Tags",
+            "Action": "Include",
+            "FromFile": "Data/Florist/ContextTags_VMV.json",
+			"When": {"HasMod:|contains= Lumisteria.MtVapius": true}
+        },
+
+        {
+            "LogName": "WAG Florist SBV Context Tags",
+            "Action": "Include",
+            "FromFile": "Data/Florist/ContextTags_SBV.json",
+			"When": {"HasMod:|contains= Skellady.SBVCP": true}
+        },
+        
+
+]
+}

@@ -1,0 +1,1393 @@
+{
+
+"Changes": [
+
+ //Add shop location
+
+    {
+        "Action": "EditData",
+        "Target": "Data/Locations",
+        "Entries": {
+        "{{ModId}}_ShopkeeperGrove": {
+            "CreateOnLoad": {"MapPath": "Maps/{{ModId}}_ShopkeeperGrove"},
+            "DisplayName": "{{i18n: AtelierGoods_ShopkeeperGrove}}",
+            "DefaultArrivalTile": {
+                    "X": 26,
+                    "Y": 18
+                },
+            "ArtifactSpots": [],
+            "ExcludeFromNpcPathfinding": true
+        }
+    }
+    },
+	 
+    //Load shop maps
+
+    {
+        "LogName": "Load Shopkeeper Maps",
+        "Action": "Load",
+        "Target": "Maps/{{ModId}}_ShopkeeperGrove, Maps/VanillaShopkeeperWarp, Maps/SBVShopkeeperWarp, Maps/Florian_Shop_Edit, Maps/Wisteria_Shop_Edit, Maps/Rose_Shop_Edit, Maps/Toffee_Shop_Edit, Maps/Mason_Shop_Edit, Maps/Stout_Shop_Edit, Maps/Alchemist_Shop_Edit",
+        "FromFile": "assets/{{Target}}.tmx"
+    },
+
+//shop data
+
+    {
+        "LogName": "Load Shop Portraits",
+        "Action": "Load",
+        "Target": "Portraits/FlorianShop, Portraits/WisteriaShop, Portraits/MasonShop, Portraits/ToffeeShop, Portraits/StoutShop",
+        "FromFile": "Assets/ShopPortraits/{{TargetWithoutPath}}.png"
+    },
+
+    {
+        "LogName": "Load Shop Portraits Rose Wildflour if SASS not installed",
+        "Action": "Load",
+        "Target": "Portraits/RoseShop, Portraits/AlchemistShop",
+        "FromFile": "Assets/ShopPortraits/{{TargetWithoutPath}}.png",
+        "When": {"HasMod:|contains= Wildflour.SASS": false}
+    },
+
+    {
+        "LogName":"Add Rose's Shop",
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "When": {"HasMod:|contains= Wildflour.SASS": false},
+        "Entries": {
+            "{{ModId}}_RoseShop": {
+                "ID": "{{ModId}}_RoseShop",
+                "Owners": [
+                    {
+                        "Name": "AnyOrNone",
+                        "Id": "RoseDefault",
+                        "Portrait": "Portraits/RoseShop",
+                        "Dialogues": [
+                            {
+                                "Id": "{{ModId}}_RoseShop_Default",
+                                 "Dialogue": "{{i18n:AtelierGoods_RoseShop_Dialogue.{{Random: 1, 2, 3}}}}"
+                            }
+                        ]
+                    }
+                ],
+                "Items": [ 
+                    {   
+                        "Id": "{{ModId}}_RoseShop_Flours",
+                        "RandomItemId": [
+                            "{{ModId}}_Corn_Flour",
+                            "{{ModId}}_Pastry_Flour",
+                            "{{ModId}}_Rice_Flour"
+                        ],
+                        "MinStack": 1,
+                        "MaxStack": 3,
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 1,
+                        "AvailableStock": -1,
+                        "Condition": "CAULDRON_CONFIG_VALUE FloristOnly False"
+                    },
+                    {   
+                        "Id": "{{ModId}}_RoseShop_Flours2",
+                        "RandomItemId": [
+                            "{{ModId}}_Bread_Flour",
+                            "{{ModId}}_Cake_Flour",
+                            "{{ModId}}_Coconut_Flour"
+                        ],
+                        "MinStack": 1,
+                        "MaxStack": 3,
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 1,
+                        "AvailableStock": -1,
+                        "Condition": "CAULDRON_CONFIG_VALUE FloristOnly False"
+                    },
+                    {   
+                        "Id": "{{ModId}}_RoseShop_Advanced_Ingredients",
+                        "RandomItemId": [
+                            "{{ModId}}_Almond_Milk",
+                            "{{ModId}}_Almond_Flour",
+                            "{{ModId}}_Olive_Oil"
+                        ],
+                        "MinStack": 1,
+                        "MaxStack": 3,
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 2,
+                        "AvailableStock": -1,
+                        "Condition": "CAULDRON_CONFIG_VALUE WildFood True, CAULDRON_CONFIG_VALUE FloristOnly False"
+                    },
+                    {   
+                        "Id": "{{ModId}}_RoseShop_Ingredients",
+                        "RandomItemId": [
+                            "{{ModId}}_Brown_Sugar",
+                            "{{ModId}}_Confectioners_Sugar",
+                            "{{ModId}}_Rainbow_Sprinkles"
+                        ],
+                        "MinStack": 1,
+                        "MaxStack": 3,
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 1,
+                        "AvailableStock": -1,
+                        "Condition": "CAULDRON_CONFIG_VALUE FloristOnly False"
+                    },
+                    {   
+                        "Id": "{{ModId}}_RoseShop_Dairy_Items",
+                        "RandomItemId": [
+                            "{{ModId}}_Fresh_Butter",
+                            "{{ModId}}_Buttermilk",
+                            "{{ModId}}_Cream",
+                            "{{ModId}}_Cream_Cheese"
+                        ],
+                        "MinStack": 1,
+                        "MaxStack": 2,
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 2,
+                        "AvailableStock": -1,
+                        "Condition": "CAULDRON_CONFIG_VALUE FloristOnly False"
+                    },
+                    {   
+                        "Id": "{{ModId}}_RoseShop_AltDairy_Items",
+                        "RandomItemId": [
+                            "{{ModId}}_Coconut_Milk",
+                            "{{ModId}}_Rice_Milk"
+                        ],
+                        "MinStack": 1,
+                        "MaxStack": 2,
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 2,
+                        "AvailableStock": -1,
+                        "Condition": "CAULDRON_CONFIG_VALUE FloristOnly False"
+                    },
+                    {
+                        "Id": "{{ModId}}_RoseShop_Bread_Mix",
+                        "ItemId": "(O){{ModId}}_Bread_Mix",
+                        "Condition": "CAULDRON_CONFIG_VALUE Baker True",
+                        "MinStack": 3,
+                        "MaxStack": 5,
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 1,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": -1
+                    },
+                    {   
+                        "Id": "{{ModId}}_RoseShop_Muffin_Mix",
+                        "ItemId": "{{ModId}}_Muffin_Mix",
+                        "MinStack": 3,
+                        "MaxStack": 5,
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 1,
+                        "AvailableStock": -1,
+                        "Condition": "CAULDRON_CONFIG_VALUE Baker True"
+                    },
+                    {   
+                        "Id": "{{ModId}}_RoseShop_Cake_Mix",
+                        "ItemId": "{{ModId}}_Cake_Mix",
+                        "MinStack": 3,
+                        "MaxStack": 5,
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 1,
+                        "AvailableStock": -1,
+                        "Condition": "CAULDRON_CONFIG_VALUE Baker True"
+                    },
+                    {   
+                        "Id": "{{ModId}}_RoseShop_Cookie_Mix",
+                        "ItemId": "{{ModId}}_Cookie_Mix",
+                        "MinStack": 3,
+                        "MaxStack": 5,
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 1,
+                        "AvailableStock": -1,
+                        "Condition": "CAULDRON_CONFIG_VALUE Baker True"
+                    },
+                    {   
+                        "Id": "{{ModId}}_RoseShop_Pie_Mix",
+                        "ItemId": "{{ModId}}_Pie_Mix",
+                        "MinStack": 3,
+                        "MaxStack": 5,
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 1,
+                        "AvailableStock": -1,
+                        "Condition": "CAULDRON_CONFIG_VALUE Baker True"
+                    },
+                    {   
+                        "Id": "{{ModId}}_RoseShop_Gelatin",
+                        "ItemId": "{{ModId}}_Gelatin_Crystals",
+                        "MinStack": 3,
+                        "MaxStack": 5,
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 1,
+                        "AvailableStock": -1,
+                        "Condition": "CAULDRON_CONFIG_VALUE DifficultyToggle Hybrid"
+                    },
+                     {   
+                        "Id": "{{ModId}}_RoseShop_Gum Base",
+                        "ItemId": "{{ModId}}_Gum_Base",
+                        "MinStack": 3,
+                        "MaxStack": 5,
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 1,
+                        "AvailableStock": -1,
+                        "Condition": "CAULDRON_CONFIG_VALUE DifficultyToggle Hybrid"
+                    },
+                    {
+                        "Id": "{{ModId}}_RoseShop_KitchenMortar",
+                        "ItemId": "(BC){{ModId}}_KitchenMortar",
+                        "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_KitchenMortar",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 5,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_RoseShop_SyrupMaker",
+                        "ItemId": "(BC){{ModId}}_SyrupMaker",
+                        "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_SyrupMaker",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 5,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_RoseShop_RollingPin",
+                        "ItemId": "(BC){{ModId}}_Rolling_Pin",
+                        "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_Rolling_Pin",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 5,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_RoseShop_Oven",
+                        "ItemId": "(BC){{ModId}}_Oven",
+                        "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_Oven",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 5,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_RoseShop_Cake_Station",
+                        "ItemId": "(BC){{ModId}}_Cake_Station",
+                        "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_Cake_Station",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 5,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_RoseShop_Dessert_Stand",
+                        "ItemId": "(BC){{ModId}}_Dessert_Stand",
+                        "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_Dessert_Stand",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 5,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_RoseShop_Pie_Station",
+                        "ItemId": "(BC){{ModId}}_Pie_Station",
+                        "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_Pie_Station",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 5,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_RoseShop_Mixer",
+                        "ItemId": "(BC){{ModId}}_Mixer",
+                        "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_Mixer",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 5,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_RoseShop_Deluxe_Dessert_Stand",
+                        "ItemId": "(BC){{ModId}}_Deluxe_Dessert_Stand",
+                        "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_Deluxe_Dessert_Stand",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 5,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                ]
+            }
+        }
+    },
+
+    {
+        "LogName":"Add Florian's Shop",
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "Entries": {
+            "{{ModId}}_FlorianShop": {
+                "ID": "{{ModId}}_FlorianShop",
+                "Owners": [
+                    {
+                        "Name": "AnyOrNone",
+                        "Id": "FlorianDefault",
+                        "Portrait": "Portraits/FlorianShop",
+                        "Dialogues": [
+                            {
+                                "Id": "{{ModId}}_FlorianShop_Default",
+                                "Dialogue": "{{i18n:AtelierGoods_FlorianShop_Dialogue.{{Random: 1, 2, 3}}}}"
+                            }
+                        ]
+                    }
+                ],
+                "Items": [ 
+                    {
+                        "Id": "{{ModId}}_FlorianShop_Daisy_Seeds",
+                        "ItemId": "(O){{ModId}}_Daisy_Seeds",
+                        "Condition": "CAULDRON_CONFIG_VALUE WildFood True, SEASON fall",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 3,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                     {
+                        "Id": "{{ModId}}_FlorianShop_Nasturtium_Seeds",
+                        "ItemId": "(O){{ModId}}_Nasturtium_Seeds",
+                        "Condition": "CAULDRON_CONFIG_VALUE WildFood True, SEASON spring summer",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 3,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                     {
+                        "Id": "{{ModId}}_FlorianShop_Hibiscus_Seeds",
+                        "ItemId": "(O){{ModId}}_Hibiscus_Seeds",
+                        "Condition": "CAULDRON_CONFIG_VALUE WildFood True, SEASON spring summer",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 3,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                     {
+                        "Id": "{{ModId}}_FlorianShop_Lily_Seeds",
+                        "ItemId": "(O){{ModId}}_Lily_Seeds",
+                        "Condition": "CAULDRON_CONFIG_VALUE WildFood True, SEASON summer",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 3,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                     {
+                        "Id": "{{ModId}}_FlorianShop_Peony_Seeds",
+                        "ItemId": "(O){{ModId}}_Peony_Seeds",
+                        "Condition": "CAULDRON_CONFIG_VALUE WildFood True, SEASON spring",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 3,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                     {
+                        "Id": "{{ModId}}_FlorianShop_Snapdragon_Seeds",
+                        "ItemId": "(O){{ModId}}_Snapdragon_Seeds",
+                        "Condition": "CAULDRON_CONFIG_VALUE WildFood True, SEASON spring fall",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 3,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {   
+                        "Id": "{{ModId}}_FlorianShop_Candlewax",
+                        "ItemId": "{{ModId}}_Candle_Wax_Base",
+                        "MinStack": 1,
+                        "MaxStack": 3,
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 1,
+                        "AvailableStock": -1,
+                        "Condition": "CAULDRON_CONFIG_VALUE DifficultyToggle Hybrid"
+                    },
+                    {   
+                        "Id": "{{ModId}}_FlorianShop_Soap_Base",
+                        "ItemId": "{{ModId}}_Soap_Base",
+                        "MinStack": 1,
+                        "MaxStack": 3,
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 1,
+                        "AvailableStock": -1,
+                        "Condition": "CAULDRON_CONFIG_VALUE DifficultyToggle Hybrid"
+                    },
+                    {
+                        "Id": "{{ModId}}_FlorianShop_MixFlower_Seeds",
+                        "ItemId": "(O){{ModId}}_Flower_Seeds",
+                        "MinStack": 3,
+                        "MaxStack": 5,
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 1,
+                        "AvailableStock": -1,
+                        "Condition": "CAULDRON_CONFIG_VALUE MixedSeeds True"
+                    },
+                    {
+                        "Id": "{{ModId}}_FlorianShop_Chamomile_Seeds",
+                        "ItemId": "(O){{ModId}}_Chamomile_Seeds",
+                        "Condition": "CAULDRON_CONFIG_VALUE WildFood True",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 3,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_FlorianShop_Jasmine_Seeds",
+                        "ItemId": "(O){{ModId}}_Jasmine_Seeds",
+                        "Condition": "CAULDRON_CONFIG_VALUE WildFood True",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 5,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_FlorianShop_Lavender_Seeds",
+                        "ItemId": "(O){{ModId}}_Lavender_Seeds",
+                        "Condition": "CAULDRON_CONFIG_VALUE WildFood True",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 3,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_FlorianShop_Mallow_Seeds",
+                        "ItemId": "(O){{ModId}}_Mallow_Seeds",
+                        "Condition": "CAULDRON_CONFIG_VALUE WildFood True",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 3,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_FlorianShop_Vanilla_Seeds",
+                        "ItemId": "(O){{ModId}}_Vanilla_Seeds",
+                        "Condition": "CAULDRON_CONFIG_VALUE WildFood True",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 3,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_FlorianShop_Tulip_Seeds",
+                        "ItemId": "(O)427",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 3,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_FlorianShop_Jazz_Seeds",
+                        "ItemId": "(O)429",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 3,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_FlorianShop_Poppy_Seeds",
+                        "ItemId":"(O)453",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 3,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_FlorianShop_Spangle_Seeds",
+                        "ItemId":"(O)455",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 3,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_FlorianShop_Sunflower_Seeds",
+                        "ItemId":"(O)431",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 3,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_FlorianShop_Fairy_Seeds",
+                        "ItemId": "(O)425",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 3,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_FlorianShop_Honeycomb",
+                        "ItemId": "(O){{ModId}}_Honeycomb",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 3,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_FlorianShop_Dehydrator",
+                        "ItemId": "(BC)Dehydrator",
+                        "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current Dehydrator",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 5,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_FlorianShop_FragranceStation",
+                        "ItemId": "(BC){{ModId}}_FragranceStation",
+                        "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_FragranceStation",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 5,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_FlorianShop_FlowerStation",
+                        "ItemId": "(BC){{ModId}}_FlowerStation",
+                        "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_FlowerStation",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 5,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_FlorianShop_CandleStation",
+                        "ItemId": "(BC){{ModId}}_CandleStation",
+                        "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_CandleStation",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 5,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    }
+                ]
+            }
+        }
+    },
+
+    {
+        "LogName":"Add Toffee's Shop",
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "Entries": {
+            "{{ModId}}_ToffeeShop": {
+                "ID": "{{ModId}}_ToffeeShop",
+                "Owners": [
+                    {
+                        "Name": "AnyOrNone",
+                        "Id": "ToffeeDefault",
+                        "Portrait": "Portraits/ToffeeShop",
+                        "Dialogues": [
+                            {
+                                "Id": "{{ModId}}_ToffeeShop_Default",
+                                "Dialogue": "{{i18n:AtelierGoods_ToffeeShop_Dialogue.{{Random: 1, 2, 3}}}}"
+                            }
+                        ]
+                    }
+                ],
+                "Items": [ 
+                    {   
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 3,
+                        "AvailableStock": 5,
+                        "Id": "{{ModId}}_ToffeeShop_Base_Syrups",
+                        "RandomItemId": [
+                            "{{ModId}}_Ancient_Fruit_Syrup",
+                            "{{ModId}}_Apple_Syrup",
+                            "{{ModId}}_Apricot_Syrup",
+                            "{{ModId}}_Banana_Syrup",
+                            "{{ModId}}_Cherry_Syrup",
+                            "{{ModId}}_Grenadine_Syrup",
+                            "{{ModId}}_Mango_Syrup",
+                            "{{ModId}}_Orange_Syrup",
+                            "{{ModId}}_Peach_Syrup",
+                            "{{ModId}}_Pumpkin_Syrup",
+                            "{{ModId}}_Rose_Water",
+                            "{{ModId}}_Strawberry_Syrup"
+                        ],
+                        "MinStack": 1,
+                        "MaxStack": 1,
+                        "Condition": "CAULDRON_CONFIG_VALUE FloristOnly False"
+                    },
+                     {   
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 3,
+                        "AvailableStock": 5,
+                        "Id": "{{ModId}}_ToffeeShop_WF_Syrups",
+                        "RandomItemId": [
+                            "{{ModId}}_Cherry_Blossom_Syrup",
+                            "{{ModId}}_Chocolate_Syrup",
+                            "{{ModId}}_Elderberry_Water",
+                            "{{ModId}}_Lavender_Water",
+                            "{{ModId}}_Lemon_Syrup",
+                            "{{ModId}}_Lime_Syrup",
+                            "{{ModId}}_Raspberry_Syrup",
+                            "{{ModId}}_Vanilla_Syrup"
+                        ],
+                        "MinStack": 1,
+                        "MaxStack": 1,
+                        "Condition": "CAULDRON_CONFIG_VALUE FloristOnly False, CAULDRON_CONFIG_VALUE WildFood True"
+                    },
+                    {   
+                        "Id": "{{ModId}}_ToffeeShop_DarkChocolate",
+                        "RandomItemId": [
+                            "{{ModId}}_Dark_Chocolate",
+                            "{{ModId}}_Milk_Chocolate",
+                            "{{ModId}}_White_Chocolate"
+                        ],
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 3,
+                        "AvailableStock": 5,
+                        "MinStack": 1,
+                        "MaxStack": 1,
+                        "Condition": "CAULDRON_CONFIG_VALUE Candy True, CAULDRON_CONFIG_VALUE WildFood True"
+                    },
+                    {
+                        "Id": "{{ModId}}_ToffeeShop_Sugar",
+                        "ItemId": "(O)245",
+                        "Condition": "",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "MinStack":2,
+                        "MaxStack":4,
+                        "TradeItemAmount": 1,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_ToffeeShop_Frozen_Tear",
+                        "ItemId": "(O)84",
+                        "Condition": "",
+                        "MinStack":5,
+                        "MaxStack":8,
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 4,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_ToffeeShop_BlastChiller",
+                        "ItemId": "(BC){{ModId}}_BlastChiller",
+                        "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_BlastChiller",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 5,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_ToffeeShop_TreatMaker",
+                        "ItemId": "(BC){{ModId}}_TreatMaker",
+                        "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_TreatMaker",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 5,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_ToffeeShop_CandyJar",
+                        "ItemId": "(BC){{ModId}}_CandyJar",
+                        "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_CandyJar",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 5,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_ToffeeShop_ChocolatierBarrel",
+                        "ItemId": "(BC){{ModId}}_ChocolatierBarrel",
+                        "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_ChocolatierBarrel",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 5,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_ToffeeShop_MarshmallowMixer",
+                        "ItemId": "(BC){{ModId}}_MarshmallowMixer",
+                        "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_MarshmallowMixer",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 5,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_ToffeeShop_SugarBoiler",
+                        "ItemId": "(BC){{ModId}}_SugarBoiler",
+                        "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_SugarBoiler",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 5,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                ]
+            }
+        }
+    },
+
+    {
+        "LogName":"Add Stout's Shop",
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "Entries": {
+            "{{ModId}}_StoutShop": {
+                "ID": "{{ModId}}_StoutShop",
+                "Owners": [
+                    {
+                        "Name": "AnyOrNone",
+                        "Id": "StoutDefault",
+                        "Portrait": "Portraits/StoutShop",
+                        "Dialogues": [
+                            {
+                                "Id": "{{ModId}}_StoutShop_Default",
+                                "Dialogue": "{{i18n:AtelierGoods_StoutShop_Dialogue.{{Random: 1, 2, 3}}}}"
+                            }
+                        ]
+                    }
+                ],
+                "Items": [ 
+                    {
+                        "Id": "{{ModId}}_StoutShop_Hops",
+                        "ItemId": "(O)304",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "MinStack":2,
+                        "MaxStack":4,
+                        "TradeItemAmount": 1,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_StoutShop_Honey",
+                        "ItemId": "(O)340",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "MinStack":1,
+                        "MaxStack":2,
+                        "TradeItemAmount": 2,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_StoutShop_TeaSapling",
+                        "ItemId": "(O)251",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 5,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_StoutShop_TeaLeaves",
+                        "ItemId": "(O)815",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "MinStack":1,
+                        "MaxStack":2,
+                        "TradeItemAmount": 1,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_StoutShop_CoffeeBean",
+                        "ItemId": "(O)433",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "MinStack":3,
+                        "MaxStack":5,
+                        "TradeItemAmount": 1,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_StoutShop_Matcha_Powder",
+                        "ItemId": "(O){{ModId}}_Matcha_Powder",
+                        "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_TeaKettle",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 2,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_StoutShop_AleKeg",
+                        "ItemId": "(BC){{ModId}}_AleKeg",
+                        "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_AleKeg",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 5,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_StoutShop_MeadKeg",
+                        "ItemId": "(BC){{ModId}}_MeadKeg",
+                        "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_MeadKeg",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 5,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_StoutShop_TeaProcessor",
+                        "ItemId": "(BC){{ModId}}_TeaProcessor",
+                        "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_TeaProcessor",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 5,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_StoutShop_TeaKettle",
+                        "ItemId": "(BC){{ModId}}_TeaKettle",
+                        "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_TeaKettle",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 5,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_StoutShop_CoffeeGrinder",
+                        "ItemId": "(BC){{ModId}}_CoffeeGrinder",
+                        "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_CoffeeGrinder",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 5,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_StoutShop_CoffeeBrewer",
+                        "ItemId": "(BC){{ModId}}_CoffeeBrewer",
+                        "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_CoffeeBrewer",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 5,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_StoutShop_LemonadeStand",
+                        "ItemId": "(BC){{ModId}}_LemonadeStand",
+                        "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_LemonadeStand",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 5,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_StoutShop_KitchenBlender",
+                        "ItemId": "(BC){{ModId}}_KitchenBlender",
+                        "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_KitchenBlender",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 5,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    }
+                ]
+            }
+        }
+    },
+
+    {
+        "LogName":"Add Mason's Shop",
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "Entries": {
+            "{{ModId}}_MasonShop": {
+                "ID": "{{ModId}}_MasonShop",
+                "Owners": [
+                    {
+                        "Name": "AnyOrNone",
+                        "Id": "MasonDefault",
+                        "Portrait": "Portraits/MasonShop",
+                        "Dialogues": [
+                            {
+                                "Id": "{{ModId}}_MasonShop_Default",
+                                "Dialogue": "{{i18n:AtelierGoods_MasonShop_Dialogue.{{Random: 1, 2, 3}}}}"
+                            }
+                        ]
+                    }
+                ],
+                "Items": [ 
+                    {
+                        "Id": "{{ModId}}_MasonShop_Pectin",
+                        "ItemId": "(O){{ModId}}_Pectin",
+                        "Condition": "CAULDRON_CONFIG_VALUE FloristOnly False",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "MinStack":3,
+                        "MaxStack":5,
+                        "TradeItemAmount": 1,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_MasonShop_Apple_Butter",
+                        "ItemId": "(O){{ModId}}_Apple_Butter",
+                        "Condition": "CAULDRON_CONFIG_VALUE FloristOnly False",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 2,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_MasonShop_Honey_Butter",
+                        "ItemId": "(O){{ModId}}_Honey_Butter",
+                        "Condition": "CAULDRON_CONFIG_VALUE FloristOnly False",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 2,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_MasonShop_Maple_Butter",
+                        "ItemId": "(O){{ModId}}_Maple_Butter" ,
+                        "Condition": "CAULDRON_CONFIG_VALUE FloristOnly False",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 2,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_MasonShop_Pumpkin_Butter",
+                        "ItemId": "(O){{ModId}}_Pumpkin_Butter",
+                        "Condition": "CAULDRON_CONFIG_VALUE FloristOnly False",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 2,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_MasonShop_Orange_Curd",
+                        "ItemId": "(O){{ModId}}_Orange_Curd",
+                        "Condition": "CAULDRON_CONFIG_VALUE FloristOnly False",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 3,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_MasonShop_Lemon_Curd",
+                        "ItemId": "(O){{ModId}}_Lemon_Curd",
+                        "Condition": "CAULDRON_CONFIG_VALUE WildFood True",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 3,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_MasonShop_Lime_Curd",
+                        "ItemId": "(O){{ModId}}_Lime_Curd",
+                        "Condition": "CAULDRON_CONFIG_VALUE WildFood True, CAULDRON_CONFIG_VALUE FloristOnly False",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 3,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    }
+                ]
+            }
+        }
+    },
+
+    {
+        "LogName":"Add Alchemist's Shop",
+        "When": {"HasMod:|contains= Wildflour.SASS": false},
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "Entries": {
+            "{{ModId}}_AlchemistShop": {
+                "ID": "{{ModId}}_AlchemistShop",
+                "Owners": [
+                    {
+                        "Name": "AnyOrNone",
+                        "Id": "AlchemistDefault",
+                        "Portrait": "Portraits/AlchemistShop",
+                        "Dialogues": [
+                            {
+                                "Id": "{{ModId}}_AlchemistShop_Default",
+                                "Dialogue": "{{i18n:AtelierGoods_AlchemistShop_Dialogue.{{Random: 1, 2, 3}}}}"
+                            }
+                        ]
+                    }
+                ],
+                "Items": [ 
+                    {
+                        "Id": "{{ModId}}_AlchemistShop_MixedSeeds",
+                        "RandomItemId": [
+                            "(O){{ModId}}_Fruit_Seeds",
+                            "(O){{ModId}}_Veggie_Seeds",
+                            "(O){{ModId}}_Herb_Seeds"
+                        ],
+                        "Condition": "CAULDRON_CONFIG_VALUE WildFood True",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "MinStack":1,
+                        "MaxStack":3,
+                        "TradeItemAmount": 2,
+                        "AvailableStock": 10,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_AlchemistShop_Spring_Saplings",
+                        "RandomItemId": [
+                            "{{ModId}}_Lemon_Sapling",
+                            "{{ModId}}_Lime_Sapling",
+                            "{{ModId}}_Anise_Sapling",
+                        ],
+                        "Condition": "SEASON winter spring, CAULDRON_CONFIG_VALUE WildFood True",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 8,
+                        "AvailableStock": 1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_AlchemistShop_Summer_Saplings",
+                        "RandomItemId": [
+                            "{{ModId}}_Elder_Sapling",
+                            "{{ModId}}_Olive_Sapling",
+                            "{{ModId}}_Almond_Sapling",
+                            "{{ModId}}_Pistachio_Sapling",
+                        ],
+                        "Condition": "SEASON spring summer, CAULDRON_CONFIG_VALUE WildFood True",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 8,
+                        "AvailableStock": 1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_AlchemistShop_Fall_Saplings",
+                        "RandomItemId": [
+                            "{{ModId}}_Cacao_Sapling",
+                            "{{ModId}}_Cashew_Sapling",
+                            "{{ModId}}_Walnut_Sapling"
+                        ],
+                        "Condition": "SEASON summer fall, CAULDRON_CONFIG_VALUE WildFood True",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 8,
+                        "AvailableStock": 1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_AlchemistShop_Random_Saplings",
+                        "RandomItemId": [
+                            "628",
+                            "629",
+                            "630",
+                            "631",
+                            "632",
+                            "633",
+                        ],
+                        "Condition": null,
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 8,
+                        "AvailableStock": 1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_AlchemistShop_Spring_Seed_Inventory",
+                        "RandomItemId": [
+                            "{{ModId}}_Wild_Strawberry_Seeds",
+                            "{{ModId}}_Cilantro_Seeds",
+                            "{{ModId}}_Mint_Seeds",
+                            "{{ModId}}_Red_Onion_Seeds",
+                            "{{ModId}}_Rosemary_Seeds",
+                            "{{ModId}}_Thyme_Seeds",
+                            "{{ModId}}_Wheatberry_Mushroom_Seeds",
+                               "{{ModId}}_Honey_Fungus_Seeds",
+                        ],
+                        "Condition": "SEASON spring, CAULDRON_CONFIG_VALUE WildFood True",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "MinStack":1,
+                        "MaxStack":3,
+                        "TradeItemAmount": 2,
+                        "AvailableStock": 3,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_AlchemistShop_Summer_Seed_Inventory",
+                        "RandomItemId": [
+                            "{{ModId}}_Wild_Raspberry_Seeds",
+                            "{{ModId}}_Basil_Seeds",
+                            "{{ModId}}_Cilantro_Seeds",
+                            "{{ModId}}_Mint_Seeds",
+                            "{{ModId}}_Thyme_Seeds",
+                            "{{ModId}}_Vanilla_Seeds",
+                            "{{ModId}}_Wormwood_Seeds",
+                            "{{ModId}}_Chicken_Woods_Seeds",
+                        ],
+                        "Condition": "SEASON summer, CAULDRON_CONFIG_VALUE WildFood True",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "MinStack":1,
+                        "MaxStack":3,
+                        "TradeItemAmount": 2,
+                        "AvailableStock": 3,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_AlchemistShop_Fall_Seed_Inventory",
+                        "RandomItemId": [
+                            
+                            "{{ModId}}_Milk_Mushroom_Seeds",
+                            "{{ModId}}_Red_Onion_Seeds",
+                            "{{ModId}}_Rosemary_Seeds",
+                            "{{ModId}}_Sage_Seeds",
+                            "{{ModId}}_Meringue_Mushroom_Seeds",
+                        ],
+                        "Condition": "SEASON fall, CAULDRON_CONFIG_VALUE WildFood True",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "MinStack":1,
+                        "MaxStack":3,
+                        "TradeItemAmount": 2,
+                        "AvailableStock": 3,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_AlchemistShop_WF_Spring_Herb_Forage",
+                        "RandomItemId": [
+                            "{{ModId}}_Lavender",
+                            "{{ModId}}_Mallow",
+                            "{{ModId}}_Vanilla",
+                            "{{ModId}}_Wild_Strawberry",
+                            "{{ModId}}_Cilantro",
+                            "{{ModId}}_Mint",
+                            "{{ModId}}_Red_Onion"
+                        ],
+                        "Condition": "SEASON spring, CAULDRON_CONFIG_VALUE WildFood True",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 3,
+                        "AvailableStock": 2,
+                        "MinStack":1,
+                        "MaxStack":3,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_AlchemistShop_WF_Summer_Fruit_Flower_Forage",
+                        "RandomItemId": [
+                            "{{ModId}}_Chamomile",
+                            "{{ModId}}_Jasmine",
+                            "{{ModId}}_Wild_Raspberry",
+                            "{{ModId}}_Basil",
+                            "{{ModId}}_Thyme",
+                            "{{ModId}}_Wormwood"
+                        ],
+                        "Condition": "SEASON summer, CAULDRON_CONFIG_VALUE WildFood True",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 3,
+                        "AvailableStock": 2,
+                        "MinStack":1,
+                        "MaxStack":3,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_AlchemistShop_Spring_Base_Forage",
+                        "RandomItemId": [
+                            "(O)22",
+                            "(O)20",
+                            "(O)18",
+                            "(O)433",
+                            "(O)815",
+                            "(O)16",
+                            "(O)399",
+                            "(O)296"
+                        ],
+                        "Condition": "SEASON spring",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 3,
+                        "AvailableStock": 2,
+                        "MinStack":1,
+                        "MaxStack":3,
+                        "AvailableStockLimit": "Player"
+                    },
+                     {
+                        "Id": "{{ModId}}_AlchemistShop_Summer_Base_Forage",
+                        "RandomItemId": [
+                            "(O)396",
+                            "(O)397",
+                            "(O)398",
+                            "(O)433",
+                            "(O)815",
+                            "(O)402",
+                            "(O)393",
+                            "(O)394"
+                        ],
+                        "Condition": "SEASON summer",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 3,
+                        "AvailableStock": 2,
+                        "MinStack":1,
+                        "MaxStack":3,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_AlchemistShop_Fall_Base_Forage",
+                        "RandomItemId": [
+                            "(O)404",
+                            "(O)406",
+                            "(O)815",
+                            "(O)408",
+                            "(O)410",
+                            "(O)420"
+                        ],
+                        "Condition": "SEASON fall",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 3,
+                        "AvailableStock": 2,
+                        "MinStack":1,
+                        "MaxStack":3,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_AlchemistShop_Winter_Base_Forage",
+                        "RandomItemId": [
+                            "(O)412",
+                            "(O)414",
+                            "(O)416",
+                            "(O)418",
+                            "(O)420",
+                            "(O)422"
+                        ],
+                        "Condition": "SEASON winter",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 3,
+                        "AvailableStock": 2,
+                        "MinStack":1,
+                        "MaxStack":3,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_AlchemistShop_WF_FallWinter_Forage",
+                        "RandomItemId": [
+                            "{{ModId}}_Rosemary",
+                            "{{ModId}}_Sage",
+                            "{{ModId}}_Cinnamon"
+                        ],
+                        "Condition": "SEASON fall winter, CAULDRON_CONFIG_VALUE WildFood True",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "MinStack":1,
+                        "MaxStack":3,
+                        "TradeItemAmount": 3,
+                        "AvailableStock": -1,
+                        "AvailableStockLimit": "Player"
+                    },
+                ]
+            }
+        }
+    },
+
+    {
+        "LogName":"Add Wisteria's Shop",
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "Entries": {
+            "{{ModId}}_WisteriaShop": {
+                "ID": "{{ModId}}_WisteriaShop",
+                "Owners": [
+                    {
+                        "Name": "AnyOrNone",
+                        "Id": "WisteriaDefault",
+                        "Portrait": "Portraits/WisteriaShop",
+                        "Dialogues": [
+                            {
+                                "Id": "{{ModId}}_WisteriaShop_Default",
+                                "Dialogue": "{{i18n:AtelierGoods_WisteriaShop_Dialogue.{{Random: 1, 2, 3}}}}"
+                            }
+                        ]
+                    }
+                ],
+                "Items": [ 
+                    {
+                        "Id": "{{ModId}}_WisteriaShop_FurniCatalogues",
+                        "RandomItemId": ["(F)WizardCatalogue", "(F)RetroCatalogue", "(F)JojaCatalogue", "(F)1226"],
+                        "Condition": "",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 50,
+                        "AvailableStock": 1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_WisteriaShop_GreenhouseCatalogue",
+                        "ItemId": "(F)HXW.GreenhouseFurniture_Catalogue",
+                        "Condition": "{{HasMod |contains=HXW.GreenhouseFurniture}}",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        
+                        "TradeItemAmount": 50,
+                        "AvailableStock": 1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_WisteriaShop_OutdoorCatalogue",
+                        "ItemId": "(F)HXW.OutdoorFurni_Catalogue",
+                        "Condition": "{{HasMod |contains=HXW.OutdoorFurni}}",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 50,
+                        "AvailableStock": 1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_WisteriaShop_RomanticCatalogue",
+                        "ItemId": "(F)HXW.RomanticFurniture_Catalogue",
+                        "Condition": "{{HasMod |contains=HXW.RomanticFurniture}}",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 50,
+                        "AvailableStock": 1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_WisteriaShop_MarketCatalogue",
+                        "ItemId": "(F)HXW.FMCore_Catalogue",
+                        "Condition": "{{HasMod |contains=HXW.FMCore}}",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 50,
+                        "AvailableStock": 1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_WisteriaShop_FairyGardenCatalogue",
+                        "ItemId": "(F)HXW.FairyGardenFurni_Catalogue",
+                        "Condition": "{{HasMod |contains=HXW.FairyGardenFurni}}",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 50,
+                        "AvailableStock": 1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_WisteriaShop_BathroomCatalogue",
+                        "ItemId": "(F)HXW.BathroomFurni_Catalogue",
+                        "Condition": "{{HasMod |contains=HXW.BathroomFurni}}",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 50,
+                        "AvailableStock": 1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_WisteriaShop_PlantLoversCatalogue",
+                        "ItemId": "(F)HXW.PlantLoversFurni_Catalogue",
+                        "Condition": "{{HasMod |contains=HXW.PlantLoversFurni}}",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 50,
+                        "AvailableStock": 1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_WisteriaShop_DecoPlantsCatalogue",
+                        "ItemId": "(F)HXW.DecoPlants_Catalogue",
+                        "Condition": "{{HasMod |contains=HXW.DecoPlants}}",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 50,
+                        "AvailableStock": 1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_WisteriaShop_RestaurantFurniCatalogue",
+                        "ItemId": "(F)HXW.RestaurantFurni_Catalogue",
+                        "Condition": "{{HasMod |contains=HXW.RestaurantFurni}}",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 50,
+                        "AvailableStock": 1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_WisteriaShop_PantryCatalogue",
+                        "ItemId": "(F)HXW.GrandmasPantryFurni_Catalogue",
+                        "Condition": "{{HasMod |contains=HXW.GrandmasPantryFurni}}",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 50,
+                        "AvailableStock": 1,
+                        "AvailableStockLimit": "Player"
+                    },
+                    {
+                        "Id": "{{ModId}}_WisteriaShop_WineryCatalogue",
+                        "ItemId": "(F)HXW.WineryFurni_Catalogue",
+                        "Condition": "{{HasMod |contains=HXW.WineryFurni}}",
+                        "TradeItemID": "(O){{ModId}}_Junimo_Gem",
+                        "TradeItemAmount": 50,
+                        "AvailableStock": 1,
+                        "AvailableStockLimit": "Player"
+                    }
+                ]
+            }
+        }
+    },
+
+    ]
+}

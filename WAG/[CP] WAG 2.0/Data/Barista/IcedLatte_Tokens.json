@@ -1,0 +1,226 @@
+{
+   "Changes":[
+        
+        {
+            "LogName": "Object Data Tokens - Amoretto Iced Latte",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_BlastChiller",
+                "ITEM_TYPE": "Iced_Latte",
+                "INPUT1":"id_(O){{ModId}}_Amoretto_Ground_Coffee",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "ITEM_FLAVOR":"Amoretto",
+                "PRICE_MULTIPLIER": 3.75,
+                "PRICE_ADDER": 60,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":25,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":178
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Cinnamon_Bunny Iced Latte",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_BlastChiller",
+                "ITEM_TYPE": "Iced_Latte",
+                "INPUT1":"id_(O){{ModId}}_Cinnamon_Bunny_Ground_Coffee",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "ITEM_FLAVOR":"Cinnamon_Bunny",
+                "PRICE_MULTIPLIER": 3.75,
+                "PRICE_ADDER": 60,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":25,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":181
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Coco_Cabana Iced Latte",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_BlastChiller",
+                "ITEM_TYPE": "Iced_Latte",
+                "INPUT1":"id_(O){{ModId}}_Coco_Cabana_Ground_Coffee",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "ITEM_FLAVOR":"Coco_Cabana",
+                "PRICE_MULTIPLIER": 3.75,
+                "PRICE_ADDER": 60,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":25,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":184
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Early_Riser Iced Latte",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_BlastChiller",
+                "ITEM_TYPE": "Iced_Latte",
+                "INPUT1":"id_(O){{ModId}}_Early_Riser_Ground_Coffee",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "ITEM_FLAVOR":"Early_Riser",
+                "PRICE_MULTIPLIER": 3.75,
+                "PRICE_ADDER": 60,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":25,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":187
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Mucha_Mocha Iced Latte",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_BlastChiller",
+                "ITEM_TYPE": "Iced_Latte",
+                "INPUT1":"id_(O){{ModId}}_Mucha_Mocha_Ground_Coffee",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "ITEM_FLAVOR":"Mucha_Mocha",
+                "PRICE_MULTIPLIER": 3.75,
+                "PRICE_ADDER": 60,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":25,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":190
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Pistachio_Buzz Iced Latte",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_BlastChiller",
+                "ITEM_TYPE": "Iced_Latte",
+                "INPUT1":"id_(O){{ModId}}_Pistachio_Buzz_Ground_Coffee",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "ITEM_FLAVOR":"Pistachio_Buzz",
+                "PRICE_MULTIPLIER": 3.75,
+                "PRICE_ADDER": 60,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":25,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":193
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Pumpkin_King Iced Latte",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_BlastChiller",
+                "ITEM_TYPE": "Iced_Latte",
+                "INPUT1":"id_(O){{ModId}}_Pumpkin_King_Ground_Coffee",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "ITEM_FLAVOR":"Pumpkin_King",
+                "PRICE_MULTIPLIER": 3.75,
+                "PRICE_ADDER": 60,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":25,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":196
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Sleigh_Ride Iced Latte",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_BlastChiller",
+                "ITEM_TYPE": "Iced_Latte",
+                "INPUT1":"id_(O){{ModId}}_Sleigh_Ride_Ground_Coffee",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "ITEM_FLAVOR":"Sleigh_Ride",
+                "PRICE_MULTIPLIER": 3.75,
+                "PRICE_ADDER": 60,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":25,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":199
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Sweetheart Iced Latte",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_BlastChiller",
+                "ITEM_TYPE": "Iced_Latte",
+                "INPUT1":"id_(O){{ModId}}_Sweetheart_Ground_Coffee",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "ITEM_FLAVOR":"Sweetheart",
+                "PRICE_MULTIPLIER": 3.75,
+                "PRICE_ADDER": 60,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":25,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":202
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Warm_Vanilla_Sugar Iced Latte",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_BlastChiller",
+                "ITEM_TYPE": "Iced_Latte",
+                "INPUT1":"id_(O){{ModId}}_Warm_Vanilla_Sugar_Ground_Coffee",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "ITEM_FLAVOR":"Warm_Vanilla_Sugar",
+                "PRICE_MULTIPLIER": 3.75,
+                "PRICE_ADDER": 60,
+                "MINUTES_UNTIL_READY": 480,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":25,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":205
+            }
+        }
+
+]
+}

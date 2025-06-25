@@ -1,0 +1,76 @@
+{
+    "Changes":[
+
+     
+         {
+          "LogName": "Add Tea Shop Buffs WAG Tea Processor",
+          "Action": "EditData",
+          "Target": "Data/Machines",
+          "TargetField": ["(BC)Wildflour.AtelierGoods_TeaProcessor","ReadyTimeModifiers"],
+          "When": { "HasMod: |contains=Atelier.Cauldron": true, "Atelier.Cauldron/ConfigValue:Tea":true },
+          "Priority":"Late",
+			    "Entries": {
+              "HXW.Buildings_TeaShop_WAG_LooseLeafTea_SpeedyBuff": {
+                "Id": "HXW.Buildings_TeaShop_WAG_Ale_SpeedyBuff",
+                "Condition": "LOCATION_NAME Target HXW.Buildings_Complete_TeaShopBuilding",
+                "Modification": "Multiply",
+                "Amount": 0.85
+              }
+          }
+        },
+        {
+          "LogName": "Add Tea Shop Buffs WAG Tea  Kettle",
+          "Action": "EditData",
+          "Target": "Data/Machines",
+          "TargetField": ["(BC)Wildflour.AtelierGoods_TeaKettle","ReadyTimeModifiers"],
+          "When": { "HasMod: |contains=Atelier.Cauldron": true, "Atelier.Cauldron/ConfigValue:Tea":true },
+          "Priority":"Late",
+			    "Entries": {
+              "HXW.Buildings_TeaShop_WAG_Mead_SpeedyBuff": {
+                "Id": "HXW.Buildings_TeaShop_WAG_Tea_SpeedyBuff",
+                "Condition": "LOCATION_NAME Target HXW.Buildings_Complete_TeaShopBuilding",
+                "Modification": "Multiply",
+                "Amount": 0.85
+              }
+          }
+        },
+
+      //large tea shop buffs
+
+       {
+          "LogName": "Add Tea Shop Buffs WAG Tea Processor",
+          "Action": "EditData",
+          "Target": "Data/Machines",
+          "TargetField": ["(BC)Wildflour.AtelierGoods_TeaProcessor","ReadyTimeModifiers"],
+          "When": { "HasMod: |contains=Atelier.Cauldron": true, "Atelier.Cauldron/ConfigValue:Tea":true },
+          "Priority":"Late",
+			    "Entries": {
+              "HXW.Buildings_TeaShopLarge_WAG_LooseLeafTea_SpeedyBuff": {
+                "Id": "HXW.Buildings_TeaShopLarge_WAG_Ale_SpeedyBuff",
+                "Condition": "LOCATION_NAME Target HXW.Buildings_Complete_TeaShopBuildingLarge",
+                "Modification": "Multiply",
+                "Amount": 0.85
+              }
+          }
+        },
+        {
+          "LogName": "Add Tea Shop Buffs WAG Tea  Kettle",
+          "Action": "EditData",
+          "Target": "Data/Machines",
+          "TargetField": ["(BC)Wildflour.AtelierGoods_TeaKettle","ReadyTimeModifiers"],
+          "When": { "HasMod: |contains=Atelier.Cauldron": true, "Atelier.Cauldron/ConfigValue:Tea":true },
+          "Priority":"Late",
+			    "Entries": {
+              "HXW.Buildings_TeaShopLarge_WAG_Mead_SpeedyBuff": {
+                "Id": "HXW.Buildings_TeaShopLarge_WAG_Tea_SpeedyBuff",
+                "Condition": "LOCATION_NAME Target HXW.Buildings_Complete_TeaShopBuildingLarge",
+                "Modification": "Multiply",
+                "Amount": 0.85
+              }
+          }
+        },
+
+
+        
+    ]
+}

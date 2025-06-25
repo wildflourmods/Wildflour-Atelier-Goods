@@ -1,0 +1,270 @@
+{
+   "Changes":[
+
+        {
+            "LogName": "Object Data Tokens - Bobbin_For_Aleples Ale",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_AleKeg",
+                "ITEM_TYPE": "Aleples",
+                "ITEM_FLAVOR":"Bobbin_For",
+                "INPUT1":"id_(O)613",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"thyme_item",
+                "PRICE_MULTIPLIER": 3.0,
+                "PRICE_ADDER": 25,
+                "MINUTES_UNTIL_READY": 1600,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":20,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE": 286
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Bonfire Ale",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_AleKeg",
+                "ITEM_TYPE": "Ale",
+                "ITEM_FLAVOR":"Bonfire",
+                "INPUT1":"id_(O){{ModId}}_Mallow",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"vanilla_item",
+                "PRICE_MULTIPLIER": 3.0,
+                "PRICE_ADDER": 25,
+                "MINUTES_UNTIL_READY": 1600,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":20,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":287
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Dust_Sprite Ale",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_AleKeg",
+                "ITEM_TYPE": "Stout",
+                "ITEM_FLAVOR":"Dust_Sprite",
+                "INPUT1":"id_(O)382",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O)433",
+                "PRICE_MULTIPLIER": 3.0,
+                "PRICE_ADDER": 25,
+                "MINUTES_UNTIL_READY": 1600,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":20,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":288
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Jingle_Ale_The Way",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_AleKeg",
+                "ITEM_TYPE": "Way",
+                "ITEM_FLAVOR":"Jingle_Ale_The",
+                "INPUT1":"id_(O){{ModId}}_Brown_Sugar",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"vanilla_item",
+                "PRICE_MULTIPLIER": 3.0,
+                "PRICE_ADDER": 25,
+                "MINUTES_UNTIL_READY": 1600,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":20,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE": 289
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Lavender_Haze IPA",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_AleKeg",
+                "ITEM_TYPE": "IPA",
+                "ITEM_FLAVOR":"Lavender_Haze",
+                "INPUT1":"lavender_item",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"lemon_item",
+                "PRICE_MULTIPLIER": 3.0,
+                "PRICE_ADDER": 25,
+                "MINUTES_UNTIL_READY": 1600,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":0,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":290
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Livin_Off_The_Land Ale",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_AleKeg",
+                "ITEM_TYPE": "Ale",
+                "ITEM_FLAVOR":"Livin_Off_The_Land",
+                "INPUT1":"id_(O)638",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O)634",
+                "PRICE_MULTIPLIER": 3.0,
+                "PRICE_ADDER": 25,
+                "MINUTES_UNTIL_READY": 1600,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":0,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":291
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Pelican Pilsner",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_AleKeg",
+                "ITEM_TYPE": "Pilsner",
+                "ITEM_FLAVOR":"Pelican",
+                "INPUT1":"id_(O)834",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O)396",
+                "PRICE_MULTIPLIER": 3.0,
+                "PRICE_ADDER": 25,
+                "MINUTES_UNTIL_READY": 1600,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":0,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":292
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Sandcastle IPA",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_AleKeg",
+                "ITEM_TYPE": "IPA",
+                "ITEM_FLAVOR":"Sandcastle",
+                "INPUT1":"id_(O)88",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O)829",
+                "PRICE_MULTIPLIER": 3.0,
+                "PRICE_ADDER": 25,
+                "MINUTES_UNTIL_READY": 1600,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":0,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":293
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Scarecrow Stout",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_AleKeg",
+                "ITEM_TYPE": "Stout",
+                "ITEM_FLAVOR":"Scarecrow",
+                "INPUT1":"id_(O)280",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"cream_item",
+                "PRICE_MULTIPLIER": 3.0,
+                "PRICE_ADDER": 25,
+                "MINUTES_UNTIL_READY": 1600,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":0,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE": 294
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Scrooge Tripel",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_AleKeg",
+                "ITEM_TYPE": "Tripel",
+                "ITEM_FLAVOR":"Scrooge",
+                "INPUT1":"id_(O)406",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"cinnamon_item",
+                "PRICE_MULTIPLIER": 3.0,
+                "PRICE_ADDER": 25,
+                "MINUTES_UNTIL_READY": 1600,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":0,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":295
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Snowman_Cream Ale",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_AleKeg",
+                "ITEM_TYPE": "Ale",
+                "ITEM_FLAVOR":"Snowman_Cream",
+                "INPUT1":"id_(O)635",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"cinnamon_item",
+                "PRICE_MULTIPLIER": 3.0,
+                "PRICE_ADDER": 25,
+                "MINUTES_UNTIL_READY": 1600,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":0,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":296
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Wednesdays_Void Lager",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_AleKeg",
+                "ITEM_TYPE": "Lager",
+                "ITEM_FLAVOR":"Wednesdays_Void",
+                "INPUT1":"id_(O)276",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O)769",
+                "PRICE_MULTIPLIER": 3.0,
+                "PRICE_ADDER": 25,
+                "MINUTES_UNTIL_READY": 1600,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":0,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":297
+            }
+        }
+
+]
+}

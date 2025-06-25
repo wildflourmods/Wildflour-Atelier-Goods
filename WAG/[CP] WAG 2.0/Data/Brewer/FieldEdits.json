@@ -1,0 +1,32 @@
+{
+  "Changes": [
+
+
+    {
+        "LogName": "WAG Brewer Fuel Edits",
+        "Action":"EditData",
+        "Target": "Data/Machines",
+        "Fields":{
+            "(BC){{ModId}}_AleKeg":{
+                "AdditionalConsumedItems":[
+                    {
+                        "ItemId":"(O)304",
+                        "RequiredCount":1,
+                        "InvalidCountMessage":"{{i18n:AtelierGoods_AleKeg_InvalidCount.message}}"
+                    }
+                ],
+            },
+                "(BC){{ModId}}_MeadKeg":{
+                "AdditionalConsumedItems":[
+                    {
+                        "ItemId":"(O)340",
+                        "RequiredCount":1,
+                        "InvalidCountMessage":"{{i18n:AtelierGoods_MeadKeg_InvalidCount.message}}"
+                    }
+                ],
+            },
+        }
+    },
+
+  ]
+}

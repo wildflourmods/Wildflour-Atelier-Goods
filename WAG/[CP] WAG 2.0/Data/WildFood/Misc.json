@@ -1,0 +1,347 @@
+{
+    "Changes": [
+
+    {
+        "LogName":"Add Wild Food Misc Objects",
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "Entries": {        
+            "{{ModId}}_Cherry_Blossoms": {
+                "Name": "{{ModId}}_Cherry_Blossoms",
+                "DisplayName": "{{i18n:AtelierGoods_Cherry_Blossoms.name}}",
+                "Description": "{{i18n:AtelierGoods_Cherry_Blossoms.description}}",
+                "Type": "Flower",
+                "Category": -80,
+                "Edibility": 0,
+                "Price": 15,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+                "ContextTags":
+                ["wildflour_forage",
+                "edible_flower_item",
+                "cherry_blossom_item",
+                "season_spring",
+                "color_light_pink"],
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 24
+        },
+            "{{ModId}}_Gentian_Root": {
+                "Name": "{{ModId}}_Gentian_Root",
+                "DisplayName": "{{i18n:AtelierGoods_Gentian_Root.name}}",
+                "Description": "{{i18n:AtelierGoods_Gentian_Root.description}}",
+                "Type": "Vegetable",          
+                "Category": -75,
+                "Edibility": 0,
+                "Price": 25,
+                "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+                "ContextTags":
+                ["wildflour_forage",
+                "gentian_root_item",
+                "herb_item",
+                "color_green"],
+
+                "Texture": "Mods/{{ModId}}/Objects",
+                "SpriteIndex": 30
+        },
+            "{{ModId}}_Cinnamon": {
+                    "Name": "{{ModId}}_Cinnamon",
+                    "DisplayName": "{{i18n:AtelierGoods_Cinnamon.name}}",
+                    "Description": "{{i18n:AtelierGoods_Cinnamon.description}}",
+                    "Type": "Fruit",          
+                    "Category": -79,
+                    "Edibility": 0,
+                    "Price": 125,
+                    "ExcludeFromShippingCollection": "{{PerfectionToggle}}",
+
+                    "ContextTags":
+                    ["wildflour_forage",
+                    "nut_item",
+                    "cinnamon_item",
+                    "spice_item",
+                    "season_winter",
+                    "color_dark_red"],
+
+                    "Texture": "Mods/{{ModId}}/Objects",
+                    "SpriteIndex": 25
+        },
+            "{{ModId}}_Honeycomb": {
+                "Name": "{{ModId}}_Honeycomb",
+                "DisplayName": "{{i18n:AtelierGoods_Honeycomb.name}}",
+                "Description": "{{i18n:AtelierGoods_Honeycomb.description}}",
+                "Type": "Greens",          
+                "Category": -81,
+                "Edibility": 0,
+                "Price": 80,
+
+                "ContextTags":
+                ["wildflour_honeybee_item",
+                "wildflour_floral_item",
+                "wildflour_boutique_item",
+                "bee_item",
+                "color_gold"],
+
+                "Texture": "Mods/Wildflour.AtelierGoods/Objects",
+                "SpriteIndex": 175
+        },
+        }
+    },
+
+    {
+        "LogName": "Misc Wild Food Rules",
+        "Action": "EditData",
+        "Target": "Data/Machines",
+        "TargetField": [ "(BC){{ModId}}_KitchenMortar", "OutputRules"],
+        "Entries": {
+            "{{ModId}}_KitchenMortar_Chicken_Woods": {
+                "Id": "{{ModId}}_KitchenMortar_Chicken_Woods",
+                "Triggers": [
+                    {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "{{ModId}}_Chicken_Woods",
+                        "RequiredCount": 1
+                    }
+                ],
+                "OutputItem": [
+                    {
+                        "Id": "Egg",
+                        "ItemId": "(O)176",
+                        "MinStack": 1,
+                        "MaxStack": 1,
+                        "StackModifiers": [
+                            {
+                                "Id": "GoodForager",
+                                "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                                "Modification": "Add",
+                                "Amount": 1
+                            },
+                            {
+                                "Id": "GreatForager",
+                                "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                                "Modification": "Add",
+                                "Amount": 2
+                            },
+                            {
+                                "Id": "GreatestForager",
+                                "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                                "Modification": "Add",
+                                "Amount": 3
+                            }
+                        ]
+                    }
+                ],
+                "MinutesUntilReady": 20
+        },
+            "{{ModId}}_KitchenMortar_Honey_Fungus": {
+                "Id": "{{ModId}}_KitchenMortar_Honey_Fungus",
+                "Triggers": [
+                    {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "{{ModId}}_Honey_Fungus",
+                        "RequiredCount": 1
+                    }
+                ],
+                "OutputItem": [
+                    {
+                        "Id": "Honey",
+                        "ItemId": "(O)340",
+                        "MinStack": 1,
+                        "MaxStack": 1,
+                        "StackModifiers": [
+                            {
+                                "Id": "GoodForager",
+                                "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                                "Modification": "Add",
+                                "Amount": 1
+                            },
+                            {
+                                "Id": "GreatForager",
+                                "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                                "Modification": "Add",
+                                "Amount": 2
+                            },
+                            {
+                                "Id": "GreatestForager",
+                                "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                                "Modification": "Add",
+                                "Amount": 3
+                            }
+                        ]
+                    }
+                ],
+                "MinutesUntilReady": 20
+        },
+            "{{ModId}}_KitchenMortar_Meringue_Mushroom": {
+                "Id": "{{ModId}}_KitchenMortar_Meringue_Mushroom",
+                "Triggers": [
+                    {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "{{ModId}}_Meringue_Mushroom",
+                        "RequiredCount": 1
+                    }
+                ],
+                "OutputItem": [
+                    {
+                        "Id": "Sugar",
+                        "ItemId": "(O)245",
+                        "MinStack": 1,
+                        "MaxStack": 1,
+                        "StackModifiers": [
+                            {
+                                "Id": "GoodForager",
+                                "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                                "Modification": "Add",
+                                "Amount": 1
+                            },
+                            {
+                                "Id": "GreatForager",
+                                "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                                "Modification": "Add",
+                                "Amount": 2
+                            },
+                            {
+                                "Id": "GreatestForager",
+                                "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                                "Modification": "Add",
+                                "Amount": 3
+                            }
+                        ]
+                    }
+                ],
+                "MinutesUntilReady": 20
+        },
+            "{{ModId}}_KitchenMortar_Milk_Mushroom": {
+                "Id": "{{ModId}}_KitchenMortar_Milk_Mushroom",
+                "Triggers": [
+                    {
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "{{ModId}}_Milk_Mushroom",
+                        "RequiredCount": 1
+                    }
+                ],
+                "OutputItem": [
+                    {
+                        "Id": "Milk",
+                        "ItemId": "(O)184",
+                        "MinStack": 1,
+                        "MaxStack": 1,
+                        "StackModifiers": [
+                            {
+                                "Id": "GoodForager",
+                                "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                                "Modification": "Add",
+                                "Amount": 1
+                            },
+                            {
+                                "Id": "GreatForager",
+                                "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                                "Modification": "Add",
+                                "Amount": 2
+                            },
+                            {
+                                "Id": "GreatestForager",
+                                "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                                "Modification": "Add",
+                                "Amount": 3
+                            }
+                        ]
+                    }
+                ],
+                "MinutesUntilReady": 20
+        },
+            "{{ModId}}_KitchenMortar_Wheatberry_Mushroom": {
+                        "Id": "{{ModId}}_KitchenMortar_Wheatberry_Mushroom",
+                        "Triggers": [
+                            {
+                                "Trigger": "ItemPlacedInMachine",
+                                "RequiredItemId": "{{ModId}}_Wheatberry_Mushroom",
+                                "RequiredCount": 1
+                            }
+                        ],
+                        "OutputItem": [
+                            {
+                                "Id": "Wheat Flour",
+                                "ItemId": "(O)246",
+                                "MinStack": 1,
+                                "MaxStack": 1,
+                                "StackModifiers": [
+                                    {
+                                        "Id": "GoodForager",
+                                        "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                                        "Modification": "Add",
+                                        "Amount": 1
+                                    },
+                                    {
+                                        "Id": "GreatForager",
+                                        "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                                        "Modification": "Add",
+                                        "Amount": 2
+                                    },
+                                    {
+                                        "Id": "GreatestForager",
+                                        "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                                        "Modification": "Add",
+                                        "Amount": 3
+                                    }
+                                ]
+                            }
+                        ],
+                        "MinutesUntilReady": 20
+        }
+        }
+    },
+
+    {
+        "LogName":"Wild Food Cinnamon from Wild Trees",
+        "Action": "EditData",
+        "Target": "Data/WildTrees",
+        "TargetField":["8","ShakeItems"],
+        "Entries": {
+            "{{ModId}}_Cinnamon": {
+                "Id": "{{ModId}}_Cinnamon",
+                "ItemId":"(O){{ModId}}_Cinnamon",
+                "Chance":"0.5",
+                "MinStack":1,
+                "MaxStack":1,
+                "Season":"winter"
+            }
+        }
+    },
+
+    {
+        "LogName": "Mushroom Log Output Wild Food",
+        "Action": "EditData",
+        "Target": "Atelier.Cauldron/MushroomLogOutputData",
+        "Entries": {
+            "{{ModId}}_Almond_Sapling": [
+                {
+                    "ItemId": "(O){{ModId}}_Honey_Fungus"
+                }
+            ],
+            "{{ModId}}_Anise_Sapling": [
+                {
+                    "ItemId": "(O){{ModId}}_Wheatberry_Mushroom"
+                }
+            ],
+            "{{ModId}}_Cacao_Sapling": [
+                {
+                    "ItemId": "(O){{ModId}}_Milk_Mushroom"
+                }
+            ],
+            "{{ModId}}_Pistachio_Sapling": [
+                {
+                    "ItemId": "(O){{ModId}}_Meringue_Mushroom"
+                }
+            ],
+            "{{ModId}}_Walnut_Sapling": [
+                {
+                    "ItemId": "(O){{ModId}}_Chicken_Woods"
+                }
+            ]
+        }
+    }
+
+
+]
+}

@@ -1,0 +1,174 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "When":{"Atelier.Cauldron/ConfigValue:DifficultyToggle":"Advanced"},
+      "Fields": {
+        //ice_cream
+        "{{ModId}}_Birdies_Banana_IceCream":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "ice_cream_item", "color_gold"]},
+        "{{ModId}}_Birthday_Blast_IceCream":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "ice_cream_item", "color_sand"]},
+        "{{ModId}}_Blackberry_Cobbler_IceCream":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "ice_cream_item", "color_purple"]},
+        "{{ModId}}_Chocolate_Lovers_IceCream":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "ice_cream_item", "color_dark_brown"]},
+        "{{ModId}}_Cookie_Monster_IceCream":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "ice_cream_item", "color_sand"]},
+        "{{ModId}}_Eggnog_Spice_IceCream":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "ice_cream_item", "color_sand"]},
+        "{{ModId}}_Gingerbread_Latte_IceCream":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "ice_cream_item", "color_copper"]},
+        "{{ModId}}_Grannys_Apple_Pie_IceCream":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "ice_cream_item", "color_sand"]},
+        "{{ModId}}_Hopeless_Romantic_IceCream":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "ice_cream_item", "color_pink"]},
+        "{{ModId}}_Horchata_IceCream":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "ice_cream_item", "color_sand"]},
+        "{{ModId}}_Key_Lime_Pie_IceCream":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "ice_cream_item", "color_lime"]},
+        "{{ModId}}_Lavender_Fields_IceCream":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "ice_cream_item", "color_purple"]},
+        "{{ModId}}_Lemon_Dream_IceCream":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "ice_cream_item", "color_gold"]},
+        "{{ModId}}_Nuts4Cherries_IceCream":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "ice_cream_item", "color_red"]},
+        "{{ModId}}_Peppermint_Bark_IceCream":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "ice_cream_item", "color_white"]},
+        "{{ModId}}_Pumpkin_Pie_IceCream":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "ice_cream_item", "color_dark_orange"]},
+        "{{ModId}}_Red_Velvet_IceCream":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "ice_cream_item", "color_red"]},
+        "{{ModId}}_Strawberry_Sunset_IceCream":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "ice_cream_item", "color_pink"]},
+        "{{ModId}}_Unicorn_IceCream":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "ice_cream_item", "color_light_cyan"]},
+        "{{ModId}}_Very_Vanilla_IceCream":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "ice_cream_item", "color_white"]},
+
+        //milkshake
+        "{{ModId}}_Birdies_Banana_Milkshake":{
+          "ContextTags":["food_sweet", "drink_item", "wildflour_item", "wildflour_frozen_item", "milkshake_item", "color_gold"]}, 
+        "{{ModId}}_Birthday_Blast_Milkshake":{
+          "ContextTags":["food_sweet", "drink_item", "wildflour_item", "wildflour_frozen_item", "milkshake_item", "color_sand"]}, 
+        "{{ModId}}_Blackberry_Cobbler_Milkshake":{
+          "ContextTags":["food_sweet", "drink_item", "wildflour_item", "wildflour_frozen_item", "milkshake_item", "color_purple"]}, 
+        "{{ModId}}_Chocolate_Lovers_Milkshake":{
+          "ContextTags":["food_sweet", "drink_item", "wildflour_item", "wildflour_frozen_item", "milkshake_item", "color_dark_brown"]}, 
+        "{{ModId}}_Cookie_Monster_Milkshake":{
+          "ContextTags":["food_sweet", "drink_item", "wildflour_item", "wildflour_frozen_item", "milkshake_item", "color_sand"]}, 
+        "{{ModId}}_Eggnog_Spice_Milkshake":{
+          "ContextTags":["food_sweet", "drink_item", "wildflour_item", "wildflour_frozen_item", "milkshake_item", "color_sand"]}, 
+        "{{ModId}}_Gingerbread_Latte_Milkshake":{
+          "ContextTags":["food_sweet", "drink_item", "wildflour_item", "wildflour_frozen_item", "milkshake_item", "color_copper"]}, 
+        "{{ModId}}_Grannys_Apple_Pie_Milkshake":{
+          "ContextTags":["food_sweet", "drink_item", "wildflour_item", "wildflour_frozen_item", "milkshake_item", "color_sand"]}, 
+        "{{ModId}}_Hopeless_Romantic_Milkshake":{
+          "ContextTags":["food_sweet", "drink_item", "wildflour_item", "wildflour_frozen_item", "milkshake_item", "color_pink"]}, 
+        "{{ModId}}_Horchata_Milkshake":{
+          "ContextTags":["food_sweet", "drink_item", "wildflour_item", "wildflour_frozen_item", "milkshake_item", "color_sand"]}, 
+        "{{ModId}}_Key_Lime_Pie_Milkshake":{
+          "ContextTags":["food_sweet", "drink_item", "wildflour_item", "wildflour_frozen_item", "milkshake_item", "color_lime"]}, 
+        "{{ModId}}_Lavender_Fields_Milkshake":{
+          "ContextTags":["food_sweet", "drink_item", "wildflour_item", "wildflour_frozen_item", "milkshake_item", "color_purple"]}, 
+        "{{ModId}}_Lemon_Dream_Milkshake":{
+          "ContextTags":["food_sweet", "drink_item", "wildflour_item", "wildflour_frozen_item", "milkshake_item", "color_gold"]}, 
+        "{{ModId}}_Nuts4Cherries_Milkshake":{
+          "ContextTags":["food_sweet", "drink_item", "wildflour_item", "wildflour_frozen_item", "milkshake_item", "color_red"]}, 
+        "{{ModId}}_Peppermint_Bark_Milkshake":{
+          "ContextTags":["food_sweet", "drink_item", "wildflour_item", "wildflour_frozen_item", "milkshake_item", "color_white"]}, 
+        "{{ModId}}_Pumpkin_Pie_Milkshake":{
+          "ContextTags":["food_sweet", "drink_item", "wildflour_item", "wildflour_frozen_item", "milkshake_item", "color_dark_orange"]}, 
+        "{{ModId}}_Red_Velvet_Milkshake":{
+          "ContextTags":["food_sweet", "drink_item", "wildflour_item", "wildflour_frozen_item", "milkshake_item", "color_red"]}, 
+        "{{ModId}}_Strawberry_Sunset_Milkshake":{
+          "ContextTags":["food_sweet", "drink_item", "wildflour_item", "wildflour_frozen_item", "milkshake_item", "color_pink"]}, 
+        "{{ModId}}_Unicorn_Milkshake":{
+          "ContextTags":["food_sweet", "drink_item", "wildflour_item", "wildflour_frozen_item", "milkshake_item", "color_light_cyan"]}, 
+        "{{ModId}}_Very_Vanilla_Milkshake":{
+          "ContextTags":["food_sweet", "drink_item", "wildflour_item", "wildflour_frozen_item", "milkshake_item", "color_white"]}, 
+
+        //ice cream sandwich
+        "{{ModId}}_Birdies_Banana_IceCream_Sandwich":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "icecream_sandwich_item", "color_gold"]}, 
+        "{{ModId}}_Birthday_Blast_IceCream_Sandwich":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "icecream_sandwich_item", "color_sand"]}, 
+        "{{ModId}}_Blackberry_Cobbler_IceCream_Sandwich":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "icecream_sandwich_item", "color_purple"]}, 
+        "{{ModId}}_Chocolate_Lovers_IceCream_Sandwich":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "icecream_sandwich_item", "color_dark_brown"]}, 
+        "{{ModId}}_Cookie_Monster_IceCream_Sandwich":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "icecream_sandwich_item", "color_sand"]}, 
+        "{{ModId}}_Eggnog_Spice_IceCream_Sandwich":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "icecream_sandwich_item", "color_sand"]}, 
+        "{{ModId}}_Gingerbread_Latte_IceCream_Sandwich":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "icecream_sandwich_item", "color_copper"]}, 
+        "{{ModId}}_Grannys_Apple_Pie_IceCream_Sandwich":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "icecream_sandwich_item", "color_sand"]}, 
+        "{{ModId}}_Hopeless_Romantic_IceCream_Sandwich":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "icecream_sandwich_item", "color_pink"]}, 
+        "{{ModId}}_Horchata_IceCream_Sandwich":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "icecream_sandwich_item", "color_sand"]}, 
+        "{{ModId}}_Key_Lime_Pie_IceCream_Sandwich":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "icecream_sandwich_item", "color_lime"]}, 
+        "{{ModId}}_Lavender_Fields_IceCream_Sandwich":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "icecream_sandwich_item", "color_purple"]}, 
+        "{{ModId}}_Lemon_Dream_IceCream_Sandwich":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "icecream_sandwich_item", "color_gold"]}, 
+        "{{ModId}}_Nuts4Cherries_IceCream_Sandwich":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "icecream_sandwich_item", "color_red"]}, 
+        "{{ModId}}_Peppermint_Bark_IceCream_Sandwich":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "icecream_sandwich_item", "color_white"]}, 
+        "{{ModId}}_Pumpkin_Pie_IceCream_Sandwich":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "icecream_sandwich_item", "color_dark_orange"]}, 
+        "{{ModId}}_Red_Velvet_IceCream_Sandwich":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "icecream_sandwich_item", "color_red"]}, 
+        "{{ModId}}_Strawberry_Sunset_IceCream_Sandwich":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "icecream_sandwich_item", "color_pink"]}, 
+        "{{ModId}}_Unicorn_IceCream_Sandwich":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "icecream_sandwich_item", "color_light_cyan"]}, 
+        "{{ModId}}_Very_Vanilla_IceCream_Sandwich":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "icecream_sandwich_item", "color_white"]}, 
+     
+        //popsicles
+        "{{ModId}}_Beekeeper_Popsicle":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "popsicle_item", "color_gold"]}, 
+        "{{ModId}}_CaPOW_Popsicle":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "popsicle_item", "color_dark_brown"]}, 
+        "{{ModId}}_Cotton_Candy_Popsicle":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "popsicle_item", "color_light_cyan"]}, 
+        "{{ModId}}_Creamsicle_Popsicle":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "popsicle_item", "color_orange"]}, 
+        "{{ModId}}_Dirty_Chai_Popsicle":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "popsicle_item", "color_sand"]}, 
+        "{{ModId}}_Firecracker_Popsicle":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "popsicle_item", "color_red"]}, 
+        "{{ModId}}_Neapolitan_Popsicle":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "popsicle_item", "color_pink"]}, 
+        "{{ModId}}_Strawberry_Margarita_Popsicle":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "popsicle_item", "color_pink"]}, 
+        "{{ModId}}_Sweet_Heat_Popsicle":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "popsicle_item", "color_orange"]}, 
+        "{{ModId}}_Very_Berry_Popsicle":{
+          "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "popsicle_item", "color_pale_violet_red"]}
+      }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "When": {"Query:('{{Atelier.Cauldron/ConfigValue:SimpleAddOn}}' ='true') OR ('{{Atelier.Cauldron/ConfigValue:DifficultyToggle}}'='Simple')":true },
+        "Fields": {
+          "{{ModId}}_Flavored_IceCream":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "ice_cream_item", "color_sand"]},
+          "{{ModId}}_Flavored_Milkshake":{
+                "ContextTags":["food_sweet", "drink_item", "wildflour_item", "wildflour_frozen_item", "milkshake_item", "color_sand"]},
+          "{{ModId}}_Flavored_Popsicle":{
+                "ContextTags":["food_sweet", "wildflour_item", "wildflour_frozen_item", "popsicle_item", "color_pale_violet_red"]}
+        }
+    },
+
+
+  ]
+}

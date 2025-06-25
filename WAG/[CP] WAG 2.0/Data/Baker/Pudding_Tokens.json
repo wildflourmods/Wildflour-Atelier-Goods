@@ -1,0 +1,154 @@
+{
+   "Changes":[
+
+        {
+            "LogName": "Bakery Object Data Tokens - Gem Pudding",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Deluxe_Dessert_Stand",
+                "ITEM_TYPE": "Pudding",
+                "ITEM_FLAVOR":"Gem",
+                "INPUT1":"id_(O)417",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O)398",
+                "PRICE_MULTIPLIER": 3.6,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 320,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "DRINKABILITY":false,
+                "EDIBILITY": 50,
+                "ITEM_SPRITE": 761
+            }
+        },
+        {
+            "LogName": "Bakery Object Data Tokens - Mystical Pudding",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Deluxe_Dessert_Stand",
+                "ITEM_TYPE": "Pudding",
+                "ITEM_FLAVOR":"Mystical",
+                "INPUT1":"id_(O)454",
+                "INPUT2":"id_(O)414",
+                "PRICE_MULTIPLIER": 3.6,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 320,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "DRINKABILITY":false,
+                "EDIBILITY": 50,
+                "ITEM_SPRITE": 762
+            }
+        },
+        {
+            "LogName": "Bakery Object Data Tokens - Cherry Blossom Pudding",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Deluxe_Dessert_Stand",
+                "ITEM_TYPE": "Pudding",
+                "ITEM_FLAVOR":"Cherry_Blossom",
+                "INPUT1":"id_(O){{ModId}}_Cherry_Blossoms",
+                "INPUT2":"id_(O)638",
+                "PRICE_MULTIPLIER": 3.6,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 320,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "DRINKABILITY":false,
+                "EDIBILITY": 50,
+                "ITEM_SPRITE": 763
+            }
+        },
+        {
+            "LogName": "Bakery Object Data Tokens - Raspberry Pudding",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Deluxe_Dessert_Stand",
+                "ITEM_TYPE": "Pudding",
+                "ITEM_FLAVOR":"Raspberry",
+                "INPUT1":"raspberry_item",
+                "INPUT2":"id_(O)400",
+                "PRICE_MULTIPLIER": 3.6,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 320,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "DRINKABILITY":false,
+                "EDIBILITY": 50,
+                "ITEM_SPRITE": 764
+            }
+        },
+        {
+            "LogName": "Bakery Object Data Tokens - Tropical Pudding",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Deluxe_Dessert_Stand",
+                "ITEM_TYPE": "Pudding",
+                "ITEM_FLAVOR":"Tropical",
+                "INPUT1":"id_(O)832",
+                "INPUT2":"id_(O)834",
+                "PRICE_MULTIPLIER": 3.6,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 320,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "DRINKABILITY":false,
+                "EDIBILITY": 50,
+                "ITEM_SPRITE": 765
+            }
+        },
+        {
+            "LogName": "Bakery Object Data Tokens - Lemon Pudding",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Deluxe_Dessert_Stand",
+                "ITEM_TYPE": "Pudding",
+                "ITEM_FLAVOR":"Lemon",
+                "INPUT1":"lemon_item",
+                "INPUT2":"lime_item",
+                "PRICE_MULTIPLIER": 3.6,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 320,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "DRINKABILITY":false,
+                "EDIBILITY": 50,
+                "ITEM_SPRITE": 751
+            }
+        },
+        {
+            "LogName": "Bakery Object Data Tokens - Vanilla Pudding",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Deluxe_Dessert_Stand",
+                "ITEM_TYPE": "Pudding",
+                "ITEM_FLAVOR":"Vanilla",
+                "INPUT1":"vanilla_item",
+                "INPUT2":"cream_item",
+                "PRICE_MULTIPLIER": 3.6,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 320,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "DRINKABILITY":false,
+                "EDIBILITY": 50,
+                "ITEM_SPRITE": 766
+            }
+        }
+
+]
+}

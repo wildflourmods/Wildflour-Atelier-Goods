@@ -1,0 +1,60 @@
+{
+    "Changes":[
+        
+        {
+            "LogName": "Guidebook",
+            "Action": "Include",
+            "FromFile": "Data/SpaceCore/Guidebook.json",
+        },
+
+        {
+            "LogName": "Baker Recipe Adjustments",
+            "Action": "Include",
+            "FromFile": "Data/SpaceCore/Baker_Recipes.json",
+            "When":{"Atelier.Cauldron/ConfigValue:Baker":true, "Atelier.Cauldron/ConfigValue:DifficultyToggle":"Hybrid"},
+        },
+
+                {
+            "LogName": "Barista Recipe Adjustments",
+            "Action": "Include",
+            "FromFile": "Data/SpaceCore/Barista_Recipes.json",
+            "When":{"Atelier.Cauldron/ConfigValue:Barista":true, "Atelier.Cauldron/ConfigValue:DifficultyToggle":"Hybrid"},
+        },
+
+        {
+            "LogName": "Candy Recipe Adjustments",
+            "Action": "Include",
+            "FromFile": "Data/SpaceCore/Candy_Recipes.json",
+            "When":{"Atelier.Cauldron/ConfigValue:Candy":true, "Atelier.Cauldron/ConfigValue:DifficultyToggle":"Hybrid"},
+        },
+
+        {
+            "LogName": "Florist Recipe Adjustments",
+            "Action": "Include",
+            "FromFile": "Data/SpaceCore/Florist_Recipes.json",
+            "When":{"Atelier.Cauldron/ConfigValue:Florist":true, "Atelier.Cauldron/ConfigValue:DifficultyToggle":"Hybrid"},
+        },
+
+        {
+            "LogName": "Frozen Recipe Adjustments",
+            "Action": "Include",
+            "FromFile": "Data/SpaceCore/Frozen_Recipes.json",
+            "When":{"Atelier.Cauldron/ConfigValue:Frozen":true, "Atelier.Cauldron/ConfigValue:DifficultyToggle":"Hybrid"},
+        },
+
+        {
+            "LogName": "Canner Recipe Adjustments",
+            "Action": "Include",
+            "FromFile": "Data/SpaceCore/Canner_Recipes.json",
+            "When":{"Query: '{{Atelier.Cauldron/ConfigValue:DifficultyToggle}}'='Hybrid' OR '{{Atelier.Cauldron/ConfigValue:Canner}}'='true'":true},
+        },
+
+        {
+            "LogName": "Pantry Recipe Adjustments",
+            "Action": "Include",
+            "FromFile": "Data/SpaceCore/Gourmand_Recipes.json",
+            "When":{"Atelier.Cauldron/ConfigValue:DifficultyToggle":"Hybrid"},
+        },
+
+    ]
+}

@@ -1,0 +1,902 @@
+{
+  "Changes": [
+
+
+  {
+    "LogName": "Adjust Hybrid Recipes with SpaceCore",
+    "Action": "EditData",
+    "Target": "spacechase0.SpaceCore/CraftingRecipeOverrides",
+    "Entries": {
+      "{{ModId}}_Butterfly_Garden_Floral_Swag": {
+        "ProductQualifiedId": "(O){{ModId}}_Butterfly_Garden_Floral_Swag",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "butterfly_garden_item",
+            "Amount": 5,
+            "OverrideText": "{{i18n: butterfly_garden.flower}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 96,
+              "Y": 16,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+
+        ]
+      },
+      "{{ModId}}_Cottage_Garden_Floral_Swag": {
+        "ProductQualifiedId": "(O){{ModId}}_Cottage_Garden_Floral_Swag",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "cottage_garden_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n: cottage_garden.flower}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 48,
+              "Y": 32,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+
+        ]
+      },
+      "{{ModId}}_Herb_Garden_Floral_Swag": {
+        "ProductQualifiedId": "(O){{ModId}}_Herb_Garden_Floral_Swag",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "herb_garden_item",
+            "Amount": 1,
+            "OverrideText": "Herb Garden Flower",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 176,
+              "Y": 32,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+
+        ]
+      },
+      "{{ModId}}_Mystic_Garden_Floral_Swag": {
+        "ProductQualifiedId": "(O){{ModId}}_Mystic_Garden_Floral_Swag",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "mystic_garden_item",
+            "Amount": 1,
+            "OverrideText": "Mystic Garden Flower",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 208,
+              "Y": 48,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+
+        ]
+      },
+      "{{ModId}}_Spring_Morning_Floral_Swag": {
+        "ProductQualifiedId": "(O){{ModId}}_Spring_Morning_Floral_Swag",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "spring_morning_item",
+            "Amount": 1,
+            "OverrideText": "Spring Morning Flower",
+            "OverrideTexturePath": "Maps/springobjects",
+            "OverrideTextureRect": {
+              "X": 240,
+              "Y": 384,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+
+        ]
+      },
+      "{{ModId}}_Summer_Afternoon_Floral_Swag": {
+        "ProductQualifiedId": "(O){{ModId}}_Summer_Afternoon_Floral_Swag",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "summer_afternoon_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n: spring_morning.flower}}",
+            "OverrideTexturePath": "Maps/springobjects",
+            "OverrideTextureRect": {
+              "X": 272,
+              "Y": 384,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+
+        ]
+      },
+      "{{ModId}}_Autumn_Evening_Floral_Swag": {
+        "ProductQualifiedId": "(O){{ModId}}_Autumn_Evening_Floral_Swag",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "autumn_evening_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n: autumn_evening.flower}}",
+            "OverrideTexturePath": "Maps/springobjects",
+            "OverrideTextureRect": {
+              "X": 304,
+              "Y": 384,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+
+        ]
+      },
+      "{{ModId}}_Winter_Twilight_Floral_Swag": {
+        "ProductQualifiedId": "(O){{ModId}}_Winter_Twilight_Floral_Swag",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "winter_twilight_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n: winter_twilight.flower}}",
+            "OverrideTexturePath": "Maps/springobjects",
+            "OverrideTextureRect": {
+              "X": 160,
+              "Y": 272,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+
+        ]
+      },
+      "{{ModId}}_Bold_Red_Floral_Swag": {
+        "ProductQualifiedId": "(O){{ModId}}_Bold_Red_Floral_Swag",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "bold_red_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n: spring_morning.flower}}",
+            "OverrideTexturePath": "Maps/springobjects",
+            "OverrideTextureRect": {
+              "X": 256,
+              "Y": 240,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+
+        ]
+      },
+      "{{ModId}}_Charming_Pink_Floral_Swag": {
+        "ProductQualifiedId": "(O){{ModId}}_Charming_Pink_Floral_Swag",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "charming_pink_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n: charming_pink.flower}}",
+            "OverrideTexturePath": "Maps/springobjects",
+            "OverrideTextureRect": {
+              "X": 288,
+              "Y": 256,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+
+        ]
+      },
+      "{{ModId}}_Cheerful_Yellow_Floral_Swag": {
+        "ProductQualifiedId": "(O){{ModId}}_Cheerful_Yellow_Floral_Swag",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "cheerful_yellow_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n: cheerful_yellow.flower}}",
+            "OverrideTexturePath": "Maps/springobjects",
+            "OverrideTextureRect": {
+              "X": 208,
+              "Y": 272,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+
+        ]
+      },
+      "{{ModId}}_Passion_Purple_Floral_Swag": {
+        "ProductQualifiedId": "(O){{ModId}}_Passion_Purple_Floral_Swag",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "passion_purple_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n: passion_purple.flower}}",
+            "OverrideTexturePath": "Maps/springobjects",
+            "OverrideTextureRect": {
+              "X": 160,
+              "Y": 272,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+
+        ]
+      },
+      "{{ModId}}_Peaceful_Blue_Floral_Swag": {
+        "ProductQualifiedId": "(O){{ModId}}_Peaceful_Blue_Floral_Swag",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "peaceful_blue_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n: peaceful_blue.flower}}",
+            "OverrideTexturePath": "Maps/springobjects",
+            "OverrideTextureRect": {
+              "X": 336,
+              "Y": 384,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+
+        ]
+      },
+      "{{ModId}}_Serene_White_Floral_Swag": {
+        "ProductQualifiedId": "(O){{ModId}}_Serene_White_Floral_Swag",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "serene_white_item",
+            "Amount": 1,
+            "OverrideText": "{{i18n: serene_white.flower}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 16,
+              "Y": 32,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+        ]
+      },
+//Bouquets
+      "{{ModId}}_Butterfly_Garden_Bouquet": {
+        "ProductQualifiedId": "(O){{ModId}}_Butterfly_Garden_Bouquet",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "butterfly_garden_item",
+            "Amount": 3,
+            "OverrideText": "{{i18n: butterfly_garden.flower}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 96,
+              "Y": 16,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)338",
+            "Amount": 1
+          },
+        ]
+      },
+      "{{ModId}}_Cottage_Garden_Bouquet": {
+        "ProductQualifiedId": "(O){{ModId}}_Cottage_Garden_Bouquet",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "cottage_garden_item",
+            "Amount": 3,
+            "OverrideText": "{{i18n: butterfly_garden.flower}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 48,
+              "Y": 32,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)338",
+            "Amount": 1
+          },
+        ]
+      },
+      "{{ModId}}_Herb_Garden_Bouquet": {
+        "ProductQualifiedId": "(O){{ModId}}_Herb_Garden_Bouquet",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "herb_garden_item",
+            "Amount": 3,
+            "OverrideText": "{{i18n: herb_garden.flower}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 176,
+              "Y": 32,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)338",
+            "Amount": 1
+          },
+        ]
+      },
+      "{{ModId}}_Mystic_Garden_Bouquet": {
+        "ProductQualifiedId": "(O){{ModId}}_Mystic_Garden_Bouquet",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "mystic_garden_item",
+            "Amount": 3,
+            "OverrideText": "{{i18n: mystic_garden.flower}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 208,
+              "Y": 48,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)338",
+            "Amount": 1
+          },
+        ]
+      },
+      "{{ModId}}_Spring_Morning_Bouquet": {
+        "ProductQualifiedId": "(O){{ModId}}_Spring_Morning_Bouquet",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "spring_morning_item",
+            "Amount": 3,
+            "OverrideText": "{{i18n: spring_morning.flower}}",
+            "OverrideTexturePath": "Maps/springobjects",
+            "OverrideTextureRect": {
+              "X": 240,
+              "Y": 384,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)338",
+            "Amount": 1
+          },
+        ]
+      },
+      "{{ModId}}_Summer_Afternoon_Bouquet": {
+        "ProductQualifiedId": "(O){{ModId}}_Summer_Afternoon_Bouquet",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "summer_afternoon_item",
+            "Amount": 3,
+            "OverrideText": "{{i18n: summer_afternoon.flower}}",
+            "OverrideTexturePath": "Maps/springobjects",
+            "OverrideTextureRect": {
+              "X": 272,
+              "Y": 384,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)338",
+            "Amount": 1
+          },
+        ]
+      },
+      "{{ModId}}_Autumn_Evening_Bouquet": {
+        "ProductQualifiedId": "(O){{ModId}}_Autumn_Evening_Bouquet",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "autumn_evening_item",
+            "Amount": 3,
+            "OverrideText": "{{i18n: autumn_evening.flower}}",
+            "OverrideTexturePath": "Maps/springobjects",
+            "OverrideTextureRect": {
+              "X": 304,
+              "Y": 384,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)338",
+            "Amount": 1
+          },
+        ]
+      },
+      "{{ModId}}_Winter_Twilight_Bouquet": {
+        "ProductQualifiedId": "(O){{ModId}}_Winter_Twilight_Bouquet",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "winter_twilight_item",
+            "Amount": 3,
+            "OverrideText": "{{i18n: winter_twilight.flower}}",
+            "OverrideTexturePath": "Maps/springobjects",
+            "OverrideTextureRect": {
+              "X": 160,
+              "Y": 272,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)338",
+            "Amount": 1
+          },
+        ]
+      },
+      "{{ModId}}_Bold_Red_Bouquet": {
+        "ProductQualifiedId": "(O){{ModId}}_Bold_Red_Bouquet",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "bold_red_item",
+            "Amount": 3,
+            "OverrideText": "{{i18n: bold_red.flower}}",
+            "OverrideTexturePath": "Maps/springobjects",
+            "OverrideTextureRect": {
+              "X": 256,
+              "Y": 240,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)338",
+            "Amount": 1
+          },
+
+        ]
+      },
+      "{{ModId}}_Charming_Pink_Bouquet": {
+        "ProductQualifiedId": "(O){{ModId}}_Charming_Pink_Bouquet",
+        "ProductAmount": 1,
+        "Ingredients": [
+
+          {
+            "Type": "ContextTag",
+            "Value": "charming_pink_item",
+            "Amount": 3,
+            "OverrideText": "{{i18n: charming_pink.flower}}",
+            "OverrideTexturePath": "Maps/springobjects",
+            "OverrideTextureRect": {
+              "X": 288,
+              "Y": 256,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)338",
+            "Amount": 1
+          },
+        ],
+      },
+      "{{ModId}}_Cheerful_Yellow_Bouquet": {
+        "ProductQualifiedId": "(O){{ModId}}_Cheerful_Yellow_Bouquet",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "cheerful_yellow_item",
+            "Amount": 3,
+            "OverrideText": "{{i18n: cheerful_yellow.flower}}",
+            "OverrideTexturePath": "Maps/springobjects",
+            "OverrideTextureRect": {
+              "X": 208,
+              "Y": 272,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)338",
+            "Amount": 1
+          },
+        ]
+      },
+      "{{ModId}}_Passion_Purple_Bouquet": {
+        "ProductQualifiedId": "(O){{ModId}}_Passion_Purple_Bouquet",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "passion_purple_item",
+            "Amount": 3,
+            "OverrideText": "{{i18n: passion_purple.flower}}",
+            "OverrideTexturePath": "Maps/springobjects",
+            "OverrideTextureRect": {
+              "X": 160,
+              "Y": 272,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)338",
+            "Amount": 1
+          },
+        ]
+      },
+      "{{ModId}}_Peaceful_Blue_Bouquet": {
+        "ProductQualifiedId": "(O){{ModId}}_Peaceful_Blue_Bouquet",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "peaceful_blue_item",
+            "Amount": 3,
+            "OverrideText": "{{i18n: peaceful_blue.flower}}",
+            "OverrideTexturePath": "Maps/springobjects",
+            "OverrideTextureRect": {
+              "X": 336,
+              "Y": 384,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)338",
+            "Amount": 1
+          },
+        ]
+      },
+      "{{ModId}}_Serene_White_Bouquet": {
+        "ProductQualifiedId": "(O){{ModId}}_Serene_White_Bouquet",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "serene_white_item",
+            "Amount": 3,
+            "OverrideText": "{{i18n: serene_white.flower}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 16,
+              "Y": 32,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+          {
+            "Type": "Item",
+            "Value": "(O)338",
+            "Amount": 1
+          },
+        ],
+      },
+      //essential oils
+       "{{ModId}}_Butterfly_Garden_Essential_Oil": {
+        "ProductQualifiedId": "(O){{ModId}}_Butterfly_Garden_Essential_Oil",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "butterfly_garden_item",
+            "Amount": 2,
+            "OverrideText": "{{i18n: butterfly_garden.flower}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 96,
+              "Y": 16,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+        ]
+      },
+      "{{ModId}}_Cottage_Garden_Essential_Oil": {
+        "ProductQualifiedId": "(O){{ModId}}_Cottage_Garden_Essential_Oil",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "cottage_garden_item",
+            "Amount": 2,
+            "OverrideText": "{{i18n: cottage_garden.flower}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 48,
+              "Y": 32,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+
+        ]
+      },
+      "{{ModId}}_Herb_Garden_Essential_Oil": {
+        "ProductQualifiedId": "(O){{ModId}}_Herb_Garden_Essential_Oil",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "herb_garden_item",
+            "Amount": 2,
+            "OverrideText": "{{i18n: herb_garden.flower}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 176,
+              "Y": 32,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+
+        ]
+      },
+      "{{ModId}}_Mystic_Garden_Essential_Oil": {
+        "ProductQualifiedId": "(O){{ModId}}_Mystic_Garden_Essential_Oil",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "mystic_garden_item",
+            "Amount": 2,
+            "OverrideText": "{{i18n: mystic_garden.flower}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 208,
+              "Y": 48,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+
+        ]
+      },
+      "{{ModId}}_Spring_Morning_Essential_Oil": {
+        "ProductQualifiedId": "(O){{ModId}}_Spring_Morning_Essential_Oil",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "spring_morning_item",
+            "Amount": 2,
+            "OverrideText": "{{i18n: spring_morning.flower}}",
+            "OverrideTexturePath": "Maps/springobjects",
+            "OverrideTextureRect": {
+              "X": 240,
+              "Y": 384,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+        ]
+      },
+      "{{ModId}}_Summer_Afternoon_Essential_Oil": {
+        "ProductQualifiedId": "(O){{ModId}}_Summer_Afternoon_Essential_Oil",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "summer_afternoon_item",
+            "Amount": 2,
+            "OverrideText": "{{i18n: summer_afternoon.flower}}",
+            "OverrideTexturePath": "Maps/springobjects",
+            "OverrideTextureRect": {
+              "X": 272,
+              "Y": 384,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+        ]
+      },
+      "{{ModId}}_Autumn_Evening_Essential_Oil": {
+        "ProductQualifiedId": "(O){{ModId}}_Autumn_Evening_Essential_Oil",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "autumn_evening_item",
+            "Amount": 2,
+            "OverrideText": "{{i18n: autumn_evening.flower}}",
+            "OverrideTexturePath": "Maps/springobjects",
+            "OverrideTextureRect": {
+              "X": 304,
+              "Y": 384,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+        ]
+      },
+      "{{ModId}}_Winter_Twilight_Essential_Oil": {
+        "ProductQualifiedId": "(O){{ModId}}_Winter_Twilight_Essential_Oil",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "winter_twilight_item",
+            "Amount": 2,
+            "OverrideText": "{{i18n: winter_twilight.flower}}",
+            "OverrideTexturePath": "Maps/springobjects",
+            "OverrideTextureRect": {
+              "X": 160,
+              "Y": 272,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+        ]
+      },
+      "{{ModId}}_Bold_Red_Essential_Oil": {
+        "ProductQualifiedId": "(O){{ModId}}_Bold_Red_Essential_Oil",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "bold_red_item",
+            "Amount": 2,
+            "OverrideText": "{{i18n: bold_red.flower}}",
+            "OverrideTexturePath": "Maps/springobjects",
+            "OverrideTextureRect": {
+              "X": 256,
+              "Y": 240,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+        ]
+      },
+      "{{ModId}}_Charming_Pink_Essential_Oil": {
+        "ProductQualifiedId": "(O){{ModId}}_Charming_Pink_Essential_Oil",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "charming_pink_item",
+            "Amount": 2,
+            "OverrideText": "{{i18n: charming_pink.flower}}",
+            "OverrideTexturePath": "Maps/springobjects",
+            "OverrideTextureRect": {
+              "X": 288,
+              "Y": 256,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+        ]
+      },
+      "{{ModId}}_Cheerful_Yellow_Essential_Oil": {
+        "ProductQualifiedId": "(O){{ModId}}_Cheerful_Yellow_Essential_Oil",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "cheerful_yellow_item",
+            "Amount": 2,
+            "OverrideText": "{{i18n: cheerful_yellow.flower}}",
+            "OverrideTexturePath": "Maps/springobjects",
+            "OverrideTextureRect": {
+              "X": 208,
+              "Y": 272,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+        ]
+      },
+      "{{ModId}}_Passion_Purple_Essential_Oil": {
+        "ProductQualifiedId": "(O){{ModId}}_Passion_Purple_Essential_Oil",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "passion_purple_item",
+            "Amount": 2,
+            "OverrideText": "{{i18n: passion_purple.flower}}",
+            "OverrideTexturePath": "Maps/springobjects",
+            "OverrideTextureRect": {
+              "X": 160,
+              "Y": 272,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+        ]
+      },
+      "{{ModId}}_Peaceful_Blue_Essential_Oil": {
+        "ProductQualifiedId": "(O){{ModId}}_Peaceful_Blue_Essential_Oil",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "peaceful_blue_item",
+            "Amount": 2,
+            "OverrideText": "{{i18n: peaceful_blue.flower}}",
+            "OverrideTexturePath": "Maps/springobjects",
+            "OverrideTextureRect": {
+              "X": 336,
+              "Y": 384,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+        ]
+      },
+      "{{ModId}}_Serene_White_Essential_Oil": {
+        "ProductQualifiedId": "(O){{ModId}}_Serene_White_Essential_Oil",
+        "ProductAmount": 1,
+        "Ingredients": [
+          {
+            "Type": "ContextTag",
+            "Value": "serene_white_item",
+            "Amount": 2,
+            "OverrideText": "{{i18n: serene_white.flower}}",
+            "OverrideTexturePath": "Mods/{{ModId}}/Objects",
+            "OverrideTextureRect": {
+              "X": 16,
+              "Y": 32,
+              "Width": 16,
+              "Height": 16
+            }
+          },
+        ]
+      },
+    }
+  },
+  
+  ]
+}

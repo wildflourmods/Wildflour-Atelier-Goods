@@ -1,0 +1,227 @@
+{
+   "Changes":[
+
+        {
+            "LogName": "Object Data Tokens - Beekeeper Popsicles",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_BlastChiller",
+                "ITEM_TYPE": "Popsicle",
+                "ITEM_FLAVOR":"Beekeeper",
+                "INPUT1":"id_(O)340",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"vanilla_item",
+                "PRICE_MULTIPLIER": 1.2,
+                "PRICE_ADDER": 60,
+                "MINUTES_UNTIL_READY": 200,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY": 45,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":517
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - CaPOW Popsicles",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_BlastChiller",
+                "ITEM_TYPE": "Popsicle",
+                "ITEM_FLAVOR":"CaPOW",
+                "INPUT1":"id_(O)433",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"cocoa_item",
+                "PRICE_MULTIPLIER": 1.2,
+                "PRICE_ADDER": 60,
+                "MINUTES_UNTIL_READY": 200,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY": 45,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE": 518
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Cotton_Candy Popsicles",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_BlastChiller",
+                "ITEM_TYPE": "Popsicle",
+                "ITEM_FLAVOR":"Cotton_Candy",
+                "INPUT1":"id_(O)398",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O)245",
+                "PRICE_MULTIPLIER": 1.2,
+                "PRICE_ADDER": 60,
+                "MINUTES_UNTIL_READY": 200,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY": 45,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE": 519
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Creamsicle Popsicles",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_BlastChiller",
+                "ITEM_TYPE": "Popsicle",
+                "ITEM_FLAVOR":"Creamsicle",
+                "INPUT1":"id_(O)635",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"vanilla_item",
+                "PRICE_MULTIPLIER": 1.2,
+                "PRICE_ADDER": 60,
+                "MINUTES_UNTIL_READY": 200,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY": 45,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE": 520
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Dirty_Chai Popsicles",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_BlastChiller",
+                "ITEM_TYPE": "Popsicle",
+                "ITEM_FLAVOR":"Dirty_Chai",
+                "INPUT1":"id_(O)253",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O)815",
+                "PRICE_MULTIPLIER": 1.2,
+                "PRICE_ADDER": 60,
+                "MINUTES_UNTIL_READY": 200,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY": 45,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":521
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Firecracker Popsicles",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_BlastChiller",
+                "ITEM_TYPE": "Popsicle",
+                "ITEM_FLAVOR":"Firecracker",
+                "INPUT1":"id_(O)258",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O)88",
+                "PRICE_MULTIPLIER": 1.2,
+                "PRICE_ADDER": 60,
+                "MINUTES_UNTIL_READY": 200,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY": 45,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE": 522
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Neapolitan Popsicles",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_BlastChiller",
+                "ITEM_TYPE": "Popsicle",
+                "ITEM_FLAVOR":"Neapolitan",
+                "INPUT1":"cocoa_item",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"vanilla_item",
+                "INPUT3":"id_(O)400",
+                "PRICE_MULTIPLIER": 1.2,
+                "PRICE_ADDER": 60,
+                "MINUTES_UNTIL_READY": 200,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY": 45,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE": 523
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Strawberry_Margarita Popsicles",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_BlastChiller",
+                "ITEM_TYPE": "Popsicle",
+                "ITEM_FLAVOR":"Strawberry_Margarita",
+                "INPUT1":"id_(O)400",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"lime_item",
+                "PRICE_MULTIPLIER": 1.2,
+                "PRICE_ADDER": 60,
+                "MINUTES_UNTIL_READY": 200,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY": 45,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE": 524
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Sweet_Heat Popsicles",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_BlastChiller",
+                "ITEM_TYPE": "Popsicle",
+                "ITEM_FLAVOR":"Sweet_Heat",
+                "INPUT1":"id_(O)834",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O)260",
+                "PRICE_MULTIPLIER": 1.2,
+                "PRICE_ADDER": 60,
+                "MINUTES_UNTIL_READY": 200,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY": 45,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE": 525
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Very_Berry Popsicles",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_BlastChiller",
+                "ITEM_TYPE": "Popsicle",
+                "ITEM_FLAVOR":"Very_Berry",
+                "INPUT1":"raspberry_item",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O)410",
+                "PRICE_MULTIPLIER": 1.2,
+                "PRICE_ADDER": 60,
+                "MINUTES_UNTIL_READY": 200,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY": 45,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE": 528
+            }
+        }
+
+]
+}

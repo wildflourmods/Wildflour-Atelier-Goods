@@ -1,0 +1,502 @@
+{
+   "Changes":[
+
+        {
+            "LogName": "Object Data Tokens - Bread Flour",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_KitchenMortar",
+                "ITEM_TYPE": "Flour",
+                "ITEM_FLAVOR":"Bread",
+                "INPUT1":"id_(O)262",
+                "INPUT1_COUNT":1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 1.2,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 20,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":35,
+                "EDIBILITY":0,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":70
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Cake Flour",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_KitchenMortar",
+                "ITEM_TYPE": "Flour",
+                "ITEM_FLAVOR":"Cake",
+                "INPUT1":"id_(O)300",
+                "INPUT1_COUNT":1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 1.2,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 20,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":180,
+                "EDIBILITY":0,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":71
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Corn Flour",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_KitchenMortar",
+                "ITEM_TYPE": "Flour",
+                "ITEM_FLAVOR":"Corn",
+                "INPUT1":"id_(O)270",
+                "INPUT1_COUNT":1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 1.2,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 20,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":60,
+                "EDIBILITY":0,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":73
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Coconut Flour",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_KitchenMortar",
+                "ITEM_TYPE": "Flour",
+                "ITEM_FLAVOR":"Coconut",
+                "INPUT1":"id_(O)88",
+                "INPUT1_COUNT":1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 1.2,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 20,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":120,
+                "EDIBILITY":0,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":72
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Rice Flour",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_KitchenMortar",
+                "ITEM_TYPE": "Flour",
+                "ITEM_FLAVOR":"Rice",
+                "INPUT1":"id_(O)271",
+                "INPUT1_COUNT":1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 1.2,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 20,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":36,
+                "EDIBILITY":0,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":75
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Rainbow Sprinkles",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_KitchenMortar",
+                "ITEM_TYPE": "Sprinkles",
+                "ITEM_FLAVOR":"Rainbow",
+                "INPUT1":"id_(O)394",
+                "INPUT1_COUNT":1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 1.2,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 20,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":360,
+                "EDIBILITY":0,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":80
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Confectioners_Sugar",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_KitchenMortar",
+                "ITEM_TYPE": "Sugar",
+                "ITEM_FLAVOR":"Confectioners",
+                "INPUT1":"id_(O)245",
+                "INPUT1_COUNT":1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 1.2,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 20,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":60,
+                "EDIBILITY":0,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":77
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Brown Sugar",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_KitchenMortar",
+                "ITEM_TYPE": "Sugar",
+                "ITEM_FLAVOR":"Brown",
+                "INPUT1":"id_(O)724",
+                "INPUT1_COUNT":1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 1.2,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 20,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":240,
+                "EDIBILITY":0,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":76
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Fruit Pectin",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_KitchenMortar",
+                "ITEM_TYPE": "Pectin",
+                "ITEM_FLAVOR":"Fruit",
+                "INPUT1":"berry_item",
+                "INPUT1_COUNT":1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 1.2,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 20,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":10,
+                "EDIBILITY":0,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":79
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Matcha Powder",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_KitchenMortar",
+                "ITEM_TYPE": "Powder",
+                "ITEM_FLAVOR":"Matcha",
+                "INPUT1":"id_(O)815",
+                "INPUT1_COUNT":1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 1.2,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 20,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":60,
+                "EDIBILITY":0,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":78
+            }
+        },
+
+        {
+            "LogName": "Object Data Tokens - Butter",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": 24,
+                "ITEM_TYPE": "Butter",
+                "ITEM_FLAVOR":"Fresh",
+                "INPUT1":"milk_item",
+                "INPUT1_COUNT":2,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 1.2,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 20,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":275,
+                "EDIBILITY":15,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":64
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Orange_Curd",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": 24,
+                "ITEM_TYPE": "Curd",
+                "ITEM_FLAVOR":"Orange",
+                "INPUT1":"id_(O)635",
+                "INPUT1_COUNT":2,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 1.2,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 20,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":0,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":99
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Apple Butter",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": 24,
+                "ITEM_TYPE": "Butter",
+                "ITEM_FLAVOR":"Apple",
+                "INPUT1":"id_(O)613",
+                "INPUT1_COUNT":2,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 1.2,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 20,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":220,
+                "EDIBILITY":0,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":95
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Honey Butter",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": 24,
+                "ITEM_TYPE": "Butter",
+                "ITEM_FLAVOR":"Honey",
+                "INPUT1":"id_(O)340",
+                "INPUT1_COUNT":2,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 1.2,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 20,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":220,
+                "EDIBILITY":0,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":96
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Maple Butter",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": 24,
+                "ITEM_TYPE": "Butter",
+                "ITEM_FLAVOR":"Maple",
+                "INPUT1":"id_(O)724",
+                "INPUT1_COUNT":2,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 1.2,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 20,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":440,
+                "EDIBILITY":0,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":97
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Pumpkin Butter",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": 24,
+                "ITEM_TYPE": "Butter",
+                "ITEM_FLAVOR":"Pumpkin",
+                "INPUT1":"id_(O)276",
+                "INPUT1_COUNT":2,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 1.2,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 20,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":704,
+                "EDIBILITY":0,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":98
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Cream Cheese",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": 16,
+                "ITEM_TYPE": "Cheese",
+                "ITEM_FLAVOR":"Cream",
+                "INPUT1":"id_(O){{ModId}}_Cream",
+                "INPUT1_COUNT":1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 1.2,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 20,
+                 "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":162,
+                "EDIBILITY":20,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":67
+            }
+        },
+
+//wild food items
+
+       {
+            "LogName": "Object Data Tokens - Almond Flour",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "When": {"Atelier.Cauldron/ConfigValue:WildFood":true},
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_KitchenMortar",
+                "ITEM_TYPE": "Flour",
+                "ITEM_FLAVOR":"Almond",
+                "INPUT1":"almond_item",
+                "INPUT1_COUNT":1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 1.2,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 20,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":138,
+                "EDIBILITY":0,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":101
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Olive Oil",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "When": {"Atelier.Cauldron/ConfigValue:WildFood":true},
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_KitchenMortar",
+                "ITEM_TYPE": "Oil",
+                "ITEM_FLAVOR":"Olive",
+                "INPUT1":"id_(O){{ModId}}_Olive",
+                "INPUT1_COUNT":1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 1.2,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 20,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":144,
+                "EDIBILITY":0,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":103
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Dark Chocolate",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "When": {"Atelier.Cauldron/ConfigValue:WildFood":true},
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_KitchenMortar",
+                "ITEM_TYPE": "Chocolate",
+                "ITEM_FLAVOR":"Dark",
+                "INPUT1":"cocoa_item",
+                "INPUT1_COUNT":1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 1.2,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 20,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":0,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":104
+            }
+        },
+     
+        {
+            "LogName": "Object Data Tokens - Lemon Curd",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "When": {"Atelier.Cauldron/ConfigValue:WildFood":true},
+            "LocalTokens": {
+                "MACHINE_TYPE": 24,
+                "ITEM_TYPE": "Curd",
+                "ITEM_FLAVOR":"Lemon",
+                "INPUT1":"lemon_item",
+                "INPUT1_COUNT":2,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 1.2,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 20,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":300,
+                "EDIBILITY":0,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":114
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Lime Curd",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "When": {"Atelier.Cauldron/ConfigValue:WildFood":true},
+            "LocalTokens": {
+                "MACHINE_TYPE": 24,
+                "ITEM_TYPE": "Curd",
+                "ITEM_FLAVOR":"Lime",
+                "INPUT1":"lime_item",
+                "INPUT1_COUNT":2,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 1.2,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 20,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":276,
+                "EDIBILITY":0,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":115
+            }
+        },
+
+ 
+
+]
+}

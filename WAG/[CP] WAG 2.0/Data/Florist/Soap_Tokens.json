@@ -1,0 +1,315 @@
+{
+   "Changes":[
+
+        {
+            "LogName": "Object Data Tokens - Butterfly_Garden Soap",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandleStation",
+                "ITEM_TYPE": "Soap",
+                "ITEM_FLAVOR":"Butterfly_Garden",
+                "INPUT1":"butterfly_garden_item",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 2.6,
+                "PRICE_ADDER": 80,
+                "MINUTES_UNTIL_READY": 240,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":480
+            }
+        },
+         {
+            "LogName": "Object Data Tokens - Cottage_Garden Soap",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandleStation",
+                "ITEM_TYPE": "Soap",
+                "ITEM_FLAVOR":"Cottage_Garden",
+                "INPUT1":"cottage_garden_item",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 2.6,
+                "PRICE_ADDER": 80,
+                "MINUTES_UNTIL_READY": 240,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":481
+            }
+        },
+         {
+            "LogName": "Object Data Tokens - Herb_Garden Soap",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandleStation",
+                "ITEM_TYPE": "Soap",
+                "ITEM_FLAVOR":"Herb_Garden",
+                "INPUT1":"herb_garden_item",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 2.6,
+                "PRICE_ADDER": 80,
+                "MINUTES_UNTIL_READY": 240,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":482
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Mystic_Garden Soap",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandleStation",
+                "ITEM_TYPE": "Soap",
+                "ITEM_FLAVOR":"Mystic_Garden",
+                "INPUT1":"mystic_garden_item",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 2.6,
+                "PRICE_ADDER": 80,
+                "MINUTES_UNTIL_READY": 240,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":483
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Spring_Morning Soap",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandleStation",
+                "ITEM_TYPE": "Soap",
+                "ITEM_FLAVOR":"Spring_Morning",
+                "INPUT1":"spring_morning_item",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 2.6,
+                "PRICE_ADDER": 80,
+                "MINUTES_UNTIL_READY": 240,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":484
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Summer_Afternoon Soap",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandleStation",
+                "ITEM_TYPE": "Soap",
+                "ITEM_FLAVOR":"Summer_Afternoon",
+                "INPUT1":"summer_afternoon_item",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 2.6,
+                "PRICE_ADDER": 80,
+                "MINUTES_UNTIL_READY": 240,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":485
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Autumn_Evening Soap",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandleStation",
+                "ITEM_TYPE": "Soap",
+                "ITEM_FLAVOR":"Autumn_Evening",
+                "INPUT1":"autumn_evening_item",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 2.6,
+                "PRICE_ADDER": 80,
+                "MINUTES_UNTIL_READY": 240,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":486
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Winter_Twilight Soap",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandleStation",
+                "ITEM_TYPE": "Soap",
+                "ITEM_FLAVOR":"Winter_Twilight",
+                "INPUT1":"winter_twilight_item",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 2.6,
+                "PRICE_ADDER": 80,
+                "MINUTES_UNTIL_READY": 240,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":487
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Bold_Red Soap",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandleStation",
+                "ITEM_TYPE": "Soap",
+                "ITEM_FLAVOR":"Bold_Red",
+                "INPUT1":"bold_red_item",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 2.6,
+                "PRICE_ADDER": 80,
+                "MINUTES_UNTIL_READY": 240,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":488
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Charming_Pink Soap",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandleStation",
+                "ITEM_TYPE": "Soap",
+                "ITEM_FLAVOR":"Charming_Pink",
+                "INPUT1":"charming_pink_item",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 2.6,
+                "PRICE_ADDER": 80,
+                "MINUTES_UNTIL_READY": 240,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":489
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Cheerful_Yellow Soap",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandleStation",
+                "ITEM_TYPE": "Soap",
+                "ITEM_FLAVOR":"Cheerful_Yellow",
+                "INPUT1":"cheerful_yellow_item",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 2.6,
+                "PRICE_ADDER": 80,
+                "MINUTES_UNTIL_READY": 240,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":490
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Passion_Purple Soap",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandleStation",
+                "ITEM_TYPE": "Soap",
+                "ITEM_FLAVOR":"Passion_Purple",
+                "INPUT1":"passion_purple_item",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 2.6,
+                "PRICE_ADDER": 80,
+                "MINUTES_UNTIL_READY": 240,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":491
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Peaceful_Blue Soap",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandleStation",
+                "ITEM_TYPE": "Soap",
+                "ITEM_FLAVOR":"Peaceful_Blue",
+                "INPUT1":"peaceful_blue_item",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 2.6,
+                "PRICE_ADDER": 80,
+                "MINUTES_UNTIL_READY": 240,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":492
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Serene_White Soap",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandleStation",
+                "ITEM_TYPE": "Soap",
+                "ITEM_FLAVOR":"Serene_White",
+                "INPUT1":"serene_white_item",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 2.6,
+                "PRICE_ADDER": 80,
+                "MINUTES_UNTIL_READY": 240,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY":-300,
+                "DRINKABILITY":false,
+                "ITEM_SPRITE":493
+            }
+        },
+
+
+]
+}

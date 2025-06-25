@@ -1,0 +1,122 @@
+
+{
+    "Changes": [
+        {
+            "LogName": "Machine Data: Tea Processor",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Machine_Data.json",
+            "When":{"Query: '{{Atelier.Cauldron/ConfigValue:DifficultyToggle}}'<>'Hybrid'":true},
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_TeaProcessor",
+                "MACHINE_SPRITE":16,
+                "INGREDIENT1":388,
+                "INGREDIENT1_AMOUNT":30,
+                "INGREDIENT2":330,
+                "INGREDIENT2_AMOUNT":5,
+                "INGREDIENT3":815,
+                "INGREDIENT3_AMOUNT":2,
+                "CCS":true
+            }
+        },
+        {
+            "LogName": "Machine Data: Tea Kettle",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Machine_Data.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_TeaKettle",
+                "MACHINE_SPRITE":56,
+                "INGREDIENT1":388,
+                "INGREDIENT1_AMOUNT":30,
+                "INGREDIENT2":382,
+                "INGREDIENT2_AMOUNT":5,
+                "INGREDIENT3":340,
+                "INGREDIENT3_AMOUNT":1,
+                "CCS":false
+            }
+        },
+        {
+            "LogName": "Machine Data: Coffee Grinder",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Machine_Data.json",
+            "When":{"Query: '{{Atelier.Cauldron/ConfigValue:DifficultyToggle}}'<>'Hybrid'":true},
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CoffeeGrinder",
+                "MACHINE_SPRITE": 40,
+                "INGREDIENT1":388,
+                "INGREDIENT1_AMOUNT":25,
+                "INGREDIENT2":378,
+                "INGREDIENT2_AMOUNT":10,
+                "INGREDIENT3":433,
+                "INGREDIENT3_AMOUNT":5,
+                "CCS":true
+            }
+        },
+        {
+            "LogName": "Machine Data: Coffee Brewer",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Machine_Data.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CoffeeBrewer",
+                "MACHINE_SPRITE":32,
+                "INGREDIENT1":388,
+                "INGREDIENT1_AMOUNT":25,
+                "INGREDIENT2":382,
+                "INGREDIENT2_AMOUNT":5,
+                "INGREDIENT3":335,
+                "INGREDIENT3_AMOUNT":1,
+                "CCS":false
+            }
+        },
+        {
+            "LogName": "Machine Data: Lemonade Stand",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Machine_Data.json",
+            "When":{"Query: '{{Atelier.Cauldron/ConfigValue:DifficultyToggle}}'<>'Hybrid'":true},
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_LemonadeStand",
+                "MACHINE_SPRITE":24,
+                "INGREDIENT1":388,
+                "INGREDIENT1_AMOUNT":50,
+                "INGREDIENT2":336,
+                "INGREDIENT2_AMOUNT":1,
+                "INGREDIENT3":84,
+                "INGREDIENT3_AMOUNT":1,
+                "CCS":true
+            }
+        },
+
+          {
+            "LogName": "Machine Data: BlastChiller",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Machine_Data.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_BlastChiller",
+                "MACHINE_SPRITE":136,
+                "INGREDIENT1":388,
+                "INGREDIENT1_AMOUNT":50,
+                "INGREDIENT2":335,
+                "INGREDIENT2_AMOUNT":2,
+                "INGREDIENT3":84,
+                "INGREDIENT3_AMOUNT":2,
+                "CCS":false
+            }
+        },
+        {
+            "LogName": "Machine Data: KitchenBlender",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Machine_Data.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_KitchenBlender",
+                "MACHINE_SPRITE":0,
+                "INGREDIENT1":335,
+                "INGREDIENT1_AMOUNT":2,
+                "INGREDIENT2":388,
+                "INGREDIENT2_AMOUNT":50,
+                "INGREDIENT3":330,
+                "INGREDIENT3_AMOUNT":10,
+                "CCS":true
+            }
+        }
+      
+    ]
+}

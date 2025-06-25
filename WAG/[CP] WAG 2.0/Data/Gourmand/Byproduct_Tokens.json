@@ -1,0 +1,132 @@
+{
+    "Changes":[
+
+        {
+           "LogName": "Byproduct Tokens: Buttermilk",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Byproducts.json",
+            "LocalTokens": {
+                "MACHINE_TYPE":"24",
+                "BYPRODUCT_ID":"ButtermilkBP",
+                "BYPRODUCT_ITEM_ID":"{{ModId}}_Buttermilk",
+                "BYPRODUCT_TYPE":"Buttermilk",
+                "PRIMARY_PRODUCT":"{{ModId}}_Fresh_Butter",
+                "ITEM_SPRITE":"65",
+                "EDIBILITY":8,
+                "DRINKABILITY":true
+            }
+        },
+        {
+           "LogName": "Byproduct Tokens: Cream",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Byproducts.json",
+            "LocalTokens": {
+                "MACHINE_TYPE":"24",
+                "BYPRODUCT_ID":"CreamBP",
+                "BYPRODUCT_ITEM_ID":"{{ModId}}_Cream",
+                "BYPRODUCT_TYPE":"Cream",
+                "PRIMARY_PRODUCT":"{{ModId}}_Fresh_Butter",
+                "ITEM_SPRITE":"66",
+                "EDIBILITY":8,
+                "DRINKABILITY":true
+            }
+        },
+        {
+           "LogName": "Byproduct Tokens: Pastry Flour",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Byproducts.json",
+            "LocalTokens": {
+                "MACHINE_TYPE":"{{ModId}}_KitchenMortar",
+                "BYPRODUCT_ID":"PastryFlourBP",
+                "BYPRODUCT_ITEM_ID":"{{ModId}}_Pastry_Flour",
+                "BYPRODUCT_TYPE":"Pastry_Flour",
+                "PRIMARY_PRODUCT":"{{ModId}}_Cake_Flour",
+                "ITEM_SPRITE":"74",
+                "EDIBILITY":8,
+                "DRINKABILITY":false
+            }
+        },
+        {
+           "LogName": "Byproduct Tokens: Coconut Milk",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Byproducts.json",
+            "LocalTokens": {
+                "MACHINE_TYPE":"{{ModId}}_KitchenMortar",
+                "BYPRODUCT_ID":"CoconutMilkBP",
+                "BYPRODUCT_ITEM_ID":"{{ModId}}_Coconut_Milk",
+                "BYPRODUCT_TYPE":"Coconut_Milk",
+                "PRIMARY_PRODUCT":"{{ModId}}_Coconut_Flour",
+                "ITEM_SPRITE":"68",
+                "EDIBILITY":8,
+                "DRINKABILITY":true
+            }
+        },
+        {
+           "LogName": "Byproduct Tokens: Rice Milk",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Byproducts.json",
+            "LocalTokens": {
+                "MACHINE_TYPE":"{{ModId}}_KitchenMortar",
+                "BYPRODUCT_ID":"RiceMilkBP",
+                "BYPRODUCT_ITEM_ID":"{{ModId}}_Rice_Milk",
+                "BYPRODUCT_TYPE":"Rice_Milk",
+                "PRIMARY_PRODUCT":"{{ModId}}_Rice_Flour",
+                "ITEM_SPRITE":"69",
+                "EDIBILITY":8,
+                "DRINKABILITY":true
+            }
+        },
+
+        {
+            "LogName": "Byproduct Tokens: Almond Milk",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Byproducts.json",
+            "When":{"Atelier.Cauldron/ConfigValue:WildFood": true},
+            "LocalTokens": {
+                "MACHINE_TYPE":"{{ModId}}_KitchenMortar",
+                "BYPRODUCT_ID":"AlmondMilkBP",
+                "BYPRODUCT_ITEM_ID":"{{ModId}}_Almond_Milk",
+                "BYPRODUCT_TYPE":"Almond_Milk",
+                "PRIMARY_PRODUCT":"{{ModId}}_Almond_Flour",
+                "ITEM_SPRITE":"100",
+                "EDIBILITY":8,
+                "DRINKABILITY":true
+            }
+        },
+
+        {
+            "LogName": "Byproduct Tokens: Milk Chocolate",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Byproducts.json",
+            "When":{"Atelier.Cauldron/ConfigValue:WildFood": true},
+            "LocalTokens": {
+                "MACHINE_TYPE":"{{ModId}}_KitchenMortar",
+                "BYPRODUCT_ID":"MilkChocolateBP",
+                "BYPRODUCT_ITEM_ID":"{{ModId}}_Milk_Chocolate",
+                "BYPRODUCT_TYPE":"Milk_Chocolate",
+                "PRIMARY_PRODUCT":"{{ModId}}_Dark_Chocolate",
+                "ITEM_SPRITE":"105",
+                "EDIBILITY":8,
+                "DRINKABILITY":false
+            }
+        },
+        {
+            "LogName": "Byproduct Tokens: White Chocolate",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Byproducts.json",
+            "When":{"Atelier.Cauldron/ConfigValue:WildFood": true},
+            "LocalTokens": {
+                "MACHINE_TYPE":"{{ModId}}_KitchenMortar",
+                "BYPRODUCT_ID":"WhiteChocolateBP",
+                "BYPRODUCT_ITEM_ID":"{{ModId}}_White_Chocolate",
+                "BYPRODUCT_TYPE":"White_Chocolate",
+                "PRIMARY_PRODUCT":"{{ModId}}_Dark_Chocolate",
+                "ITEM_SPRITE":"106",
+                "EDIBILITY":8,
+                "DRINKABILITY":false
+            }
+        }
+
+
+        ]
+    }

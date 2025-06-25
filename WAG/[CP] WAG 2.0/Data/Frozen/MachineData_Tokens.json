@@ -1,0 +1,39 @@
+
+{
+    "Changes": [
+        
+        {
+            "LogName": "Machine Data: Frozen Treat Maker",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Machine_Data.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_TreatMaker",
+                "MACHINE_SPRITE":48,
+                "INGREDIENT1":388,
+                "INGREDIENT1_AMOUNT":50,
+                "INGREDIENT2":338,
+                "INGREDIENT2_AMOUNT":2,
+                "INGREDIENT3":536,
+                "INGREDIENT3_AMOUNT":2,
+                "CCS":true
+            }
+        },
+        {
+            "LogName": "Machine Data: BlastChiller",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Machine_Data.json",
+            "When":{"Atelier.Cauldron/ConfigValue:Barista":false},
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_BlastChiller",
+                "MACHINE_SPRITE":136,
+                "INGREDIENT1":388,
+                "INGREDIENT1_AMOUNT":50,
+                "INGREDIENT2":335,
+                "INGREDIENT2_AMOUNT":2,
+                "INGREDIENT3":84,
+                "INGREDIENT3_AMOUNT":2,
+                "CCS":false
+            }
+        },
+    ]
+}

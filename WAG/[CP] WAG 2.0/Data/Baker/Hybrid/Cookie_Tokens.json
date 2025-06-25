@@ -1,0 +1,447 @@
+{
+   "Changes":[
+
+        {
+            "LogName": "Bakery Object Data Tokens - Vanilla Heart Cookies",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Oven",
+                "ITEM_TYPE": "Cookies",
+                "ITEM_FLAVOR":"Vanilla_Heart",
+                "INPUT1":"vanilla_item",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModID}}_Cookie_Mix",
+                "PRICE_MULTIPLIER": 1.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 160,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "DRINKABILITY":false,
+                "EDIBILITY": 32,
+                "ITEM_SPRITE":784
+            }
+        },
+        {
+            "LogName": "Bakery Object Data Tokens - Cherry Thumbprint Cookies",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Oven",
+                "ITEM_TYPE": "Cookies",
+                "ITEM_FLAVOR":"Cherry_Thumbprint",
+                "INPUT1":"id_(O)638",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModID}}_Cookie_Mix",
+                "PRICE_MULTIPLIER": 1.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 160,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "DRINKABILITY":false,
+                "EDIBILITY": 32,
+                "ITEM_SPRITE":785
+            }
+        },
+        {
+            "LogName": "Bakery Object Data Tokens - Cheesecake Thumbprint Cookies",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Oven",
+                "ITEM_TYPE": "Cookies",
+                "ITEM_FLAVOR":"Cheesecake_Thumbprint",
+                "INPUT1":"id_(O){{ModId}}_Cream_Cheese",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModID}}_Cookie_Mix",
+                "PRICE_MULTIPLIER": 1.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 160,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "DRINKABILITY":false,
+                "EDIBILITY": 32,
+                "ITEM_SPRITE": 786
+            }
+        },
+        {
+            "LogName": "Bakery Object Data Tokens - Assorted Cookies",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Oven",
+                "ITEM_TYPE": "Cookies",
+                "ITEM_FLAVOR":"Assorted",
+                "INPUT1":"id_(O)223",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModID}}_Cookie_Mix",
+                "PRICE_MULTIPLIER": 1.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 160,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "DRINKABILITY":false,
+                "EDIBILITY": 32,
+                "ITEM_SPRITE":787
+            }
+        },
+        {
+            "LogName": "Bakery Object Data Tokens - Magic Thumbprint Cookies",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Oven",
+                "ITEM_TYPE": "Cookies",
+                "ITEM_FLAVOR":"Magic_Thumbprint",
+                "INPUT1":"id_(O)454",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModID}}_Cookie_Mix",
+                "PRICE_MULTIPLIER": 1.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 160,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "DRINKABILITY":false,
+                "EDIBILITY": 32,
+                "ITEM_SPRITE":788
+            }
+        },
+        {
+            "LogName": "Bakery Object Data Tokens - Chocolate Thumbprint Cookies",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Oven",
+                "ITEM_TYPE": "Cookies",
+                "ITEM_FLAVOR":"Chocolate_Thumbprint",
+                "INPUT1":"id_(O){{ModID}}_Chocolate_Spread",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModID}}_Cookie_Mix",
+                "PRICE_MULTIPLIER": 1.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 160,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "DRINKABILITY":false,
+                "EDIBILITY": 32,
+                "ITEM_SPRITE": 789
+            }
+        },
+        {
+            "LogName": "Bakery Object Data Tokens - Lemon Cookies",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Oven",
+                "ITEM_TYPE": "Cookies",
+                "ITEM_FLAVOR":"Lemon",
+                "INPUT1":"id_(O){{ModId}}_Lemon_Marmalade",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModID}}_Cookie_Mix",
+                "PRICE_MULTIPLIER": 1.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 160,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "DRINKABILITY":false,
+                "EDIBILITY": 32,
+                "ITEM_SPRITE": 790
+            }
+        },
+            {
+            "LogName": "Bakery Object Data Tokens - Strawberry Heart Cookies",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Oven",
+                "ITEM_TYPE": "Cookies",
+                "ITEM_FLAVOR":"Strawberry_Heart",
+                "INPUT1":"id_(O)400",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModID}}_Cookie_Mix",
+                "PRICE_MULTIPLIER": 1.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 160,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "DRINKABILITY":false,
+                "EDIBILITY": 32,
+                "ITEM_SPRITE": 791
+            }
+        },
+            {
+            "LogName": "Bakery Object Data Tokens - Rose Cookies",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Oven",
+                "ITEM_TYPE": "Cookies",
+                "ITEM_FLAVOR":"Rose",
+                "INPUT1":"id_(O)595",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModID}}_Cookie_Mix",
+                "PRICE_MULTIPLIER": 1.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 160,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "DRINKABILITY":false,
+                "EDIBILITY": 32,
+                "ITEM_SPRITE": 792
+            }
+        },
+            {
+            "LogName": "Bakery Object Data Tokens - Honey Lavender Cookies",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Oven",
+                "ITEM_TYPE": "Cookies",
+                "ITEM_FLAVOR":"Honey_Lavender",
+                "INPUT1":"{{ModId}}_Lavender_Candy_Powder",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModID}}_Cookie_Mix",
+                "PRICE_MULTIPLIER": 1.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 160,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "DRINKABILITY":false,
+                "EDIBILITY": 32,
+                "ITEM_SPRITE": 793
+            }
+        },
+        {
+            "LogName": "Bakery Object Data Tokens - Floral Macarons",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Oven",
+                "ITEM_TYPE": "Macarons",
+                "ITEM_FLAVOR":"Floral",
+                "INPUT1":"{{ModId}}_Rose_Candy_Powder",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModID}}_Macaron_Mix",
+                "PRICE_MULTIPLIER": 1.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 160,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "DRINKABILITY":false,
+                "EDIBILITY": 44,
+                "ITEM_SPRITE":712
+            }
+        },
+        {
+            "LogName": "Bakery Object Data Tokens - Berry Macarons",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Oven",
+                "ITEM_TYPE": "Macarons",
+                "ITEM_FLAVOR":"Berry",
+                "INPUT1":"{{ModId}}_Berry_Candy_Powder",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModID}}_Macaron_Mix",
+                "PRICE_MULTIPLIER": 1.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 160,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "DRINKABILITY":false,
+                "EDIBILITY": 44,
+                "ITEM_SPRITE":713
+            }
+        },
+        {
+            "LogName": "Bakery Object Data Tokens - Cafe Macarons",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Oven",
+                "ITEM_TYPE": "Macarons",
+                "ITEM_FLAVOR":"Cafe",
+                "INPUT1":"{{ModId}}_Coffee_Candy_Powder",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModID}}_Macaron_Mix",
+                "PRICE_MULTIPLIER": 1.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 160,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "DRINKABILITY":false,
+                "EDIBILITY": 44,
+                "ITEM_SPRITE":714
+            }
+        },
+        {
+            "LogName": "Bakery Object Data Tokens - Citrus Macarons",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Oven",
+                "ITEM_TYPE": "Macarons",
+                "ITEM_FLAVOR":"Citrus",
+                "INPUT1":"{{ModId}}_Citrus_Candy_Powder",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModID}}_Macaron_Mix",
+                "PRICE_MULTIPLIER": 1.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 160,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "DRINKABILITY":false,
+                "EDIBILITY": 44,
+                "ITEM_SPRITE":716
+            }
+        },
+        {
+            "LogName": "Bakery Object Data Tokens - Chocolate Macarons",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Oven",
+                "ITEM_TYPE": "Macarons",
+                "ITEM_FLAVOR":"Chocolate",
+                "INPUT1":"id_(O){{ModId}}_Chocolate_Candy_Powder",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModID}}_Macaron_Mix",
+                "PRICE_MULTIPLIER": 1.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 160,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "DRINKABILITY":false,
+                "EDIBILITY": 44,
+                "ITEM_SPRITE": 715
+            }
+        },
+        {
+            "LogName": "Bakery Object Data Tokens - Fudgy Brownies",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Oven",
+                "ITEM_TYPE": "Brownies",
+                "ITEM_FLAVOR":"Fudgy",
+                "INPUT1":"id_(O){{ModId}}_Milk_Chocolate",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModID}}_Brownie_Mix",
+                "PRICE_MULTIPLIER": 1.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 160,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "DRINKABILITY":false,
+                "EDIBILITY": 51,
+                "ITEM_SPRITE": 731
+            }
+        },
+        {
+            "LogName": "Bakery Object Data Tokens - Mint Brownies",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Oven",
+                "ITEM_TYPE": "Brownies",
+                "ITEM_FLAVOR":"Mint",
+                "INPUT1":"mint_item",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Brownie",
+                "PRICE_MULTIPLIER": 1.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 160,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "DRINKABILITY":false,
+                "EDIBILITY": 51,
+                "ITEM_SPRITE": 732
+            }
+        },
+        {
+            "LogName": "Bakery Object Data Tokens - Coconut Brownies",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Oven",
+                "ITEM_TYPE": "Brownies",
+                "ITEM_FLAVOR":"Coconut",
+                "INPUT1":"id_(O)88",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Brownie",
+                "PRICE_MULTIPLIER": 1.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 160,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "DRINKABILITY":false,
+                "EDIBILITY": 51,
+                "ITEM_SPRITE": 733
+            }
+        },
+        {
+            "LogName": "Bakery Object Data Tokens - Red Velvet Brownies",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Oven",
+                "ITEM_TYPE": "Brownies",
+                "ITEM_FLAVOR":"Red_Velvet",
+                "INPUT1":"id_(O)284",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Brownie",
+                "PRICE_MULTIPLIER": 1.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 160,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "DRINKABILITY":false,
+                "EDIBILITY": 51,
+                "ITEM_SPRITE": 735
+            }
+        },
+
+        {
+            "LogName": "Bakery Object Data Tokens - Lemon Bars",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Oven",
+                "ITEM_TYPE": "Bars",
+                "ITEM_FLAVOR":"Lemon",
+                "INPUT1":"id_(O){{ModId}}_Lemon_Juice",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Cookie_Mix",
+                "PRICE_MULTIPLIER": 1.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 160,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "DRINKABILITY":false,
+                "EDIBILITY": 51,
+                "ITEM_SPRITE": 734
+            }
+        }
+
+]
+}

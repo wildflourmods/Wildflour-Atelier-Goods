@@ -1,0 +1,132 @@
+{
+    "Changes": [
+
+      /*  {
+            "LogName": "Giant Crop Tokens: WildFood Carrot",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/GiantCrops.json",
+            "LocalTokens": {
+                "CROP_TYPE": "Carrot",
+                "POSITION_X":"144",
+                "POSITION_Y":"0",
+                "TILE_X":"3",
+                "TILE_Y":"3"
+            }
+        },*/
+        {
+            "LogName": "Giant Crop Tokens: WildFood Chicken Woods",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/GiantCrops.json",
+            "LocalTokens": {
+                "CROP_TYPE": "{{ModId}}_Chicken_Woods",
+                "POSITION_X":"48",
+                "POSITION_Y":"64",
+                "TILE_X":"3",
+                "TILE_Y":"3"
+            }
+        },
+
+        {
+            "LogName": "Giant Crop Tokens: WildFood Honey Fungus",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/GiantCrops.json",
+            "LocalTokens": {
+                "CROP_TYPE": "{{ModId}}_Honey_Fungus",
+                "POSITION_X":"0",
+                "POSITION_Y":"64",
+                "TILE_X":"3",
+                "TILE_Y":"3"
+            }
+        },
+
+        {
+            "LogName": "Giant Crop Tokens: WildFood Lavender",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/GiantCrops.json",
+            "LocalTokens": {
+                "CROP_TYPE": "{{ModId}}_Lavender",
+                "POSITION_X":"48",
+                "POSITION_Y":"0",
+                "TILE_X":"3",
+                "TILE_Y":"3"
+            }
+        },
+  
+        {
+            "LogName": "Giant Crop Tokens: WildFood Meringue Mushroom",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/GiantCrops.json",
+            "LocalTokens": {
+                "CROP_TYPE": "{{ModId}}_Meringue_Mushroom",
+                "POSITION_X":"0",
+                "POSITION_Y":"0",
+                "TILE_X":"3",
+                "TILE_Y":"3"
+            }
+        },
+        {
+            "LogName": "Giant Crop Tokens: WildFood Milk Mushroom",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/GiantCrops.json",
+            "LocalTokens": {
+                "CROP_TYPE": "{{ModId}}_Milk_Mushroom",
+                "SEED_SPRITE":"42",
+                "POSITION_X":"96",
+                "POSITION_Y":"64",
+                "TILE_X":"3",
+                "TILE_Y":"3"
+            }
+        },
+        {
+            "LogName": "Giant Crop Tokens: WildFood Mint",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/GiantCrops.json",
+            "LocalTokens": {
+                "CROP_TYPE": "{{ModId}}_Mint",
+                "POSITION_X":"96",
+                "POSITION_Y":"0",
+                "TILE_X":"3",
+                "TILE_Y":"3"
+            }
+        },
+        {
+            "LogName": "Giant Crop Tokens: WildFood Wheatberry Mushroom",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/GiantCrops.json",
+            "LocalTokens": {
+                "CROP_TYPE": "{{ModId}}_Wheatberry_Mushroom",
+                "POSITION_X":"144",
+                "POSITION_Y":"64",
+                "TILE_X":"3",
+                "TILE_Y":"3"
+            }
+        },
+        {
+            "LogName": "Giant Crop Tokens: WildFood Wild Raspberry",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/GiantCrops.json",
+            "LocalTokens": {
+                "CROP_TYPE": "{{ModId}}_Wild_Raspberry",
+                "SEED_SPRITE":"58",
+                "POSITION_X":"192",
+                "POSITION_Y":"64",
+                "TILE_X":"3",
+                "TILE_Y":"3"
+            }
+        },
+        {
+            "LogName": "Giant Crop Tokens: WildFood Wild Strawberry",
+            "Action": "Include",
+            "FromFile": "Data/WildFood/GiantCrops.json",
+            "LocalTokens": {
+                "CROP_TYPE": "{{ModId}}_Wild_Strawberry",
+                "SEED_SPRITE":"60",
+                "POSITION_X":"192",
+                "POSITION_Y":"0",
+                "TILE_X":"3",
+                "TILE_Y":"3"
+            }
+        }
+
+]
+}

@@ -1,0 +1,97 @@
+{
+   "Changes":[
+
+       {
+            "LogName": "Florist Simple Data: CandleStation - Flower Soap",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Simple_Florist.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandleStation",
+                "ITEM_TYPE": "Soap",
+                "INPUT_TYPE":"category_flowers",
+                "PRESERVE_METHOD":"DROP_IN",
+                "PRICE_MULTIPLIER": 4.0,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 480,
+                "ITEM_SPRITE":494
+            }
+        },
+        {
+            "LogName": "Florist Simple Data: CandleStation - Flower Candles",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Simple_Florist.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_CandleStation",
+                "ITEM_TYPE": "Candles",
+                "INPUT_TYPE":"id_(O){{ModId}}_Floral_Swag",
+                "PRESERVE_METHOD":"DROP_IN_PRESERVE",
+                "PRICE_MULTIPLIER": 2.25,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 620,
+                "ITEM_SPRITE":446
+            }
+        },
+
+        {
+            "LogName": "Florist Simple Data: FragranceStation - Flower Perfume",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Simple_Florist.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_FragranceStation",
+                "ITEM_TYPE": "Perfume",
+                "INPUT_TYPE":"category_flowers",
+                "PRESERVE_METHOD":"DROP_IN",
+                "PRICE_MULTIPLIER": 3.0,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 240,
+                "ITEM_SPRITE":478
+            }
+        },
+        {
+            "LogName": "Florist Simple Data: FragranceStation - Flower Incense",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Simple_Florist.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_FragranceStation",
+                "ITEM_TYPE": "Incense",
+                "INPUT_TYPE":"id_O{{ModId}}_Floral_Swag",
+                "PRESERVE_METHOD":"DROP_IN_PRESERVE",
+                "PRICE_MULTIPLIER": 1.75,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 480,
+                "ITEM_SPRITE":462
+            }
+        },
+        {
+            "LogName": "Florist Simple Data: FlowerStation - Flower Bouquet",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Simple_Florist.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_FragranceStation",
+                "ITEM_TYPE": "Bouquet",
+                "INPUT_TYPE":"category_flowers",
+                "PRESERVE_METHOD":"DROP_IN",
+                "PRICE_MULTIPLIER": 2.0,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 480,
+                "ITEM_SPRITE":430
+            }
+        },
+        {
+            "LogName": "Florist Simple Data: Dehydrator - Floral Swag",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Simple_Florist.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_DryingStation",
+                "ITEM_TYPE": "Floral_Swag",
+                "INPUT_TYPE":"category_flowers",
+                "PRESERVE_METHOD":"DROP_IN",
+                "PRICE_MULTIPLIER": 2.75,
+                "PRICE_ADDER": 25,
+                "MINUTES_UNTIL_READY": 1000,
+                "ITEM_SPRITE":414
+            }
+        }
+
+]
+}

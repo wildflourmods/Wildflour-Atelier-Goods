@@ -1,0 +1,266 @@
+{
+    
+    "Changes":[
+
+            {
+                "LogName": "WildFood Crop Phases and Seasons",
+                "Action": "EditData",
+                "Target": "Data/Crops",
+                "Fields": {
+                    "{{ModId}}_Basil_Seeds": {
+                        "DaysInPhase": [ 2, 3, 3, 3, 3 ],
+                        "Seasons":["spring","summer"]
+                    },
+                    "{{ModId}}_Chamomile_Seeds": {
+                        "DaysInPhase": [ 1, 1, 2, 1],
+                        "Seasons":["summer"]
+                    },
+                    "{{ModId}}_Chicken_Woods_Seeds": {
+                        "DaysInPhase": [ 3, 2, 3, 3, 3 ],
+                        "Seasons":["summer"]
+                    },
+                    "{{ModId}}_Cilantro_Seeds": {
+                        "DaysInPhase": [ 2, 1, 1, 1, 2 ],
+                        "Seasons":["spring"]
+                    },
+                    "{{ModId}}_Honey_Fungus_Seeds": {
+                        "DaysInPhase": [ 4, 4, 4, 4, 5 ],
+                        "Seasons":["spring"]
+                    },
+                    "{{ModId}}_Jasmine_Seeds": {
+                        "DaysInPhase": [ 2, 3, 3, 3, 3 ],
+                        "Seasons":["summer"]
+                    },
+                    "{{ModId}}_Lavender_Seeds": {
+                        "DaysInPhase": [ 2, 3, 3, 3, 3 ],
+                        "Seasons":["spring","summer","fall"]
+                    },
+                    "{{ModId}}_Mallow_Seeds": {
+                        "DaysInPhase": [ 1, 2, 2, 2, 1 ],
+                        "Seasons":["spring","summer"]
+                    },
+                     "{{ModId}}_Meringue_Mushroom_Seeds": {
+                        "DaysInPhase": [ 4, 3, 3, 3, 3 ],
+                        "Seasons":["fall"]
+                    },
+                     "{{ModId}}_Milk_Mushroom_Seeds": {
+                        "DaysInPhase": [ 2, 3, 3, 3, 3 ],
+                        "Seasons":["summer","fall"]
+                    },
+                     "{{ModId}}_Mint_Seeds": {
+                        "DaysInPhase": [ 2, 2, 2, 3, 3 ],
+                        "Seasons":["spring","summer","fall"]
+                    },
+                     "{{ModId}}_Red_Onion_Seeds": {
+                        "DaysInPhase": [ 2, 2, 2, 1 ],
+                        "Seasons":["spring","fall"]
+                    },
+                     "{{ModId}}_Rosemary_Seeds": {
+                        "DaysInPhase": [ 2, 3, 3, 3, 3 ],
+                        "Seasons":["spring","fall"]
+                    },
+                     "{{ModId}}_Sage_Seeds": {
+                        "DaysInPhase": [ 2, 3, 2, 3, 2 ],
+                        "Seasons":["fall"]
+                    },
+                    "{{ModId}}_Thyme_Seeds": {
+                        "DaysInPhase": [ 2, 3, 3, 2, 2 ],
+                        "Seasons":["spring","summer"]
+                    },
+                    "{{ModId}}_Vanilla_Seeds": {
+                        "DaysInPhase": [ 2, 2, 2, 4, 4 ],
+                        "Seasons":["summer"]
+                    },
+                    "{{ModId}}_Wheatberry_Mushroom_Seeds": {
+                        "DaysInPhase": [ 3, 2, 3, 3, 1 ],
+                        "Seasons":["spring"]
+                    },
+                    "{{ModId}}_Wild_Raspberry_Seeds": {
+                        "DaysInPhase": [ 1, 2, 2, 2, 1 ],
+                        "Seasons":["summer"]
+                    },
+                    "{{ModId}}_Wild_Strawberry_Seeds": {
+                        "DaysInPhase": [ 1, 2, 2, 2, 1 ],
+                        "Seasons":["spring"]
+                    },
+                    "{{ModId}}_Wormwood_Seeds": {
+                        "DaysInPhase": [ 1, 2, 3, 3, 1 ],
+                        "Seasons":["summer"]
+                    },
+                    "{{ModId}}_Daisy_Seeds": {
+                        "DaysInPhase": [ 1, 1, 1, 1, 1 ],
+                        "Seasons":["fall"]
+                    },
+                     "{{ModId}}_Hibiscus_Seeds": {
+                        "DaysInPhase": [ 3, 3, 3, 3, 3 ],
+                        "Seasons":["summer","fall"]
+                    },
+                    "{{ModId}}_Lily_Seeds": {
+                        "DaysInPhase": [ 2, 2, 2, 3, 3 ],
+                        "Seasons":["summer"]
+                    },
+                    "{{ModId}}_Nasturtium_Seeds": {
+                        "DaysInPhase": [ 3, 2, 3, 3, 1 ],
+                        "Seasons":["summer","fall"]
+                    },
+                    "{{ModId}}_Peony_Seeds": {
+                        "DaysInPhase": [ 2, 3, 3, 3, 2 ],
+                        "Seasons":["spring"]
+                    },
+                    "{{ModId}}_Snapdragon_Seeds": {
+                        "DaysInPhase": [ 1, 3, 3, 3, 2 ],
+                        "Seasons":["spring","fall"]
+                    }
+
+                }
+            },
+
+            {
+                "LogName": "WildFood Fruit Tree Seasons",
+                "Action": "EditData",
+                "Target": "Data/FruitTrees",
+                "Fields": {
+                      "{{ModId}}_Pistachio_Sapling": {
+                        "Seasons":["summer"]
+                    },
+                       "{{ModId}}_Olive_Sapling": {
+                        "Seasons":["summer"]
+                    },
+                       "{{ModId}}_Cashew_Sapling": {
+                        "Seasons":["fall"]
+                    },
+                       "{{ModId}}_Walnut_Sapling": {
+                        "Seasons":["fall"]
+                    },
+                       "{{ModId}}_Lemon_Sapling": {
+                        "Seasons":["spring"]
+                    },
+                       "{{ModId}}_Lime_Sapling": {
+                        "Seasons":["spring"]
+                    },
+                       "{{ModId}}_Almond_Sapling": {
+                        "Seasons":["summer"]
+                    },
+                       "{{ModId}}_Cacao_Pod_Sapling": {
+                        "Seasons":["fall"]
+                    },
+                         "{{ModId}}_Anise_Sapling": {
+                        "Seasons":["spring"]
+                    },
+                          "{{ModId}}_Elderberries_Sapling": {
+                        "Seasons":["summer"]
+                    },
+
+                }
+            },
+            
+     /*       {
+                "LogName": "WildFood Giant Crop Seasons",
+                "Action": "EditData",
+                "Target": "Data/GiantCrops",
+                "Fields": {
+                     "Giant_{{ModId}}_Carrot": {
+                        "Seasons": [ "spring" ]
+                    },
+                       "Giant_{{ModId}}_Chicken_Woods": {
+                        "Seasons":["summer"]
+                    },
+                       "Giant_{{ModId}}_Honey_Fungus": {
+                        "Seasons":["fall"]
+                    },
+                       "Giant_{{ModId}}_Lavender": {
+                        "Seasons":["spring","summer","fall"]
+                    },
+                       "Giant_{{ModId}}_Meringue_Mushroom": {
+                        "Seasons":["fall"]
+                    },
+                       "Giant_{{ModId}}_Milk_Mushroom": {
+                        "Seasons":["summer","fall"]
+                    },
+                       "Giant_{{ModId}}_Mint": {
+                        "Seasons":["spring","summer","fall"]
+                    },
+                       "Giant_{{ModId}}_Wheatberry_Mushroom": {
+                        "Seasons":["spring"]
+                    },
+                         "Giant_{{ModId}}_Wild_Raspberry": {
+                        "Seasons":["summer"]
+                    },
+                          "Giant_{{ModId}}_Wild_Strawberry": {
+                        "Seasons":["spring"]
+                    },
+
+                }
+            },*/
+
+            {
+                "LogName": "WildFood Context Tags",
+                "Action": "EditData",
+                "Target": "Data/Objects",
+                "Fields": {
+                    "{{ModId}}_Basil":{
+                        "ContextTags":["wildflour_item", "wildflour_forage_item", "season_summer", "herb_item", "basil_item","herb_garden_item", "color_green"]}, 
+                    "{{ModId}}_Chamomile":{
+                        "ContextTags":["wildflour_item", "wildflour_forage_item", "season_spring","season_summer", "chamomile_item","butterfly_garden_item", "edible_flower_item", "color_white"]},
+                    "{{ModId}}_Chicken_Woods":{
+                        "ContextTags":["wildflour_item", "wildflour_forage_item", "season_summer", "chicken_woods_item", "edible_mushroom", "color_copper"]}, 
+                    "{{ModId}}_Cilantro":{
+                        "ContextTags":["wildflour_item", "wildflour_forage_item", "season_spring", "herb_item", "cilantro_item", "color_green"]},
+                    "{{ModId}}_Honey_Fungus":{
+                        "ContextTags":["wildflour_item", "wildflour_forage_item", "season_spring", "honey_fungus_item", "edible_mushroom", "color_tan"]}, 
+                    "{{ModId}}_Jasmine":{
+                        "ContextTags":["wildflour_item", "wildflour_forage_item", "season_summer", "jasmine_item", "edible_flower_item","serene_white_item", "color_white"]},
+                    "{{ModId}}_Lavender":{
+                        "ContextTags":["wildflour_item", "wildflour_forage_item", "season_spring","season_summer","season_fall", "lavender_item","cottage_garden_item", "edible_flower_item", "color_purple"]}, 
+                    "{{ModId}}_Mallow":{
+                        "ContextTags":["wildflour_item", "wildflour_forage_item", "season_spring","season_summer", "hibiscus_item", "mallow_item","butterfly_garden_item", "edible_flower_item", "color_pink"]},
+                    "{{ModId}}_Meringue_Mushroom":{
+                        "ContextTags":["wildflour_item", "wildflour_forage_item", "season_fall", "meringue_mushroom_item", "edible_mushroom", "color_pink"]}, 
+                    "{{ModId}}_Milk_Mushroom":{
+                        "ContextTags":["wildflour_item", "wildflour_forage_item", "season_summer", "season_fall", "milk_mushroom_item", "edible_mushroom", "color_white"]},
+                    "{{ModId}}_Mint":{
+                        "ContextTags":["wildflour_item", "wildflour_forage_item", "season_spring","season_summer", "herb_item", "mint_item","herb_garden_item", "color_green"]},
+                    "{{ModId}}_Rosemary":{
+                        "ContextTags":["wildflour_item", "wildflour_forage_item", "season_spring","season_fall", "herb_item", "rosemary_item","herb_garden_item", "color_green"]},
+                    "{{ModId}}_Sage":{
+                        "ContextTags":["wildflour_item", "wildflour_forage_item", "season_fall", "herb_item", "sage_item","herb_garden_item", "color_green"]},
+                    "{{ModId}}_Thyme":{
+                        "ContextTags":["wildflour_item", "wildflour_forage_item", "season_spring","season_summer", "herb_item", "thyme_item","herb_garden_item", "color_green"]},
+                    "{{ModId}}_Vanilla":{
+                        "ContextTags":["wildflour_item", "wildflour_forage_item", "season_summer", "vanilla_item", "edible_flower_item", "color_sand"]},
+                    "{{ModId}}_Wheatberry_Mushroom":{
+                        "ContextTags":["wildflour_item", "wildflour_forage_item", "season_spring", "wheatberry_mushroom_item", "edible_mushroom", "color_brown"]},
+                    "{{ModId}}_Wild_Raspberry":{
+                        "ContextTags":["wildflour_item", "wildflour_forage_item", "season_summer", "wild_raspberry_item", "color_dark_pink"]},
+                    "{{ModId}}_Wild_Strawberry":{
+                        "ContextTags":["wildflour_item", "wildflour_forage_item", "season_spring", "wild_strawberry_item", "color_pink"]},
+                    "{{ModId}}_Wormwood":{
+                        "ContextTags":["wildflour_item", "wildflour_forage_item", "season_summer", "herb_item", "wormwood_item", "mystic_garden_item", "color_green"]},
+
+
+                    "{{ModId}}_Almond":{
+                        "ContextTags":["wildflour_item", "wildflour_forage_item", "season_summer", "nut_item", "almond_item", "color_brown"]},
+                    "{{ModId}}_Anise":{
+                        "ContextTags":["wildflour_item", "wildflour_forage_item", "season_spring", "spice_item", "anise_item", "color_brown"]},
+                    "{{ModId}}_Cacao_Pod":{
+                        "ContextTags":["wildflour_item", "wildflour_forage_item", "season_fall", "cocoa_item", "color_dark_brown"]},
+                    "{{ModId}}_Cashew":{
+                        "ContextTags":["wildflour_item", "wildflour_forage_item", "season_fall", "nut_item", "cashew_item", "color_tan"]},
+                    "{{ModId}}_Elderberries":{
+                        "ContextTags":["wildflour_item", "wildflour_forage_item", "season_summer", "elderberries_item", "color_dark_blue"]},
+                    "{{ModId}}_Olive":{
+                        "ContextTags":["wildflour_item", "wildflour_forage_item", "season_summer", "nut_item", "olive_item", "color_green"]},
+                "{{ModId}}_Lemon":{
+                        "ContextTags":["wildflour_item", "wildflour_forage_item", "season_spring", "nut_item", "lemon_item", "color_yellow"]},
+                "{{ModId}}_Lime":{
+                        "ContextTags":["wildflour_item", "wildflour_forage_item", "season_spring", "nut_item", "lime_item", "color_lime"]},
+                "{{ModId}}_Pistachio":{
+                        "ContextTags":["wildflour_item", "wildflour_forage_item", "season_summer", "nut_item", "pistachio_item", "color_brown"]},
+                "{{ModId}}_Walnut":{
+                        "ContextTags":["wildflour_item", "wildflour_forage_item", "season_fall", "nut_item", "walnut_item", "color_brown"]}
+
+                }
+            }
+
+    ]
+}

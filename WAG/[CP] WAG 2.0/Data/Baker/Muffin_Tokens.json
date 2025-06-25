@@ -1,0 +1,226 @@
+{
+   "Changes":[
+
+        {
+            "LogName": "Bakery Object Data Tokens - Blueberry Muffins",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Oven",
+                "ITEM_TYPE": "Muffins",
+                "ITEM_FLAVOR":"Blueberry",
+                "INPUT1":"id_(O)258",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"lemon_item",
+                "PRICE_MULTIPLIER": 1.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 160,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "DRINKABILITY":false,
+                "EDIBILITY":86,
+                "ITEM_SPRITE":688
+            }
+        },
+        {
+            "LogName": "Bakery Object Data Tokens - Poppyseed Muffins",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Oven",
+                "ITEM_TYPE": "Muffins",
+                "ITEM_FLAVOR":"Poppyseed",
+                "INPUT1":"lemon_item",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O)453",
+                "PRICE_MULTIPLIER": 1.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 160,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "DRINKABILITY":false,
+                "EDIBILITY":86,
+                "ITEM_SPRITE":692
+            }
+        },
+          {
+            "LogName": "Bakery Object Data Tokens - Walnut Muffins",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Oven",
+                "ITEM_TYPE": "Muffins",
+                "ITEM_FLAVOR":"Walnut",
+                "INPUT1":"id_(O)91",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"walnut_item",
+                "PRICE_MULTIPLIER": 1.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 160,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "DRINKABILITY":false,
+                "EDIBILITY":86,
+                "ITEM_SPRITE":694
+            }
+        },
+        {
+            "LogName": "Bakery Object Data Tokens - Pistachio Muffins",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Oven",
+                "ITEM_TYPE": "Muffins",
+                "ITEM_FLAVOR":"Pistachio",
+                "INPUT1":"pistachio_item",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Dark_Chocolate",
+                "PRICE_MULTIPLIER": 1.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 160,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "DRINKABILITY":false,
+                "EDIBILITY":86,
+                "ITEM_SPRITE":695
+            }
+        },
+        {
+            "LogName": "Bakery Object Data Tokens - Coffee Cake Muffins",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Oven",
+                "ITEM_TYPE": "Muffins",
+                "ITEM_FLAVOR":"Coffee_Cake",
+                "INPUT1":"id_(O)433",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O){{ModId}}_Confectioners_Sugar",
+                "PRICE_MULTIPLIER": 1.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 160,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "DRINKABILITY":false,
+                "EDIBILITY":86,
+                "ITEM_SPRITE":696
+            }
+        },
+        {
+            "LogName": "Bakery Object Data Tokens - Chocolate Scones",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Oven",
+                "ITEM_TYPE": "Scones",
+                "ITEM_FLAVOR":"Chocolate",
+                "INPUT1":"id_(O){{ModId}}_Milk_Chocolate",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 1.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 160,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "DRINKABILITY":false,
+                "EDIBILITY":55,
+                "ITEM_SPRITE":704
+            }
+        },
+        {
+            "LogName": "Bakery Object Data Tokens - Raspberry Scones",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Oven",
+                "ITEM_TYPE": "Scones",
+                "ITEM_FLAVOR":"Raspberry",
+                "INPUT1":"raspberry_item",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"cream_item",
+                "PRICE_MULTIPLIER": 1.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 160,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "DRINKABILITY":false,
+                "EDIBILITY":55,
+                "ITEM_SPRITE":705
+            }
+        },
+        {
+            "LogName": "Bakery Object Data Tokens - Blackberry Scones",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Oven",
+                "ITEM_TYPE": "Scones",
+                "ITEM_FLAVOR":"Blackberry",
+                "INPUT1":"id_(O)410",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"lime_item",
+                "PRICE_MULTIPLIER": 1.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 160,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "DRINKABILITY":false,
+                "EDIBILITY":55,
+                "ITEM_SPRITE":707
+            }
+        },
+        {
+            "LogName": "Bakery Object Data Tokens - Cranberry Scones",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Oven",
+                "ITEM_TYPE": "Scones",
+                "ITEM_FLAVOR":"Cranberry",
+                "INPUT1":"id_(O)282",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"id_(O)635",
+                "PRICE_MULTIPLIER": 1.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 160,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "DRINKABILITY":false,
+                "EDIBILITY":55,
+                "ITEM_SPRITE":708
+            }
+        },
+        {
+            "LogName": "Bakery Object Data Tokens - Lavender Scones",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": "{{ModId}}_Oven",
+                "ITEM_TYPE": "Scones",
+                "ITEM_FLAVOR":"Lavender",
+                "INPUT1":"lavender_item",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"vanilla_item",
+                "PRICE_MULTIPLIER": 1.8,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 160,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "DRINKABILITY":false,
+                "EDIBILITY":55,
+                "ITEM_SPRITE":709
+            }
+        }
+
+]
+}

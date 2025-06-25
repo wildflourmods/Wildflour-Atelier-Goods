@@ -1,0 +1,270 @@
+{
+   "Changes":[
+
+        {
+            "LogName": "Object Data Tokens - Kombucha",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": 12,
+                "ITEM_TYPE": "Kombucha",
+                "ITEM_FLAVOR":"Alchemist_Blend",
+                "INPUT1":"Tea",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 4,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 900,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY": 14,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":209
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Blueberry Matcha Kombucha",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": 12,
+                "ITEM_TYPE": "Kombucha",
+                "ITEM_FLAVOR":"Blueberry_Matcha",
+                "INPUT1":"Tea",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 4,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 900,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY": 14,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":213
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Cherry_Blossom_Matcha Kombucha",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": 12,
+                "ITEM_TYPE": "Kombucha",
+                "ITEM_FLAVOR":"Cherry_Blossom_Matcha",
+                "INPUT1":"Tea",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 4,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 900,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY": 14,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":217
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Cookie_Jar Kombucha",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": 12,
+                "ITEM_TYPE": "Kombucha",
+                "ITEM_FLAVOR":"Cookie_Jar",
+                "INPUT1":"Tea",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 4,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 900,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY": 14,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":221
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Good_Thyme Kombucha",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": 12,
+                "ITEM_TYPE": "Kombucha",
+                "ITEM_FLAVOR":"Good_Thyme",
+                "INPUT1":"Tea",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 4,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 900,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY": 14,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":225
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Happy_Harvest Kombucha",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": 12,
+                "ITEM_TYPE": "Kombucha",
+                "ITEM_FLAVOR":"Happy_Harvest",
+                "INPUT1":"Tea",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 4,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 900,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY": 14,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":229
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - North_Pole Kombucha",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": 12,
+                "ITEM_TYPE": "Kombucha",
+                "ITEM_FLAVOR":"North_Pole",
+                "INPUT1":"Tea",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 4,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 900,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY": 14,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":233
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Pelican_Fog Kombucha",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": 12,
+                "ITEM_TYPE": "Kombucha",
+                "ITEM_FLAVOR":"Pelican_Fog",
+                "INPUT1":"Tea",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 4,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 900,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY": 14,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":237
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Plum_Chai Kombucha",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": 12,
+                "ITEM_TYPE": "Kombucha",
+                "ITEM_FLAVOR":"Plum_Chai",
+                "INPUT1":"Tea",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 4,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 900,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY": 14,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":241
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Positivitea Kombucha",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": 12,
+                "ITEM_TYPE": "Kombucha",
+                "ITEM_FLAVOR":"Positivitea",
+                "INPUT1":"Tea",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 4,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 900,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY": 14,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":245
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Sun_Room Kombucha",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": 12,
+                "ITEM_TYPE": "Kombucha",
+                "ITEM_FLAVOR":"Sun_Room",
+                "INPUT1":"Tea",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 4,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 900,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY": 14,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":249
+            }
+        },
+        {
+            "LogName": "Object Data Tokens - Sunny_Delight Kombucha",
+            "Action": "Include",
+            "FromFile": "Data/Templates/Objects.json, Data/Templates/Advanced.json",
+            "LocalTokens": {
+                "MACHINE_TYPE": 12,
+                "ITEM_TYPE": "Kombucha",
+                "ITEM_FLAVOR":"Sunny_Delight",
+                "INPUT1":"Tea",
+                "INPUT1_COUNT": 1,
+                "INPUT2":"",
+                "PRICE_MULTIPLIER": 4,
+                "PRICE_ADDER": 0,
+                "MINUTES_UNTIL_READY": 900,
+                "OBJECT_TYPE":"ArtisanGoods",
+                "OBJECT_CATEGORY":-26,
+                "OBJECT_PRICE":100,
+                "EDIBILITY": 14,
+                "DRINKABILITY":true,
+                "ITEM_SPRITE":253
+            }
+        }
+
+]
+}

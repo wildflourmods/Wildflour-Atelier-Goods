@@ -1,0 +1,293 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "When":{"Atelier.Cauldron/ConfigValue:DifficultyToggle":"Advanced"},
+      "Fields": {
+        //cakes
+        "{{ModId}}_Apple_Cake":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "cake_item", "color_red"]},
+        "{{ModId}}_Citrus_Thyme_Cake":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "cake_item", "color_gold"]},
+        "{{ModId}}_Raspberry_Chamomile_Cake":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "cake_item", "color_dark_red"]},
+        "{{ModId}}_Peach_Cake":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "cake_item", "color_pink"]},
+        "{{ModId}}_Spiced_Cake":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "cake_item", "color_salmon"]},
+        "{{ModId}}_Tropical_Floral_Cake":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "cake_item", "color_sand"]},
+        "{{ModId}}_Almond_Elderflower_Cake":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "cake_item", "color_dark_blue"]},
+        "{{ModId}}_Victoria_Sponge_Cake":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "cake_item", "color_red"]},
+        "{{ModId}}_Pink_Velvet_Cake":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "cake_item", "color_pink"]},
+        "{{ModId}}_Summer_Flower_Cake":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "cake_item", "color_orange"]},
+        "{{ModId}}_Chocolate_Mudslide_Cake":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "cake_item", "color_brown"]},
+        
+        //cupcakes
+        "{{ModId}}_Strawberry_Cupcakes":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "cupcake_item", "color_pink"]},
+        "{{ModId}}_Vanilla_Cupcakes":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "cupcake_item", "color_white"]},
+        "{{ModId}}_Chocolate_Cupcakes":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "cupcake_item", "color_brown"]},
+        "{{ModId}}_Neapolitan_Cupcakes":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "cupcake_item", "color_pink"]},      
+        "{{ModId}}_Matcha_Cupcakes":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "cupcake_item", "color_jade"]},
+        "{{ModId}}_Chocolate_Mint_Cupcakes":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "cupcake_item", "color_sea_green"]},
+        "{{ModId}}_Tropical_Cupcakes":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "cupcake_item", "color_orange"]},
+
+        //petit fours
+        "{{ModId}}_Berry_Petit_Fours":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "petit_four_item", "color_salmon"]},
+        "{{ModId}}_Pineapple_Cherry_Petit_Fours":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "petit_four_item", "color_gold"]},  
+        "{{ModId}}_Floral_Petit_Fours":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "petit_four_item", "color_purple"]},
+        "{{ModId}}_Rose_Petit_Fours":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "petit_four_item", "color_pink"]},  
+        "{{ModId}}_Blueberry_Petit_Fours":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "petit_four_item", "color_blue"]},
+        "{{ModId}}_Carrot_Petit_Fours":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "petit_four_item", "color_copper"]},  
+        "{{ModId}}_Chocolate_Strawberry_Petit_Fours":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "petit_four_item", "color_pink"]},
+        "{{ModId}}_Citrus_Petit_Fours":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "petit_four_item", "color_gold"]},  
+        "{{ModId}}_Red_Velvet_Petit_Fours":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "petit_four_item", "color_red"]},  
+        "{{ModId}}_Apple_Petit_Fours":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "petit_four_item", "color_dark_red"]},  
+
+
+        //cookies
+        "{{ModId}}_Vanilla_Heart_Cookies":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "cookie_item", "color_white"]}, 
+        "{{ModId}}_Cherry_Thumbprint_Cookies":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "cookie_item", "color_red"]}, 
+        "{{ModId}}_Cheesecake_Thumbprint_Cookies":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "cookie_item", "color_sand"]}, 
+        "{{ModId}}_Assorted_Cookies":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "cookie_item", "color_sand"]}, 
+        "{{ModId}}_Magic_Thumbprint_Cookies":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "cookie_item", "color_cyan"]}, 
+        "{{ModId}}_Chocolate_Thumbprint_Cookies":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "cookie_item", "color_brown"]}, 
+        "{{ModId}}_Lemon_Cookies":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "cookie_item", "color_gold"]}, 
+        "{{ModId}}_Strawberry_Heart_Cookies":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "cookie_item", "color_pink"]}, 
+        "{{ModId}}_Rose_Cookies":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "cookie_item", "color_pink"]}, 
+        "{{ModId}}_Honey_Lavender_Cookies":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "cookie_item", "color_purple"]}, 
+
+        //macarons
+        "{{ModId}}_Floral_Macarons":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "macaron_item", "color_purple"]}, 
+        "{{ModId}}_Berry_Macarons":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "macaron_item", "color_pink"]}, 
+        "{{ModId}}_Cafe_Macarons":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "macaron_item", "color_brown"]}, 
+        "{{ModId}}_Citrus_Macarons":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "macaron_item", "color_orange"]}, 
+        "{{ModId}}_Chocolate_Macarons":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "macaron_item", "color_brown"]}, 
+
+        //brownies
+        "{{ModId}}_Fudgy_Brownies":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "brownie_item", "color_brown"]}, 
+        "{{ModId}}_Mint_Brownies":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "brownie_item", "color_brown"]}, 
+        "{{ModId}}_Coconut_Brownies":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "brownie_item", "color_brown"]}, 
+        "{{ModId}}_Lemon_Bars":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "brownie_item", "color_gold"]}, 
+        "{{ModId}}_Red_Velvet_Brownies":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "brownie_item", "color_dark_red"]}, 
+
+        //muffins
+        "{{ModId}}_Blueberry_Muffins":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "muffin_item", "color_dark_blue"]}, 
+        "{{ModId}}_Poppyseed_Muffins":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "muffin_item", "color_gold"]}, 
+        "{{ModId}}_Walnut_Muffins":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "muffin_item", "color_dark_yellow"]}, 
+        "{{ModId}}_Pistachio_Muffins":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "muffin_item", "color_jade"]}, 
+        "{{ModId}}_Coffee_Cake_Muffins":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "muffin_item", "color_brown"]}, 
+
+        //scones
+        "{{ModId}}_Chocolate_Scones":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "scone_item", "color_dark_brown"]}, 
+        "{{ModId}}_Raspberry_Scones":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "scone_item", "color_dark_red"]}, 
+        "{{ModId}}_Blackberry_Scones":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "scone_item", "color_purple"]}, 
+        "{{ModId}}_Cranberry_Scones":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "scone_item", "color_dark_red"]}, 
+        "{{ModId}}_Lavender_Scones":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "scone_item", "color_purple"]}, 
+        
+        //bread
+        "{{ModId}}_Bread_Loaves":{
+              "ContextTags":["food_bakery","wildflour_item", "wildflour_bakery_item", "bread_item", "color_brown"]}, 
+        "{{ModId}}_Baguettes_Bread":{
+              "ContextTags":["food_bakery","wildflour_item", "wildflour_bakery_item", "bread_item", "color_brown"]}, 
+        "{{ModId}}_Pretzel_Bread":{
+              "ContextTags":["food_bakery","wildflour_item", "wildflour_bakery_item", "bread_item", "color_brown"]}, 
+        "{{ModId}}_Pretzel_Buns":{
+              "ContextTags":["food_bakery","wildflour_item", "wildflour_bakery_item", "bread_item", "color_brown"]}, 
+        "{{ModId}}_Rye_Loaves":{
+              "ContextTags":["food_bakery","wildflour_item", "wildflour_bakery_item", "bread_item", "color_brown"]}, 
+        "{{ModId}}_Sandwich_Buns":{
+              "ContextTags":["food_bakery","wildflour_item", "wildflour_bakery_item", "bread_item", "color_brown"]}, 
+        "{{ModId}}_Poppyseed_Bread":{
+              "ContextTags":["food_bakery","wildflour_item", "wildflour_bakery_item", "bread_item", "color_brown"]}, 
+        "{{ModId}}_Ciabatta_Bread":{
+              "ContextTags":["food_bakery","wildflour_item", "wildflour_bakery_item", "bread_item", "color_brown"]}, 
+        "{{ModId}}_Iced_Buns":{
+              "ContextTags":["food_bakery","wildflour_item", "wildflour_bakery_item", "bread_item", "color_brown"]}, 
+        "{{ModId}}_Classic_Doughnuts":{
+              "ContextTags":["food_bakery","wildflour_item", "wildflour_bakery_item", "bread_item", "color_brown"]}, 
+        "{{ModId}}_Country_Bread":{
+              "ContextTags":["food_bakery","wildflour_item", "wildflour_bakery_item", "bread_item", "color_brown"]}, 
+        "{{ModId}}_Olive_Loaves":{
+              "ContextTags":["food_bakery","wildflour_item", "wildflour_bakery_item", "bread_item", "color_brown"]}, 
+        "{{ModId}}_Croissants_Bread":{
+              "ContextTags":["food_bakery","wildflour_item", "wildflour_bakery_item", "bread_item", "color_brown"]}, 
+        "{{ModId}}_Sweet_Buns":{
+              "ContextTags":["food_bakery","wildflour_item", "wildflour_bakery_item", "bread_item", "color_brown"]}, 
+        "{{ModId}}_Demi_Baguette":{
+              "ContextTags":["food_bakery","wildflour_item", "wildflour_bakery_item", "bread_item", "color_brown"]}, 
+        "{{ModId}}_Brioche_Bread":{
+              "ContextTags":["food_bakery","wildflour_item", "wildflour_bakery_item", "bread_item", "color_brown"]}, 
+        "{{ModId}}_Sourdough_Bread":{
+              "ContextTags":["food_bakery","wildflour_item", "wildflour_bakery_item", "bread_item", "color_brown"]}, 
+        "{{ModId}}_Herb_Focaccia":{
+              "ContextTags":["food_bakery","wildflour_item", "wildflour_bakery_item", "bread_item", "color_brown"]}, 
+        "{{ModId}}_Tomato_Basil_Focaccia":{
+              "ContextTags":["food_bakery","wildflour_item", "wildflour_bakery_item", "bread_item", "color_brown"]}, 
+        "{{ModId}}_Pumpernickel_Bread":{
+              "ContextTags":["food_bakery","wildflour_item", "wildflour_bakery_item", "bread_item", "color_brown"]}, 
+        "{{ModId}}_Cinnamon_Rolls":{
+              "ContextTags":["food_bakery","wildflour_item", "wildflour_bakery_item", "bread_item", "color_brown"]}, 
+        "{{ModId}}_Pain_Au_Chocolat":{
+              "ContextTags":["food_bakery","wildflour_item", "wildflour_bakery_item", "bread_item", "color_brown"]}, 
+
+        //doughnuts
+        "{{ModId}}_Strawberry_Doughnuts":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "doughnut_item", "color_pink"]}, 
+        "{{ModId}}_Matcha_Doughnuts":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "doughnut_item", "color_jade"]}, 
+        "{{ModId}}_Cinnamon_Spice_Doughnuts":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "doughnut_item", "color_brown"]}, 
+        "{{ModId}}_Lavender_Doughnuts":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "doughnut_item", "color_purple"]}, 
+        "{{ModId}}_Apple_Doughnuts":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "doughnut_item", "color_red"]}, 
+        "{{ModId}}_Lemon_Doughnuts":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "doughnut_item", "color_gold"]}, 
+
+        //eclairs
+        "{{ModId}}_Vanilla_Eclairs":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "eclair_item", "color_white"]}, 
+        "{{ModId}}_Raspberry_Eclairs":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "eclair_item", "color_salmon"]}, 
+        "{{ModId}}_Pistachio_Eclairs":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "eclair_item", "color_jade"]}, 
+        "{{ModId}}_Blueberry_Eclairs":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "eclair_item", "color_blue"]}, 
+        "{{ModId}}_Mocha_Eclairs":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "eclair_item", "color_brown"]}, 
+        "{{ModId}}_Citrus_Eclairs":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "eclair_item", "color_orange"]}, 
+
+        //pies
+        "{{ModId}}_Brown_Sugar_Pie":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "pie_item", "color_brown"]}, 
+        "{{ModId}}_Cherry_Pie":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "pie_item", "color_dark_red"]}, 
+        "{{ModId}}_Elderberry_Pie":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "pie_item", "color_dark_blue"]}, 
+        "{{ModId}}_Apple_Pie":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "pie_item", "color_red"]}, 
+        "{{ModId}}_Pumpkin_Spice_Pie":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "pie_item", "color_copper"]}, 
+        "{{ModId}}_Lemon_Meringue_Pie":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "pie_item", "color_gold"]}, 
+        "{{ModId}}_Key_Lime_Pie":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "pie_item", "color_lime"]}, 
+        "{{ModId}}_Coconut_Cream_Pie":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "pie_item", "color_white"]}, 
+        "{{ModId}}_Peach_Pie":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "pie_item", "color_salmon"]}, 
+
+        //tarts
+        "{{ModId}}_Blueberry_Tart":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "tart_item", "color_dark_blue"]}, 
+        "{{ModId}}_Chocolate_Hazelnut_Tart":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "tart_item", "color_brown"]}, 
+        "{{ModId}}_Orange_Dandelion_Tart":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "tart_item", "color_orange"]}, 
+        "{{ModId}}_Raspberry_Pistachio_Tart":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "tart_item", "color_salmon"]}, 
+        "{{ModId}}_Starfruit_Tart":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "tart_item", "color_gold"]}, 
+        "{{ModId}}_Mojito_Tart":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "tart_item", "color_lime"]}, 
+        "{{ModId}}_Mango_Pineapple_Tart":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "tart_item", "color_orange"]}, 
+
+        //puddings
+        "{{ModId}}_Gem_Pudding":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "pudding_item", "color_salmon"]}, 
+        "{{ModId}}_Mystical_Pudding":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "pudding_item", "color_blue"]}, 
+        "{{ModId}}_Cherry_Blossom_Pudding":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "pudding_item", "color_pink"]}, 
+        "{{ModId}}_Raspberry_Pudding":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "pudding_item", "color_dark_red"]}, 
+        "{{ModId}}_Tropical_Pudding":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "pudding_item", "color_orange"]}, 
+        "{{ModId}}_Vanilla_Pudding":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "pudding_item", "color_white"]}, 
+        "{{ModId}}_Lemon_Pudding":{
+              "ContextTags":["food_bakery", "food_sweet", "wildflour_item", "wildflour_bakery_item", "pudding_item", "color_yellow"]}
+
+      }
+    },
+
+     {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "When": {"Query:('{{Atelier.Cauldron/ConfigValue:SimpleAddOn}}' ='true') OR ('{{Atelier.Cauldron/ConfigValue:DifficultyToggle}}'='Simple')":true },
+      "Fields": {
+        "{{ModId}}_Flavored_Cake":{
+              "ContextTags":["bakery_item","food_sweet","wildflour_item", "wildflour_bakery_item", "cake_item", "color_sand"]},
+        "{{ModId}}_Flavored_Cupcakes":{
+              "ContextTags":["bakery_item","food_sweet","wildflour_item", "wildflour_bakery_item", "cupcake_item", "color_sand"]},
+        "{{ModId}}_Flavored_Cookies":{
+              "ContextTags":["bakery_item","food_sweet","wildflour_item", "wildflour_bakery_item", "cookie_item", "color_sand"]},
+        "{{ModId}}_Flavored_Tart":{
+              "ContextTags":["bakery_item","food_sweet","wildflour_item", "wildflour_bakery_item", "tart_item", "color_sand"]}, 
+        "{{ModId}}_Flavored_Doughnuts":{
+              "ContextTags":["bakery_item","food_sweet","wildflour_item", "wildflour_bakery_item", "doughnut_item", "color_brown"]}, 
+        "{{ModId}}_Flavored_Pudding":{
+              "ContextTags":["bakery_item","food_sweet","wildflour_item", "wildflour_bakery_item", "pudding_item", "color_pink"]}, 
+         "{{ModId}}_Flavored_Muffins":{
+              "ContextTags":["bakery_item","food_sweet","wildflour_item", "wildflour_bakery_item", "muffin_item", "color_brown"]}
+      }
+    },
+
+  ]
+}

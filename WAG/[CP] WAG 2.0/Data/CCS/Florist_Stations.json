@@ -1,0 +1,160 @@
+{
+  "Changes": [
+
+    {
+      "Action": "EditData",
+      "Target": "Data/BigCraftables",
+      "TargetField": ["{{ModId}}_FlowerStation","CustomFields"],
+      "Entries": {
+        "leclair.bettercrafting_PerformAction": "leclair.bettercrafting_OpenMenu FALSE FALSE {{ModId}}_FlowerStation"
+      }
+    },
+
+   {
+    "Action": "EditData",
+    "Target": "Data/BigCraftables",
+    "TargetField": ["{{ModId}}_DryingStation","CustomFields"],
+    "Entries": {
+      "leclair.bettercrafting_PerformAction": "leclair.bettercrafting_OpenMenu FALSE FALSE {{ModId}}_DryingStation"
+    }
+  },
+
+{
+    "LogName": "CCS Structure and Categories",
+    "Action":"EditData",
+    "Target": "Mods/leclair.bettercrafting/CraftingStations",
+    "Entries": {
+         "{{ModId}}_FlowerStation": {
+              "Id": "{{ModId}}_FlowerStation",
+              "IsCooking": false,
+              "AreRecipesExclusive": true,
+              "Recipes": [
+                    "{{ModId}}_Butterfly_Garden_Bouquet",
+                    "{{ModId}}_Cottage_Garden_Bouquet",
+                    "{{ModId}}_Herb_Garden_Bouquet",
+                    "{{ModId}}_Mystic_Garden_Bouquet",
+                    "{{ModId}}_Spring_Morning_Bouquet",
+                    "{{ModId}}_Summer_Afternoon_Bouquet",
+                    "{{ModId}}_Autumn_Evening_Bouquet",
+                    "{{ModId}}_Winter_Twilight_Bouquet",
+                    "{{ModId}}_Bold_Red_Bouquet",
+                    "{{ModId}}_Charming_Pink_Bouquet",
+                    "{{ModId}}_Cheerful_Yellow_Bouquet",
+                    "{{ModId}}_Passion_Purple_Bouquet",
+                    "{{ModId}}_Peaceful_Blue_Bouquet",
+                    "{{ModId}}_Serene_White_Bouquet",
+
+                    "{{ModId}}_Butterfly_Garden_Essential_Oil",
+                    "{{ModId}}_Cottage_Garden_Essential_Oil",
+                    "{{ModId}}_Herb_Garden_Essential_Oil",
+                    "{{ModId}}_Mystic_Garden_Essential_Oil",
+                    "{{ModId}}_Spring_Morning_Essential_Oil",
+                    "{{ModId}}_Summer_Afternoon_Essential_Oil",
+                    "{{ModId}}_Autumn_Evening_Essential_Oil",
+                    "{{ModId}}_Winter_Twilight_Essential_Oil",
+                    "{{ModId}}_Bold_Red_Essential_Oil",
+                    "{{ModId}}_Charming_Pink_Essential_Oil",
+                    "{{ModId}}_Cheerful_Yellow_Essential_Oil",
+                    "{{ModId}}_Passion_Purple_Essential_Oil",
+                    "{{ModId}}_Peaceful_Blue_Essential_Oil",
+                    "{{ModId}}_Serene_White_Essential_Oil",
+                    "{{ModId}}_Candle_Wax_Base",
+                    "{{ModId}}_Soap_Base",
+                ],
+              "Categories":[
+                    {
+                    "Id": "WAG_Bouquets",
+                    "Name": "{{i18n:Bouquets_CCS.category}}",
+                    "Icon": 
+                      { 
+                        "Type": "Item",
+                        "ItemId": "Wildflour.AtelierGoods_Butterfly_Garden_Bouquet"
+                      },
+                    "Recipes":
+                      [
+                        "{{ModId}}_Butterfly_Garden_Bouquet",
+                        "{{ModId}}_Cottage_Garden_Bouquet",
+                        "{{ModId}}_Herb_Garden_Bouquet",
+                        "{{ModId}}_Mystic_Garden_Bouquet",
+                        "{{ModId}}_Spring_Morning_Bouquet",
+                        "{{ModId}}_Summer_Afternoon_Bouquet",
+                        "{{ModId}}_Autumn_Evening_Bouquet",
+                        "{{ModId}}_Winter_Twilight_Bouquet",
+                        "{{ModId}}_Bold_Red_Bouquet",
+                        "{{ModId}}_Charming_Pink_Bouquet",
+                        "{{ModId}}_Cheerful_Yellow_Bouquet",
+                        "{{ModId}}_Passion_Purple_Bouquet",
+                        "{{ModId}}_Peaceful_Blue_Bouquet",
+                        "{{ModId}}_Serene_White_Bouquet"
+                      ]
+                    },
+                    {
+                      "Id": "WAG_EssentialOils",
+                      "Name": "{{i18n:EssentialOils_CCS.category}}",
+                      "Icon": 
+                        { 
+                          "Type": "Item",
+                          "ItemId": "Wildflour.AtelierGoods_Butterfly_Garden_Essential_Oil"
+                        },
+                      "Recipes":
+                        [
+                          "{{ModId}}_Butterfly_Garden_Essential_Oil",
+                          "{{ModId}}_Cottage_Garden_Essential_Oil",
+                          "{{ModId}}_Herb_Garden_Essential_Oil",
+                          "{{ModId}}_Mystic_Garden_Essential_Oil",
+                          "{{ModId}}_Spring_Morning_Essential_Oil",
+                          "{{ModId}}_Summer_Afternoon_Essential_Oil",
+                          "{{ModId}}_Autumn_Evening_Essential_Oil",
+                          "{{ModId}}_Winter_Twilight_Essential_Oil",
+                          "{{ModId}}_Bold_Red_Essential_Oil",
+                          "{{ModId}}_Charming_Pink_Essential_Oil",
+                          "{{ModId}}_Cheerful_Yellow_Essential_Oil",
+                          "{{ModId}}_Passion_Purple_Essential_Oil",
+                          "{{ModId}}_Peaceful_Blue_Essential_Oil",
+                          "{{ModId}}_Serene_White_Essential_Oil"
+                        ]
+                    },
+                     {
+                      "Id": "WAG_Bases",
+                      "Name": "{{i18n:Bases_CCS.category}}",
+                      "Icon": 
+                        { 
+                          "Type": "Item",
+                          "ItemId": "Wildflour.AtelierGoods_Soap_Base"
+                        },
+                      "Recipes":
+                        [
+                          "{{ModId}}_Candle_Wax_Base",
+                          "{{ModId}}_Soap_Base",
+                        ]
+                    },
+                  ]
+          },
+          "{{ModId}}_DryingStation": {
+              "Id": "{{ModId}}_DryingStation",
+              "IsCooking": false,
+              "AreRecipesExclusive": true,
+              "Recipes": [
+                    "{{ModId}}_Butterfly_Garden_Floral_Swag",
+                    "{{ModId}}_Cottage_Garden_Floral_Swag",
+                    "{{ModId}}_Herb_Garden_Floral_Swag",
+                    "{{ModId}}_Mystic_Garden_Floral_Swag",
+                    "{{ModId}}_Spring_Morning_Floral_Swag",
+                    "{{ModId}}_Summer_Afternoon_Floral_Swag",
+                    "{{ModId}}_Autumn_Evening_Floral_Swag",
+                    "{{ModId}}_Winter_Twilight_Floral_Swag",
+                    "{{ModId}}_Bold_Red_Floral_Swag",
+                    "{{ModId}}_Charming_Pink_Floral_Swag",
+                    "{{ModId}}_Cheerful_Yellow_Floral_Swag",
+                    "{{ModId}}_Passion_Purple_Floral_Swag",
+                    "{{ModId}}_Peaceful_Blue_Floral_Swag",
+                    "{{ModId}}_Serene_White_Floral_Swag",
+
+                ],
+          },
+
+    }
+}
+
+  ]
+}
